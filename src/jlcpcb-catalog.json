@@ -1,1 +1,520 @@
-{"components":{"C_PD":"C15849","C_MCU":"C14663","C_LOGIC":"C98192","C_LDO_OUT":"C98192","C_CP":"C14663","C_VCP":"C14663","C_DRV_LOGIC":"C14663","J_PD":"C165948","J_DATA":"C165948","R_USB_BOOT":"C25900"},"parts":{"C14663":{"manufacturerPartNumber":"CC0603KRX7R9BB104","supplierPartNumbers":{"jlcpcb":["C14663"]},"cadModel":{"objUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/CC0603KRX7R9BB104/CC0603KRX7R9BB104.obj","pcbRotationOffset":0.0,"modelOriginPosition":{"x":0.0,"y":0.0,"z":-0.4},"modelBoardNormalDirection":"z+","size":{"x":1.6,"y":0.8,"z":0.8},"stepUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/CC0603KRX7R9BB104/CC0603KRX7R9BB104.step"},"modelFiles":["imports/CC0603KRX7R9BB104/CC0603KRX7R9BB104.obj","imports/CC0603KRX7R9BB104/CC0603KRX7R9BB104.step"],"sha256":{"obj":"3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2","step":"5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110"},"provenance":"Cached tsci JLCPCB --download supplier import; exact source retained in imports/CC0603KRX7R9BB104","supplierPackage":"0603"},"C15849":{"manufacturerPartNumber":"CL10A105KB8NNNC","supplierPartNumbers":{"jlcpcb":["C15849"]},"cadModel":{"objUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/CL10A105KB8NNNC/CL10A105KB8NNNC.obj","pcbRotationOffset":0.0,"modelOriginPosition":{"x":0.0,"y":0.0,"z":-0.4},"modelBoardNormalDirection":"z+","size":{"x":1.6,"y":0.8,"z":0.8},"stepUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/CL10A105KB8NNNC/CL10A105KB8NNNC.step"},"modelFiles":["imports/CL10A105KB8NNNC/CL10A105KB8NNNC.obj","imports/CL10A105KB8NNNC/CL10A105KB8NNNC.step"],"sha256":{"obj":"3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2","step":"5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110"},"provenance":"Cached tsci JLCPCB --download supplier import; exact source retained in imports/CL10A105KB8NNNC","supplierPackage":"0603"},"C98192":{"manufacturerPartNumber":"CL21A475KBQNNNE","supplierPartNumbers":{"jlcpcb":["C98192"]},"cadModel":{"objUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/CL21A475KBQNNNE/CL21A475KBQNNNE.obj","pcbRotationOffset":0.0,"modelOriginPosition":{"x":0.0,"y":-1.2700000070253736e-05,"z":-0.65},"modelBoardNormalDirection":"z+","size":{"x":2.0,"y":1.3,"z":1.3},"stepUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/CL21A475KBQNNNE/CL21A475KBQNNNE.step"},"modelFiles":["imports/CL21A475KBQNNNE/CL21A475KBQNNNE.obj","imports/CL21A475KBQNNNE/CL21A475KBQNNNE.step"],"sha256":{"obj":"a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1","step":"67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f"},"provenance":"Cached tsci JLCPCB --download supplier import; exact source retained in imports/CL21A475KBQNNNE","supplierPackage":"0805"},"C165948":{"manufacturerPartNumber":"TYPE-C-31-M-12","supplierPartNumbers":{"jlcpcb":["C165948"]},"cadModel":{"objUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/TYPE_C_31_M_12/TYPE_C_31_M_12.obj","pcbRotationOffset":0,"modelOriginPosition":{"x":0,"y":0,"z":0},"modelBoardNormalDirection":"z+","size":{"x":8.94,"y":7.9,"z":4.101},"stepUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/TYPE_C_31_M_12/TYPE_C_31_M_12.step"},"modelFiles":["imports/TYPE_C_31_M_12/TYPE_C_31_M_12.obj","imports/TYPE_C_31_M_12/TYPE_C_31_M_12.step"],"sha256":{"obj":"2a9293243d9311d2b6a691fb8520756a3b4c38acf0e260d55bc2859f8a31437f","step":"82db48af77c1bc84279b392019c39cbd119d5dde57f358fa3288facb87ee3793"},"provenance":"Cached tsci JLCPCB C165948 import and supplier STEP; mesh tessellated in the checked USB footprint frame. Pin aliases intentionally remain grouped as in the saved board.","supplierOriginalStep":"imports/TYPE_C_31_M_12/TYPE_C_31_M_12.supplier.step"},"C25900":{"manufacturerPartNumber":"0402WGF4701TCE","supplierPartNumbers":{"jlcpcb":["C25900"]},"cadModel":{"objUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/A_0402WGF4701TCE/A_0402WGF4701TCE.obj","pcbRotationOffset":0.0,"modelOriginPosition":{"x":0,"y":-1.2700000070253736e-05,"z":0},"modelBoardNormalDirection":"z+","size":{"x":1.0,"y":0.5,"z":0.36},"stepUrl":"https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/A_0402WGF4701TCE/A_0402WGF4701TCE.step"},"modelFiles":["imports/A_0402WGF4701TCE/A_0402WGF4701TCE.obj","imports/A_0402WGF4701TCE/A_0402WGF4701TCE.step"],"sha256":{"obj":"658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4","step":"055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729"},"provenance":"Exact cached JLCPCB C25900 TSX/OBJ/STEP import; checked custom 0402 land pattern retained.","supplierPackage":"0402"}}}
+{
+  "components": {
+    "J_PD": "C165948",
+    "J_DATA": "C165948",
+    "U_MCU": "C7437027",
+    "U_PD": "C970725",
+    "U_DRV": "C38437",
+    "U_ESD": "C2687116",
+    "D_PD": "C8598",
+    "D_DATA": "C8598",
+    "D_TVS": "C19077512",
+    "C_BULK": "C72522",
+    "U_LDO": "C14289",
+    "R_PD": "C441922",
+    "R_PG": "C25804",
+    "R_CC1": "C23186",
+    "R_CC2": "C23186",
+    "R_USB_SENSE_H": "C25803",
+    "R_USB_SENSE_L": "C25803",
+    "R_VM_H": "C25803",
+    "R_VM_L": "C31850",
+    "R_SA": "C2930216",
+    "R_SB": "C2930216",
+    "R_REF_H": "C23153",
+    "R_REF_L": "C25804",
+    "R_ENABLE": "C25803",
+    "R_SLEEP": "C25803",
+    "R_USB_BOOT": "C25900",
+    "C_PD": "C15849",
+    "C_MCU": "C14663",
+    "C_LOGIC": "C98192",
+    "C_VM_SENSE": "C1589",
+    "C_LDO_IN": "C28323",
+    "C_LDO_OUT": "C98192",
+    "C_CP": "C14663",
+    "C_VCP": "C14663",
+    "C_VREG": "C21120",
+    "C_DRV_LOGIC": "C14663",
+    "C_VM": "C49678",
+    "C_REF": "C1589"
+  },
+  "parts": {
+    "C14289": {
+      "manufacturerPartNumber": "HT7533-1",
+      "symbol": "HT7533_1",
+      "importPath": "imports/supplier/HT7533_1/HT7533_1.tsx",
+      "modelFiles": [
+        "imports/supplier/HT7533_1/HT7533_1.obj",
+        "imports/supplier/HT7533_1/HT7533_1.step"
+      ],
+      "sha256": {
+        "obj": "99ab3d90b31fe5780ba277e3f057f81f7deac1573b2af3d85e14bf4cdd250ad8",
+        "step": "b2b76f048dba30c68f196beadb3a7391e3af18c9aa4f7854e60117d2eeb959b9"
+      },
+      "originalImportSha256": "d93fff317b814372d63f48c4d5ec4325d0e1cefb182ba992a2510b4711f00a4d",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C14289",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C14663": {
+      "manufacturerPartNumber": "CC0603KRX7R9BB104",
+      "symbol": "CC0603KRX7R9BB104",
+      "importPath": "imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.tsx",
+      "modelFiles": [
+        "imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.obj",
+        "imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.step"
+      ],
+      "sha256": {
+        "obj": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+        "step": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110"
+      },
+      "originalImportSha256": "edd64f2c1a93021b72b47e6639a0b4ecc3e90b5950a48e91a978056d437966de",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C14663",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C15849": {
+      "manufacturerPartNumber": "CL10A105KB8NNNC",
+      "symbol": "CL10A105KB8NNNC",
+      "importPath": "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.tsx",
+      "modelFiles": [
+        "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.obj",
+        "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.step"
+      ],
+      "sha256": {
+        "obj": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+        "step": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110"
+      },
+      "originalImportSha256": "ea887d62ca4bfb4f6eb44fd8652de70354b52fbab2f0c2459fce27fc68481b14",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C15849",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C1589": {
+      "manufacturerPartNumber": "CL10B103KB8NNNC",
+      "symbol": "CL10B103KB8NNNC",
+      "importPath": "imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.tsx",
+      "modelFiles": [
+        "imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.obj",
+        "imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.step"
+      ],
+      "sha256": {
+        "obj": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+        "step": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110"
+      },
+      "originalImportSha256": "bee018f6b940718f656cf9682be3fc0236bf004a9f662e854a6d67359f32994e",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C1589",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C165948": {
+      "manufacturerPartNumber": "TYPE-C-31-M-12",
+      "symbol": "TYPE_C_31_M_12",
+      "importPath": "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.tsx",
+      "modelFiles": [
+        "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.obj",
+        "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step"
+      ],
+      "sha256": {
+        "obj": "9d7e957178f20137fdd5d62ae84281fe3b5bb3a44262f348d8e129b0a4182320",
+        "step": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461"
+      },
+      "originalImportSha256": "f72ec6955f7f982441478d44f69e2f67961da1195766faefe651de29dd2b0cbd",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C165948",
+      "cadAnchorCorrectionLocalMm": {
+        "x": -0.0,
+        "y": 0.42504355
+      }
+    },
+    "C19077512": {
+      "manufacturerPartNumber": "SMF18A",
+      "symbol": "SMF18A",
+      "importPath": "imports/supplier/SMF18A/SMF18A.tsx",
+      "modelFiles": [
+        "imports/supplier/SMF18A/SMF18A.obj",
+        "imports/supplier/SMF18A/SMF18A.step"
+      ],
+      "sha256": {
+        "obj": "da7ea2615c07f6b32365b75ea560ce49a73847950b28adc2758b09e13fab6d3a",
+        "step": "09d6262e2e56a71ebe143062f98e269803bdd3ebbb9d1202f29942ae90e5109f"
+      },
+      "originalImportSha256": "6ccb0c0ba1b83d9a050566943fb2b15f75b0a3f07964ec9cd315c5e609af7b05",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C19077512",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": -0.0
+      }
+    },
+    "C21120": {
+      "manufacturerPartNumber": "CL10B224KA8NNNC",
+      "symbol": "CL10B224KA8NNNC",
+      "importPath": "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.tsx",
+      "modelFiles": [
+        "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.obj",
+        "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.step"
+      ],
+      "sha256": {
+        "obj": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
+        "step": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110"
+      },
+      "originalImportSha256": "abb4a490363ea48aa098283cf79b094d9dbe4dc37c30bf014c0a381c6a0313d3",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C21120",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C21190": {
+      "manufacturerPartNumber": "0603WAF1001T5E",
+      "symbol": "A_0603WAF1001T5E",
+      "importPath": "imports/supplier/A_0603WAF1001T5E/A_0603WAF1001T5E.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0603WAF1001T5E/A_0603WAF1001T5E.obj",
+        "imports/supplier/A_0603WAF1001T5E/A_0603WAF1001T5E.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "7df5eec48302df09b3add5d8b47304cbabdd1f2325402113ca3f3935360ef0d3",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C21190",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C23186": {
+      "manufacturerPartNumber": "0603WAF5101T5E",
+      "symbol": "A_0603WAF5101T5E",
+      "importPath": "imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.obj",
+        "imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "4dec15cf9553e27ad52dbbe8de92e2db9bf770b80d9a53c65f79d5325dc1893c",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C23186",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C25803": {
+      "manufacturerPartNumber": "0603WAF1003T5E",
+      "symbol": "A_0603WAF1003T5E",
+      "importPath": "imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.obj",
+        "imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "c33c9b46f2a3d7fce5991bbc6e77eeebfa4b0e31f2d721a868b3a9c4d90bd8df",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C25803",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C25804": {
+      "manufacturerPartNumber": "0603WAF1002T5E",
+      "symbol": "A_0603WAF1002T5E",
+      "importPath": "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.obj",
+        "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "f6ac09b90652e630334ed327f993187e970d7b0791e6f34a92f1ecf6f0614b5b",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C25804",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C25900": {
+      "manufacturerPartNumber": "0402WGF4701TCE",
+      "symbol": "A_0402WGF4701TCE",
+      "importPath": "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.obj",
+        "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.step"
+      ],
+      "sha256": {
+        "obj": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
+        "step": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729"
+      },
+      "originalImportSha256": "12ea4d84494dc68a32cac0bbdd8258a4cf159664e2b41dac92e26bb49c932191",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C25900",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C2687116": {
+      "manufacturerPartNumber": "USBLC6-2SC6",
+      "symbol": "USBLC6_2SC6",
+      "importPath": "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.tsx",
+      "modelFiles": [
+        "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.obj",
+        "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step"
+      ],
+      "sha256": {
+        "obj": "b4a68fd1399fd2ab9e7baf51fd4bb6dd8b2a8be45c2b632e1f2c84723c5d7e45",
+        "step": "53901e8dbe77366e4c00f90fd3613933fd2db1f1453ddc9eee51d8a18d44dbff"
+      },
+      "originalImportSha256": "3cb8aa29019dba860b6118110613528c9911218e817c362eeedd3f0fc5d70175",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C2687116",
+      "cadAnchorCorrectionLocalMm": {
+        "x": -0.0,
+        "y": 0.0
+      }
+    },
+    "C28323": {
+      "manufacturerPartNumber": "CL21B105KBFNNNE",
+      "symbol": "CL21B105KBFNNNE",
+      "importPath": "imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.tsx",
+      "modelFiles": [
+        "imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.obj",
+        "imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.step"
+      ],
+      "sha256": {
+        "obj": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
+        "step": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f"
+      },
+      "originalImportSha256": "2173a5e31ecb6e6fe701cb784499a28bb2b98e915d0fc32fa80a5881bf69a51b",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C28323",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C2930216": {
+      "manufacturerPartNumber": "FRL0805FR240TS",
+      "symbol": "FRL0805FR240TS",
+      "importPath": "imports/supplier/FRL0805FR240TS/FRL0805FR240TS.tsx",
+      "modelFiles": [
+        "imports/supplier/FRL0805FR240TS/FRL0805FR240TS.obj",
+        "imports/supplier/FRL0805FR240TS/FRL0805FR240TS.step"
+      ],
+      "sha256": {
+        "obj": "6bbe05c8bf2262e8c377c9a7cb422b1725e8842352dcd40bc47f3a573bb08a84",
+        "step": "fc4726ad0364128aa67ad16e76bace8fa7a85fb80514f68d5fbf53d114860b6f"
+      },
+      "originalImportSha256": "9c36c2a08f9e05e90af32c1001c3f8673b4529e32e03511700414fec838ceef8",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C2930216",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C31850": {
+      "manufacturerPartNumber": "0603WAF2202T5E",
+      "symbol": "A_0603WAF2202T5E",
+      "importPath": "imports/supplier/A_0603WAF2202T5E/A_0603WAF2202T5E.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0603WAF2202T5E/A_0603WAF2202T5E.obj",
+        "imports/supplier/A_0603WAF2202T5E/A_0603WAF2202T5E.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "dff8d79e43729322dd2d060791d97876cde3fce54408f2b5632c2228e51739d3",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C31850",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C38437": {
+      "manufacturerPartNumber": "A4988SETTR-T",
+      "symbol": "A4988SETTR_T",
+      "importPath": "imports/supplier/A4988SETTR_T/A4988SETTR_T.tsx",
+      "modelFiles": [
+        "imports/supplier/A4988SETTR_T/A4988SETTR_T.obj",
+        "imports/supplier/A4988SETTR_T/A4988SETTR_T.step"
+      ],
+      "sha256": {
+        "obj": "01eb47f12909a50a9f70825ab23b31c6be4b33ffe26bd7c8697f94077b87ebd9",
+        "step": "578a8ff75c4016df2d5e6e332aba2899ef713bf2d1c439906bc57edf2a57e121"
+      },
+      "originalImportSha256": "f7a7ce4c49a8791070f20038b9c86853eecf6143260321a628fa2cb976c3ab88",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C38437",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": -0.0
+      }
+    },
+    "C49678": {
+      "manufacturerPartNumber": "CC0805KRX7R9BB104",
+      "symbol": "CC0805KRX7R9BB104",
+      "importPath": "imports/supplier/CC0805KRX7R9BB104/CC0805KRX7R9BB104.tsx",
+      "modelFiles": [
+        "imports/supplier/CC0805KRX7R9BB104/CC0805KRX7R9BB104.obj",
+        "imports/supplier/CC0805KRX7R9BB104/CC0805KRX7R9BB104.step"
+      ],
+      "sha256": {
+        "obj": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
+        "step": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f"
+      },
+      "originalImportSha256": "b607ab5f631908533c812abb357b489b5ca29a021649146f3614798c92458aec",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C49678",
+      "cadAnchorCorrectionLocalMm": {
+        "x": -0.0,
+        "y": 0.0
+      }
+    },
+    "C72522": {
+      "manufacturerPartNumber": "RVT1V470M0605",
+      "symbol": "RVT1V470M0605",
+      "importPath": "imports/supplier/RVT1V470M0605/RVT1V470M0605.tsx",
+      "modelFiles": [
+        "imports/supplier/RVT1V470M0605/RVT1V470M0605.obj",
+        "imports/supplier/RVT1V470M0605/RVT1V470M0605.step"
+      ],
+      "sha256": {
+        "obj": "c2f7aa7cd71a979dfeda7f8834d57e7bc89a1a551214fb36539b6e2a07d00d5f",
+        "step": "3f7752a412a9f28abd4ba1fb513f336b1342c32f1ced0c14865dbb1ba2b22fe0"
+      },
+      "originalImportSha256": "776e116b89c627640cfe7efe79a67c87d0457c534bca492f0bec584d3c9738d7",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C72522",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C7437027": {
+      "manufacturerPartNumber": "CH32X035G8U6",
+      "symbol": "CH32X035G8U6",
+      "importPath": "imports/supplier/CH32X035G8U6/CH32X035G8U6.tsx",
+      "modelFiles": [
+        "imports/supplier/CH32X035G8U6/CH32X035G8U6.obj",
+        "imports/supplier/CH32X035G8U6/CH32X035G8U6.step"
+      ],
+      "sha256": {
+        "obj": "79eda98421b03688b4c4141cea531d6ec313c13998063fbe6da6bcf10e088aa6",
+        "step": "34235497ed64277633278875f0249443f22ea03f3c8e93a5bf5ddf1645724b6c"
+      },
+      "originalImportSha256": "db782123d310965fc62e1d5b37b2d8936c4affea9e45d8b3accb5dd15d81f796",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C7437027",
+      "cadAnchorCorrectionLocalMm": {
+        "x": -0.0,
+        "y": 0.0
+      }
+    },
+    "C8598": {
+      "manufacturerPartNumber": "B5819W SL",
+      "symbol": "B5819W_SL",
+      "importPath": "imports/supplier/B5819W_SL/B5819W_SL.tsx",
+      "modelFiles": [
+        "imports/supplier/B5819W_SL/B5819W_SL.obj",
+        "imports/supplier/B5819W_SL/B5819W_SL.step"
+      ],
+      "sha256": {
+        "obj": "7c8e2c97e9b3e5c32c1eca57a40e13681407e988333317e3024a8635b37b7344",
+        "step": "f2468af30d27a00c11bf5070ed3293c491829997423ccad7906ca52893418de7"
+      },
+      "originalImportSha256": "42d39d8e0698b939d0da5b0f074f4dd098def9abf40b254d401c0bb0d93cdd4f",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C8598",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C970725": {
+      "manufacturerPartNumber": "CH224K",
+      "symbol": "CH224K",
+      "importPath": "imports/supplier/CH224K/CH224K.tsx",
+      "modelFiles": [
+        "imports/supplier/CH224K/CH224K.obj",
+        "imports/supplier/CH224K/CH224K.step"
+      ],
+      "sha256": {
+        "obj": "9fceace97b3056c9b525486645e2f69ac9290eee319061ac743edf3570fb6296",
+        "step": "d18445242d4c9c099a3b99743d6cf639e9433f0b32efd8152de33d2d4984c8a7"
+      },
+      "originalImportSha256": "84a70e07f121778ef46f12fe382d53f53dd806771fc643f37ee99c442d659505",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C970725",
+      "cadAnchorCorrectionLocalMm": {
+        "x": -0.0,
+        "y": 0.0
+      }
+    },
+    "C98192": {
+      "manufacturerPartNumber": "CL21A475KBQNNNE",
+      "symbol": "CL21A475KBQNNNE",
+      "importPath": "imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.tsx",
+      "modelFiles": [
+        "imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.obj",
+        "imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.step"
+      ],
+      "sha256": {
+        "obj": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
+        "step": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f"
+      },
+      "originalImportSha256": "f3bd5aac709c03e442eeecbacabb495b125ddd2137f5a72373f3f00c1d18bf37",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C98192",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C23153": {
+      "manufacturerPartNumber": "0603WAF3902T5E",
+      "symbol": "A_0603WAF3902T5E",
+      "importPath": "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.tsx",
+      "modelFiles": [
+        "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.obj",
+        "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "3961291631389b56aae0d24e95274486cc6f08d29561cb3cfc10a6e139cc9bd9",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C23153",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0.0,
+        "y": 0.0
+      }
+    },
+    "C441922": {
+      "manufacturerPartNumber": "ERJPA3F1001V",
+      "symbol": "ERJPA3F1001V",
+      "importPath": "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.tsx",
+      "modelFiles": [
+        "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj",
+        "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step"
+      ],
+      "sha256": {
+        "obj": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
+        "step": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc"
+      },
+      "originalImportSha256": "20386d53e718c99ca6f4778c66838b852cab906ad4fa60ff4c72ee6df101c83b",
+      "importCommand": "tsci import --jlcpcb --download --use-exact-footprint C441922",
+      "cadAnchorCorrectionLocalMm": {
+        "x": 0,
+        "y": 0
+      },
+      "powerRatingWatts": 0.25
+    }
+  }
+}

@@ -1,5 +1,7 @@
 {
   "checkedNets": 33,
   "disconnectedNets": [],
-  "sha256": "ce6cff25baf2e9403108b62e1d8443befc952405d462d6d5d6c332efaff3af35"
+  "allCopperLayersChecked": true,
+  "nativePolygonAndSlotGeometry": true,
+  "sha256": "24751c12fb0cdc8cfada8141e6c62c0317c3e94b8be3183b380e5d0c756312f1"
 }

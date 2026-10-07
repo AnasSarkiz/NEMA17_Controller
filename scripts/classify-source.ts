@@ -1,7 +1,8 @@
-/** Custom footprints use chip JSX; classify passive connectors/crystal accurately for ERC. */
+/** Supplier imports use chip JSX; classify passive connectors/crystal accurately for ERC. */
 export function classifySource(json:any[]) {
  for(const c of json.filter(e=>e.type==='source_component')) {
   if(c.name.startsWith('J_')) c.ftype='simple_connector'
+  if(c.name==='D_TVS') c.ftype='simple_diode'
   if(c.name==='Y_MCU') Object.assign(c,{ftype:'simple_crystal',frequency:12_000_000,load_capacitance:10})
  }
  const bootIds=new Set(json.filter(e=>e.type==='pcb_component' && json.some(c=>c.type==='source_component' && c.source_component_id===e.source_component_id && ['R_USB_BOOT','J_BOOT'].includes(c.name))).map(e=>e.pcb_component_id))

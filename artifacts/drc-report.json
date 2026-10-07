@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-07T22:06:16.379Z",
+  "date": "2026-10-07T23:15:43.282Z",
   "tool": "@tscircuit/checks",
-  "traceCount": 314,
-  "currentLimitAmps": 0.38372093023255816,
+  "traceCount": 351,
+  "currentLimitAmps": 0.350765306122449,
   "errors": [],
   "warnings": [],
   "manufacturingRelease": false,

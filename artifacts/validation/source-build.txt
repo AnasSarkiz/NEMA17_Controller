@@ -1,10 +1,10 @@
 
-> NEMA14_CH32X035G8U6@1.0.5 source:check
+> NEMA14_CH32X035G8U6@1.0.6 source:check
 > bun scripts/build.tsx --unrouted
 
 Rendering NEMA14 with tscircuit local autorouter…
 {
-  "elements": 2020,
+  "elements": 2136,
   "traces": 0,
   "errors": []
 }

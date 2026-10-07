@@ -1,14 +1,14 @@
 
-> NEMA14_CH32X035G8U6@1.0.5 export
+> NEMA14_CH32X035G8U6@1.0.6 export
 > XDG_CONFIG_HOME=/workspace/.config tsci export artifacts/board.circuit.json -f gerbers -o "$PWD/artifacts/nema14-gerbers.zip"
 
 J_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
 J_DATA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
-U_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+U_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
 R_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 R_PG: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-U_MCU: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+U_MCU: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
 C_MCU: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_LOGIC: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
 R_CC1: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
@@ -18,18 +18,18 @@ R_USB_SENSE_L: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pi
 R_VM_H: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 R_VM_L: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_VM_SENSE: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-U_LDO: cannot verify jlcpcb pick-and-place rotation (missing_pin1_location); PCB rotation 0 is unverified.
+U_LDO: cannot verify jlcpcb pick-and-place rotation (missing_pin1_location); PCB rotation 270 is unverified.
 D_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-D_DATA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-C_LDO_IN: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
+D_DATA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
+C_LDO_IN: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
 C_LDO_OUT: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-U_DRV: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-C_CP: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
+U_DRV: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
+C_CP: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_VCP: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
 C_VREG: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_DRV_LOGIC: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_VM: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-C_BULK: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+C_BULK: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
 R_SA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
 R_SB: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 R_REF_H: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
@@ -39,8 +39,8 @@ R_ENABLE: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_lo
 R_SLEEP: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 J_MOTOR: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 J_DEBUG: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-U_ESD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-D_TVS: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+U_ESD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
+D_TVS: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
 R_USB_BOOT: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 J_BOOT: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 Exported to /workspace/NEMA17_Controller/artifacts/nema14-gerbers.zip!

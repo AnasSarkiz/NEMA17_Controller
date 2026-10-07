@@ -13,7 +13,7 @@
   ],
   [
     "U_DRV - A4988",
-    "Two current-regulated bridges drive the coils.\nSTEP/DIR interface; fixed 1/16 microstepping.\n0.25 ohm sense resistors set phase current."
+    "Two current-regulated bridges drive the coils.\nSTEP/DIR interface; fixed 1/16 microstepping.\n0.24 ohm sense resistors set phase current."
   ],
   [
     "U_ESD - USBLC6-2SC6",

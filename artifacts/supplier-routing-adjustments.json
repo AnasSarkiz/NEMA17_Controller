@@ -1,0 +1,101 @@
+{
+  "input": "supplier.circuit.json",
+  "changes": [
+    {
+      "id": "supplier_ep_contact_U_DRV",
+      "before": null,
+      "after": {
+        "type": "pcb_trace",
+        "pcb_trace_id": "supplier_ep_contact_U_DRV",
+        "source_net_id": "source_net_0",
+        "source_trace_id": "source_trace_0",
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+        "subcircuit_id": "subcircuit_source_group_0",
+        "pcb_port_ids": [
+          "pcb_port_135"
+        ],
+        "route": [
+          {
+            "route_type": "wire",
+            "x": -2.6999999999999965e-05,
+            "y": -7.999973,
+            "layer": "top",
+            "width": 0.16,
+            "start_pcb_port_id": "pcb_port_135"
+          },
+          {
+            "route_type": "wire",
+            "x": 0.099973,
+            "y": -7.999973,
+            "layer": "top",
+            "width": 0.16
+          }
+        ]
+      }
+    },
+    {
+      "id": "supplier_ep_contact_U_MCU",
+      "before": null,
+      "after": {
+        "type": "pcb_trace",
+        "pcb_trace_id": "supplier_ep_contact_U_MCU",
+        "source_net_id": "source_net_0",
+        "source_trace_id": "source_trace_0",
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+        "subcircuit_id": "subcircuit_source_group_0",
+        "pcb_port_ids": [
+          "pcb_port_77"
+        ],
+        "route": [
+          {
+            "route_type": "wire",
+            "x": 5.019112,
+            "y": 1.499746,
+            "layer": "top",
+            "width": 0.16,
+            "start_pcb_port_id": "pcb_port_77"
+          },
+          {
+            "route_type": "wire",
+            "x": 5.119111999999999,
+            "y": 1.499746,
+            "layer": "top",
+            "width": 0.16
+          }
+        ]
+      }
+    },
+    {
+      "id": "supplier_ep_contact_U_PD",
+      "before": null,
+      "after": {
+        "type": "pcb_trace",
+        "pcb_trace_id": "supplier_ep_contact_U_PD",
+        "source_net_id": "source_net_0",
+        "source_trace_id": "source_trace_0",
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+        "subcircuit_id": "subcircuit_source_group_0",
+        "pcb_port_ids": [
+          "pcb_port_42"
+        ],
+        "route": [
+          {
+            "route_type": "wire",
+            "x": -3.399873,
+            "y": 8.2,
+            "layer": "top",
+            "width": 0.16,
+            "start_pcb_port_id": "pcb_port_42"
+          },
+          {
+            "route_type": "wire",
+            "x": -3.299873,
+            "y": 8.2,
+            "layer": "top",
+            "width": 0.16
+          }
+        ]
+      }
+    }
+  ]
+}

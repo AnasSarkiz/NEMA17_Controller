@@ -12,10 +12,10 @@ A two-layer tscircuit **hardware prototype** for the STEPperONLINE 14HM11-0404S,
 | Power USB-C | CH224K fixed request for **15 V**: CFG1 low, CFG2/CFG3 high |
 | Computer USB-C | USB 2.0 full-speed D+/D− and two 5.1 kΩ CC pull-downs; USBLC6-2SC6 ESD protection |
 | Driver | A4988SETTR-T, fixed 1/16 microsteps, regulated phase current |
-| Current | 0.384 A nominal **peak**; 0.25 Ω sense resistors; 33 kΩ/10 kΩ VREF divider |
+| Current | 0.351 A nominal peak; 0.24 Ω sense resistors; 39 kΩ/10 kΩ VREF divider |
 | Motor connection | Four plated wire-solder holes: A+, A−, B+, B− |
 | Programming | Data USB-C via ROM ISP with 4.7 kΩ BOOT jumper; WCH-LinkE debug pads retained |
-| Tools | tscircuit 0.0.2757, CLI 0.1.2257; latest npm versions at setup time, pinned in lockfile |
+| Tools | tscircuit 0.0.2764, CLI 0.1.2261; latest npm versions at setup time, pinned in lockfile |
 
 ## View and work on the design
 
@@ -28,11 +28,11 @@ npm run check
 
 `npm run dev` starts the tscircuit editor. The editor source is `src/board.tsx`; the final, saved copper is `artifacts/board.circuit.json`. Editor autorouting can produce different traces; **do not replace the checked copper without rerunning DRC**. The original tscircuit autorouting, including its diagnosed violations, is retained as `artifacts/autorouted.circuit.json` for comparison.
 
-The routing workflow is recorded in `docs/routing.md`. Render the saved final layout with `npm run render`; this preserves routes. `npm run autoroute` runs tscircuit's local autorouter afresh. The final fallback uses freerouting 2.0.1 and the physically accurate DSN exporter in `scripts/freeroute.py`; both the DSN and SES are saved. Checks run against actual copper, not the existence of a server or a generated file.
+The routing workflow is recorded in `docs/routing.md`. Render the saved final layout with `npm run render`; this preserves routes. `npm run autoroute` runs tscircuit's local autorouter afresh. The final fallback uses freerouting 2.0.1 and the physically accurate DSN exporter in `scripts/export-supplier-router.py`; both the DSN and SES are saved. Checks run against actual copper, not the existence of a server or a generated file.
 
 ## Electrical choices
 
-The A4988 regulates coil current, so 15 V supply does not apply a constant 15 V to the 10 V-rated windings. VREF = 3.3 × 10/(33+10) = 0.767 V; I_peak = VREF/(8 × 0.25 Ω) = 0.384 A. Use 1% resistors and a 3.3 V regulator within ±2%; combined worst-case tolerance is approximately 0.398 A. This is a conservative peak-current design; RMS phase current at 1/16 microstepping is lower. The motor has 400 full steps/revolution, giving 6,400 commanded microsteps/revolution.
+The A4988 regulates coil current, so 15 V supply does not apply a constant 15 V to the 10 V-rated windings. VREF = 3.3 × 10/(39+10) = 0.6735 V; I_peak = VREF/(8 × 0.24 Ω) = 0.3508 A. The tolerance/engineering allowance estimates 0.3815 A; current and temperature must be measured on a prototype. The motor has 400 full steps/revolution, giving 6,400 commanded microsteps/revolution.
 
 The motor bridge draws only from `PD_VBUS`. Two B5819W Schottky diodes OR `PD_VBUS` and `DATA_VBUS` into a 30 V-rated HT7533-1 3.3 V regulator. This lets the MCU enumerate from the computer alone and prevents 15 V backfeeding into the computer's VBUS. Both ports share signal ground. The linear regulator supplies only logic; motor current bypasses it. Driver SLEEP has a pull-down and ENABLE_N a pull-up, so the bridge remains disabled until firmware deliberately enables it.
 
@@ -54,7 +54,7 @@ Before ordering: obtain the motor rear drawing, review the footprint pin numberi
 
 ## Supplier models and A4 schematics
 
-[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. Exact JLCPCB CAD is attached to **10/38 fitted parts**; the other 28 await supplier access. Bare motor/debug/boot solder interfaces do not have fitted component models. See [supplier CAD details](docs/supplier-cad.md) and the [reference-by-reference import report](artifacts/jlcpcb-import-report.json). The original 311 saved traces are retained; three branches connect the added USB BOOT resistor and bare jumper.
+[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. All **38/38 fitted components** use exact JLCPCB imports with native land patterns and OBJ/STEP models. Motor/debug/boot connections are bare PCB pads. See [supplier CAD details](docs/supplier-cad.md) and [the import report](artifacts/jlcpcb-import-report.json).
 
 The GitHub repository is currently [AnasSarkiz/NEMA17_Controller](https://github.com/AnasSarkiz/NEMA17_Controller). Its requested rename to `NEMA14_CH32X035G8U6` is blocked by the GitHub integration (HTTP 403); repository settings must apply it. The project/package name is already correct. Supplier CAD URLs use the existing public repository so they load now.
 

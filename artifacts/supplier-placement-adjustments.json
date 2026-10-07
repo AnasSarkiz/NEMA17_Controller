@@ -1,0 +1,56 @@
+[
+  {
+    "name": "U_LDO",
+    "dx": 0.0,
+    "dy": 0.2,
+    "rotationChange": 0
+  },
+  {
+    "name": "D_DATA",
+    "dx": 0.0,
+    "dy": -1.4000000000000001,
+    "rotationChange": 90
+  },
+  {
+    "name": "C_LDO_IN",
+    "dx": 4.4,
+    "dy": -5.2,
+    "rotationChange": 90
+  },
+  {
+    "name": "R_SA",
+    "dx": 0.0,
+    "dy": 0.2,
+    "rotationChange": 0
+  },
+  {
+    "name": "R_ENABLE",
+    "dx": 0.0,
+    "dy": -1.0,
+    "rotationChange": 0
+  },
+  {
+    "name": "C_DRV_LOGIC",
+    "dx": 0.0,
+    "dy": 0.2,
+    "rotationChange": 0
+  },
+  {
+    "name": "C_CP",
+    "dx": -0.2,
+    "dy": -1.2000000000000002,
+    "rotationChange": 90
+  },
+  {
+    "name": "C_VM_SENSE",
+    "dx": 2.8000000000000003,
+    "dy": 2.8000000000000003,
+    "rotationChange": 0
+  },
+  {
+    "name": "C_VCP",
+    "dx": 0.2,
+    "dy": -0.2,
+    "rotationChange": 0
+  }
+]
