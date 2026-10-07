@@ -55,3 +55,5 @@ Before ordering: obtain the motor rear drawing, review the footprint pin numberi
 ## Supplier models and A4 schematics
 
 [Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. Exact JLCPCB CAD is attached to **9/37 fitted parts**; the other 28 await supplier access. Bare motor/debug/boot solder interfaces do not have fitted component models. See [supplier CAD details](docs/supplier-cad.md) and the [reference-by-reference import report](artifacts/jlcpcb-import-report.json). Saved copper and electrical pin connections are unchanged.
+
+The GitHub repository is currently [AnasSarkiz/NEMA17_Controller](https://github.com/AnasSarkiz/NEMA17_Controller). Its requested rename to `NEMA14_CH32X035G8U6` is blocked by the GitHub integration (HTTP 403); repository settings must apply it. The project/package name is already correct. Supplier CAD URLs use the existing public repository so they load now.
