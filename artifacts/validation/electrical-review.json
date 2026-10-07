@@ -27,5 +27,32 @@
     "Regulator stability/temperatures and motor-bus regeneration",
     "Rear mounting adapter fit"
   ],
-  "report": "docs/electrical.md"
+  "report": "docs/electrical.md",
+  "publicationFiles": [
+    {
+      "path": "docs/electrical.md",
+      "registryMatchesLocal": true,
+      "githubMatchesLocal": true,
+      "sha256": "357a89cfb0626a5a16cd732e000a7ab8d2ab05b0036a73cf03a817dd223dfdbc"
+    },
+    {
+      "path": "artifacts/trace-width-review.json",
+      "registryMatchesLocal": true,
+      "githubMatchesLocal": true,
+      "sha256": "d4d12aa099ac8700c173cc1c84350e996be838e33711db3e2841e7262f36e60a"
+    },
+    {
+      "path": "src/jlcpcb-catalog.json",
+      "registryMatchesLocal": true,
+      "githubMatchesLocal": true,
+      "sha256": "95a0989184c96e6d0b9197133007c1c4e9c59312d5be0cba7745e1b85e836854"
+    },
+    {
+      "path": "src/board.tsx",
+      "registryMatchesLocal": true,
+      "githubMatchesLocal": true,
+      "sha256": "a021d53dbbcb6a6dec09d3bd901ff88d003bf255ca3361628ca56b560926e7f1"
+    }
+  ],
+  "registryVersion": "1.1.5"
 }
