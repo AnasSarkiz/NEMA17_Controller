@@ -26,7 +26,7 @@ const holes=json.filter((e:any)=>e.type==='pcb_hole' && e.hole_diameter===3.2)
 if(holes.length!==4) unique.push({type:'validation_error',message:'Expected four 3.2 mm mounting holes.'})
 const vref=3.3*10000/(33000+10000), current=vref/(8*.25)
 if(current>.4) unique.push({type:'validation_error',message:'Nominal phase current exceeds 0.4 A.'})
-const report={date:new Date().toISOString(),tool:'@tscircuit/checks',traceCount,currentLimitAmps:current,errors:unique,warnings,manufacturingRelease:false,releaseBlockers:['Motor rear-hole drawing could not be retrieved; 26 mm mounting pitch is provisional.','Hardware has not been assembled or electrically tested.','Footprint/rating and USB/PD bench validation remain required.']}
+const report={date:new Date().toISOString(),tool:'@tscircuit/checks',traceCount,currentLimitAmps:current,errors:unique,warnings,manufacturingRelease:false,releaseBlockers:['Manufacturer drawing specifies front mounting only; rear adapter fit is unverified.','Hardware has not been assembled or electrically tested.','Footprint/rating and USB/PD bench validation remain required.']}
 writeFileSync('artifacts/drc-report.json',JSON.stringify(report,null,2)+'\n')
 console.log(JSON.stringify({traceCount,currentLimitAmps:current,errors:unique.length,warnings:warnings.length},null,2))
 for(const error of unique) console.error(error.type+': '+error.message)

@@ -1,0 +1,16 @@
+
+> NEMA14_CH32X035G8U6@1.0.5 check
+> bun scripts/check.ts
+
+{
+  "traceCount": 311,
+  "currentLimitAmps": 0.38372093023255816,
+  "errors": 6,
+  "warnings": 0
+}
+pcb_port_not_connected_error: Port [R_USB_BOOT.pin1] is not connected to net [V3V3] by a PCB trace.
+pcb_port_not_connected_error: Port [J_BOOT.USB_DP] is not connected to net [USB_DP] by a PCB trace.
+pcb_trace_error: PCB trace .D_TVS > .anode to net.GND overlaps with pcb_smtpad "J_BOOT.BOOT" (accidental contact)
+pcb_trace_error: PCB trace .U_ESD > .VBUS to net.DATA_VBUS overlaps with pcb_smtpad "R_USB_BOOT.pin2" (accidental contact)
+pcb_trace_error: PCB trace .U_ESD > .VBUS to net.DATA_VBUS overlaps with pcb_smtpad "R_USB_BOOT.pin1" (accidental contact)
+pcb_placement_error: Via hole at (3.36mm, 8.95mm) overlaps SMD pad R_USB_BOOT.pin2 at (3.21mm, 9.00mm)

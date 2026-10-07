@@ -45,7 +45,7 @@ sheets=[e for e in j if e['type']=='schematic_sheet'];assert all(e['sheet_size']
 netmap={e['subcircuit_connectivity_map_key']:e for e in j if e['type']=='source_net'}
 labelcounts={}
 for e in j:
- if e['type']=='schematic_net_label':labelcounts[e['source_net_id']]=labelcounts.get(e['source_net_id'],0)+1
+ if e['type']=='schematic_net_label' and e.get('source_net_id'):labelcounts[e['source_net_id']]=labelcounts.get(e['source_net_id'],0)+1
 for net in netmap.values():
  expected=sum(p.get('subcircuit_connectivity_map_key')==net['subcircuit_connectivity_map_key'] for p in ports)
  assert labelcounts.get(net['source_net_id'],0)==expected,(net['name'],expected,labelcounts.get(net['source_net_id'],0))

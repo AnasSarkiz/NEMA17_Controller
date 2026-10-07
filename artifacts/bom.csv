@@ -38,3 +38,5 @@ J_MOTOR,,,,,,0,-15.5,0,top,bare PCB interface
 J_DEBUG,,,,,,7.25,-15.5,0,top,bare PCB interface
 U_ESD,USBLC6-2SC6,,,,,5.5,7.5,0,top,supplier import and CAD pending
 D_TVS,SMF18A,,,,,-7,15.6,0,top,supplier import and CAD pending
+R_USB_BOOT,0402WGF4701TCE,C25900,4.7kΩ,,,2.7,10.1,0,top,exact supplier CAD attached; assembly review required
+J_BOOT,,,,,,1.7000000000000002,11.9,0,top,bare PCB interface

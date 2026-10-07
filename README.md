@@ -14,7 +14,7 @@ A two-layer tscircuit **hardware prototype** for the STEPperONLINE 14HM11-0404S,
 | Driver | A4988SETTR-T, fixed 1/16 microsteps, regulated phase current |
 | Current | 0.384 A nominal **peak**; 0.25 Ω sense resistors; 33 kΩ/10 kΩ VREF divider |
 | Motor connection | Four plated wire-solder holes: A+, A−, B+, B− |
-| Programming | Four 1.5 mm-pitch test pads: 3V3, GND, DCK, DIO; WCH-LinkE |
+| Programming | Data USB-C via ROM ISP with 4.7 kΩ BOOT jumper; WCH-LinkE debug pads retained |
 | Tools | tscircuit 0.0.2757, CLI 0.1.2257; latest npm versions at setup time, pinned in lockfile |
 
 ## View and work on the design
@@ -44,7 +44,7 @@ The supplied listing establishes the motor envelope; it does **not** establish r
 
 ## Cost and release
 
-There are 39 populated electronic/mechanical connection parts, with no purchased PD module, motor-driver module, external crystal, buck inductor, potentiometer, or motor connector. A rough small-volume component allowance is **US$4–7**, excluding PCB, assembly, shipping, motor, and supply. This is an estimate, not a vendor quote or an absolute budget guarantee. Ratings and procurement notes are in `docs/bom.md`.
+There are 38 fitted parts and three bare motor/debug/BOOT interfaces, with no purchased PD module, motor-driver module, external crystal, buck inductor, potentiometer, or motor connector. A rough small-volume component allowance is **US$4–7**, excluding PCB, assembly, shipping, motor, and supply. This is an estimate, not a vendor quote or an absolute budget guarantee. Ratings and procurement notes are in `docs/bom.md`.
 
 Before ordering: obtain the motor rear drawing, review the footprint pin numbering and assembly rotations, check the current DRC/short report, then bench-test USB, PD negotiation, disabled start-up, phase current, regeneration, and temperature. The configured install/start instructions are saved as a draft in environment settings; saving that draft does not publish the environment.
 
@@ -54,6 +54,10 @@ Before ordering: obtain the motor rear drawing, review the footprint pin numberi
 
 ## Supplier models and A4 schematics
 
-[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. Exact JLCPCB CAD is attached to **9/37 fitted parts**; the other 28 await supplier access. Bare motor/debug/boot solder interfaces do not have fitted component models. See [supplier CAD details](docs/supplier-cad.md) and the [reference-by-reference import report](artifacts/jlcpcb-import-report.json). Saved copper and electrical pin connections are unchanged.
+[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. Exact JLCPCB CAD is attached to **10/38 fitted parts**; the other 28 await supplier access. Bare motor/debug/boot solder interfaces do not have fitted component models. See [supplier CAD details](docs/supplier-cad.md) and the [reference-by-reference import report](artifacts/jlcpcb-import-report.json). The original 311 saved traces are retained; three branches connect the added USB BOOT resistor and bare jumper.
 
 The GitHub repository is currently [AnasSarkiz/NEMA17_Controller](https://github.com/AnasSarkiz/NEMA17_Controller). Its requested rename to `NEMA14_CH32X035G8U6` is blocked by the GitHub integration (HTTP 403); repository settings must apply it. The project/package name is already correct. Supplier CAD URLs use the existing public repository so they load now.
+
+## USB and final validation
+
+[USB programming procedure](docs/usb-programming.md) · [Validation details](docs/validation.md) · [Browser schematic analysis](artifacts/validation/schematic-analysis-ui.png). Both board variants support boot-mode entry through their Data USB-C port; flashing still requires assembled-hardware validation. Current software checks report zero DRC errors/warnings, zero schematic-placement findings and no Gerber shorts. Application firmware remains a separate task.

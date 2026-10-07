@@ -2,26 +2,35 @@
   "tscircuit": "0.0.2757",
   "cli": "0.1.2257",
   "drcErrors": 0,
-  "drcWarnings": 22,
+  "drcWarnings": 0,
   "gerberShorts": 0,
   "manufacturingRelease": false,
   "verified": "Source compilation, TypeScript, saved SES import/repair reproduction, full DRC, Gerber bitmap short check at 100 px/mm, clean npm ci, install script, editor HTML and JS readiness",
   "sha256": {
-    "artifacts/board.circuit.json": "929f696ea99abaceecd5dc24cf7bd17628010e7de3520f0a5f9e123b29cca82b",
-    "artifacts/nema14-gerbers.zip": "226337eb422b6276ba6438847eea4035cad6c4b01108cb24dbfe284f6fdc23e6",
+    "artifacts/board.circuit.json": "ce6cff25baf2e9403108b62e1d8443befc952405d462d6d5d6c332efaff3af35",
+    "artifacts/nema14-gerbers.zip": "1d953d8bdf9b8930862d2670b1551ced98fc3a7f2f60b12d9045da6e879f85a4",
     "artifacts/freerouting-input.dsn": "a2a81de758adad96e314bfefc96d219d2fda5fe09260d67d15656931ed0be031",
     "artifacts/board.ses": "2d8e69e65a89330998d351226ad1022b08989797b629802174a8d68f897323d1",
-    "artifacts/final-source.circuit.json": "2247e80f2b9994a9de330cb98f4dcdc95081809c05e9248d71dfff0bb50cefaf",
-    "artifacts/schematic-a4.pdf": "58a1ec3fcf3fa176a84de55beb2a6fe8af3c96ba44a4aa01d45ba0a5595c644b",
-    "artifacts/jlcpcb-import-report.json": "d652a13be33cc94813db2ecc3c59e87648dd1a9355d2a81a4288cfad31325a75",
-    "artifacts/bom.csv": "911f1b407b9ef6c1994cd318ade1822cda519a8b8b0ae2c40b6bf928805ce789"
+    "artifacts/final-source.circuit.json": "91097231460d581a1dd9622eb1baeb9caef1416e425d098bf1fbe83ea83f290c",
+    "artifacts/schematic-a4.pdf": "9990dc83cfd39bc9249ea0c6ee4d063d5a0904c46909eb502468753b56c6ba12",
+    "artifacts/jlcpcb-import-report.json": "3c90c9a7741c2a25814d29b8ed8dcfccf21007ca72c2cc226205cf506ea46de4",
+    "artifacts/bom.csv": "3613ba618a89b9826e2675d9fb125064df71b2e1d882e626e8e5bc910b49e639",
+    "artifacts/drc-report.json": "609fe896aece626af2fef1fe0c1b7779ded0f3db84c310b273976fa731cf3ea9",
+    "artifacts/physical-connectivity.json": "f933d628c5650c7d62ebf3facae6fdca11ae1fb663d9d27671e9b04e9f677495",
+    "artifacts/validation/shorts.txt": "0ed756c032307b02e520eb8926f0af3b51bd27c5e10b0137140bd4b942b9c8fc",
+    "artifacts/validation/schematic-ui-review.json": "0f04cdeb9f3ca82aa8c834ccfa409c24f357f19074555de26dff84fecb3d04b1"
   },
   "usbMouthEdgeXmm": [
     -17.5,
     17.5
   ],
-  "supplierCadModels": 9,
+  "supplierCadModels": 10,
   "supplierImportsComplete": false,
   "schematicA4PageCount": 9,
-  "allNumberedPhysicalPinsOnSchematic": true
+  "allNumberedPhysicalPinsOnSchematic": true,
+  "componentCount": 41,
+  "firmwareImplemented": false,
+  "usbProgrammingHardware": true,
+  "usbFlashingBenchTested": false,
+  "physicalConnectivityCheckedNets": 33
 }

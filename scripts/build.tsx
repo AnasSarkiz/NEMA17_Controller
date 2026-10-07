@@ -1,4 +1,5 @@
 import React from "react"
+import { classifySource } from "./classify-source"
 import { prepareSchematic } from "./prepare-schematic"
 import { Circuit } from "tscircuit"
 import { convertCircuitJsonToPcbSvg, convertCircuitJsonToSchematicSvg } from "circuit-to-svg"
@@ -8,7 +9,7 @@ const circuit = new Circuit()
 circuit.add(<Nema14Controller routingDisabled={process.argv.includes("--unrouted")} />)
 console.log('Rendering NEMA14 with tscircuit local autorouter…')
 await circuit.renderUntilSettled()
-const json = prepareSchematic(circuit.getCircuitJson())
+const json = prepareSchematic(classifySource(circuit.getCircuitJson()))
 mkdirSync('artifacts', {recursive:true})
 writeFileSync(process.argv.includes('--unrouted') ? 'artifacts/final-source.circuit.json' : 'artifacts/autorouted.circuit.json', JSON.stringify(json,null,2)+'\n')
 if(!process.argv.includes('--unrouted')) {

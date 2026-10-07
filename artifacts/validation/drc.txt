@@ -1,0 +1,10 @@
+
+> NEMA14_CH32X035G8U6@1.0.5 check
+> bun scripts/check.ts
+
+{
+  "traceCount": 314,
+  "currentLimitAmps": 0.38372093023255816,
+  "errors": 0,
+  "warnings": 0
+}
