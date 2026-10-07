@@ -1,0 +1,22 @@
+[
+  [
+    "U_MCU - CH32X035G8U6",
+    "USB computer control; generates STEP/DIR.\nChecks PD voltage before enabling the motor.\nInternal clock avoids an external crystal."
+  ],
+  [
+    "U_PD - CH224K",
+    "USB-C PD sink requests a 15 V motor supply.\nPG reports a completed power negotiation."
+  ],
+  [
+    "U_LDO - HT7533-1",
+    "Creates 3.3 V for MCU and driver logic.\nDiode OR accepts either USB data power or PD."
+  ],
+  [
+    "U_DRV - A4988",
+    "Two current-regulated bridges drive the coils.\nSTEP/DIR interface; fixed 1/16 microstepping.\n0.25 ohm sense resistors set phase current."
+  ],
+  [
+    "U_ESD - USBLC6-2SC6",
+    "Clamps ESD on USB D+ and D- at the data port.\nVBUS pin references the USB protection diodes."
+  ]
+]

@@ -7,13 +7,21 @@
   "manufacturingRelease": false,
   "verified": "Source compilation, TypeScript, saved SES import/repair reproduction, full DRC, Gerber bitmap short check at 100 px/mm, clean npm ci, install script, editor HTML and JS readiness",
   "sha256": {
-    "artifacts/board.circuit.json": "fd5517dc0a133555891a2b9dcb6c1f1eb4d02627640bcdb8c90334e802a9a8c5",
-    "artifacts/nema14-gerbers.zip": "c38d5c23ccaf861f2205e942f3c6e051eb14fc5bf11f63aa980d6286c107cfc9",
+    "artifacts/board.circuit.json": "87842c473c90ad6e797413ea5178ee7872d4f0aa74efaa8fa7b96e6830923937",
+    "artifacts/nema14-gerbers.zip": "226337eb422b6276ba6438847eea4035cad6c4b01108cb24dbfe284f6fdc23e6",
     "artifacts/freerouting-input.dsn": "a2a81de758adad96e314bfefc96d219d2fda5fe09260d67d15656931ed0be031",
-    "artifacts/board.ses": "2d8e69e65a89330998d351226ad1022b08989797b629802174a8d68f897323d1"
+    "artifacts/board.ses": "2d8e69e65a89330998d351226ad1022b08989797b629802174a8d68f897323d1",
+    "artifacts/final-source.circuit.json": "1378bc27d669d01406357d251c0705acc1174df709e02bdbb19d181fd99ca5a2",
+    "artifacts/schematic-a4.pdf": "58a1ec3fcf3fa176a84de55beb2a6fe8af3c96ba44a4aa01d45ba0a5595c644b",
+    "artifacts/jlcpcb-import-report.json": "d652a13be33cc94813db2ecc3c59e87648dd1a9355d2a81a4288cfad31325a75",
+    "artifacts/bom.csv": "911f1b407b9ef6c1994cd318ade1822cda519a8b8b0ae2c40b6bf928805ce789"
   },
   "usbMouthEdgeXmm": [
     -17.5,
     17.5
-  ]
+  ],
+  "supplierCadModels": 9,
+  "supplierImportsComplete": false,
+  "schematicA4PageCount": 9,
+  "allNumberedPhysicalPinsOnSchematic": true
 }

@@ -1,0 +1,71 @@
+{
+  "mappedComponents": 9,
+  "distinctParts": 4,
+  "references": {
+    "J_PD": "C165948",
+    "J_DATA": "C165948",
+    "C_PD": "C15849",
+    "C_MCU": "C14663",
+    "C_LOGIC": "C98192",
+    "C_LDO_OUT": "C98192",
+    "C_CP": "C14663",
+    "C_VCP": "C14663",
+    "C_DRV_LOGIC": "C14663"
+  },
+  "pending": [
+    "U_PD",
+    "R_PD",
+    "R_PG",
+    "U_MCU",
+    "R_CC1",
+    "R_CC2",
+    "R_USB_SENSE_H",
+    "R_USB_SENSE_L",
+    "R_VM_H",
+    "R_VM_L",
+    "C_VM_SENSE",
+    "U_LDO",
+    "D_PD",
+    "D_DATA",
+    "C_LDO_IN",
+    "U_DRV",
+    "C_VREG",
+    "C_VM",
+    "C_BULK",
+    "R_SA",
+    "R_SB",
+    "R_REF_H",
+    "R_REF_L",
+    "C_REF",
+    "R_ENABLE",
+    "R_SLEEP",
+    "U_ESD",
+    "D_TVS"
+  ],
+  "barePcbPads": [
+    "J_MOTOR",
+    "J_DEBUG"
+  ],
+  "complete": false,
+  "blocker": "Fresh JLCPCB/EasyEDA search and asset downloads are blocked by the active network allowlist. Required hosts are saved in the cloud draft.",
+  "supplierAssetsHashVerified": true,
+  "mappedPassivePackagesMatchSavedFootprints": true,
+  "usbSupplierModelOpenings": [
+    {
+      "reference": "J_PD",
+      "supplierPart": "C165948",
+      "mouthXmm": -17.5,
+      "expectedEdgeXmm": -17.5
+    },
+    {
+      "reference": "J_DATA",
+      "supplierPart": "C165948",
+      "mouthXmm": 17.5,
+      "expectedEdgeXmm": 17.5
+    }
+  ],
+  "schematicA4PageCount": 9,
+  "allNumberedPhysicalPinsOnSchematic": true,
+  "numberedPinCount": 172,
+  "schematicNamedNetStubCoverageVerified": true
+}

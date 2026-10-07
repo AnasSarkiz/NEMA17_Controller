@@ -1,40 +1,40 @@
-Reference,Value / manufacturer part,Rating / procurement note,PCB x mm,PCB y mm,PCB rotation deg (assembly unverified)
-J_PD,TYPE-C-31-M-12,,-12.39,4.499999999999999,270
-J_DATA,TYPE-C-31-M-12,,12.39,4.5,90
-U_PD,CH224K,,-3.4,8.2,0
-R_PD,1kΩ,0603 high-power >=0.25 W (ERJ-PA3); ordinary 0.1 W unsuitable,-8.5,11.7,0
-C_PD,1uF,X7R >=10 V; see docs/bom.md,-5.5,11.7,0
-R_PG,10kΩ,"1%, >=0.1 W",-0.5,11.8,0
-U_MCU,CH32X035G8U6,,5,1.5000000000000002,0
-C_MCU,100nF,X7R >=10 V; see docs/bom.md,5.6,-3.4,0
-C_LOGIC,4.7uF,X7R >=10 V; see docs/bom.md,11,-3.5,90
-R_CC1,5.1kΩ,"1%, >=0.1 W",5.5,10.5,0
-R_CC2,5.1kΩ,"1%, >=0.1 W",8.5,12,0
-R_USB_SENSE_H,100kΩ,"1%, >=0.1 W",6.2,14,0
-R_USB_SENSE_L,100kΩ,"1%, >=0.1 W",2.1,6.5,0
-R_VM_H,100kΩ,"1%, >=0.1 W",-0.5,14,0
-R_VM_L,22kΩ,"1%, >=0.1 W",3,14,0
-C_VM_SENSE,10nF,X7R >=10 V; see docs/bom.md,-0.19999999999999996,2.2,0
-U_LDO,HT7533-1,,-5,-2.1,0
-D_PD,B5819W,,-5,3.5,0
-D_DATA,B5819W,,0,4.2,0
-C_LDO_IN,1uF,X7R 50 V,-10.9,-2.6,90
-C_LDO_OUT,4.7uF,X7R >=10 V; see docs/bom.md,-5.5,-5.8,0
-U_DRV,A4988SETTR-T,,0,-8,0
-C_CP,100nF,X7R 50 V,-4.5,-8.4,270
-C_VCP,100nF,X7R 50 V,-4.3,-11.6,270
-C_VREG,220nF,X7R >=16 V,-2,-12.3,0
-C_DRV_LOGIC,100nF,X7R >=10 V; see docs/bom.md,4.7,-10.2,0
-C_VM,100nF,X7R 50 V,0.5,-3.3,0
-C_BULK,EKMG350ELL470ME11D,"47 uF 35 V radial, 5 mm body, 2 mm pitch; polarized",-10,-7.5,0
-R_SA,250mΩ,"0805 0.25 ohm 1%, >=0.125 W",6.8,-12.8,90
-R_SB,250mΩ,"0805 0.25 ohm 1%, >=0.125 W",-6.8,-13.7,0
-R_REF_H,33kΩ,"1%, >=0.1 W",6,-5.5,0
-R_REF_L,10kΩ,"1%, >=0.1 W",6,-7.800000000000001,0
-C_REF,10nF,X7R >=10 V; see docs/bom.md,11.8,-7,0
-R_ENABLE,100kΩ,"1%, >=0.1 W",-0.5,0.5,0
-R_SLEEP,100kΩ,"1%, >=0.1 W",-6,13.5,0
-J_MOTOR,solder / programming pads,,0,-15.5,0
-J_DEBUG,solder / programming pads,,7.25,-15.5,0
-U_ESD,USBLC6-2SC6,,5.5,7.5,0
-D_TVS,SMF18A,,-7,15.6,0
+Reference,MPN,JLCPCB part,Value,Voltage rating (V),Tolerance,PCB X mm,PCB Y mm,Rotation deg,Assembly side,Review note
+J_PD,TYPE-C-31-M-12,C165948,,,,-12.39,4.499999999999999,270,top,exact supplier CAD attached; assembly review required
+J_DATA,TYPE-C-31-M-12,C165948,,,,12.39,4.5,90,top,exact supplier CAD attached; assembly review required
+U_PD,CH224K,,,,,-3.4,8.2,0,top,supplier import and CAD pending
+R_PD,,,1kΩ,,,-8.5,11.7,0,top,supplier import and CAD pending
+C_PD,CL10A105KB8NNNC,C15849,1uF,,,-5.5,11.7,0,top,exact supplier CAD attached; assembly review required
+R_PG,,,10kΩ,,,-0.5,11.8,0,top,supplier import and CAD pending
+U_MCU,CH32X035G8U6,,,,,5,1.5000000000000002,0,top,supplier import and CAD pending
+C_MCU,CC0603KRX7R9BB104,C14663,100nF,,,5.6,-3.4,0,top,exact supplier CAD attached; assembly review required
+C_LOGIC,CL21A475KBQNNNE,C98192,4.7uF,,,11,-3.5,90,top,exact supplier CAD attached; assembly review required
+R_CC1,,,5.1kΩ,,,5.5,10.5,0,top,supplier import and CAD pending
+R_CC2,,,5.1kΩ,,,8.5,12,0,top,supplier import and CAD pending
+R_USB_SENSE_H,,,100kΩ,,,6.2,14,0,top,supplier import and CAD pending
+R_USB_SENSE_L,,,100kΩ,,,2.1,6.5,0,top,supplier import and CAD pending
+R_VM_H,,,100kΩ,,,-0.5,14,0,top,supplier import and CAD pending
+R_VM_L,,,22kΩ,,,3,14,0,top,supplier import and CAD pending
+C_VM_SENSE,,,10nF,,,-0.19999999999999996,2.2,0,top,supplier import and CAD pending
+U_LDO,HT7533-1,,,,,-5,-2.1,0,top,supplier import and CAD pending
+D_PD,B5819W,,,,,-5,3.5,0,top,supplier import and CAD pending
+D_DATA,B5819W,,,,,0,4.2,0,top,supplier import and CAD pending
+C_LDO_IN,,,1uF,,,-10.9,-2.6,90,top,supplier import and CAD pending
+C_LDO_OUT,CL21A475KBQNNNE,C98192,4.7uF,,,-5.5,-5.8,0,top,exact supplier CAD attached; assembly review required
+U_DRV,A4988SETTR-T,,,,,0,-8,0,top,supplier import and CAD pending
+C_CP,CC0603KRX7R9BB104,C14663,100nF,,,-4.5,-8.4,270,top,exact supplier CAD attached; assembly review required
+C_VCP,CC0603KRX7R9BB104,C14663,100nF,,,-4.3,-11.6,270,top,exact supplier CAD attached; assembly review required
+C_VREG,,,220nF,,,-2,-12.3,0,top,supplier import and CAD pending
+C_DRV_LOGIC,CC0603KRX7R9BB104,C14663,100nF,,,4.7,-10.2,0,top,exact supplier CAD attached; assembly review required
+C_VM,,,100nF,,,0.5,-3.3,0,top,supplier import and CAD pending
+C_BULK,EKMG350ELL470ME11D,,47uF,,,-10,-7.5,0,top,supplier import and CAD pending
+R_SA,,,250mΩ,,,6.8,-12.8,90,top,supplier import and CAD pending
+R_SB,,,250mΩ,,,-6.8,-13.7,0,top,supplier import and CAD pending
+R_REF_H,,,33kΩ,,,6,-5.5,0,top,supplier import and CAD pending
+R_REF_L,,,10kΩ,,,6,-7.800000000000001,0,top,supplier import and CAD pending
+C_REF,,,10nF,,,11.8,-7,0,top,supplier import and CAD pending
+R_ENABLE,,,100kΩ,,,-0.5,0.5,0,top,supplier import and CAD pending
+R_SLEEP,,,100kΩ,,,-6,13.5,0,top,supplier import and CAD pending
+J_MOTOR,,,,,,0,-15.5,0,top,bare PCB interface
+J_DEBUG,,,,,,7.25,-15.5,0,top,bare PCB interface
+U_ESD,USBLC6-2SC6,,,,,5.5,7.5,0,top,supplier import and CAD pending
+D_TVS,SMF18A,,,,,-7,15.6,0,top,supplier import and CAD pending

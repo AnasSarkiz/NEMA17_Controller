@@ -51,3 +51,7 @@ Before ordering: obtain the motor rear drawing, review the footprint pin numberi
 ## Published project
 
 [tscircuit: NEMA14_CH32X035G8U6](https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6). GitHub rename to the same exact name is pending repository-administration authorization; see [publishing notes](docs/publishing.md).
+
+## Supplier models and A4 schematics
+
+[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. Exact JLCPCB CAD is attached to **9/37 fitted parts**; the other 28 await supplier access. Bare motor/debug/boot solder interfaces do not have fitted component models. See [supplier CAD details](docs/supplier-cad.md) and the [reference-by-reference import report](artifacts/jlcpcb-import-report.json). Saved copper and electrical pin connections are unchanged.
