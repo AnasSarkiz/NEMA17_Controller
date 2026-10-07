@@ -1,5 +1,5 @@
 
-> nema14-usb-pd-controller@1.0.0 shorts
+> nema14_CH32X035G8U6@1.0.0 shorts
 > XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/board.circuit.json --mode gerber --layer all --pixels-per-mm 100
 
 No shorts detected in board.circuit.json

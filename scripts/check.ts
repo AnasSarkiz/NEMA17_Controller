@@ -15,6 +15,13 @@ const traceCount=json.filter((e:any)=>e.type==='pcb_trace').length
 if(traceCount===0) unique.push({type:'validation_error',message:'No routed copper was produced.'})
 const board=json.find((e:any)=>e.type==='pcb_board')
 if(!board || board.width!==35 || board.height!==35) unique.push({type:'validation_error',message:'Expected a 35 by 35 mm PCB.'})
+for (const [name,edge] of [['J_PD',-17.5],['J_DATA',17.5]] as const) {
+ const source=json.find((e:any)=>e.type==='source_component' && e.name===name)
+ const component=json.find((e:any)=>e.type==='pcb_component' && e.source_component_id===source?.source_component_id)
+ const points=json.filter((e:any)=>e.type==='pcb_fabrication_note_path' && e.pcb_component_id===component?.pcb_component_id).flatMap((e:any)=>e.route)
+ const front=points.length ? (edge<0?Math.min(...points.map((p:any)=>p.x)):Math.max(...points.map((p:any)=>p.x))) : NaN
+ if(!Number.isFinite(front) || Math.abs(front-edge)>.001) unique.push({type:'validation_error',message:name+' opening is not flush with the board edge.'})
+}
 const holes=json.filter((e:any)=>e.type==='pcb_hole' && e.hole_diameter===3.2)
 if(holes.length!==4) unique.push({type:'validation_error',message:'Expected four 3.2 mm mounting holes.'})
 const vref=3.3*10000/(33000+10000), current=vref/(8*.25)

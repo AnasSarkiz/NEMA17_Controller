@@ -14265,7 +14265,7 @@
     "type": "pcb_component",
     "pcb_component_id": "pcb_component_0",
     "center": {
-      "x": -11.440000000000001,
+      "x": -12.39,
       "y": 4.499999999999999
     },
     "width": 6.620000000000001,
@@ -14279,7 +14279,7 @@
     "is_allowed_to_be_off_board": false,
     "position_mode": "relative_to_group_anchor",
     "positioned_relative_to_pcb_board_id": "pcb_board_0",
-    "display_offset_x": -12.9,
+    "display_offset_x": -13.85,
     "display_offset_y": 4.5,
     "pin1_location": "topside_left"
   },
@@ -14287,7 +14287,7 @@
     "type": "pcb_component",
     "pcb_component_id": "pcb_component_1",
     "center": {
-      "x": 11.440000000000001,
+      "x": 12.39,
       "y": 4.5
     },
     "width": 6.620000000000001,
@@ -14301,7 +14301,7 @@
     "is_allowed_to_be_off_board": false,
     "position_mode": "relative_to_group_anchor",
     "positioned_relative_to_pcb_board_id": "pcb_board_0",
-    "display_offset_x": 12.9,
+    "display_offset_x": 13.85,
     "display_offset_y": 4.5,
     "pin1_location": "topside_left"
   },
@@ -15308,7 +15308,7 @@
     "pcb_component_id": "pcb_component_0",
     "hole_shape": "circle",
     "hole_diameter": 0.65,
-    "x": -10.3,
+    "x": -11.25,
     "y": 1.6099999999999994,
     "is_covered_with_solder_mask": false,
     "subcircuit_id": "subcircuit_source_group_0"
@@ -15319,7 +15319,7 @@
     "pcb_component_id": "pcb_component_0",
     "hole_shape": "circle",
     "hole_diameter": 0.65,
-    "x": -10.3,
+    "x": -11.25,
     "y": 7.39,
     "is_covered_with_solder_mask": false,
     "subcircuit_id": "subcircuit_source_group_0"
@@ -15338,7 +15338,7 @@
       "unnamed_platedhole1",
       "pin13"
     ],
-    "x": -13.950000000000001,
+    "x": -14.9,
     "y": 0.17999999999999972,
     "layers": [
       "top",
@@ -15357,7 +15357,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 1.6,
-    "x": -13.950000000000001,
+    "x": -14.9,
     "y": 0.17999999999999972,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15370,7 +15370,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 1.6,
-    "x": -13.950000000000001,
+    "x": -14.9,
     "y": 0.17999999999999972,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15388,7 +15388,7 @@
       "unnamed_platedhole2",
       "pin13"
     ],
-    "x": -13.95,
+    "x": -14.899999999999999,
     "y": 8.82,
     "layers": [
       "top",
@@ -15407,7 +15407,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 1.6,
-    "x": -13.95,
+    "x": -14.899999999999999,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15420,7 +15420,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 1.6,
-    "x": -13.95,
+    "x": -14.899999999999999,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15438,7 +15438,7 @@
       "unnamed_platedhole3",
       "pin13"
     ],
-    "x": -9.77,
+    "x": -10.719999999999999,
     "y": 8.82,
     "layers": [
       "top",
@@ -15457,7 +15457,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 2.1,
-    "x": -9.77,
+    "x": -10.719999999999999,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15470,7 +15470,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 2.1,
-    "x": -9.77,
+    "x": -10.719999999999999,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15488,7 +15488,7 @@
       "unnamed_platedhole4",
       "pin13"
     ],
-    "x": -9.770000000000001,
+    "x": -10.72,
     "y": 0.17999999999999883,
     "layers": [
       "top",
@@ -15507,7 +15507,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 2.1,
-    "x": -9.770000000000001,
+    "x": -10.72,
     "y": 0.17999999999999883,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15520,7 +15520,7 @@
     "ccw_rotation": 270,
     "width": 1,
     "height": 2.1,
-    "x": -9.770000000000001,
+    "x": -10.72,
     "y": 0.17999999999999883,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15537,7 +15537,7 @@
       "pin7"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 4.749999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15548,7 +15548,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 4.749999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_0",
@@ -15567,7 +15567,7 @@
       "pin6"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 2.749999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15578,7 +15578,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 2.749999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_1",
@@ -15597,7 +15597,7 @@
       "pin11"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 3.249999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15608,7 +15608,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 3.249999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_2",
@@ -15627,7 +15627,7 @@
       "pin8"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 3.749999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15638,7 +15638,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 3.749999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_3",
@@ -15657,7 +15657,7 @@
       "pin9"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 4.249999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15668,7 +15668,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 4.249999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_4",
@@ -15687,7 +15687,7 @@
       "pin10"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 5.249999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15698,7 +15698,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 5.249999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_5",
@@ -15717,7 +15717,7 @@
       "pin5"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 5.749999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15728,7 +15728,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 5.749999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_6",
@@ -15747,7 +15747,7 @@
       "pin12"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 6.249999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15758,7 +15758,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": -8.855,
+    "x": -9.805,
     "y": 6.249999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_7",
@@ -15777,7 +15777,7 @@
       "pin2"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 1.2499999999999991,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15788,7 +15788,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": -8.855,
+    "x": -9.805,
     "y": 1.2499999999999991,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_8",
@@ -15807,7 +15807,7 @@
       "pin4"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 2.049999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15818,7 +15818,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": -8.855,
+    "x": -9.805,
     "y": 2.049999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_9",
@@ -15837,7 +15837,7 @@
       "pin3"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 6.949999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15848,7 +15848,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": -8.855,
+    "x": -9.805,
     "y": 6.949999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_10",
@@ -15867,7 +15867,7 @@
       "pin1"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -8.855,
+    "x": -9.805,
     "y": 7.749999999999999,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -15878,7 +15878,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": -8.855,
+    "x": -9.805,
     "y": 7.749999999999999,
     "pcb_component_id": "pcb_component_0",
     "pcb_smtpad_id": "pcb_smtpad_11",
@@ -15891,11 +15891,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -14.899999999999999,
+        "x": -15.849999999999998,
         "y": 9.2
       },
       {
-        "x": -16.8,
+        "x": -17.75,
         "y": 9.200000000000001
       }
     ],
@@ -15909,11 +15909,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -11,
+        "x": -11.95,
         "y": 9.2
       },
       {
-        "x": -13,
+        "x": -13.95,
         "y": 9.2
       }
     ],
@@ -15927,11 +15927,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -14.900000000000002,
+        "x": -15.850000000000001,
         "y": -0.20000000000000018
       },
       {
-        "x": -16.8,
+        "x": -17.75,
         "y": -0.1999999999999993
       }
     ],
@@ -15945,11 +15945,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -11.000000000000002,
+        "x": -11.950000000000001,
         "y": -0.20000000000000018
       },
       {
-        "x": -13.000000000000002,
+        "x": -13.950000000000001,
         "y": -0.20000000000000018
       }
     ],
@@ -15963,11 +15963,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -16.8,
+        "x": -17.75,
         "y": 9.200000000000001
       },
       {
-        "x": -16.8,
+        "x": -17.75,
         "y": -0.1999999999999993
       }
     ],
@@ -15981,11 +15981,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -9.250000000000002,
+        "x": -10.200000000000001,
         "y": 0.02999999999999936
       },
       {
-        "x": -16.55,
+        "x": -17.5,
         "y": 0.030000000000001137
       }
     ],
@@ -15999,11 +15999,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -16.55,
+        "x": -17.5,
         "y": 8.97
       },
       {
-        "x": -16.55,
+        "x": -17.5,
         "y": 0.030000000000001137
       }
     ],
@@ -16017,11 +16017,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -9.25,
+        "x": -10.2,
         "y": 8.969999999999999
       },
       {
-        "x": -16.55,
+        "x": -17.5,
         "y": 8.97
       }
     ],
@@ -16035,11 +16035,11 @@
     "layer": "top",
     "route": [
       {
-        "x": -9.25,
+        "x": -10.2,
         "y": 8.969999999999999
       },
       {
-        "x": -9.250000000000002,
+        "x": -10.200000000000001,
         "y": 0.02999999999999936
       }
     ],
@@ -16052,7 +16052,7 @@
     "pcb_component_id": "pcb_component_0",
     "layer": "top",
     "center": {
-      "x": -12.34,
+      "x": -13.29,
       "y": 4.5
     },
     "width": 10.64,
@@ -16066,7 +16066,7 @@
     "pcb_component_id": "pcb_component_1",
     "hole_shape": "circle",
     "hole_diameter": 0.65,
-    "x": 10.3,
+    "x": 11.25,
     "y": 7.390000000000001,
     "is_covered_with_solder_mask": false,
     "subcircuit_id": "subcircuit_source_group_0"
@@ -16077,7 +16077,7 @@
     "pcb_component_id": "pcb_component_1",
     "hole_shape": "circle",
     "hole_diameter": 0.65,
-    "x": 10.3,
+    "x": 11.25,
     "y": 1.6099999999999999,
     "is_covered_with_solder_mask": false,
     "subcircuit_id": "subcircuit_source_group_0"
@@ -16096,7 +16096,7 @@
       "unnamed_platedhole5",
       "pin13"
     ],
-    "x": 13.950000000000001,
+    "x": 14.9,
     "y": 8.82,
     "layers": [
       "top",
@@ -16115,7 +16115,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 1.6,
-    "x": 13.950000000000001,
+    "x": 14.9,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16128,7 +16128,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 1.6,
-    "x": 13.950000000000001,
+    "x": 14.9,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16146,7 +16146,7 @@
       "unnamed_platedhole6",
       "pin13"
     ],
-    "x": 13.95,
+    "x": 14.899999999999999,
     "y": 0.17999999999999972,
     "layers": [
       "top",
@@ -16165,7 +16165,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 1.6,
-    "x": 13.95,
+    "x": 14.899999999999999,
     "y": 0.17999999999999972,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16178,7 +16178,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 1.6,
-    "x": 13.95,
+    "x": 14.899999999999999,
     "y": 0.17999999999999972,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16196,7 +16196,7 @@
       "unnamed_platedhole7",
       "pin13"
     ],
-    "x": 9.77,
+    "x": 10.719999999999999,
     "y": 0.17999999999999972,
     "layers": [
       "top",
@@ -16215,7 +16215,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 2.1,
-    "x": 9.77,
+    "x": 10.719999999999999,
     "y": 0.17999999999999972,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16228,7 +16228,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 2.1,
-    "x": 9.77,
+    "x": 10.719999999999999,
     "y": 0.17999999999999972,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16246,7 +16246,7 @@
       "unnamed_platedhole8",
       "pin13"
     ],
-    "x": 9.770000000000001,
+    "x": 10.72,
     "y": 8.82,
     "layers": [
       "top",
@@ -16265,7 +16265,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 2.1,
-    "x": 9.770000000000001,
+    "x": 10.72,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16278,7 +16278,7 @@
     "ccw_rotation": 90,
     "width": 1,
     "height": 2.1,
-    "x": 9.770000000000001,
+    "x": 10.72,
     "y": 8.82,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16295,7 +16295,7 @@
       "pin7"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 4.25,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16306,7 +16306,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 4.25,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_12",
@@ -16325,7 +16325,7 @@
       "pin6"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 6.25,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16336,7 +16336,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 6.25,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_13",
@@ -16355,7 +16355,7 @@
       "pin11"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 5.75,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16366,7 +16366,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 5.75,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_14",
@@ -16385,7 +16385,7 @@
       "pin8"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 5.25,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16396,7 +16396,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 5.25,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_15",
@@ -16415,7 +16415,7 @@
       "pin9"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 4.75,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16426,7 +16426,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 4.75,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_16",
@@ -16445,7 +16445,7 @@
       "pin10"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 3.75,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16456,7 +16456,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 3.75,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_17",
@@ -16475,7 +16475,7 @@
       "pin5"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 3.25,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16486,7 +16486,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 3.25,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_18",
@@ -16505,7 +16505,7 @@
       "pin12"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 2.75,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16516,7 +16516,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.21,
-    "x": 8.855,
+    "x": 9.805,
     "y": 2.75,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_19",
@@ -16535,7 +16535,7 @@
       "pin2"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 7.75,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16546,7 +16546,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": 8.855,
+    "x": 9.805,
     "y": 7.75,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_20",
@@ -16565,7 +16565,7 @@
       "pin4"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 6.950000000000001,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16576,7 +16576,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": 8.855,
+    "x": 9.805,
     "y": 6.950000000000001,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_21",
@@ -16595,7 +16595,7 @@
       "pin3"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 2.0500000000000003,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16606,7 +16606,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": 8.855,
+    "x": 9.805,
     "y": 2.0500000000000003,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_22",
@@ -16625,7 +16625,7 @@
       "pin1"
     ],
     "is_covered_with_solder_mask": false,
-    "x": 8.855,
+    "x": 9.805,
     "y": 1.2500000000000004,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -16636,7 +16636,7 @@
     "shape": "rect",
     "width": 1.015,
     "height": 0.42,
-    "x": 8.855,
+    "x": 9.805,
     "y": 1.2500000000000004,
     "pcb_component_id": "pcb_component_1",
     "pcb_smtpad_id": "pcb_smtpad_23",
@@ -16649,11 +16649,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 14.9,
+        "x": 15.85,
         "y": -0.20000000000000018
       },
       {
-        "x": 16.8,
+        "x": 17.75,
         "y": -0.20000000000000018
       }
     ],
@@ -16667,11 +16667,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 11,
+        "x": 11.95,
         "y": -0.20000000000000018
       },
       {
-        "x": 13,
+        "x": 13.95,
         "y": -0.20000000000000018
       }
     ],
@@ -16685,11 +16685,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 14.9,
+        "x": 15.85,
         "y": 9.2
       },
       {
-        "x": 16.8,
+        "x": 17.75,
         "y": 9.2
       }
     ],
@@ -16703,11 +16703,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 11,
+        "x": 11.95,
         "y": 9.2
       },
       {
-        "x": 13,
+        "x": 13.95,
         "y": 9.2
       }
     ],
@@ -16721,11 +16721,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 16.8,
+        "x": 17.75,
         "y": -0.20000000000000018
       },
       {
-        "x": 16.8,
+        "x": 17.75,
         "y": 9.2
       }
     ],
@@ -16739,11 +16739,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 9.25,
+        "x": 10.2,
         "y": 8.969999999999999
       },
       {
-        "x": 16.55,
+        "x": 17.5,
         "y": 8.969999999999999
       }
     ],
@@ -16757,11 +16757,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 16.55,
+        "x": 17.5,
         "y": 0.03000000000000025
       },
       {
-        "x": 16.55,
+        "x": 17.5,
         "y": 8.969999999999999
       }
     ],
@@ -16775,11 +16775,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 9.25,
+        "x": 10.2,
         "y": 0.03000000000000025
       },
       {
-        "x": 16.55,
+        "x": 17.5,
         "y": 0.03000000000000025
       }
     ],
@@ -16793,11 +16793,11 @@
     "layer": "top",
     "route": [
       {
-        "x": 9.25,
+        "x": 10.2,
         "y": 0.03000000000000025
       },
       {
-        "x": 9.25,
+        "x": 10.2,
         "y": 8.969999999999999
       }
     ],
@@ -16810,7 +16810,7 @@
     "pcb_component_id": "pcb_component_1",
     "layer": "top",
     "center": {
-      "x": 12.34,
+      "x": 13.29,
       "y": 4.5
     },
     "width": 10.64,
@@ -23532,7 +23532,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 7.749999999999999,
     "source_port_id": "source_port_0"
   },
@@ -23544,7 +23544,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 1.2499999999999991,
     "source_port_id": "source_port_1"
   },
@@ -23556,7 +23556,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 6.949999999999999,
     "source_port_id": "source_port_2"
   },
@@ -23568,7 +23568,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 2.049999999999999,
     "source_port_id": "source_port_3"
   },
@@ -23580,7 +23580,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 5.749999999999999,
     "source_port_id": "source_port_4"
   },
@@ -23592,7 +23592,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 2.749999999999999,
     "source_port_id": "source_port_5"
   },
@@ -23604,7 +23604,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 4.749999999999999,
     "source_port_id": "source_port_6"
   },
@@ -23616,7 +23616,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 3.749999999999999,
     "source_port_id": "source_port_7"
   },
@@ -23628,7 +23628,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 4.249999999999999,
     "source_port_id": "source_port_8"
   },
@@ -23640,7 +23640,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 5.249999999999999,
     "source_port_id": "source_port_9"
   },
@@ -23652,7 +23652,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 3.249999999999999,
     "source_port_id": "source_port_10"
   },
@@ -23664,7 +23664,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -8.855,
+    "x": -9.805,
     "y": 6.249999999999999,
     "source_port_id": "source_port_11"
   },
@@ -23677,7 +23677,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -13.950000000000001,
+    "x": -14.9,
     "y": 0.17999999999999972,
     "source_port_id": "source_port_12"
   },
@@ -23690,7 +23690,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -13.95,
+    "x": -14.899999999999999,
     "y": 8.82,
     "source_port_id": "source_port_13"
   },
@@ -23703,7 +23703,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -9.77,
+    "x": -10.719999999999999,
     "y": 8.82,
     "source_port_id": "source_port_14"
   },
@@ -23716,7 +23716,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -9.770000000000001,
+    "x": -10.72,
     "y": 0.17999999999999883,
     "source_port_id": "source_port_15"
   },
@@ -23728,7 +23728,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 1.2500000000000004,
     "source_port_id": "source_port_16"
   },
@@ -23740,7 +23740,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 7.75,
     "source_port_id": "source_port_17"
   },
@@ -23752,7 +23752,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 2.0500000000000003,
     "source_port_id": "source_port_18"
   },
@@ -23764,7 +23764,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 6.950000000000001,
     "source_port_id": "source_port_19"
   },
@@ -23776,7 +23776,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 3.25,
     "source_port_id": "source_port_20"
   },
@@ -23788,7 +23788,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 6.25,
     "source_port_id": "source_port_21"
   },
@@ -23800,7 +23800,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 4.25,
     "source_port_id": "source_port_22"
   },
@@ -23812,7 +23812,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 5.25,
     "source_port_id": "source_port_23"
   },
@@ -23824,7 +23824,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 4.75,
     "source_port_id": "source_port_24"
   },
@@ -23836,7 +23836,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 3.75,
     "source_port_id": "source_port_25"
   },
@@ -23848,7 +23848,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 5.75,
     "source_port_id": "source_port_26"
   },
@@ -23860,7 +23860,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 8.855,
+    "x": 9.805,
     "y": 2.75,
     "source_port_id": "source_port_27"
   },
@@ -23873,7 +23873,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 13.950000000000001,
+    "x": 14.9,
     "y": 8.82,
     "source_port_id": "source_port_28"
   },
@@ -23886,7 +23886,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 13.95,
+    "x": 14.899999999999999,
     "y": 0.17999999999999972,
     "source_port_id": "source_port_29"
   },
@@ -23899,7 +23899,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 9.77,
+    "x": 10.719999999999999,
     "y": 0.17999999999999972,
     "source_port_id": "source_port_30"
   },
@@ -23912,7 +23912,7 @@
       "bottom"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": 9.770000000000001,
+    "x": 10.72,
     "y": 8.82,
     "source_port_id": "source_port_31"
   },
@@ -25702,7 +25702,7 @@
     "type": "cad_component",
     "cad_component_id": "cad_component_0",
     "position": {
-      "x": -11.440000000000001,
+      "x": -12.39,
       "y": 4.499999999999999,
       "z": 0.8
     },
@@ -25721,7 +25721,7 @@
     "type": "cad_component",
     "cad_component_id": "cad_component_1",
     "position": {
-      "x": 11.440000000000001,
+      "x": 12.39,
       "y": 4.5,
       "z": 0.8
     },

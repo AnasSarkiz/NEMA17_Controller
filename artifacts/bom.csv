@@ -1,6 +1,6 @@
 Reference,Value / manufacturer part,Rating / procurement note,PCB x mm,PCB y mm,PCB rotation deg (assembly unverified)
-J_PD,TYPE-C-31-M-12,,-11.440000000000001,4.499999999999999,270
-J_DATA,TYPE-C-31-M-12,,11.440000000000001,4.5,90
+J_PD,TYPE-C-31-M-12,,-12.39,4.499999999999999,270
+J_DATA,TYPE-C-31-M-12,,12.39,4.5,90
 U_PD,CH224K,,-3.4,8.2,0
 R_PD,1kΩ,0603 high-power >=0.25 W (ERJ-PA3); ordinary 0.1 W unsuitable,-8.5,11.7,0
 C_PD,1uF,X7R >=10 V; see docs/bom.md,-5.5,11.7,0

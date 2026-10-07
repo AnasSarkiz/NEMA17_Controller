@@ -7,9 +7,13 @@
   "manufacturingRelease": false,
   "verified": "Source compilation, TypeScript, saved SES import/repair reproduction, full DRC, Gerber bitmap short check at 100 px/mm, clean npm ci, install script, editor HTML and JS readiness",
   "sha256": {
-    "artifacts/board.circuit.json": "fa181d46d0432308a0a7a59387d63f72c0c1cf32ba804e7ce08e5c91d049c1af",
-    "artifacts/nema14-gerbers.zip": "d18036270c41d9bb3d0e1537af411d3331ca34eb6389a76edd8b15bac3d47387",
+    "artifacts/board.circuit.json": "fd5517dc0a133555891a2b9dcb6c1f1eb4d02627640bcdb8c90334e802a9a8c5",
+    "artifacts/nema14-gerbers.zip": "c38d5c23ccaf861f2205e942f3c6e051eb14fc5bf11f63aa980d6286c107cfc9",
     "artifacts/freerouting-input.dsn": "a2a81de758adad96e314bfefc96d219d2fda5fe09260d67d15656931ed0be031",
     "artifacts/board.ses": "2d8e69e65a89330998d351226ad1022b08989797b629802174a8d68f897323d1"
-  }
+  },
+  "usbMouthEdgeXmm": [
+    -17.5,
+    17.5
+  ]
 }

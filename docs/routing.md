@@ -11,6 +11,7 @@ To reproduce the saved fallback and selected repairs **from the saved input file
 ```sh
 python3 scripts/import-session.py
 python3 scripts/repair-routing.py
+python3 scripts/align-usb-edge.py
 python3 scripts/sync-source.py
 npm run build
 npm run export
@@ -29,3 +30,5 @@ java -Duser.home=/workspace/.freerouting -jar /workspace/freerouting-2.0.1.jar \
 
 JAR SHA256: `d7fd0f63f52e6d74b0fad6715f87ca9f0ffd7109d66b2a584638000270592ecf`.
 A rerun may choose different routes; the repair script targets the saved SES, not arbitrary new routes. Run all checks after changes. Gerber copper shorts are checked independently of circuit JSON. DRC success does not validate electrical behavior, rear mounting fit, USB firmware, or fabrication readiness.
+
+The USB-C front fabrication outlines are flush at x = ±17.5 mm. Both connector origins moved outward 0.95 mm to ±13.85 mm. `align-usb-edge.py` elastically extends saved copper and preserves pad identities, then separates the two bottom routes beside the upper right screw keepout. It must run once after importing/repairing the archived SES, before source synchronization. The normal check asserts both connector front faces meet the board outline.

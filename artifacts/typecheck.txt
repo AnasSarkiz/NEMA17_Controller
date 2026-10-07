@@ -1,5 +1,5 @@
 
-> nema14-usb-pd-controller@1.0.0 typecheck
+> nema14_CH32X035G8U6@1.0.0 typecheck
 > tsc --noEmit
 
 npm notice

@@ -1,5 +1,5 @@
 {
-  "name": "nema14_CH32X035G8U6",
+  "name": "NEMA14_CH32X035G8U6",
   "version": "1.0.0",
   "description": "Rear-mount NEMA14 CH32X035 USB-C PD hardware prototype",
   "main": "src/board.tsx",
@@ -14,20 +14,20 @@
     "export": "XDG_CONFIG_HOME=/workspace/.config tsci export artifacts/board.circuit.json -f gerbers -o \"$PWD/artifacts/nema14-gerbers.zip\"",
     "typecheck": "tsc --noEmit",
     "shorts": "XDG_CONFIG_HOME=/workspace/.config tsci check shorts artifacts/board.circuit.json --mode gerber --layer all --pixels-per-mm 100",
-    "publish:tscircuit": "XDG_CONFIG_HOME=/workspace/.config tsci push src/board.tsx --private --compress"
+    "publish:tscircuit": "XDG_CONFIG_HOME=/workspace/.config tsci push src/board.tsx --compress"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AnasSarkiz/nema14_CH32X035G8U6.git"
+    "url": "git+https://github.com/AnasSarkiz/NEMA14_CH32X035G8U6.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "bugs": {
-    "url": "https://github.com/AnasSarkiz/nema14_CH32X035G8U6/issues"
+    "url": "https://github.com/AnasSarkiz/NEMA14_CH32X035G8U6/issues"
   },
-  "homepage": "https://github.com/AnasSarkiz/nema14_CH32X035G8U6#readme",
+  "homepage": "https://github.com/AnasSarkiz/NEMA14_CH32X035G8U6#readme",
   "dependencies": {
     "@tscircuit/cli": "0.1.2257",
     "circuit-json-to-gerber": "0.0.112",

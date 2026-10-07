@@ -5,7 +5,8 @@ A two-layer tscircuit **hardware prototype** for the STEPperONLINE 14HM11-0404S,
 | Item | Design |
 | --- | --- |
 | Motor | 35 × 35 × 28 mm, bipolar, 0.9°, 0.4 A/phase, 10 V, 11 N·cm — specifications from the supplied product listing |
-| Board | 35 × 35 mm, two copper layers, 1.6 mm FR-4 |
+| Board | 35 × 35 mm, two copper layers, 1.6 mm FR-4; all components assembled on top |
+| USB-C placement | PD opening flush with left edge; data opening flush with right edge; pads and shell anchors inside PCB |
 | Mounting | Four Ø3.2 mm non-plated holes at (±13, ±13) mm; 26 mm square pitch; 5.4 mm square copper/component exclusions |
 | MCU | CH32X035G8U6, QFN-28 plus grounded exposed pad; internal oscillator |
 | Power USB-C | CH224K fixed request for **15 V**: CFG1 low, CFG2/CFG3 high |
@@ -39,10 +40,14 @@ Use a USB PD supply advertising a 15 V PDO. The CH224K requests 15 V; it cannot 
 
 ## Rear mounting decision
 
-The supplied listing establishes the motor envelope; it does **not** establish rear screw threads or rear-hole pitch. Manufacturer page and drawing downloads returned a network-policy 403 in this environment. The four 26 mm-spaced board holes are provisionally suitable for a separate rear adapter/standoff plate. **They are not asserted to match the motor's rear screws. Do not replace motor end-cap screws or drill the motor from these files.** The mounting drawing explicitly marks the unresolved fit. Rear installation also needs an insulating gap and clearance for motor wiring, any rear shaft/boss, and screw heads. Use an adapter plate after the rear drawing or physical motor is available.
+The supplied listing establishes the motor envelope; it does **not** establish rear screw threads or rear-hole pitch. The [manufacturer drawing](https://www.omc-stepperonline.com/download/14HM11-0404S.pdf) confirms 26 ± 0.2 mm pitch and four M3 threads, minimum 4 mm depth, on the front mounting face; it does not dimension rear attachment holes. The four 26 mm-spaced board holes are provisionally suitable for a separate rear adapter/standoff plate. **They are not asserted to match the motor's rear screws. Do not replace motor end-cap screws or drill the motor from these files.** The mounting drawing explicitly marks the unresolved fit. Rear installation also needs an insulating gap and clearance for motor wiring, any rear shaft/boss, and screw heads. Use an adapter plate after the rear drawing or physical motor is available.
 
 ## Cost and release
 
 There are 39 populated electronic/mechanical connection parts, with no purchased PD module, motor-driver module, external crystal, buck inductor, potentiometer, or motor connector. A rough small-volume component allowance is **US$4–7**, excluding PCB, assembly, shipping, motor, and supply. This is an estimate, not a vendor quote or an absolute budget guarantee. Ratings and procurement notes are in `docs/bom.md`.
 
 Before ordering: obtain the motor rear drawing, review the footprint pin numbering and assembly rotations, check the current DRC/short report, then bench-test USB, PD negotiation, disabled start-up, phase current, regeneration, and temperature. The configured install/start instructions are saved as a draft in environment settings; saving that draft does not publish the environment.
+
+## Published project
+
+[tscircuit: NEMA14_CH32X035G8U6](https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6). GitHub rename to the same exact name is pending repository-administration authorization; see [publishing notes](docs/publishing.md).

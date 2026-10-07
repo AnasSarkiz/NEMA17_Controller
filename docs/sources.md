@@ -1,6 +1,6 @@
 # Sources and evidence
 
-- Motor requested by user: https://www.omc-stepperonline.com/nema-14-bipolar-0-9deg-11ncm-15-58oz-in-0-4a-10v-35x35x28mm-4-wires-14hm11-0404s . Access to its page and presumed `/download/14HM11-0404S.pdf` was denied by the environment proxy (HTTP 403); **the presumed PDF path is not verified**. Motor electrical/envelope values come from the supplied listing text. No rear drawing was read.
+- Motor requested by user: https://www.omc-stepperonline.com/nema-14-bipolar-0-9deg-11ncm-15-58oz-in-0-4a-10v-35x35x28mm-4-wires-14hm11-0404s . Manufacturer drawing verified: https://www.omc-stepperonline.com/download/14HM11-0404S.pdf . It confirms 0.40 A/phase, 25 Ω ±10%, 24 mH ±20%, 0.9° steps, and front-face 26 ±0.2 mm M3 mounting pitch. Rear attachment dimensions are absent.
 - Official WCH SDK: https://github.com/openwch/ch32x035 . Its Snake board embeds a CH32X035G8U6 symbol and QFN28/4×4/0.4/2.6×2.6 footprint.
 - Current KiCad symbols: https://gitlab.com/kicad/libraries/kicad-symbols , inspected revision `e1bb0a65cb243525367c5dc7294665b9fd57fc4d`; `MCU_WCH_RiscV/CH32X035G8U6` and `Interface_USB/CH224K` establish pin mapping and package selection.
 - Current KiCad footprints: https://gitlab.com/kicad/libraries/kicad-footprints ; `SSOP-10-1EP_3.9x4.9mm_P1mm_EP2.1x3.3mm` and `SOT-89-3` establish the corrected PD and regulator land dimensions.
