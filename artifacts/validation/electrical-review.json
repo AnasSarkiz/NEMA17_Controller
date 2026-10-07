@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-07T23:56:24.146612+00:00",
+  "boardSha256": "85d545ee603fda6e4acecc893c84e608719a590ea8ebd1e66e7ec00a19c81107",
+  "sourceCompilationPassed": true,
+  "typecheckPassed": true,
+  "renderBuildPassed": true,
+  "physicalPinAssignmentsPassed": true,
+  "drcErrors": 0,
+  "drcWarnings": 0,
+  "allLayerGerberShortsAt100PxPerMm": 0,
+  "segmentsChecked": 684,
+  "viasChecked": 59,
+  "physicalNetsChecked": 33,
+  "motorSenseDividerOhms": [
+    100000,
+    10000
+  ],
+  "nominalPhaseCurrentA": 0.350765306122449,
+  "phaseCurrentEngineeringBudgetA": 0.3968801324163417,
+  "currentBudgetQualified": false,
+  "assemblyRotationReviewPending": true,
+  "manufacturingRelease": false,
+  "remainingChecks": [
+    "Assembly rotations and supplier electrical limits",
+    "USB enumeration/flashing, orientations and power-source combinations",
+    "Ground current sharing, sense offsets and motor phase current",
+    "Regulator stability/temperatures and motor-bus regeneration",
+    "Rear mounting adapter fit"
+  ],
+  "report": "docs/electrical.md"
+}

@@ -1,10 +1,13 @@
 
-> NEMA14_CH32X035G8U6@1.0.5 check
+> NEMA14_CH32X035G8U6@1.1.4 check
 > bun scripts/check.ts
 
 {
-  "traceCount": 314,
-  "currentLimitAmps": 0.38372093023255816,
+  "traceCount": 351,
+  "currentLimitAmps": 0.350765306122449,
+  "currentLimitEngineeringBudgetAmps": 0.3968801324163417,
+  "currentLimitBudgetIsNotQualified": true,
+  "motorAdcAt35VWorstVolts": 3.240146654445463,
   "errors": 0,
   "warnings": 0
 }

@@ -32,7 +32,7 @@ The routing workflow is recorded in `docs/routing.md`. Render the saved final la
 
 ## Electrical choices
 
-The A4988 regulates coil current, so 15 V supply does not apply a constant 15 V to the 10 V-rated windings. VREF = 3.3 × 10/(39+10) = 0.6735 V; I_peak = VREF/(8 × 0.24 Ω) = 0.3508 A. The tolerance/engineering allowance estimates 0.3815 A; current and temperature must be measured on a prototype. The motor has 400 full steps/revolution, giving 6,400 commanded microsteps/revolution.
+The A4988 regulates coil current, so 15 V supply does not apply a constant 15 V to the 10 V-rated windings. VREF = 3.3 × 10/(39+10) = 0.6735 V; I_peak = VREF/(8 × 0.24 Ω) = 0.3508 A. The tolerance/engineering allowance estimates 0.3969 A; current and temperature must be measured on a prototype. The motor has 400 full steps/revolution, giving 6,400 commanded microsteps/revolution.
 
 The motor bridge draws only from `PD_VBUS`. Two B5819W Schottky diodes OR `PD_VBUS` and `DATA_VBUS` into a 30 V-rated HT7533-1 3.3 V regulator. This lets the MCU enumerate from the computer alone and prevents 15 V backfeeding into the computer's VBUS. Both ports share signal ground. The linear regulator supplies only logic; motor current bypasses it. Driver SLEEP has a pull-down and ENABLE_N a pull-up, so the bridge remains disabled until firmware deliberately enables it.
 
@@ -65,3 +65,7 @@ The GitHub repository is currently [AnasSarkiz/NEMA17_Controller](https://github
 The public main entry point is `index.circuit.tsx`, which exports the board from `src/board.tsx`. `index.circuit.json` is the checked saved layout; publication refreshes it from `artifacts/board.circuit.json` and includes both JSON files. `tscircuit.config.json` selects the root source entry and saved-layout preview.
 
 Publication uses the CLI build-output option: `tsci push index.circuit.tsx --include-dist`. Before uploading, the script runs `tsci build index.circuit.json` and verifies that `dist/index/circuit.json` equals the checked saved routing.
+
+## Copper and electrical review
+
+The [electrical review](docs/electrical.md) records power-trace widening, filled grounds, the corrected 100 kΩ/10 kΩ motor-voltage divider, copper-thickness requirements, and remaining prototype tests. Run `npm run check:copper` for the actual saved-segment audit. The [machine-readable report](artifacts/trace-width-review.json) distinguishes isolated tracks from parallel ground-plane paths; software checks do not certify hardware operation.

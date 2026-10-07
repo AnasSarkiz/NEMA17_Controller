@@ -1,0 +1,36 @@
+{
+  "clearanceMm": 0.2,
+  "edgeMarginMm": 0.35,
+  "regions": [
+    {
+      "layer": "top",
+      "areaMm2": 518.6041960949892,
+      "holes": 3
+    },
+    {
+      "layer": "top",
+      "areaMm2": 18.821535895045507,
+      "holes": 1
+    },
+    {
+      "layer": "top",
+      "areaMm2": 11.738332821005683,
+      "holes": 0
+    },
+    {
+      "layer": "top",
+      "areaMm2": 29.67557031907412,
+      "holes": 0
+    },
+    {
+      "layer": "top",
+      "areaMm2": 12.166810155740453,
+      "holes": 0
+    },
+    {
+      "layer": "bottom",
+      "areaMm2": 825.0860816696995,
+      "holes": 12
+    }
+  ]
+}

@@ -37,7 +37,7 @@ export default function Nema14Controller({ routingDisabled = false }: { routingD
   {resistor('R_USB_SENSE_H','100k','DATA_VBUS','DATA_PRESENT')}
   {resistor('R_USB_SENSE_L','100k','DATA_PRESENT','GND')}
   {resistor('R_VM_H','100k','PD_VBUS','VM_SENSE')}
-  {resistor('R_VM_L','22k','VM_SENSE','GND')}
+  {resistor('R_VM_L','10k','VM_SENSE','GND')}
   {cap('C_VM_SENSE','10nF','VM_SENSE')}
   <SupplierPart name="U_LDO" {...pinProps("U_LDO")}  pinLabels={{pin1:'GND',pin2:'VIN',pin3:'VOUT'}} {...place("U_LDO")} connections={{VIN:n('LOGIC_IN'),GND:n('GND'),VOUT:n('V3V3')}} />
   <SupplierPart name="D_PD" {...place("D_PD")} connections={{anode:n('PD_VBUS'),cathode:n('LOGIC_IN')}} />

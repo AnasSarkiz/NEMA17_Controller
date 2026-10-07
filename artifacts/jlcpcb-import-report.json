@@ -16,7 +16,7 @@
     "R_USB_SENSE_H": "C25803",
     "R_USB_SENSE_L": "C25803",
     "R_VM_H": "C25803",
-    "R_VM_L": "C31850",
+    "R_VM_L": "C25804",
     "C_VM_SENSE": "C1589",
     "U_LDO": "C14289",
     "D_PD": "C8598",
