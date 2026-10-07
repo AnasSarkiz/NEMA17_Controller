@@ -1,0 +1,14 @@
+{
+  "project": "NEMA14_CH32X035G8U6",
+  "publishedVersion": "1.1.4",
+  "cliVersion": "0.1.2261",
+  "pushOption": "--include-dist",
+  "buildCommand": "tsci build index.circuit.json",
+  "pushCommand": "tsci push index.circuit.tsx --include-dist",
+  "uploadedDistCircuitPath": "dist/index/circuit.json",
+  "nativeBuildMatchesCheckedLayout": true,
+  "registryDistMatchesCheckedLayout": true,
+  "registryDistContentSha256": "d1f8bdd5308079da5df23d27db8b8bde9f84271e0c0b6f56b3d8fdcc8e549ec1",
+  "pcbTraceCount": 351,
+  "fittedCadModelCount": 38
+}

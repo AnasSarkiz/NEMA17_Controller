@@ -1,6 +1,6 @@
 {
   "project": "NEMA14_CH32X035G8U6",
-  "publishedVersion": "1.1.2",
+  "publishedVersion": "1.1.4",
   "mainEntrypoint": "index.circuit.tsx",
   "rootJsonMatchesCheckedSavedLayout": true,
   "sourceCompilationLeavesBoardAndSourceHashesUnchanged": true,
@@ -23,7 +23,7 @@
     {
       "path": "package.json",
       "registryMatchesLocal": true,
-      "sha256": "eaf1e1e7097067af6f989873a9e8f973c3f0d172f8da6b270723f39be5f75fb9"
+      "sha256": "2313197f9a0aa32635d3d02242ec1ae38d8cc652215c68f4f46520607ecb39de"
     },
     {
       "path": "tscircuit.config.json",

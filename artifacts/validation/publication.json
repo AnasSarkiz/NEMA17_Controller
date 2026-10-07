@@ -1,6 +1,6 @@
 {
   "project": "NEMA14_CH32X035G8U6",
-  "registryVersion": "1.1.2",
+  "registryVersion": "1.1.4",
   "registryBoardMatchesLocal": true,
   "githubBoardMatchesLocal": true,
   "modelFiles": [
