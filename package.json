@@ -1,6 +1,6 @@
 {
   "name": "NEMA14_CH32X035G8U6",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rear-mount NEMA14 CH32X035 USB-C PD hardware prototype",
   "main": "src/board.tsx",
   "scripts": {

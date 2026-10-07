@@ -11,4 +11,4 @@ git remote set-url origin https://github.com/AnasSarkiz/NEMA14_CH32X035G8U6.git
 git push origin HEAD:main
 ```
 
-Both projects are public. Publication does not imply firmware completion, tested electrical behavior, rear mounting compatibility, or manufacturing approval.
+The registry upload is independent; automatic GitHub linking was rejected because the repository is not accessible to the tscircuit GitHub app installation. Both projects are public. Publication does not imply firmware completion, tested electrical behavior, rear mounting compatibility, or manufacturing approval.
