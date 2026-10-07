@@ -20,7 +20,7 @@
     "artifacts/supplier-cad-alignment.json": "4074dd40707919f820ee4512649fad534ea93ff8ff7f68db198d769a82270aff",
     "artifacts/jlcpcb-import-report.json": "6a6ba95a0a3c1f1db7e277f5a77a918bcd2ed99bf5ab54766b4e74eae92306f4",
     "artifacts/supplier-routing-adjustments.json": "3ec927fc8e25eb1020c96674024e5640ca3b065d88ef414f4e37539cc197a6cb",
-    "artifacts/drc-report.json": "eae5471439fe253daf946ef1a6be07ccb3d4be495c38cc787ba26b6cbea9b3d7",
+    "artifacts/drc-report.json": "0a9086b7d5579e43802b7b6b647f003011ab4dd05ae8587f29dbe4a446842037",
     "artifacts/manual-repairs.json": "459b201235a29b5a86a0ab02ef939b1935fb1c1803c8e98aa3f13d9a1da9e165",
     "artifacts/final-source.circuit.json": "558e530d916db2c3605513397bb75e96d6a7feaaed437fd8b5c47e32ce5fdbfa",
     "artifacts/supplier-board.ses": "c43c73a875f6049e23cf24cc80ae82d5146fcb7cafd0777be3bf65bede880ac2",

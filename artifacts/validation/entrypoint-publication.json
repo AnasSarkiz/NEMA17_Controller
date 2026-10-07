@@ -1,0 +1,80 @@
+{
+  "project": "NEMA14_CH32X035G8U6",
+  "publishedVersion": "1.1.2",
+  "mainEntrypoint": "index.circuit.tsx",
+  "rootJsonMatchesCheckedSavedLayout": true,
+  "sourceCompilationLeavesBoardAndSourceHashesUnchanged": true,
+  "files": [
+    {
+      "path": "index.circuit.tsx",
+      "registryMatchesLocal": true,
+      "sha256": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb"
+    },
+    {
+      "path": "index.circuit.json",
+      "registryMatchesLocal": true,
+      "sha256": "064cc18660f2f765ce25a6c2e476a0d7d986cd3a13cfebdcf266d6051e6044a8"
+    },
+    {
+      "path": "artifacts/board.circuit.json",
+      "registryMatchesLocal": true,
+      "sha256": "24751c12fb0cdc8cfada8141e6c62c0317c3e94b8be3183b380e5d0c756312f1"
+    },
+    {
+      "path": "package.json",
+      "registryMatchesLocal": true,
+      "sha256": "eaf1e1e7097067af6f989873a9e8f973c3f0d172f8da6b270723f39be5f75fb9"
+    },
+    {
+      "path": "tscircuit.config.json",
+      "registryMatchesLocal": true,
+      "sha256": "016c429933d4fc5b72ee423849c58f02fdeb9def7d81f5a6a2e95572aa784194"
+    }
+  ],
+  "publishedSourceImportsAndA4SvgsMatchLocal": true,
+  "additionalFilesVerified": [
+    "artifacts/schematic-a4-page-01.svg",
+    "artifacts/schematic-a4-page-02.svg",
+    "artifacts/schematic-a4-page-03.svg",
+    "artifacts/schematic-a4-page-04.svg",
+    "artifacts/schematic-a4-page-05.svg",
+    "artifacts/schematic-a4-page-06.svg",
+    "artifacts/schematic-a4-page-07.svg",
+    "artifacts/schematic-a4-page-08.svg",
+    "artifacts/schematic-a4-page-09.svg",
+    "artifacts/schematic.svg",
+    "imports/supplier/A4988SETTR_T/A4988SETTR_T.tsx",
+    "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.tsx",
+    "imports/supplier/A_0603WAF1001T5E/A_0603WAF1001T5E.tsx",
+    "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.tsx",
+    "imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.tsx",
+    "imports/supplier/A_0603WAF2202T5E/A_0603WAF2202T5E.tsx",
+    "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.tsx",
+    "imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.tsx",
+    "imports/supplier/B5819W_SL/B5819W_SL.tsx",
+    "imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.tsx",
+    "imports/supplier/CC0805KRX7R9BB104/CC0805KRX7R9BB104.tsx",
+    "imports/supplier/CH224K/CH224K.tsx",
+    "imports/supplier/CH32X035G8U6/CH32X035G8U6.tsx",
+    "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.tsx",
+    "imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.tsx",
+    "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.tsx",
+    "imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.tsx",
+    "imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.tsx",
+    "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.tsx",
+    "imports/supplier/FRL0805FR240TS/FRL0805FR240TS.tsx",
+    "imports/supplier/HT7533_1/HT7533_1.tsx",
+    "imports/supplier/RVT1V470M0605/RVT1V470M0605.tsx",
+    "imports/supplier/SMF18A/SMF18A.tsx",
+    "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.tsx",
+    "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.tsx",
+    "scripts/publish-tscircuit.sh",
+    "src/board.tsx",
+    "src/jlcpcb-catalog.json",
+    "src/pin-attributes.ts",
+    "src/schematic-notes.json",
+    "src/schematic-notes.tsx",
+    "src/supplier-parts.tsx",
+    "src/supplier-placement.json"
+  ]
+}
