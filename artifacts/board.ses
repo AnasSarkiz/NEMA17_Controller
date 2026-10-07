@@ -122,11 +122,11 @@
   )
   (was_is
   )
-  (routes 
+  (routes
     (resolution um 10)
     (parser
     )
-    (library_out 
+    (library_out
       (padstack via600
         (shape
           (circle F.Cu 6000 0 0)
@@ -155,7 +155,7 @@
         (attach off)
       )
     )
-    (network_out 
+    (network_out
       (net GND
         (wire
           (path B.Cu 2000
