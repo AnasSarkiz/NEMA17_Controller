@@ -1,0 +1,1 @@
+Footprint geometry and reference pinouts were derived from KiCad libraries (CC-BY-SA 4.0 with their library exception) and the Adafruit A4988 hardware reference. See docs/sources.md for attribution and revisions. Third-party software is installed through npm under its respective licenses. Freerouting is GPL-3.0; its external tool JAR is not included as design source.

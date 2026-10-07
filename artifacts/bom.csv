@@ -1,0 +1,40 @@
+Reference,Value / manufacturer part,Rating / procurement note,PCB x mm,PCB y mm,PCB rotation deg (assembly unverified)
+J_PD,TYPE-C-31-M-12,,-11.440000000000001,4.499999999999999,270
+J_DATA,TYPE-C-31-M-12,,11.440000000000001,4.5,90
+U_PD,CH224K,,-3.4,8.2,0
+R_PD,1kΩ,0603 high-power >=0.25 W (ERJ-PA3); ordinary 0.1 W unsuitable,-8.5,11.7,0
+C_PD,1uF,X7R >=10 V; see docs/bom.md,-5.5,11.7,0
+R_PG,10kΩ,"1%, >=0.1 W",-0.5,11.8,0
+U_MCU,CH32X035G8U6,,5,1.5000000000000002,0
+C_MCU,100nF,X7R >=10 V; see docs/bom.md,5.6,-3.4,0
+C_LOGIC,4.7uF,X7R >=10 V; see docs/bom.md,11,-3.5,90
+R_CC1,5.1kΩ,"1%, >=0.1 W",5.5,10.5,0
+R_CC2,5.1kΩ,"1%, >=0.1 W",8.5,12,0
+R_USB_SENSE_H,100kΩ,"1%, >=0.1 W",6.2,14,0
+R_USB_SENSE_L,100kΩ,"1%, >=0.1 W",2.1,6.5,0
+R_VM_H,100kΩ,"1%, >=0.1 W",-0.5,14,0
+R_VM_L,22kΩ,"1%, >=0.1 W",3,14,0
+C_VM_SENSE,10nF,X7R >=10 V; see docs/bom.md,-0.19999999999999996,2.2,0
+U_LDO,HT7533-1,,-5,-2.1,0
+D_PD,B5819W,,-5,3.5,0
+D_DATA,B5819W,,0,4.2,0
+C_LDO_IN,1uF,X7R 50 V,-10.9,-2.6,90
+C_LDO_OUT,4.7uF,X7R >=10 V; see docs/bom.md,-5.5,-5.8,0
+U_DRV,A4988SETTR-T,,0,-8,0
+C_CP,100nF,X7R 50 V,-4.5,-8.4,270
+C_VCP,100nF,X7R 50 V,-4.3,-11.6,270
+C_VREG,220nF,X7R >=16 V,-2,-12.3,0
+C_DRV_LOGIC,100nF,X7R >=10 V; see docs/bom.md,4.7,-10.2,0
+C_VM,100nF,X7R 50 V,0.5,-3.3,0
+C_BULK,EKMG350ELL470ME11D,"47 uF 35 V radial, 5 mm body, 2 mm pitch; polarized",-10,-7.5,0
+R_SA,250mΩ,"0805 0.25 ohm 1%, >=0.125 W",6.8,-12.8,90
+R_SB,250mΩ,"0805 0.25 ohm 1%, >=0.125 W",-6.8,-13.7,0
+R_REF_H,33kΩ,"1%, >=0.1 W",6,-5.5,0
+R_REF_L,10kΩ,"1%, >=0.1 W",6,-7.800000000000001,0
+C_REF,10nF,X7R >=10 V; see docs/bom.md,11.8,-7,0
+R_ENABLE,100kΩ,"1%, >=0.1 W",-0.5,0.5,0
+R_SLEEP,100kΩ,"1%, >=0.1 W",-6,13.5,0
+J_MOTOR,solder / programming pads,,0,-15.5,0
+J_DEBUG,solder / programming pads,,7.25,-15.5,0
+U_ESD,USBLC6-2SC6,,5.5,7.5,0
+D_TVS,SMF18A,,-7,15.6,0
