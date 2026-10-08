@@ -1,0 +1,4 @@
+
+> NEMA14_CH32X035G8U6@1.1.5 typecheck
+> tsc --noEmit
+

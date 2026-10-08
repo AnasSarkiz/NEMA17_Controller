@@ -1,0 +1,12 @@
+{
+  "replayedAdjustments": 189,
+  "exactCopperRecordsEqual": true,
+  "allRecordValuesEqualAfterPresentationSync": true,
+  "bareInsertionMetadataReplayed": 3,
+  "replayedJsonSha256": "f8a6a059b8818c48a88e0edd304099f4837d2c5a94382832fa09ff25dd217218",
+  "acceptedCanonicalBoardSha256": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
+  "supplierImportSha256": "ff66917ea0d33f2ae7ac775a2433c570341ff6008bd28a318bddba112e79171c",
+  "orderAndPresentationRefreshRequired": true,
+  "isolatedTemporaryReplay": true,
+  "acceptedCanonicalSnapshotUnchanged": true
+}

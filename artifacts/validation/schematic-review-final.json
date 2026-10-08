@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-08",
+  "source_json_sha256": "6d1b86d16b4794e18fca31de02facb63efac6cde4ba58d827ff16a7c24d65420",
+  "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+  "cli": {
+    "package": "@tscircuit/cli",
+    "command": "tsci check schematic-placement artifacts/validation/native-a4-review/same-edge-current-source.circuit.json",
+    "version": "0.1.2261",
+    "exit_code": 0,
+    "finding_count": 0,
+    "stdout": "same-edge-placement-cli.txt",
+    "stderr": "same-edge-placement-cli-stderr.txt",
+    "input_binding": "The schematic-placement CLI input remains the immutable earlier snapshot named in its command; exact full source/schematic equality to latest source is proven separately.",
+    "executed": true
+  },
+  "native_browser_ui": {
+    "executed": true,
+    "browser": "Chromium via Playwright",
+    "pages_reviewed": 10,
+    "all_pages_opened": true,
+    "script_errors": 0,
+    "component_labels_complete": true,
+    "A4_width_mm": 297,
+    "A4_height_mm": 210,
+    "report_file": "native-a4-review/browser-review.json",
+    "screenshots": "native-a4-review/ui-page-NN.png"
+  },
+  "agent_visual_review": {
+    "executed": true,
+    "pages": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "observations": "All sheet borders, components, named nets, NC labels and chip purpose notes were inspected in rendered native PNGs. Generic imported parts with no supported symbol now show readable boxes and physical pin labels/numbers. RP crystal width and bottom purpose-note border collision are corrected. No remaining visible clipping/overlap observed at rendered resolution.",
+    "remaining_presentation_findings": []
+  },
+  "corrections": [
+    "U_VM_ISO width hardcoded by prepareSchematic corrected to1.865 as actual CLI suggested.",
+    "Set is_box_with_pins=true when a supplier import has no supported schematic symbol: Q_DATA and D_TVS both; Y_MCU RP.",
+    "RP crystal generic width1.96 as actual CLI suggested; purpose-note spacing2.05 to fit all9 notes."
+  ],
+  "metadata_only_proof": {
+    "pcb_geometry_types": [
+      "pcb_component",
+      "pcb_courtyard_outline",
+      "pcb_courtyard_rect",
+      "pcb_hole",
+      "pcb_plated_hole",
+      "pcb_port",
+      "pcb_smtpad"
+    ],
+    "before_record_count": 498,
+    "after_record_count": 498,
+    "physical_records_unchanged": true,
+    "source_and_electrical_records_unchanged": true,
+    "new_vm_switch_schematic_width": 1.865,
+    "source_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+    "authoritative_saved_copper_modified_by_this_review": false,
+    "presentation_fix": "generic-box flag true for imported parts without supported symbol; RP purposes spaced2.05 units to fit border"
+  },
+  "official_ide": {
+    "executed_in_this_pass": false,
+    "previous_limitation": "Official IDE attempt recorded disabled schematic tab for saved JSON and unavailable WebGPU adapter. Native project review UI and actual CLI provide separately identified review evidence; no claim of official IDE analyzer completion."
+  },
+  "scope_limit": "This source schematic placement/presentation review does not prove PCB/CAM connectivity, physical motor operation, firmware availability or bench qualification; final copper/CAM validation is separate.",
+  "browser_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+  "same_edge_source_rebind": {
+    "date_utc": "2026-10-08T20:29:40.062965+00:00",
+    "fresh_source_json_sha256": "3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4",
+    "visually_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+    "every_source_and_schematic_record_equal": true,
+    "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+    "reviewed_A4_pages": 10,
+    "fresh_source_error_count": 0,
+    "fitted_supplier_count": 44,
+    "fresh_actual_CLI": {
+      "command": "tsci check schematic-placement artifacts/validation/native-a4-review/same-edge-current-source.circuit.json",
+      "version": "0.1.2261",
+      "exit_code": 0,
+      "finding_count": 0,
+      "stdout": "same-edge-placement-cli.txt",
+      "stderr": "same-edge-placement-cli-stderr.txt",
+      "input_binding": "Immutable snapshot copied from actual freshly compiled final-source; reported fresh_source_json_sha256 identifies the exact CLI input."
+    },
+    "ports": [
+      {
+        "reference": "J_PD",
+        "pcb_component_native_bbox_center_mm": {
+          "x": -5.3,
+          "y": 12.57501465
+        },
+        "pcb_rotation_deg": 180,
+        "logical_and_CAD_anchor_y_mm": 12.1499711,
+        "CAD_rotation_deg": 0,
+        "mating_plane_y_mm": 17.5
+      },
+      {
+        "reference": "J_DATA",
+        "pcb_component_native_bbox_center_mm": {
+          "x": 5.3,
+          "y": 12.57501465
+        },
+        "pcb_rotation_deg": 180,
+        "logical_and_CAD_anchor_y_mm": 12.1499711,
+        "CAD_rotation_deg": 0,
+        "mating_plane_y_mm": 17.5
+      }
+    ],
+    "cable_gate": "Compact overmolds no more than10mm wide; actual simultaneous insertion/carrier/screw/bend clearance must be physically qualified.",
+    "validity": "PCB pose changes leave reviewed electrical/schematic records identical. The original24-page browser/visual review remains valid for this source; no new browser run claimed. Final saved copper/CAM metadata rebinding remains parent-owned."
+  },
+  "metadata_only_proof_scope": "Preserved original proof of presentation-only edits before USB placement revision; new placement itself is not claimed unchanged.",
+  "bare_interface_metadata_rebind": {
+    "date_utc": "2026-10-08T20:51:52.295584+00:00",
+    "source_json_sha256": "6d1b86d16b4794e18fca31de02facb63efac6cde4ba58d827ff16a7c24d65420",
+    "visually_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+    "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+    "every_source_and_schematic_record_equal": true,
+    "reviewed_A4_pages": 10,
+    "change": "Bare J_MOTOR/J_DEBUG/J_BOOT now explicitly declare insertion direction; no electrical/schematic changes.",
+    "scope": "Preserves completed24-page native A4 visual/browser review and prior exact-snapshot schematic-placement CLI result. New root official netlist/pin/source/PCB-placement results are separate; no blanket zero-placement-findings claim."
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-08T20:49:58.178595+00:00",
+  "sourceSHA256": "6d1b86d16b4794e18fca31de02facb63efac6cde4ba58d827ff16a7c24d65420",
+  "checks": {
+    "netlist": {
+      "command": [
+        "tsci",
+        "check",
+        "netlist",
+        "index.circuit.tsx"
+      ],
+      "exitCode": 0
+    },
+    "pin_specification": {
+      "command": [
+        "tsci",
+        "check",
+        "pin_specification",
+        "index.circuit.tsx"
+      ],
+      "exitCode": 0
+    },
+    "placement": {
+      "command": [
+        "tsci",
+        "check",
+        "placement",
+        "artifacts/validation/native-cli-final/source.circuit.json"
+      ],
+      "exitCode": 1,
+      "drcErrors": 0,
+      "drcWarnings": 0,
+      "disposition": "Nonzero exit for unrouted airwire crossing/rotation advice. Same advice on accepted saved-board; source geometrical DRC0/0, actual source+CAM routing separately checked."
+    },
+    "source": {
+      "command": [
+        "tsci",
+        "check",
+        "source",
+        "index.circuit.tsx"
+      ],
+      "exitCode": 0
+    },
+    "placementSavedBoard": {
+      "command": [
+        "tsci",
+        "check",
+        "placement",
+        "artifacts/board.circuit.json"
+      ],
+      "exitCode": 1,
+      "drcErrors": 0,
+      "drcWarnings": 0,
+      "log": "artifacts/validation/native-cli-final/placement-saved-board.txt"
+    }
+  },
+  "previousJsonNetlistAttempt": "Unsupported JSON input for netlist produced React array type error; final command uses TSX entrypoint."
+}

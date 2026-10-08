@@ -1,0 +1,28 @@
+{
+  "boardSha256": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
+  "input": "artifacts/board.circuit.json",
+  "exactNativePadsChecked": true,
+  "nativeObjHashVerified": true,
+  "courtyardExclusionScope": "J_PD/J_DATA only; supplier rectangle preserved; actual pad and native projected-body checked independently",
+  "cableRequirement": "maximum 10 mm overmold width at 10.6 mm pitch; qualify selected physical cables",
+  "nativeSTEPFinalMechanicalReviewRequired": true,
+  "ports": [
+    {
+      "reference": "J_PD",
+      "nativePadCount": 16,
+      "minimumCopperTo5p4mmCircleMm": 0.4459798384500903,
+      "nativeObjProjectedBodyToCircleMm": 0.5300000000000011,
+      "mouthYmm": 17.50000000000005,
+      "cadAngleDeg": 0
+    },
+    {
+      "reference": "J_DATA",
+      "nativePadCount": 16,
+      "minimumCopperTo5p4mmCircleMm": 0.4459798384500895,
+      "nativeObjProjectedBodyToCircleMm": 0.5300000000000011,
+      "mouthYmm": 17.50000000000005,
+      "cadAngleDeg": 0
+    }
+  ],
+  "passed": true
+}

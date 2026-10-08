@@ -2,3 +2,6 @@ numpy==2.3.5
 Pillow==12.3.0
 CairoSVG==2.8.2
 pypdf==6.1.1
+JPype1==1.7.1
+cadquery==2.6.1
+matplotlib==3.11.2

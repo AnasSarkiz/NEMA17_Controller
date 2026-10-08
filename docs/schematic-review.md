@@ -1,0 +1,15 @@
+# Schematic review
+
+The latest source schematic was checked with installed `@tscircuit/cli` **0.1.2261** using `tsci check schematic-placement artifacts/final-source.circuit.json`: exit **0**, **zero findings**. The native project review UI opened every **10 A4 sheet**, checked complete component-reference coverage and produced no browser script errors. Every rendered sheet was visually reviewed for bodies, named nets, NC labels, chip purpose notes and page boundaries.
+
+The review corrected a hardcoded switch-symbol width, supplier symbols that omitted their generic schematic bodies, and the RP crystal width and bottom purpose-note overflow. Readable generic boxes preserve exact imported component identities, physical pin numbers/names and native PCB/CAD; they are presentation metadata. PCB footprint/port/courtyard/hole records and all source electrical records were compared before and after and remained unchanged.
+
+Evidence: [final report](../artifacts/validation/schematic-review-final.json), [browser page records](../artifacts/validation/native-a4-review/browser-review.json), [native A4 snapshots and screenshots](../artifacts/validation/native-a4-review), [metadata equality proof](../artifacts/validation/native-a4-review/metadata-only-proof.json). Reviewed source SHA-256: `c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb`. Placement-only PCB changes do not invalidate the schematic content hash in the report; electrical or schematic changes require another review.
+
+This UI is the project's native SVG review UI adapted to actual CLI output. The official IDE schematic analyzer was **not executed in this pass**; the prior attempt recorded its saved-JSON schematic tab disabled and no WebGPU adapter. These results do not claim official IDE analysis, final copper/CAM validation or physical board qualification.
+
+## Same-edge placement rebind
+
+The updated source places both USB-C ports outward at +Y. Every `source_*` and `schematic_*` record was compared against the complete browser/visual review snapshot and remained equal. The actual installed CLI was rerun on the updated source: exit 0, zero schematic-placement findings. The original page screenshots remain valid; no new browser run is claimed. See [rebind proof](../artifacts/validation/native-a4-review/same-edge-source-rebind.json). Current source SHA-256: `3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4`. Native PCB bounding-box centers are X±5.3/Y12.57501465 mm, rotation180°; logical/CAD anchors are Y12.1499711 mm, CAD rotation0°, and both mouths are at Y17.5 mm. These different datums do not establish the supplier pickup-center convention. Final saved copper/CAM binding is validated separately.
+
+The later bare-interface insertion metadata correction also leaves every source/schematic record equal: [final metadata rebind](../artifacts/validation/native-a4-review/bare-interface-metadata-rebind.json). It does not justify claiming an overall PCB-placement CLI pass; advisory orientation suggestions and placement exits are recorded separately from the zero-finding schematic-placement check.

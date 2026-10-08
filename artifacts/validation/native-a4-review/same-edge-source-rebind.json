@@ -1,0 +1,45 @@
+{
+  "date_utc": "2026-10-08T20:29:40.062965+00:00",
+  "fresh_source_json_sha256": "3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4",
+  "visually_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+  "every_source_and_schematic_record_equal": true,
+  "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+  "reviewed_A4_pages": 10,
+  "fresh_source_error_count": 0,
+  "fitted_supplier_count": 44,
+  "fresh_actual_CLI": {
+    "command": "tsci check schematic-placement artifacts/validation/native-a4-review/same-edge-current-source.circuit.json",
+    "version": "0.1.2261",
+    "exit_code": 0,
+    "finding_count": 0,
+    "stdout": "same-edge-placement-cli.txt",
+    "stderr": "same-edge-placement-cli-stderr.txt",
+    "input_binding": "Immutable snapshot copied from actual freshly compiled final-source; reported fresh_source_json_sha256 identifies the exact CLI input."
+  },
+  "ports": [
+    {
+      "reference": "J_PD",
+      "pcb_component_native_bbox_center_mm": {
+        "x": -5.3,
+        "y": 12.57501465
+      },
+      "pcb_rotation_deg": 180,
+      "logical_and_CAD_anchor_y_mm": 12.1499711,
+      "CAD_rotation_deg": 0,
+      "mating_plane_y_mm": 17.5
+    },
+    {
+      "reference": "J_DATA",
+      "pcb_component_native_bbox_center_mm": {
+        "x": 5.3,
+        "y": 12.57501465
+      },
+      "pcb_rotation_deg": 180,
+      "logical_and_CAD_anchor_y_mm": 12.1499711,
+      "CAD_rotation_deg": 0,
+      "mating_plane_y_mm": 17.5
+    }
+  ],
+  "cable_gate": "Compact overmolds no more than10mm wide; actual simultaneous insertion/carrier/screw/bend clearance must be physically qualified.",
+  "validity": "PCB pose changes leave reviewed electrical/schematic records identical. The original24-page browser/visual review remains valid for this source; no new browser run claimed. Final saved copper/CAM metadata rebinding remains parent-owned."
+}

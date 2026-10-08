@@ -1,0 +1,12 @@
+{
+  "tool": "tscircuit local autorouter",
+  "attempted": true,
+  "command": "timeout 90s npm run autoroute",
+  "exitCode": 124,
+  "completed": false,
+  "acceptedCopper": false,
+  "sourceSha256": "3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4",
+  "log": "artifacts/validation/same-edge-native-autorouter.log",
+  "finding": "Native attempt did not settle within 90 seconds; no fresh complete output was emitted. Official Freerouting fallback uses this source native footprint DSN and frozen verified critical routes.",
+  "physicalReadiness": false
+}

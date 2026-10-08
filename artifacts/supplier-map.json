@@ -163,7 +163,7 @@
     "pcb_component_2-p33": {
       "pcb_port_id": "pcb_port_41",
       "net": "PD_GOOD",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
     },
     "pcb_component_2-p34": {
       "pcb_port_id": "pcb_port_40",
@@ -172,8 +172,8 @@
     },
     "pcb_component_2-p35": {
       "pcb_port_id": "pcb_port_39",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+      "net": "NC_35",
+      "key": null
     },
     "pcb_component_2-p36": {
       "pcb_port_id": "pcb_port_38",
@@ -187,13 +187,13 @@
     },
     "pcb_component_2-p38": {
       "pcb_port_id": "pcb_port_36",
-      "net": "NC_38",
-      "key": null
+      "net": "PD_LEGACY_DATA",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
     },
     "pcb_component_2-p39": {
       "pcb_port_id": "pcb_port_35",
-      "net": "NC_39",
-      "key": null
+      "net": "PD_LEGACY_DATA",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
     },
     "pcb_component_2-p40": {
       "pcb_port_id": "pcb_port_34",
@@ -238,12 +238,12 @@
     "pcb_component_5-p48": {
       "pcb_port_id": "pcb_port_48",
       "net": "PD_GOOD",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
     },
     "pcb_component_5-p49": {
       "pcb_port_id": "pcb_port_47",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
     "pcb_component_6-p50": {
       "pcb_port_id": "pcb_port_52",
@@ -253,17 +253,17 @@
     "pcb_component_6-p51": {
       "pcb_port_id": "pcb_port_53",
       "net": "STEP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13"
     },
     "pcb_component_6-p52": {
       "pcb_port_id": "pcb_port_54",
       "net": "DIR",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14"
     },
     "pcb_component_6-p53": {
       "pcb_port_id": "pcb_port_55",
       "net": "PD_GOOD",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
     },
     "pcb_component_6-p54": {
       "pcb_port_id": "pcb_port_51",
@@ -273,7 +273,7 @@
     "pcb_component_6-p55": {
       "pcb_port_id": "pcb_port_50",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
     "pcb_component_6-p56": {
       "pcb_port_id": "pcb_port_49",
@@ -283,12 +283,12 @@
     "pcb_component_6-p57": {
       "pcb_port_id": "pcb_port_56",
       "net": "DATA_PRESENT",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
     },
     "pcb_component_6-p58": {
       "pcb_port_id": "pcb_port_57",
       "net": "VM_SENSE",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
     },
     "pcb_component_6-p59": {
       "pcb_port_id": "pcb_port_58",
@@ -313,12 +313,12 @@
     "pcb_component_6-p63": {
       "pcb_port_id": "pcb_port_62",
       "net": "ENABLE_N",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
     },
     "pcb_component_6-p64": {
       "pcb_port_id": "pcb_port_63",
       "net": "SLEEP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
     },
     "pcb_component_6-p65": {
       "pcb_port_id": "pcb_port_64",
@@ -332,8 +332,8 @@
     },
     "pcb_component_6-p67": {
       "pcb_port_id": "pcb_port_66",
-      "net": "NC_67",
-      "key": null
+      "net": "VM_ENABLE_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18"
     },
     "pcb_component_6-p68": {
       "pcb_port_id": "pcb_port_67",
@@ -362,13 +362,13 @@
     },
     "pcb_component_6-p73": {
       "pcb_port_id": "pcb_port_72",
-      "net": "DIRECT_net18",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18"
+      "net": "DIRECT_net20",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
     },
     "pcb_component_6-p74": {
       "pcb_port_id": "pcb_port_73",
-      "net": "DIRECT_net19",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
+      "net": "DIRECT_net21",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
     },
     "pcb_component_6-p75": {
       "pcb_port_id": "pcb_port_74",
@@ -398,7 +398,7 @@
     "pcb_component_7-p80": {
       "pcb_port_id": "pcb_port_78",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
     "pcb_component_8-p81": {
       "pcb_port_id": "pcb_port_81",
@@ -408,7 +408,7 @@
     "pcb_component_8-p82": {
       "pcb_port_id": "pcb_port_80",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
     "pcb_component_9-p83": {
       "pcb_port_id": "pcb_port_83",
@@ -432,8 +432,8 @@
     },
     "pcb_component_11-p87": {
       "pcb_port_id": "pcb_port_87",
-      "net": "DATA_PRESENT",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
+      "net": "DATA_BASE",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22"
     },
     "pcb_component_11-p88": {
       "pcb_port_id": "pcb_port_86",
@@ -442,479 +442,559 @@
     },
     "pcb_component_12-p89": {
       "pcb_port_id": "pcb_port_89",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+      "net": "DATA_PRESENT",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
     },
     "pcb_component_12-p90": {
       "pcb_port_id": "pcb_port_88",
-      "net": "DATA_PRESENT",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
     "pcb_component_13-p91": {
-      "pcb_port_id": "pcb_port_91",
-      "net": "VM_SENSE",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+      "pcb_port_id": "pcb_port_90",
+      "net": "DATA_BASE",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22"
     },
     "pcb_component_13-p92": {
-      "pcb_port_id": "pcb_port_90",
+      "pcb_port_id": "pcb_port_92",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_13-p93": {
+      "pcb_port_id": "pcb_port_91",
+      "net": "DATA_PRESENT",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    "pcb_component_14-p94": {
+      "pcb_port_id": "pcb_port_94",
+      "net": "VM_DIV",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net23"
+    },
+    "pcb_component_14-p95": {
+      "pcb_port_id": "pcb_port_93",
       "net": "PD_VBUS",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
     },
-    "pcb_component_14-p93": {
-      "pcb_port_id": "pcb_port_93",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_14-p94": {
-      "pcb_port_id": "pcb_port_92",
-      "net": "VM_SENSE",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
-    },
-    "pcb_component_15-p95": {
-      "pcb_port_id": "pcb_port_95",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
     "pcb_component_15-p96": {
-      "pcb_port_id": "pcb_port_94",
-      "net": "VM_SENSE",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
-    },
-    "pcb_component_16-p97": {
       "pcb_port_id": "pcb_port_96",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_16-p98": {
-      "pcb_port_id": "pcb_port_98",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
-    },
-    "pcb_component_16-p99": {
-      "pcb_port_id": "pcb_port_97",
-      "net": "LOGIC_IN",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
-    },
-    "pcb_component_17-p100": {
-      "pcb_port_id": "pcb_port_100",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
-    },
-    "pcb_component_17-p101": {
-      "pcb_port_id": "pcb_port_99",
-      "net": "LOGIC_IN",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
-    },
-    "pcb_component_18-p102": {
-      "pcb_port_id": "pcb_port_102",
-      "net": "DATA_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4"
-    },
-    "pcb_component_18-p103": {
-      "pcb_port_id": "pcb_port_101",
-      "net": "LOGIC_IN",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
-    },
-    "pcb_component_19-p104": {
-      "pcb_port_id": "pcb_port_104",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_19-p105": {
-      "pcb_port_id": "pcb_port_103",
-      "net": "LOGIC_IN",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
-    },
-    "pcb_component_20-p106": {
-      "pcb_port_id": "pcb_port_106",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_20-p107": {
-      "pcb_port_id": "pcb_port_105",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
-    },
-    "pcb_component_21-p108": {
-      "pcb_port_id": "pcb_port_135",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_21-p109": {
-      "pcb_port_id": "pcb_port_134",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
-    },
-    "pcb_component_21-p110": {
-      "pcb_port_id": "pcb_port_133",
-      "net": "SENSE2",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31"
-    },
-    "pcb_component_21-p111": {
-      "pcb_port_id": "pcb_port_132",
-      "net": "B_PLUS",
+    "pcb_component_15-p97": {
+      "pcb_port_id": "pcb_port_95",
+      "net": "VM_DIV",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net23"
     },
-    "pcb_component_21-p112": {
-      "pcb_port_id": "pcb_port_131",
-      "net": "NC_112",
-      "key": null
-    },
-    "pcb_component_21-p113": {
-      "pcb_port_id": "pcb_port_130",
-      "net": "A_PLUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
-    },
-    "pcb_component_21-p114": {
-      "pcb_port_id": "pcb_port_129",
-      "net": "SENSE1",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30"
-    },
-    "pcb_component_21-p115": {
-      "pcb_port_id": "pcb_port_128",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
-    },
-    "pcb_component_21-p116": {
-      "pcb_port_id": "pcb_port_127",
-      "net": "A_MINUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22"
-    },
-    "pcb_component_21-p117": {
-      "pcb_port_id": "pcb_port_126",
-      "net": "NC_117",
-      "key": null
-    },
-    "pcb_component_21-p118": {
-      "pcb_port_id": "pcb_port_125",
-      "net": "DIR",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13"
-    },
-    "pcb_component_21-p119": {
-      "pcb_port_id": "pcb_port_124",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_21-p120": {
-      "pcb_port_id": "pcb_port_123",
-      "net": "VREF",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29"
-    },
-    "pcb_component_21-p121": {
-      "pcb_port_id": "pcb_port_122",
-      "net": "STEP",
+    "pcb_component_16-p98": {
+      "pcb_port_id": "pcb_port_101",
+      "net": "V3V3",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
-    "pcb_component_21-p122": {
-      "pcb_port_id": "pcb_port_121",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+    "pcb_component_16-p99": {
+      "pcb_port_id": "pcb_port_100",
+      "net": "VM_SENSE",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
     },
-    "pcb_component_21-p123": {
-      "pcb_port_id": "pcb_port_120",
-      "net": "SLEEP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
-    },
-    "pcb_component_21-p124": {
-      "pcb_port_id": "pcb_port_119",
+    "pcb_component_16-p100": {
+      "pcb_port_id": "pcb_port_99",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_21-p125": {
-      "pcb_port_id": "pcb_port_118",
+    "pcb_component_16-p101": {
+      "pcb_port_id": "pcb_port_98",
+      "net": "VM_DIV",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net23"
+    },
+    "pcb_component_16-p102": {
+      "pcb_port_id": "pcb_port_97",
+      "net": "VM_ENABLE_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18"
+    },
+    "pcb_component_17-p103": {
+      "pcb_port_id": "pcb_port_103",
+      "net": "VM_ENABLE_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18"
+    },
+    "pcb_component_17-p104": {
+      "pcb_port_id": "pcb_port_102",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
-    "pcb_component_21-p126": {
-      "pcb_port_id": "pcb_port_117",
+    "pcb_component_18-p105": {
+      "pcb_port_id": "pcb_port_105",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_18-p106": {
+      "pcb_port_id": "pcb_port_104",
+      "net": "VM_SENSE",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
+    },
+    "pcb_component_19-p107": {
+      "pcb_port_id": "pcb_port_107",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_19-p108": {
+      "pcb_port_id": "pcb_port_106",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
-    "pcb_component_21-p127": {
-      "pcb_port_id": "pcb_port_116",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
-    },
-    "pcb_component_21-p128": {
-      "pcb_port_id": "pcb_port_115",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
-    },
-    "pcb_component_21-p129": {
-      "pcb_port_id": "pcb_port_114",
-      "net": "VREG",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28"
-    },
-    "pcb_component_21-p130": {
-      "pcb_port_id": "pcb_port_113",
-      "net": "NC_130",
-      "key": null
-    },
-    "pcb_component_21-p131": {
-      "pcb_port_id": "pcb_port_112",
-      "net": "VCP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27"
-    },
-    "pcb_component_21-p132": {
-      "pcb_port_id": "pcb_port_111",
-      "net": "CP2",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net26"
-    },
-    "pcb_component_21-p133": {
-      "pcb_port_id": "pcb_port_110",
-      "net": "CP1",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25"
-    },
-    "pcb_component_21-p134": {
+    "pcb_component_20-p109": {
       "pcb_port_id": "pcb_port_109",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_21-p135": {
+    "pcb_component_20-p110": {
       "pcb_port_id": "pcb_port_108",
-      "net": "ENABLE_N",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14"
+      "net": "VM_SENSE",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
     },
-    "pcb_component_21-p136": {
-      "pcb_port_id": "pcb_port_107",
-      "net": "B_MINUS",
+    "pcb_component_21-p111": {
+      "pcb_port_id": "pcb_port_110",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_21-p112": {
+      "pcb_port_id": "pcb_port_112",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_21-p113": {
+      "pcb_port_id": "pcb_port_111",
+      "net": "LOGIC_IN",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24"
     },
-    "pcb_component_22-p137": {
-      "pcb_port_id": "pcb_port_137",
-      "net": "CP2",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net26"
-    },
-    "pcb_component_22-p138": {
-      "pcb_port_id": "pcb_port_136",
-      "net": "CP1",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25"
-    },
-    "pcb_component_23-p139": {
-      "pcb_port_id": "pcb_port_139",
+    "pcb_component_22-p114": {
+      "pcb_port_id": "pcb_port_114",
       "net": "PD_VBUS",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
     },
-    "pcb_component_23-p140": {
-      "pcb_port_id": "pcb_port_138",
-      "net": "VCP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27"
+    "pcb_component_22-p115": {
+      "pcb_port_id": "pcb_port_113",
+      "net": "LOGIC_IN",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24"
     },
-    "pcb_component_24-p141": {
-      "pcb_port_id": "pcb_port_141",
+    "pcb_component_23-p116": {
+      "pcb_port_id": "pcb_port_116",
+      "net": "DATA_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4"
+    },
+    "pcb_component_23-p117": {
+      "pcb_port_id": "pcb_port_115",
+      "net": "LOGIC_IN",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24"
+    },
+    "pcb_component_24-p118": {
+      "pcb_port_id": "pcb_port_118",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_24-p142": {
-      "pcb_port_id": "pcb_port_140",
-      "net": "VREG",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28"
+    "pcb_component_24-p119": {
+      "pcb_port_id": "pcb_port_117",
+      "net": "LOGIC_IN",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24"
     },
-    "pcb_component_25-p143": {
-      "pcb_port_id": "pcb_port_143",
+    "pcb_component_25-p120": {
+      "pcb_port_id": "pcb_port_120",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_25-p144": {
-      "pcb_port_id": "pcb_port_142",
+    "pcb_component_25-p121": {
+      "pcb_port_id": "pcb_port_119",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
-    "pcb_component_26-p145": {
-      "pcb_port_id": "pcb_port_145",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_26-p146": {
-      "pcb_port_id": "pcb_port_144",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
-    },
-    "pcb_component_27-p147": {
-      "pcb_port_id": "pcb_port_147",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
-    },
-    "pcb_component_27-p148": {
-      "pcb_port_id": "pcb_port_146",
-      "net": "GND",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
-    },
-    "pcb_component_28-p149": {
+    "pcb_component_26-p122": {
       "pcb_port_id": "pcb_port_149",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_28-p150": {
+    "pcb_component_26-p123": {
       "pcb_port_id": "pcb_port_148",
-      "net": "SENSE1",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30"
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
     },
-    "pcb_component_29-p151": {
-      "pcb_port_id": "pcb_port_151",
+    "pcb_component_26-p124": {
+      "pcb_port_id": "pcb_port_147",
+      "net": "SENSE2",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net35"
+    },
+    "pcb_component_26-p125": {
+      "pcb_port_id": "pcb_port_146",
+      "net": "B_PLUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27"
+    },
+    "pcb_component_26-p126": {
+      "pcb_port_id": "pcb_port_145",
+      "net": "NC_126",
+      "key": null
+    },
+    "pcb_component_26-p127": {
+      "pcb_port_id": "pcb_port_144",
+      "net": "A_PLUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25"
+    },
+    "pcb_component_26-p128": {
+      "pcb_port_id": "pcb_port_143",
+      "net": "SENSE1",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net34"
+    },
+    "pcb_component_26-p129": {
+      "pcb_port_id": "pcb_port_142",
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    "pcb_component_26-p130": {
+      "pcb_port_id": "pcb_port_141",
+      "net": "A_MINUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net26"
+    },
+    "pcb_component_26-p131": {
+      "pcb_port_id": "pcb_port_140",
+      "net": "NC_131",
+      "key": null
+    },
+    "pcb_component_26-p132": {
+      "pcb_port_id": "pcb_port_139",
+      "net": "DIR",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14"
+    },
+    "pcb_component_26-p133": {
+      "pcb_port_id": "pcb_port_138",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_29-p152": {
-      "pcb_port_id": "pcb_port_150",
-      "net": "SENSE2",
+    "pcb_component_26-p134": {
+      "pcb_port_id": "pcb_port_137",
+      "net": "VREF",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net33"
+    },
+    "pcb_component_26-p135": {
+      "pcb_port_id": "pcb_port_136",
+      "net": "STEP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13"
+    },
+    "pcb_component_26-p136": {
+      "pcb_port_id": "pcb_port_135",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_26-p137": {
+      "pcb_port_id": "pcb_port_134",
+      "net": "SLEEP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
+    },
+    "pcb_component_26-p138": {
+      "pcb_port_id": "pcb_port_133",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_26-p139": {
+      "pcb_port_id": "pcb_port_132",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_26-p140": {
+      "pcb_port_id": "pcb_port_131",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_26-p141": {
+      "pcb_port_id": "pcb_port_130",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_26-p142": {
+      "pcb_port_id": "pcb_port_129",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_26-p143": {
+      "pcb_port_id": "pcb_port_128",
+      "net": "VREG",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32"
+    },
+    "pcb_component_26-p144": {
+      "pcb_port_id": "pcb_port_127",
+      "net": "NC_144",
+      "key": null
+    },
+    "pcb_component_26-p145": {
+      "pcb_port_id": "pcb_port_126",
+      "net": "VCP",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31"
     },
-    "pcb_component_30-p153": {
-      "pcb_port_id": "pcb_port_153",
-      "net": "VREF",
+    "pcb_component_26-p146": {
+      "pcb_port_id": "pcb_port_125",
+      "net": "CP2",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30"
+    },
+    "pcb_component_26-p147": {
+      "pcb_port_id": "pcb_port_124",
+      "net": "CP1",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29"
     },
-    "pcb_component_30-p154": {
-      "pcb_port_id": "pcb_port_152",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+    "pcb_component_26-p148": {
+      "pcb_port_id": "pcb_port_123",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_31-p155": {
+    "pcb_component_26-p149": {
+      "pcb_port_id": "pcb_port_122",
+      "net": "ENABLE_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
+    },
+    "pcb_component_26-p150": {
+      "pcb_port_id": "pcb_port_121",
+      "net": "B_MINUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28"
+    },
+    "pcb_component_27-p151": {
+      "pcb_port_id": "pcb_port_151",
+      "net": "CP2",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30"
+    },
+    "pcb_component_27-p152": {
+      "pcb_port_id": "pcb_port_150",
+      "net": "CP1",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29"
+    },
+    "pcb_component_28-p153": {
+      "pcb_port_id": "pcb_port_153",
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    "pcb_component_28-p154": {
+      "pcb_port_id": "pcb_port_152",
+      "net": "VCP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31"
+    },
+    "pcb_component_29-p155": {
       "pcb_port_id": "pcb_port_155",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_31-p156": {
+    "pcb_component_29-p156": {
       "pcb_port_id": "pcb_port_154",
-      "net": "VREF",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29"
+      "net": "VREG",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32"
     },
-    "pcb_component_32-p157": {
+    "pcb_component_30-p157": {
       "pcb_port_id": "pcb_port_157",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_32-p158": {
+    "pcb_component_30-p158": {
       "pcb_port_id": "pcb_port_156",
-      "net": "VREF",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29"
-    },
-    "pcb_component_33-p159": {
-      "pcb_port_id": "pcb_port_159",
-      "net": "ENABLE_N",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14"
-    },
-    "pcb_component_33-p160": {
-      "pcb_port_id": "pcb_port_158",
       "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
-    "pcb_component_34-p161": {
+    "pcb_component_31-p159": {
+      "pcb_port_id": "pcb_port_159",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_31-p160": {
+      "pcb_port_id": "pcb_port_158",
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    "pcb_component_32-p161": {
       "pcb_port_id": "pcb_port_161",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_34-p162": {
+    "pcb_component_32-p162": {
       "pcb_port_id": "pcb_port_160",
-      "net": "SLEEP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
     },
-    "pcb_component_35-p163": {
+    "pcb_component_33-p163": {
       "pcb_port_id": "pcb_port_162",
-      "net": "A_PLUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_35-p164": {
+    "pcb_component_33-p164": {
       "pcb_port_id": "pcb_port_163",
-      "net": "A_MINUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22"
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
     },
-    "pcb_component_35-p165": {
-      "pcb_port_id": "pcb_port_164",
-      "net": "B_PLUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net23"
-    },
-    "pcb_component_35-p166": {
+    "pcb_component_34-p165": {
       "pcb_port_id": "pcb_port_165",
-      "net": "B_MINUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24"
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_36-p167": {
-      "pcb_port_id": "pcb_port_166",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+    "pcb_component_34-p166": {
+      "pcb_port_id": "pcb_port_164",
+      "net": "SENSE1",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net34"
     },
-    "pcb_component_36-p168": {
+    "pcb_component_35-p167": {
       "pcb_port_id": "pcb_port_167",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
+    "pcb_component_35-p168": {
+      "pcb_port_id": "pcb_port_166",
+      "net": "SENSE2",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net35"
+    },
     "pcb_component_36-p169": {
-      "pcb_port_id": "pcb_port_168",
-      "net": "DIRECT_net18",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18"
+      "pcb_port_id": "pcb_port_169",
+      "net": "VREF",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net33"
     },
     "pcb_component_36-p170": {
-      "pcb_port_id": "pcb_port_169",
-      "net": "DIRECT_net19",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
+      "pcb_port_id": "pcb_port_168",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
     "pcb_component_37-p171": {
-      "pcb_port_id": "pcb_port_170",
-      "net": "USB_DP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7"
-    },
-    "pcb_component_37-p172": {
       "pcb_port_id": "pcb_port_171",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_37-p173": {
-      "pcb_port_id": "pcb_port_172",
-      "net": "USB_DM",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8"
+    "pcb_component_37-p172": {
+      "pcb_port_id": "pcb_port_170",
+      "net": "VREF",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net33"
     },
-    "pcb_component_37-p174": {
+    "pcb_component_38-p173": {
       "pcb_port_id": "pcb_port_173",
-      "net": "USB_DM",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8"
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_37-p175": {
-      "pcb_port_id": "pcb_port_174",
-      "net": "DATA_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4"
+    "pcb_component_38-p174": {
+      "pcb_port_id": "pcb_port_172",
+      "net": "VREF",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net33"
     },
-    "pcb_component_37-p176": {
+    "pcb_component_39-p175": {
       "pcb_port_id": "pcb_port_175",
-      "net": "USB_DP",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7"
+      "net": "ENABLE_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
     },
-    "pcb_component_38-p177": {
-      "pcb_port_id": "pcb_port_176",
-      "net": "PD_VBUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    "pcb_component_39-p176": {
+      "pcb_port_id": "pcb_port_174",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
     },
-    "pcb_component_38-p178": {
+    "pcb_component_40-p177": {
       "pcb_port_id": "pcb_port_177",
       "net": "GND",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
     },
-    "pcb_component_39-p179": {
-      "pcb_port_id": "pcb_port_179",
-      "net": "DIRECT_net32",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32"
+    "pcb_component_40-p178": {
+      "pcb_port_id": "pcb_port_176",
+      "net": "SLEEP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
     },
-    "pcb_component_39-p180": {
+    "pcb_component_41-p179": {
       "pcb_port_id": "pcb_port_178",
-      "net": "V3V3",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+      "net": "A_PLUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25"
     },
-    "pcb_component_40-p181": {
+    "pcb_component_41-p180": {
+      "pcb_port_id": "pcb_port_179",
+      "net": "A_MINUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net26"
+    },
+    "pcb_component_41-p181": {
       "pcb_port_id": "pcb_port_180",
-      "net": "DIRECT_net32",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32"
+      "net": "B_PLUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27"
     },
-    "pcb_component_40-p182": {
+    "pcb_component_41-p182": {
       "pcb_port_id": "pcb_port_181",
+      "net": "B_MINUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28"
+    },
+    "pcb_component_42-p183": {
+      "pcb_port_id": "pcb_port_182",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_42-p184": {
+      "pcb_port_id": "pcb_port_183",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_42-p185": {
+      "pcb_port_id": "pcb_port_184",
+      "net": "DIRECT_net20",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
+    },
+    "pcb_component_42-p186": {
+      "pcb_port_id": "pcb_port_185",
+      "net": "DIRECT_net21",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
+    },
+    "pcb_component_43-p187": {
+      "pcb_port_id": "pcb_port_186",
+      "net": "USB_DP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7"
+    },
+    "pcb_component_43-p188": {
+      "pcb_port_id": "pcb_port_187",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_43-p189": {
+      "pcb_port_id": "pcb_port_188",
+      "net": "USB_DM",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8"
+    },
+    "pcb_component_43-p190": {
+      "pcb_port_id": "pcb_port_189",
+      "net": "USB_DM",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8"
+    },
+    "pcb_component_43-p191": {
+      "pcb_port_id": "pcb_port_190",
+      "net": "DATA_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4"
+    },
+    "pcb_component_43-p192": {
+      "pcb_port_id": "pcb_port_191",
+      "net": "USB_DP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7"
+    },
+    "pcb_component_44-p193": {
+      "pcb_port_id": "pcb_port_192",
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    "pcb_component_44-p194": {
+      "pcb_port_id": "pcb_port_193",
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    "pcb_component_45-p195": {
+      "pcb_port_id": "pcb_port_195",
+      "net": "DIRECT_net36",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net36"
+    },
+    "pcb_component_45-p196": {
+      "pcb_port_id": "pcb_port_194",
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12"
+    },
+    "pcb_component_46-p197": {
+      "pcb_port_id": "pcb_port_196",
+      "net": "DIRECT_net36",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net36"
+    },
+    "pcb_component_46-p198": {
+      "pcb_port_id": "pcb_port_197",
       "net": "USB_DP",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7"
     }
   },
   "thermalVias": [
     {
-      "x": -3.399873,
-      "y": 8.2,
+      "x": -10.599872999999999,
+      "y": 5.7,
       "net": "GND",
       "component": "U_PD"
     },
@@ -940,62 +1020,70 @@
     "PD_VDD": "source_net_5",
     "PD_CC1": "source_net_6",
     "PD_CC2": "source_net_7",
-    "DATA_CC1": "source_net_8",
-    "DATA_CC2": "source_net_9",
-    "USB_DP": "source_net_10",
-    "USB_DM": "source_net_11",
-    "STEP": "source_net_12",
-    "DIR": "source_net_13",
-    "ENABLE_N": "source_net_14",
-    "SLEEP": "source_net_15",
-    "PD_GOOD": "source_net_16",
-    "DATA_PRESENT": "source_net_17",
-    "VM_SENSE": "source_net_18",
-    "VREF": "source_net_19",
-    "CP1": "source_net_20",
-    "CP2": "source_net_21",
-    "VCP": "source_net_22",
-    "VREG": "source_net_23",
-    "SENSE1": "source_net_24",
-    "SENSE2": "source_net_25",
-    "A_PLUS": "source_net_26",
-    "A_MINUS": "source_net_27",
-    "B_PLUS": "source_net_28",
-    "B_MINUS": "source_net_29"
+    "PD_LEGACY_DATA": "source_net_8",
+    "DATA_CC1": "source_net_9",
+    "DATA_CC2": "source_net_10",
+    "USB_DP": "source_net_11",
+    "USB_DM": "source_net_12",
+    "STEP": "source_net_13",
+    "DIR": "source_net_14",
+    "ENABLE_N": "source_net_15",
+    "SLEEP": "source_net_16",
+    "PD_GOOD": "source_net_17",
+    "DATA_PRESENT": "source_net_18",
+    "DATA_BASE": "source_net_19",
+    "VM_DIV": "source_net_20",
+    "VM_ENABLE_N": "source_net_21",
+    "VM_SENSE": "source_net_22",
+    "VREF": "source_net_23",
+    "CP1": "source_net_24",
+    "CP2": "source_net_25",
+    "VCP": "source_net_26",
+    "VREG": "source_net_27",
+    "SENSE1": "source_net_28",
+    "SENSE2": "source_net_29",
+    "A_PLUS": "source_net_30",
+    "A_MINUS": "source_net_31",
+    "B_PLUS": "source_net_32",
+    "B_MINUS": "source_net_33"
   },
   "netkeys": {
     "GND": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
     "PD_VBUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
-    "V3V3": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11",
-    "LOGIC_IN": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20",
+    "V3V3": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12",
+    "LOGIC_IN": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24",
     "DATA_VBUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "PD_VDD": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net9",
     "PD_CC1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net2",
     "PD_CC2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3",
+    "PD_LEGACY_DATA": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10",
     "DATA_CC1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5",
     "DATA_CC2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6",
     "USB_DP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
     "USB_DM": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8",
-    "STEP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12",
-    "DIR": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13",
-    "ENABLE_N": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14",
-    "SLEEP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
-    "PD_GOOD": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10",
-    "DATA_PRESENT": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16",
-    "VM_SENSE": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17",
-    "VREF": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
-    "CP1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25",
-    "CP2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net26",
-    "VCP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27",
-    "VREG": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28",
-    "SENSE1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
-    "SENSE2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31",
-    "A_PLUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21",
-    "A_MINUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22",
-    "B_PLUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net23",
-    "B_MINUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24",
-    "DIRECT_net18": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18",
-    "DIRECT_net19": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19",
-    "DIRECT_net32": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32"
+    "STEP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13",
+    "DIR": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14",
+    "ENABLE_N": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
+    "SLEEP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16",
+    "PD_GOOD": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11",
+    "DATA_PRESENT": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17",
+    "DATA_BASE": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22",
+    "VM_DIV": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net23",
+    "VM_ENABLE_N": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18",
+    "VM_SENSE": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19",
+    "VREF": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net33",
+    "CP1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
+    "CP2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
+    "VCP": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31",
+    "VREG": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net32",
+    "SENSE1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net34",
+    "SENSE2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net35",
+    "A_PLUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25",
+    "A_MINUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net26",
+    "B_PLUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27",
+    "B_MINUS": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28",
+    "DIRECT_net20": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20",
+    "DIRECT_net21": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21",
+    "DIRECT_net36": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net36"
   }
 }

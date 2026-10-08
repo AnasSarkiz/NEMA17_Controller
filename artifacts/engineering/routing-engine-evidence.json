@@ -1,0 +1,126 @@
+{
+  "acceptedRouteEngine": "Freerouting 2.0.1 official BatchAutorouter + SpecctraSesFileWriter through JPype",
+  "tscircuitCoreVersion": "0.0.2764",
+  "tscircuitCliVersion": "0.1.2261",
+  "preservedNativeAutorouterExperiment": {
+    "path": "artifacts/autorouted.circuit.json",
+    "scope": "Earlier corrected-placement candidate before final power-sequence part additions. Retained as failed routing experiment; not fabrication output.",
+    "errors": [
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_DRV > .OUT2A to net.B_PLUS overlaps with .U_DRV > .VBB1 to net.PD_VBUS (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_DRV > .OUT2A to net.B_PLUS overlaps with .D_PD > .anode to net.PD_VBUS (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_DRV > .OUT2A to net.B_PLUS overlaps with .C_VCP > .pin1 to net.VCP (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_DRV > .OUT1A to net.A_PLUS overlaps with .U_MCU > .ENABLE_N to net.ENABLE_N (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .C_VCP > .pin1 to net.VCP overlaps with .C_VCP > .pin2 to net.PD_VBUS (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_MCU > .VM_SENSE to net.VM_SENSE is too close to .U_MCU > .DIR to net.DIR (gap: 0.143mm)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_MCU > .DATA_PRESENT to net.DATA_PRESENT overlaps with .U_PD > .PG to net.PD_GOOD (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_MCU > .SLEEP to net.SLEEP overlaps with .U_MCU > .DIO to .J_DEBUG > .DIO (accidental contact)"
+      },
+      {
+        "type": "pcb_trace_error",
+        "message": "PCB trace .U_MCU > .ENABLE_N to net.ENABLE_N overlaps with .U_MCU > .DIR to net.DIR (accidental contact)"
+      },
+      {
+        "type": "pcb_pad_trace_clearance_error",
+        "message": "Pad U_DRV.CP2 and trace .C_VCP > .pin1 to net.VCP are too close (clearance: 0.132mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_via_trace_clearance_error",
+        "message": "Via unnamed via and trace .U_DRV > .OUT2A to net.B_PLUS are too close (clearance: 0.119mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_via_trace_clearance_error",
+        "message": "Via unnamed via and trace .C_LOGIC > .pin1 to net.V3V3 are too close (clearance: 0.035mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_via_trace_clearance_error",
+        "message": "Via unnamed via and trace .U_DRV > .GND18 to net.GND are too close (clearance: 0.134mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_via_trace_clearance_error",
+        "message": "Via unnamed via and trace .U_MCU > .DIR to net.DIR are too close (clearance: 0.045mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_DRV.NC25 are too close (clearance: 0.137mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad R_SA.pin1 are too close (clearance: 0.111mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_DRV.CP2 are too close (clearance: -0.038mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_DRV.EP are too close (clearance: 0.033mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad D_DATA.anode are too close (clearance: 0.063mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_MCU.PD_GOOD are too close (clearance: 0.098mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_MCU.DIR are too close (clearance: 0.102mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_DRV.VDD are too close (clearance: 0.096mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_pad_pad_clearance_error",
+        "message": "Via unnamed via and pad U_DRV.REF are too close (clearance: 0.125mm, minimum: 0.15mm)"
+      },
+      {
+        "type": "pcb_placement_error",
+        "message": "Via hole at (2.65mm, -9.02mm) overlaps SMD pad U_DRV.STEP at (2.50mm, -9.00mm)"
+      }
+    ]
+  },
+  "finalFreshCliSmokeTest": {
+    "command": "java -Djava.awt.headless=true -jar /workspace/freerouting-2.0.1.jar -de artifacts/supplier-input.dsn -do /tmp/ch32-cli-output.ses -mp 40 -mt 1 -da --gui.enabled=false",
+    "exitCode": 0,
+    "sesBytes": 51363,
+    "sesSha256": "aeefb15b1bfde8e00cb040a70b5d0d22452ab7e50ff6acfd965d4570f3f6b01d",
+    "usedForAcceptedCopper": false,
+    "explanation": "Earlier intermediate CLI jobs emitted blank output; final regenerated native DSN serializes successfully. Accepted copper uses separately verified official API session."
+  },
+  "acceptedSavedSes": "artifacts/supplier-board.ses",
+  "acceptedSavedSesSha256": "f007a6f7e56e8c941d090a92d0f65c2bf1eb1f8669bc915d153db582636093e4",
+  "fixedSupportRoutes": "artifacts/engineering-local-routes.json",
+  "fixedMotorEscapes": "artifacts/engineering-motor-escapes.json",
+  "fixedMcuFanouts": "artifacts/engineering-mcu-fanouts.json",
+  "adjustments": "artifacts/supplier-routing-adjustments.json",
+  "physicalTestsPerformed": false,
+  "historicalIntermediateSes": {
+    "path": "artifacts/ch32-engineering-board.ses",
+    "usedForAcceptedCopper": false
+  }
+}

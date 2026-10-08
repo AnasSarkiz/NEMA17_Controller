@@ -1,0 +1,19 @@
+{
+  "pcb_geometry_types": [
+    "pcb_component",
+    "pcb_courtyard_outline",
+    "pcb_courtyard_rect",
+    "pcb_hole",
+    "pcb_plated_hole",
+    "pcb_port",
+    "pcb_smtpad"
+  ],
+  "before_record_count": 498,
+  "after_record_count": 498,
+  "physical_records_unchanged": true,
+  "source_and_electrical_records_unchanged": true,
+  "new_vm_switch_schematic_width": 1.865,
+  "source_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+  "authoritative_saved_copper_modified_by_this_review": false,
+  "presentation_fix": "generic-box flag true for imported parts without supported symbol; RP purposes spaced2.05 units to fit border"
+}

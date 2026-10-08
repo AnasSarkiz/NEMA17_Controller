@@ -1,0 +1,363 @@
+{
+  "usedForAcceptedCopper": false,
+  "scope": "Historical intermediate repair experiment. Final accepted copper instead uses pre-reserved MCU/driver/motor fanouts and official Freerouting SES recorded in routing-engine-evidence.json.",
+  "historicalRoutes": [
+    {
+      "connection": "U_MCU.DATA_PRESENT",
+      "net": "DATA_PRESENT",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 3.799403999999999,
+          "y": -0.4999959999999999,
+          "width": 0.16,
+          "layer": "top",
+          "start_pcb_port_id": "pcb_port_56"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.525000000000002,
+          "y": -0.22499999999999787,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.275000000000002,
+          "y": -0.22499999999999787,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "via",
+          "x": 3.275000000000002,
+          "y": -0.22499999999999787,
+          "from_layer": "top",
+          "to_layer": "bottom",
+          "via_diameter": 0.5,
+          "via_hole_diameter": 0.25
+        },
+        {
+          "route_type": "wire",
+          "x": 3.275000000000002,
+          "y": -0.22499999999999787,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.275000000000002,
+          "y": 2.375,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.5250000000000021,
+          "y": 4.125,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "via",
+          "x": 1.5250000000000021,
+          "y": 4.125,
+          "from_layer": "bottom",
+          "to_layer": "top",
+          "via_diameter": 0.5,
+          "via_hole_diameter": 0.25
+        },
+        {
+          "route_type": "wire",
+          "x": 1.5250000000000021,
+          "y": 4.125,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.3000000000000007,
+          "y": 4.350000000000001,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.3000000000000007,
+          "y": 4.375,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.25,
+          "y": 4.425000000000001,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.25,
+          "y": 5.575000000000003,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.3000000000000007,
+          "y": 5.625,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.3000000000000007,
+          "y": 5.650000000000002,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.3500000000000014,
+          "y": 5.700000000000003,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.3466360000000002,
+          "y": 6.5,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ],
+      "expandedNodes": 104569
+    },
+    {
+      "connection": "U_MCU.USB_DM",
+      "net": "USB_DM",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 4.5995040000000005,
+          "y": 3.4999960000000003,
+          "width": 0.16,
+          "layer": "top",
+          "start_pcb_port_id": "pcb_port_74"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.650000000000002,
+          "y": 3.5500000000000007,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.650000000000002,
+          "y": 3.9750000000000014,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.700000000000003,
+          "y": 4.025000000000002,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.700000000000003,
+          "y": 4.050000000000001,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.725000000000001,
+          "y": 4.050000000000001,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.775000000000002,
+          "y": 4.100000000000001,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.900000000000002,
+          "y": 4.100000000000001,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 5.850904,
+          "y": 5.05004,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ],
+      "expandedNodes": 1928
+    },
+    {
+      "connection": "U_DRV.REF",
+      "net": "VREF",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 2.5000950000000004,
+          "y": -8.500353,
+          "width": 0.3,
+          "layer": "top",
+          "start_pcb_port_id": "pcb_port_123"
+        },
+        {
+          "route_type": "wire",
+          "x": 2.525000000000002,
+          "y": -8.475,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 2.900000000000002,
+          "y": -8.475,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 2.9250000000000007,
+          "y": -8.45,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.0,
+          "y": -8.45,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.0500000000000007,
+          "y": -8.4,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.075000000000003,
+          "y": -8.4,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.125,
+          "y": -8.35,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.150000000000002,
+          "y": -8.35,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.4250000000000007,
+          "y": -8.075,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.375,
+          "y": -8.075,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.400000000000002,
+          "y": -8.049999999999999,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.450000000000003,
+          "y": -8.049999999999999,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.475000000000001,
+          "y": -8.025,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.5,
+          "y": -8.025,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.525000000000002,
+          "y": -8.0,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.550000000000001,
+          "y": -8.0,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.575000000000003,
+          "y": -7.975,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.600000000000001,
+          "y": -7.975,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 5.075000000000003,
+          "y": -7.5,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 5.299976,
+          "y": -7.5,
+          "width": 0.3,
+          "layer": "top"
+        }
+      ],
+      "expandedNodes": 257
+    }
+  ]
+}

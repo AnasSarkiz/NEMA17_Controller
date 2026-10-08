@@ -1,0 +1,254 @@
+[
+  {
+    "command": [
+      "python3",
+      "/tmp/nema14-pcb-designer-skills/scripts/pcbcalc.py",
+      "ldo",
+      "--vin",
+      "15",
+      "--vout",
+      "3.3",
+      "--current-a",
+      "0.015",
+      "--theta-ja-c-per-w",
+      "100",
+      "--ambient-c",
+      "60",
+      "--max-tj-c",
+      "125",
+      "--json"
+    ],
+    "result": {
+      "calculator": "ldo",
+      "dropout_pass": null,
+      "inputs": {
+        "ambient_c": 60.0,
+        "current_a": 0.015,
+        "dropout_v": null,
+        "max_tj_c": 125.0,
+        "theta_ja_c_per_w": 100.0,
+        "vin_v": 15.0,
+        "vout_v": 3.3
+      },
+      "junction_temp_c": 77.55,
+      "power_dissipation_w": 0.1755,
+      "temperature_margin_c": 47.45,
+      "thermal_pass": true,
+      "warnings": [
+        "Use the datasheet's actual theta JA for the package, copper area, and airflow.",
+        "Check thermal shutdown, current limit, and maximum output current at the real ambient."
+      ]
+    },
+    "assumptions": "15V conservatively ignores input diode drop;60C localambient andtheta are screening scenarios, NOTverifiedHoltekparameters;125Cplanninglimitnotmanufacturerproof"
+  },
+  {
+    "command": [
+      "python3",
+      "/tmp/nema14-pcb-designer-skills/scripts/pcbcalc.py",
+      "ldo",
+      "--vin",
+      "15",
+      "--vout",
+      "3.3",
+      "--current-a",
+      "0.015",
+      "--theta-ja-c-per-w",
+      "150",
+      "--ambient-c",
+      "60",
+      "--max-tj-c",
+      "125",
+      "--json"
+    ],
+    "result": {
+      "calculator": "ldo",
+      "dropout_pass": null,
+      "inputs": {
+        "ambient_c": 60.0,
+        "current_a": 0.015,
+        "dropout_v": null,
+        "max_tj_c": 125.0,
+        "theta_ja_c_per_w": 150.0,
+        "vin_v": 15.0,
+        "vout_v": 3.3
+      },
+      "junction_temp_c": 86.325,
+      "power_dissipation_w": 0.1755,
+      "temperature_margin_c": 38.675,
+      "thermal_pass": true,
+      "warnings": [
+        "Use the datasheet's actual theta JA for the package, copper area, and airflow.",
+        "Check thermal shutdown, current limit, and maximum output current at the real ambient."
+      ]
+    },
+    "assumptions": "15V conservatively ignores input diode drop;60C localambient andtheta are screening scenarios, NOTverifiedHoltekparameters;125Cplanninglimitnotmanufacturerproof"
+  },
+  {
+    "command": [
+      "python3",
+      "/tmp/nema14-pcb-designer-skills/scripts/pcbcalc.py",
+      "ldo",
+      "--vin",
+      "15",
+      "--vout",
+      "3.3",
+      "--current-a",
+      "0.015",
+      "--theta-ja-c-per-w",
+      "250",
+      "--ambient-c",
+      "60",
+      "--max-tj-c",
+      "125",
+      "--json"
+    ],
+    "result": {
+      "calculator": "ldo",
+      "dropout_pass": null,
+      "inputs": {
+        "ambient_c": 60.0,
+        "current_a": 0.015,
+        "dropout_v": null,
+        "max_tj_c": 125.0,
+        "theta_ja_c_per_w": 250.0,
+        "vin_v": 15.0,
+        "vout_v": 3.3
+      },
+      "junction_temp_c": 103.875,
+      "power_dissipation_w": 0.1755,
+      "temperature_margin_c": 21.125,
+      "thermal_pass": true,
+      "warnings": [
+        "Use the datasheet's actual theta JA for the package, copper area, and airflow.",
+        "Check thermal shutdown, current limit, and maximum output current at the real ambient."
+      ]
+    },
+    "assumptions": "15V conservatively ignores input diode drop;60C localambient andtheta are screening scenarios, NOTverifiedHoltekparameters;125Cplanninglimitnotmanufacturerproof"
+  },
+  {
+    "command": [
+      "python3",
+      "/tmp/nema14-pcb-designer-skills/scripts/pcbcalc.py",
+      "ldo",
+      "--vin",
+      "15",
+      "--vout",
+      "3.3",
+      "--current-a",
+      "0.025",
+      "--theta-ja-c-per-w",
+      "100",
+      "--ambient-c",
+      "60",
+      "--max-tj-c",
+      "125",
+      "--json"
+    ],
+    "result": {
+      "calculator": "ldo",
+      "dropout_pass": null,
+      "inputs": {
+        "ambient_c": 60.0,
+        "current_a": 0.025,
+        "dropout_v": null,
+        "max_tj_c": 125.0,
+        "theta_ja_c_per_w": 100.0,
+        "vin_v": 15.0,
+        "vout_v": 3.3
+      },
+      "junction_temp_c": 89.25,
+      "power_dissipation_w": 0.2925,
+      "temperature_margin_c": 35.75,
+      "thermal_pass": true,
+      "warnings": [
+        "Use the datasheet's actual theta JA for the package, copper area, and airflow.",
+        "Check thermal shutdown, current limit, and maximum output current at the real ambient."
+      ]
+    },
+    "assumptions": "15V conservatively ignores input diode drop;60C localambient andtheta are screening scenarios, NOTverifiedHoltekparameters;125Cplanninglimitnotmanufacturerproof"
+  },
+  {
+    "command": [
+      "python3",
+      "/tmp/nema14-pcb-designer-skills/scripts/pcbcalc.py",
+      "ldo",
+      "--vin",
+      "15",
+      "--vout",
+      "3.3",
+      "--current-a",
+      "0.025",
+      "--theta-ja-c-per-w",
+      "150",
+      "--ambient-c",
+      "60",
+      "--max-tj-c",
+      "125",
+      "--json"
+    ],
+    "result": {
+      "calculator": "ldo",
+      "dropout_pass": null,
+      "inputs": {
+        "ambient_c": 60.0,
+        "current_a": 0.025,
+        "dropout_v": null,
+        "max_tj_c": 125.0,
+        "theta_ja_c_per_w": 150.0,
+        "vin_v": 15.0,
+        "vout_v": 3.3
+      },
+      "junction_temp_c": 103.875,
+      "power_dissipation_w": 0.2925,
+      "temperature_margin_c": 21.125,
+      "thermal_pass": true,
+      "warnings": [
+        "Use the datasheet's actual theta JA for the package, copper area, and airflow.",
+        "Check thermal shutdown, current limit, and maximum output current at the real ambient."
+      ]
+    },
+    "assumptions": "15V conservatively ignores input diode drop;60C localambient andtheta are screening scenarios, NOTverifiedHoltekparameters;125Cplanninglimitnotmanufacturerproof"
+  },
+  {
+    "command": [
+      "python3",
+      "/tmp/nema14-pcb-designer-skills/scripts/pcbcalc.py",
+      "ldo",
+      "--vin",
+      "15",
+      "--vout",
+      "3.3",
+      "--current-a",
+      "0.025",
+      "--theta-ja-c-per-w",
+      "250",
+      "--ambient-c",
+      "60",
+      "--max-tj-c",
+      "125",
+      "--json"
+    ],
+    "result": {
+      "calculator": "ldo",
+      "dropout_pass": null,
+      "inputs": {
+        "ambient_c": 60.0,
+        "current_a": 0.025,
+        "dropout_v": null,
+        "max_tj_c": 125.0,
+        "theta_ja_c_per_w": 250.0,
+        "vin_v": 15.0,
+        "vout_v": 3.3
+      },
+      "junction_temp_c": 133.125,
+      "power_dissipation_w": 0.2925,
+      "temperature_margin_c": -8.125,
+      "thermal_pass": false,
+      "warnings": [
+        "Use the datasheet's actual theta JA for the package, copper area, and airflow.",
+        "Check thermal shutdown, current limit, and maximum output current at the real ambient."
+      ]
+    },
+    "assumptions": "15V conservatively ignores input diode drop;60C localambient andtheta are screening scenarios, NOTverifiedHoltekparameters;125Cplanninglimitnotmanufacturerproof"
+  }
+]

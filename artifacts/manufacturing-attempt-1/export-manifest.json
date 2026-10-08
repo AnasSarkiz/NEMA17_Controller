@@ -1,0 +1,68 @@
+{
+  "source_sha256": "c247c1ef4a8eb7998b1246ac52d3e356a98b44e66a1caf38efc4de3876c1e30a",
+  "raw_cli_archive_sha256": "67f8adc57b57bf965e7c215021fe63d3d623f722adcfb322b7d8cc8d92bfc94b",
+  "intentional_CAM_changes": {
+    "F_Paste.gbr": {
+      "reason": "Explicit top SMT stencil policy; manual plated joints and bare interfaces have no paste",
+      "before_sha256": "67a1c76723cf4550ce245f20c1328ea9b8de2f4266eb933ae61a927b251458eb",
+      "after_sha256": "9bd0cbe4856b4a2f84a10cc81ae0a6303204d8c6eacd09ab57eefd5f4b92e216"
+    },
+    "B_Paste.gbr": {
+      "reason": "Explicit top SMT stencil policy; manual plated joints and bare interfaces have no paste",
+      "before_sha256": "020a6a24057781dc61ae8f5fbde66dabb18d72ab72843f9b46badf7d3871ac77",
+      "after_sha256": "21880a5d8ccf86520b8d968436a0584871c3b32228b6ac256a0e08bffa396018"
+    },
+    "F_Mask.gbr": {
+      "reason": "0.05 mm nominal mask expansion reduced locally to guarantee 0.10 mm webs",
+      "before_sha256": "6799c9cfee4e126d214fa14a1b0d9fbc29a548b2357647218f9f56d055affe2d",
+      "after_sha256": "04499d6779bc1ebdd5ff93cff7fecb95c89326eb17be5c1587187a7bc976c84c"
+    },
+    "B_Mask.gbr": {
+      "reason": "0.05 mm nominal mask expansion reduced locally to guarantee 0.10 mm webs",
+      "before_sha256": "82aee33b61d62e1f47abe8b809e96ea7318dbeeed91ef49a6398f5d89e1f21e3",
+      "after_sha256": "2e5716d84944d0f95a74baa9130d226758f996059911a341e9adcf7876cd33fd"
+    },
+    "F_SilkScreen.gbr": {
+      "reason": "Clip native silk against mask openings +0.15 mm and 0.10 mm edge inset; full reference labels remain on assembly drawings",
+      "before_sha256": "c33e1e6264df8801c189062fc8d8b221a6b4cd3021c5e2f8cba550db49c9e1ff",
+      "after_sha256": "868ce14af60790c211e55ccd606bc781962c2cfd9af8c6a0f8a47062ac37d5e5"
+    },
+    "B_SilkScreen.gbr": {
+      "reason": "Clip native silk against mask openings +0.15 mm and 0.10 mm edge inset; full reference labels remain on assembly drawings",
+      "before_sha256": "33413fd069cffb2d67611586ff8a609eed775eb7a0ec19a57e7b3ace50a50d49",
+      "after_sha256": "37fae435f582d6c93c862d13a4e3df54c98246ea02478af3b1df77f8b4379e2e"
+    },
+    "bom.csv": {
+      "reason": "exclude bare motor/debug/boot interfaces; identify exact fitted MPNs",
+      "before_sha256": "1ef6619ff26a8479c00b25438d504c8676584ee4052db2c626839647a79a515c",
+      "after_sha256": "ad144b8cf5f52bd6a7e139d75089e4273f4698dcd318ea397043d6aaa229436c"
+    },
+    "pick_and_place.csv": {
+      "reason": "exclude bare motor/debug/boot interfaces; identify exact fitted MPNs",
+      "before_sha256": "19b860f3d8221cdca13ca470e9fbf9b9aff017fb32ca4a3d08b41d1db600ea5f",
+      "after_sha256": "1cbd022ff826592b4503eb47f92952c4795f0427a6ff2acb1d516db3eedbc6d5"
+    }
+  },
+  "preserved_original_files": {
+    "F_Cu.gbr": "80eacec9430beab130a95ef1a6a178e8e1e0695ba50333ab45204c3e43c18d05",
+    "B_Cu.gbr": "0a445164b4693aff2de97ff2a5a8cecfecd1339234948084f98a6837901a7d82",
+    "Edge_Cuts.gbr": "414b03d0ad34af7df703a69f8e22f31014be6e3f61704dbeb5c82e24f37f4b25",
+    "F_Fab.gbr": "8ee2b53b82222927857661712e2f93cbdd34136b4c1f729854af093e32aa3df6",
+    "drill-L1-L2.drl": "cc787e039fed319368a82b80f8592743924b24b8a19addaf14b7c3bff5d45501",
+    "drill_npth.drl": "98b4b8e446a21e785aa62105bb79187b8a7f0125c44c7e7c00335e958af907ee"
+  },
+  "policy": {
+    "assembly": "top SMT reflow; USB shield slots and motor wires manually soldered afterward",
+    "DNP": [
+      "J_BOOT",
+      "J_DEBUG",
+      "J_MOTOR"
+    ],
+    "exposed_pad_vias": "filled and capped (VIPPO) required; supplier capability/quote approval remains pending",
+    "solder_mask": "0.05 mm nominal opening expansion reduced locally to guarantee 0.10 mm webs; source native copper unchanged",
+    "silkscreen": "0.15 mm clearance from mask apertures; 0.10 mm edge inset; full untrimmed refs on assembly drawing",
+    "lead_stencil": "Fine-pitch MCU/driver rectangular leads 90% native dimensions; rounded driver leads use safe inscribed rectangles; candidate foil 0.10 mm; native copper unchanged",
+    "exposed_pad_stencil": "four panes, nominal 60% native copper-pad coverage, 0.20 mm cross-gap"
+  },
+  "status": "PROTOTYPE CANDIDATE; fabrication and assembly approvals pending"
+}

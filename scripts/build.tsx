@@ -19,3 +19,5 @@ writeFileSync('artifacts/autorouted-bottom.svg', convertCircuitJsonToPcbSvg(json
 }
 writeFileSync('artifacts/schematic.svg', convertCircuitJsonToSchematicSvg(json))
 console.log(JSON.stringify({elements:json.length,traces:json.filter(e=>e.type==='pcb_trace').length,errors:json.filter(e=>e.type.endsWith('_error')).map(e=>({type:e.type,message:(e as any).message}))},null,2))
+
+if(json.some(e=>e.type.endsWith("_error"))) process.exitCode=1

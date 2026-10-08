@@ -1,0 +1,48 @@
+Reference,MPN,JLCPCB part,Value,Voltage rating (V),Tolerance,PCB X mm,PCB Y mm,Rotation deg,Assembly side,Review note
+J_PD,TYPE-C-31-M-12,C165948,,,,-5.3,12.57501465,180,top,native supplier import with OBJ and STEP
+J_DATA,TYPE-C-31-M-12,C165948,,,,5.3,12.57501465,180,top,native supplier import with OBJ and STEP
+U_PD,CH224K,C970725,,,,-10.6,5.7,270,top,native supplier import with OBJ and STEP
+R_PD,ERJPA3F1001V,C441922,1kΩ,,,-15.5,2,0,top,native supplier import with OBJ and STEP
+C_PD,CL10A105KB8NNNC,C15849,1uF,,,-15.600000000000001,5.5,90,top,native supplier import with OBJ and STEP
+R_PG,0603WAF1002T5E,C25804,10kΩ,,,-2.2,3.2,0,top,native supplier import with OBJ and STEP
+U_MCU,CH32X035G8U6,C7437027,,,,4.9993,1.5,270,top,native supplier import with OBJ and STEP
+C_MCU,CC0603KRX7R9BB104,C14663,100nF,50,,0.9999999999999999,2.3,180,top,native supplier import with OBJ and STEP
+C_LOGIC,CL21A475KBQNNNE,C98192,4.7uF,,,11,-3.4999999999999996,90,top,native supplier import with OBJ and STEP
+R_CC1,0603WAF5101T5E,C23186,5.1kΩ,,,5.8,8.3,0,top,native supplier import with OBJ and STEP
+R_CC2,0603WAF5101T5E,C23186,5.1kΩ,,,8.8,8.3,0,top,native supplier import with OBJ and STEP
+R_USB_SENSE_H,0603WAF1002T5E,C25804,10kΩ,,,14.5,6.4,0,top,native supplier import with OBJ and STEP
+R_USB_SENSE_L,0603WAF1002T5E,C25804,10kΩ,,,0.8999999999999999,4.1,0,top,native supplier import with OBJ and STEP
+Q_DATA,MMBT3904-7-F,C94514,,,,14.5,3.8,0,top,native supplier import with OBJ and STEP
+R_VM_H,0603WAF1003T5E,C25803,100kΩ,,,-2.2,5,0,top,native supplier import with OBJ and STEP
+R_VM_L,0603WAF1002T5E,C25804,10kΩ,,,-2.2,6.8,0,top,native supplier import with OBJ and STEP
+U_VM_ISO,SN74CBTLV1G125DCKR,C131992,,,,2.8,6.2,0,top,native supplier import with OBJ and STEP
+R_VM_EN,0603WAF1002T5E,C25804,10kΩ,,,-2.2,1.4,0,top,native supplier import with OBJ and STEP
+R_VM_BLEED,0603WAF1002T5E,C25804,10kΩ,,,-0.5,0,0,top,native supplier import with OBJ and STEP
+C_VM_ISO,CC0603KRX7R9BB104,C14663,100nF,50,,2.8,8.3,0,top,native supplier import with OBJ and STEP
+C_VM_SENSE,CL10B103KB8NNNC,C1589,10nF,,,5.5,-2.8,0,top,native supplier import with OBJ and STEP
+U_LDO,HT7533-1,C14289,,,,-7.2,-3.1999999999999997,180,top,native supplier import with OBJ and STEP
+D_PD,B5819W SL,C8598,,,,-10.9,0.5,0,top,native supplier import with OBJ and STEP
+D_DATA,B5819W SL,C8598,,,,7,-12.5,0,top,native supplier import with OBJ and STEP
+C_LDO_IN,CL21B105KBFNNNE,C28323,1uF,,,-6.2,0.5,0,top,native supplier import with OBJ and STEP
+C_LDO_OUT,CL21A475KBQNNNE,C98192,4.7uF,,,-8.5,-7.6,270,top,native supplier import with OBJ and STEP
+U_DRV,A4988SETTR-T,C38437,,,,0.00010000000000021103,-8.0001,270,top,native supplier import with OBJ and STEP
+C_CP,CC0603KRX7R9BB104,C14663,100nF,50,,-3.95,-8.55,270,top,native supplier import with OBJ and STEP
+C_VCP,CC0603KRX7R9BB104,C14663,100nF,50,,-4.1,-11.4,270,top,native supplier import with OBJ and STEP
+C_VREG,CL10B224KA8NNNC,C21120,220nF,,,-2,-12.3,0,top,native supplier import with OBJ and STEP
+C_DRV_LOGIC,CC0603KRX7R9BB104,C14663,100nF,50,,4.6,-9.5,0,top,native supplier import with OBJ and STEP
+C_VM,CC0603KRX7R9BB104,C14663,100nF,50,,-5.2,-6.4,180,top,native supplier import with OBJ and STEP
+C_VM2,CC0603KRX7R9BB104,C14663,100nF,50,,4.6,-5.35,0,top,native supplier import with OBJ and STEP
+C_BULK,EEEFPV101XAP,C178585,100uF,,,-13.75,-5.4,90,top,native supplier import with OBJ and STEP
+R_SA,FRL0805FR240TS,C2930216,240mΩ,,,2.1,-2.9,0,top,native supplier import with OBJ and STEP
+R_SB,FRL0805FR240TS,C2930216,240mΩ,,,-2.1,-2.9,180,top,native supplier import with OBJ and STEP
+R_REF_H,0603WAF3901T5E,C23018,3.9kΩ,,,7.6,-9,0,top,native supplier import with OBJ and STEP
+R_REF_L,ERJPA3F1001V,C441922,1kΩ,,,7.6,-5,0,top,native supplier import with OBJ and STEP
+C_REF,CL10B103KB8NNNC,C1589,10nF,,,6,-7.5,0,top,native supplier import with OBJ and STEP
+R_ENABLE,0603WAF1002T5E,C25804,10kΩ,,,8,-10.5,0,top,native supplier import with OBJ and STEP
+R_SLEEP,0603WAF1002T5E,C25804,10kΩ,,,10.5,0.5,0,top,native supplier import with OBJ and STEP
+J_MOTOR,,,,,,0,-15.5,0,top,bare PCB interface
+J_DEBUG,,,,,,7.25,-15.5,0,top,bare PCB interface
+U_ESD,USBLC6-2SC6,C2687116,,,,10,5.3,0,top,native supplier import with OBJ and STEP
+D_TVS,SMF18A,C19077512,,,,-4.9,5.6,90,top,native supplier import with OBJ and STEP
+R_USB_BOOT,0402WGF4701TCE,C25900,4.7kΩ,,,11.5,8.4,0,top,native supplier import with OBJ and STEP
+J_BOOT,,,,,,14.5,8.4,0,top,bare PCB interface

@@ -1,66 +1,396 @@
 {
+  "date": "2026-10-08",
   "tool": "Chromium/Playwright",
-  "view": "project read-only UI with native tscircuit A4 SVG and CLI analysis",
+  "view": "existing project schematic-review-ui.py HTML, adaptedread-only to latest native A4 SVG source snapshots and actual CLI output; not official IDE",
+  "source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+  "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+  "source_sha_relevance": "PCB placement-only changes may change JSON hash while schematic/connectivity remains unchanged; rerunifnetlist/schematic changes",
   "reviewedPages": [
     {
       "page": 1,
-      "title": "NEMA14_CH32X035G8U6 1/9",
+      "title": "NEMA14_CH32X035G8U6 1/10",
+      "native_svg_sha256": "eed21659f3e30b913a3daa6f45cc90525d585e06220b8915cf842f92f0007e8a",
       "svgVisible": true,
-      "textElements": 124
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 128,
+      "componentLabels": [
+        "U_MCU",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "U_MCU"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 2,
-      "title": "NEMA14_CH32X035G8U6 2/9",
+      "title": "NEMA14_CH32X035G8U6 2/10",
+      "native_svg_sha256": "111f7251398ddbb26d89928b6d518430c8c7f0485541ad7874b85b9717811c20",
       "svgVisible": true,
-      "textElements": 124
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 128,
+      "componentLabels": [
+        "U_DRV",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "U_DRV"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 3,
-      "title": "NEMA14_CH32X035G8U6 3/9",
+      "title": "NEMA14_CH32X035G8U6 3/10",
+      "native_svg_sha256": "83ab96abcdf2b95cc666f9977d1ea63d617711ca22d0b9c632ff1e5537c8009a",
       "svgVisible": true,
-      "textElements": 182
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 186,
+      "componentLabels": [
+        "J_PD",
+        "J_DATA",
+        "U_PD",
+        "R_PD",
+        "C_PD",
+        "R_PG",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "J_PD",
+        "J_DATA",
+        "U_PD",
+        "R_PD",
+        "C_PD",
+        "R_PG"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 4,
-      "title": "NEMA14_CH32X035G8U6 4/9",
+      "title": "NEMA14_CH32X035G8U6 4/10",
+      "native_svg_sha256": "38fcd446c42790cbecb404f01ba454cfdd5d6347c9effe17252b6f46e681c9dd",
       "svgVisible": true,
-      "textElements": 59
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 63,
+      "componentLabels": [
+        "C_MCU",
+        "C_LOGIC",
+        "R_CC1",
+        "R_CC2",
+        "R_USB_SENSE_H",
+        "R_USB_SENSE_L",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "C_MCU",
+        "C_LOGIC",
+        "R_CC1",
+        "R_CC2",
+        "R_USB_SENSE_H",
+        "R_USB_SENSE_L"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 5,
-      "title": "NEMA14_CH32X035G8U6 5/9",
+      "title": "NEMA14_CH32X035G8U6 5/10",
+      "native_svg_sha256": "e93f5852c2d778a016348b55585e9128398eb58ee36814b61d857c12beb63e58",
       "svgVisible": true,
-      "textElements": 66
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 83,
+      "componentLabels": [
+        "Q_DATA",
+        "R_VM_H",
+        "R_VM_L",
+        "U_VM_ISO",
+        "R_VM_EN",
+        "R_VM_BLEED",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "Q_DATA",
+        "R_VM_H",
+        "R_VM_L",
+        "U_VM_ISO",
+        "R_VM_EN",
+        "R_VM_BLEED"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 6,
-      "title": "NEMA14_CH32X035G8U6 6/9",
+      "title": "NEMA14_CH32X035G8U6 6/10",
+      "native_svg_sha256": "00983e49eb727205d5ba4c0018af0d6ce28a202671ce76c4c6bff1d62838eb9a",
       "svgVisible": true,
-      "textElements": 59
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 70,
+      "componentLabels": [
+        "C_VM_ISO",
+        "C_VM_SENSE",
+        "U_LDO",
+        "D_PD",
+        "D_DATA",
+        "C_LDO_IN",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "C_VM_ISO",
+        "C_VM_SENSE",
+        "U_LDO",
+        "D_PD",
+        "D_DATA",
+        "C_LDO_IN"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 7,
-      "title": "NEMA14_CH32X035G8U6 7/9",
+      "title": "NEMA14_CH32X035G8U6 7/10",
+      "native_svg_sha256": "3765df2ff807e72d0a7eb381e45e5882be825296102d147ed0b047b942bb07fe",
       "svgVisible": true,
-      "textElements": 59
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 63,
+      "componentLabels": [
+        "C_LDO_OUT",
+        "C_CP",
+        "C_VCP",
+        "C_VREG",
+        "C_DRV_LOGIC",
+        "C_VM",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "C_LDO_OUT",
+        "C_CP",
+        "C_VCP",
+        "C_VREG",
+        "C_DRV_LOGIC",
+        "C_VM"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 8,
-      "title": "NEMA14_CH32X035G8U6 8/9",
+      "title": "NEMA14_CH32X035G8U6 8/10",
+      "native_svg_sha256": "2abf1be61b5cccda17e410b00174345546eba6bf86592ba138d66772b01f94bc",
       "svgVisible": true,
-      "textElements": 95
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 63,
+      "componentLabels": [
+        "C_VM2",
+        "C_BULK",
+        "R_SA",
+        "R_SB",
+        "R_REF_H",
+        "R_REF_L",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "C_VM2",
+        "C_BULK",
+        "R_SA",
+        "R_SB",
+        "R_REF_H",
+        "R_REF_L"
+      ],
+      "missingComponentLabels": []
     },
     {
       "page": 9,
-      "title": "NEMA14_CH32X035G8U6 9/9",
+      "title": "NEMA14_CH32X035G8U6 9/10",
+      "native_svg_sha256": "0e690acb365c94a19c3075f02eb2c4d29a7ce49522e7a6c07d090f513ab3227e",
       "svgVisible": true,
-      "textElements": 51
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 99,
+      "componentLabels": [
+        "C_REF",
+        "R_ENABLE",
+        "R_SLEEP",
+        "J_MOTOR",
+        "J_DEBUG",
+        "U_ESD",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "C_REF",
+        "R_ENABLE",
+        "R_SLEEP",
+        "J_MOTOR",
+        "J_DEBUG",
+        "U_ESD"
+      ],
+      "missingComponentLabels": []
+    },
+    {
+      "page": 10,
+      "title": "NEMA14_CH32X035G8U6 10/10",
+      "native_svg_sha256": "3b54d75bcd5fa2a7bce41a1ef658e5a7c25f07bbfa45b8551e8d4ebdd4075aab",
+      "svgVisible": true,
+      "width": "297mm",
+      "height": "210mm",
+      "viewBox": "0 0 2970 2100",
+      "textElements": 59,
+      "componentLabels": [
+        "D_TVS",
+        "R_USB_BOOT",
+        "J_BOOT",
+        "U_MCU - CH32X035G8U6",
+        "U_PD - CH224K",
+        "U_LDO - HT7533-1",
+        "U_DRV - A4988",
+        "U_ESD - USBLC6-2SC6",
+        "U_VM_ISO - SN74CBTLV1G125",
+        "Q_DATA - MMBT3904-7-F"
+      ],
+      "summary": "0 schematic placement findings",
+      "expectedComponents": [
+        "D_TVS",
+        "R_USB_BOOT",
+        "J_BOOT"
+      ],
+      "missingComponentLabels": []
     }
   ],
+  "allPagesOpenedInBrowser": true,
   "schematicPlacementFindings": [],
-  "drcErrors": 0,
-  "drcWarnings": 0,
   "browserScriptErrors": [],
-  "officialIdeSchematicPane": "disabled for saved circuit JSON; native SVG review used",
-  "usbFlashingBenchTested": false
+  "officialIdeSchematicPane": "not used in this pass; previousenvironmentattemptrecorded savedJSON tabdisabled andWebGPUadapterunavailable. ThisnativeSVGprojectUI requiresnoWebGPU anddoesnotclaimofficialIDEanalysis.",
+  "finalPCBAndCAMChecks": "separate parent/agents validation, not inferred from these source-only views",
+  "physicalTestsExecuted": false,
+  "current_same_edge_source_rebind": {
+    "date_utc": "2026-10-08T20:29:40.062965+00:00",
+    "fresh_source_json_sha256": "3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4",
+    "visually_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+    "every_source_and_schematic_record_equal": true,
+    "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+    "reviewed_A4_pages": 10,
+    "fresh_source_error_count": 0,
+    "fitted_supplier_count": 44,
+    "fresh_actual_CLI": {
+      "command": "tsci check schematic-placement artifacts/validation/native-a4-review/same-edge-current-source.circuit.json",
+      "version": "0.1.2261",
+      "exit_code": 0,
+      "finding_count": 0,
+      "stdout": "same-edge-placement-cli.txt",
+      "stderr": "same-edge-placement-cli-stderr.txt",
+      "input_binding": "Immutable snapshot copied from actual freshly compiled final-source; reported fresh_source_json_sha256 identifies the exact CLI input."
+    },
+    "ports": [
+      {
+        "reference": "J_PD",
+        "pcb_component_native_bbox_center_mm": {
+          "x": -5.3,
+          "y": 12.57501465
+        },
+        "pcb_rotation_deg": 180,
+        "logical_and_CAD_anchor_y_mm": 12.1499711,
+        "CAD_rotation_deg": 0,
+        "mating_plane_y_mm": 17.5
+      },
+      {
+        "reference": "J_DATA",
+        "pcb_component_native_bbox_center_mm": {
+          "x": 5.3,
+          "y": 12.57501465
+        },
+        "pcb_rotation_deg": 180,
+        "logical_and_CAD_anchor_y_mm": 12.1499711,
+        "CAD_rotation_deg": 0,
+        "mating_plane_y_mm": 17.5
+      }
+    ],
+    "cable_gate": "Compact overmolds no more than10mm wide; actual simultaneous insertion/carrier/screw/bend clearance must be physically qualified.",
+    "validity": "PCB pose changes leave reviewed electrical/schematic records identical. The original24-page browser/visual review remains valid for this source; no new browser run claimed. Final saved copper/CAM metadata rebinding remains parent-owned."
+  },
+  "drc_status": "No PCB/CAM DRC assertion in this source-only UI review; final authoritative saved-copper reports are separate.",
+  "bare_interface_metadata_rebind": {
+    "date_utc": "2026-10-08T20:51:52.295584+00:00",
+    "source_json_sha256": "6d1b86d16b4794e18fca31de02facb63efac6cde4ba58d827ff16a7c24d65420",
+    "visually_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+    "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+    "every_source_and_schematic_record_equal": true,
+    "reviewed_A4_pages": 10,
+    "change": "Bare J_MOTOR/J_DEBUG/J_BOOT now explicitly declare insertion direction; no electrical/schematic changes.",
+    "scope": "Preserves completed24-page native A4 visual/browser review and prior exact-snapshot schematic-placement CLI result. New root official netlist/pin/source/PCB-placement results are separate; no blanket zero-placement-findings claim."
+  }
 }

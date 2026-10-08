@@ -1,6 +1,6 @@
 {
-  "mappedComponents": 38,
-  "distinctParts": 25,
+  "mappedComponents": 44,
+  "distinctParts": 29,
   "references": {
     "J_PD": "C165948",
     "J_DATA": "C165948",
@@ -13,10 +13,15 @@
     "C_LOGIC": "C98192",
     "R_CC1": "C23186",
     "R_CC2": "C23186",
-    "R_USB_SENSE_H": "C25803",
-    "R_USB_SENSE_L": "C25803",
+    "R_USB_SENSE_H": "C25804",
+    "R_USB_SENSE_L": "C25804",
+    "Q_DATA": "C94514",
     "R_VM_H": "C25803",
     "R_VM_L": "C25804",
+    "U_VM_ISO": "C131992",
+    "R_VM_EN": "C25804",
+    "R_VM_BLEED": "C25804",
+    "C_VM_ISO": "C14663",
     "C_VM_SENSE": "C1589",
     "U_LDO": "C14289",
     "D_PD": "C8598",
@@ -28,15 +33,16 @@
     "C_VCP": "C14663",
     "C_VREG": "C21120",
     "C_DRV_LOGIC": "C14663",
-    "C_VM": "C49678",
-    "C_BULK": "C72522",
+    "C_VM": "C14663",
+    "C_VM2": "C14663",
+    "C_BULK": "C178585",
     "R_SA": "C2930216",
     "R_SB": "C2930216",
-    "R_REF_H": "C23153",
-    "R_REF_L": "C25804",
+    "R_REF_H": "C23018",
+    "R_REF_L": "C441922",
     "C_REF": "C1589",
-    "R_ENABLE": "C25803",
-    "R_SLEEP": "C25803",
+    "R_ENABLE": "C25804",
+    "R_SLEEP": "C25804",
     "U_ESD": "C2687116",
     "D_TVS": "C19077512",
     "R_USB_BOOT": "C25900"
@@ -56,18 +62,22 @@
     {
       "reference": "J_PD",
       "supplierPart": "C165948",
-      "mouthXmm": -17.50000000000005,
-      "expectedEdgeXmm": -17.5
+      "mouthYmm": 17.50000000000005,
+      "expectedEdgeYmm": 17.5,
+      "cadFacingDegrees": 0,
+      "centreXmm": -5.3
     },
     {
       "reference": "J_DATA",
       "supplierPart": "C165948",
-      "mouthXmm": 17.50000000000005,
-      "expectedEdgeXmm": 17.5
+      "mouthYmm": 17.50000000000005,
+      "expectedEdgeYmm": 17.5,
+      "cadFacingDegrees": 0,
+      "centreXmm": 5.3
     }
   ],
-  "schematicA4PageCount": 9,
+  "schematicA4PageCount": 10,
   "allNumberedPhysicalPinsOnSchematic": true,
-  "numberedPinCount": 182,
+  "numberedPinCount": 198,
   "schematicNamedNetStubCoverageVerified": true
 }

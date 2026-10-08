@@ -1,0 +1,10 @@
+{
+  "date_utc": "2026-10-08T20:51:52.295584+00:00",
+  "source_json_sha256": "6d1b86d16b4794e18fca31de02facb63efac6cde4ba58d827ff16a7c24d65420",
+  "visually_reviewed_source_json_sha256": "c914d3872fe499aacdef50be64208bd6292af4b81ed8ee4e25b1c3c2ca2b9ebb",
+  "source_and_schematic_record_sha256": "cabd506b6afe40a879ae0d43838569bc989c9ddf33ac5ea4bb22370d6c66ee1e",
+  "every_source_and_schematic_record_equal": true,
+  "reviewed_A4_pages": 10,
+  "change": "Bare J_MOTOR/J_DEBUG/J_BOOT now explicitly declare insertion direction; no electrical/schematic changes.",
+  "scope": "Preserves completed24-page native A4 visual/browser review and prior exact-snapshot schematic-placement CLI result. New root official netlist/pin/source/PCB-placement results are separate; no blanket zero-placement-findings claim."
+}

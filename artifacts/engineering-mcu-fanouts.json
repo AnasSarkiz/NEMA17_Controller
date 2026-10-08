@@ -1,0 +1,119 @@
+[
+  {
+    "pin": "STEP",
+    "via": [
+      1.5,
+      1.3
+    ],
+    "minimumPadClearanceMm": 0.2200501999999998,
+    "lengthMm": 1.5821820700231104
+  },
+  {
+    "pin": "DIR",
+    "via": [
+      2.05,
+      0.6999
+    ],
+    "minimumPadClearanceMm": 0.21979619999999989,
+    "lengthMm": 0.9493039999999997
+  },
+  {
+    "pin": "PD_PG",
+    "via": [
+      1.5,
+      0.1
+    ],
+    "minimumPadClearanceMm": 0.2197961999999999,
+    "lengthMm": 1.5822202611374605
+  },
+  {
+    "pin": "DATA_PRESENT",
+    "via": [
+      3.3,
+      -1.4
+    ],
+    "minimumPadClearanceMm": 0.2197961999999997,
+    "lengthMm": 1.1598436143380653
+  },
+  {
+    "pin": "VM_SENSE",
+    "via": [
+      4.3,
+      -1.4
+    ],
+    "minimumPadClearanceMm": 0.21979620000000022,
+    "lengthMm": 0.9125093211777999
+  },
+  {
+    "pin": "DRV_ENABLE_N",
+    "via": [
+      6.199196,
+      -1.45
+    ],
+    "minimumPadClearanceMm": 0.21979620000000022,
+    "lengthMm": 0.9500039999999996
+  },
+  {
+    "pin": "DRV_SLEEP",
+    "via": [
+      7.95,
+      0.300104
+    ],
+    "minimumPadClearanceMm": 0.21979619999999997,
+    "lengthMm": 0.9507040000000009
+  },
+  {
+    "pin": "VM_ENABLE_N",
+    "via": [
+      8.1,
+      1.5
+    ],
+    "minimumPadClearanceMm": 0.21979619999999978,
+    "lengthMm": 1.1007039999999995
+  },
+  {
+    "pin": "USB_DP",
+    "via": [
+      3.5,
+      4.55
+    ],
+    "minimumPadClearanceMm": 0.2197962000000002,
+    "lengthMm": 1.4314970186117015
+  },
+  {
+    "pin": "USB_DM",
+    "via": [
+      4.599504,
+      4.55
+    ],
+    "minimumPadClearanceMm": 0.21979619999999933,
+    "lengthMm": 1.0500039999999995
+  },
+  {
+    "pin": "SWDIO",
+    "via": [
+      5.5,
+      4.75
+    ],
+    "minimumPadClearanceMm": 0.21979619999999933,
+    "lengthMm": 1.4207459584734927
+  },
+  {
+    "pin": "SWCLK",
+    "via": [
+      6.8,
+      4.4
+    ],
+    "minimumPadClearanceMm": 0.2197962000000002,
+    "lengthMm": 2.0326700522312926
+  },
+  {
+    "pin": "DRV_DIR",
+    "via": [
+      3.95,
+      -7.499593
+    ],
+    "minimumPadClearanceMm": 0.28037520000000077,
+    "lengthMm": 1.4499049999999998
+  }
+]

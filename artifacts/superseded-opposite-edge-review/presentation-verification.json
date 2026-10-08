@@ -1,0 +1,150 @@
+{
+  "savedPcbGeometryUnchanged": true,
+  "addedBootComponents": [],
+  "sourcePinsAndNetsUnchanged": true,
+  "pcbGeometrySha256": "65bf20e076080db64cf7aefca18ab15ccc205d9be99257bfeba78a82fb7d4c29",
+  "boardSha256": "c825ae7972960349c4e75eb71fa33d656f62ed1340691bfccfd4676bd0fc1319",
+  "nativeA4Sheets": [
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_0",
+      "name": "NEMA14_CH32X035G8U6_1",
+      "display_name": "NEMA14_CH32X035G8U6 1/10",
+      "sheet_index": 0,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_1",
+      "name": "NEMA14_CH32X035G8U6_2",
+      "display_name": "NEMA14_CH32X035G8U6 2/10",
+      "sheet_index": 1,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_2",
+      "name": "NEMA14_CH32X035G8U6_3",
+      "display_name": "NEMA14_CH32X035G8U6 3/10",
+      "sheet_index": 2,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_3",
+      "name": "NEMA14_CH32X035G8U6_4",
+      "display_name": "NEMA14_CH32X035G8U6 4/10",
+      "sheet_index": 3,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_4",
+      "name": "NEMA14_CH32X035G8U6_5",
+      "display_name": "NEMA14_CH32X035G8U6 5/10",
+      "sheet_index": 4,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_5",
+      "name": "NEMA14_CH32X035G8U6_6",
+      "display_name": "NEMA14_CH32X035G8U6 6/10",
+      "sheet_index": 5,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_6",
+      "name": "NEMA14_CH32X035G8U6_7",
+      "display_name": "NEMA14_CH32X035G8U6 7/10",
+      "sheet_index": 6,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_7",
+      "name": "NEMA14_CH32X035G8U6_8",
+      "display_name": "NEMA14_CH32X035G8U6 8/10",
+      "sheet_index": 7,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_8",
+      "name": "NEMA14_CH32X035G8U6_9",
+      "display_name": "NEMA14_CH32X035G8U6 9/10",
+      "sheet_index": 8,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_9",
+      "name": "NEMA14_CH32X035G8U6_10",
+      "display_name": "NEMA14_CH32X035G8U6 10/10",
+      "sheet_index": 9,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 0,
+        "y": 0
+      }
+    }
+  ],
+  "componentModels": 44
+}

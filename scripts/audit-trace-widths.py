@@ -18,17 +18,12 @@ ground_geometry={}
 for layer in ['top','inner1','inner2','bottom']:
     regions=[]
     for e in g.j:
-        if e['type']!='pcb_copper_pour' or e['layer']!=layer:continue
+        if e['type']!='pcb_copper_pour' or e['layer']!=layer or g.nets.get(g.key(e))!='GND':continue
         b=e['brep_shape'];pts=lambda r:[(p['x'],p['y']) for p in r['vertices']]
         regions.append(Polygon(pts(b['outer_ring']),[pts(r) for r in b.get('inner_rings',[])]))
     ground_geometry[layer]=unary_union(regions)
-# This saved PD branch terminates at driver VBB1, after the VM capacitor split.
-# It supplies one bridge, so use the motor's 0.4 A peak phase rating.
-one_bridge='freerouted_trace_163' if board['num_layers']==4 else None
-if one_bridge:
-    t=next(e for e in g.j if e.get('pcb_trace_id')==one_bridge)
-    assert g.nets[g.key(t)]=='PD_VBUS'
-    assert [(p['x'],p['y']) for p in t['route']]==[(-2.6,-6.1782),(-.1618,-6.1782),(1.6811,-8.0211)]
+# Apply full conservative PD input budget until branch currents are explicitly proved.
+one_bridge=None
 for e in g.j:
     if e['type']!='pcb_trace':continue
     name=g.nets.get(g.key(e),'direct')
@@ -61,12 +56,17 @@ pour_areas=[]
 for e in pours:
     b=e['brep_shape'];pts=lambda r:[(p['x'],p['y']) for p in r['vertices']]
     p=Polygon(pts(b['outer_ring']),[pts(r) for r in b.get('inner_rings',[])])
-    pour_areas.append({'id':e['pcb_copper_pour_id'],'layer':e['layer'],'areaMm2':p.area})
-if not pours:errors.append('Ground pours missing')
-if board['num_layers']==4 and not any(p['layer']=='inner1' and p['areaMm2']>700 for p in pour_areas):
+    pour_areas.append({'id':e['pcb_copper_pour_id'],'net':g.nets.get(g.key(e),'direct'),'layer':e['layer'],'areaMm2':p.area})
+ground_areas=[p for p in pour_areas if p['net']=='GND']
+if not ground_areas:errors.append('Ground pours missing')
+if board['num_layers']==4 and not any(p['layer']=='inner1' and p['areaMm2']>700 for p in ground_areas):
     errors.append('Large inner1 ground plane missing')
 resistors={e['name']:e['resistance'] for e in g.j if e['type']=='source_component' and 'resistance' in e}
-adcmax=35*resistors['R_VM_L']*1.01/(resistors['R_VM_H']*.99+resistors['R_VM_L']*1.01)
+parallel=lambda a,b:a*b/(a+b)
+adc_load=parallel(resistors['R_VM_L'],resistors['R_VM_BLEED'])
+adc_load_max=parallel(resistors['R_VM_L']*1.01,resistors['R_VM_BLEED']*1.01)
+adcmax=35*adc_load_max/(resistors['R_VM_H']*.99+adc_load_max)
+vm_div_max=35*resistors['R_VM_L']*1.01/(resistors['R_VM_H']*.99+resistors['R_VM_L']*1.01)
 if adcmax>3.3:errors.append('Motor voltage divider exceeds ADC review envelope')
 vias=[]
 for via in [e for e in g.j if e['type']=='pcb_via']:
@@ -84,7 +84,9 @@ report={'viaReview':vias,'sha256':hashlib.sha256(g.path.read_bytes()).hexdigest(
         'copperSpecification':{'externalUmMinimum':35,'internalUmMinimum':17.5,'boardThicknessMm':1.6,'viaPlatingUmMinimum':20},
         'temperatureRiseScreenLimitC':30,'method':'IPC-2221 k=0.048 external / 0.024 internal; area in square mils',
         'budgetsA':budgets,'singleBridgePdBranchTrace':one_bridge,'nets':summary,'segments':segments,
-        'groundPours':pour_areas,'adcVoltageAt15V':15*resistors['R_VM_L']/(resistors['R_VM_H']+resistors['R_VM_L']),
+        'groundPours':ground_areas,'copperPours':pour_areas,'adcVoltageAt15V':15*adc_load/(resistors['R_VM_H']+adc_load),
+        'switchInputWorstVoltageAt35V':vm_div_max,'enabledAdcNominalScale':(resistors['R_VM_H']+adc_load)/adc_load,
+        'poweredOffDcVoltageBoundVolts':10e-6*resistors['R_VM_BLEED']*1.01,
         'adcWorstVoltageAt35V':adcmax,'qualifiedForManufacture':False,
         'groundThermalCurrentSharingAnalysisPending':True,
         'limits':['Temperature estimates assume specified minimum copper, not a measured fabrication stackup.',

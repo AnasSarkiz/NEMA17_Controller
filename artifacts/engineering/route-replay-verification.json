@@ -1,0 +1,10 @@
+{
+  "copperRecordsIdentical": true,
+  "adjustments": 189,
+  "supplierImportSha256": "ff66917ea0d33f2ae7ac775a2433c570341ff6008bd28a318bddba112e79171c",
+  "acceptedBoardSha256AtVerification": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
+  "canonicalPourOrder": [
+    "GND",
+    "LOGIC_IN"
+  ]
+}

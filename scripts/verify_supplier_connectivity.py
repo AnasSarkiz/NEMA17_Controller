@@ -14,7 +14,7 @@ def geometry(e):
  if e.get('shape')=='polygon':return Polygon([(p['x'],p['y']) for p in e['points']]).buffer(0)
  x,y=e['x'],e['y'];w=e.get('width',e.get('outer_width',e.get('outer_diameter',e.get('radius',0)*2)));h=e.get('height',e.get('outer_height',e.get('outer_diameter',e.get('radius',0)*2)))
  if e.get('shape')=='circle':g=Point(x,y).buffer(w/2)
- elif e.get('shape')=='pill':
+ elif e.get('shape') in ['pill','rotated_pill']:
   dx,dy=((w-h)/2,0) if w>=h else (0,(h-w)/2);g=LineString([(x-dx,y-dy),(x+dx,y+dy)]).buffer(min(w,h)/2)
  else:g=box(x-w/2,y-h/2,x+w/2,y+h/2)
  return rotate(g,e.get('ccw_rotation',0),origin=(x,y))

@@ -1,0 +1,66 @@
+{
+  "tool": "Chromium/Playwright",
+  "view": "project read-only UI with native tscircuit A4 SVG and CLI analysis",
+  "reviewedPages": [
+    {
+      "page": 1,
+      "title": "NEMA14_CH32X035G8U6 1/9",
+      "svgVisible": true,
+      "textElements": 124
+    },
+    {
+      "page": 2,
+      "title": "NEMA14_CH32X035G8U6 2/9",
+      "svgVisible": true,
+      "textElements": 124
+    },
+    {
+      "page": 3,
+      "title": "NEMA14_CH32X035G8U6 3/9",
+      "svgVisible": true,
+      "textElements": 182
+    },
+    {
+      "page": 4,
+      "title": "NEMA14_CH32X035G8U6 4/9",
+      "svgVisible": true,
+      "textElements": 59
+    },
+    {
+      "page": 5,
+      "title": "NEMA14_CH32X035G8U6 5/9",
+      "svgVisible": true,
+      "textElements": 66
+    },
+    {
+      "page": 6,
+      "title": "NEMA14_CH32X035G8U6 6/9",
+      "svgVisible": true,
+      "textElements": 59
+    },
+    {
+      "page": 7,
+      "title": "NEMA14_CH32X035G8U6 7/9",
+      "svgVisible": true,
+      "textElements": 59
+    },
+    {
+      "page": 8,
+      "title": "NEMA14_CH32X035G8U6 8/9",
+      "svgVisible": true,
+      "textElements": 95
+    },
+    {
+      "page": 9,
+      "title": "NEMA14_CH32X035G8U6 9/9",
+      "svgVisible": true,
+      "textElements": 51
+    }
+  ],
+  "schematicPlacementFindings": [],
+  "drcErrors": 0,
+  "drcWarnings": 0,
+  "browserScriptErrors": [],
+  "officialIdeSchematicPane": "disabled for saved circuit JSON; native SVG review used",
+  "usbFlashingBenchTested": false
+}

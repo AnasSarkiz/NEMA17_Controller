@@ -1,0 +1,46 @@
+[
+  {
+    "net": "A_PLUS",
+    "escapeVia": [
+      0.4,
+      -4.55
+    ],
+    "traceWidthMm": 0.3,
+    "viaOuterMm": 0.5,
+    "viaDrillMm": 0.25,
+    "lengthMm": 13.327820652713665
+  },
+  {
+    "net": "B_PLUS",
+    "escapeVia": [
+      -0.4,
+      -4.55
+    ],
+    "traceWidthMm": 0.3,
+    "viaOuterMm": 0.5,
+    "viaDrillMm": 0.25,
+    "lengthMm": 13.971596189404766
+  },
+  {
+    "net": "A_MINUS",
+    "escapeVia": [
+      3.65,
+      -6.5
+    ],
+    "traceWidthMm": 0.3,
+    "viaOuterMm": 0.5,
+    "viaDrillMm": 0.25,
+    "lengthMm": 17.03648026211572
+  },
+  {
+    "net": "B_MINUS",
+    "escapeVia": [
+      -3.5,
+      -6.5
+    ],
+    "traceWidthMm": 0.3,
+    "viaOuterMm": 0.5,
+    "viaDrillMm": 0.25,
+    "lengthMm": 19.512594848975564
+  }
+]

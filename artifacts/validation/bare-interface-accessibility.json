@@ -1,0 +1,20 @@
+{
+  "geometryChanged": false,
+  "changes": [
+    {
+      "reference": "J_MOTOR",
+      "before": null,
+      "after": "from_above"
+    },
+    {
+      "reference": "J_DEBUG",
+      "before": null,
+      "after": "from_above"
+    },
+    {
+      "reference": "J_BOOT",
+      "before": null,
+      "after": "from_above"
+    }
+  ]
+}

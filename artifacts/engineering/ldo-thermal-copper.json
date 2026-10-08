@@ -1,0 +1,12 @@
+{
+  "net": "LOGIC_IN",
+  "minimumForeignClearanceMm": 0.2,
+  "externalStandardVias": [],
+  "regions": [
+    {
+      "layer": "top",
+      "areaMm2": 16.379288273203347
+    }
+  ],
+  "thermalResistanceVerified": false
+}

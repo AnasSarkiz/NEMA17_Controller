@@ -1,0 +1,127 @@
+{
+  "gridMm": 0.025,
+  "minimumClearanceMm": 0.15,
+  "roundingGuardMm": 0.008,
+  "routes": [
+    {
+      "from": "U_DRV.CP1",
+      "to": "C_CP.pin1",
+      "net": "CP1",
+      "widthMm": 0.16,
+      "lengthMm": 1.5122540093136632,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 438
+    },
+    {
+      "from": "U_DRV.CP2",
+      "to": "C_CP.pin2",
+      "net": "CP2",
+      "widthMm": 0.16,
+      "lengthMm": 1.7605021552055766,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 603
+    },
+    {
+      "from": "U_DRV.VCP",
+      "to": "C_VCP.pin1",
+      "net": "VCP",
+      "widthMm": 0.16,
+      "lengthMm": 2.596596490609793,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 355
+    },
+    {
+      "from": "U_DRV.VREG",
+      "to": "C_VREG.pin1",
+      "net": "VREG",
+      "widthMm": 0.16,
+      "lengthMm": 2.2961811711981706,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 1545
+    },
+    {
+      "from": "U_DRV.SENSE1",
+      "to": "R_SA.pin1",
+      "net": "SENSE1",
+      "widthMm": 0.3,
+      "lengthMm": 2.6415278824094632,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 575
+    },
+    {
+      "from": "U_DRV.SENSE2",
+      "to": "R_SB.pin1",
+      "net": "SENSE2",
+      "widthMm": 0.3,
+      "lengthMm": 2.6415278995087146,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 575
+    },
+    {
+      "from": "U_DRV.VBB1",
+      "to": "C_VM2.pin1",
+      "net": "PD_VBUS",
+      "widthMm": 0.3,
+      "lengthMm": 2.461002070526159,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 871
+    },
+    {
+      "from": "U_DRV.VBB2",
+      "to": "C_VM.pin1",
+      "net": "PD_VBUS",
+      "widthMm": 0.3,
+      "lengthMm": 3.3716082450321077,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 2725
+    },
+    {
+      "from": "U_DRV.VDD",
+      "to": "C_DRV_LOGIC.pin1",
+      "net": "V3V3",
+      "widthMm": 0.16,
+      "lengthMm": 1.3998814424550385,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 56
+    },
+    {
+      "from": "U_MCU.VDD",
+      "to": "C_MCU.pin1",
+      "net": "V3V3",
+      "widthMm": 0.16,
+      "lengthMm": 1.2992800038482852,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 52
+    },
+    {
+      "from": "U_LDO.VOUT",
+      "to": "C_LDO_OUT.pin1",
+      "net": "V3V3",
+      "widthMm": 0.3,
+      "lengthMm": 2.1485330469020294,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 1606
+    },
+    {
+      "from": "U_LDO.VIN",
+      "to": "C_LDO_IN.pin1",
+      "net": "LOGIC_IN",
+      "widthMm": 0.3,
+      "lengthMm": 3.6998222000005403,
+      "layer": "top",
+      "viaCount": 0,
+      "expandedNodes": 148
+    }
+  ]
+}

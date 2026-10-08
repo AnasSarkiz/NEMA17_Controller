@@ -1,0 +1,5 @@
+# Reproduce native-geometry route seeding, widening and official Freerouting API.
+JPype1==1.7.1
+numpy==2.3.5
+Pillow==12.3.0
+shapely==2.1.2

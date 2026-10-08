@@ -1,0 +1,48 @@
+
+> NEMA14_CH32X035G8U6@1.1.5 check:manufacturing
+> /workspace/.routing-venv/bin/python scripts/audit-manufacturing.py --render
+
+{
+  "status": "FAIL",
+  "issues": [
+    {
+      "kind": "copper-source-mismatch",
+      "layer": "top",
+      "missing_mm2": 9.097908537168387,
+      "extra_mm2": 0.0,
+      "tolerance_mm": 0.0002
+    },
+    {
+      "kind": "copper-source-mismatch",
+      "layer": "bottom",
+      "missing_mm2": 8.423100000000007,
+      "extra_mm2": 0.0,
+      "tolerance_mm": 0.0002
+    },
+    {
+      "kind": "unassigned-copper-islands",
+      "islands": [
+        {
+          "area_mm2": 5.6580977232055005,
+          "bounds_mm": [
+            1.622287,
+            9.05228,
+            6.304021,
+            11.6676
+          ],
+          "layers": [
+            "top"
+          ],
+          "no_connect_pads": [],
+          "classification": "unassigned copper: review"
+        }
+      ]
+    }
+  ],
+  "connectivity": {
+    "named_nets_checked": 37,
+    "actual_copper_islands": 126,
+    "unassigned_islands": 28
+  },
+  "report": "/workspace/NEMA17_Controller/artifacts/manufacturing/audit.json"
+}

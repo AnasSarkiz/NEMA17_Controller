@@ -1,0 +1,24 @@
+{
+  "cadquery_version": "2.6.1",
+  "scope": "Independent reimport validation of separate generated carrier, bounded procurement hardware and manufacturer-maximum envelope STEP; no qualification of strength, threads or actual supplier dimensions.",
+  "files": [
+    {
+      "file": "separate-front-carrier.step",
+      "sha256": "4c9122a784add3016eb9131e34c1122e5115beda429df27650412e263ad26dce",
+      "reimported_valid_brep": true,
+      "closed_solid_count": 1
+    },
+    {
+      "file": "fastener-clearance-envelopes.step",
+      "sha256": "ca9201a82708cf7e6179aa8acec89e219c8eef241039e259391ec5c3943b8652",
+      "reimported_valid_brep": true,
+      "closed_solid_count": 8
+    },
+    {
+      "file": "bulk-manufacturer-maximum-envelope.step",
+      "sha256": "fc82272a980c030e60572ba322a20588be9f87979c3adbd1abe5a210797180f1",
+      "reimported_valid_brep": true,
+      "closed_solid_count": 1
+    }
+  ]
+}
