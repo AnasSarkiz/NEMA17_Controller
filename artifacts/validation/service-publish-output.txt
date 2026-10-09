@@ -1,0 +1,17 @@
+Official command: tsci push index.circuit.tsx --include-dist --compress
+CLI request bodies and routine file-by-file progress omitted. Downloaded package/model verification is recorded separately.
+
+Prepared source package: {"github_revision": "a933aceee21e0e0bc46e1e3f1c94f0918e9bff79", "review_board_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040", "published_board_sha256": "90fcb38e3615268c8d802e80cf65f26711ada006bce519dcd16ef9dbdae3c8fb", "only_cad_url_metadata_changed": true, "saved_routing_preserved": true, "pinned_cad_components": 45}
+Build complete
+Build exiting with code 0: build finished successfully
+Including verified compact native dist/index/circuit.json
+Incrementing Package Version 1.1.5 -> 1.1.6
+Incrementing Package Version 1.1.6 -> 1.1.7
+Incrementing Package Version 1.1.7 -> 1.1.8
+Uploading package archive...
+Archive upload failed, falling back to file-by-file upload: Error: FAIL [502]: POST /package_files/upload_archive
+Upload Summary
+  Succeeded: 152 files
+"@tsci/AnasSarkiz.NEMA14_CH32X035G8U6@1.1.8" published!
+https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6
+Published registry version: 1.1.8
