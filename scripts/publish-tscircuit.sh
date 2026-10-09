@@ -22,8 +22,8 @@ shutil.copy2(root/'artifacts/schematic-a4-page-01.svg',stage/'artifacts/schemati
 board_path=root/'artifacts/board.circuit.json';original=json.loads(board_path.read_text())
 assert json.loads((root/'index.circuit.json').read_text())==original
 j=json.loads(board_path.read_text())
-pattern=re.compile(r'(https://raw\.githubusercontent\.com/AnasSarkiz/(?:NEMA17_Controller|NEMA14_RP2040)/)main(/imports/supplier/)')
-pin=lambda s:pattern.sub(lambda m:m[1]+revision+m[2],s)
+pattern=re.compile(r'(https://raw\.githubusercontent\.com/AnasSarkiz/(?:NEMA17_Controller|NEMA14_CH32X035G8U6|NEMA14_RP2040)/)main(/imports/supplier/)')
+pin=lambda s:pattern.sub(lambda m:'https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/'+revision+m[2],s)
 for f in (stage/'imports/supplier').rglob('*.tsx'):f.write_text(pin(f.read_text()))
 for e in j:
  if e['type']=='cad_component':

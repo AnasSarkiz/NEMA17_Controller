@@ -1185,8 +1185,8 @@
       "bytes": 7781
     },
     "scripts/publish-tscircuit.sh": {
-      "sha256": "dbf9c8b3391177b254aa7c6f7cdc682f22fbc3bea7469e67523d434968471156",
-      "bytes": 4105
+      "sha256": "0a546569d12216c3a5cfaaf0170e746b707e9717ae35284b04d8ccd9bc29311c",
+      "bytes": 4186
     },
     "scripts/rebind-mechanical-review.py": {
       "sha256": "1654d20988786177c17990b7e2cb749a70663dfa8cb7187d57f37671e544bfee",
@@ -1326,7 +1326,7 @@
     "date": "2026-10-09",
     "script": "scripts/publish-tscircuit.sh",
     "before_sha256": "7d698818cfa7c977bf5cf3efe7223e74368c4ba6312c9701deaac82608183b2e",
-    "after_sha256": "dbf9c8b3391177b254aa7c6f7cdc682f22fbc3bea7469e67523d434968471156",
+    "after_sha256": "0a546569d12216c3a5cfaaf0170e746b707e9717ae35284b04d8ccd9bc29311c",
     "changes": "Package staging preserves authoritative JSON/version files; pins distributed CAD URLs to uploaded Git commit and includes exact saved dist Circuit JSON. Electrical/native footprint/Cu/CAM inputs unchanged.",
     "script_syntax_checked": true
   }
