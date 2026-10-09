@@ -2,7 +2,7 @@
   "schema": "nema14-inside-jst-review-manifest-v3",
   "project": "NEMA14_CH32X035G8U6",
   "requested_local_start_commit": "2d69fc4",
-  "generated_at_utc": "2026-10-09T22:25:16.931762+00:00",
+  "generated_at_utc": "2026-10-09T22:26:13.822846+00:00",
   "saved_board_sha256": "8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a",
   "index_saved_board_byte_identical": true,
   "inventory_note": "Routing workflow intermediate reports are diagnostic history, not final acceptance. Acceptance reports must be bound to the final saved board.",
@@ -55,7 +55,7 @@
     "Supplier pickup/rotation preview and filled/capped-via/drill/stencil process acceptance"
   ],
   "files_sha256": {
-    ".pcba-workflow/program-state.json": "52dc1f3e47f34915e1e7eb720239cf6c423c70b612d73c1ddb0eeefed9cda955",
+    ".pcba-workflow/program-state.json": "d75cd369b4301a09ab66dd7f46a8b87dcd0baadbd7055bb32fd4faa9bc253787",
     "artifacts/assembly/assembly-drawings.pdf": "e915322ddd51afeee38b53cb7540e2f774571cfebebdeb24115443b829b6b83e",
     "artifacts/assembly/assembly-review.json": "7e45ffb91b4d2ca35e230c891d0cc65782d6e26e8966b54c720b22b2aa560bc3",
     "artifacts/assembly/assembly-top.png": "30d59eb97f5b11feed23c4f4c35f9308bca5a850dfca0b2e18e3faf6c9a445de",
@@ -201,7 +201,7 @@
     "docs/supplier-cad.md": "0da61766be8903dc7f3f4ded41bf230899ed81d9af64e9776719ab7ca5f77e1e",
     "docs/usb-programming.md": "82bc7270203126e2f5b4602e4adc19d8876470b218ddcfcfc613a3c85b8efe3e",
     "docs/validation.md": "ae55b4baf349da4a753c4cfc6042fe401712d512924d5adcd8419c8e61f32bf7",
-    "docs/variant-comparison.md": "8722d6cfdfb7df160a4b1745566a44cac366eb008f72d8884e176fcba5216e18",
+    "docs/variant-comparison.md": "b501ef128a46f0b9e10b4f6769b95ab82fae6e3d5a1ac6a921f858736efa8a24",
     "imports/supplier/A4988SETTR_T/A4988SETTR_T.obj": "01eb47f12909a50a9f70825ab23b31c6be4b33ffe26bd7c8697f94077b87ebd9",
     "imports/supplier/A4988SETTR_T/A4988SETTR_T.step": "578a8ff75c4016df2d5e6e332aba2899ef713bf2d1c439906bc57edf2a57e121",
     "imports/supplier/A4988SETTR_T/A4988SETTR_T.tsx": "365d2d46ef09d8ac8a9bf3295196f94f47922e71a0c77b0e88e1641667b863ef",
