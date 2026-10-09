@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-09",
+  "registry_package": "AnasSarkiz/NEMA14_CH32X035G8U6@1.1.7",
+  "registry_url": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
+  "github_branch": "review/engineering-prototype-2026-10-08",
+  "github_url": "https://github.com/AnasSarkiz/NEMA17_Controller/tree/review/engineering-prototype-2026-10-08",
+  "github_revision": "2d1b92bfad8dd3f7961ae359fa11006000a339b2",
+  "review_board_sha256": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
+  "published_board_sha256": "6bc240e4e441d443c6d247928da0efac2e747cdc75a85a54196d0875fd75d35e",
+  "only_cad_url_metadata_changed": true,
+  "saved_routing_preserved": true,
+  "pinned_cad_components": 44,
+  "downloaded_registry_index_and_dist_equal": true,
+  "all_review_records_equal_except_pinned_cad_urls": true,
+  "distinct_model_urls_checked": 48,
+  "all_model_urls_http_200": true,
+  "ready_to_build": true,
+  "is_latest": true,
+  "registry_preview_generation_status_at_check": "pending",
+  "cli_note": "Compressed archive completed on server after CLI timeout. Duplicate-file retries returned errors; actual uploaded files were verified with official tsci clone, then release was finalized using the CLI registry client and public dist enabled.",
+  "manufacturing_qualification": "BLOCKED; publication does not approve untested hardware."
+}

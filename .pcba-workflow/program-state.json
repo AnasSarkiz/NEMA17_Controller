@@ -93,7 +93,7 @@
   "artifacts": {
     "final_engineering_manifest": {
       "path": "artifacts/validation/engineering-review-manifest.json",
-      "sha256": "f19cf1278238a6838c0b07c57e4cdfacb62af6ae09e6a846de96d9ce9207e496"
+      "sha256": "82b6516c1e5a2c2b1a1ce1d4060c7a435d1514be420ad05701d886816efd6f99"
     },
     "final_source": {
       "path": "artifacts/final-source.circuit.json",

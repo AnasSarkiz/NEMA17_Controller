@@ -1319,6 +1319,10 @@
     "src/supplier-placement.json": {
       "sha256": "86416dbacbdc0617b7eb1c334712c222b472ef31e075233c8220d7c1413db0a7",
       "bytes": 3376
+    },
+    "artifacts/validation/published-release.json": {
+      "sha256": "2459ba59b2f77e45c4d61b22cd8b083c5fe2c12c60114d436d84386a85874ba4",
+      "bytes": 1340
     }
   },
   "freshness_rule": "Any changes to these bound source/package/pin/placement/copper/CAM/native model records require reassessment and new evidence bindings; old artifacts and logs are not reused as proof of a different revision.",
@@ -1330,5 +1334,12 @@
     "changes": "Package staging preserves authoritative JSON/version files; pins distributed CAD URLs to uploaded Git commit and includes exact saved dist Circuit JSON. Electrical/native footprint/Cu/CAM inputs unchanged.",
     "script_syntax_checked": true,
     "upload_policy": "Compact exact Circuit JSON; source, A4 SVGs and assembly metadata in compressed registry archive. Full CAM/CAD/review evidence remains on GitHub."
+  },
+  "publication_verification": {
+    "receipt": "artifacts/validation/published-release.json",
+    "geometry_and_saved_copper_unchanged": true,
+    "qualification_unchanged": "BLOCKED",
+    "main_merged": false,
+    "order_submitted": false
   }
 }
