@@ -1,0 +1,292 @@
+{
+  "method": "Only dangling endpoint tails shortened to an interior physical junction; no new copper segments; terminal-free trace/via groups removed.",
+  "trimmed": [
+    {
+      "trace": "freerouted_trace_109_usbtrim_0_upperbay_0_upperbay_0",
+      "net": "PD_CC1",
+      "before": [
+        {
+          "route_type": "wire",
+          "x": -7.5999,
+          "y": 4.7,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -5.8723,
+          "y": 4.7,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -4.0156,
+          "y": 6.5567,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ],
+      "after": [
+        {
+          "route_type": "wire",
+          "x": -7.5999,
+          "y": 4.7,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -5.8723,
+          "y": 4.7,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -5.602071067811865,
+          "y": 4.970228932188135,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_127_upperbay_0_upperbay_0",
+      "net": "PD_VBUS",
+      "before": [
+        {
+          "route_type": "wire",
+          "x": -16.3517,
+          "y": 6.9287,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -16.3517,
+          "y": 2.832,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -16.2534,
+          "y": 2.7337,
+          "width": 0.3,
+          "layer": "top"
+        }
+      ],
+      "after": [
+        {
+          "route_type": "wire",
+          "x": -16.3517,
+          "y": 3.157452710329093,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -16.3517,
+          "y": 2.832,
+          "width": 0.3,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -16.2534,
+          "y": 2.7337,
+          "width": 0.3,
+          "layer": "top"
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_222_upperbay_0",
+      "net": "V3V3",
+      "before": [
+        {
+          "route_type": "wire",
+          "x": 7.8559,
+          "y": 6.85,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.5318,
+          "y": 6.85,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ],
+      "after": [
+        {
+          "route_type": "wire",
+          "x": 4.746709659215388,
+          "y": 6.85,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.5318,
+          "y": 6.85,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ]
+    },
+    {
+      "trace": "service_usb_repair_net8_1_upperbay_0",
+      "net": "USB_DM",
+      "before": [
+        {
+          "route_type": "wire",
+          "x": 8.925,
+          "y": 6.450000000000003,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.875,
+          "y": 6.5,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.875,
+          "y": 6.650000000000002,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.850000000000001,
+          "y": 6.675000000000001,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.850000000000001,
+          "y": 6.800000000000001,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.825000000000003,
+          "y": 6.825000000000003,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.825000000000003,
+          "y": 6.850000000000001,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.8,
+          "y": 6.875,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.8,
+          "y": 6.900000000000002,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.75,
+          "y": 6.950000000000003,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.75,
+          "y": 6.975000000000001,
+          "width": 0.16,
+          "layer": "bottom"
+        }
+      ],
+      "after": [
+        {
+          "route_type": "wire",
+          "x": 8.925,
+          "y": 6.450000000000003,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.875,
+          "y": 6.5,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 8.875,
+          "y": 6.586630570922848,
+          "width": 0.16,
+          "layer": "bottom"
+        }
+      ]
+    },
+    {
+      "trace": "service_usb_repair_net4_0_upperbay_0",
+      "net": "DATA_VBUS",
+      "before": [
+        {
+          "route_type": "wire",
+          "x": 11.787,
+          "y": 6.5882,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 11.775000000000002,
+          "y": 7.150000000000002,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 11.8,
+          "y": 7.175000000000001,
+          "width": 0.16,
+          "layer": "bottom"
+        }
+      ],
+      "after": [
+        {
+          "route_type": "wire",
+          "x": 11.787,
+          "y": 6.5882,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 11.780276925119939,
+          "y": 6.902951955634945,
+          "width": 0.16,
+          "layer": "bottom"
+        }
+      ]
+    }
+  ],
+  "orphan_copper_removed": [],
+  "boardSha256": "bc7a65ed569cbc5a9a4d80a99855765ab4f1e5ab365905da212d4858101ef9ad"
+}

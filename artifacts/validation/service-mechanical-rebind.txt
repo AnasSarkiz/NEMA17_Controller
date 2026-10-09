@@ -1,0 +1,5 @@
+{
+  "board_sha256": "5320ce0ea480dfda64982ad6850c372a73cc419431de584e29a4126f0e7327fc",
+  "geometry_equivalent": true,
+  "mechanical_fingerprint_sha256": "83532456cce0c6115d6d4a675f395d2c8294b4eab05c4805630ea62e31423ca1"
+}

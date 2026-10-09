@@ -1,0 +1,101 @@
+{
+  "changedBay_mm": [
+    -17.2,
+    7.2,
+    17.2,
+    17.2
+  ],
+  "cut_clearance_mm": 0.2,
+  "pours": [
+    {
+      "pour": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0",
+      "net": "LOGIC_IN",
+      "layer": "top",
+      "removed_mm2": -7.105427357601002e-15
+    },
+    {
+      "pour": "service_gnd_top_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -1.6653345369377348e-16
+    },
+    {
+      "pour": "service_gnd_top_1",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 8.881784197001252e-15
+    },
+    {
+      "pour": "service_gnd_top_2",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 9.947598300641403e-14
+    },
+    {
+      "pour": "service_gnd_top_3",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -2.4688279154361226e-07
+    },
+    {
+      "pour": "service_gnd_top_4",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -6.661338147750939e-16
+    },
+    {
+      "pour": "service_gnd_top_5",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 6.661338147750939e-16
+    },
+    {
+      "pour": "service_gnd_top_8",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -1.0658141036401503e-14
+    },
+    {
+      "pour": "service_gnd_top_9",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.7763568394002505e-15
+    },
+    {
+      "pour": "service_gnd_top_10",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -3.1086244689504383e-15
+    },
+    {
+      "pour": "service_gnd_top_11",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -3.552713678800501e-15
+    },
+    {
+      "pour": "service_gnd_top_12",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.3877787807814457e-17
+    },
+    {
+      "pour": "service_gnd_bottom_0",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 3.552713678800501e-15
+    },
+    {
+      "pour": "service_gnd_bottom_1",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": -2.02161459128547e-07
+    },
+    {
+      "pour": "service_gnd_bottom_4",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": -1.1102230246251565e-16
+    }
+  ]
+}

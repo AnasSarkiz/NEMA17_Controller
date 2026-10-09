@@ -25,19 +25,31 @@ for(const pour of json.filter((e:any)=>e.type==='pcb_copper_pour')) {
 }
 const board=json.find((e:any)=>e.type==='pcb_board')
 if(!board || board.width!==35 || board.height!==35) unique.push({type:'validation_error',message:'Expected a 35 by 35 mm PCB.'})
-for (const [name,x] of [['J_PD',-5.3],['J_DATA',5.3]] as const) {
+for (const [name,x] of [['J_PD',-7],['J_DATA',7]] as const) {
  const source=json.find((e:any)=>e.type==='source_component' && e.name===name)
  const cad=json.find((e:any)=>e.type==='cad_component' && e.source_component_id===source?.source_component_id)
  // Supplier footprint PCB rotation180 includes native CAD offset180: mouth faces +Y.
  const angle=(cad?.rotation?.z??NaN)*Math.PI/180
  const front=cad ? cad.position.y+Math.cos(angle)*(2.6-cad.model_origin_position.y) : NaN
- if(!Number.isFinite(front) || Math.abs(front-17.5)>.001 || Math.abs(cad.position.x-x)>.001 || Math.abs(Math.sin(angle))>.001 || Math.cos(angle)<.999)
-  unique.push({type:'validation_error',message:name+' must have native CAD facing +Y with mouth Y17.5 and centre X'+x+'.'})
+ if(!Number.isFinite(front) || Math.abs(front-17.9)>.001 || Math.abs(cad.position.x-x)>.001 || Math.abs(Math.sin(angle))>.001 || Math.cos(angle)<.999)
+  unique.push({type:'validation_error',message:name+' must have native CAD facing +Y with mouth Y17.9 and centre X'+x+'.'})
 }
 const usbPhysical=spawnSync('/workspace/.routing-venv/bin/python',['scripts/check-usb-head-clearance.py'],{encoding:'utf8'})
 if(usbPhysical.status!==0) unique.push({type:'validation_error',message:'Exact native USB/head-circle guard failed: '+usbPhysical.stdout+usbPhysical.stderr})
 const holes=json.filter((e:any)=>e.type==='pcb_hole' && e.hole_diameter===3.2)
 if(holes.length!==4) unique.push({type:'validation_error',message:'Expected four 3.2 mm mounting holes.'})
+const expectedHoles=[[-13,-13],[13,-13],[-14.8,13],[14.8,13]]
+if(expectedHoles.some(([x,y])=>!holes.some((h:any)=>Math.abs(h.x-x)<1e-6 && Math.abs(h.y-y)<1e-6))) unique.push({type:'validation_error',message:'Carrier support hole positions must match the reviewed service revision.'})
+const motorSource=json.find((e:any)=>e.type==='source_component' && e.name==='J_MOTOR')
+const motorPcb=json.find((e:any)=>e.type==='pcb_component' && e.source_component_id===motorSource?.source_component_id)
+if(motorSource?.manufacturer_part_number!=='B4B-PH-K-S(LF)(SN)' || motorPcb?.do_not_place===true) unique.push({type:'validation_error',message:'Motor keyed header must be fitted JST B4B-PH-K-S(LF)(SN).'})
+const motorPads=json.filter((e:any)=>e.type==='pcb_plated_hole' && e.pcb_component_id===motorPcb?.pcb_component_id)
+if(motorPads.length!==4 || motorPads.some((e:any)=>Math.abs(e.hole_diameter-.75)>1e-6 || Math.abs(e.outer_diameter-1.6)>1e-6)) unique.push({type:'validation_error',message:'Motor land pattern must use four finished0.75mm bores and1.6mm pads per reviewed manufacturer drawing.'})
+for(const [pin,netName] of [[1,'A_PLUS'],[2,'A_MINUS'],[3,'B_PLUS'],[4,'B_MINUS']] as const) {
+ const p=json.find((e:any)=>e.type==='source_port' && e.source_component_id===motorSource?.source_component_id && e.pin_number===pin)
+ const n=json.find((e:any)=>e.type==='source_net' && e.name===netName)
+ if(!p || p.subcircuit_connectivity_map_key!==n?.subcircuit_connectivity_map_key) unique.push({type:'validation_error',message:`Motor pin${pin} must be ${netName}.`})
+}
 const resistance=(name:string)=>json.find((e:any)=>e.type==='source_component' && e.name===name)?.resistance
 const vref=3.3*resistance('R_REF_L')/(resistance('R_REF_H')+resistance('R_REF_L')), current=vref/(8*resistance('R_SA'))
 if(!Number.isFinite(current) || resistance('R_SA')!==resistance('R_SB')) unique.push({type:'validation_error',message:'Missing or mismatched phase-current setting resistors.'})
@@ -95,7 +107,7 @@ for(const [mcuPin,debugPin] of [[24,3],[25,4]]) {
 }
 if(board?.num_layers!==2) unique.push({type:'validation_error',message:'Expected two copper layers in the CH32 board.'})
 if(json.some((e:any)=>e.type==='pcb_component' && e.layer!=='top')) unique.push({type:'validation_error',message:'Component assembly must be top-side only.'})
-for(const reference of ['J_MOTOR','J_DEBUG','J_BOOT']) {
+for(const reference of ['J_DEBUG','J_BOOT']) {
  const sc=sourceComponents.find((e:any)=>e.name===reference)
  const pc=json.find((e:any)=>e.type==='pcb_component' && e.source_component_id===sc?.source_component_id)
  if(!pc?.do_not_place) unique.push({type:'validation_error',message:reference+' is a bare PCB interface and must be marked do_not_place.'})

@@ -7,5 +7,7 @@ export function classifySource(json:any[]) {
  }
  const bootIds=new Set(json.filter(e=>e.type==='pcb_component' && json.some(c=>c.type==='source_component' && c.source_component_id===e.source_component_id && ['R_USB_BOOT','J_BOOT'].includes(c.name))).map(e=>e.pcb_component_id))
  for(const e of json) if(e.type==='pcb_silkscreen_text' && bootIds.has(e.pcb_component_id)) e.pcb_silkscreen_text_id='usb_boot_'+e.pcb_silkscreen_text_id
- return json
+ // Full references stay on assembly drawings; PCB silk keeps deliberate
+ // functional labels and native graphical polarity/pin-1 marks.
+ return json.filter(e=>e.type!=='pcb_silkscreen_text' || !e.pcb_component_id)
 }

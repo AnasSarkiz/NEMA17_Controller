@@ -1,0 +1,110 @@
+[
+  {
+    "type": "pcb_trace",
+    "pcb_trace_id": "service_usb_native_escape_pcb_smtpad_10",
+    "source_trace_id": "source_trace_6",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "pcb_port_ids": [
+      "pcb_port_14"
+    ],
+    "route": [
+      {
+        "route_type": "wire",
+        "x": -9.4001603,
+        "y": 9.975826300000001,
+        "width": 0.16,
+        "layer": "top",
+        "start_pcb_port_id": "pcb_port_14"
+      },
+      {
+        "route_type": "wire",
+        "x": -9.4001603,
+        "y": 8.775826300000002,
+        "width": 0.16,
+        "layer": "top"
+      }
+    ]
+  },
+  {
+    "type": "pcb_trace",
+    "pcb_trace_id": "service_usb_native_escape_pcb_smtpad_15",
+    "source_trace_id": "source_trace_20",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "pcb_port_ids": [
+      "pcb_port_23"
+    ],
+    "route": [
+      {
+        "route_type": "wire",
+        "x": 7.249936,
+        "y": 9.9759279,
+        "width": 0.16,
+        "layer": "top",
+        "start_pcb_port_id": "pcb_port_23"
+      },
+      {
+        "route_type": "wire",
+        "x": 7.249936,
+        "y": 8.775927900000001,
+        "width": 0.16,
+        "layer": "top"
+      }
+    ]
+  },
+  {
+    "type": "pcb_trace",
+    "pcb_trace_id": "service_usb_native_escape_pcb_smtpad_20",
+    "source_trace_id": "source_trace_0",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "pcb_port_ids": [
+      "pcb_port_28"
+    ],
+    "route": [
+      {
+        "route_type": "wire",
+        "x": 10.1999555,
+        "y": 9.975927899999999,
+        "width": 0.16,
+        "layer": "top",
+        "start_pcb_port_id": "pcb_port_28"
+      },
+      {
+        "route_type": "wire",
+        "x": 10.1999555,
+        "y": 8.7759279,
+        "width": 0.16,
+        "layer": "top"
+      }
+    ]
+  },
+  {
+    "type": "pcb_trace",
+    "pcb_trace_id": "service_usb_native_escape_pcb_smtpad_21",
+    "source_trace_id": "source_trace_0",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "pcb_port_ids": [
+      "pcb_port_29"
+    ],
+    "route": [
+      {
+        "route_type": "wire",
+        "x": 3.7999937,
+        "y": 9.975826300000001,
+        "width": 0.16,
+        "layer": "top",
+        "start_pcb_port_id": "pcb_port_29"
+      },
+      {
+        "route_type": "wire",
+        "x": 3.7999937,
+        "y": 8.775826300000002,
+        "width": 0.16,
+        "layer": "top"
+      }
+    ]
+  }
+]

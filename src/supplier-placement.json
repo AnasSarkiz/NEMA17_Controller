@@ -45,8 +45,8 @@
     "pcbRotation": 0
   },
   "R_CC2": {
-    "pcbX": 8.8,
-    "pcbY": 8.3,
+    "pcbX": 0,
+    "pcbY": 13,
     "pcbRotation": 0
   },
   "R_USB_SENSE_H": {
@@ -165,13 +165,13 @@
     "pcbRotation": 0
   },
   "J_PD": {
-    "pcbX": -5.3,
-    "pcbY": 12.1499711,
+    "pcbX": -7.0,
+    "pcbY": 12.5499711,
     "pcbRotation": 180
   },
   "J_DATA": {
-    "pcbX": 5.3,
-    "pcbY": 12.1499711,
+    "pcbX": 7.0,
+    "pcbY": 12.5499711,
     "pcbRotation": 180
   },
   "C_BULK": {

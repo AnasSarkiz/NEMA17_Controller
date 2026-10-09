@@ -1,0 +1,21 @@
+{
+  "supplierFootprintTranslationOnly": true,
+  "outward_mm": 0.4,
+  "mouthY_mm": 17.9,
+  "PCB_edge_nominal_y_mm": 17.5,
+  "extendedNativeEndpoints": [
+    "service_usb_native_escape_pcb_smtpad_10",
+    "service_usb_native_escape_pcb_smtpad_15",
+    "service_usb_repair_net1_0",
+    "service_usb_repair_net2_0",
+    "service_usb_repair_net3_0",
+    "service_usb_repair_net4_0",
+    "service_usb_repair_net4_1",
+    "service_usb_repair_net5_0",
+    "service_usb_repair_net6_0",
+    "service_usb_repair_net7_2",
+    "service_usb_repair_net8_1",
+    "service_usb_repair_net8_2"
+  ],
+  "sourceSha256": "d23f0ac35dd1cbfa39bcc6824114860d7ddbdc310787e7d12bef137f4de4ca6c"
+}

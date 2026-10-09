@@ -1,0 +1,10 @@
+{
+  "actualBranchPointsUsed": true,
+  "changes": [
+    {
+      "trace": "supplier_repair_U_DRV_OUT2B",
+      "removedStubPoints": 117
+    }
+  ],
+  "copperIdsUnique": true
+}

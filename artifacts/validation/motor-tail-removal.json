@@ -1,0 +1,32 @@
+{
+  "phaseNets": [
+    "A_MINUS",
+    "A_PLUS",
+    "B_MINUS",
+    "B_PLUS"
+  ],
+  "removedBelowYmm": -14,
+  "unaffectedSignalCopperPreserved": true,
+  "changes": [
+    {
+      "trace": "supplier_repair_U_DRV_OUT1A",
+      "originalPoints": 209,
+      "retainedPoints": 155
+    },
+    {
+      "trace": "supplier_repair_U_DRV_OUT2A",
+      "originalPoints": 35,
+      "retainedPoints": 33
+    },
+    {
+      "trace": "supplier_repair_U_DRV_OUT1B",
+      "originalPoints": 83,
+      "retainedPoints": 5
+    },
+    {
+      "trace": "supplier_repair_U_DRV_OUT2B",
+      "originalPoints": 176,
+      "retainedPoints": 122
+    }
+  ]
+}

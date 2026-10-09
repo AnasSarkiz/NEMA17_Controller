@@ -1,0 +1,36 @@
+{
+  "baselineCommit": "2d69fc4",
+  "layerChanges": [
+    {
+      "layer": "top",
+      "changedAreaMm2": 85.07586818780236,
+      "usbRegionChangedAreaMm2": 38.07972448617206
+    },
+    {
+      "layer": "bottom",
+      "changedAreaMm2": 105.2435841286414,
+      "usbRegionChangedAreaMm2": 31.72097761332112
+    }
+  ],
+  "floatingPourFragmentsRemoved": [
+    "service_gnd_bottom_10",
+    "service_gnd_bottom_12",
+    "service_gnd_bottom_14",
+    "service_gnd_bottom_15",
+    "service_gnd_bottom_17",
+    "service_gnd_bottom_2",
+    "service_gnd_bottom_3",
+    "service_gnd_bottom_5",
+    "service_gnd_bottom_6",
+    "service_gnd_bottom_7",
+    "service_gnd_bottom_8",
+    "service_gnd_bottom_9",
+    "service_gnd_top_13",
+    "service_gnd_top_14",
+    "service_gnd_top_6",
+    "service_gnd_top_7"
+  ],
+  "obsoleteMotorCopperFragmentsRemoved": [],
+  "allCopperConnectivityStillRequiresIndependentAudit": true,
+  "boardSha256": "26ddabbd422d07c884c7e42149798b0ac06c17ccb56e59782891920b42490706"
+}

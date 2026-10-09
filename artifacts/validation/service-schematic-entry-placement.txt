@@ -1,0 +1,42 @@
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="R_PD" positionAnchor="center" schX="-8.52" schY="-0.91" width="0.6" height="0.65" />
+<SchematicBoxPlacement componentName="U_MCU" positionAnchor="center" schX="-1.45" schY="0" width="2.5" height="3.2" />
+<SchematicBoxPlacement componentName="C_MCU" positionAnchor="center" schX="-10.675" schY="0.94" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="C_LOGIC" positionAnchor="center" schX="-9.05" schY="2.86" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="R_CC1" positionAnchor="center" schX="-4.636" schY="5.255" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="R_USB_SENSE_L" positionAnchor="center" schX="-0.673" schY="-6.905" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="R_VM_H" positionAnchor="center" schX="-4.845" schY="-5.81" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="R_VM_BLEED" positionAnchor="center" schX="-0.853" schY="-8.715" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="C_VM_ISO" positionAnchor="center" schX="-11.09" schY="2.925" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="D_PD" positionAnchor="center" schX="-5.3" schY="-7.71" width="1.04" height="0.54" />
+<SchematicBoxPlacement componentName="C_LDO_OUT" positionAnchor="center" schX="-8.71" schY="4.86" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="U_DRV" positionAnchor="center" schX="-5.66" schY="0.35" width="1.9" height="3.2" />
+<SchematicBoxPlacement componentName="C_DRV_LOGIC" positionAnchor="center" schX="-11.55" schY="4.985" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="C_VM" positionAnchor="center" schX="-7.445" schY="-7.275" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="C_VM2" positionAnchor="center" schX="-7.445" schY="-9.085" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="C_BULK" positionAnchor="center" schX="-9.615" schY="-7.33" width="1.1" height="0.6" />
+<SchematicBoxPlacement componentName="R_SA" positionAnchor="center" schX="-4.636" schY="7.065" width="0.65" height="0.6" />
+<SchematicBoxPlacement componentName="D_TVS" positionAnchor="center" schX="-9.205" schY="-9.295" width="0.28" height="0.4" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<SchematicTextCollision text="PD PORT: motor power, 15 V requested. DATA PORT: USB computer control.
+Motor: 14HM11-0404S, bipolar, 0.4 A/phase. Prototype: firmware/bench/rear-fit validation pending." collidingObjectType="trace" newSchX="-15" newSchY="-9.75" message="Text &quot;PD PORT: motor power, 15 V requested. DATA PORT: USB computer control.
+Motor: 14HM11-0404S, bipolar, 0.4 A/phase. Prototype: firmware/bench/rear-fit validation pending.&quot; overlaps trace; reposition the text to leave its visible area clear." />
+<SchematicTextCollision text="PD PORT: motor power, 15 V requested. DATA PORT: USB computer control.
+Motor: 14HM11-0404S, bipolar, 0.4 A/phase. Prototype: firmware/bench/rear-fit validation pending." collidingObjectType="trace" newSchX="-15" newSchY="-9.75" message="Text &quot;PD PORT: motor power, 15 V requested. DATA PORT: USB computer control.
+Motor: 14HM11-0404S, bipolar, 0.4 A/phase. Prototype: firmware/bench/rear-fit validation pending.&quot; overlaps trace; reposition the text to leave its visible area clear." />
+<DiodeResistorNotAligned diodeComponentName="D_PD" diodePin="anode" resistorComponentName="R_VM_H" resistorPin="anode" message="trace has corners — align D_PD and R_VM_H on same axis and rotate so D_PD.anode faces R_VM_H.anode" />
+<TwoPinComponentShouldBeVertical componentName="R_PD" railPin="pin1" railType="power" deltaSchRotation="-90" suggestedRailFacingDirection="up" message="rotate R_PD by -90° so its power-connected pin faces up and the component is vertical" />
+<ComponentNetLabelCollision pair1="U_DRV/U_MCU" pair2="R_SA/R_CC1" pair3="R_USB_SENSE_L/R_VM_BLEED">
+  <SuggestedFix note="Apply all moves simultaneously. Set schAutoLayoutEnabled on your circuit.">
+    <Move componentName="U_DRV" newSchX="-6.47" newSchY="0.35" />
+    <Move componentName="U_MCU" newSchX="-0.65" newSchY="0" />
+    <Move componentName="R_SA" newSchX="-4.9" newSchY="7.06" />
+    <Move componentName="R_CC1" newSchX="-4.37" newSchY="5.25" />
+    <Move componentName="R_VM_BLEED" newSchX="-1.03" newSchY="-8.71" />
+    <Move componentName="R_USB_SENSE_L" newSchX="-0.5" newSchY="-6.9" />
+  </SuggestedFix>
+</ComponentNetLabelCollision>
+<DecouplingCapacitorsNotCloseTogether rail="V3V3" ground="GND" capacitorNames="C_MCU, C_LOGIC, C_VM_ISO, C_LDO_OUT, C_DRV_LOGIC" maxBodyGap="1.46" maxRecommendedBodyGap="1" message="Group the decoupling capacitors between V3V3 and GND closer together in this schematic block. Preserve their net connections." />
+<DecouplingCapacitorsNotCloseTogether rail="PD_VBUS" ground="GND" capacitorNames="C_VM, C_VM2, C_BULK" maxBodyGap="1.295" maxRecommendedBodyGap="1.1" message="Group the decoupling capacitors between PD_VBUS and GND closer together in this schematic block. Preserve their net connections." />
+</SchematicPlacementIssues>

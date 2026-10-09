@@ -1,0 +1,38 @@
+{
+  "source_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+  "fitted_parts": 45,
+  "filled_capped_vias": [
+    {
+      "Via ID": "freerouted_via_40",
+      "Reference": "U_PD",
+      "X mm": -10.599872999999999,
+      "Y mm": 5.7,
+      "Finished drill mm": 0.25,
+      "Copper diameter mm": 0.5,
+      "Layers": "top-bottom",
+      "Required process": "IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land"
+    },
+    {
+      "Via ID": "freerouted_via_41",
+      "Reference": "U_MCU",
+      "X mm": 5.019112,
+      "Y mm": 1.499746,
+      "Finished drill mm": 0.25,
+      "Copper diameter mm": 0.5,
+      "Layers": "top-bottom",
+      "Required process": "IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land"
+    },
+    {
+      "Via ID": "freerouted_via_42",
+      "Reference": "U_DRV",
+      "X mm": -2.6999999999999965e-05,
+      "Y mm": -7.999973,
+      "Finished drill mm": 0.25,
+      "Copper diameter mm": 0.5,
+      "Layers": "top-bottom",
+      "Required process": "IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land"
+    }
+  ],
+  "supplier_pickup_rotation_verified": false,
+  "hardware_assembly_verified": false
+}

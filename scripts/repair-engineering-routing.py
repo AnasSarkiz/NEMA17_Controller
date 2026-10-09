@@ -11,7 +11,7 @@ j=g.j;ROOT=g.ROOT;path=g.path;ports=g.ports;sp=g.sp;comp=g.comp;src=g.src
 STEP=.025;LOW=-17.5;N=1401;layers=['top','bottom'];xy=lambda x,y:(round((x-LOW)/STEP),round((y-LOW)/STEP));world=lambda p:(LOW+p[0]*STEP,LOW+p[1]*STEP);key=g.key
 traces={e['subcircuit_connectivity_map_key']:e['source_trace_id'] for e in j if e['type']=='source_trace'};nets={e['subcircuit_connectivity_map_key']:e for e in j if e['type']=='source_net'}
 def obstacle(net,width,via=False):
- imgs=[Image.new('L',(N,N)) for l in layers];draws=[ImageDraw.Draw(i) for i in imgs];margin=.15+(.25 if via else width/2)+.008
+ imgs=[Image.new('L',(N,N)) for l in layers];draws=[ImageDraw.Draw(i) for i in imgs];margin=.15+(.25 if via else width/2)+.04
  def add(l,geom):
   if l not in layers:return
   geom=geom.buffer(margin)
@@ -52,9 +52,16 @@ def points(e):
    if l in layers:out[(*xy(e['x'],e['y']),layers.index(l))]=(e['x'],e['y'])
  return out
 repairs=[]
-for net in dict.fromkeys([*nets,*traces]):
- for attempt in range(24):
-  elems,roots=g.groups(net);padroots={r for e,r in zip(elems,roots) if e.get('pcb_port_id')}
+selected=set(sys.argv[sys.argv.index('--nets')+1].split(',')) if '--nets' in sys.argv else None
+priority=['USB_DP','USB_DM','PD_CC2','PD_CC1','DATA_CC2','DATA_CC1','SLEEP','DATA_VBUS','PD_VBUS'] if selected is not None else []
+ordered=list(dict.fromkeys([*nets,*traces]));ordered.sort(key=lambda k:priority.index(nets.get(k,{}).get('name')) if nets.get(k,{}).get('name') in priority else len(priority))
+for net in ordered:
+ if selected is not None and nets.get(net,{}).get('name') not in selected:continue
+ for attempt in range(100):
+  if '--explicit-ground' in sys.argv and nets.get(net,{}).get('name')=='GND':
+   g.j=[e for e in j if e['type']!='pcb_copper_pour'];elems,roots=g.groups(net);g.j=j
+  else:elems,roots=g.groups(net)
+  padroots={r for e,r in zip(elems,roots) if e.get('pcb_port_id')}
   if len(padroots)<2:break
   # Prefer the island with most existing vias: escape to free routing space first.
   startroot=max(padroots,key=lambda r:sum(e['type']=='pcb_via' for e,rr in zip(elems,roots) if rr==r));starts={};goals={}
@@ -95,10 +102,10 @@ for net in dict.fromkeys([*nets,*traces]):
    if old and old!=layer:
     route.append({'route_type':'via','x':x,'y':y,'from_layer':old,'to_layer':layer,'via_diameter':.5,'via_hole_diameter':.25});vias.append((x,y))
    route.append({'route_type':'wire','x':x,'y':y,'width':width,'layer':layer});old=layer
-  tid='supplier_repair_island_'+net.rsplit('_',1)[-1]+'_'+str(attempt);common={'source_trace_id':traces[net],'subcircuit_connectivity_map_key':net,'subcircuit_id':'subcircuit_source_group_0'}
+  tid=('service_usb_repair_' if selected is not None and '--usb' in sys.argv else 'service_motor_repair_' if selected is not None else 'supplier_repair_island_')+net.rsplit('_',1)[-1]+'_'+str(attempt);common={'source_trace_id':traces[net],'subcircuit_connectivity_map_key':net,'subcircuit_id':'subcircuit_source_group_0'}
   if net in nets:common['source_net_id']=nets[net]['source_net_id']
   j.append({'type':'pcb_trace','pcb_trace_id':tid,'route':route,'pcb_port_ids':[],**common})
-  for i,(x,y) in enumerate(vias):j.append({'type':'pcb_via','pcb_via_id':tid+'_via'+str(i),'pcb_trace_id':tid,'x':x,'y':y,'hole_diameter':.25,'outer_diameter':.5,'layers':['top','bottom'],'tented_on_top':True,'tented_on_bottom':True,**common})
+  for i,(x,y) in enumerate(vias):j.append({'type':'pcb_via','pcb_via_id':tid+'_via'+str(i),'pcb_trace_id':tid,'x':x,'y':y,'hole_diameter':.25,'outer_diameter':.5,'layers':(['top','inner1','inner2','bottom'] if next(e for e in j if e['type']=='pcb_board')['num_layers']==4 else ['top','bottom']),'tented_on_top':True,'tented_on_bottom':True,**common})
   repairs.append({'net':nets.get(net,{}).get('name',net),'route':route,'expandedNodes':expanded});print(repairs[-1]['net'],len(route),'points',len(vias),'vias',expanded,'search nodes',flush=True)
   # Persist completed work even if a later net requires another placement adjustment.
   path.write_text(json.dumps([e for e in j if e['type'] in ['pcb_trace','pcb_via']] if '--seed' in sys.argv else j,indent=2)+'\n')

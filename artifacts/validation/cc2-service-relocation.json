@@ -1,0 +1,13 @@
+{
+  "reference": "R_CC2",
+  "from_mm": [
+    8.8,
+    8.3
+  ],
+  "to_mm": [
+    0,
+    13
+  ],
+  "reason": "Avoid trapping the CC2 escape behind rerouted USB pair; use new central port gap.",
+  "sourceSha256": "64f89629ead78a286c324366e8cb75d2f95cb9239f013583b95c47fb6bb79afc"
+}

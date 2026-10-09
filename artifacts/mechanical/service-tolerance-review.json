@@ -1,0 +1,17 @@
+{
+  "board_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+  "mechanical_report_sha256": "5744a488688d67937a9b4035985c2eb256c49b52114eb2307fa19d9ce165990e",
+  "bounded_clearance_screens_mm": {
+    "pilot_pattern_remaining_radial_mm": 0.04500000000000004,
+    "tail_barrier_remaining_mm": 0.34,
+    "usb_body_pair_remaining_mm": 1.2999999999999983,
+    "usb_outward_registration_remaining_mm": 0.10000000000000003,
+    "bulk_max_envelope_to_outline_after_0p2_outline_0p1_placement_mm": 0.04997460000019843,
+    "minimum_fastener_to_component_after_0p35_play_0p1_placement_0p05_carrier_mm": 0.5799999000000007,
+    "extension_to_carrier_after_0p2_routing_0p05_OD_0p05_machining_mm": 0.4163690594811054,
+    "extension_to_motor_after_0p2_routing_0p05_OD_0p1_body_0p126_pilot_0p05_machining_mm": 1.3640000000000112
+  },
+  "procurement_and_assembly_allowances_are_requirements_not_measurements": true,
+  "factory_lead_OD_material_bend_and_placement_bounds_verified": false,
+  "qualification": "Prototype screen only; actual motor revision, lead stock, model discrepancy, tolerances/materials/retention and fit must be qualified."
+}

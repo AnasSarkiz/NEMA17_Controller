@@ -1,0 +1,8 @@
+{
+  "sourcePinNetIdentityPreserved": true,
+  "replacedPhysicalComponent": "J_MOTOR",
+  "unaffectedPadGeometryRetained": true,
+  "unaffectedCopperGeometryRetained": true,
+  "motorRoutingNeedsRepair": true,
+  "sourceSha256": "ed1ccb7a503423a9e8565a61525b6e936a0da6414cb66564856f36f72508364f"
+}

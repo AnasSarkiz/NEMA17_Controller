@@ -1,5 +1,3 @@
-J_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
-J_DATA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
 U_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 270 is unverified.
 R_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 C_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
@@ -8,7 +6,6 @@ U_MCU: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_locat
 C_MCU: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
 C_LOGIC: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
 R_CC1: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
-R_CC2: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 R_USB_SENSE_H: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 R_USB_SENSE_L: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 Q_DATA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
@@ -42,4 +39,8 @@ R_SLEEP: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_loc
 U_ESD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
 D_TVS: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 90 is unverified.
 R_USB_BOOT: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+J_MOTOR: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+R_CC2: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 0 is unverified.
+J_PD: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
+J_DATA: cannot verify jlcpcb pick-and-place rotation (missing_supplier_pin1_location); PCB rotation 180 is unverified.
 Exported to /workspace/NEMA17_Controller/artifacts/manufacturing-raw.zip!

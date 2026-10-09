@@ -3,35 +3,44 @@
   "mechanical_frame_kind": "final routed board; mechanical geometry equivalence to completed audit proven",
   "copper_review_scope": "None; this script checks mechanical geometry only",
   "project": "NEMA14_CH32X035G8U6",
-  "script_sha256": "f88bf06788435673fc12e78b39f2f8f480984c9ac2f66523468c721f952a0ee9",
+  "script_sha256": "03a12dac748a59b36d91d3215dedd92d971ea92d516537c4cec9884d39e586a2",
   "script_current_at_finish": true,
   "cadquery_version": "2.6.1",
   "matplotlib_version": "3.11.2",
   "numpy_version": "2.3.5",
   "renderer": "native STEP tessellation, true orthographic software Z-buffer, fixed same-scale views",
-  "board_sha256": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
+  "board_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
   "input_current_at_finish": true,
-  "catalog_sha256": "f0054fc6396c9148e49976e9f1d5ee24f68c653caccc659bcb8b38aeffee7754",
-  "board_cad_model_count": 44,
+  "catalog_sha256": "87428be50a1c69397d638a8bbd054b80466429c77558bb50315e41791fd6977a",
+  "board_cad_model_count": 45,
   "step_assembly_archives": [
     {
       "archive": "board-fitted-components.step.zip",
       "member": "board-fitted-components.step",
-      "uncompressed_step_sha256": "957b9e0f75bbb26b787d9f1c167fc4911c534840edbcdb3ba5ea152ba7819720",
-      "uncompressed_bytes": 74686775,
-      "archive_sha256": "8f8c0b34566e019a85acc6b3d371a44dff64a32771f9d78482a0ba0558fb017e",
+      "uncompressed_step_sha256": "98692ad51c6c4f04464097ac77c87aec53c95319600d2a425e1998cc17d60ddd",
+      "uncompressed_bytes": 77639851,
+      "archive_sha256": "47eb0af2b052028518901411dca82eaaf5909f18c0b5eaea9480fcf7681f081a",
       "archive_crc_verified": true
     },
     {
       "archive": "mounted-front-carrier.step.zip",
       "member": "mounted-front-carrier.step",
-      "uncompressed_step_sha256": "76869de79707ec5d00ea86ef0ee1a12ae130d5e81da9b362b8e635e465acd47a",
-      "uncompressed_bytes": 76420519,
-      "archive_sha256": "2227a147a4d67002371c0cea440b785ddafac948853f81413874e015e3f97a3a",
+      "uncompressed_step_sha256": "5804a8a20c6f895c1d3f42b018e63aa7e41891304fed537fec81045199c32c60",
+      "uncompressed_bytes": 88801708,
+      "archive_sha256": "bc854bbe78de8e4ee06d7d3cd2b8f05b1a3b10c05957e7ca428ceffc2cb88e99",
+      "archive_crc_verified": true
+    },
+    {
+      "archive": "harness-and-insulation.step.zip",
+      "member": "harness-and-insulation.step",
+      "uncompressed_step_sha256": "965d1bc78773d679968164f85a9082f256327f3a88e893cf28a042bc76d51fcd",
+      "uncompressed_bytes": 1100356,
+      "archive_sha256": "1a89f1ff46c5adfecbc1cc1fd3106ca35c8c88a5aef66ca8901cd574a41d57c5",
       "archive_crc_verified": true
     }
   ],
   "exact_supplier_steps_hash_verified": true,
+  "model_exceptions": "C_BULK drawing-corrected nominal height7.7; originals retained. J_MOTOR installed tails trimmed to documented assembly envelope.",
   "component_models": [
     {
       "reference": "J_PD",
@@ -41,19 +50,19 @@
       "valid_brep": true,
       "native_solid_count": 14,
       "world_bbox_mm": [
-        -9.7700001,
-        9.600000000000042,
+        -11.4700001,
+        10.000000000000044,
         -0.05001099999999947,
-        -0.8299999000000003,
-        17.500000000000053,
+        -2.529999900000001,
+        17.900000000000055,
         4.050989100000001
       ],
       "cad_record": {
         "type": "cad_component",
         "cad_component_id": "cad_component_0",
         "position": {
-          "x": -5.3,
-          "y": 12.1499711,
+          "x": -7,
+          "y": 12.549971100000002,
           "z": 0.8
         },
         "rotation": {
@@ -82,19 +91,19 @@
       "valid_brep": true,
       "native_solid_count": 14,
       "world_bbox_mm": [
-        0.8299998999999986,
-        9.600000000000042,
+        2.529999899999999,
+        10.000000000000044,
         -0.05001099999999947,
-        9.770000099999997,
-        17.500000000000053,
+        11.470000099999998,
+        17.900000000000055,
         4.050989100000001
       ],
       "cad_record": {
         "type": "cad_component",
         "cad_component_id": "cad_component_1",
         "position": {
-          "x": 5.3,
-          "y": 12.1499711,
+          "x": 7,
+          "y": 12.549971100000002,
           "z": 0.8
         },
         "rotation": {
@@ -451,19 +460,19 @@
       "valid_brep": true,
       "native_solid_count": 4,
       "world_bbox_mm": [
-        7.99,
-        7.8949999,
+        -0.8100000000000003,
+        12.5949999,
         0.8,
-        9.610000000000001,
-        8.705,
+        0.8100000000000002,
+        13.405000000000001,
         1.25
       ],
       "cad_record": {
         "type": "cad_component",
         "cad_component_id": "cad_component_10",
         "position": {
-          "x": 8.8,
-          "y": 8.3,
+          "x": 0,
+          "y": 13,
           "z": 0.8
         },
         "rotation": {
@@ -1389,17 +1398,17 @@
     {
       "reference": "C_BULK",
       "jlcpcb": "C178585",
-      "step": "imports/supplier/EEEFPV101XAP/EEEFPV101XAP.step",
-      "sha256": "0520d085e6aa1b712b8127b1de76907f64951f608caa5f1d495a693c6ae742fb",
+      "step": "references/models/EEEFPV101XAP-D8-7p7mm.step",
+      "sha256": "08d27e8da9dc1565fb1383e44898110ddf45774c2b6de072cd5a66690b25a0f1",
       "valid_brep": true,
       "native_solid_count": 1,
       "world_bbox_mm": [
-        -17.0500253999998,
-        -9.049961900000017,
-        0.7999999999999992,
+        -17.0500254999998,
+        -9.049962000000017,
+        0.7999999000000001,
         -10.449025299999798,
-        -1.7499619000000166,
-        6.62
+        -1.749961800000017,
+        8.500000100000001
       ],
       "cad_record": {
         "type": "cad_component",
@@ -1416,8 +1425,8 @@
         },
         "pcb_component_id": "pcb_component_33",
         "source_component_id": "source_component_33",
-        "model_obj_url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/supplier/EEEFPV101XAP/EEEFPV101XAP.obj",
-        "model_step_url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/imports/supplier/EEEFPV101XAP/EEEFPV101XAP.step",
+        "model_obj_url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/references/models/EEEFPV101XAP-D8-7p7mm.obj",
+        "model_step_url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/main/references/models/EEEFPV101XAP-D8-7p7mm.step",
         "model_origin_alignment": "center_of_component_on_board_surface",
         "anchor_alignment": "center_of_component_on_board_surface",
         "model_origin_position": {
@@ -1715,6 +1724,47 @@
       }
     },
     {
+      "reference": "J_MOTOR",
+      "jlcpcb": "C131334",
+      "step": "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step",
+      "sha256": "330cfdeb167726774e998328867b10007c6ca195a3a7aab25f476c0c19b5a7a1",
+      "valid_brep": true,
+      "native_solid_count": 14,
+      "world_bbox_mm": [
+        -6.45,
+        -18.700000000000042,
+        -2.2,
+        3.4510000999999977,
+        -13.9999999,
+        6.800000000000001
+      ],
+      "cad_record": {
+        "type": "cad_component",
+        "cad_component_id": "cad_component_41",
+        "position": {
+          "x": -1.5,
+          "y": -15.7,
+          "z": 0.8
+        },
+        "rotation": {
+          "x": 0,
+          "y": 0,
+          "z": 0
+        },
+        "pcb_component_id": "pcb_component_41",
+        "source_component_id": "source_component_41",
+        "model_obj_url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C131334.obj?uuid=3b95b8b4d5d24ff4a871a43c952e432a&cachebust_origin=",
+        "model_step_url": "https://modelcdn.tscircuit.com/easyeda_models/assets/C131334.step?uuid=3b95b8b4d5d24ff4a871a43c952e432a&cachebust_origin=",
+        "model_origin_alignment": "center_of_component_on_board_surface",
+        "anchor_alignment": "center_of_component_on_board_surface",
+        "model_origin_position": {
+          "x": 3,
+          "y": 0,
+          "z": 0
+        }
+      }
+    },
+    {
       "reference": "U_ESD",
       "jlcpcb": "C2687116",
       "step": "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step",
@@ -1731,7 +1781,7 @@
       ],
       "cad_record": {
         "type": "cad_component",
-        "cad_component_id": "cad_component_41",
+        "cad_component_id": "cad_component_42",
         "position": {
           "x": 10,
           "y": 5.3,
@@ -1772,7 +1822,7 @@
       ],
       "cad_record": {
         "type": "cad_component",
-        "cad_component_id": "cad_component_42",
+        "cad_component_id": "cad_component_43",
         "position": {
           "x": -4.9,
           "y": 5.6,
@@ -1813,7 +1863,7 @@
       ],
       "cad_record": {
         "type": "cad_component",
-        "cad_component_id": "cad_component_43",
+        "cad_component_id": "cad_component_44",
         "position": {
           "x": 11.5,
           "y": 8.4,
@@ -2126,10 +2176,22 @@
     "front_plate_mm": [
       49.2,
       36.4,
-      3
+      4
     ],
-    "pilot_clearance_diameter_mm": 24,
-    "front_hole_diameter_mm": 3.8,
+    "pilot_clearance_diameter_mm": 22.15,
+    "pilot_bore_tolerance_mm": 0.05,
+    "pilot_root_relief_mm": {
+      "diameter": 23.4,
+      "depth": 0.4,
+      "tolerance": 0.05,
+      "reason": "native STEP pilot root fillet reachesR11.5/depth0.23661; retaining22.15locating bore beyond relief"
+    },
+    "documented_motor_pilot_mm": [
+      21.948,
+      22.0
+    ],
+    "maximum_motor_radial_play_in_pilot_mm": 0.126,
+    "front_hole_diameter_mm": 4.1,
     "front_pitch_mm": 26,
     "rails_mm": [
       6,
@@ -2149,14 +2211,22 @@
       -2.8
     ],
     "pcb_boss_outer_diameter_mm": 4.5,
-    "pcb_boss_top_z_mm": -0.8,
+    "pcb_boss_top_z_mm": -1.8,
     "pcb_m2p5_through_thread_available_depth_mm": 6,
     "motor_front_z_mm": -36.2,
     "motor_rear_z_mm": -8.0,
     "rear_to_pcb_underside_mm": 7.2,
     "intended_machining_tolerance_mm": 0.05,
-    "hardware_envelopes": "PCB standard M2.5\u00d76 socket cap, head \u2264\u00d84.5\u00d72.5, no oversized metal washer; front M3\u00d76, head \u2264\u00d85.5\u00d73, standard \u00d87/\u00d83.2\u00d70.5 washer. These are procurement envelopes, not purchased screw CAD. Nominal PCB engagement 4.4 mm; nominal front engagement 2.5 mm. PCB hole radial play 0.35 mm and head radius 2.25 mm fit nominal 2.7 mm keepout half-width; tolerance and insulation require review.",
-    "qualified": false
+    "hardware_envelopes": "PCB M2.5x8 with PEEK top washer0.5/lower support1.0; frontM3x8 with metalwasher0.5/plate4.0. See documented engagement/tolerance bounds. Nominal thread cylinders represent intentional engagement, not helical threads.",
+    "qualified": false,
+    "front_hardware": "M3x8 ISO4762 with0.5mm washer; plate4.00+/-0.05mm; bounded thread engagement3.2..3.8mm below documented4mm minimum depth",
+    "front_hole_pattern_tolerance_mm": 0.05,
+    "front_hole_min_radial_clearance_mm": 0.525,
+    "required_diagonal_pattern_misalignment_mm": 0.354,
+    "host_front_face_z_mm": -44.2,
+    "pcb_hardware": "M2.5x8 ISO4762 bounded head diameter4.5, PEEK top washer0.5, PEEK lower support1mm; nominal metal engagement4.9mm",
+    "nominal_metal_engagement_mm": 4.9,
+    "host_front_threads": "4xM3 at X+/-21.6,Y+/-13, 6mm available, 4.5..5.5mm engagement"
   },
   "component_intersections": [],
   "component_clearances_under_0p2_mm": [],
@@ -2165,14 +2235,14 @@
     {
       "hardware": "PCB_M2p5_head_0",
       "controlling_model_bbox": "C_BULK",
-      "minimum_all_component_distance_lower_bound_mm": 1.7000380999999827,
-      "remaining_lower_bound_after_0p35mm_hole_play": 1.3500380999999826
+      "minimum_all_component_distance_lower_bound_mm": 1.7000379999999833,
+      "remaining_lower_bound_after_0p35mm_hole_play": 1.3500379999999832
     },
     {
       "hardware": "PCB_M2p5_head_1",
       "controlling_model_bbox": "J_PD",
-      "minimum_all_component_distance_lower_bound_mm": 0.9799998999999993,
-      "remaining_lower_bound_after_0p35mm_hole_play": 0.6299998999999993
+      "minimum_all_component_distance_lower_bound_mm": 1.0799999000000007,
+      "remaining_lower_bound_after_0p35mm_hole_play": 0.7299999000000007
     },
     {
       "hardware": "PCB_M2p5_head_2",
@@ -2183,21 +2253,27 @@
     {
       "hardware": "PCB_M2p5_head_3",
       "controlling_model_bbox": "J_DATA",
-      "minimum_all_component_distance_lower_bound_mm": 0.9799999000000028,
-      "remaining_lower_bound_after_0p35mm_hole_play": 0.6299999000000028
+      "minimum_all_component_distance_lower_bound_mm": 1.0799999000000025,
+      "remaining_lower_bound_after_0p35mm_hole_play": 0.7299999000000025
     }
   ],
   "substrate_penetrations": [
     {
       "reference": "J_PD",
       "distance_below_top_mm": 0.8500109999999995,
-      "intersection_with_drilled_substrate_mm3": 2.996922368858337e-05,
+      "intersection_with_drilled_substrate_mm3": 2.99692236885834e-05,
       "interpretation": "supplier STEP/tab versus native plated-slot fit; physical connector fit needs confirmation"
     },
     {
       "reference": "J_DATA",
       "distance_below_top_mm": 0.8500109999999995,
-      "intersection_with_drilled_substrate_mm3": 2.9969223688583367e-05,
+      "intersection_with_drilled_substrate_mm3": 2.9969223688583373e-05,
+      "interpretation": "supplier STEP/tab versus native plated-slot fit; physical connector fit needs confirmation"
+    },
+    {
+      "reference": "J_MOTOR",
+      "distance_below_top_mm": 2.4000000000000012,
+      "intersection_with_drilled_substrate_mm3": 0.051436085882444915,
       "interpretation": "supplier STEP/tab versus native plated-slot fit; physical connector fit needs confirmation"
     }
   ],
@@ -2210,346 +2286,300 @@
     },
     {
       "item": "J_PD",
-      "minimum_distance_lower_bound_mm": 0.7499890000000003,
+      "minimum_distance_lower_bound_mm": 1.7499890000000002,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "J_DATA",
-      "minimum_distance_lower_bound_mm": 0.7499890000000003,
+      "minimum_distance_lower_bound_mm": 1.7499890000000002,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "U_PD",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_PD",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_PD",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_PG",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "U_MCU",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_MCU",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_LOGIC",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_CC1",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_CC2",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_USB_SENSE_H",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_USB_SENSE_L",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "Q_DATA",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_VM_H",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_VM_L",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "U_VM_ISO",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_VM_EN",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_VM_BLEED",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_VM_ISO",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_VM_SENSE",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "U_LDO",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "D_PD",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "D_DATA",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_LDO_IN",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_LDO_OUT",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "U_DRV",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_CP",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_VCP",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_VREG",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_DRV_LOGIC",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_VM",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_VM2",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_BULK",
-      "minimum_distance_lower_bound_mm": 1.599999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_SA",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_SB",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_REF_H",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_REF_L",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "C_REF",
-      "minimum_distance_lower_bound_mm": 1.5999998999999998,
+      "minimum_distance_lower_bound_mm": 2.5999999,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_ENABLE",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_SLEEP",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
+      "method": "actual BREP Z-extrema prove separation",
+      "intersection_mm3": 0
+    },
+    {
+      "item": "J_MOTOR",
+      "minimum_distance_lower_bound_mm": 0.1999999999999984,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "U_ESD",
-      "minimum_distance_lower_bound_mm": 1.6000004016670526,
+      "minimum_distance_lower_bound_mm": 2.6000004016670526,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "D_TVS",
-      "minimum_distance_lower_bound_mm": 1.5999999999999999,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     },
     {
       "item": "R_USB_BOOT",
-      "minimum_distance_lower_bound_mm": 1.5999999999999996,
+      "minimum_distance_lower_bound_mm": 2.5999999999999996,
       "method": "actual BREP Z-extrema prove separation",
       "intersection_mm3": 0
     }
   ],
   "usb_access": {
-    "envelope": "Both +Y ports: compact cable procurement allowance 30mm insertion length \u00d710mm maximum overmold width \u00d77mm height, centered Z2.45 and extending +Y from mouthsY17.5. Not exact selected cable CAD.",
+    "envelope": "Selected Tensility maximum body12.5x32.5x7.6mm, +Ymouths17.9, native C-end STEP and reservedR30 bend; seeusb_same_edge_cable_fit.",
     "checks": [
       {
         "port": "J_PD",
         "other": "J_DATA_compact_plug",
-        "distance_mm": 0.5999999999999988,
+        "distance_mm": 1.4999999999999982,
         "intersection_mm3": 0
       },
       {
         "port": "J_PD",
         "other": "carrier",
-        "distance_mm": 2.695366394388753,
-        "intersection_mm3": 0
-      },
-      {
-        "port": "J_PD",
-        "other": "J_DATA",
-        "distance_mm": 1.1303878661895768,
+        "distance_mm": 2.8040149785620376,
         "intersection_mm3": 0
       },
       {
         "port": "J_DATA",
         "other": "carrier",
-        "distance_mm": 2.6953663943887536,
-        "intersection_mm3": 0
-      },
-      {
-        "port": "J_DATA",
-        "other": "J_PD",
-        "distance_mm": 1.1303878661895759,
+        "distance_mm": 2.8040149785620376,
         "intersection_mm3": 0
       }
     ],
     "physical_cable_sample_required": true
   },
   "bare_interface_top_probe_access": [
-    {
-      "interface": "J_MOTOR",
-      "pcb_port_id": "pcb_port_178",
-      "xy_mm": [
-        -3,
-        -15.5
-      ],
-      "tool_diameter_mm": 1.0,
-      "straight_top_access_collisions": []
-    },
-    {
-      "interface": "J_MOTOR",
-      "pcb_port_id": "pcb_port_179",
-      "xy_mm": [
-        -1,
-        -15.5
-      ],
-      "tool_diameter_mm": 1.0,
-      "straight_top_access_collisions": []
-    },
-    {
-      "interface": "J_MOTOR",
-      "pcb_port_id": "pcb_port_180",
-      "xy_mm": [
-        1,
-        -15.5
-      ],
-      "tool_diameter_mm": 1.0,
-      "straight_top_access_collisions": []
-    },
-    {
-      "interface": "J_MOTOR",
-      "pcb_port_id": "pcb_port_181",
-      "xy_mm": [
-        3,
-        -15.5
-      ],
-      "tool_diameter_mm": 1.0,
-      "straight_top_access_collisions": []
-    },
     {
       "interface": "J_DEBUG",
       "pcb_port_id": "pcb_port_182",
@@ -2619,7 +2649,7 @@
   ],
   "limitations": [
     "STEP solid collision tests are nominal supplier-model screens, not physical tolerance proof.",
-    "Copper, solder fillets, insulation coating and detailed threads are not represented in assembly STEP.",
+    "Copper detailed BREP and helical threads are outside mechanical STEP; solder tails, insulation and harness are bounded installation envelopes.",
     "Support strength, thermal transfer, host front-shaft installation, screw procurement and torque/preload need prototype qualification.",
     "No direct rear mounting thread pattern is verified; carrier is a separate candidate."
   ],
@@ -2629,12 +2659,12 @@
     "assumption": "20 N lateral load assigned to one rail and one return; unqualified procurement allowance, not a tested cable force",
     "elastic_modulus_mpa": 69000.0,
     "assumed_room_temperature_yield_mpa": 240,
-    "rail_length_mm": 36.4,
+    "rail_length_mm": 37.400000000000006,
     "rail_inertia_mm4": 62.5,
-    "rail_tip_deflection_mm": 0.07455620328502414,
+    "rail_tip_deflection_mm": 0.0808713028019324,
     "return_tip_deflection_mm": 0.00962587545289855,
-    "combined_deflection_mm": 0.08418207873792269,
-    "rail_bending_stress_mpa": 29.12,
+    "combined_deflection_mm": 0.09049717825483095,
+    "rail_bending_stress_mpa": 29.920000000000005,
     "return_bending_stress_mpa": 20.775,
     "scope": "Euler-Bernoulli simple beam screen only. Excludes front plate/joints, torsion, PCB flex, notch effects, screw preload/fatigue, thermal strength and dynamic motor vibration; does not qualify carrier."
   },
@@ -2643,15 +2673,15 @@
       "reference": "C_BULK",
       "supplier": "C178585",
       "mpn": "EEEFPV101XAP",
-      "native_step_height_mm": 5.820000000000001,
-      "world_top_z_mm": 6.62,
+      "native_step_height_mm": 7.700000200000001,
+      "world_top_z_mm": 8.500000100000001,
       "manufacturer_nominal_diameter_height_mm": [
         6.3,
         7.7
       ],
       "height_tolerance_mm": 0.3,
-      "status": "USER_REVIEW",
-      "interpretation": "C178585 Panasonic100uF35V has manufacturer7.7\u00b10.3mm body but native supplier STEP measures5.82mm. Preserved short supplier model is not mechanically exact; use independent maximum manufacturer envelope and physical sample for clearance. This remains USER_REVIEW."
+      "status": "NOMINAL_MANUFACTURER_MODEL_MATCH",
+      "interpretation": "Nominal supplier STEP height agrees with known manufacturer range; physical tolerance/sample qualification remains necessary."
     }
   ],
   "bulk_capacitor_manufacturer_maximum_envelope_screen": {
@@ -2700,59 +2730,11 @@
       },
       {
         "hardware": "PCB_M2p5_head_3",
-        "remaining_mm": 24.04820973825925
+        "remaining_mm": 25.62061281279454
       }
     ]
   },
   "native_pad_to_fastener_keepout_screen": [
-    {
-      "reference": "J_PD",
-      "native_pad_id": "pcb_plated_hole_0",
-      "mount_xy_mm": [
-        -13,
-        13
-      ],
-      "outer_copper_to_5p4mm_circle_mm": 0.44534215911337593,
-      "outer_copper_to_5p2mm_swept_head_mm": 0.545342159113376,
-      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
-      "audited_native_pad_id": "pcb_plated_hole_0"
-    },
-    {
-      "reference": "J_PD",
-      "native_pad_id": "pcb_plated_hole_1",
-      "mount_xy_mm": [
-        -13,
-        13
-      ],
-      "outer_copper_to_5p4mm_circle_mm": 0.5514394963590172,
-      "outer_copper_to_5p2mm_swept_head_mm": 0.6514394963590173,
-      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
-      "audited_native_pad_id": "pcb_plated_hole_1"
-    },
-    {
-      "reference": "J_DATA",
-      "native_pad_id": "pcb_plated_hole_6",
-      "mount_xy_mm": [
-        13,
-        13
-      ],
-      "outer_copper_to_5p4mm_circle_mm": 0.5514394963590172,
-      "outer_copper_to_5p2mm_swept_head_mm": 0.6514394963590173,
-      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
-      "audited_native_pad_id": "pcb_plated_hole_6"
-    },
-    {
-      "reference": "J_DATA",
-      "native_pad_id": "pcb_plated_hole_7",
-      "mount_xy_mm": [
-        13,
-        13
-      ],
-      "outer_copper_to_5p4mm_circle_mm": 0.44534215911337593,
-      "outer_copper_to_5p2mm_swept_head_mm": 0.545342159113376,
-      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
-      "audited_native_pad_id": "pcb_plated_hole_7"
-    },
     {
       "reference": "C_BULK",
       "native_pad_id": "pcb_smtpad_155",
@@ -2776,23 +2758,91 @@
       "outer_copper_to_5p2mm_swept_head_mm": 0.7871079108879897,
       "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
       "audited_native_pad_id": "pcb_smtpad_173"
+    },
+    {
+      "reference": "J_PD",
+      "native_pad_id": "pcb_plated_hole_0",
+      "mount_xy_mm": [
+        -14.8,
+        13
+      ],
+      "outer_copper_to_5p4mm_circle_mm": 0.721423548871964,
+      "outer_copper_to_5p2mm_swept_head_mm": 0.8214235488719641,
+      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
+      "audited_native_pad_id": "pcb_plated_hole_0"
+    },
+    {
+      "reference": "J_PD",
+      "native_pad_id": "pcb_plated_hole_1",
+      "mount_xy_mm": [
+        -14.8,
+        13
+      ],
+      "outer_copper_to_5p4mm_circle_mm": 0.4674921231815574,
+      "outer_copper_to_5p2mm_swept_head_mm": 0.5674921231815575,
+      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
+      "audited_native_pad_id": "pcb_plated_hole_1"
+    },
+    {
+      "reference": "J_DATA",
+      "native_pad_id": "pcb_plated_hole_6",
+      "mount_xy_mm": [
+        14.8,
+        13
+      ],
+      "outer_copper_to_5p4mm_circle_mm": 0.4674921231815574,
+      "outer_copper_to_5p2mm_swept_head_mm": 0.5674921231815575,
+      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
+      "audited_native_pad_id": "pcb_plated_hole_6"
+    },
+    {
+      "reference": "J_DATA",
+      "native_pad_id": "pcb_plated_hole_7",
+      "mount_xy_mm": [
+        14.8,
+        13
+      ],
+      "outer_copper_to_5p4mm_circle_mm": 0.721423548871964,
+      "outer_copper_to_5p2mm_swept_head_mm": 0.8214235488719641,
+      "interpretation": "native pad copper, actual circle; 0.35mm hole play included in swept head, solder/placement tolerance excluded",
+      "audited_native_pad_id": "pcb_plated_hole_7"
     }
   ],
   "usb_same_edge_cable_fit": {
-    "selected_provisional_envelope_width_mm": 10,
-    "port_center_pitch_mm": 10.599999999999998,
-    "compact_envelope_pair_clearance_mm": 0.5999999999999988,
-    "compact_envelope_pair_intersection_mm3": 0,
-    "rejected_12mm_overmold_pair_intersection_mm3": 294.0000000000004,
-    "status": "USER_REVIEW: select actual two compact <=10mm overmold cables and verify simultaneous insertion; prior12mm overmolds incompatible with10.6mm pitch."
+    "cables": {
+      "PD": "Tensility10-06137 C-C3m 20V3A",
+      "DATA": "Tensility10-06139 A-C1m USB2"
+    },
+    "maximum_body_mm": [
+      12.5,
+      32.5,
+      7.6
+    ],
+    "port_center_pitch_mm": 14,
+    "maximum_envelope_pair_clearance_mm": 1.4999999999999982,
+    "after_0p1mm_placement_per_port_mm": 1.2999999999999983,
+    "native_cable_pair_distance_mm": 1.999854918794224,
+    "bend_reserved_radius_mm": 30,
+    "bend_radius_is_manufacturer_verified": false,
+    "cable_maximum_od_mm": 3.95,
+    "host_keepout_bbox_mm": [
+      -13.25,
+      11.248870848470114,
+      -1.3499999999999996,
+      13.249999999999998,
+      87.39873855640175,
+      32.47373855640174
+    ],
+    "body_height_envelope_note": "Factory CAD7.378mm exceeds PDF7.3mm maximum; reserve7.6mm and resolve with supplier/sample.",
+    "status": "Nominal CAD/max-envelope screen; simultaneous physical insertion, shoulder registration and bend-life qualification unperformed."
   },
   "mounted_assembly_bbox_mm": [
-    -24.600000100000013,
-    -35.60033059614554,
+    -24.60209798563481,
+    -70.08166498352686,
     -60.21146141790351,
-    24.600000100000013,
-    18.200000100000008,
-    6.626974289895641
+    24.60209798563481,
+    87.39873855640175,
+    42.559160117001355
   ],
   "nominal_no_component_intersections": true,
   "nominal_no_fastener_intersections": true,
@@ -2802,17 +2852,17 @@
     {
       "reference": "J_PD",
       "step_body_bbox_center_mm": [
-        -5.300000000000001,
-        13.550000000000047,
+        -7.0,
+        13.950000000000049,
         2.0004890500000005
       ],
       "native_pcb_component_center_mm": {
-        "x": -5.3,
-        "y": 12.57501465
+        "x": -7,
+        "y": 12.975014650000002
       },
       "cad_anchor_mm": {
-        "x": -5.3,
-        "y": 12.1499711,
+        "x": -7,
+        "y": 12.549971100000002,
         "z": 0.8
       },
       "cad_model_origin_mm": {
@@ -2826,8 +2876,8 @@
         "z": 0
       },
       "mouth_xy_mm": [
-        -5.300000000000001,
-        17.500000000000053
+        -7.0,
+        17.900000000000055
       ],
       "outward_direction": "+Y",
       "pickup_and_pin1_status": "USER_REVIEW: bodybbox/CADanchor/nativePCBbbox are distinct. No verified JLCmachine pickup/pin1 convention; actual assemblyplacementpreview required."
@@ -2835,17 +2885,17 @@
     {
       "reference": "J_DATA",
       "step_body_bbox_center_mm": [
-        5.299999999999998,
-        13.550000000000047,
+        6.999999999999998,
+        13.950000000000049,
         2.0004890500000005
       ],
       "native_pcb_component_center_mm": {
-        "x": 5.3,
-        "y": 12.57501465
+        "x": 7,
+        "y": 12.975014650000002
       },
       "cad_anchor_mm": {
-        "x": 5.3,
-        "y": 12.1499711,
+        "x": 7,
+        "y": 12.549971100000002,
         "z": 0.8
       },
       "cad_model_origin_mm": {
@@ -2859,43 +2909,695 @@
         "z": 0
       },
       "mouth_xy_mm": [
-        5.299999999999998,
-        17.500000000000053
+        6.999999999999998,
+        17.900000000000055
       ],
       "outward_direction": "+Y",
       "pickup_and_pin1_status": "USER_REVIEW: bodybbox/CADanchor/nativePCBbbox are distinct. No verified JLCmachine pickup/pin1 convention; actual assemblyplacementpreview required."
     }
   ],
+  "service_harness": {
+    "connector": "JST B4B-PH-K-S(LF)(SN), C131334; exact native STEP retained",
+    "splice_insulation_candidate": "TE Raychem RT-375-1/8-X, procurement/temperature/dimensions certificate required; recovered assemblyOD<=2.8mm envelope",
+    "housing": "JST PHR-4",
+    "contacts": "4 x JST SPH-002T-P0.5S",
+    "wire_acceptance": {
+      "awg": "30..24",
+      "insulation_od_mm": [
+        0.8,
+        1.5
+      ],
+      "harness_nominal_od_mm": 1.1,
+      "selected_wire": "Belden83004 AWG24 PTFE 200C; see manufacturer reference",
+      "clamp_accepted_od_mm": [
+        1.05,
+        1.2
+      ],
+      "wire_temperature_rating_required_c": 150
+    },
+    "wire_paths": [
+      {
+        "pin": 1,
+        "clamp_axis_mm": [
+          -3.5,
+          -43.3
+        ],
+        "loop_radius_mm": 12,
+        "upper_transition_bezier_control_mm": [
+          [
+            -4.5,
+            -39.7,
+            30.0
+          ],
+          [
+            -4.5,
+            -39.7,
+            21.333333
+          ],
+          [
+            -3.5,
+            -43.3,
+            12.666667
+          ],
+          [
+            -3.5,
+            -43.3,
+            4.0
+          ]
+        ],
+        "lower_return_radius_mm": 12,
+        "upper_transition_exact_cubic_min_radius_mm": 30.154544306146903,
+        "upper_transition_extremum_parameters": [
+          0.0,
+          1.0,
+          0.5000000101036239
+        ],
+        "curve_length_mm": 130.3680245915429,
+        "manufacturer_minimum_bend_radius_mm": 11
+      },
+      {
+        "pin": 2,
+        "clamp_axis_mm": [
+          -3.5,
+          -40.7
+        ],
+        "loop_radius_mm": 12,
+        "upper_transition_bezier_control_mm": [
+          [
+            -2.5,
+            -39.7,
+            30.0
+          ],
+          [
+            -2.5,
+            -39.7,
+            21.333333
+          ],
+          [
+            -3.5,
+            -40.7,
+            12.666667
+          ],
+          [
+            -3.5,
+            -40.7,
+            4.0
+          ]
+        ],
+        "lower_return_radius_mm": 12,
+        "upper_transition_exact_cubic_min_radius_mm": 79.66737014194311,
+        "upper_transition_extremum_parameters": [
+          0.0,
+          1.0,
+          0.4999999977648937
+        ],
+        "curve_length_mm": 124.49476325260298,
+        "manufacturer_minimum_bend_radius_mm": 11
+      },
+      {
+        "pin": 3,
+        "clamp_axis_mm": [
+          3.5,
+          -43.3
+        ],
+        "loop_radius_mm": 12,
+        "upper_transition_bezier_control_mm": [
+          [
+            -0.5,
+            -39.7,
+            30.0
+          ],
+          [
+            -0.5,
+            -39.7,
+            21.333333
+          ],
+          [
+            3.5,
+            -43.3,
+            12.666667
+          ],
+          [
+            3.5,
+            -43.3,
+            4.0
+          ]
+        ],
+        "lower_return_radius_mm": 12,
+        "upper_transition_exact_cubic_min_radius_mm": 20.936120063099214,
+        "upper_transition_extremum_parameters": [
+          0.0,
+          1.0,
+          0.4999999996563314
+        ],
+        "curve_length_mm": 130.70517645025058,
+        "manufacturer_minimum_bend_radius_mm": 11
+      },
+      {
+        "pin": 4,
+        "clamp_axis_mm": [
+          3.5,
+          -40.7
+        ],
+        "loop_radius_mm": 12,
+        "upper_transition_bezier_control_mm": [
+          [
+            1.5,
+            -39.7,
+            30.0
+          ],
+          [
+            1.5,
+            -39.7,
+            21.333333
+          ],
+          [
+            3.5,
+            -40.7,
+            12.666667
+          ],
+          [
+            3.5,
+            -40.7,
+            4.0
+          ]
+        ],
+        "lower_return_radius_mm": 12,
+        "upper_transition_exact_cubic_min_radius_mm": 50.386068968846416,
+        "upper_transition_extremum_parameters": [
+          0.0,
+          1.0,
+          0.5000000054329666
+        ],
+        "curve_length_mm": 124.5636891511022,
+        "manufacturer_minimum_bend_radius_mm": 11
+      }
+    ],
+    "factory_lead_paths": [
+      {
+        "pin": 1,
+        "native_cad_stub_endpoint_mm": [
+          -1.102824,
+          -35.6,
+          23.705067
+        ],
+        "world_splice_mm": [
+          -3.5,
+          -23.5,
+          -22.499999999999996
+        ],
+        "nominal_model_od_mm": 0.945226,
+        "curve_length_after_stub_mm": 101.65868547397694,
+        "original_factory_lead_length_mm": [
+          290,
+          310
+        ],
+        "cubic_controls_mm": [
+          [
+            -4.8,
+            -57.6,
+            -36.494933
+          ],
+          [
+            -4.8,
+            -48.9,
+            -36.494933
+          ],
+          [
+            -4.8,
+            -40.2,
+            -23.999999999999996
+          ],
+          [
+            -4.8,
+            -31.5,
+            -23.999999999999996
+          ]
+        ],
+        "routing_radius_mm": 12,
+        "factory_wire_actual_gauge_od_bend_temperature_not_assumed": true
+      },
+      {
+        "pin": 2,
+        "native_cad_stub_endpoint_mm": [
+          -1.102824,
+          -35.6,
+          24.794933
+        ],
+        "world_splice_mm": [
+          -3.5,
+          -23.5,
+          -19.500000000000004
+        ],
+        "nominal_model_od_mm": 0.945226,
+        "curve_length_after_stub_mm": 102.30586143091492,
+        "original_factory_lead_length_mm": [
+          290,
+          310
+        ],
+        "cubic_controls_mm": [
+          [
+            -2.2,
+            -57.6,
+            -35.405067
+          ],
+          [
+            -2.2,
+            -48.9,
+            -35.405067
+          ],
+          [
+            -2.2,
+            -40.2,
+            -21.000000000000004
+          ],
+          [
+            -2.2,
+            -31.5,
+            -21.000000000000004
+          ]
+        ],
+        "routing_radius_mm": 12,
+        "factory_wire_actual_gauge_od_bend_temperature_not_assumed": true
+      },
+      {
+        "pin": 3,
+        "native_cad_stub_endpoint_mm": [
+          1.102824,
+          -35.6,
+          23.705067
+        ],
+        "world_splice_mm": [
+          3.5,
+          -23.5,
+          -22.499999999999996
+        ],
+        "nominal_model_od_mm": 0.945226,
+        "curve_length_after_stub_mm": 101.65868547397694,
+        "original_factory_lead_length_mm": [
+          290,
+          310
+        ],
+        "cubic_controls_mm": [
+          [
+            4.8,
+            -57.6,
+            -36.494933
+          ],
+          [
+            4.8,
+            -48.9,
+            -36.494933
+          ],
+          [
+            4.8,
+            -40.2,
+            -23.999999999999996
+          ],
+          [
+            4.8,
+            -31.5,
+            -23.999999999999996
+          ]
+        ],
+        "routing_radius_mm": 12,
+        "factory_wire_actual_gauge_od_bend_temperature_not_assumed": true
+      },
+      {
+        "pin": 4,
+        "native_cad_stub_endpoint_mm": [
+          1.102824,
+          -35.6,
+          24.794933
+        ],
+        "world_splice_mm": [
+          3.5,
+          -23.5,
+          -19.500000000000004
+        ],
+        "nominal_model_od_mm": 0.945226,
+        "curve_length_after_stub_mm": 102.30586143091492,
+        "original_factory_lead_length_mm": [
+          290,
+          310
+        ],
+        "cubic_controls_mm": [
+          [
+            2.2,
+            -57.6,
+            -35.405067
+          ],
+          [
+            2.2,
+            -48.9,
+            -35.405067
+          ],
+          [
+            2.2,
+            -40.2,
+            -21.000000000000004
+          ],
+          [
+            2.2,
+            -31.5,
+            -21.000000000000004
+          ]
+        ],
+        "routing_radius_mm": 12,
+        "factory_wire_actual_gauge_od_bend_temperature_not_assumed": true
+      }
+    ],
+    "factory_lead_color_assignment": "Nominal fanout only; identify actual colors/windings by continuity, not CAD arrangement.",
+    "clamp_through_carrier_clearance_bore_mm": 10.0,
+    "clamp_liner_outer_diameter_mm": 11.0,
+    "clamp_liner_four_bores_mm": 0.95,
+    "clamp_bore_tolerance_mm": 0.05,
+    "maximum_bundle_diameter_mm": 8.667261881037787,
+    "harness_drawing": "HAR-001",
+    "service_loop_radius_mm": 12,
+    "unplug_withdrawal_mm": 10,
+    "clamp_body_mm": [
+      24,
+      14,
+      6
+    ],
+    "clamp_seating_z_mm": -2.8,
+    "clamp_screw_nominal_metal_engagement_mm": 4,
+    "positive_restraint": "HC-001 two-piece PEEK clamp, silicone liner, two M2.5x10 screws into carrier crossbar; pull test unperformed",
+    "insulation": "INS-001 Nomex410 0.51mm, material certificate >=150C required; INS-002 PEEK supports/washers; 125C minimum tail insulation; certificates required",
+    "solder_tail_max_below_pcb_mm": 0.8,
+    "solder_fillet_max_below_pcb_mm": 0.5,
+    "nominal_tail_to_barrier_mm": 0.59,
+    "tail_to_barrier_after_0p15_pcb_0p05_carrier_0p05_sheet_allowances_mm": 0.34,
+    "carrier_material": "6061-T6/T651; machining +/-0.05mm",
+    "host_mount": {
+      "thread": "4 x M3, minimum6mm available depth; use4.5..5.5mm engagement",
+      "centers_mm": [
+        [
+          -21.6,
+          -13
+        ],
+        [
+          -21.6,
+          13
+        ],
+        [
+          21.6,
+          -13
+        ],
+        [
+          21.6,
+          13
+        ]
+      ],
+      "front_standoff_mm": 8.0,
+      "shaft_exposure_beyond_host_plane_mm": [
+        14.9,
+        17.1
+      ]
+    },
+    "factory_cad_for_mating_plug_and_contacts": false,
+    "limitations": [
+      "PHR/contact profile is drawing-derived, internal spring/key fit requires actual parts.",
+      "Wire and solder shapes are installation envelopes; no crimp/solder/pull measurement.",
+      "Cable STEP and maximum envelope evaluated separately; physical fit and bend life remain unperformed.",
+      "No structural, thermal, material certificate or physical-fit qualification claimed."
+    ],
+    "wire_clearance_checks": [
+      {
+        "wire": "Wire_1",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 0.7163690594811057
+      },
+      {
+        "wire": "Wire_1",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 1.8900000000000112
+      },
+      {
+        "wire": "Wire_1",
+        "other": "PCB",
+        "intersection_mm3": 0,
+        "distance_mm": 8.0
+      },
+      {
+        "wire": "Wire_2",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 0.7163690594811057
+      },
+      {
+        "wire": "Wire_2",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 1.8900000000000112
+      },
+      {
+        "wire": "Wire_2",
+        "other": "PCB",
+        "intersection_mm3": 0,
+        "distance_mm": 8.0
+      },
+      {
+        "wire": "Wire_3",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 0.7163690594811061
+      },
+      {
+        "wire": "Wire_3",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 1.8900000000000112
+      },
+      {
+        "wire": "Wire_3",
+        "other": "PCB",
+        "intersection_mm3": 0,
+        "distance_mm": 8.0
+      },
+      {
+        "wire": "Wire_4",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 0.7163690594811054
+      },
+      {
+        "wire": "Wire_4",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 1.8900000000000112
+      },
+      {
+        "wire": "Wire_4",
+        "other": "PCB",
+        "intersection_mm3": 0,
+        "distance_mm": 8.0
+      },
+      {
+        "wire": "FactoryLead_1",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 5.211226135596196
+      },
+      {
+        "wire": "FactoryLead_1",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "FactoryLead_2",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 4.124092795245492
+      },
+      {
+        "wire": "FactoryLead_2",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "FactoryLead_3",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 5.211226135596196
+      },
+      {
+        "wire": "FactoryLead_3",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "FactoryLead_4",
+        "other": "carrier",
+        "intersection_mm3": 0,
+        "distance_mm": 4.124092795245508
+      },
+      {
+        "wire": "FactoryLead_4",
+        "other": "motor",
+        "intersection_mm3": 0,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "Wire_1",
+        "other": "Wire_2",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 0.46404105905070336
+      },
+      {
+        "wire": "Wire_1",
+        "other": "FactoryLead_1",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 2.69851234983793,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "Wire_1",
+        "other": "FactoryLead_2",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 0.27773464489926564
+      },
+      {
+        "wire": "Wire_2",
+        "other": "FactoryLead_1",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 1.0188782408855617
+      },
+      {
+        "wire": "Wire_2",
+        "other": "FactoryLead_2",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 2.698453657622995,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "Wire_3",
+        "other": "Wire_4",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 0.4614669931795341
+      },
+      {
+        "wire": "Wire_3",
+        "other": "FactoryLead_1",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 4.454861541207043
+      },
+      {
+        "wire": "Wire_3",
+        "other": "FactoryLead_2",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 3.866434407178452
+      },
+      {
+        "wire": "Wire_3",
+        "other": "FactoryLead_3",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 2.6984536576226352,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "Wire_3",
+        "other": "FactoryLead_4",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 0.2777346448993694
+      },
+      {
+        "wire": "Wire_4",
+        "other": "FactoryLead_3",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 1.0188782408855626
+      },
+      {
+        "wire": "Wire_4",
+        "other": "FactoryLead_4",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 2.6985123498378703,
+        "distance_mm": 0.0
+      },
+      {
+        "wire": "FactoryLead_1",
+        "other": "FactoryLead_2",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 0.14450870393703594
+      },
+      {
+        "wire": "FactoryLead_3",
+        "other": "FactoryLead_4",
+        "intersection_mm3": 0,
+        "intentional_corresponding_splice_envelope_contact_mm3": 0,
+        "distance_mm": 0.1445087039370339
+      }
+    ],
+    "nominal_wire_collision_free": true,
+    "native_header_model_post_review": {
+      "supplier_model_square_post_mm": 0.6,
+      "manufacturer_recommended_finished_bore_mm": [
+        0.7,
+        0.8
+      ],
+      "supplier_model_post_diagonal_mm": 0.848528137423857,
+      "native_model_substrate_intersection_mm3": 0.051436085882444915,
+      "status": "UNRESOLVED_MODEL_DISCREPANCY: generic supplier solid has oversized square posts relative to manufacturer recommended holes. Do not infer actual post dimensions from this model. Manufacturer drawing governs drilling; obtain exact manufacturer post CAD or inspect actual header/coupon before fit qualification. Native STEP intentionally retained; no collision hidden by trimming cross-section."
+    },
+    "plug_removal_envelope_collisions": [],
+    "barrier_to_trimmed_header_clearance_mm": 0.6899999999999986,
+    "carrier_with_harness_bbox_mm": [
+      -24.60209798563481,
+      -70.08166498352686,
+      -44.202097985634815,
+      24.60209798563481,
+      87.39873855640175,
+      42.559160117001355
+    ],
+    "nominal_connector_to_neighbours": []
+  },
   "artifact_hashes": {
-    "motor-front-detail.png": "d49170c47c6f6b239488251eea93f5f68de313399190b4d7d14464322d06d0e5",
-    "input-board.circuit.json": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
-    "mounted-front-carrier.step.zip": "2227a147a4d67002371c0cea440b785ddafac948853f81413874e015e3f97a3a",
-    "mounted-side.png": "c9de7865fa7a08d1042d2759cb7a13141ef394d3f2b63461c7f6333f76c6240b",
-    "dimensions.png": "aaa9c3d57b27d0e498b91b7aa612d8ab578945aff33d6f74979e915c12738c43",
-    "fastener-clearance-envelopes.step": "ca9201a82708cf7e6179aa8acec89e219c8eef241039e259391ec5c3943b8652",
-    "bulk-manufacturer-maximum-envelope.step": "fc82272a980c030e60572ba322a20588be9f87979c3adbd1abe5a210797180f1",
-    "separate-front-carrier.step": "4c9122a784add3016eb9131e34c1122e5115beda429df27650412e263ad26dce",
-    "board-isometric.png": "6cdf6a9fe33e3b3dd6077c6afcecb13e8e1889bb0c06080ccd3401b7343b3484",
-    "board-bottom.png": "ce0a871e66c5ea8f12ad33afc027d7c476643b66041c92d0ee019e42998af96e",
-    "audited-input.circuit.json": "3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4",
-    "bulk-capacitor-height-review.png": "d9746d4d6258a15cf4d239c3308f96035b89431fa925c628c3033514ab9fbd24",
-    "same-edge-provisional-screen.json": "027f1c5b6110b8b4524049004b94fcecf5d0acc6efeb51e146232ad1ff045350",
-    "motor-rear-detail.png": "be7aa98e3689599578f13aa530ce5caed7a0ff498a90099a7e679b4d6d7e8979",
+    "audited-input.circuit.json": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+    "board-bottom.png": "ba30981510ef7cdb917f2b2dd11560fc428a504073d5081e5a4fa600ab8bb1f8",
+    "board-fitted-components.step.zip": "47eb0af2b052028518901411dca82eaaf5909f18c0b5eaea9480fcf7681f081a",
+    "board-isometric.png": "9cb416ff27349ecfe568ae1772357fc8af5507a8a7aebbd688574f5583cbe53c",
+    "board-top.png": "ad36d0de1718c8821b667dec1e4b62acc76ca6b18fe61d0bc3622f29e434bbfc",
+    "bulk-capacitor-height-review.png": "6e58a6f64f24812a2a69ef71e4b2567e9497cf779e81f597ed9f8af6351f9170",
+    "bulk-manufacturer-maximum-envelope.step": "e2bf8d6ac1fceb83e9c3392ba60fe8c704863069c82a999b686d91f31faf2ac5",
+    "dimensions.png": "fc1fb7bd771d5df68e03b5617055dc9ec681afca8e87db05328bacbd81f59a09",
+    "dimensions.svg": "9dc6ebe3314363b52e957d8a4a46235f116e67f6814627fdf3bcb9e600e3d523",
+    "fastener-clearance-envelopes.step": "7395d3710377acbb5b9daf37cf078127db27d73e51448097c17fe4ff57b5e8e3",
     "generated-step-validation.json": "4bd222ac305aaf5fd28c320dd7ec26d175df9d035ceda8f7d272e4242658ee0e",
-    "mounted-bottom.png": "0140acae9fe8a2960f052f0c9692037bd277ef544b5028deb8b53995283cf843",
-    "input-jlcpcb-catalog.json": "f0054fc6396c9148e49976e9f1d5ee24f68c653caccc659bcb8b38aeffee7754",
-    "mounted-top.png": "a07c5788bcd4eab9dba500ebc7216663acbcab6e6cb0fd4611a1aa38b16025b9",
-    "board-fitted-components.step.zip": "8f8c0b34566e019a85acc6b3d371a44dff64a32771f9d78482a0ba0558fb017e",
-    "mounted-isometric.png": "36fc477c52536276857321ffa1f282b82d83d23ec7f158098c63a3ee601f64d8",
-    "board-top.png": "cd732ab6745695699681e4cd9d83ab67da6b904189984ef708fe2f946d827522",
-    "input-review-mechanical.py": "f88bf06788435673fc12e78b39f2f8f480984c9ac2f66523468c721f952a0ee9",
-    "dimensions.svg": "9bdd0db44f985a7352492ecab7bbb6b95f45cc4bf6cac9e2ffe77c8a94c0b299"
+    "harness-and-insulation.step.zip": "1a89f1ff46c5adfecbc1cc1fd3106ca35c8c88a5aef66ca8901cd574a41d57c5",
+    "input-board.circuit.json": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+    "input-jlcpcb-catalog.json": "87428be50a1c69397d638a8bbd054b80466429c77558bb50315e41791fd6977a",
+    "input-review-mechanical.py": "03a12dac748a59b36d91d3215dedd92d971ea92d516537c4cec9884d39e586a2",
+    "motor-front-detail.png": "d49170c47c6f6b239488251eea93f5f68de313399190b4d7d14464322d06d0e5",
+    "motor-rear-detail.png": "be7aa98e3689599578f13aa530ce5caed7a0ff498a90099a7e679b4d6d7e8979",
+    "mounted-bottom.png": "2c95ab63d52af7b1f824f9001afe65a715b09c92e57579d542106313043c7157",
+    "mounted-front-carrier.step.zip": "bc854bbe78de8e4ee06d7d3cd2b8f05b1a3b10c05957e7ca428ceffc2cb88e99",
+    "mounted-isometric.png": "b03dbf5c0633f261f6f64ab7ad41fcd54f0e2677bf04ce2c4fe6a19139fc6309",
+    "mounted-side.png": "efa0324f295837fa3877c29eeaee3652b2d2ba06ae7e764341a4f56cae3be580",
+    "mounted-top.png": "9f635e32b9809f4500e7d52a206bdd4c32987b976036367febec9403d59718da",
+    "same-edge-provisional-screen.json": "027f1c5b6110b8b4524049004b94fcecf5d0acc6efeb51e146232ad1ff045350",
+    "separate-front-carrier.step": "9e829fd48da3af023c835792d25f4017cc77b48f88d5a98746ed9a8fc83ec045",
+    "service-harness-review.json": "a430d087028b7867f86899f0488fe6e8af4321dd49479318b504a8b650688150"
   },
   "rebind_proof": {
-    "audited_input_sha256": "3695ad08b2e45b1bb2fe515ababea537e67bfb0e7bc21ac74e8af399a16780c4",
-    "previous_input_sha256": "46cc40f8b684d98e0ddb79be91c0556be7416b7eb3cb932e31d674cfb5e58df1",
-    "saved_board_sha256": "adc26521014734b87f3ee6adb20579c0a23489c20187cd41b4d6218aad493660",
-    "mechanical_fingerprint_sha256": "026eb1d5171fdfdbff97a6e9de9615e24d32470fe366147cb1fc008aea07eeb0",
+    "audited_input_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+    "previous_input_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+    "saved_board_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+    "mechanical_fingerprint_sha256": "83532456cce0c6115d6d4a675f395d2c8294b4eab05c4805630ea62e31423ca1",
     "coordinate_comparison_resolution_mm": 1e-09,
     "geometry_equivalent": true,
     "verified_geometry": [

@@ -1,0 +1,193 @@
+{
+  "threshold_y_mm": 7.2,
+  "affected_nets": [
+    "DATA_CC1",
+    "DATA_CC2",
+    "DATA_VBUS",
+    "GND",
+    "PD_CC1",
+    "PD_CC2",
+    "PD_GOOD",
+    "PD_VBUS",
+    "PD_VDD",
+    "USB_DM",
+    "USB_DP",
+    "V3V3"
+  ],
+  "changes": [
+    {
+      "trace": "freerouted_trace_109_usbtrim_0_upperbay_0",
+      "net": "PD_CC1",
+      "before": 7,
+      "after": 3
+    },
+    {
+      "trace": "freerouted_trace_127_upperbay_0",
+      "net": "PD_VBUS",
+      "before": 5,
+      "after": 3
+    },
+    {
+      "trace": "freerouted_trace_182",
+      "net": "PD_GOOD",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_183",
+      "net": "PD_GOOD",
+      "before": 3,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_184",
+      "net": "PD_GOOD",
+      "before": 3,
+      "after": 2
+    },
+    {
+      "trace": "freerouted_trace_192",
+      "net": "PD_VDD",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_193",
+      "net": "PD_VDD",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_212",
+      "net": "V3V3",
+      "before": 4,
+      "after": 2
+    },
+    {
+      "trace": "freerouted_trace_222",
+      "net": "V3V3",
+      "before": 5,
+      "after": 2
+    },
+    {
+      "trace": "freerouted_trace_224",
+      "net": "V3V3",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_native_escape_pcb_smtpad_10",
+      "net": "PD_VBUS",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_native_escape_pcb_smtpad_15",
+      "net": "USB_DP",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net7_0",
+      "net": "USB_DP",
+      "before": 7,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net7_1",
+      "net": "USB_DP",
+      "before": 11,
+      "after": 5
+    },
+    {
+      "trace": "service_usb_repair_net7_2",
+      "net": "USB_DP",
+      "before": 9,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net8_0",
+      "net": "USB_DM",
+      "before": 28,
+      "after": 25
+    },
+    {
+      "trace": "service_usb_repair_net8_1",
+      "net": "USB_DM",
+      "before": 16,
+      "after": 11
+    },
+    {
+      "trace": "service_usb_repair_net8_2",
+      "net": "USB_DM",
+      "before": 9,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net3_0",
+      "net": "PD_CC2",
+      "before": 6,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net2_0",
+      "net": "PD_CC1",
+      "before": 9,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_66_ground_restore_0",
+      "net": "GND",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_67_ground_restore_0",
+      "net": "GND",
+      "before": 3,
+      "after": 2
+    },
+    {
+      "trace": "freerouted_trace_107_ground_restore_0",
+      "net": "GND",
+      "before": 2,
+      "after": 0
+    },
+    {
+      "trace": "freerouted_trace_108_ground_restore_0",
+      "net": "GND",
+      "before": 4,
+      "after": 2
+    },
+    {
+      "trace": "service_usb_repair_net6_0",
+      "net": "DATA_CC2",
+      "before": 27,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net5_0",
+      "net": "DATA_CC1",
+      "before": 38,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net4_0",
+      "net": "DATA_VBUS",
+      "before": 26,
+      "after": 3
+    },
+    {
+      "trace": "service_usb_repair_net4_1",
+      "net": "DATA_VBUS",
+      "before": 67,
+      "after": 0
+    },
+    {
+      "trace": "service_usb_repair_net1_0",
+      "net": "PD_VBUS",
+      "before": 43,
+      "after": 0
+    }
+  ]
+}

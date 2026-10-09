@@ -1,6 +1,6 @@
 Reference,MPN,JLCPCB part,Value,Voltage rating (V),Tolerance,PCB X mm,PCB Y mm,Rotation deg,Assembly side,Review note
-J_PD,TYPE-C-31-M-12,C165948,,,,-5.3,12.57501465,180,top,native supplier import with OBJ and STEP
-J_DATA,TYPE-C-31-M-12,C165948,,,,5.3,12.57501465,180,top,native supplier import with OBJ and STEP
+J_PD,TYPE-C-31-M-12,C165948,,,,-7,12.975014650000002,180,top,native supplier import with OBJ and STEP
+J_DATA,TYPE-C-31-M-12,C165948,,,,7,12.975014650000002,180,top,native supplier import with OBJ and STEP
 U_PD,CH224K,C970725,,,,-10.6,5.7,270,top,native supplier import with OBJ and STEP
 R_PD,ERJPA3F1001V,C441922,1kΩ,,,-15.5,2,0,top,native supplier import with OBJ and STEP
 C_PD,CL10A105KB8NNNC,C15849,1uF,,,-15.600000000000001,5.5,90,top,native supplier import with OBJ and STEP
@@ -9,7 +9,7 @@ U_MCU,CH32X035G8U6,C7437027,,,,4.9993,1.5,270,top,native supplier import with OB
 C_MCU,CC0603KRX7R9BB104,C14663,100nF,50,,0.9999999999999999,2.3,180,top,native supplier import with OBJ and STEP
 C_LOGIC,CL21A475KBQNNNE,C98192,4.7uF,,,11,-3.4999999999999996,90,top,native supplier import with OBJ and STEP
 R_CC1,0603WAF5101T5E,C23186,5.1kΩ,,,5.8,8.3,0,top,native supplier import with OBJ and STEP
-R_CC2,0603WAF5101T5E,C23186,5.1kΩ,,,8.8,8.3,0,top,native supplier import with OBJ and STEP
+R_CC2,0603WAF5101T5E,C23186,5.1kΩ,,,0,13,0,top,native supplier import with OBJ and STEP
 R_USB_SENSE_H,0603WAF1002T5E,C25804,10kΩ,,,14.5,6.4,0,top,native supplier import with OBJ and STEP
 R_USB_SENSE_L,0603WAF1002T5E,C25804,10kΩ,,,0.8999999999999999,4.1,0,top,native supplier import with OBJ and STEP
 Q_DATA,MMBT3904-7-F,C94514,,,,14.5,3.8,0,top,native supplier import with OBJ and STEP
@@ -40,7 +40,7 @@ R_REF_L,ERJPA3F1001V,C441922,1kΩ,,,7.6,-5,0,top,native supplier import with OBJ
 C_REF,CL10B103KB8NNNC,C1589,10nF,,,6,-7.5,0,top,native supplier import with OBJ and STEP
 R_ENABLE,0603WAF1002T5E,C25804,10kΩ,,,8,-10.5,0,top,native supplier import with OBJ and STEP
 R_SLEEP,0603WAF1002T5E,C25804,10kΩ,,,10.5,0.5,0,top,native supplier import with OBJ and STEP
-J_MOTOR,,,,,,0,-15.5,0,top,bare PCB interface
+J_MOTOR,B4B-PH-K-S(LF)(SN),C131334,,,,-1.5,-15.7,0,top,native supplier import with OBJ and STEP
 J_DEBUG,,,,,,7.25,-15.5,0,top,bare PCB interface
 U_ESD,USBLC6-2SC6,C2687116,,,,10,5.3,0,top,native supplier import with OBJ and STEP
 D_TVS,SMF18A,C19077512,,,,-4.9,5.6,90,top,native supplier import with OBJ and STEP

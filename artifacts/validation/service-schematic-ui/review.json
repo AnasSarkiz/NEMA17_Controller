@@ -1,0 +1,157 @@
+{
+  "board_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+  "pages": [
+    {
+      "page": 1,
+      "title": "NEMA14_CH32X035G8U6 1/10",
+      "expected_references": [
+        "U_MCU"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "eed21659f3e30b913a3daa6f45cc90525d585e06220b8915cf842f92f0007e8a",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 2,
+      "title": "NEMA14_CH32X035G8U6 2/10",
+      "expected_references": [
+        "U_DRV"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "111f7251398ddbb26d89928b6d518430c8c7f0485541ad7874b85b9717811c20",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 3,
+      "title": "NEMA14_CH32X035G8U6 3/10",
+      "expected_references": [
+        "J_PD",
+        "J_DATA",
+        "U_PD",
+        "R_PD",
+        "C_PD",
+        "R_PG"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "83ab96abcdf2b95cc666f9977d1ea63d617711ca22d0b9c632ff1e5537c8009a",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 4,
+      "title": "NEMA14_CH32X035G8U6 4/10",
+      "expected_references": [
+        "C_MCU",
+        "C_LOGIC",
+        "R_CC1",
+        "R_CC2",
+        "R_USB_SENSE_H",
+        "R_USB_SENSE_L"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "38fcd446c42790cbecb404f01ba454cfdd5d6347c9effe17252b6f46e681c9dd",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 5,
+      "title": "NEMA14_CH32X035G8U6 5/10",
+      "expected_references": [
+        "Q_DATA",
+        "R_VM_H",
+        "R_VM_L",
+        "U_VM_ISO",
+        "R_VM_EN",
+        "R_VM_BLEED"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "e93f5852c2d778a016348b55585e9128398eb58ee36814b61d857c12beb63e58",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 6,
+      "title": "NEMA14_CH32X035G8U6 6/10",
+      "expected_references": [
+        "C_VM_ISO",
+        "C_VM_SENSE",
+        "U_LDO",
+        "D_PD",
+        "D_DATA",
+        "C_LDO_IN"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "00983e49eb727205d5ba4c0018af0d6ce28a202671ce76c4c6bff1d62838eb9a",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 7,
+      "title": "NEMA14_CH32X035G8U6 7/10",
+      "expected_references": [
+        "C_LDO_OUT",
+        "C_CP",
+        "C_VCP",
+        "C_VREG",
+        "C_DRV_LOGIC",
+        "C_VM"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "3765df2ff807e72d0a7eb381e45e5882be825296102d147ed0b047b942bb07fe",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 8,
+      "title": "NEMA14_CH32X035G8U6 8/10",
+      "expected_references": [
+        "C_VM2",
+        "C_BULK",
+        "R_SA",
+        "R_SB",
+        "R_REF_H",
+        "R_REF_L"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "2abf1be61b5cccda17e410b00174345546eba6bf86592ba138d66772b01f94bc",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 9,
+      "title": "NEMA14_CH32X035G8U6 9/10",
+      "expected_references": [
+        "C_REF",
+        "R_ENABLE",
+        "R_SLEEP",
+        "J_MOTOR",
+        "J_DEBUG",
+        "U_ESD"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "6a9564cea5b00437eef85a0f692acd29a4c1cda360441d82734c6f0f30403d34",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    },
+    {
+      "page": 10,
+      "title": "NEMA14_CH32X035G8U6 10/10",
+      "expected_references": [
+        "D_TVS",
+        "R_USB_BOOT",
+        "J_BOOT"
+      ],
+      "analysis": "0 schematic placement findings",
+      "native_svg_sha256": "3b54d75bcd5fa2a7bce41a1ef658e5a7c25f07bbfa45b8551e8d4ebdd4075aab",
+      "a4_size_verified": true,
+      "all_component_labels_present": true
+    }
+  ],
+  "browser_script_errors": [],
+  "actual_cli_report": "../schematic-placement.txt",
+  "official_ide_analyzer_executed": false,
+  "scope": "Chromium read-only project UI showing native tscircuit A4 drawings and real CLI schematic-placement analysis. Not official IDE/WebGPU; no physical/electrical simulation claimed.",
+  "all_pages_opened": true
+}

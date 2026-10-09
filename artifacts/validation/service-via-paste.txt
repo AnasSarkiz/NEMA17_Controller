@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "source_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+  "top_spanning_vias_checked": 74,
+  "ordinary_via_drill_paste_or_SMT_overlap_errors": []
+}
