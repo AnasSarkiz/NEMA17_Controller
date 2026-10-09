@@ -2,7 +2,7 @@
   "schema": "nema14-inside-jst-review-manifest-v3",
   "project": "NEMA14_CH32X035G8U6",
   "requested_local_start_commit": "2d69fc4",
-  "generated_at_utc": "2026-10-09T22:20:58.892051+00:00",
+  "generated_at_utc": "2026-10-09T22:25:16.931762+00:00",
   "saved_board_sha256": "8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a",
   "index_saved_board_byte_identical": true,
   "inventory_note": "Routing workflow intermediate reports are diagnostic history, not final acceptance. Acceptance reports must be bound to the final saved board.",
@@ -55,7 +55,7 @@
     "Supplier pickup/rotation preview and filled/capped-via/drill/stencil process acceptance"
   ],
   "files_sha256": {
-    ".pcba-workflow/program-state.json": "990aaa6ca2ac45d53fb1da83ff25749b228e27204e4527bdab1e6d4034b99631",
+    ".pcba-workflow/program-state.json": "52dc1f3e47f34915e1e7eb720239cf6c423c70b612d73c1ddb0eeefed9cda955",
     "artifacts/assembly/assembly-drawings.pdf": "e915322ddd51afeee38b53cb7540e2f774571cfebebdeb24115443b829b6b83e",
     "artifacts/assembly/assembly-review.json": "7e45ffb91b4d2ca35e230c891d0cc65782d6e26e8966b54c720b22b2aa560bc3",
     "artifacts/assembly/assembly-top.png": "30d59eb97f5b11feed23c4f4c35f9308bca5a850dfca0b2e18e3faf6c9a445de",
@@ -188,7 +188,7 @@
     "docs/electrical.md": "df6c7dbaf44c769b453612545bff2161b675e28c913cc86c13cf32664ad35f47",
     "docs/engineering-review.md": "d7e0980f3ba4e5517219e62393a7b3614d412b37d915f50c4c449e3d7d564a33",
     "docs/fabrication-requirements.md": "4109580e336b43b25ede8bbb7ee7a0e568ff0e48e363e99b5d837aa2d2378eb8",
-    "docs/firmware-interface.md": "0ca379d362f703e543d67e6414aa70e4425c020f16f2a93f14d5465a5aec20f7",
+    "docs/firmware-interface.md": "1bd8c3d5634a52b5b0b2db0827e7ac46ba4fc8f47234abab238b283aee2aa007",
     "docs/inside-board-jst.md": "6b337694376bbb20b0b9794185a38379d76922c3e4e7dcf67b692a7aee2cb69c",
     "docs/manufacturing-review.md": "1ff9aa252af542985c5cd11a14c02a10b22c43875de7248e443aa0d2039a95ec",
     "docs/mechanical-fit.md": "f98bccf34268d2d305f33349307f563bf576e11ffb726d08fb591864ad56b480",
