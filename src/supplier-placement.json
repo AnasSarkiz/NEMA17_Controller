@@ -11,7 +11,7 @@
   },
   "U_DRV": {
     "pcbX": 0.0001,
-    "pcbY": -8.0001,
+    "pcbY": -7.4,
     "pcbRotation": 270
   },
   "U_ESD": {
@@ -135,18 +135,18 @@
     "pcbRotation": 270
   },
   "C_CP": {
-    "pcbX": -3.95,
-    "pcbY": -8.55,
+    "pcbX": -5.5,
+    "pcbY": -8.7,
     "pcbRotation": 270
   },
   "C_VCP": {
-    "pcbX": -4.1,
-    "pcbY": -11.4,
-    "pcbRotation": 270
+    "pcbX": -4.9,
+    "pcbY": -11.35,
+    "pcbRotation": 0
   },
   "C_VREG": {
     "pcbX": -2.0,
-    "pcbY": -12.3,
+    "pcbY": -11.4,
     "pcbRotation": 0
   },
   "C_DRV_LOGIC": {

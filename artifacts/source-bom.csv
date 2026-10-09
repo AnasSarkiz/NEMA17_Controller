@@ -25,10 +25,10 @@ D_PD,B5819W SL,C8598,,,,-10.9,0.5,0,top,native supplier import with OBJ and STEP
 D_DATA,B5819W SL,C8598,,,,7,-12.5,0,top,native supplier import with OBJ and STEP
 C_LDO_IN,CL21B105KBFNNNE,C28323,1uF,,,-6.2,0.5,0,top,native supplier import with OBJ and STEP
 C_LDO_OUT,CL21A475KBQNNNE,C98192,4.7uF,,,-8.5,-7.6,270,top,native supplier import with OBJ and STEP
-U_DRV,A4988SETTR-T,C38437,,,,0.00010000000000021103,-8.0001,270,top,native supplier import with OBJ and STEP
-C_CP,CC0603KRX7R9BB104,C14663,100nF,50,,-3.95,-8.55,270,top,native supplier import with OBJ and STEP
-C_VCP,CC0603KRX7R9BB104,C14663,100nF,50,,-4.1,-11.4,270,top,native supplier import with OBJ and STEP
-C_VREG,CL10B224KA8NNNC,C21120,220nF,,,-2,-12.3,0,top,native supplier import with OBJ and STEP
+U_DRV,A4988SETTR-T,C38437,,,,0.00010000000000021103,-7.4,270,top,native supplier import with OBJ and STEP
+C_CP,CC0603KRX7R9BB104,C14663,100nF,50,,-5.5,-8.7,270,top,native supplier import with OBJ and STEP
+C_VCP,CC0603KRX7R9BB104,C14663,100nF,50,,-4.9,-11.35,0,top,native supplier import with OBJ and STEP
+C_VREG,CL10B224KA8NNNC,C21120,220nF,,,-2,-11.4,0,top,native supplier import with OBJ and STEP
 C_DRV_LOGIC,CC0603KRX7R9BB104,C14663,100nF,50,,4.6,-9.5,0,top,native supplier import with OBJ and STEP
 C_VM,CC0603KRX7R9BB104,C14663,100nF,50,,-5.2,-6.4,180,top,native supplier import with OBJ and STEP
 C_VM2,CC0603KRX7R9BB104,C14663,100nF,50,,4.6,-5.35,0,top,native supplier import with OBJ and STEP
@@ -40,7 +40,7 @@ R_REF_L,ERJPA3F1001V,C441922,1kΩ,,,7.6,-5,0,top,native supplier import with OBJ
 C_REF,CL10B103KB8NNNC,C1589,10nF,,,6,-7.5,0,top,native supplier import with OBJ and STEP
 R_ENABLE,0603WAF1002T5E,C25804,10kΩ,,,8,-10.5,0,top,native supplier import with OBJ and STEP
 R_SLEEP,0603WAF1002T5E,C25804,10kΩ,,,10.5,0.5,0,top,native supplier import with OBJ and STEP
-J_MOTOR,B4B-PH-K-S(LF)(SN),C131334,,,,-1.5,-15.7,0,top,native supplier import with OBJ and STEP
+J_MOTOR,B4B-PH-K-S(LF)(SN),C131334,,,,-1.5,-14.1,0,top,native supplier import with OBJ and STEP
 J_DEBUG,,,,,,7.25,-15.5,0,top,bare PCB interface
 U_ESD,USBLC6-2SC6,C2687116,,,,10,5.3,0,top,native supplier import with OBJ and STEP
 D_TVS,SMF18A,C19077512,,,,-4.9,5.6,90,top,native supplier import with OBJ and STEP

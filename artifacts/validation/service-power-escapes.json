@@ -1,0 +1,58 @@
+{
+  "rows": [
+    {
+      "reference": "U_DRV",
+      "pin": "VBB1",
+      "points_mm": [
+        [
+          1.5011130000000004,
+          -4.900005
+        ],
+        [
+          1.9,
+          -4.2
+        ],
+        [
+          2.1,
+          -3.4
+        ]
+      ],
+      "minimum_native_foreign_pad_clearance_mm": 0.18373040000000015
+    },
+    {
+      "reference": "U_DRV",
+      "pin": "VBB2",
+      "points_mm": [
+        [
+          -1.5011669999999995,
+          -4.900005
+        ],
+        [
+          -1.9,
+          -4.2
+        ],
+        [
+          -2.1,
+          -3.4
+        ]
+      ],
+      "minimum_native_foreign_pad_clearance_mm": 0.18373040000000015
+    },
+    {
+      "reference": "C_VM2",
+      "pin": "pin1",
+      "points_mm": [
+        [
+          3.8999759999999997,
+          -5.35
+        ],
+        [
+          4.8,
+          -6.45
+        ]
+      ],
+      "minimum_native_foreign_pad_clearance_mm": 0.3390258045508948
+    }
+  ],
+  "status": "INDEPENDENT_TRACE_VIA_SPACING_AND_CAM_REQUIRED"
+}

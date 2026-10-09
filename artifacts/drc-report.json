@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-09T12:09:45.163Z",
+  "date": "2026-10-09T22:20:07.615Z",
   "tool": "@tscircuit/checks",
-  "traceCount": 324,
+  "traceCount": 351,
   "currentLimitAmps": 0.350765306122449,
   "componentOnlyCurrentFormulaHighAmps": 0.3792446152398549,
   "driverCurrentAccuracyAtSelectedReferenceIsUnspecified": true,

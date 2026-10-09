@@ -1,4 +1,4 @@
 Via ID,Reference,X mm,Y mm,Finished drill mm,Copper diameter mm,Layers,Required process
 freerouted_via_40,U_PD,-10.599872999999999,5.7,0.25,0.5,top-bottom,IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land
 freerouted_via_41,U_MCU,5.019112,1.499746,0.25,0.5,top-bottom,IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land
-freerouted_via_42,U_DRV,-2.6999999999999965e-05,-7.999973,0.25,0.5,top-bottom,IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land
+freerouted_via_42,U_DRV,-2.6999999999999965e-05,-7.399873,0.25,0.5,top-bottom,IPC4761 TypeVII nonconductive resin filled; copper capped both faces; planar SMT land

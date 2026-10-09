@@ -5,7 +5,7 @@ import verify_supplier_connectivity as g
 import json,hashlib
 from shapely.geometry import Polygon,box,Point,LineString
 from shapely.ops import unary_union
-j=g.j;bay=box(-17.2,7.2,17.2,17.2);out=[];proof=[]
+j=g.j;bay=box(-17.2,7.2,17.2,17.2).union(box(-6.8,-17.2,6.8,-2.1));out=[];proof=[]
 def ring(r):return {'vertices':[{'x':x,'y':y}for x,y in list(r.coords)[:-1]]}
 for e in j:
  if e['type']!='pcb_copper_pour':out.append(e);continue

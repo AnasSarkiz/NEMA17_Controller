@@ -1,7 +1,7 @@
 {
   "schema": "pcba-program-state-v1",
   "project_id": "NEMA14_CH32X035G8U6",
-  "updated_at": "2026-10-09T19:49:42.660572+00:00",
+  "updated_at": "2026-10-09T22:20:58.873716+00:00",
   "offline_service_review": "PASS_WITH_DISCLOSED_ADVISORIES_AND_MODEL_DATA_GATES",
   "manufacturing_release": false,
   "hardware_tested": false,

@@ -1,12 +1,11 @@
-placement summary: 3 suboptimal orientations
+placement summary: 2 suboptimal orientations
 
 worst issues:
 1. R_PD connections cross the routing path between its pads. Suggested move: rotate R_PD 180 degrees.
 2. R_CC1 connections cross the routing path between its pads. Suggested move: rotate R_CC1 180 degrees.
-3. C_REF connections cross the routing path between its pads. Suggested move: rotate C_REF 180 degrees.
 
 board top-layer utilization:
-- occupied: 51.131% (626.351mm^2 of 1225mm^2)
+- occupied: 52.362% (641.431mm^2 of 1225mm^2)
 - empty spaces over 5% of board area:
   - 8.92% (109.27mm^2); bounds=(minX=11.925mm, maxX=17.5mm, minY=-17.5mm, maxY=2.1mm)
   - 6.55% (80.244mm^2); bounds=(minX=-17.5mm, maxX=-6.7mm, minY=-17.5mm, maxY=-10.07mm)
@@ -38,10 +37,10 @@ board-edge status:
 - D_DATA: 4.525mm inside top edge
 - C_LDO_IN: 9.595mm inside left edge
 - C_LDO_OUT: 8.195mm inside top edge
-- U_DRV: 6.55mm inside top edge
-- C_CP: 7.85mm inside top edge
-- C_VCP: 5mm inside top edge
-- C_VREG: 4.75mm inside top edge
+- U_DRV: 7.15mm inside top edge
+- C_CP: 7.7mm inside top edge
+- C_VCP: 5.7mm inside top edge
+- C_VREG: 5.65mm inside top edge
 - C_DRV_LOGIC: 7.55mm inside top edge
 - C_VM: 10.65mm inside top edge
 - C_VM2: 11.7mm inside top edge
@@ -53,7 +52,7 @@ board-edge status:
 - C_REF: 9.55mm inside top edge
 - R_ENABLE: 6.568mm inside top edge
 - R_SLEEP: 5.843mm inside right edge
-- J_MOTOR: 1mm inside top edge
+- J_MOTOR: 2.6mm inside top edge
 - J_DEBUG: 1.25mm inside top edge
 - U_ESD: 6.284mm inside right edge
 - D_TVS: 9.6mm inside bottom edge
@@ -73,12 +72,6 @@ flagged components:
   board edge status: 8.768mm inside bottom edge
   issues:
   - R_CC1 connections cross the routing path between its pads. Suggested move: rotate R_CC1 180 degrees.
-- C_REF
-  source placement: placement_mode=none
-  resolved placement: center=(6mm, -7.5mm) on top; bounds=(minX=4.9mm, maxX=7.1mm, minY=-7.95mm, maxY=-7.05mm); size=(width=2.2mm, height=0.9mm); anchor_alignment="center"
-  board edge status: 9.55mm inside top edge
-  issues:
-  - C_REF connections cross the routing path between its pads. Suggested move: rotate C_REF 180 degrees.
 
 placement drc:
 Errors: 0

@@ -1,5 +1,5 @@
 {
-  "source_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+  "source_sha256": "8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a",
   "functional_texts": [
     {
       "text": "PD",
@@ -9,7 +9,7 @@
         "y": 16.8
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.1156007726696208,
+      "raw_ink_mm2_in_label_region": 0.11560077266962057,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -31,7 +31,7 @@
         "y": 16.8
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.18669014462567468,
+      "raw_ink_mm2_in_label_region": 0.1866901446256746,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -42,18 +42,18 @@
         "y": 15.7
       },
       "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.15393612876413332,
+      "raw_ink_mm2_in_label_region": 0.1539361287641333,
       "clipped_ink_mm2": 0.0
     },
     {
       "text": "MOTOR",
       "layer": "top",
       "center_mm": {
-        "x": 1,
-        "y": -13.3
+        "x": 4.8,
+        "y": -14.1
       },
       "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.21973932114544886,
+      "raw_ink_mm2_in_label_region": 0.21973932114544945,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -94,10 +94,10 @@
       "layer": "bottom",
       "center_mm": {
         "x": -4.5,
-        "y": -14.3
+        "y": -16.4
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.11621478437251323,
+      "raw_ink_mm2_in_label_region": 0.11621478437251415,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -105,10 +105,10 @@
       "layer": "bottom",
       "center_mm": {
         "x": -2.5,
-        "y": -14.3
+        "y": -16.4
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.11739105173532721,
+      "raw_ink_mm2_in_label_region": 0.11739105173532854,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -116,10 +116,10 @@
       "layer": "bottom",
       "center_mm": {
         "x": -0.5,
-        "y": -14.3
+        "y": -16.4
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.16822650550908516,
+      "raw_ink_mm2_in_label_region": 0.16822650550908552,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -127,10 +127,10 @@
       "layer": "bottom",
       "center_mm": {
         "x": 1.5,
-        "y": -14.3
+        "y": -16.4
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.13531060369018455,
+      "raw_ink_mm2_in_label_region": 0.13531060369018652,
       "clipped_ink_mm2": 0.0
     }
   ],

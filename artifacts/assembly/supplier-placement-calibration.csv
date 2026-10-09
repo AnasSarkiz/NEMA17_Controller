@@ -22,10 +22,6 @@ D_PD,B5819W SL,C8598,-10.9,0.5,0,top,-12.600022000000001,0.5,Top SMT,PENDING sup
 D_DATA,B5819W SL,C8598,7,-12.5,0,top,5.299978,-12.5,Top SMT,PENDING supplier preview; no assumed transform
 C_LDO_IN,CL21B105KBFNNNE,C28323,-6.2,0.5,0,top,-7.199998,0.5,Top SMT,PENDING supplier preview; no assumed transform
 C_LDO_OUT,CL21A475KBQNNNE,C98192,-8.5,-7.6,270,top,-8.5,-6.600002,Top SMT,PENDING supplier preview; no assumed transform
-U_DRV,A4988SETTR-T,C38437,0.00010000000000021103,-8.0001,270,top,-2.4998949999999995,-6.498832999999999,Top SMT,PENDING supplier preview; no assumed transform
-C_CP,CC0603KRX7R9BB104,C14663,-3.95,-8.55,270,top,-3.95,-7.849976000000001,Top SMT,PENDING supplier preview; no assumed transform
-C_VCP,CC0603KRX7R9BB104,C14663,-4.1,-11.4,270,top,-4.1,-10.699976,Top SMT,PENDING supplier preview; no assumed transform
-C_VREG,CL10B224KA8NNNC,C21120,-2,-12.3,0,top,-2.700024,-12.3,Top SMT,PENDING supplier preview; no assumed transform
 C_DRV_LOGIC,CC0603KRX7R9BB104,C14663,4.6,-9.5,0,top,3.8999759999999997,-9.5,Top SMT,PENDING supplier preview; no assumed transform
 C_VM,CC0603KRX7R9BB104,C14663,-5.2,-6.4,180,top,-4.499976,-6.4,Top SMT,PENDING supplier preview; no assumed transform
 C_VM2,CC0603KRX7R9BB104,C14663,4.6,-5.35,0,top,3.8999759999999997,-5.35,Top SMT,PENDING supplier preview; no assumed transform
@@ -40,7 +36,11 @@ R_SLEEP,0603WAF1002T5E,C25804,10.5,0.5,0,top,9.746636,0.5,Top SMT,PENDING suppli
 U_ESD,USBLC6-2SC6,C2687116,10,5.3,0,top,9.05004,4.150904,Top SMT,PENDING supplier preview; no assumed transform
 D_TVS,SMF18A,C19077512,-4.9,5.6,90,top,-4.9,7.2499839999999995,Top SMT,PENDING supplier preview; no assumed transform
 R_USB_BOOT,0402WGF4701TCE,C25900,11.5,8.4,0,top,11.067184,8.4,Top SMT,PENDING supplier preview; no assumed transform
-J_MOTOR,B4B-PH-K-S(LF)(SN),C131334,-1.5,-15.7,0,top,-4.5,-15.7,Manual THT,PENDING supplier preview; no assumed transform
 R_CC2,0603WAF5101T5E,C23186,0,13,0,top,-0.753364,13,Top SMT,PENDING supplier preview; no assumed transform
 J_PD,TYPE-C-31-M-12,C165948,-7,12.975014650000002,180,top,-11.325112,11.1442779,Top SMT,PENDING supplier preview; no assumed transform
 J_DATA,TYPE-C-31-M-12,C165948,7,12.975014650000002,180,top,2.674888,11.1442779,Top SMT,PENDING supplier preview; no assumed transform
+U_DRV,A4988SETTR-T,C38437,0.00010000000000021103,-7.4,270,top,-2.4998949999999995,-5.898733,Top SMT,PENDING supplier preview; no assumed transform
+C_CP,CC0603KRX7R9BB104,C14663,-5.5,-8.7,270,top,-5.5,-7.999975999999999,Top SMT,PENDING supplier preview; no assumed transform
+C_VCP,CC0603KRX7R9BB104,C14663,-4.9,-11.35,0,top,-5.600024,-11.35,Top SMT,PENDING supplier preview; no assumed transform
+C_VREG,CL10B224KA8NNNC,C21120,-2,-11.4,0,top,-2.700024,-11.4,Top SMT,PENDING supplier preview; no assumed transform
+J_MOTOR,B4B-PH-K-S(LF)(SN),C131334,-1.5,-14.1,0,top,-4.5,-14.1,Manual THT,PENDING supplier preview; no assumed transform

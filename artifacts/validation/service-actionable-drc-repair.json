@@ -1,0 +1,26 @@
+{
+  "source_before_sha256": "2181d469cfdf9b49437bee3b1a0280c478a42eb0aeb7e6cc362b41001c9a2c4b",
+  "removed_concrete_error_traces": {
+    "supplier_repair_U_DRV_OUT2A_inside_20_0": {
+      "net": "B_PLUS",
+      "error": {
+        "type": "pcb_trace_error",
+        "error_type": "pcb_trace_error",
+        "message": "PCB trace .J_MOTOR > .B_PLUS to net.B_PLUS overlaps with pcb_via \"unnamed via\" (accidental contact)",
+        "pcb_trace_id": "supplier_repair_U_DRV_OUT2A_inside_20_0",
+        "center": {
+          "x": 0.5874829691056211,
+          "y": -4.031247161517603
+        },
+        "source_trace_id": "",
+        "pcb_trace_error_id": "overlap_supplier_repair_U_DRV_OUT2A_inside_20_0_inside_phase_via_A_PLUS",
+        "pcb_component_ids": [],
+        "pcb_port_ids": []
+      }
+    }
+  },
+  "affected_nets_requiring_repair": [
+    "B_PLUS"
+  ],
+  "status": "REROUTE_REBUILD_CONNECTIVITY_AND_CAM_REQUIRED"
+}

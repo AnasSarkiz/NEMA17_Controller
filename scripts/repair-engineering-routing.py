@@ -3,7 +3,8 @@ Start from all copper in one existing island, including already reserved via esc
 """
 import verify_supplier_connectivity as g
 import json,math,heapq,numpy as np,sys
-from PIL import Image,ImageDraw
+from PIL import Image,ImageDraw,ImageChops
+from scipy.ndimage import distance_transform_edt
 if '--seed' in sys.argv:
  g.j=json.loads((g.ROOT/'artifacts/final-source.circuit.json').read_text())+json.loads((g.ROOT/'artifacts/supplier-seeds.circuit.json').read_text());g.path=g.ROOT/'artifacts/supplier-seeds.circuit.json'
  g.sp={e['source_port_id']:e for e in g.j if e['type']=='source_port'};g.ports={e['pcb_port_id']:e for e in g.j if e['type']=='pcb_port'};g.comp={e['pcb_component_id']:e for e in g.j if e['type']=='pcb_component'};g.src={e['source_component_id']:e['name'] for e in g.j if e['type']=='source_component'}
@@ -11,11 +12,19 @@ j=g.j;ROOT=g.ROOT;path=g.path;ports=g.ports;sp=g.sp;comp=g.comp;src=g.src
 STEP=.025;LOW=-17.5;N=1401;layers=['top','bottom'];xy=lambda x,y:(round((x-LOW)/STEP),round((y-LOW)/STEP));world=lambda p:(LOW+p[0]*STEP,LOW+p[1]*STEP);key=g.key
 traces={e['subcircuit_connectivity_map_key']:e['source_trace_id'] for e in j if e['type']=='source_trace'};nets={e['subcircuit_connectivity_map_key']:e for e in j if e['type']=='source_net'}
 def obstacle(net,width,via=False):
- imgs=[Image.new('L',(N,N)) for l in layers];draws=[ImageDraw.Draw(i) for i in imgs];margin=.15+(.25 if via else width/2)+.04
+ imgs=[Image.new('L',(N,N)) for l in layers];draws=[ImageDraw.Draw(i) for i in imgs];margin=.15+(.25 if via else width/2)+.02
  def add(l,geom):
   if l not in layers:return
   geom=geom.buffer(margin)
-  for poly in ([geom] if geom.geom_type=='Polygon' else geom.geoms):draws[layers.index(l)].polygon([xy(x,y) for x,y in poly.exterior.coords],fill=1)
+  for poly in ([geom] if geom.geom_type=='Polygon' else geom.geoms):
+   # Draw polygon holes on an isolated local mask: clearing directly on the
+   # layer would erase obstacles belonging to other conductors. The previous
+   # exterior-only raster incorrectly blocked valid pour-clearance cavities.
+   coords=[xy(x,y) for x,y in poly.exterior.coords];xs,ys=zip(*coords);x0=max(0,min(xs));y0=max(0,min(ys));x1=min(N,max(xs)+1);y1=min(N,max(ys)+1)
+   if x1<=x0 or y1<=y0:continue
+   patch=Image.new('L',(x1-x0,y1-y0));pd=ImageDraw.Draw(patch);pd.polygon([(x-x0,y-y0)for x,y in coords],fill=1)
+   for ring in poly.interiors:pd.polygon([(xy(x,y)[0]-x0,xy(x,y)[1]-y0)for x,y in ring.coords],fill=0)
+   idx=layers.index(l);rect=(x0,y0,x1,y1);imgs[idx].paste(ImageChops.lighter(imgs[idx].crop(rect),patch),rect)
  for e in j:
   typ=e['type']
   if typ in ['pcb_smtpad','pcb_plated_hole']:
@@ -50,10 +59,19 @@ def points(e):
  elif e['type']=='pcb_via':
   for l in e['layers']:
    if l in layers:out[(*xy(e['x'],e['y']),layers.index(l))]=(e['x'],e['y'])
+ elif e['type']=='pcb_copper_pour' and e['layer'] in layers:
+  b=e['brep_shape'];pts=lambda r:[(p['x'],p['y'])for p in r['vertices']];q=g.Polygon(pts(b['outer_ring']),[pts(r)for r in b.get('inner_rings',[])])
+  # Positive points inside actual same-net planes permit a short connection
+  # to the nearest conductive region rather than an arbitrary distant pad.
+  inset=q.buffer(-.20).simplify(.15,preserve_topology=True)
+  for poly in inset.geoms if hasattr(inset,'geoms')else[inset]:
+   if poly.is_empty or poly.geom_type!='Polygon':continue
+   candidates=list(poly.exterior.coords)+[(poly.representative_point().x,poly.representative_point().y)]
+   for x,y in candidates:out[(*xy(x,y),layers.index(e['layer']))]=(x,y)
  return out
 repairs=[]
 selected=set(sys.argv[sys.argv.index('--nets')+1].split(',')) if '--nets' in sys.argv else None
-priority=['USB_DP','USB_DM','PD_CC2','PD_CC1','DATA_CC2','DATA_CC1','SLEEP','DATA_VBUS','PD_VBUS'] if selected is not None else []
+priority=['VCP','CP2','CP1','VREG','DIR','STEP','ENABLE_N','SLEEP','VREF','SENSE1','SENSE2','A_PLUS','A_MINUS','B_PLUS','B_MINUS','PD_VBUS','V3V3','GND'] if selected is not None else []
 ordered=list(dict.fromkeys([*nets,*traces]));ordered.sort(key=lambda k:priority.index(nets.get(k,{}).get('name')) if nets.get(k,{}).get('name') in priority else len(priority))
 for net in ordered:
  if selected is not None and nets.get(net,{}).get('name') not in selected:continue
@@ -71,8 +89,12 @@ for net in ordered:
   blocked=obstacle(net,width);vb=obstacle(net,width,True)
   starts={s:p for s,p in starts.items() if not blocked[s[2]][s[1],s[0]]};goals={s:p for s,p in goals.items() if not blocked[s[2]][s[1],s[0]]}
   assert starts and goals,('No accessible island nodes',nets.get(net,{}).get('name',net))
-  pts=np.asarray(list(goals));lo=pts[:,:2].min(axis=0);hi=pts[:,:2].max(axis=0)
-  def heuristic(s):return max(lo[0]-s[0],0,s[0]-hi[0])+max(lo[1]-s[1],0,s[1]-hi[1])
+  goalmap=np.ones((N,N),dtype=np.bool_)
+  for x,y,l in goals:goalmap[y,x]=False
+  # Nearest-goal distance remains useful when distant islands surround the
+  # start; the old bounding rectangle degenerated to zero over that region.
+  distance=distance_transform_edt(goalmap)
+  def heuristic(s):return distance[s[1],s[0]]
   heap=[(heuristic(s),0,s) for s in starts];heapq.heapify(heap);best={s:0 for s in starts};prev={};end=None;expanded=0
   while heap:
    _,cost,s=heapq.heappop(heap)
@@ -102,7 +124,9 @@ for net in ordered:
    if old and old!=layer:
     route.append({'route_type':'via','x':x,'y':y,'from_layer':old,'to_layer':layer,'via_diameter':.5,'via_hole_diameter':.25});vias.append((x,y))
    route.append({'route_type':'wire','x':x,'y':y,'width':width,'layer':layer});old=layer
-  tid=('service_usb_repair_' if selected is not None and '--usb' in sys.argv else 'service_motor_repair_' if selected is not None else 'supplier_repair_island_')+net.rsplit('_',1)[-1]+'_'+str(attempt);common={'source_trace_id':traces[net],'subcircuit_connectivity_map_key':net,'subcircuit_id':'subcircuit_source_group_0'}
+  tid=('service_usb_repair_' if selected is not None and '--usb' in sys.argv else 'inside_motor_repair_' if selected is not None else 'supplier_repair_island_')+net.rsplit('_',1)[-1]+'_'+str(sum(e['type']=='pcb_trace'and e['pcb_trace_id'].startswith('inside_motor_repair_'+net.rsplit('_',1)[-1]+'_')for e in j))
+  while any(e.get('pcb_trace_id')==tid for e in j):tid+='x'
+  common={'source_trace_id':traces[net],'subcircuit_connectivity_map_key':net,'subcircuit_id':'subcircuit_source_group_0'}
   if net in nets:common['source_net_id']=nets[net]['source_net_id']
   j.append({'type':'pcb_trace','pcb_trace_id':tid,'route':route,'pcb_port_ids':[],**common})
   for i,(x,y) in enumerate(vias):j.append({'type':'pcb_via','pcb_via_id':tid+'_via'+str(i),'pcb_trace_id':tid,'x':x,'y':y,'hole_diameter':.25,'outer_diameter':.5,'layers':(['top','inner1','inner2','bottom'] if next(e for e in j if e['type']=='pcb_board')['num_layers']==4 else ['top','bottom']),'tented_on_top':True,'tented_on_bottom':True,**common})

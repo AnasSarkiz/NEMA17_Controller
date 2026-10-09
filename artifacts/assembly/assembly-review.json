@@ -1,5 +1,5 @@
 {
-  "source_sha256": "1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040",
+  "source_sha256": "8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a",
   "fitted_parts": 45,
   "filled_capped_vias": [
     {
@@ -26,7 +26,7 @@
       "Via ID": "freerouted_via_42",
       "Reference": "U_DRV",
       "X mm": -2.6999999999999965e-05,
-      "Y mm": -7.999973,
+      "Y mm": -7.399873,
       "Finished drill mm": 0.25,
       "Copper diameter mm": 0.5,
       "Layers": "top-bottom",

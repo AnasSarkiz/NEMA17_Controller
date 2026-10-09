@@ -1,6 +1,6 @@
 {
   "source_entry_sha256": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
-  "prepared_source_sha256": "3a9dc5e7f337ae55072d9b078eba63e63cfa8c912c2527d82d3426d90e910dbb",
+  "prepared_source_sha256": "f5c0834cdd85d14128d5d7050c79a67d3cb0a7851f6a9ddee7573ae450a7504c",
   "commands": [
     {
       "name": "netlist",
@@ -36,7 +36,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-source.txt",
-      "output_sha256": "5b08afb211f0e0394b1f062a7038b4b041a3c891def301b9bae0127bb3c9b8df"
+      "output_sha256": "d0e22840710bb5450fefc111ff8e200e1ca6a39d5efd1c7cfed41a41a90ea49c"
     },
     {
       "name": "placement",
@@ -48,7 +48,7 @@
       ],
       "exit_code": 1,
       "output": "artifacts/validation/service-cli-placement.txt",
-      "output_sha256": "08bd6e32663ca92082bba54da4f9bca77f152bf0b999ac770dd14e03326f6cb1"
+      "output_sha256": "e316ec04e3055c48bfc5a605d0a8fbf2c5911a15f4b4f1c44ae231b891fa6ac3"
     },
     {
       "name": "schematic",

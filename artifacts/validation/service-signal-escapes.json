@@ -1,0 +1,45 @@
+{
+  "rows": [
+    {
+      "net": "DIR",
+      "points_mm": [
+        [
+          2.5000950000000004,
+          -6.8994930000000005
+        ],
+        [
+          2.9,
+          -6.899493
+        ],
+        [
+          3.1,
+          -7.0
+        ],
+        [
+          3.25,
+          -7.5
+        ],
+        [
+          3.45,
+          -7.5
+        ]
+      ],
+      "minimum_foreign_native_pad_clearance_mm": 0.1725826085701533
+    },
+    {
+      "net": "STEP",
+      "points_mm": [
+        [
+          2.5000950000000004,
+          -8.400633000000001
+        ],
+        [
+          3.35,
+          -8.6
+        ]
+      ],
+      "minimum_foreign_native_pad_clearance_mm": 0.19643740261816078
+    }
+  ],
+  "status": "DRC_CONNECTIVITY_CAM_REQUIRED"
+}

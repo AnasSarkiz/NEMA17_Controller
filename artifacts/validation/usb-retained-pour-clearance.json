@@ -1,101 +1,287 @@
 {
   "changedBay_mm": [
     -17.2,
-    7.2,
+    -17.2,
     17.2,
     17.2
   ],
   "cut_clearance_mm": 0.2,
   "pours": [
     {
-      "pour": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0",
+      "pour": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_simple_0_inside_0_usbclear_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0",
       "net": "LOGIC_IN",
       "layer": "top",
-      "removed_mm2": -7.105427357601002e-15
+      "removed_mm2": 1.4135448367369463e-08
     },
     {
-      "pour": "service_gnd_top_0",
+      "pour": "service_gnd_top_0_usbclear_0_simple_0",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": -1.6653345369377348e-16
+      "removed_mm2": 4.270324183153207e-07
     },
     {
-      "pour": "service_gnd_top_1",
+      "pour": "service_gnd_top_0_usbclear_0_simple_1",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": 8.881784197001252e-15
+      "removed_mm2": 5.046045030709934e-07
     },
     {
-      "pour": "service_gnd_top_2",
+      "pour": "service_gnd_top_0_usbclear_0_simple_2",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": 9.947598300641403e-14
+      "removed_mm2": 6.966060275837016e-08
     },
     {
-      "pour": "service_gnd_top_3",
+      "pour": "service_gnd_top_0_usbclear_0_simple_3",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": -2.4688279154361226e-07
+      "removed_mm2": 1.3946028332156857e-08
     },
     {
-      "pour": "service_gnd_top_4",
+      "pour": "service_gnd_top_0_usbclear_0_simple_4",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": -6.661338147750939e-16
+      "removed_mm2": 3.8047166350807515e-07
     },
     {
-      "pour": "service_gnd_top_5",
+      "pour": "service_gnd_top_0_usbclear_0_simple_5",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": 6.661338147750939e-16
+      "removed_mm2": 4.46422651734224e-07
     },
     {
-      "pour": "service_gnd_top_8",
+      "pour": "service_gnd_top_0_usbclear_0_simple_6",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": -1.0658141036401503e-14
+      "removed_mm2": 5.744059365042631e-06
     },
     {
-      "pour": "service_gnd_top_9",
+      "pour": "service_gnd_top_0_usbclear_0_simple_7",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": 1.7763568394002505e-15
+      "removed_mm2": 3.8047166306398594e-07
     },
     {
-      "pour": "service_gnd_top_10",
+      "pour": "service_gnd_top_0_usbclear_0_simple_8",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": -3.1086244689504383e-15
+      "removed_mm2": 2.7143887137981437e-06
     },
     {
-      "pour": "service_gnd_top_11",
+      "pour": "service_gnd_top_0_usbclear_0_simple_9",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": -3.552713678800501e-15
+      "removed_mm2": -1.1814993428060916e-09
     },
     {
-      "pour": "service_gnd_top_12",
+      "pour": "service_gnd_top_0_usbclear_0_simple_10",
       "net": "GND",
       "layer": "top",
-      "removed_mm2": 1.3877787807814457e-17
+      "removed_mm2": 1.665939294070995e-06
     },
     {
-      "pour": "service_gnd_bottom_0",
+      "pour": "service_gnd_top_0_usbclear_0_simple_11",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.3583888680557266e-06
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_12",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.32467240336844e-09
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_13",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.3246724031548818e-09
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_14",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 2.1116001605037127e-06
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_15",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -1.019400031054829e-08
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_16",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.7390409894346703e-06
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_17",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 7.074165333520455e-07
+    },
+    {
+      "pour": "service_gnd_top_0_usbclear_0_simple_18",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -9.038513937298376e-09
+    },
+    {
+      "pour": "service_gnd_top_1_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 8.228213141947549e-07
+    },
+    {
+      "pour": "service_gnd_top_2_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 2.1255781756934766e-07
+    },
+    {
+      "pour": "service_gnd_top_3_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 1.167701427107204e-06
+    },
+    {
+      "pour": "service_gnd_top_5_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 3.703183855119363e-07
+    },
+    {
+      "pour": "service_gnd_top_6_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 2.2539841060265076e-07
+    },
+    {
+      "pour": "service_gnd_top_9_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -1.56298796127885e-09
+    },
+    {
+      "pour": "service_gnd_top_10_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 7.105427357601002e-15
+    },
+    {
+      "pour": "service_gnd_top_11_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": -8.881784197001252e-16
+    },
+    {
+      "pour": "service_gnd_top_12_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 3.355034383645261e-07
+    },
+    {
+      "pour": "service_gnd_top_15_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "top",
+      "removed_mm2": 5.279628464194275e-06
+    },
+    {
+      "pour": "service_gnd_bottom_0_usbclear_0_simple_0",
       "net": "GND",
       "layer": "bottom",
-      "removed_mm2": 3.552713678800501e-15
+      "removed_mm2": 1.0436687603032624e-07
     },
     {
-      "pour": "service_gnd_bottom_1",
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_0",
       "net": "GND",
       "layer": "bottom",
-      "removed_mm2": -2.02161459128547e-07
+      "removed_mm2": 3.452500063616526e-09
     },
     {
-      "pour": "service_gnd_bottom_4",
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_1",
       "net": "GND",
       "layer": "bottom",
-      "removed_mm2": -1.1102230246251565e-16
+      "removed_mm2": 0.0
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_2",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": -2.0470499961788846e-08
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_3",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 0.0
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_4",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": -1.1909833119716495e-09
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_5",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 5.9061452475361875e-06
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_6",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 3.009762583605635e-08
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_7",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 1.2099364565809623e-07
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_8",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 6.774725580527274e-07
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_9",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 3.743516856502538e-07
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_10",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 1.1664859442817033e-06
+    },
+    {
+      "pour": "service_gnd_bottom_2_usbclear_0_simple_11",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 2.6730962616738907e-06
+    },
+    {
+      "pour": "service_gnd_bottom_3_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 2.6374783406168945e-06
+    },
+    {
+      "pour": "service_gnd_bottom_8_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 3.0616454989029762e-06
+    },
+    {
+      "pour": "service_gnd_bottom_10_usbclear_0_simple_0",
+      "net": "GND",
+      "layer": "bottom",
+      "removed_mm2": 1.0902701461645847e-06
     }
   ]
 }

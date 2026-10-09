@@ -1,6 +1,6 @@
 # Fabrication requirements — NEMA14_CH32X035G8U6, service revision
 
-Source SHA256 `1af011fe32642c196862ce1cbf7ef57b5beee03518bd5cabf5dde85e0c814040`. Prototype fabrication/assembly acceptance remains pending.
+Source SHA256 `8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a`. Prototype fabrication/assembly acceptance remains pending.
 
 - Board35x35x1.6mm, 2layers. ExternalCu>=35um, internalCu>=17.5um, plated barrels>=20um. Confirm actual stackup/copper and all process limits before manufacture.
 - JST finished plated bores0.75+/-0.05mm, 2.00mm pitch; native hole size is deliberately overridden using official JST PH drawing. Other drills remain as exported. FourNPTHmounting holes3.2mm lowerpitch26,upper29.6mm; exactcenters in drawings/CAM. USBshellslotsPLATED milling. No untreated open SMT via-in-pad substitutions.
