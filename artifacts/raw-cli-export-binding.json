@@ -1,4 +1,12 @@
 {
-  "source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-  "raw_archive_sha256": "4e64c304cb646880609d39e771a31c786b95356f485d08570a5b8f43c793688b"
+  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "raw_archive_sha256": "4e64c304cb646880609d39e771a31c786b95356f485d08570a5b8f43c793688b",
+  "schematic_only_evidence_binding": {
+    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
+    "previous_report_sha256": "1d8a9eee98c9e2dfcb31f910144482bd57c84427d54032cc75d32773e2d7bf71",
+    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "non_schematic_inputs_equal": true,
+    "original_test_repeated": false
+  }
 }

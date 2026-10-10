@@ -1,5 +1,5 @@
 {
-  "source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
   "directory": "artifacts/manufacturing",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -1085,5 +1085,13 @@
     "missing_mm2": 0.0,
     "extra_mm2": 0.0
   },
-  "status": "PASS"
+  "status": "PASS",
+  "schematic_only_evidence_binding": {
+    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
+    "previous_report_sha256": "4cb5fae935743ca57348c9dd49e05cfe72f7cfbbab08666ab03505b51a92f9b1",
+    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "non_schematic_inputs_equal": true,
+    "original_test_repeated": false
+  }
 }

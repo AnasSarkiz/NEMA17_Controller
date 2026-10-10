@@ -87,8 +87,8 @@
     "no_continuous_braking_sink": true
   },
   "current_routing_revision_binding": {
-    "source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-    "unchanged_component_data_from_commit": "67e914b9bc8a2429639bf24c7ae9a2120c5cfd39",
+    "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "unchanged_component_data_from_commit": "3644f2d12d117f12a61d8aee38f51c65827ba4aa",
     "component_data_sha256": "6f5a120333922ab5047f1bacad05d63d7d881e13cdbb89e26dce4eb288428437",
     "scope": "Existing primary datasheet/component arithmetic remains applicable because all component identities/values are unchanged. Current trace/via resistance and outer-layer checks are separately recorded in trace-width-review.json and outer-power-routing.md. No hardware test or regulator/transient qualification is claimed."
   }

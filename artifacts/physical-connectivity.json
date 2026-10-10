@@ -3,5 +3,13 @@
   "disconnectedNets": [],
   "allCopperLayersChecked": true,
   "nativePolygonAndSlotGeometry": true,
-  "sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e"
+  "sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "schematic_only_evidence_binding": {
+    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
+    "previous_report_sha256": "348524db98205725222adbccab25ca7cd7a6a5506029684015012ec1a389a8cb",
+    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "non_schematic_inputs_equal": true,
+    "original_test_repeated": false
+  }
 }

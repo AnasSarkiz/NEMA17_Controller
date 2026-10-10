@@ -1,5 +1,5 @@
 {
-  "source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
   "actual_archive_sha256": "e7b674a62b54e89456b7c84c0cd15e05d03a7f0e46281e95d4472b704f99d1ba",
   "actual_F_Paste_sha256": "2ee14e6bae5c50a628952f14c1bce00febc9317b6548f8f01b2c449e4f87f845",
   "actual_drill_sha256": {
@@ -1449,5 +1449,13 @@
       "required_off_pad_process": "IPC4761 TypeVI nonconductive resin fill and mask cover, both faces; copper cap not required; supplier capability/inspection pending"
     }
   ],
-  "scope": "Actual independently parsed stencil; native via drills reconciled against actual Excellon by the bound CAM audit. No physical filling/capping or reflow qualification is claimed."
+  "scope": "Actual independently parsed stencil; native via drills reconciled against actual Excellon by the bound CAM audit. No physical filling/capping or reflow qualification is claimed.",
+  "schematic_only_evidence_binding": {
+    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
+    "previous_report_sha256": "62af551baa0fe121a42ca52315e2573712bebb6ed7811928881845ecb65427ed",
+    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "non_schematic_inputs_equal": true,
+    "original_test_repeated": false
+  }
 }

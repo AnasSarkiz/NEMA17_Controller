@@ -1,6 +1,6 @@
 {
-  "board_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-  "mechanical_report_sha256": "ff28ff5c00632121dd355349f42f4ee6f81d43bfe0525d362373be8e2473f304",
+  "board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "mechanical_report_sha256": "8e92abf0eb41b17e9b3bf2bdab71a9df4e94391f8b12cf488f575f7921f383cc",
   "bounded_clearance_screens_mm": {
     "pilot_pattern_remaining_radial_mm": 0.04500000000000004,
     "tail_barrier_remaining_mm": 0.34,

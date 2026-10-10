@@ -1082,7 +1082,7 @@
       "voltageDropAtNetBudgetMillivolt": 1.7560519800987362
     }
   ],
-  "sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+  "sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
   "checksPassed": true,
   "errors": [],
   "copperSpecification": {
@@ -55926,5 +55926,13 @@
     "Via resistance/plating, switching pulses, USB impedance, EMI and regulator stability require separate validation.",
     "Branched copper totals are not USB pair skew or point-to-point resistance.",
     "A4988 current accuracy and sense/ground path parasitics still require phase-current measurements."
-  ]
+  ],
+  "schematic_only_evidence_binding": {
+    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
+    "previous_report_sha256": "6ac01a41759c77f3a833945e9e83929c63ddffa5c836766e033db1ea47cd8513",
+    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "non_schematic_inputs_equal": true,
+    "original_test_repeated": false
+  }
 }

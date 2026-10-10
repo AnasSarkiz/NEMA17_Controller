@@ -1,6 +1,6 @@
 {
   "source_entry_sha256": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
-  "prepared_source_sha256": "95428dabce15f9a2ccee9b7f4dd501ff3dd149a20bfc79675733a5e02f31ece8",
+  "prepared_source_sha256": "d1aa91e0720225917972b1ab202b2aa9c63bbbd72977b8f2618b3bf737f07517",
   "commands": [
     {
       "name": "netlist",
@@ -60,8 +60,11 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-schematic.txt",
-      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "rerun_on_current_functional_schematic": true
     }
   ],
-  "placement_advisories_are_not_suppressed": true
+  "placement_advisories_are_not_suppressed": true,
+  "previous_prepared_source_sha256": "95428dabce15f9a2ccee9b7f4dd501ff3dd149a20bfc79675733a5e02f31ece8",
+  "schematic_only_evidence_binding": "artifacts/validation/functional-schematic-invariance.json"
 }

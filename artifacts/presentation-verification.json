@@ -1,15 +1,14 @@
 {
   "savedPcbGeometryUnchanged": true,
-  "addedBootComponents": [],
   "sourcePinsAndNetsUnchanged": true,
-  "pcbGeometrySha256": "3ae43ce6ae031f3a421fd24a678fd74ec62c3b19c1e49bdbab300849d4099813",
-  "boardSha256": "1ce4241ab1edb5dacd04dd4bf91a10b11828143ce7904e3c1d971f6118770fc0",
+  "pcbGeometrySha256": "70634b19573b9a575ae76f3ee44e8cbfe9669b213d1c1c18b984f0cc7ce5b58f",
+  "boardSha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
   "nativeA4Sheets": [
     {
       "type": "schematic_sheet",
       "schematic_sheet_id": "schematic_sheet_0",
-      "name": "NEMA14_CH32X035G8U6_1",
-      "display_name": "NEMA14_CH32X035G8U6 1/10",
+      "name": "USB-C PD & Logic Power",
+      "display_name": "USB-C PD & Logic Power",
       "sheet_index": 0,
       "sheet_size": "a4",
       "sheet_width": 297,
@@ -22,8 +21,8 @@
     {
       "type": "schematic_sheet",
       "schematic_sheet_id": "schematic_sheet_1",
-      "name": "NEMA14_CH32X035G8U6_2",
-      "display_name": "NEMA14_CH32X035G8U6 2/10",
+      "name": "CH32 & USB Control",
+      "display_name": "CH32 & USB Control",
       "sheet_index": 1,
       "sheet_size": "a4",
       "sheet_width": 297,
@@ -36,107 +35,9 @@
     {
       "type": "schematic_sheet",
       "schematic_sheet_id": "schematic_sheet_2",
-      "name": "NEMA14_CH32X035G8U6_3",
-      "display_name": "NEMA14_CH32X035G8U6 3/10",
+      "name": "Motor Driver & Voltage Monitor",
+      "display_name": "Motor Driver & Voltage Monitor",
       "sheet_index": 2,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_3",
-      "name": "NEMA14_CH32X035G8U6_4",
-      "display_name": "NEMA14_CH32X035G8U6 4/10",
-      "sheet_index": 3,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_4",
-      "name": "NEMA14_CH32X035G8U6_5",
-      "display_name": "NEMA14_CH32X035G8U6 5/10",
-      "sheet_index": 4,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_5",
-      "name": "NEMA14_CH32X035G8U6_6",
-      "display_name": "NEMA14_CH32X035G8U6 6/10",
-      "sheet_index": 5,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_6",
-      "name": "NEMA14_CH32X035G8U6_7",
-      "display_name": "NEMA14_CH32X035G8U6 7/10",
-      "sheet_index": 6,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_7",
-      "name": "NEMA14_CH32X035G8U6_8",
-      "display_name": "NEMA14_CH32X035G8U6 8/10",
-      "sheet_index": 7,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_8",
-      "name": "NEMA14_CH32X035G8U6_9",
-      "display_name": "NEMA14_CH32X035G8U6 9/10",
-      "sheet_index": 8,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_9",
-      "name": "NEMA14_CH32X035G8U6_10",
-      "display_name": "NEMA14_CH32X035G8U6 10/10",
-      "sheet_index": 9,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,
@@ -146,5 +47,6 @@
       }
     }
   ],
-  "componentModels": 45
+  "componentModels": 45,
+  "proof": "artifacts/validation/functional-schematic-invariance.json"
 }

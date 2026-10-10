@@ -1,6 +1,14 @@
 {
-  "source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
   "mechanical_report_sha256": "ff28ff5c00632121dd355349f42f4ee6f81d43bfe0525d362373be8e2473f304",
   "drawings_sha256": "dde2e61ffd8b78b308fd30a447add5e476113c15a463529b81d9a2047c4a7671",
-  "physical_fit_verified": false
+  "physical_fit_verified": false,
+  "schematic_only_evidence_binding": {
+    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
+    "previous_report_sha256": "e9c99c6177e3afe0b34854cb38420091919bb2c9e359c0cace40f269d2573aae",
+    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "non_schematic_inputs_equal": true,
+    "original_test_repeated": false
+  }
 }

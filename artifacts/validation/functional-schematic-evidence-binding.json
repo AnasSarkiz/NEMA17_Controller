@@ -1,0 +1,89 @@
+{
+  "schema": "schematic-only-evidence-binding-v1",
+  "compared_git_revision": "3644f2d12d117f12a61d8aee38f51c65827ba4aa",
+  "previous_saved_board_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+  "current_saved_board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "all_non_schematic_records_equal": true,
+  "non_schematic_records_sha256": "c776470742d6a6a406a135ceb2a8ff42bb8fbc25cea6e55eaf802913aa0af722",
+  "hardware_tested": false,
+  "method": "All non-schematic records, in order with every value, equal the committed engineering release. Actual CAM ZIPs, all exported Gerber/drill/assembly files, BOM and PnP remain byte-identical. Prior results remain applicable to identical inputs; they were not rerun by this binding script.",
+  "unchanged_artifacts": {
+    "artifacts/manufacturing/B_Cu.gbr": "ac491a006231b6fcd9040d3c439814fb4557fb993699bf0e33ee46b1507ed8fb",
+    "artifacts/manufacturing/B_Mask.gbr": "2bbfd5f31c6e092f6fc833e6685ba535684a9911fd0802a591bc247aeae44c6e",
+    "artifacts/manufacturing/B_Paste.gbr": "21880a5d8ccf86520b8d968436a0584871c3b32228b6ac256a0e08bffa396018",
+    "artifacts/manufacturing/B_SilkScreen.gbr": "e8fc8dd46f962d9217e34795671e702ee35bd096b56d7881af6658bcd756513d",
+    "artifacts/manufacturing/Edge_Cuts.gbr": "12d727a68260e4cdfd44d0337365f72fbde69f3a4ed968f9a3b05aa303e34af0",
+    "artifacts/manufacturing/F_Cu.gbr": "0dba76addf2b7d02993fcaafa4694e84903f34254b150731becc11674fc07b63",
+    "artifacts/manufacturing/F_Fab.gbr": "87b662917b4db4602af7ecbbe187eee8ae16a3338e6f239f643182c9f4ff5d9b",
+    "artifacts/manufacturing/F_Mask.gbr": "f515e14df3025ca773352d70cae6e717c4e04bd47b3a879be93e4f6d81bcc5a0",
+    "artifacts/manufacturing/F_Paste.gbr": "2ee14e6bae5c50a628952f14c1bce00febc9317b6548f8f01b2c449e4f87f845",
+    "artifacts/manufacturing/F_SilkScreen.gbr": "72dad0d64ba70ed5d2a9915e3852a6849bedd23d0170eabd666a17d2f713e90e",
+    "artifacts/manufacturing/bom.csv": "bb1ba0aabdaa412ca3267c94d1ade7ed7218ea158b3ab35831c382f60d71622e",
+    "artifacts/manufacturing/drill-L1-L2.drl": "188e904d669b6c4f68c2be39f0c5adb584fcb6659bc929cbffcbc9cfb8b61721",
+    "artifacts/manufacturing/drill_npth.drl": "cb072cf6117387a00d22e06302d6818dd729d0558875b35d527bd571a4722f52",
+    "artifacts/manufacturing/fabrication-notes.md": "45e96d6430e5b0f30c69f76e4f9a8497c7e92ce0cc792b6f33f307abf31dc277",
+    "artifacts/manufacturing/manual_assembly.csv": "c44879c0fec842ea7b61ebb9f688b5e38c094ab4be0759f9f7aabc1b8f7c8d99",
+    "artifacts/manufacturing/pick_and_place.csv": "8fadc9642ce6ea5c9d540e41388da70be9c9447ccb0e76e6fedf391e38dabf17",
+    "artifacts/manufacturing/via_process.csv": "8b13ce2c061a6f9adc48cf6ad8f3f6bca50fea95541a4d9fb8819c3e44f9536f",
+    "artifacts/manufacturing/ordinary_via_process.csv": "2092401025423c291e5b522906e27358627301d01d22213e732697854241cff9",
+    "artifacts/manufacturing/independent-render/B_Cu.png": "77b0581845cb0eda67f00a74a3157ff78b887e68c4b997766d23696096336a55",
+    "artifacts/manufacturing/independent-render/F_Cu.png": "865683db575191fed35b773024c1132c5c1844fbfcf1d4ae90542f234621d28b",
+    "artifacts/nema14-gerbers.zip": "e7b674a62b54e89456b7c84c0cd15e05d03a7f0e46281e95d4472b704f99d1ba",
+    "artifacts/manufacturing-raw.zip": "4e64c304cb646880609d39e771a31c786b95356f485d08570a5b8f43c793688b",
+    "artifacts/bom.csv": "bb1ba0aabdaa412ca3267c94d1ade7ed7218ea158b3ab35831c382f60d71622e",
+    "artifacts/source-bom.csv": "4ce25a9f3ea77eba954aad4e729cf3c13b4add75307f9003e16f749c91e49d12",
+    "artifacts/pick_and_place.csv": "8fadc9642ce6ea5c9d540e41388da70be9c9447ccb0e76e6fedf391e38dabf17"
+  },
+  "rebound_reports": {
+    "artifacts/physical-connectivity.json": {
+      "previous_report_sha256": "348524db98205725222adbccab25ca7cd7a6a5506029684015012ec1a389a8cb",
+      "current_report_sha256": "dd451ea83bc063c5a532ab6cf0471018f62c4dd5f78a288bc8ad96fbf50dc741",
+      "binding": "sha256"
+    },
+    "artifacts/trace-width-review.json": {
+      "previous_report_sha256": "6ac01a41759c77f3a833945e9e83929c63ddffa5c836766e033db1ea47cd8513",
+      "current_report_sha256": "4a93c84ffff3380649ee7893ad1e291805ed0dccb3ba86105a064257d6bd5fd5",
+      "binding": "sha256"
+    },
+    "artifacts/raw-cli-export-binding.json": {
+      "previous_report_sha256": "1d8a9eee98c9e2dfcb31f910144482bd57c84427d54032cc75d32773e2d7bf71",
+      "current_report_sha256": "a42be22e0bd07e03fce56451d48762db7b350bdcf2c0d135ca6ebb4035acfda0",
+      "binding": "source_sha256"
+    },
+    "artifacts/manufacturing/audit.json": {
+      "previous_report_sha256": "4cb5fae935743ca57348c9dd49e05cfe72f7cfbbab08666ab03505b51a92f9b1",
+      "current_report_sha256": "1686259c04904960da5dfc9aa863e2da6177fcc720dcdeb4885a9cb708a87edf",
+      "binding": "source_sha256"
+    },
+    "artifacts/manufacturing/export-manifest.json": {
+      "previous_report_sha256": "527ac3aa3ca8d81d842a566a4c5696f8287872a4fafb59e91bf18706997f655a",
+      "current_report_sha256": "4ddf113e985ab8615942e72730e1a711f4194b78f8b6c17318aedbc89ea94d15",
+      "binding": "source_sha256"
+    },
+    "artifacts/manufacturing/via-paste-inspection.json": {
+      "previous_report_sha256": "62af551baa0fe121a42ca52315e2573712bebb6ed7811928881845ecb65427ed",
+      "current_report_sha256": "2be9b0e34d95c579c5a3561a3355cf830216e4878b86995a3deec16de8d611a9",
+      "binding": "source_sha256"
+    },
+    "artifacts/assembly/assembly-review.json": {
+      "previous_report_sha256": "26dadf94744444b8ef55e2463144405ef54c0b7510d5c6640ad3c72051d69bd3",
+      "current_report_sha256": "84ed201a70b571e852f96027f43cfc88a4542bab0fcfdf65f0317f286edcbdaf",
+      "binding": "source_sha256"
+    },
+    "artifacts/assembly/harness-drawings-review.json": {
+      "previous_report_sha256": "e9c99c6177e3afe0b34854cb38420091919bb2c9e359c0cace40f269d2573aae",
+      "current_report_sha256": "dcc276d486197f6fa7a463c245f3ae7d4f383e6307f8bac1d33c65da4fd0d634",
+      "binding": "source_sha256"
+    },
+    "artifacts/validation/service-silkscreen.json": {
+      "previous_report_sha256": "798927adc9785a58e8d72bf092902fab791cb3f31c8acd1fae7f12eed4db1509",
+      "current_report_sha256": "58318c96b72463be6d2ab6223ab9d52e9bb00b062a563b9732e45046fc0abcfe",
+      "binding": "source_sha256"
+    },
+    "artifacts/validation/service-outer-power-cam.json": {
+      "previous_report_sha256": "5b11510c792934433cded7ff2fb1e7b46f454e780563c0d4f483826d08c6f5b5",
+      "current_report_sha256": "42a006d5f52ac21e960bf9f5b709d4534332bd2ba640b812e9b2f8fba65910b3",
+      "binding": "source_sha256"
+    }
+  }
+}
