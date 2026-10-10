@@ -1,363 +1,363 @@
 {
-  "registry_package": "AnasSarkiz/NEMA14_CH32X035G8U6@1.1.13",
+  "registry_package": "AnasSarkiz/NEMA14_CH32X035G8U6@1.1.14",
   "registry_url": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
-  "github_revision": "33187b284e633fb19f21b87d91973a89cca639c4",
+  "github_revision": "31875efda9052419ecc5c3eaecfed2a4b597e7b1",
   "github_branch": "fix/serviceable-harness-2026-10-09",
-  "review_board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-  "published_board_sha256": "765e23623b8fd1c88418e3e14ea3cd3aee5c7efaa9938fb782b73624e2062405",
+  "review_board_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "published_board_sha256": "244c96d0d385d27e18c50bfe8bce481fd18da37d2551a29801637c29e8bb7427",
   "only_cad_url_metadata_changed": true,
   "downloaded_index_and_native_dist_equal": true,
   "all_review_records_equal_except_pinned_cad_urls": true,
   "main_entry_index_circuit_tsx_included": true,
   "distinct_model_urls_checked": 50,
   "all_model_urls_http_200_and_hash_verified": true,
-  "verified_registry_version": "1.1.13",
+  "verified_registry_version": "1.1.14",
   "model_checks": [
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.obj",
       "http_status": 200,
       "sha256": "9d7e957178f20137fdd5d62ae84281fe3b5bb3a44262f348d8e129b0a4182320",
       "expected_sha256": "9d7e957178f20137fdd5d62ae84281fe3b5bb3a44262f348d8e129b0a4182320",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step",
       "http_status": 200,
       "sha256": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461",
       "expected_sha256": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CH224K/CH224K.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CH224K/CH224K.obj",
       "http_status": 200,
       "sha256": "9fceace97b3056c9b525486645e2f69ac9290eee319061ac743edf3570fb6296",
       "expected_sha256": "9fceace97b3056c9b525486645e2f69ac9290eee319061ac743edf3570fb6296",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CH224K/CH224K.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CH224K/CH224K.step",
       "http_status": 200,
       "sha256": "d18445242d4c9c099a3b99743d6cf639e9433f0b32efd8152de33d2d4984c8a7",
       "expected_sha256": "d18445242d4c9c099a3b99743d6cf639e9433f0b32efd8152de33d2d4984c8a7",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.obj",
       "http_status": 200,
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "expected_sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/ERJPA3F1001V/ERJPA3F1001V.step",
       "http_status": 200,
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "expected_sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.obj",
       "http_status": 200,
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "expected_sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.step",
       "http_status": 200,
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "expected_sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.obj",
       "http_status": 200,
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "expected_sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.step",
       "http_status": 200,
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "expected_sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CH32X035G8U6/CH32X035G8U6.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CH32X035G8U6/CH32X035G8U6.obj",
       "http_status": 200,
       "sha256": "79eda98421b03688b4c4141cea531d6ec313c13998063fbe6da6bcf10e088aa6",
       "expected_sha256": "79eda98421b03688b4c4141cea531d6ec313c13998063fbe6da6bcf10e088aa6",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CH32X035G8U6/CH32X035G8U6.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CH32X035G8U6/CH32X035G8U6.step",
       "http_status": 200,
       "sha256": "34235497ed64277633278875f0249443f22ea03f3c8e93a5bf5ddf1645724b6c",
       "expected_sha256": "34235497ed64277633278875f0249443f22ea03f3c8e93a5bf5ddf1645724b6c",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.obj",
       "http_status": 200,
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "expected_sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.step",
       "http_status": 200,
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "expected_sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.obj",
       "http_status": 200,
       "sha256": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
       "expected_sha256": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.step",
       "http_status": 200,
       "sha256": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f",
       "expected_sha256": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.obj",
       "http_status": 200,
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "expected_sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.step",
       "http_status": 200,
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "expected_sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/MMBT3904_7_F/MMBT3904_7_F.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/MMBT3904_7_F/MMBT3904_7_F.obj",
       "http_status": 200,
       "sha256": "eba3fbb208f2c1a7432380919e93350a471d50f840cc10ec11fdb1f59812c7b2",
       "expected_sha256": "eba3fbb208f2c1a7432380919e93350a471d50f840cc10ec11fdb1f59812c7b2",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/MMBT3904_7_F/MMBT3904_7_F.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/MMBT3904_7_F/MMBT3904_7_F.step",
       "http_status": 200,
       "sha256": "c9a82c26510eaf3f266d1d61eb7c4addbfd4f1bef9c428b719678ad8455821cc",
       "expected_sha256": "c9a82c26510eaf3f266d1d61eb7c4addbfd4f1bef9c428b719678ad8455821cc",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.obj",
       "http_status": 200,
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "expected_sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.step",
       "http_status": 200,
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "expected_sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/SN74CBTLV1G125DCKR/SN74CBTLV1G125DCKR.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/SN74CBTLV1G125DCKR/SN74CBTLV1G125DCKR.obj",
       "http_status": 200,
       "sha256": "d6d072766bb2d6afc659ce9490b8efc52c5323b9e9a06123e05f4a0870c1a65d",
       "expected_sha256": "d6d072766bb2d6afc659ce9490b8efc52c5323b9e9a06123e05f4a0870c1a65d",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/SN74CBTLV1G125DCKR/SN74CBTLV1G125DCKR.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/SN74CBTLV1G125DCKR/SN74CBTLV1G125DCKR.step",
       "http_status": 200,
       "sha256": "2a5ea2d631a3dc8048d594e771cb3e1a859cbef693e4820724eac974e4b6f00c",
       "expected_sha256": "2a5ea2d631a3dc8048d594e771cb3e1a859cbef693e4820724eac974e4b6f00c",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.obj",
       "http_status": 200,
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "expected_sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.step",
       "http_status": 200,
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "expected_sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/HT7533_1/HT7533_1.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/HT7533_1/HT7533_1.obj",
       "http_status": 200,
       "sha256": "99ab3d90b31fe5780ba277e3f057f81f7deac1573b2af3d85e14bf4cdd250ad8",
       "expected_sha256": "99ab3d90b31fe5780ba277e3f057f81f7deac1573b2af3d85e14bf4cdd250ad8",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/HT7533_1/HT7533_1.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/HT7533_1/HT7533_1.step",
       "http_status": 200,
       "sha256": "b2b76f048dba30c68f196beadb3a7391e3af18c9aa4f7854e60117d2eeb959b9",
       "expected_sha256": "b2b76f048dba30c68f196beadb3a7391e3af18c9aa4f7854e60117d2eeb959b9",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/B5819W_SL/B5819W_SL.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/B5819W_SL/B5819W_SL.obj",
       "http_status": 200,
       "sha256": "7c8e2c97e9b3e5c32c1eca57a40e13681407e988333317e3024a8635b37b7344",
       "expected_sha256": "7c8e2c97e9b3e5c32c1eca57a40e13681407e988333317e3024a8635b37b7344",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/B5819W_SL/B5819W_SL.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/B5819W_SL/B5819W_SL.step",
       "http_status": 200,
       "sha256": "f2468af30d27a00c11bf5070ed3293c491829997423ccad7906ca52893418de7",
       "expected_sha256": "f2468af30d27a00c11bf5070ed3293c491829997423ccad7906ca52893418de7",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.obj",
       "http_status": 200,
       "sha256": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
       "expected_sha256": "a6ecf4d78195d1f061b045e187fdff13726b03dc2475a4f11803b44d86adebc1",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.step",
       "http_status": 200,
       "sha256": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f",
       "expected_sha256": "67f86cfc9ebba2ff889d65b12f5d49d5a90b265b73635a931d68c6a27d34e11f",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A4988SETTR_T/A4988SETTR_T.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A4988SETTR_T/A4988SETTR_T.obj",
       "http_status": 200,
       "sha256": "01eb47f12909a50a9f70825ab23b31c6be4b33ffe26bd7c8697f94077b87ebd9",
       "expected_sha256": "01eb47f12909a50a9f70825ab23b31c6be4b33ffe26bd7c8697f94077b87ebd9",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A4988SETTR_T/A4988SETTR_T.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A4988SETTR_T/A4988SETTR_T.step",
       "http_status": 200,
       "sha256": "578a8ff75c4016df2d5e6e332aba2899ef713bf2d1c439906bc57edf2a57e121",
       "expected_sha256": "578a8ff75c4016df2d5e6e332aba2899ef713bf2d1c439906bc57edf2a57e121",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.obj",
       "http_status": 200,
       "sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "expected_sha256": "3af4d2000750b3be8149bdf53d8b14743d96fc20c1c8a963704802ada85759f2",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.step",
       "http_status": 200,
       "sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "expected_sha256": "5f7216cf66690dab2ac39e25f5ad1bda3a067967e55809dd781fa60d385df110",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/references/models/EEEFPV101XAP-D8-7p7mm.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/references/models/EEEFPV101XAP-D8-7p7mm.obj",
       "http_status": 200,
       "sha256": "471426a29996b14ff415f904118dbc00e040c8642c06d0850a16fc21a36ee810",
       "expected_sha256": "471426a29996b14ff415f904118dbc00e040c8642c06d0850a16fc21a36ee810",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/references/models/EEEFPV101XAP-D8-7p7mm.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/references/models/EEEFPV101XAP-D8-7p7mm.step",
       "http_status": 200,
       "sha256": "08d27e8da9dc1565fb1383e44898110ddf45774c2b6de072cd5a66690b25a0f1",
       "expected_sha256": "08d27e8da9dc1565fb1383e44898110ddf45774c2b6de072cd5a66690b25a0f1",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/FRL0805FR240TS/FRL0805FR240TS.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/FRL0805FR240TS/FRL0805FR240TS.obj",
       "http_status": 200,
       "sha256": "6bbe05c8bf2262e8c377c9a7cb422b1725e8842352dcd40bc47f3a573bb08a84",
       "expected_sha256": "6bbe05c8bf2262e8c377c9a7cb422b1725e8842352dcd40bc47f3a573bb08a84",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/FRL0805FR240TS/FRL0805FR240TS.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/FRL0805FR240TS/FRL0805FR240TS.step",
       "http_status": 200,
       "sha256": "fc4726ad0364128aa67ad16e76bace8fa7a85fb80514f68d5fbf53d114860b6f",
       "expected_sha256": "fc4726ad0364128aa67ad16e76bace8fa7a85fb80514f68d5fbf53d114860b6f",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF3901T5E/A_0603WAF3901T5E.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF3901T5E/A_0603WAF3901T5E.obj",
       "http_status": 200,
       "sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "expected_sha256": "6fc2f81a61e2fefd1edbcd85a273d04530b3c25f0a35ea9abb254bf5b47f6f94",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0603WAF3901T5E/A_0603WAF3901T5E.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0603WAF3901T5E/A_0603WAF3901T5E.step",
       "http_status": 200,
       "sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "expected_sha256": "a3e5d4a02bc66be2c69fddff5e8b86374b250660f3f7001a0bb9debcd5b9adbc",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj",
       "http_status": 200,
       "sha256": "333d51fc2722f28c1a73c3ef4b240453d4ce90bba01e4b2a7b6d8c059fa62d0f",
       "expected_sha256": "333d51fc2722f28c1a73c3ef4b240453d4ce90bba01e4b2a7b6d8c059fa62d0f",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step",
       "http_status": 200,
       "sha256": "330cfdeb167726774e998328867b10007c6ca195a3a7aab25f476c0c19b5a7a1",
       "expected_sha256": "330cfdeb167726774e998328867b10007c6ca195a3a7aab25f476c0c19b5a7a1",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/USBLC6_2SC6/USBLC6_2SC6.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/USBLC6_2SC6/USBLC6_2SC6.obj",
       "http_status": 200,
       "sha256": "b4a68fd1399fd2ab9e7baf51fd4bb6dd8b2a8be45c2b632e1f2c84723c5d7e45",
       "expected_sha256": "b4a68fd1399fd2ab9e7baf51fd4bb6dd8b2a8be45c2b632e1f2c84723c5d7e45",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/USBLC6_2SC6/USBLC6_2SC6.step",
       "http_status": 200,
       "sha256": "53901e8dbe77366e4c00f90fd3613933fd2db1f1453ddc9eee51d8a18d44dbff",
       "expected_sha256": "53901e8dbe77366e4c00f90fd3613933fd2db1f1453ddc9eee51d8a18d44dbff",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/SMF18A/SMF18A.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/SMF18A/SMF18A.obj",
       "http_status": 200,
       "sha256": "da7ea2615c07f6b32365b75ea560ce49a73847950b28adc2758b09e13fab6d3a",
       "expected_sha256": "da7ea2615c07f6b32365b75ea560ce49a73847950b28adc2758b09e13fab6d3a",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/SMF18A/SMF18A.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/SMF18A/SMF18A.step",
       "http_status": 200,
       "sha256": "09d6262e2e56a71ebe143062f98e269803bdd3ebbb9d1202f29942ae90e5109f",
       "expected_sha256": "09d6262e2e56a71ebe143062f98e269803bdd3ebbb9d1202f29942ae90e5109f",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.obj",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.obj",
       "http_status": 200,
       "sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "expected_sha256": "658e8980a1ff78ad44b1f30b6de0c63023cfd0b883902f3c1333902984d7bfe4",
       "hash_matches": true
     },
     {
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/33187b284e633fb19f21b87d91973a89cca639c4/imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.step",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/31875efda9052419ecc5c3eaecfed2a4b597e7b1/imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.step",
       "http_status": 200,
       "sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
       "expected_sha256": "055d10977e0e0b859b0b263328e4e4bfd98261ad252688cb3736f72f67aa4729",
@@ -371,7 +371,7 @@
   "downloaded_source_files_sha256": {
     "src/board.tsx": "c9025f97f724b36c185ea72863add865f3c1ee4495b3e9ee41d773abb4f06f69",
     "src/jlcpcb-catalog.json": "87428be50a1c69397d638a8bbd054b80466429c77558bb50315e41791fd6977a",
-    "src/motor-connector.tsx": "f76801dd3cda73aff7f07667426c7f033ca5cce3a33025b9a41e6e10f576a462",
+    "src/motor-connector.tsx": "97d4572d268882135cb0d49a8d61b293d93f3f22dc4d162749bc6562696ad3ca",
     "src/pin-attributes.ts": "6915e827cd49db6979efdf89800b7537da9eabf04e8223b24c027b8e1c68ce0e",
     "src/schematic-notes.json": "46dc849931f8d2951f32e6bd917fa30d915f8c5ccd70314bed76a769b481263d",
     "src/schematic-notes.tsx": "51e5a8039ce5204a6772f84a0e1bfda1c2f2645fffb5170156b6b8e9bfa8a34c",
@@ -392,13 +392,13 @@
     "docs/motor-wiring.svg": "9b74601ede23f8c795f95aa2d786026fe8607336b10d1fac11b5c77d6c0c646e",
     "docs/publishing.md": "56056a2f66f485228ac2c05320295ddc7ef53e625d25108be46975de53000812",
     "docs/routing.md": "1382e97e62c3c7e632fdafac99685ee654a184c0ea2756f0fd3b7894a8c30f77",
-    "docs/schematic-review.md": "4370a22d754d228a2b3fd01c63d52f6a9ccf9a4bc7a6c734b7a56681ef456ebd",
+    "docs/schematic-review.md": "d33b74e7e6ecee74df794cee2ffca5782570d33a9039cca85bcd9df55e1dd3cf",
     "docs/sources.md": "02955a273e05deefbb36acfa6686476b3f136b3b2d604f7553e881a3838260b0",
     "docs/supplier-cad.md": "0da61766be8903dc7f3f4ded41bf230899ed81d9af64e9776719ab7ca5f77e1e",
     "docs/usb-programming.md": "82bc7270203126e2f5b4602e4adc19d8876470b218ddcfcfc613a3c85b8efe3e",
     "docs/validation.md": "812b2ad8d398ce70e587efec265e224c5ff4f11da7b88d97a95955f95e57b77e",
     "docs/variant-comparison.md": "473a3a42a72b6ab5dbf5d45dcef33d9aaafb01eecb89eb7488fea243c6494bab",
-    "docs/outer-power-routing.md": "0707e0b5d1c81118dd63bd7ff566c8ce2f8994a87950fb63496edea343495bc9",
+    "docs/outer-power-routing.md": "3429354a3a1ba013fff48eb0400dc3baadedb9052bb04c3e85e3f6d375724dc6",
     "docs/inside-board-jst.md": "158043d1d59c651b09a0fed3f76de884b5f509d1960534595a02a20fdab5860c",
     "scripts/add-ldo-thermal-copper.py": "3df08a38c11b3f9293f409003b0154d556e428f9b54fb5d9cbc2755c84fd8f6a",
     "scripts/align-usb-edge.py": "297333532397a8b4ca3b36961b5fe97acaa6429521495de15d39fe5071d6aa02",
@@ -430,7 +430,7 @@
     "scripts/inspect-via-paste.py": "bbef767dbccc863727dcd4fb4c7b12ebe418c920583a995c4282e97a90beb003",
     "scripts/normalize-assembly.ts": "89538965b448aeabbf59d2434e7fa005d1c5021297ed5a4268027f305593725b",
     "scripts/prepare-motor-routing.py": "d4dff4b284c570dd5e017df630b4d673c4e10a1356b3452e86ff486c5e543b61",
-    "scripts/prepare-schematic.ts": "0a4874f8b54cc9fb4763b31686af787b8c831f167b67b6be568f6412ea1f970c",
+    "scripts/prepare-schematic.ts": "000aef7b596998dd71ac182db51a78623e1ed9d7a9edd204f5b99f51beaff4ea",
     "scripts/prepare-usb-cable-models.py": "7d2188eaba7a0482d3439e38f41a2d3604624e857154cbf410f4f63791cee95a",
     "scripts/prune-cam-ground.py": "4a7468994a5838142a293ace5da6635cdc82ef4b037abff2a4f26b535512b33a",
     "scripts/prune-service-stubs.py": "ac7758d5bb6cdc420f7019b651304700c8704238c48d0f6a48b1f77d16968f97",
@@ -473,7 +473,7 @@
     "scripts/check-motor-body.py": "36a4172994a97110261e2afb42ffc3bb6f4b30e7f8a23a00ecc9bc05fabb4dc9",
     "scripts/audit-outer-power.py": "8a7882e7a47953cc39b7a5a345da8bb426eeace0d31b7e6078cfc1958dea1b2b",
     "scripts/bind-power-evidence.py": "88f9a631526b867ab01d5a54bb5ebb1eb695837a62281d6fbc4dd370617df689",
-    "scripts/audit-functional-schematic.py": "16aba1a9c2b34a1326253f1a07f7fc1e7748fdd1fb03bc5a0804172911d947b8",
+    "scripts/audit-functional-schematic.py": "f7424a9d0dc3b27b6508f9a241bb13c06da34b29f67b026e53aab37874747c98",
     "scripts/align-escape-source-ports.py": "04e512f1205df5c9d6eb8c0e9bf7bf14ad2714c28dedea31f529b1b1457235a5",
     "scripts/report-outer-power.py": "39ae5858c2b0c342d629d0a3aaacf3c7c034d46be3152338854657146d39b6df",
     "scripts/install-power-escapes.py": "af599a8dc1a1a05c8d6aa60577120667caa4520edb5e4e0e4badff9f681e6fd9",
@@ -483,50 +483,50 @@
     "scripts/finalize-inside-review.py": "798757c4e5cf58f9ae55545651c897f80eabe42956d1124d43a258acc70fe2ba",
     "scripts/minimize-direct-outer-barrels.py": "feb6c2d0aa7d88d3133708eaf2948be26426cb4d0c55151f817444e212e50252",
     "scripts/rebind-functional-evidence.py": "389bc643d0704b169997f1a31fcadd4a87b5fad654b8dc856f6c1b9fb3b6be08",
-    "imports/supplier/A4988SETTR_T/A4988SETTR_T.tsx": "a8904327a07072f33ea5d2ac02c9dd293735b408cc1ea8590bff843295390a83",
-    "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.tsx": "9e42db078edf8e38cf69ddfa2725f4f7d8bd1cf9a2132748dc0d213c15bca998",
+    "imports/supplier/A4988SETTR_T/A4988SETTR_T.tsx": "f9aaaa57213564f9cf7ccaf7d376d113a20c729b92d63b87787223f5cb3e077b",
+    "imports/supplier/A_0402WGF4701TCE/A_0402WGF4701TCE.tsx": "9e2b3b69c01c74d9b2c27fb0b1671509a8c3a296512fa49778778987005ed0f4",
     "imports/supplier/A_0603WAF1001T5E/A_0603WAF1001T5E.tsx": "e5c7afb8516dc165849a3eb9db3f67e83d568811ba29a0454e4a8a30df677639",
-    "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.tsx": "f0eaad7ab10f2975fad77add2966d4fbf406f20cc299cbacd7c71bd4855a0355",
-    "imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.tsx": "d55dbca675cd75508db82ab440550df3a5d05a1bcba883ebdaf67525962362f8",
+    "imports/supplier/A_0603WAF1002T5E/A_0603WAF1002T5E.tsx": "379fe844ac6f18c6e35a5ca0f926e412bc3188bd6fb4d83fe76e60a64f5408ed",
+    "imports/supplier/A_0603WAF1003T5E/A_0603WAF1003T5E.tsx": "4fa13953d6c0651c920190d4fdcc246f9d773d99fdcae2e940aec3f17fe3862d",
     "imports/supplier/A_0603WAF2202T5E/A_0603WAF2202T5E.tsx": "440230ee900feac94d5193bfa9b16fe41d290a23eda7351cb9fb17001679cf04",
-    "imports/supplier/A_0603WAF3901T5E/A_0603WAF3901T5E.tsx": "e535f1ada00b9f9b0189ffb2696a1903e1cf552c7c0dd7bb3609b98ca448c27c",
+    "imports/supplier/A_0603WAF3901T5E/A_0603WAF3901T5E.tsx": "47da86e72243cd271ba72ca6725c9cd446edd7abbec225846a81f93bd97d2877",
     "imports/supplier/A_0603WAF3902T5E/A_0603WAF3902T5E.tsx": "993125f9a093f2fb3a4066ee426243d5b821d184e70dcaff8a9ec9bcb51d88c8",
-    "imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.tsx": "e85951d3c5b320be1da261910a5374856054b3982c114f1abd6f4828c72b15dc",
-    "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.tsx": "57b05f27a95dc6b2b50a1741529605274b10f4216b33c272a1305c2bdc67e400",
-    "imports/supplier/B5819W_SL/B5819W_SL.tsx": "c3c8ce597b85ff68620b164a23df744d91bfce4b334f21175bccfadca7897a4c",
-    "imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.tsx": "44be56160e4c7dde09cdfb7d155a1a692b3369ddfd7e3de2834096a4ea073971",
+    "imports/supplier/A_0603WAF5101T5E/A_0603WAF5101T5E.tsx": "50ee95271ec02d4afc3df5cd9249706c71eb263e6b91fd4473ca8e71431a653a",
+    "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.tsx": "f4e763165a7d0c1d41a9548ea289e0c39d9a750a0b0e30318d14423c68132a5c",
+    "imports/supplier/B5819W_SL/B5819W_SL.tsx": "b88b9ba368c8cee5313af825c5917876cda76deffa85ccfc3e24870beabfa0f1",
+    "imports/supplier/CC0603KRX7R9BB104/CC0603KRX7R9BB104.tsx": "d95b0416c69cc6d38e90502bf1b0438b1c58bdc7d02302e29aae22c98d083a2b",
     "imports/supplier/CC0805KRX7R9BB104/CC0805KRX7R9BB104.tsx": "6edccdf9e2e8acd9337f4f69144c400fbcfb221b48c80a2ba71678c730d6e8f9",
-    "imports/supplier/CH224K/CH224K.tsx": "1ae9d93936b1fd363b917a2161073c5ba05657452dd05b243872dd11a23dd490",
-    "imports/supplier/CH32X035G8U6/CH32X035G8U6.tsx": "b9c95b8da07cd8f8240e34954cdd1a29c4af164dcf76ed2b3cf526e10391e78f",
-    "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.tsx": "ace85104e91bf15e21589c7882ae164a341644eefca5f0db14c2b4370cd111e1",
-    "imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.tsx": "b16a4ca13aad9ca7cb657959336a4cdb073177300cdd5000df5ef723860c8df8",
-    "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.tsx": "61f4b59a9dbce0648c51068ed88f59aa5fcda1f07464b9662e3839472c83fc28",
-    "imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.tsx": "31437965375150977784e229014faaac2d724ee033e02fb715f4b53dd86d941d",
-    "imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.tsx": "b05dba909d60898c61d5f399739566dfce739dd8faee843999097ea86e578661",
-    "imports/supplier/EEEFPV101XAP/EEEFPV101XAP.tsx": "ca7d6feebb281bd45439706413e34e9a3ad54c1f109496efec7209a45fbc34a1",
-    "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.tsx": "1a79d7e0f3e66349dd0a9829ea25e18b85e44657b942415a3075b58b136d262a",
-    "imports/supplier/FRL0805FR240TS/FRL0805FR240TS.tsx": "7ffc8543cc66a230874616533a7ecc44c0959a8f57c8a3136411181999634caa",
-    "imports/supplier/HT7533_1/HT7533_1.tsx": "36cd857fbe8a4f5ca04814a21f7b4ee108360dd734108926af8b7db4ebaf288e",
-    "imports/supplier/MMBT3904_7_F/MMBT3904_7_F.tsx": "f8d2524e563b30b9e13a53cf1d30ffccaf444e77443a43d86ca054d4f1822568",
+    "imports/supplier/CH224K/CH224K.tsx": "2f44a17598283abd5354a4d2e0f14d0e9ee6dcc1a55a2ed9f45c3bbd98b62f10",
+    "imports/supplier/CH32X035G8U6/CH32X035G8U6.tsx": "d7c70e86bacaf2fd362a9856bf4483a5bdb2ca2ff33a82e24214776f064f42eb",
+    "imports/supplier/CL10A105KB8NNNC/CL10A105KB8NNNC.tsx": "ea2b3ddd7273833a7ae673c43a12e838c58693a08d4e5fe114648f8ad58dca22",
+    "imports/supplier/CL10B103KB8NNNC/CL10B103KB8NNNC.tsx": "b014d6752e0dd00177498cbd162fcf3d6ab8eb9be9cc9529c83a0f4cf4e91dbd",
+    "imports/supplier/CL10B224KA8NNNC/CL10B224KA8NNNC.tsx": "c8085b5a9a756ab3f659acb3c2a24a544dbf6b43ec92053498d6da8f4d9881dd",
+    "imports/supplier/CL21A475KBQNNNE/CL21A475KBQNNNE.tsx": "256b96bd298f68ab4c5fe3a11bd91f6fcd1b467d79b64a8d832f48e41a272c25",
+    "imports/supplier/CL21B105KBFNNNE/CL21B105KBFNNNE.tsx": "1fa568f112140cebc1297ffcb3326eff5abd2cd5fdbab56976bc242f6527350c",
+    "imports/supplier/EEEFPV101XAP/EEEFPV101XAP.tsx": "47188a813ddf0b4d153eed4b7adff84f94856720d40915396181263cc1c0724d",
+    "imports/supplier/ERJPA3F1001V/ERJPA3F1001V.tsx": "b9aeba233478c7ac3d2749f62fd87bab4b6fe836a1fd9bebf532185133f8ee9d",
+    "imports/supplier/FRL0805FR240TS/FRL0805FR240TS.tsx": "74343e66014fd445a2301da0c0d1f9c48fddc4b7c37a8fe4690eb2184b4908f0",
+    "imports/supplier/HT7533_1/HT7533_1.tsx": "8034a90a0e5750f4a95ca44a1dbda73f25fe449014c9aca647459561bcb07826",
+    "imports/supplier/MMBT3904_7_F/MMBT3904_7_F.tsx": "b5edfed2376e2c56dc1725c398cdc444ce4d8f336592a3dc183a6852b8ae1d7f",
     "imports/supplier/RVT1V470M0605/RVT1V470M0605.tsx": "96b4af2449f758a3c026143726fbab75596324b7e44a58907b11cc407affcaee",
-    "imports/supplier/SMF18A/SMF18A.tsx": "e85a468a30e5c777855a8b1e4c10f3fe56957314d50856a7468b6fae8f9fefa6",
-    "imports/supplier/SN74CBTLV1G125DCKR/SN74CBTLV1G125DCKR.tsx": "f3aa820c401c7e8e2709b8b471e70c8bf044f7216d72381e0a698c536b15eb64",
-    "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.tsx": "a5ea450f3ba570f76a9994c405b09c4738312771ac226b19e0d7b7e8b556a0e2",
-    "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.tsx": "50763e638c61e6c3d46aec00cef1f4db1d6fe50cb3e34b58c9d048df6a025fc4",
+    "imports/supplier/SMF18A/SMF18A.tsx": "a69da1cbf270b4079e4f5b3ab45c22c537892d3c23d06b17855f0389bbf8b1fc",
+    "imports/supplier/SN74CBTLV1G125DCKR/SN74CBTLV1G125DCKR.tsx": "8a7efbb93951ccd6bdae72df200b467376a7db8b689142fa5210531793a50b47",
+    "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.tsx": "49e2fab0d3feed61ac3c19da88e4c8078c7f7f6e2de4afbb4172b80d3a3f1775",
+    "imports/supplier/USBLC6_2SC6/USBLC6_2SC6.tsx": "9e325274a90ac3e73bdbacc1e527ee11d7ca520fac0459dbc2c7497dde898093",
     "index.circuit.tsx": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
     "package-lock.json": "1cc4c102c305bfc0cd2f4b9fa99e934e81a2da0eea139c30718af97459392a51",
     "tsconfig.json": "f1f115c6efe5e681adf51faf26b9217d0a4cbdc20120a57de109ebd80fae6df4"
   },
-  "cli_upload_response_ambiguity": "No duplicate-key recovery required.",
+  "cli_upload_response_ambiguity": "Archive response error/timeout; file fallback duplicate-key errors. Independent official clone verifies complete source and root/dist circuit; release accepted only after download verification.",
   "functional_sheet_names_verified": [
     "USB-C PD & Logic Power",
     "CH32 & USB Control",
     "Motor Driver & Voltage Monitor"
   ],
   "downloaded_native_a4_svg_hashes": {
-    "artifacts/schematic-a4-page-01.svg": "bd83358d98f266db676484d0d77b8f70f83e2ccddb2e6e3e60792514fa7f13fa",
-    "artifacts/schematic-a4-page-02.svg": "c6f2d25a43b02f51228c8dce87eba35a3480e6ae86741ec436dd5be968457d09",
-    "artifacts/schematic-a4-page-03.svg": "e2430413eb8b4bcd4a569e24502c97997830ae6e2231a3634f3afa01f55c080f"
+    "artifacts/schematic-a4-page-01.svg": "9ee9fd17751ba08c272305f5c1223a69dc10c46aa9bcd3d3aaca02e2b121c61e",
+    "artifacts/schematic-a4-page-02.svg": "36923f4aaa0c72dc4f9dcf0a5a30a6112526c54ea3130587fa8dd9ac40163b85",
+    "artifacts/schematic-a4-page-03.svg": "1cd54f6331734d2d203d325ea5d72908673c3c0ac37a0d994451f13585c6e007"
   },
   "all_functional_a4_svgs_byte_identical": true
 }

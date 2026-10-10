@@ -1,7 +1,7 @@
 {
-  "github_revision": "33187b284e633fb19f21b87d91973a89cca639c4",
-  "review_board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-  "published_board_sha256": "765e23623b8fd1c88418e3e14ea3cd3aee5c7efaa9938fb782b73624e2062405",
+  "github_revision": "31875efda9052419ecc5c3eaecfed2a4b597e7b1",
+  "review_board_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "published_board_sha256": "244c96d0d385d27e18c50bfe8bce481fd18da37d2551a29801637c29e8bb7427",
   "only_cad_url_metadata_changed": true,
   "saved_routing_preserved": true,
   "pinned_cad_components": 45
