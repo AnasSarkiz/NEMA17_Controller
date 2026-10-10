@@ -1,0 +1,61 @@
+{
+  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "assembly_entry_sha256": "5ecc143996f43bb3ac9283e9168a19f27edf1d57a4bf6e8f3f9dfdd38615605a",
+  "installed_glb_sha256": "f57d285a27dd454bab49c170a89bb2fc4ffdb0960c6f0e859a8be0c4bb756a75",
+  "viewer_js_sha256": "c67182e736cb498670b9cefee55f4330428b2934c7de56c18bb3a090604d4506",
+  "viewer_html_sha256": "1f28a5d584c39a92350a1826c232169ac272e1f4727ded43a248530a03b1c532",
+  "renderer": "Chromium WebGL/SwiftShader; actual exported GLB and bundled Three.js viewer",
+  "loaded": {
+    "loaded": true,
+    "meshes": 17114,
+    "vertices": 745954,
+    "bounds": [
+      -24.600000381469727,
+      -60.20000076293945,
+      -70.07261657714844,
+      24.600000381469727,
+      42.54999923706055,
+      87.375
+    ],
+    "webgl": true
+  },
+  "expected_export_gltf_bounds_mm": [
+    -24.600000000000005,
+    -60.2000001000005,
+    -70.0726131,
+    24.600000000000005,
+    42.5500001,
+    87.375
+  ],
+  "screenshots": [
+    {
+      "view": "isometric",
+      "path": "artifacts/assembly-scene/isometric.png",
+      "sha256": "ab8af670a1ac0e71320b06bef2cec54522085eccb7d03f30a5345f30e2c083e1"
+    },
+    {
+      "view": "top",
+      "path": "artifacts/assembly-scene/top.png",
+      "sha256": "5fd5cd80484bcd920350fad956a7d51e8e6207ed98d44ed0b98e079b718911ed"
+    },
+    {
+      "view": "side",
+      "path": "artifacts/assembly-scene/side.png",
+      "sha256": "c45f5330987296ee1e81c82a02231d23cd93ea9b9e705dc783e8d82460b8d5d6"
+    },
+    {
+      "view": "underside",
+      "path": "artifacts/assembly-scene/underside.png",
+      "sha256": "c5b3cd815d75085f93ee7bbd84865d682fab788932af8b4dc6a20534bb30ceb0"
+    },
+    {
+      "view": "controller",
+      "path": "artifacts/assembly-scene/controller.png",
+      "sha256": "066cb84ce2005f2aa0de566f302a4ed908bad707276622fc63481b096798bbe3"
+    }
+  ],
+  "page_errors": [],
+  "console_errors": [],
+  "http_errors": [],
+  "hardware_fit_verified": false
+}

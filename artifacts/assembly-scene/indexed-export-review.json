@@ -1,0 +1,36 @@
+{
+  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "asset_manifest_sha256": "93cbd941d365eb3b99dc980d4ad7b17ee5ff8be61acd72edc36945039805f155",
+  "installed_glb_sha256": "f57d285a27dd454bab49c170a89bb2fc4ffdb0960c6f0e859a8be0c4bb756a75",
+  "bytes": 38156588,
+  "group_names": [
+    "CONTROLLER",
+    "MOTOR",
+    "CARRIER",
+    "MOTOR_HARNESS",
+    "INSULATION_AND_RESTRAINT",
+    "FASTENERS",
+    "PD_CABLE",
+    "DATA_CABLE"
+  ],
+  "meshes": 17114,
+  "triangles": 1079102,
+  "rendered_gltf_bounds_mm": [
+    -24.6,
+    -60.2,
+    -70.072613,
+    24.6,
+    42.55,
+    87.375
+  ],
+  "expected_gltf_bounds_mm": [
+    -24.600000000000005,
+    -60.2000001000005,
+    -70.0726131,
+    24.600000000000005,
+    42.5500001,
+    87.375
+  ],
+  "indexed_source_meshes_retained": true,
+  "hardware_fit_verified": false
+}

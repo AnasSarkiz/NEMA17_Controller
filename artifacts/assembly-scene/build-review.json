@@ -1,0 +1,240 @@
+{
+  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "assembly_entry_sha256": "5ecc143996f43bb3ac9283e9168a19f27edf1d57a4bf6e8f3f9dfdd38615605a",
+  "assembly_json_sha256": "9bcde58aeaaced83bf8307d13be25ce8c42d717dc89f0d236e93d831a8ca0500",
+  "installed_glb_sha256": "f57d285a27dd454bab49c170a89bb2fc4ffdb0960c6f0e859a8be0c4bb756a75",
+  "asset_manifest_sha256": "93cbd941d365eb3b99dc980d4ad7b17ee5ff8be61acd72edc36945039805f155",
+  "indexed_export_review_sha256": "84f056e7d2fa3e01a8fdcf13acf192cc6d114d167e61d52d6ff86f8df545b45c",
+  "model_count": 8,
+  "triangles": 1079102,
+  "models": [
+    {
+      "label": "CONTROLLER",
+      "triangles": 338650,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -17.5,
+          "y": -1.6000000238418588,
+          "z": -17.499999999999996
+        },
+        "max": {
+          "x": 17.5,
+          "y": 8.500000000000002,
+          "z": 17.899999618530273
+        }
+      }
+    },
+    {
+      "label": "MOTOR",
+      "triangles": 58112,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -17.605283737182617,
+          "y": -60.20000076293945,
+          "z": -35.599998474121094
+        },
+        "max": {
+          "x": 17.605283737182617,
+          "y": -7.999999999999997,
+          "z": 17.610000610351562
+        }
+      }
+    },
+    {
+      "label": "CARRIER",
+      "triangles": 8600,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -24.600000381469723,
+          "y": -44.20000076293946,
+          "z": -49.000000000000014
+        },
+        "max": {
+          "x": 24.600000381469723,
+          "y": -1.7999999523162806,
+          "z": 18.200000762939453
+        }
+      }
+    },
+    {
+      "label": "MOTOR_HARNESS",
+      "triangles": 394756,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -6.400000095367432,
+          "y": -36.967544555664055,
+          "z": -70.07261657714845
+        },
+        "max": {
+          "x": 5.280886650085449,
+          "y": 42.54999923706055,
+          "z": -12.5
+        }
+      }
+    },
+    {
+      "label": "INSULATION_AND_RESTRAINT",
+      "triangles": 12176,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -18.049999237060547,
+          "y": -2.7999999523162877,
+          "z": -49
+        },
+        "max": {
+          "x": 18.049999237060547,
+          "y": 3.200000047683723,
+          "z": 17.500000000000004
+        }
+      }
+    },
+    {
+      "label": "FASTENERS",
+      "triangles": 9368,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -17.049999237060547,
+          "y": -43.70000076293946,
+          "z": -44.24999999999999
+        },
+        "max": {
+          "x": 17.049999237060547,
+          "y": 5.69999980926514,
+          "z": 16.5
+        }
+      }
+    },
+    {
+      "label": "PD_CABLE",
+      "triangles": 126874,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": -13,
+          "y": -1.2776352167129517,
+          "z": 11.249999999999996
+        },
+        "max": {
+          "x": -0.9999516606330872,
+          "y": 32.45000076293947,
+          "z": 87.37499999999997
+        }
+      }
+    },
+    {
+      "label": "DATA_CABLE",
+      "triangles": 130566,
+      "center": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "bbox": {
+        "min": {
+          "x": 1,
+          "y": -1.2776353359222412,
+          "z": 11.249999999999996
+        },
+        "max": {
+          "x": 13.000048637390137,
+          "y": 32.45000076293947,
+          "z": 87.37499999999997
+        }
+      }
+    }
+  ],
+  "native_expected_scene_bounds_mm": [
+    -24.600000000000005,
+    -60.2000001000005,
+    -70.0726131,
+    24.600000000000005,
+    42.5500001,
+    87.375
+  ],
+  "rendered_scene_bounds_mm": [
+    -24.600000381469723,
+    -60.20000076293945,
+    -70.07261657714845,
+    24.600000381469723,
+    42.54999923706055,
+    87.37499999999997
+  ],
+  "expected_export_glTF_bounds_mm": [
+    -24.600000000000005,
+    -60.2000001000005,
+    -70.0726131,
+    24.600000000000005,
+    42.5500001,
+    87.375
+  ],
+  "assembly_errors": [],
+  "warnings": [],
+  "winding_map": [
+    {
+      "pin": 1,
+      "color": "black",
+      "winding": "A+",
+      "driver": "OUT1A"
+    },
+    {
+      "pin": 2,
+      "color": "green",
+      "winding": "A−",
+      "driver": "OUT1B"
+    },
+    {
+      "pin": 3,
+      "color": "red",
+      "winding": "B+",
+      "driver": "OUT2A"
+    },
+    {
+      "pin": 4,
+      "color": "blue",
+      "winding": "B−",
+      "driver": "OUT2B"
+    }
+  ],
+  "protected_PCB_hashes_unchanged": {
+    "index.circuit.tsx": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
+    "index.circuit.json": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+    "artifacts/board.circuit.json": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+    "artifacts/nema14-gerbers.zip": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf"
+  },
+  "hardware_fit_verified": false,
+  "units_and_orientation_checked": true
+}
