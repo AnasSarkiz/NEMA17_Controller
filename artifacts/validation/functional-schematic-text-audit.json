@@ -1,24 +1,30 @@
 {
   "schema": "functional-schematic-text-audit-v2",
-  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "pages": [
     {
       "file": "schematic-a4-page-01.svg",
-      "text_count": 149,
+      "text_count": 170,
       "symbol_bodies_checked": 3,
-      "sha256": "20fcc30ca1d643b1d9cca6a4bedcc282abe99eb7112797b280f7f2e19b09ab16"
+      "sha256": "ebe8aa960793587d5becfe2f1716e4de8cb81db4551533122e04d29dfc45110a"
     },
     {
       "file": "schematic-a4-page-02.svg",
       "text_count": 247,
       "symbol_bodies_checked": 6,
-      "sha256": "f4a9462b4afa527f8121da2910d16667c747d0dcc344979169a34728e2ea61b3"
+      "sha256": "a8e16f25b6e4c6f09767ff9eab55d0ae9485ed3462de3702d89a7d161f5a32a8"
     },
     {
       "file": "schematic-a4-page-03.svg",
       "text_count": 207,
       "symbol_bodies_checked": 3,
-      "sha256": "98d23016f708b6359ce68ce5f3ce88f974a008af0f3c0e182adad7f70b463d83"
+      "sha256": "c69b313a7153d97d8ba1e67ce9dad19d313d7799da8593b81822fc165b6885e4"
+    },
+    {
+      "file": "schematic-a4-page-04.svg",
+      "text_count": 108,
+      "symbol_bodies_checked": 3,
+      "sha256": "1ed81630964069740ec3310057aabfcd5c73b1a71f418138fb26d330f3447355"
     }
   ],
   "text_overlap_findings": [],

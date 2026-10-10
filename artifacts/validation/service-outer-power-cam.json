@@ -1,14 +1,16 @@
 {
   "schema": "outer-power-actual-cam-1",
-  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-  "native_policy_sha256": "d8c19f281175972ddd731fad77b564f8dd779da3666a162482e92e1f754192f4",
-  "cam_audit_sha256": "6c80f1b0752ab85f82ec7eadf1e12db3249ab629008a8dbab925d7b37259ca1b",
-  "archive_sha256": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf",
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "native_policy_sha256": "edf05660618749cb4e23e773db83e5f74f36c24d22c34ab9874ef71d2b383ef1",
+  "cam_audit_sha256": "16dc1b7367fec2def731b38a244a268783a66d964c03287937d2702849b4fcbe",
+  "archive_sha256": "5aae65e8781af9e7e3f5eb7f2cb18fc07feec0af5e69c461ed30a62d11a15a42",
   "files_sha256": {
-    "F_Cu.gbr": "06727124cbdc12d0ba38a8873d4224961ee4285fe936f3b4c597b168f013c3f7",
-    "B_Cu.gbr": "56040d69932fb013e12908f2d2cc0bf39c2b91d1b131176088ded5272999204a",
-    "drill-L1-L2.drl": "199cb253c201147aa49fe035a209a1bb898d187ecc952645a4bdcb249b6dc4b7",
-    "drill_npth.drl": "514777dc7a1111d6631bd952d3a40627f01a65b491c40e27af2953104f8da59f"
+    "F_Cu.gbr": "d7fe34bcfe9d1f05afdb685d051aeccb2903ed193d7a5114d7c73f343ea68e88",
+    "B_Cu.gbr": "2f870773a37f5db1dff484ac06f2250461c80df2796f53cc08b54f2f2b2a856e",
+    "drill_npth.drl": "7e7a481e7187c5598686344fb0d16e66a252d66ccd42c03ddd625270c80bcf8b",
+    "drill-L1-L4.drl": "d82387864c042cdd74b2845db17fa992ef5e7d7e13fb676da292470ccfafddaa",
+    "In1_Cu.gbr": "2c19e447736cd4d0f50827f45608bd6f0931fe244ce0b92d6ef2da632e5b9d04",
+    "In2_Cu.gbr": "abb7a97ff4c4b71f07108bbc358a105ec90021d01686aaecabded48c3713de18"
   },
   "checksPassed": true,
   "errors": [],
@@ -54,19 +56,336 @@
       "net": "PD_VBUS",
       "from": "J_PD.VBUS2",
       "to": "U_DRV.VBB1",
-      "minimumAvailableThroughViaTransitions": 2
+      "minimumAvailableThroughViaTransitions": 4
     },
     {
       "net": "PD_VBUS",
       "from": "J_PD.VBUS2",
       "to": "U_DRV.VBB2",
-      "minimumAvailableThroughViaTransitions": 0
+      "minimumAvailableThroughViaTransitions": 2
     }
   ],
   "via_path_scope": "Minimum available via-layer changes in actual plated-drill/copper-island topology; total branched via counts remain in the native policy. Does not model current splitting, distributed resistance, temperatures or hardware operation. Native component PTH contacts are not counted as routing vias.",
   "mainWidthMm": 0.45,
   "senseMainWidthMm": 0.3,
   "traces": [
+    {
+      "trace": "diagnostics_445fb7a3_trace_126_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.6868999999999996,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.5234004394342817,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "diagnostics_445fb7a3_trace_127_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "bottom",
+          "widthMm": 0.45,
+          "lengthMm": 2.544311620065434,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "bottom",
+          "widthMm": 0.45,
+          "lengthMm": 1.5358999999999998,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "bottom",
+          "widthMm": 0.45,
+          "lengthMm": 0.9411591257592951,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_137_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.2861999999999991,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_138_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.0004242640687121958,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.9621000000000004,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.6716100207709826,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_139_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.5958999999999994,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_140_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.9797671560120803,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 3.3524000000000003,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_141_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "bottom",
+          "widthMm": 0.45,
+          "lengthMm": 4.6822,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_142_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.8267000000000007,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_143_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.4197385853123345,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_144_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 2.4475999999999996,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_145_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.4749000000000003,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.14368409793710635,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_146_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.9807000000000006,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_147_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.5899999999999981,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.37943349878470145,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 3.4296999999999995,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 2.6633884020172487,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_148_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.9625000000000004,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.47729707730091986,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_149_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.15569999999999995,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.1653119753954302,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 5.296799999999999,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_150_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03775950211536156,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 4.312499999999999,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.17437253224060287,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "freerouted_trace_151_new_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.4560838738653243,
+          "missingStripMm2": 0.0
+        },
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05249999999999999,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
     {
       "trace": "inside_phase_escape_A_PLUS",
       "net": "A_PLUS",
@@ -276,19 +595,6 @@
     },
     {
       "trace": "outer_usb_power_pin_escape_VBUS1",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": true,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.3,
-          "lengthMm": 1.25,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
-      "trace": "outer_usb_power_pin_escape_VBUS2",
       "net": "PD_VBUS",
       "boundedNativeOrLeafException": true,
       "segments": [
@@ -1457,1978 +1763,6 @@
       ]
     },
     {
-      "trace": "inside_motor_repair_net1_3",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": false,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 2.395048000000001,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 1.3435028842544392,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.0707106781186545,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 3.3500000000000014,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.04999999999999716,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.04999999999999716,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059330394,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.04999999999999716,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059330394,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025225314586738802,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
-      "trace": "inside_motor_repair_net1_4",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": false,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.22499999999999964,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 2.1566756826189692,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 2.2249999999999996,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059330394,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059330394,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059330394,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025021999999999878,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
-      "trace": "inside_motor_repair_net1_5",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": false,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 3.6062290277357607,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.3181980515339446,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000005119998055,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
-      "trace": "inside_motor_repair_net1_6",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": false,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.4242527551542837,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.021635999999999544,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
       "trace": "inside_motor_repair_net1_7",
       "net": "PD_VBUS",
       "boundedNativeOrLeafException": false,
@@ -3953,385 +2287,6 @@
           "layer": "top",
           "widthMm": 0.45,
           "lengthMm": 0.024853439757505754,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
-      "trace": "inside_motor_repair_net1_8",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": false,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.2828427124746218,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.21213203435596223,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.7749999999999986,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.6010407640085664,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.9250000000000007,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.6010407640085639,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.34999999999999964,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.24748737341529012,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.049999999999998934,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.024976783507289286,
           "missingStripMm2": 0.0
         }
       ]
@@ -8466,433 +6421,6 @@
       ]
     },
     {
-      "trace": "inside_motor_repair_net1_8x",
-      "net": "PD_VBUS",
-      "boundedNativeOrLeafException": false,
-      "segments": [
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 1.5202795795510775,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.10606601717798111,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.09999999999999787,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 2.125,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.04999999999999716,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.05000000000000071,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932913,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932537,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02500000000000213,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 1.3435028842544405,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.02499999999999858,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.03535533905932788,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000000355,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 1.1500000000000004,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.035355339059326626,
-          "missingStripMm2": 0.0
-        },
-        {
-          "layer": "top",
-          "widthMm": 0.45,
-          "lengthMm": 0.025000000000001243,
-          "missingStripMm2": 0.0
-        }
-      ]
-    },
-    {
       "trace": "inside_motor_repair_net1_9",
       "net": "PD_VBUS",
       "boundedNativeOrLeafException": false,
@@ -9736,6 +7264,2450 @@
           "layer": "top",
           "widthMm": 0.45,
           "lengthMm": 0.024975999999999665,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 2.395048000000001,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_1",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.3435028842544392,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_2",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_3",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.0707106781186545,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_4",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 3.3500000000000014,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_5",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_6",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_7",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_8",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_9",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_10",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_11",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_12",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.04999999999999716,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_13",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_14",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_15",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_16",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_17",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_18",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_19",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_20",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_21",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_22",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_23",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_24",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_25",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_26",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_27",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_28",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_29",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_30",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_31",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_32",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_85",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_86",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_87",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_88",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_89",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_90",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_91",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_92",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_93",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_94",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.04999999999999716,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_95",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_96",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_97",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_98",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_99",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_100",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_101",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_102",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_103",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_104",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_105",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_106",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_107",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_108",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_109",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_110",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_111",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059330394,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_112",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_113",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_114",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.04999999999999716,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_115",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_116",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_117",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059330394,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_118",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_119",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_120",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_121",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_122",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_123",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_124",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025225314586738802,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_2",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_3",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_4",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_5",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_6",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_7",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_8",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 2.2249999999999996,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_9",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_10",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_11",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059330394,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_12",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_13",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_14",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_15",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_16",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_17",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_18",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_19",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_20",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_21",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_22",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_23",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_24",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_25",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_26",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_27",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_28",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.049999999999998934,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_29",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_30",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_31",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_32",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_33",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_34",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_35",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_36",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_37",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_38",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_39",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_40",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_41",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_42",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_43",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_44",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_45",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_46",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_47",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_1",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_2",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_3",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_4",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.3181980515339446,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_5",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_6",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_7",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.049999999999998934,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_8",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_9",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_10",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_11",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_12",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_13",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_14",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_15",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_16",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_17",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.049999999999998934,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_18",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_19",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_20",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_21",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_22",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_23",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_24",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_0",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.2828427124746218,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_1",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_2",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.21213203435596223,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_3",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_4",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_5",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_6",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_7",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_8",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_9",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_10",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_11",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.7749999999999986,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_12",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.6010407640085664,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_13",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_14",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_15",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_16",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_17",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_18",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_19",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_20",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_21",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.9250000000000007,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_1",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_32",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_33",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_34",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_35",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_36",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_37",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_38",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_39",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_40",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932537,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_41",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.05000000000000071,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_42",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932913,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_43",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_44",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_45",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02500000000000213,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_46",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_63",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.02499999999999858,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_64",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.03535533905932788,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_65",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000000355,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_66",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_67",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 1.1500000000000004,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_68",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.035355339059326626,
+          "missingStripMm2": 0.0
+        }
+      ]
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_69",
+      "net": "PD_VBUS",
+      "boundedNativeOrLeafException": false,
+      "segments": [
+        {
+          "layer": "top",
+          "widthMm": 0.45,
+          "lengthMm": 0.025000000000001243,
           "missingStripMm2": 0.0
         }
       ]

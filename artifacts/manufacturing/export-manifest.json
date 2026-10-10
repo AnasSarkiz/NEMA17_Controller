@@ -11,61 +11,65 @@
     },
     "actual_copper_generation_software": {
       "B_Cu.gbr": "tscircuit,circuit-json-to-gerber,0.0.111",
-      "F_Cu.gbr": "tscircuit,circuit-json-to-gerber,0.0.111"
+      "F_Cu.gbr": "tscircuit,circuit-json-to-gerber,0.0.111",
+      "In2_Cu.gbr": "tscircuit,circuit-json-to-gerber,0.0.111",
+      "In1_Cu.gbr": "tscircuit,circuit-json-to-gerber,0.0.111"
     },
     "note": "The CLI embeds its own Gerber converter; actual Gerber metadata is authoritative and can differ from the separately installed package version."
   },
-  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-  "raw_cli_archive_sha256": "cf419c416a4413a094421e39bb79f2e7b1a356c11bfd56b3da68d3e82ba2bc72",
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "raw_cli_archive_sha256": "1d12c4c02a4388b34e53e9f4a9f904af92f44a087505a72a393f587cd4de250d",
   "intentional_CAM_changes": {
     "F_Paste.gbr": {
       "reason": "Explicit top SMT stencil policy; manual plated joints and bare interfaces have no paste",
-      "before_sha256": "338642234f3d1328328221a8dd29d350c2773b4dc79404c873f76cfa59eb1baa",
-      "after_sha256": "d649b2a9f3d55abaaca0be6052fcc86467ec74ffac3119d184d9d5dd1e963ec3"
+      "before_sha256": "6261c835f68e8fa711810b8e847a423bd231c594714718381a2a406fed906ea0",
+      "after_sha256": "19ae78bb8d673396831e75e5213f1830581cf2151bc2b54a26d292c545f46af2"
     },
     "B_Paste.gbr": {
       "reason": "Explicit top SMT stencil policy; manual plated joints and bare interfaces have no paste",
-      "before_sha256": "17116167ccf81f728bbcead239afabdb0be261e311b98fbb6081efa992785cf7",
+      "before_sha256": "1dc92526fc9e601e22319e273fc94eeeeef1295fd592e4be287afef677fef0ac",
       "after_sha256": "21880a5d8ccf86520b8d968436a0584871c3b32228b6ac256a0e08bffa396018"
     },
     "F_Mask.gbr": {
       "reason": "0.05 mm nominal mask expansion reduced locally to guarantee 0.10 mm webs",
-      "before_sha256": "5cb42a50c0765aa391734410d93990c88bd291de883d621cec7ad7cdbcf432a8",
-      "after_sha256": "350a997095a8f6253e30be96f7a96909990ea2e3f78f659a132964ee275ebcc4"
+      "before_sha256": "7cfe8348343664878c019318dc1c4c56928fc69e96fc66f0b8c5159942aa2d45",
+      "after_sha256": "82335e71ae3fbb92d3b609c1e50ab920c4e9f9705f026c1ec1f5e85e70291195"
     },
     "B_Mask.gbr": {
       "reason": "0.05 mm nominal mask expansion reduced locally to guarantee 0.10 mm webs",
-      "before_sha256": "1bc45cf945aa3f90f435c958aff99a8c18e5c35485d39b6d93a58903c6b91f18",
+      "before_sha256": "505aaa853886d2b73ccf429d298de4555f964711198232e04af423feb4485494",
       "after_sha256": "2bbfd5f31c6e092f6fc833e6685ba535684a9911fd0802a591bc247aeae44c6e"
     },
     "F_SilkScreen.gbr": {
       "reason": "Clip native silk against mask openings +0.15 mm and 0.10 mm edge inset; full reference labels remain on assembly drawings",
-      "before_sha256": "5e08c7329e7acf04571734f70c9ac202ae5d80d6bdf68168497b9b0510b261c0",
-      "after_sha256": "b7461b63856f8324721ca94e1e7e08d619fe692adec0d3921d77710e114b6b4c"
+      "before_sha256": "c061a3a2ea2bb015ada455851b97169890f953c7555944cb9aedd50c23e4424e",
+      "after_sha256": "2ac010b573a41bbade5531c23c764fd4607a99f67939e24fd22eb3c1a27e7f93"
     },
     "B_SilkScreen.gbr": {
       "reason": "Clip native silk against mask openings +0.15 mm and 0.10 mm edge inset; full reference labels remain on assembly drawings",
-      "before_sha256": "fb995e0f7f5f0aa118b1daf3000edf11db3a2b05e44255d0476dec6b46aa0f72",
+      "before_sha256": "6790d82b99c4c4fb32378b0fb2f43a2d3a492a712740bc4a70bfed56f408a9d8",
       "after_sha256": "e8fc8dd46f962d9217e34795671e702ee35bd096b56d7881af6658bcd756513d"
     },
     "bom.csv": {
       "reason": "Exclude bare debug/boot; motor header in BOM and manual manifest, excluded from automated CPL",
-      "before_sha256": "bc58bdaf7195a967520354e5b75e3ce3a1cdbef46e7337162bbeed305aabde36",
-      "after_sha256": "a4b18b0947b0701184f03c358e8d0e8d93ed7a7a087b474ab6afc6c9e58c4f93"
+      "before_sha256": "62003ed6ce66a28f567d27682c9880ad4333bac263cb3565bf8b239f14ebc47f",
+      "after_sha256": "5c907bface21c8ead743fc4567fb0733c1d6129e2a13957aa8f06ce797256483"
     },
     "pick_and_place.csv": {
       "reason": "Exclude bare debug/boot; motor header in BOM and manual manifest, excluded from automated CPL",
-      "before_sha256": "2f2fb7f197eb9f3986db7a23480b81459f88af46065ed462ad5c876ba51ff8a1",
-      "after_sha256": "0615c60776fd201de4e2be23e3fc1a87333aa979b2013035689a7f43ad90ebda"
+      "before_sha256": "5b85293ac463aff614d2884e154272c40909c41f09b5f179b4d9a320f8899ca4",
+      "after_sha256": "4c1b1a233fbfc0a32ff95f355631f03d98c059ed8301c99bc27f494f0854c44f"
     }
   },
   "preserved_original_files": {
-    "F_Cu.gbr": "06727124cbdc12d0ba38a8873d4224961ee4285fe936f3b4c597b168f013c3f7",
-    "B_Cu.gbr": "56040d69932fb013e12908f2d2cc0bf39c2b91d1b131176088ded5272999204a",
-    "Edge_Cuts.gbr": "f8167a4231d23c9bcd07017b61aee2a440695674d958d69e22e468a436d9cba4",
-    "F_Fab.gbr": "c703b2f4a1e945cd0ca47b54e188a2c864ffda370f83d1bd7b930a3c6f5c0329",
-    "drill-L1-L2.drl": "199cb253c201147aa49fe035a209a1bb898d187ecc952645a4bdcb249b6dc4b7",
-    "drill_npth.drl": "514777dc7a1111d6631bd952d3a40627f01a65b491c40e27af2953104f8da59f"
+    "F_Cu.gbr": "d7fe34bcfe9d1f05afdb685d051aeccb2903ed193d7a5114d7c73f343ea68e88",
+    "B_Cu.gbr": "2f870773a37f5db1dff484ac06f2250461c80df2796f53cc08b54f2f2b2a856e",
+    "Edge_Cuts.gbr": "5e4f36ce22b8ca1254836fb60a2ad8e2f2ba2a014cd29147dfcb5499b7a724a3",
+    "In1_Cu.gbr": "2c19e447736cd4d0f50827f45608bd6f0931fe244ce0b92d6ef2da632e5b9d04",
+    "In2_Cu.gbr": "abb7a97ff4c4b71f07108bbc358a105ec90021d01686aaecabded48c3713de18",
+    "F_Fab.gbr": "d368cf5ffb4c67cfb79ed4dcd41bd9374eff9aacfbadfb559c52d1b0825dbe0c",
+    "drill-L1-L4.drl": "d82387864c042cdd74b2845db17fa992ef5e7d7e13fb676da292470ccfafddaa",
+    "drill_npth.drl": "7e7a481e7187c5598686344fb0d16e66a252d66ccd42c03ddd625270c80bcf8b"
   },
   "policy": {
     "assembly": "top SMT reflow; USB shield slots and keyed JST motor header manually soldered afterward",

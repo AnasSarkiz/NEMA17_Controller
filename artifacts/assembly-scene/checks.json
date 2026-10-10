@@ -1,6 +1,6 @@
 {
   "assembly_entry_sha256": "5ecc143996f43bb3ac9283e9168a19f27edf1d57a4bf6e8f3f9dfdd38615605a",
-  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "source_board_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "commands": [
     {
       "name": "typecheck",
@@ -29,11 +29,11 @@
   "all_commands_passed": true,
   "PCB_artifacts_unchanged": {
     "index.circuit.tsx": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
-    "index.circuit.json": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-    "artifacts/board.circuit.json": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-    "artifacts/nema14-gerbers.zip": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf"
+    "index.circuit.json": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+    "artifacts/board.circuit.json": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+    "artifacts/nema14-gerbers.zip": "5aae65e8781af9e7e3f5eb7f2cb18fc07feec0af5e69c461ed30a62d11a15a42"
   },
   "hardware_tested": false,
   "native_cli_model_identities_and_transforms_match": true,
-  "native_cli_output_sha256": "e1aaa0ec4db96a4bf559caa70d744a252e93ae7af59e85012795727a9144fcc2"
+  "native_cli_output_sha256": "9d77d451f8050b82bd3cb24c5de3a8e8d52128b47299259941468c62d32f46a6"
 }

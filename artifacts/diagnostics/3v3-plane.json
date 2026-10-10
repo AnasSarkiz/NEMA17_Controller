@@ -1,0 +1,92 @@
+{
+  "clearanceMm": 0.2,
+  "edgeMarginMm": 0.35,
+  "minimumPourNeckMm": 0.15,
+  "requiresMapped3v3PadOrAnchoredBarrel": true,
+  "regions": [
+    {
+      "layer": "inner2",
+      "areaMm2": 819.8414052776808,
+      "holes": 28
+    }
+  ],
+  "discardedPolygons": [
+    {
+      "layer": "inner2",
+      "areaMm2": 1.3180693083010917,
+      "bounds": [
+        3.9849027974053604,
+        -7.713651387952192,
+        5.051699999999999,
+        -4.69284581464245
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    },
+    {
+      "layer": "inner2",
+      "areaMm2": 0.40746240411176693,
+      "bounds": [
+        3.1276,
+        -3.0527922014867652,
+        3.593979015889812,
+        -1.9580065219284388
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    },
+    {
+      "layer": "inner2",
+      "areaMm2": 0.18194264030263899,
+      "bounds": [
+        2.5700000000000003,
+        -1.0868541853575509,
+        3.0581502738986908,
+        -0.4888620129230474
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    },
+    {
+      "layer": "inner2",
+      "areaMm2": 0.028807716976814217,
+      "bounds": [
+        2.437030011383735,
+        -3.7531705311674224,
+        2.630524716524974,
+        -3.559658717456682
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    },
+    {
+      "layer": "inner2",
+      "areaMm2": 0.16995183918419454,
+      "bounds": [
+        1.8606,
+        -11.06407857618835,
+        2.0332999999999997,
+        -10.03744581464245
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    },
+    {
+      "layer": "inner2",
+      "areaMm2": 0.09070592030668923,
+      "bounds": [
+        1.8606,
+        -12.210578576188349,
+        2.0332999999999997,
+        -11.642921423811652
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    },
+    {
+      "layer": "inner2",
+      "areaMm2": 0.5934819673689428,
+      "bounds": [
+        -8.7073,
+        -5.777336655777979,
+        -8.5496,
+        -1.9787633442220203
+      ],
+      "reason": "belowMinimumAreaOrNoMappedGroundPadOrAnchoredBarrel"
+    }
+  ]
+}

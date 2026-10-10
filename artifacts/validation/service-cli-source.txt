@@ -1,11 +1,14 @@
 Errors: 0
-Warnings: 9
+Warnings: 12
+- source_property_ignored_warning: Datasheet information for chip "U_PD" could not be fetched: Datasheet lookup failed (403) for ch224k. Pin attributes may not be populated.
+- source_property_ignored_warning: Datasheet information for chip "J_MOTOR" could not be fetched: Datasheet lookup failed (403) for b4b-ph-k-slfsn. Pin attributes may not be populated.
 - source_property_ignored_warning: Datasheet information for chip "Q_DATA" could not be fetched: Datasheet lookup failed (403) for mmbt3904-7-f. Pin attributes may not be populated.
-- source_property_ignored_warning: Datasheet information for chip "U_LDO" could not be fetched: Datasheet lookup failed (403) for ht7533-1. Pin attributes may not be populated.
+- source_property_ignored_warning: Datasheet information for chip "U_TEMP" could not be fetched: Datasheet lookup failed (403) for tmp102aidrlr. Pin attributes may not be populated.
+- source_property_ignored_warning: Datasheet information for chip "BZ_ALARM" could not be fetched: Datasheet lookup failed (403) for mlt-5020. Pin attributes may not be populated.
+- source_property_ignored_warning: Datasheet information for chip "U_DRV" could not be fetched: Datasheet lookup failed (403) for a4988settr-t. Pin attributes may not be populated.
 - source_property_ignored_warning: Datasheet information for chip "U_MCU" could not be fetched: Datasheet lookup failed (403) for ch32x035g8u6. Pin attributes may not be populated.
 - source_property_ignored_warning: Datasheet information for chip "J_PD" could not be fetched: Datasheet lookup failed (403) for type-c-31-m-12. Pin attributes may not be populated.
 - source_property_ignored_warning: Datasheet information for chip "J_DATA" could not be fetched: Datasheet lookup failed (403) for type-c-31-m-12. Pin attributes may not be populated.
-- source_property_ignored_warning: Datasheet information for chip "J_MOTOR" could not be fetched: Datasheet lookup failed (403) for b4b-ph-k-slfsn. Pin attributes may not be populated.
-- source_property_ignored_warning: Datasheet information for chip "U_PD" could not be fetched: Datasheet lookup failed (403) for ch224k. Pin attributes may not be populated.
 - source_property_ignored_warning: Datasheet information for chip "U_ESD" could not be fetched: Datasheet lookup failed (403) for usblc6-2sc6. Pin attributes may not be populated.
-- source_property_ignored_warning: Datasheet information for chip "U_DRV" could not be fetched: Datasheet lookup failed (403) for a4988settr-t. Pin attributes may not be populated.
+- source_property_ignored_warning: Datasheet information for chip "Q_BUZZER" could not be fetched: Datasheet lookup failed (403) for ao3400a. Pin attributes may not be populated.
+- source_property_ignored_warning: Datasheet information for chip "U_BUCK" could not be fetched: Datasheet lookup failed (403) for ap63203wu-7. Pin attributes may not be populated.

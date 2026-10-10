@@ -1,0 +1,44 @@
+{
+  "coordinates": [
+    [
+      "DIR",
+      "U_DRV",
+      19,
+      [
+        [
+          2.5000950000000004,
+          -6.8994930000000005
+        ],
+        [
+          3.95,
+          -6.899493
+        ]
+      ]
+    ],
+    [
+      "V3V3",
+      "U_DRV",
+      12,
+      [
+        [
+          0.5003529999999995,
+          -9.899995
+        ],
+        [
+          0.500353,
+          -10.6
+        ]
+      ]
+    ]
+  ],
+  "findings": [
+    {
+      "edit": "diagnostics_manual_U_DRV_19",
+      "kind": "via",
+      "layer": "inner2",
+      "foreign": "diagnostics_5f9d83a8_trace_86_new_0",
+      "net": "STEP",
+      "gapMm": 0.0
+    }
+  ]
+}

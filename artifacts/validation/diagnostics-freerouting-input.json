@@ -1,0 +1,7 @@
+{
+  "nativeRouterBlocked": "See diagnostics-native-attempt.json for actual native router failure",
+  "fixedCopperRecords": 762,
+  "outerLayerPowerRule": true,
+  "dsn_sha256": "71c6db68adf54498630736ca1d69a4c1cecf13eb69691822226214e807da258a",
+  "state": "routing input; qualification pending"
+}

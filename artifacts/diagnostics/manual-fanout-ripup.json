@@ -1,0 +1,75 @@
+{
+  "releasedNets": [
+    "STEP"
+  ],
+  "removedCopper": [
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "diagnostics_5f9d83a8_trace_86_new_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 3.8,
+          "y": -8.4006,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.0858,
+          "y": -8.1148,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.0858,
+          "y": -4.4858,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 2.8387,
+          "y": -3.2387,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 2.8387,
+          "y": -1.3314,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.385,
+          "y": -0.7851,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.385,
+          "y": 0.255,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 2.29,
+          "y": 1.35,
+          "width": 0.16,
+          "layer": "inner2"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18",
+      "source_net_id": "source_net_13",
+      "source_trace_id": "source_trace_122",
+      "pcb_port_ids": []
+    }
+  ],
+  "reason": "Explicit manually chosen fanouts require rerouting obstructing signal copper with the official router; no connectivity acceptance is claimed."
+}

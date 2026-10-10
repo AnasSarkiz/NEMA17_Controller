@@ -1,6 +1,6 @@
 {
-  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-  "revision": "independent-review-2026-10-10",
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "revision": "diagnostics-2026-10-10",
   "status": "proposed prototype qualification envelope; not a qualified product rating",
   "hardwareTestsPerformed": false,
   "manufacturingRelease": false,
@@ -19,7 +19,20 @@
   ],
   "maximumLocalPcbAmbientC": 45,
   "maximumMotorCaseC": 60,
-  "logicOutputMaximumLoadA": 0.02,
+  "logicOutputMaximumLoadA": 0.55,
+  "logicOutputMaximumAverageLoadA": 0.31,
+  "baselineLogicAllowanceA": 0.1,
+  "dataOnlyLogicTargetA": 0.075,
+  "dataOnlyUsbAcceptanceA": 0.1,
+  "dataOnlyEfficiencyScreenAssumed": 0.7,
+  "dataOnlyInputCurrentScreenA": 0.09294320137693632,
+  "buzzerWorstResistivePulseA": 0.4,
+  "buzzerMaximumBurstS": 0.1,
+  "buzzerMaximumBurstRateHz": 1,
+  "buzzerNominalPwmHz": 4000,
+  "buzzerPwmDuty": 0.5,
+  "buzzerRequiresValid15VPd": true,
+  "regulator": "AP63203WU-7",
   "minimumAcceptedLogicRailV": 3.0,
   "maximumAcceptedLogicRailV": 3.6,
   "maximumMechanicalEnergyPerStopJ": 0.0001,
@@ -55,19 +68,5 @@
     "buck biased/aged capacitance and loop/load response",
     "harness fit/pull/abrasion and connector insertion",
     "supplier fabrication and pickup acceptance"
-  ],
-  "holtek": {
-    "operatingInputMaximumV": 30,
-    "absoluteInputMaximumV": 33,
-    "absoluteJunctionMaximumC": 150,
-    "designJunctionTargetMaximumC": 125,
-    "thetaJaScreenCPerW": 200,
-    "maximumLogicLoadAssumptionA": 0.02,
-    "iqMaximumA": 4e-06,
-    "lossAt15_75VAnd3_0VOutW": 0.255063,
-    "junctionScreenAtLocal45C": 96.01259999999999,
-    "junctionScreenAt18V": 105.0144,
-    "screenIsMeasurement": false,
-    "regulationGuaranteeOverMountedTemperature": "not established; verify3.0..3.6V over all states, otherwise reject/change regulator"
-  }
+  ]
 }

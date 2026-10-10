@@ -1,0 +1,81 @@
+{
+  "before": {
+    "type": "pcb_trace",
+    "pcb_trace_id": "diagnostics_445fb7a3_trace_303_new_0",
+    "route": [
+      {
+        "route_type": "wire",
+        "x": 0.7976,
+        "y": 5.1543,
+        "width": 0.16,
+        "layer": "inner2"
+      },
+      {
+        "route_type": "wire",
+        "x": -0.2295,
+        "y": 4.1272,
+        "width": 0.16,
+        "layer": "inner2"
+      },
+      {
+        "route_type": "wire",
+        "x": -0.2295,
+        "y": 1.7319,
+        "width": 0.16,
+        "layer": "inner2"
+      },
+      {
+        "route_type": "wire",
+        "x": 0.0796,
+        "y": 1.4228,
+        "width": 0.16,
+        "layer": "inner2"
+      }
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28",
+    "pcb_port_ids": [],
+    "source_trace_id": "source_trace_90",
+    "source_net_id": "source_net_21"
+  },
+  "after": {
+    "type": "pcb_trace",
+    "pcb_trace_id": "diagnostics_445fb7a3_trace_303_new_0",
+    "route": [
+      {
+        "route_type": "wire",
+        "x": 0.7976,
+        "y": 5.1543,
+        "width": 0.3,
+        "layer": "inner2"
+      },
+      {
+        "route_type": "wire",
+        "x": -0.3295,
+        "y": 4.1272,
+        "width": 0.3,
+        "layer": "inner2"
+      },
+      {
+        "route_type": "wire",
+        "x": -0.3295,
+        "y": 1.7319,
+        "width": 0.3,
+        "layer": "inner2"
+      },
+      {
+        "route_type": "wire",
+        "x": 0.0796,
+        "y": 1.4228,
+        "width": 0.3,
+        "layer": "inner2"
+      }
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net28",
+    "pcb_port_ids": [],
+    "source_trace_id": "source_trace_90",
+    "source_net_id": "source_net_21"
+  },
+  "reason": "0.30mm switching copper, with literal0.10mm centerline shift clear of existing ground barrel; thermal screen uses0.48A RMS, transient peak separately0.921A. Switching inductance/ringing and converter stability require bench qualification."
+}

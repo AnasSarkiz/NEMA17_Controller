@@ -1,48 +1,26 @@
 {
-  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "functional_texts": [
     {
       "text": "PD",
       "layer": "top",
       "center_mm": {
-        "x": -1,
-        "y": 16.8
+        "x": -2,
+        "y": 17.2
       },
-      "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.11560077266962052,
-      "clipped_ink_mm2": 0.0
-    },
-    {
-      "text": "15V",
-      "layer": "top",
-      "center_mm": {
-        "x": -1,
-        "y": 15.7
-      },
-      "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.1021621500844073,
-      "clipped_ink_mm2": 0.0
-    },
-    {
-      "text": "USB",
-      "layer": "top",
-      "center_mm": {
-        "x": 1,
-        "y": 16.8
-      },
-      "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.1866901446256747,
+      "font_mm": 0.5,
+      "raw_ink_mm2_in_label_region": 0.058980018523179537,
       "clipped_ink_mm2": 0.0
     },
     {
       "text": "DATA",
       "layer": "top",
       "center_mm": {
-        "x": 1,
-        "y": 15.7
+        "x": 1.65,
+        "y": 17.2
       },
-      "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.15393612876413335,
+      "font_mm": 0.5,
+      "raw_ink_mm2_in_label_region": 0.10689995814584208,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -53,7 +31,7 @@
         "y": -14.1
       },
       "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.2197393211454496,
+      "raw_ink_mm2_in_label_region": 0.2197393211454494,
       "clipped_ink_mm2": 0.0
     },
     {

@@ -1,12 +1,12 @@
 {
-  "board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-  "mechanical_report_sha256": "c610dedaf65c03478a848b3a8ea33797e52942bbfef6b4f4227a727fa82c1b54",
+  "board_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "mechanical_report_sha256": "de13bc4a7b89ed3ffdb45841545e0f8bc000dcf1f6c37800e41c997602dfafde",
   "bounded_clearance_screens_mm": {
     "pilot_pattern_remaining_radial_mm": 0.04500000000000004,
     "tail_barrier_remaining_mm": 0.34,
     "usb_body_pair_remaining_mm": 1.2999999999999983,
     "full_header_edge_remaining_mm": 0.09999989999999742,
-    "minimum_fastener_to_component_after_allowances_mm": 0.5799999000000007
+    "minimum_fastener_to_component_after_allowances_mm": 0.35000000009338783
   },
   "allowances_are_requirements_not_measurements": true,
   "physical_fit_verified": false

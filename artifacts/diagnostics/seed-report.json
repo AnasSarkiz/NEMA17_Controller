@@ -1,0 +1,2395 @@
+{
+  "baselineCommit": "d557db5fdc52cc89e721df5644218017db7230e0",
+  "baselineSha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "freshSourceSha256": "4eae695662535d7d11e975c0fcc00463126c9e903f8dd2730dbab7d3bcd8fc89",
+  "changedPads": [
+    [
+      "C_LDO_IN",
+      1
+    ],
+    [
+      "C_LDO_IN",
+      2
+    ],
+    [
+      "C_LDO_OUT",
+      1
+    ],
+    [
+      "C_LDO_OUT",
+      2
+    ],
+    [
+      "C_LOGIC",
+      1
+    ],
+    [
+      "C_LOGIC",
+      2
+    ],
+    [
+      "D_DATA",
+      1
+    ],
+    [
+      "D_DATA",
+      2
+    ],
+    [
+      "D_PD",
+      1
+    ],
+    [
+      "D_PD",
+      2
+    ],
+    [
+      "D_TVS",
+      1
+    ],
+    [
+      "D_TVS",
+      2
+    ],
+    [
+      "R_PG",
+      1
+    ],
+    [
+      "R_PG",
+      2
+    ],
+    [
+      "R_SLEEP",
+      1
+    ],
+    [
+      "R_SLEEP",
+      2
+    ],
+    [
+      "R_USB_SENSE_L",
+      1
+    ],
+    [
+      "R_USB_SENSE_L",
+      2
+    ],
+    [
+      "R_VM_BLEED",
+      1
+    ],
+    [
+      "R_VM_BLEED",
+      2
+    ],
+    [
+      "R_VM_H",
+      1
+    ],
+    [
+      "R_VM_H",
+      2
+    ],
+    [
+      "R_VM_L",
+      1
+    ],
+    [
+      "R_VM_L",
+      2
+    ],
+    [
+      "U_LDO",
+      1
+    ],
+    [
+      "U_LDO",
+      2
+    ],
+    [
+      "U_LDO",
+      3
+    ]
+  ],
+  "retainedCopperRecords": 1521,
+  "removed": [
+    {
+      "id": "freerouted_trace_150",
+      "segment": 0,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "freerouted_via_12",
+      "reason": "new foreign pad clearance or moved exposed pad"
+    },
+    {
+      "id": "freerouted_trace_171_usbtrim_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_174",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_175",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_176",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_177",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_178",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_179",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_180",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_15",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_via_16",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_184_upperbay_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_212_upperbay_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_214_inside_0_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_217",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_222_upperbay_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_223",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_18",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_via_20",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_241_inside_0_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_241_inside_1_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_245",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_247",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_248",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_249",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_23",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_via_24",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_256",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_257",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_258",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_25",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_via_29",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_271",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_30",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_via_31",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_281",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_282",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_36",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_283",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_284",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_285",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_37",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_286",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_287",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_288",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_289",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_290",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_292",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_294",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_38",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_via_39",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_311",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_STEP",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_STEP_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DIR",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DIR_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_PD_PG",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_PD_PG_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DATA_PRESENT",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DATA_PRESENT_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_VM_SENSE",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_VM_SENSE_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DRV_ENABLE_N",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DRV_ENABLE_N_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DRV_SLEEP",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_DRV_SLEEP_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_SWDIO",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_SWDIO_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_SWCLK",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "supplier_repair_U_MCU_fanout_SWCLK_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "freerouted_trace_12_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_14_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_15_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_28_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_29_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_30_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_32_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_53_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_58_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_63_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_67_ground_restore_0_upperbay_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_68_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_69_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_85_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_89_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_90_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_92_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_93_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_94_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_99_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_100_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_103_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_104_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_105_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_106_ground_restore_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_trace_108_ground_restore_0_upperbay_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "freerouted_via_6",
+      "reason": "new foreign pad clearance or moved exposed pad"
+    },
+    {
+      "id": "service_usb_repair_net4_0_upperbay_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net8_1",
+      "segment": 4,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "service_usb_repair_net8_1_via0",
+      "reason": "new foreign pad clearance or moved exposed pad"
+    },
+    {
+      "id": "service_usb_repair_net2_0",
+      "segment": 1,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "service_usb_repair_net2_0_via0",
+      "reason": "new foreign pad clearance or moved exposed pad"
+    },
+    {
+      "id": "service_usb_repair_net2_0_via1",
+      "reason": "new foreign pad clearance or moved exposed pad"
+    },
+    {
+      "id": "service_usb_repair_net4_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net4_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net4_1_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "service_usb_repair_net4_1_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "service_usb_repair_net12_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net12_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net12_1_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "service_usb_repair_net12_1_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "service_usb_repair_net11_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net11_0_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "service_usb_repair_net0_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_3",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_4",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_5",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_6",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_7",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_8",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_9",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_10",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_11",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_12",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_13",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_15",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_16",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_17",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_17_via0",
+      "reason": "new foreign pad clearance or moved exposed pad"
+    },
+    {
+      "id": "service_usb_repair_net0_18",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_19",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "service_usb_repair_net0_20",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_1_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net12_4_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net12_6_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net12_6_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net12_6_via2",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_signal_escape_DIR_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_signal_escape_STEP_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_mcu_escape_DIR",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_mcu_escape_DIR_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_ground_escape_U_DRV_GND",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_ground_escape_U_DRV_GND18",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_ground_escape_U_DRV_ROSC",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_ground_escape_C_VM_pin2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_ground_escape_C_DRV_LOGIC_pin2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_usb_power_pin_escape_VBUS2",
+      "segment": 0,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 33,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 34,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 35,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 36,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 37,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 38,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 39,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 40,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 41,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 42,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 43,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 44,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 45,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 46,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 47,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 48,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 49,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 50,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 51,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 52,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 53,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 54,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 55,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 56,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 57,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 58,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 59,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 60,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 61,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 62,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 63,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 64,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 65,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 66,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 67,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 68,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 69,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 70,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 71,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 72,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 73,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 74,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 75,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 76,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 77,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 78,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 79,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 80,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 81,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 82,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 83,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_3",
+      "segment": 84,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 0,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 1,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 48,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 49,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 50,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 51,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 52,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 53,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 54,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 55,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 56,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 57,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 58,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 59,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 60,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 61,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 62,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 63,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 64,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 65,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 66,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 67,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 68,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 69,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 70,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 71,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 72,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 73,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 74,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 75,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 76,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 77,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_4",
+      "segment": 78,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 0,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 25,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 26,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 27,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 28,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 29,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 30,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 31,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 32,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 33,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 34,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 35,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 36,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 37,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 38,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 39,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 40,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 41,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 42,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 43,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 44,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 45,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 46,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 47,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 48,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 49,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 50,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 51,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 52,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 53,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 54,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 55,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 56,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_5",
+      "segment": 57,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 0,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 1,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 2,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 3,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 4,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 5,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 6,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 7,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 8,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 9,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 10,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 11,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 12,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 13,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 14,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 15,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 16,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 17,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 18,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 19,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 20,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 21,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 22,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 23,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 24,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 25,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 26,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 27,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 28,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 29,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 30,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 31,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 32,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 33,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 34,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 35,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 36,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 37,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 38,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 39,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 40,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 41,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 42,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 43,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 44,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 45,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 46,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 47,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 48,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 49,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 50,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 51,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 52,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 53,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 54,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 55,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 56,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 57,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 58,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 59,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 60,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_6",
+      "segment": 61,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 22,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 23,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 24,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 25,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 26,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 27,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 28,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 29,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 30,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 31,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 32,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 33,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 34,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 35,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 36,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 37,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 38,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 39,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 40,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 41,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 42,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 43,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 44,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 45,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 46,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 47,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 48,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 49,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 50,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 51,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 52,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 53,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 54,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 55,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 56,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 57,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 58,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 59,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 60,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8",
+      "segment": 61,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net13_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net13_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net15_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_CP1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_CP1_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_CP2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_CP2_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_VCP",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_VCP_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_ENABLE_N",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_U_DRV_ENABLE_N_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "outer_native_escape_C_CP_pin1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_C_CP_pin1_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "outer_native_escape_C_CP_pin2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_C_CP_pin2_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "outer_native_escape_C_VCP_pin1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "outer_native_escape_C_VCP_pin1_via",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net31_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net30_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net15_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net16_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_8",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_10",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net24_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 0,
+      "reason": "changed supplier land pattern"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 2,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 3,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 4,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 5,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 6,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 7,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 8,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 9,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 10,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 11,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 12,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 13,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 14,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 15,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 16,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 17,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 18,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 19,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 20,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 21,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 22,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 23,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 24,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 25,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 26,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 27,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 28,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 29,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 30,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 31,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 47,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 48,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 49,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 50,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 51,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 52,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 53,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 54,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 55,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 56,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 57,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 58,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 59,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 60,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 61,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net1_8x",
+      "segment": 62,
+      "reason": "new foreign pad clearance"
+    },
+    {
+      "id": "inside_motor_repair_net29_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net32_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net14_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net14_0_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net14_0_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net14_0_via2",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net14_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net13_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net15_2x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net16_1x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net16_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net16_3",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net33_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net33_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net33_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_3",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_4x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_5",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_6x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_7",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_8x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_9",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_10x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_11",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_12",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_13",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_14",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_15",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_16",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_17",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_18",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_19",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_20",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_20_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net12_20_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net12_21",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net12_22",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net24_1x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net24_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net24_3",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net24_3_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net24_3_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net24_4",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net11_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net17_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net17_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net23_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net19_0",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net19_1",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net19_1_via0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net19_1_via1",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net19_1_via2",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "inside_motor_repair_net0_0x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net0_1x",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "inside_motor_repair_net0_2",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "independent_passive_monitor_bridge",
+      "reason": "released for official router to reconnect revised logic/diagnostic layout"
+    },
+    {
+      "id": "independent_passive_monitor_via_0",
+      "reason": "released revised signal via"
+    },
+    {
+      "id": "independent_passive_monitor_via_1",
+      "reason": "released revised signal via"
+    }
+  ],
+  "routingComplete": false
+}

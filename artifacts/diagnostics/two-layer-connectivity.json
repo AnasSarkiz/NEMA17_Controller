@@ -1,0 +1,209 @@
+{
+  "checkedNets": 45,
+  "disconnectedNets": [
+    {
+      "net": "PD_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+      "islands": [
+        [
+          "C_BULK.pin1",
+          "C_VCP.pin2",
+          "C_VM.pin1",
+          "C_VM2.pin1",
+          "D_PD.anode",
+          "D_TVS.pin2",
+          "J_PD.VBUS1",
+          "R_PD.pin1",
+          "R_VM_H.pin1",
+          "U_DRV.VBB1",
+          "U_DRV.VBB2"
+        ],
+        [
+          "J_PD.VBUS2"
+        ]
+      ]
+    },
+    {
+      "net": "V3V3",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12",
+      "islands": [
+        [
+          "R_PG.pin1"
+        ],
+        [
+          "C_BUCK_OUT1.pin1",
+          "C_BUCK_OUT2.pin1",
+          "C_MCU.pin1",
+          "L_BUCK.pin2",
+          "R_LED.pin1",
+          "U_BUCK.FB",
+          "U_MCU.VDD"
+        ],
+        [
+          "C_LOGIC.pin1",
+          "C_TEMP.pin1",
+          "U_TEMP.V_POS"
+        ],
+        [
+          "R_USB_SENSE_L.pin1"
+        ],
+        [
+          "C_BUCK_OUT3.pin1"
+        ],
+        [
+          "BZ_ALARM.pin1",
+          "C_BUZZER.pin1",
+          "C_DRV_LOGIC.pin1",
+          "D_BUZZER.cathode",
+          "R_ENABLE.pin1",
+          "R_REF_H.pin1",
+          "R_TEMP_ALERT.pin1",
+          "R_TEMP_SDA.pin1",
+          "R_USB_BOOT.pin1",
+          "U_DRV.MS1",
+          "U_DRV.MS2",
+          "U_DRV.MS3",
+          "U_DRV.RESET_N",
+          "U_DRV.VDD"
+        ],
+        [
+          "J_DEBUG.VDD"
+        ],
+        [
+          "R_TEMP_SCL.pin1"
+        ]
+      ]
+    },
+    {
+      "net": "LOGIC_IN",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net27",
+      "islands": [
+        [
+          "C_BUCK_IN.pin1",
+          "D_PD.cathode",
+          "U_BUCK.EN",
+          "U_BUCK.VIN"
+        ],
+        [
+          "D_DATA.cathode"
+        ]
+      ]
+    },
+    {
+      "net": "STEP",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net18",
+      "islands": [
+        [
+          "U_MCU.STEP"
+        ],
+        [
+          "U_DRV.STEP"
+        ]
+      ]
+    },
+    {
+      "net": "ENABLE_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20",
+      "islands": [
+        [
+          "R_ENABLE.pin2",
+          "U_MCU.ENABLE_N"
+        ],
+        [
+          "U_DRV.ENABLE_N"
+        ]
+      ]
+    },
+    {
+      "net": "CP2",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net35",
+      "islands": [
+        [
+          "U_DRV.CP2"
+        ],
+        [
+          "C_CP.pin2"
+        ]
+      ]
+    },
+    {
+      "net": "TEMP_SCL",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13",
+      "islands": [
+        [
+          "U_MCU.PA5"
+        ],
+        [
+          "U_TEMP.SCL"
+        ],
+        [
+          "R_TEMP_SCL.pin2"
+        ]
+      ]
+    },
+    {
+      "net": "TEMP_SDA",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14",
+      "islands": [
+        [
+          "R_TEMP_SDA.pin2",
+          "U_MCU.PA6"
+        ],
+        [
+          "U_TEMP.SDA"
+        ]
+      ]
+    },
+    {
+      "net": "STATUS_N",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16",
+      "islands": [
+        [
+          "U_MCU.PB0"
+        ],
+        [
+          "D_STATUS.cathode"
+        ]
+      ]
+    },
+    {
+      "net": "BUZZER_PWM",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
+      "islands": [
+        [
+          "U_MCU.PA7"
+        ],
+        [
+          "R_BUZZER_GATE.pin1"
+        ]
+      ]
+    },
+    {
+      "net": "DIRECT_net24",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net24",
+      "islands": [
+        [
+          "U_MCU.DCK"
+        ],
+        [
+          "J_DEBUG.DCK"
+        ]
+      ]
+    },
+    {
+      "net": "DIRECT_net25",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net25",
+      "islands": [
+        [
+          "U_MCU.DIO"
+        ],
+        [
+          "J_DEBUG.DIO"
+        ]
+      ]
+    }
+  ],
+  "allCopperLayersChecked": true,
+  "nativePolygonAndSlotGeometry": true,
+  "sha256": "d8cdd8ade7f86f9d9db95cf793262f046bdd25505e5afba5dcc861d2f8546603"
+}

@@ -1,0 +1,83 @@
+{
+  "reason": "Redundant narrow inner2 GND links removed; return uses existing actual inner1 ground plane and native through barrels. All ground ports must remain physically connected after fill.",
+  "removed": [
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "diagnostics_5f9d83a8_trace_2_new_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 5.2506,
+          "y": -8.6365,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 6.3835,
+          "y": -7.5036,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 6.3835,
+          "y": -1.1979,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 5.0191,
+          "y": 0.1665,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 5.0191,
+          "y": 1.4997,
+          "width": 0.16,
+          "layer": "inner2"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+      "pcb_port_ids": [],
+      "source_trace_id": "source_trace_204",
+      "source_net_id": "source_net_0"
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "diagnostics_445fb7a3_trace_62_new_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 5.0191,
+          "y": 1.4997,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.0498,
+          "y": 2.469,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 4.0498,
+          "y": 7.55,
+          "width": 0.16,
+          "layer": "inner2"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+      "pcb_port_ids": [],
+      "source_trace_id": "source_trace_204",
+      "source_net_id": "source_net_0"
+    }
+  ]
+}

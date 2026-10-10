@@ -1,0 +1,9 @@
+{
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "pdf_sha256": "9ad79a3cda926f42c5d32f999f2102cdd1045c81e28febf140d6b25b466422ee",
+  "actual_pdf_pages_rasterized_and_visually_reviewed": 4,
+  "renderer": "pdftoppm100dpi, rasterized actual exported vector PDF",
+  "contact_image_sha256": "b9934e3dfff5a3be604a29e25539429812aa735aeff1e559570aadc298f4dba3",
+  "visual_review": "Page frames, functional blocks, passive names/values, net labels, new diagnostic circuitry and annotations inspected. No clipped page text or obvious unresolved overlaps found at reviewed scale. This is a visual screen, not electrical/physical validation.",
+  "hardware_tests_performed": false
+}

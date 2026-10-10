@@ -1,0 +1,1826 @@
+{
+  "source_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "named_physical_ports_checked": 202,
+  "wire_geometry_tolerance_mm": 1e-05,
+  "every_named_port_reaches_correct_net_label": true,
+  "ports": [
+    {
+      "component": "J_PD",
+      "pin": 1,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_144"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_146"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 3,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_148"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 4,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_150"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 6,
+      "net": "PD_CC1",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_153"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 12,
+      "net": "PD_CC2",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_160"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 13,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_162"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 14,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_164"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 15,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_166"
+      ]
+    },
+    {
+      "component": "J_PD",
+      "pin": 16,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_168"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 1,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_278"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_280"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 3,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_282"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 4,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_284"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 6,
+      "net": "DATA_CC1",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_287"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 7,
+      "net": "USB_DM",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_289"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 8,
+      "net": "USB_DP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_291"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 9,
+      "net": "USB_DM",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_293"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 10,
+      "net": "USB_DP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_295"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 12,
+      "net": "DATA_CC2",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_298"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 13,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_300"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 14,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_302"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 15,
+      "net": "DATA_VBUS",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_304"
+      ]
+    },
+    {
+      "component": "J_DATA",
+      "pin": 16,
+      "net": "DATA_VBUS",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_306"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 1,
+      "net": "PD_VDD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_170"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 2,
+      "net": "PD_VDD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_172"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 3,
+      "net": "PD_VDD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_174"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 4,
+      "net": "PD_LEGACY_DATA",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_176"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 5,
+      "net": "PD_LEGACY_DATA",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_178"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 6,
+      "net": "PD_CC2",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_180"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 7,
+      "net": "PD_CC1",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_182"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 9,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_185"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 10,
+      "net": "PD_GOOD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_187"
+      ]
+    },
+    {
+      "component": "U_PD",
+      "pin": 11,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_189"
+      ]
+    },
+    {
+      "component": "R_PD",
+      "pin": 1,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_191"
+      ]
+    },
+    {
+      "component": "R_PD",
+      "pin": 2,
+      "net": "PD_VDD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_138"
+      ]
+    },
+    {
+      "component": "C_PD",
+      "pin": 1,
+      "net": "PD_VDD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_138"
+      ]
+    },
+    {
+      "component": "C_PD",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_193"
+      ]
+    },
+    {
+      "component": "R_PG",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_195"
+      ]
+    },
+    {
+      "component": "R_PG",
+      "pin": 2,
+      "net": "PD_GOOD",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_197"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 2,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_232"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 5,
+      "net": "STEP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_236"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 6,
+      "net": "DIR",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_238"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 7,
+      "net": "PD_GOOD",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_240"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 8,
+      "net": "DATA_PRESENT",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_242"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 9,
+      "net": "VM_SENSE",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_244"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 10,
+      "net": "TEMP_SCL",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_246"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 11,
+      "net": "TEMP_SDA",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_248"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 12,
+      "net": "BUZZER_PWM",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_250"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 13,
+      "net": "STATUS_N",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_252"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 14,
+      "net": "ENABLE_N",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_254"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 15,
+      "net": "SLEEP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_256"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 16,
+      "net": "TEMP_ALERT_N",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_258"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 26,
+      "net": "USB_DM",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_271"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 27,
+      "net": "USB_DP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_273"
+      ]
+    },
+    {
+      "component": "U_MCU",
+      "pin": 29,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_276"
+      ]
+    },
+    {
+      "component": "C_MCU",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_43"
+      ]
+    },
+    {
+      "component": "C_MCU",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_47"
+      ]
+    },
+    {
+      "component": "C_LOGIC",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_43"
+      ]
+    },
+    {
+      "component": "C_LOGIC",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_47"
+      ]
+    },
+    {
+      "component": "R_CC1",
+      "pin": 1,
+      "net": "DATA_CC1",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_320"
+      ]
+    },
+    {
+      "component": "R_CC1",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_59"
+      ]
+    },
+    {
+      "component": "R_CC2",
+      "pin": 1,
+      "net": "DATA_CC2",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_322"
+      ]
+    },
+    {
+      "component": "R_CC2",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_59"
+      ]
+    },
+    {
+      "component": "R_USB_SENSE_H",
+      "pin": 1,
+      "net": "DATA_VBUS",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_330"
+      ]
+    },
+    {
+      "component": "R_USB_SENSE_H",
+      "pin": 2,
+      "net": "DATA_BASE",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_332"
+      ]
+    },
+    {
+      "component": "R_USB_SENSE_L",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_334"
+      ]
+    },
+    {
+      "component": "R_USB_SENSE_L",
+      "pin": 2,
+      "net": "DATA_PRESENT",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_336"
+      ]
+    },
+    {
+      "component": "Q_DATA",
+      "pin": 1,
+      "net": "DATA_BASE",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_324"
+      ]
+    },
+    {
+      "component": "Q_DATA",
+      "pin": 3,
+      "net": "DATA_PRESENT",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_328"
+      ]
+    },
+    {
+      "component": "Q_DATA",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_326"
+      ]
+    },
+    {
+      "component": "R_VM_H",
+      "pin": 1,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_457"
+      ]
+    },
+    {
+      "component": "R_VM_H",
+      "pin": 2,
+      "net": "VM_SENSE",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_142"
+      ]
+    },
+    {
+      "component": "R_VM_L",
+      "pin": 1,
+      "net": "VM_SENSE",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_142"
+      ]
+    },
+    {
+      "component": "R_VM_L",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_459"
+      ]
+    },
+    {
+      "component": "R_VM_BLEED",
+      "pin": 1,
+      "net": "VM_SENSE",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_461"
+      ]
+    },
+    {
+      "component": "R_VM_BLEED",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_463"
+      ]
+    },
+    {
+      "component": "C_VM_SENSE",
+      "pin": 1,
+      "net": "VM_SENSE",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_465"
+      ]
+    },
+    {
+      "component": "C_VM_SENSE",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_467"
+      ]
+    },
+    {
+      "component": "U_BUCK",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_207"
+      ]
+    },
+    {
+      "component": "U_BUCK",
+      "pin": 2,
+      "net": "LOGIC_IN",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_209"
+      ]
+    },
+    {
+      "component": "U_BUCK",
+      "pin": 3,
+      "net": "LOGIC_IN",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_211"
+      ]
+    },
+    {
+      "component": "U_BUCK",
+      "pin": 4,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_213"
+      ]
+    },
+    {
+      "component": "U_BUCK",
+      "pin": 5,
+      "net": "BUCK_SW",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_215"
+      ]
+    },
+    {
+      "component": "U_BUCK",
+      "pin": 6,
+      "net": "BUCK_BST",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_217"
+      ]
+    },
+    {
+      "component": "L_BUCK",
+      "pin": 1,
+      "net": "BUCK_SW",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_219"
+      ]
+    },
+    {
+      "component": "L_BUCK",
+      "pin": 2,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_221"
+      ]
+    },
+    {
+      "component": "C_BOOTSTRAP",
+      "pin": 1,
+      "net": "BUCK_BST",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_223"
+      ]
+    },
+    {
+      "component": "C_BOOTSTRAP",
+      "pin": 2,
+      "net": "BUCK_SW",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_225"
+      ]
+    },
+    {
+      "component": "C_BUCK_IN",
+      "pin": 1,
+      "net": "LOGIC_IN",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_227"
+      ]
+    },
+    {
+      "component": "C_BUCK_IN",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_229"
+      ]
+    },
+    {
+      "component": "C_BUCK_OUT1",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_26"
+      ]
+    },
+    {
+      "component": "C_BUCK_OUT1",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_31"
+      ]
+    },
+    {
+      "component": "C_BUCK_OUT2",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_26"
+      ]
+    },
+    {
+      "component": "C_BUCK_OUT2",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_31"
+      ]
+    },
+    {
+      "component": "C_BUCK_OUT3",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_26"
+      ]
+    },
+    {
+      "component": "C_BUCK_OUT3",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_31"
+      ]
+    },
+    {
+      "component": "D_PD",
+      "pin": 1,
+      "net": "LOGIC_IN",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_199"
+      ]
+    },
+    {
+      "component": "D_PD",
+      "pin": 2,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_201"
+      ]
+    },
+    {
+      "component": "D_DATA",
+      "pin": 1,
+      "net": "LOGIC_IN",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_203"
+      ]
+    },
+    {
+      "component": "D_DATA",
+      "pin": 2,
+      "net": "DATA_VBUS",
+      "sheet": "schematic_sheet_0",
+      "reachable_label_ids": [
+        "functional_net_205"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 1,
+      "net": "B_MINUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_354"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 2,
+      "net": "ENABLE_N",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_356"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 3,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_358"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 4,
+      "net": "CP1",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_360"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 5,
+      "net": "CP2",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_362"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 6,
+      "net": "VCP",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_364"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 8,
+      "net": "VREG",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_367"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 9,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_369"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 10,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_371"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 11,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_373"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 12,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_375"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 13,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_377"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 14,
+      "net": "SLEEP",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_379"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 15,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_381"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 16,
+      "net": "STEP",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_383"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 17,
+      "net": "VREF",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_385"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 18,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_387"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 19,
+      "net": "DIR",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_389"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 21,
+      "net": "A_MINUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_392"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 22,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_394"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 23,
+      "net": "SENSE1",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_396"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 24,
+      "net": "A_PLUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_398"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 26,
+      "net": "B_PLUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_401"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 27,
+      "net": "SENSE2",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_403"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 28,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_405"
+      ]
+    },
+    {
+      "component": "U_DRV",
+      "pin": 29,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_407"
+      ]
+    },
+    {
+      "component": "C_CP",
+      "pin": 1,
+      "net": "CP1",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_441"
+      ]
+    },
+    {
+      "component": "C_CP",
+      "pin": 2,
+      "net": "CP2",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_443"
+      ]
+    },
+    {
+      "component": "C_VCP",
+      "pin": 1,
+      "net": "VCP",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_445"
+      ]
+    },
+    {
+      "component": "C_VCP",
+      "pin": 2,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_447"
+      ]
+    },
+    {
+      "component": "C_VREG",
+      "pin": 1,
+      "net": "VREG",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_449"
+      ]
+    },
+    {
+      "component": "C_VREG",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_451"
+      ]
+    },
+    {
+      "component": "C_DRV_LOGIC",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_437"
+      ]
+    },
+    {
+      "component": "C_DRV_LOGIC",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_439"
+      ]
+    },
+    {
+      "component": "C_VM",
+      "pin": 1,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_105"
+      ]
+    },
+    {
+      "component": "C_VM",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_110"
+      ]
+    },
+    {
+      "component": "C_VM2",
+      "pin": 1,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_105"
+      ]
+    },
+    {
+      "component": "C_VM2",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_110"
+      ]
+    },
+    {
+      "component": "C_BULK",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_110"
+      ]
+    },
+    {
+      "component": "C_BULK",
+      "pin": 1,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_105"
+      ]
+    },
+    {
+      "component": "R_SA",
+      "pin": 1,
+      "net": "SENSE1",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_417"
+      ]
+    },
+    {
+      "component": "R_SA",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_90"
+      ]
+    },
+    {
+      "component": "R_SB",
+      "pin": 1,
+      "net": "SENSE2",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_419"
+      ]
+    },
+    {
+      "component": "R_SB",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_90"
+      ]
+    },
+    {
+      "component": "R_REF_H",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_421"
+      ]
+    },
+    {
+      "component": "R_REF_H",
+      "pin": 2,
+      "net": "VREF",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_140"
+      ]
+    },
+    {
+      "component": "R_REF_L",
+      "pin": 1,
+      "net": "VREF",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_140"
+      ]
+    },
+    {
+      "component": "R_REF_L",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_423"
+      ]
+    },
+    {
+      "component": "C_REF",
+      "pin": 1,
+      "net": "VREF",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_425"
+      ]
+    },
+    {
+      "component": "C_REF",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_427"
+      ]
+    },
+    {
+      "component": "R_ENABLE",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_429"
+      ]
+    },
+    {
+      "component": "R_ENABLE",
+      "pin": 2,
+      "net": "ENABLE_N",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_431"
+      ]
+    },
+    {
+      "component": "R_SLEEP",
+      "pin": 1,
+      "net": "SLEEP",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_433"
+      ]
+    },
+    {
+      "component": "R_SLEEP",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_435"
+      ]
+    },
+    {
+      "component": "J_MOTOR",
+      "pin": 1,
+      "net": "A_PLUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_409"
+      ]
+    },
+    {
+      "component": "J_MOTOR",
+      "pin": 2,
+      "net": "A_MINUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_411"
+      ]
+    },
+    {
+      "component": "J_MOTOR",
+      "pin": 3,
+      "net": "B_PLUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_413"
+      ]
+    },
+    {
+      "component": "J_MOTOR",
+      "pin": 4,
+      "net": "B_MINUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_415"
+      ]
+    },
+    {
+      "component": "J_DEBUG",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_338"
+      ]
+    },
+    {
+      "component": "J_DEBUG",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_340"
+      ]
+    },
+    {
+      "component": "U_ESD",
+      "pin": 1,
+      "net": "USB_DP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_308"
+      ]
+    },
+    {
+      "component": "U_ESD",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_310"
+      ]
+    },
+    {
+      "component": "U_ESD",
+      "pin": 3,
+      "net": "USB_DM",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_312"
+      ]
+    },
+    {
+      "component": "U_ESD",
+      "pin": 4,
+      "net": "USB_DM",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_314"
+      ]
+    },
+    {
+      "component": "U_ESD",
+      "pin": 5,
+      "net": "DATA_VBUS",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_316"
+      ]
+    },
+    {
+      "component": "U_ESD",
+      "pin": 6,
+      "net": "USB_DP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_318"
+      ]
+    },
+    {
+      "component": "D_TVS",
+      "pin": 2,
+      "net": "PD_VBUS",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_455"
+      ]
+    },
+    {
+      "component": "D_TVS",
+      "pin": 1,
+      "net": "GND",
+      "sheet": "schematic_sheet_2",
+      "reachable_label_ids": [
+        "functional_net_453"
+      ]
+    },
+    {
+      "component": "R_USB_BOOT",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_346"
+      ]
+    },
+    {
+      "component": "J_BOOT",
+      "pin": 2,
+      "net": "USB_DP",
+      "sheet": "schematic_sheet_1",
+      "reachable_label_ids": [
+        "functional_net_352"
+      ]
+    },
+    {
+      "component": "D_STATUS",
+      "pin": 1,
+      "net": "STATUS_N",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_473"
+      ]
+    },
+    {
+      "component": "D_STATUS",
+      "pin": 2,
+      "net": "LED_ANODE",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_475"
+      ]
+    },
+    {
+      "component": "R_LED",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_469"
+      ]
+    },
+    {
+      "component": "R_LED",
+      "pin": 2,
+      "net": "LED_ANODE",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_471"
+      ]
+    },
+    {
+      "component": "U_TEMP",
+      "pin": 1,
+      "net": "TEMP_SCL",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_477"
+      ]
+    },
+    {
+      "component": "U_TEMP",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_479"
+      ]
+    },
+    {
+      "component": "U_TEMP",
+      "pin": 3,
+      "net": "TEMP_ALERT_N",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_481"
+      ]
+    },
+    {
+      "component": "U_TEMP",
+      "pin": 4,
+      "net": "GND",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_483"
+      ]
+    },
+    {
+      "component": "U_TEMP",
+      "pin": 5,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_485"
+      ]
+    },
+    {
+      "component": "U_TEMP",
+      "pin": 6,
+      "net": "TEMP_SDA",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_487"
+      ]
+    },
+    {
+      "component": "C_TEMP",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_489"
+      ]
+    },
+    {
+      "component": "C_TEMP",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_491"
+      ]
+    },
+    {
+      "component": "R_TEMP_SCL",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_493"
+      ]
+    },
+    {
+      "component": "R_TEMP_SCL",
+      "pin": 2,
+      "net": "TEMP_SCL",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_495"
+      ]
+    },
+    {
+      "component": "R_TEMP_SDA",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_497"
+      ]
+    },
+    {
+      "component": "R_TEMP_SDA",
+      "pin": 2,
+      "net": "TEMP_SDA",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_499"
+      ]
+    },
+    {
+      "component": "R_TEMP_ALERT",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_501"
+      ]
+    },
+    {
+      "component": "R_TEMP_ALERT",
+      "pin": 2,
+      "net": "TEMP_ALERT_N",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_503"
+      ]
+    },
+    {
+      "component": "BZ_ALARM",
+      "pin": 2,
+      "net": "BUZZER_SINK",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_507"
+      ]
+    },
+    {
+      "component": "BZ_ALARM",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_505"
+      ]
+    },
+    {
+      "component": "Q_BUZZER",
+      "pin": 3,
+      "net": "BUZZER_SINK",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_514"
+      ]
+    },
+    {
+      "component": "Q_BUZZER",
+      "pin": 1,
+      "net": "BUZZER_GATE",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_510"
+      ]
+    },
+    {
+      "component": "Q_BUZZER",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_512"
+      ]
+    },
+    {
+      "component": "D_BUZZER",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_516"
+      ]
+    },
+    {
+      "component": "D_BUZZER",
+      "pin": 2,
+      "net": "BUZZER_SINK",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_518"
+      ]
+    },
+    {
+      "component": "R_BUZZER_GATE",
+      "pin": 1,
+      "net": "BUZZER_PWM",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_520"
+      ]
+    },
+    {
+      "component": "R_BUZZER_GATE",
+      "pin": 2,
+      "net": "BUZZER_GATE",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_522"
+      ]
+    },
+    {
+      "component": "R_BUZZER_PD",
+      "pin": 1,
+      "net": "BUZZER_GATE",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_524"
+      ]
+    },
+    {
+      "component": "R_BUZZER_PD",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_526"
+      ]
+    },
+    {
+      "component": "C_BUZZER",
+      "pin": 1,
+      "net": "V3V3",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_528"
+      ]
+    },
+    {
+      "component": "C_BUZZER",
+      "pin": 2,
+      "net": "GND",
+      "sheet": "schematic_sheet_3",
+      "reachable_label_ids": [
+        "functional_net_530"
+      ]
+    }
+  ]
+}

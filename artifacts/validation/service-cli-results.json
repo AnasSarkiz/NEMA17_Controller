@@ -1,6 +1,6 @@
 {
   "source_entry_sha256": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
-  "prepared_source_sha256": "6ee1aa7919c35dea76a0a8f1b0ec9a28b733f63b3caf3dc880a7d3fb977237c1",
+  "prepared_source_sha256": "cc771749ec3665417cb095762cea24c08a3ae31521681052dd78d5546bb15699",
   "commands": [
     {
       "name": "netlist",
@@ -12,7 +12,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-netlist.txt",
-      "output_sha256": "a5006472892fa2eb0370a4d8ce0bbe7038634541d533891c5e4095a7f05853ea"
+      "output_sha256": "79fc66f8eb80108369c8ba96e85e26662bfc983783fd1bcda08e523c9c89ce30"
     },
     {
       "name": "pin-specification",
@@ -24,7 +24,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-pin-specification.txt",
-      "output_sha256": "59690bbcba1ecd0ec460b948ae7dccc81ecaeccbb10c99064a7d6153cc76be64"
+      "output_sha256": "f658893657ee946168642376a05af419edabd1582835c3dc2ba04d2b8d368643"
     },
     {
       "name": "source",
@@ -36,7 +36,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-source.txt",
-      "output_sha256": "3693166922ee3d7d9992d9422041d01710460a07369b5b79b43c1e2bbc200065"
+      "output_sha256": "42e590b0c226d721bb11025f9a93e1563751cbe8b640b1843700001ccecbccf5"
     },
     {
       "name": "placement",
@@ -48,7 +48,7 @@
       ],
       "exit_code": 1,
       "output": "artifacts/validation/service-cli-placement.txt",
-      "output_sha256": "c937c40fb510a8d10fabb681eeefcd88001b08fe85c0eceb748739a30d296f65"
+      "output_sha256": "7e101a415d056fe77122fbf5b4063e29d39790480a2d48d5e1f1d0a5fac98ae5"
     },
     {
       "name": "schematic",
@@ -60,7 +60,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-schematic.txt",
-      "output_sha256": "9f299e02bf639e8a666484b072dcbc7a5770ab42393e3967bafd054669a55ae3"
+      "output_sha256": "82cb5370f1274d74ffcc5ea2003ea9f8a1ce8e0ce9e95f9d4f145bcb3e5fed16"
     }
   ],
   "placement_advisories_are_not_suppressed": true

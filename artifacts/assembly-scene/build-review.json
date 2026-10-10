@@ -1,16 +1,16 @@
 {
-  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "source_board_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "assembly_entry_sha256": "5ecc143996f43bb3ac9283e9168a19f27edf1d57a4bf6e8f3f9dfdd38615605a",
-  "assembly_json_sha256": "9bcde58aeaaced83bf8307d13be25ce8c42d717dc89f0d236e93d831a8ca0500",
-  "installed_glb_sha256": "f57d285a27dd454bab49c170a89bb2fc4ffdb0960c6f0e859a8be0c4bb756a75",
-  "asset_manifest_sha256": "93cbd941d365eb3b99dc980d4ad7b17ee5ff8be61acd72edc36945039805f155",
-  "indexed_export_review_sha256": "84f056e7d2fa3e01a8fdcf13acf192cc6d114d167e61d52d6ff86f8df545b45c",
+  "assembly_json_sha256": "ae25300b3814773557d10ba27d3bc5ac8b7e6283d7e82f267e97122b9eb2fa23",
+  "installed_glb_sha256": "f02cd04beed946554e7bf161014408c0e26f5485e5a0232b689a81e42d3531b4",
+  "asset_manifest_sha256": "d7af17effaed832c06ed326885260a3548c1b163c85c708e0506f05c555d3e29",
+  "indexed_export_review_sha256": "a3b49b17f80315ac6e1460b10a852cc009fb0e5ad9a2d5efea7951b0bb6e6afe",
   "model_count": 8,
-  "triangles": 1079102,
+  "triangles": 1185670,
   "models": [
     {
       "label": "CONTROLLER",
-      "triangles": 338650,
+      "triangles": 445218,
       "center": {
         "x": 0,
         "y": 0,
@@ -231,9 +231,9 @@
   ],
   "protected_PCB_hashes_unchanged": {
     "index.circuit.tsx": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
-    "index.circuit.json": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-    "artifacts/board.circuit.json": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-    "artifacts/nema14-gerbers.zip": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf"
+    "index.circuit.json": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+    "artifacts/board.circuit.json": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+    "artifacts/nema14-gerbers.zip": "5aae65e8781af9e7e3f5eb7f2cb18fc07feec0af5e69c461ed30a62d11a15a42"
   },
   "hardware_fit_verified": false,
   "units_and_orientation_checked": true

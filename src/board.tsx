@@ -1,4 +1,5 @@
 import React from "react"
+import { Diagnostics } from "./diagnostics"
 import { MotorConnector } from "./motor-connector"
 import { pinProps } from "./pin-attributes"
 import { SupplierPart } from "./supplier-parts"
@@ -22,20 +23,20 @@ const resistor = (name:string,value:string,a:string,b:string) => <SupplierPart k
 const cap = (name:string,value:string,a:string,b="GND") => <SupplierPart key={name} name={name}  capacitance={value} {...capacitorSpecs(name)} {...place(name)} connections={{pin1:n(a),pin2:n(b)}} />
 
 export default function Nema14Controller({ routingDisabled = false }: { routingDisabled?: boolean } = {}) {
- return <board width={35} height={35} layers={2} thickness={1.6}
+ return <board isViaInPadAllowed width={35} height={35} layers={4} thickness={1.6}
   routingDisabled={routingDisabled} minTraceWidth={0.16} minTraceToPadEdgeClearance={0.15} minPadEdgeToPadEdgeClearance={0.15}
   minViaHoleDiameter={0.25} minViaPadDiameter={0.5} minBoardEdgeClearance={0.25}
   autorouter={{local:true, traceClearance:0.15}} autorouterEffortLevel="2x" schAutoLayoutEnabled>
   <schematicsheet name="NEMA14_CH32X035G8U6" sheetSize="A4">
-  {['GND','PD_VBUS','V3V3','LOGIC_IN','DATA_VBUS','PD_VDD','PD_CC1','PD_CC2','PD_LEGACY_DATA','DATA_CC1','DATA_CC2','USB_DP','USB_DM','STEP','DIR','ENABLE_N','SLEEP','PD_GOOD','DATA_PRESENT','DATA_BASE','VM_SENSE','VREF','CP1','CP2','VCP','VREG','SENSE1','SENSE2','A_PLUS','A_MINUS','B_PLUS','B_MINUS'].map(name=><React.Fragment key={name}><net name={name} isGroundNet={name==='GND'} isPowerNet={['PD_VBUS','V3V3','LOGIC_IN','DATA_VBUS','PD_VDD'].includes(name)} nominalTraceWidth={name==='PD_VBUS'?0.45:['A_PLUS','A_MINUS','B_PLUS','B_MINUS'].includes(name)?0.45:['SENSE1','SENSE2'].includes(name)?0.30:0.16} /></React.Fragment>)}
-  {[-13,13].flatMap(x=>[-13,13].map(y=><React.Fragment key={`${x},${y}`}><hole name={`M${x}_${y}`} pcbX={y>0?Math.sign(x)*14.8:x} pcbY={y} diameter={3.2} /><keepout pcbX={y>0?Math.sign(x)*14.8:x} pcbY={y} shape="circle" radius={2.7} excludeRefs={['.J_PD','.J_DATA']} layers={['top','bottom']} /><silkscreencircle pcbX={y>0?Math.sign(x)*14.8:x} pcbY={y} radius={2.7} strokeWidth={0.1} /></React.Fragment>))}
+  {['GND','PD_VBUS','V3V3','LOGIC_IN','DATA_VBUS','PD_VDD','PD_CC1','PD_CC2','PD_LEGACY_DATA','DATA_CC1','DATA_CC2','USB_DP','USB_DM','STEP','DIR','ENABLE_N','SLEEP','PD_GOOD','DATA_PRESENT','DATA_BASE','VM_SENSE','BUCK_SW','BUCK_BST','VREF','CP1','CP2','VCP','VREG','SENSE1','SENSE2','A_PLUS','A_MINUS','B_PLUS','B_MINUS'].map(name=><React.Fragment key={name}><net name={name} isGroundNet={name==='GND'} isPowerNet={['PD_VBUS','V3V3','LOGIC_IN','DATA_VBUS','PD_VDD'].includes(name)} nominalTraceWidth={name==='PD_VBUS'?0.45:['A_PLUS','A_MINUS','B_PLUS','B_MINUS'].includes(name)?0.45:['SENSE1','SENSE2'].includes(name)?0.30:0.16} /></React.Fragment>)}
+  {[-13,13].flatMap(x=>[-13,13].map(y=><React.Fragment key={`${x},${y}`}><hole name={`M${x}_${y}`} pcbX={y>0?Math.sign(x)*14.8:x} pcbY={y} diameter={3.2} /><keepout pcbX={y>0?Math.sign(x)*14.8:x} pcbY={y} shape="circle" radius={2.7} excludeRefs={['.J_PD','.J_DATA']} layers={['top','inner1','inner2','bottom']} /><silkscreencircle pcbX={y>0?Math.sign(x)*14.8:x} pcbY={y} radius={2.7} strokeWidth={0.1} /></React.Fragment>))}
   <SupplierPart name="J_PD" {...pinProps("J_PD")}    noConnect={['DP1','DP2','DN1','DN2','SBU1','SBU2']} {...place("J_PD")} connections={{...baseUsb,VBUS1:n('PD_VBUS'),VBUS2:n('PD_VBUS'),CC1:n('PD_CC1'),CC2:n('PD_CC2')}} />
   <SupplierPart name="J_DATA" {...pinProps("J_DATA")}    noConnect={['SBU1','SBU2']} {...place("J_DATA")} connections={{...baseUsb,VBUS1:n('DATA_VBUS'),VBUS2:n('DATA_VBUS'),CC1:n('DATA_CC1'),CC2:n('DATA_CC2'),DP1:n('USB_DP'),DP2:n('USB_DP'),DN1:n('USB_DM'),DN2:n('USB_DM')}} />
   <SupplierPart name="U_PD" {...pinProps("U_PD")}  pinLabels={pdPins} noConnect={['VBUS']} {...place("U_PD")} connections={{VDD:n('PD_VDD'),CFG2:n('PD_VDD'),CFG3:n('PD_VDD'),CFG1:n('GND'),DP:n('PD_LEGACY_DATA'),DM:n('PD_LEGACY_DATA'),CC1:n('PD_CC1'),CC2:n('PD_CC2'),PG:n('PD_GOOD'),GND:n('GND')}} />
   {resistor('R_PD','1k','PD_VBUS','PD_VDD')}
   {cap('C_PD','1uF','PD_VDD')}
   {resistor('R_PG','10k','V3V3','PD_GOOD')}
-  <SupplierPart name="U_MCU" {...pinProps("U_MCU")}  pinLabels={mcuPins} noConnect={['CC2_UNUSED','PC0','PC3','PA5','PA6','PA7','PB0','PB1','PB6','PB9','PB8','PB10','PB11','PB12','CC1_UNUSED','VM_ENABLE_N']} {...place("U_MCU")} connections={{VDD:n('V3V3'),GND:n('GND'),STEP:n('STEP'),DIR:n('DIR'),ENABLE_N:n('ENABLE_N'),SLEEP:n('SLEEP'),PD_GOOD:n('PD_GOOD'),DATA_PRESENT:n('DATA_PRESENT'),VM_SENSE:n('VM_SENSE'),USB_DM:n('USB_DM'),USB_DP:n('USB_DP'),DCK:'.J_DEBUG > .DCK',DIO:'.J_DEBUG > .DIO'}} />
+  <SupplierPart name="U_MCU" {...pinProps("U_MCU")}  pinLabels={mcuPins} noConnect={['CC2_UNUSED','PC0','PC3','PB6','PB9','PB8','PB10','PB11','PB12','CC1_UNUSED','VM_ENABLE_N']} {...place("U_MCU")} connections={{VDD:n('V3V3'),GND:n('GND'),PA5:n('TEMP_SCL'),PA6:n('TEMP_SDA'),PA7:n('BUZZER_PWM'),PB0:n('STATUS_N'),PB1:n('TEMP_ALERT_N'),STEP:n('STEP'),DIR:n('DIR'),ENABLE_N:n('ENABLE_N'),SLEEP:n('SLEEP'),PD_GOOD:n('PD_GOOD'),DATA_PRESENT:n('DATA_PRESENT'),VM_SENSE:n('VM_SENSE'),USB_DM:n('USB_DM'),USB_DP:n('USB_DP'),DCK:'.J_DEBUG > .DCK',DIO:'.J_DEBUG > .DIO'}} />
   {cap('C_MCU','100nF','V3V3')}
   {cap('C_LOGIC','4.7uF','V3V3','GND')}
   {resistor('R_CC1','5.1k','DATA_CC1','GND')}
@@ -47,11 +48,15 @@ export default function Nema14Controller({ routingDisabled = false }: { routingD
   {resistor('R_VM_L','10k','VM_SENSE','GND')}
   {resistor('R_VM_BLEED','470','VM_SENSE','GND')}
   {cap('C_VM_SENSE','10nF','VM_SENSE')}
-  <SupplierPart name="U_LDO" {...pinProps("U_LDO")}  pinLabels={{pin1:'GND',pin2:'VIN',pin3:'VOUT'}} {...place("U_LDO")} connections={{VIN:n('LOGIC_IN'),GND:n('GND'),VOUT:n('V3V3')}} />
+  <SupplierPart name="U_BUCK" {...pinProps("U_BUCK")} pinLabels={{pin1:'FB',pin2:'EN',pin3:'VIN',pin4:'GND',pin5:'SW',pin6:'BST'}} {...place("U_BUCK")} connections={{FB:n('V3V3'),EN:n('LOGIC_IN'),VIN:n('LOGIC_IN'),GND:n('GND'),SW:n('BUCK_SW'),BST:n('BUCK_BST')}} />
+  <SupplierPart name="L_BUCK" inductance="4.7uH" {...place("L_BUCK")} connections={{pin1:n('BUCK_SW'),pin2:n('V3V3')}} />
+  {cap('C_BOOTSTRAP','100nF','BUCK_BST','BUCK_SW')}
+  {cap('C_BUCK_IN','10uF','LOGIC_IN')}
+  {cap('C_BUCK_OUT1','22uF','V3V3')}
+  {cap('C_BUCK_OUT2','22uF','V3V3')}
+  {cap('C_BUCK_OUT3','22uF','V3V3')}
   <SupplierPart name="D_PD" {...place("D_PD")} connections={{anode:n('PD_VBUS'),cathode:n('LOGIC_IN')}} />
   <SupplierPart name="D_DATA" {...place("D_DATA")} connections={{anode:n('DATA_VBUS'),cathode:n('LOGIC_IN')}} />
-  {cap('C_LDO_IN','1uF','LOGIC_IN','GND')}
-  {cap('C_LDO_OUT','4.7uF','V3V3','GND')}
   <SupplierPart name="U_DRV" {...pinProps("U_DRV")}  pinLabels={driverPins} noConnect={['NC7','NC20','NC25']} {...place("U_DRV")} connections={{OUT1A:n('A_PLUS'),OUT1B:n('A_MINUS'),OUT2A:n('B_PLUS'),OUT2B:n('B_MINUS'),VBB1:n('PD_VBUS'),VBB2:n('PD_VBUS'),GND:n('GND'),GND18:n('GND'),EP:n('GND'),CP1:n('CP1'),CP2:n('CP2'),VCP:n('VCP'),VREG:n('VREG'),MS1:n('V3V3'),MS2:n('V3V3'),MS3:n('V3V3'),RESET_N:n('V3V3'),VDD:n('V3V3'),ROSC:n('GND'),STEP:n('STEP'),DIR:n('DIR'),ENABLE_N:n('ENABLE_N'),SLEEP:n('SLEEP'),REF:n('VREF'),SENSE1:n('SENSE1'),SENSE2:n('SENSE2')}} />
   {cap('C_CP','100nF','CP1','CP2')}
   {cap('C_VCP','100nF','VCP','PD_VBUS')}
@@ -73,10 +78,8 @@ export default function Nema14Controller({ routingDisabled = false }: { routingD
   <SupplierPart name="D_TVS" {...place("D_TVS")} connections={{pin1:n("GND"),pin2:n("PD_VBUS")}} />
   {resistor('R_USB_BOOT','4.7k','V3V3','.J_BOOT > .BOOT')}
   <chip name="J_BOOT" doNotPlace {...pinProps("J_BOOT")} cadModel={null} pinLabels={{pin1:'BOOT',pin2:'USB_DP'}} footprint={<footprint insertionDirection="from_above">{[-.4,.4].map((x,i)=><React.Fragment key={i}><smtpad portHints={[`pin${i+1}`]} pcbX={x} pcbY={0} width={.4} height={.6} shape="rect" /></React.Fragment>)}<courtyardrect width={1.4} height={.9} /></footprint>} pcbX={14.5} pcbY={8.4} connections={{USB_DP:n('USB_DP')}} />
-  <silkscreentext text="PD" pcbX={-1} pcbY={16.8} fontSize={0.7} layer="top" />
-  <silkscreentext text="15V" pcbX={-1} pcbY={15.7} fontSize={0.6} layer="top" />
-  <silkscreentext text="USB" pcbX={1} pcbY={16.8} fontSize={0.7} layer="top" />
-  <silkscreentext text="DATA" pcbX={1} pcbY={15.7} fontSize={0.6} layer="top" />
+  <silkscreentext text="PD" pcbX={-2} pcbY={17.2} fontSize={0.5} layer="top" />
+  <silkscreentext text="DATA" pcbX={1.65} pcbY={17.2} fontSize={0.5} layer="top" />
   <silkscreentext text="MOTOR" pcbX={4.8} pcbY={-14.1} fontSize={0.6} layer="top" />
   <silkscreentext text="PD 15V" pcbX={-7} pcbY={15.7} fontSize={0.7} layer="bottom" />
   <silkscreentext text="USB DATA" pcbX={7} pcbY={15.7} fontSize={0.7} layer="bottom" />
@@ -85,6 +88,7 @@ export default function Nema14Controller({ routingDisabled = false }: { routingD
   <silkscreentext text="2 A-" pcbX={-2.5} pcbY={-16.4} fontSize={0.7} layer="bottom" />
   <silkscreentext text="3 B+" pcbX={-0.5} pcbY={-16.4} fontSize={0.7} layer="bottom" />
   <silkscreentext text="4 B-" pcbX={1.5} pcbY={-16.4} fontSize={0.7} layer="bottom" />
+  <Diagnostics />
   <SchematicNotes />
   </schematicsheet>
  </board>

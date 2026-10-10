@@ -1,5 +1,5 @@
 {
-  "boardSha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "boardSha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "input": "artifacts/board.circuit.json",
   "exactNativePadsChecked": true,
   "nativeObjHashVerified": true,

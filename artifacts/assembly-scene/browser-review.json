@@ -1,14 +1,14 @@
 {
-  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "source_board_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "assembly_entry_sha256": "5ecc143996f43bb3ac9283e9168a19f27edf1d57a4bf6e8f3f9dfdd38615605a",
-  "installed_glb_sha256": "f57d285a27dd454bab49c170a89bb2fc4ffdb0960c6f0e859a8be0c4bb756a75",
-  "viewer_js_sha256": "c67182e736cb498670b9cefee55f4330428b2934c7de56c18bb3a090604d4506",
+  "installed_glb_sha256": "f02cd04beed946554e7bf161014408c0e26f5485e5a0232b689a81e42d3531b4",
+  "viewer_js_sha256": "4e4986c81e33dcce31278e164fde4c58d3c000d023775bb3c9cc3fe14a3546fa",
   "viewer_html_sha256": "1f28a5d584c39a92350a1826c232169ac272e1f4727ded43a248530a03b1c532",
   "renderer": "Chromium WebGL/SwiftShader; actual exported GLB and bundled Three.js viewer",
   "loaded": {
     "loaded": true,
-    "meshes": 17114,
-    "vertices": 745954,
+    "meshes": 22750,
+    "vertices": 838982,
     "bounds": [
       -24.600000381469727,
       -60.20000076293945,
@@ -31,27 +31,27 @@
     {
       "view": "isometric",
       "path": "artifacts/assembly-scene/isometric.png",
-      "sha256": "ab8af670a1ac0e71320b06bef2cec54522085eccb7d03f30a5345f30e2c083e1"
+      "sha256": "d82108e538dede25c0df1f0b26d2f23923c23c67e3da3696c14690cd6acb606f"
     },
     {
       "view": "top",
       "path": "artifacts/assembly-scene/top.png",
-      "sha256": "5fd5cd80484bcd920350fad956a7d51e8e6207ed98d44ed0b98e079b718911ed"
+      "sha256": "70825c273029adae6583944e8a8908474fd729dc093c40761f3c52b0c0383c72"
     },
     {
       "view": "side",
       "path": "artifacts/assembly-scene/side.png",
-      "sha256": "c45f5330987296ee1e81c82a02231d23cd93ea9b9e705dc783e8d82460b8d5d6"
+      "sha256": "9444a8b77937ddc01bb0b73e0eb50284fe725842398ce29d65b3c8e0144c9ebb"
     },
     {
       "view": "underside",
       "path": "artifacts/assembly-scene/underside.png",
-      "sha256": "c5b3cd815d75085f93ee7bbd84865d682fab788932af8b4dc6a20534bb30ceb0"
+      "sha256": "7b2d74210e5d2fb1898256fbe2c6abd2d308b71dd9a5181e7783167ad3642df5"
     },
     {
       "view": "controller",
       "path": "artifacts/assembly-scene/controller.png",
-      "sha256": "066cb84ce2005f2aa0de566f302a4ed908bad707276622fc63481b096798bbe3"
+      "sha256": "69161f9c33b3008d1dbb0b302ba7baa4e30ea097435dccf63be44184acd92eb6"
     }
   ],
   "page_errors": [],

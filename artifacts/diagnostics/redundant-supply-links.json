@@ -1,0 +1,62 @@
+{
+  "removed": [
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "diagnostics_5f9d83a8_trace_30_new_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 0.2094,
+          "y": 5.4985,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": -0.5758,
+          "y": 4.7133,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": -0.5758,
+          "y": -0.099,
+          "width": 0.16,
+          "layer": "inner2"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12",
+      "pcb_port_ids": [],
+      "source_trace_id": "source_trace_203",
+      "source_net_id": "source_net_2"
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "diagnostics_5f9d83a8_trace_36_new_0",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 12.3057,
+          "y": 3.093,
+          "width": 0.16,
+          "layer": "inner2"
+        },
+        {
+          "route_type": "wire",
+          "x": 12.3057,
+          "y": 7.7198,
+          "width": 0.16,
+          "layer": "inner2"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net12",
+      "pcb_port_ids": [],
+      "source_trace_id": "source_trace_203",
+      "source_net_id": "source_net_2"
+    }
+  ],
+  "reason": "Supply uses native anchored inner2 fill instead of redundant narrow supply bridges. All physical ports rechecked."
+}

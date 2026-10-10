@@ -1,6 +1,6 @@
 {
   "schema": "outer-power-routing-policy-1",
-  "sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
   "checksPassed": true,
   "errors": [],
   "rules": {
@@ -91,10 +91,13 @@
         "top"
       ],
       "mainMinimumWidthMm": 0.45,
-      "mainBranchedLengthMm": 76.16187528813035,
-      "allBranchedLengthMm": 85.03531093245493,
-      "totalThroughVias": 3,
+      "mainBranchedLengthMm": 103.26387586519125,
+      "allBranchedLengthMm": 110.88731150951584,
+      "totalThroughVias": 6,
       "viaIds": [
+        "diagnostics_445fb7a3_via_2",
+        "freerouted_via_10",
+        "freerouted_via_11",
         "inside_power_escape_U_DRV_VBB1_via",
         "inside_power_escape_C_VM2_pin1_via",
         "inside_motor_repair_net1_9_via0"
@@ -236,19 +239,6 @@
       "endsAtStandardViaOrFullWidthTopMain": true
     },
     {
-      "trace": "outer_usb_power_pin_escape_VBUS2",
-      "net": "PD_VBUS",
-      "kind": "bounded_native_pin_escape",
-      "reference": "J_PD",
-      "pin": "VBUS2",
-      "widthMm": 0.3,
-      "maximumLengthMm": 1.250001,
-      "lengthMm": 1.25,
-      "startsAtExactNativePin": true,
-      "endConnectionKind": "full_endcap_direct_top_main",
-      "endsAtStandardViaOrFullWidthTopMain": true
-    },
-    {
       "trace": "inside_power_escape_C_VM_pin1",
       "net": "PD_VBUS",
       "kind": "bounded_native_pin_escape",
@@ -276,6 +266,176 @@
     }
   ],
   "traces": [
+    {
+      "trace": "diagnostics_445fb7a3_trace_126_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 1.2103004394342813,
+      "exception": false
+    },
+    {
+      "trace": "diagnostics_445fb7a3_trace_127_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "bottom"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 5.021370745824729,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_137_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 1.2861999999999991,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_138_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 2.6341342848396954,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_139_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 1.5958999999999994,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_140_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 4.332167156012081,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_141_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "bottom"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 4.6822,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_142_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.8267000000000007,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_143_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.41973858531233454,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_144_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 2.4475999999999996,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_145_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 1.6185840979371067,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_146_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.9807000000000006,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_147_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 7.062521900801948,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_148_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 2.4397970773009203,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_149_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 6.61781197539543,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_150_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 4.524632034355964,
+      "exception": false
+    },
+    {
+      "trace": "freerouted_trace_151_new_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.5085838738653243,
+      "exception": false
+    },
     {
       "trace": "inside_phase_escape_A_PLUS",
       "net": "A_PLUS",
@@ -377,16 +537,6 @@
       "exception": true
     },
     {
-      "trace": "outer_usb_power_pin_escape_VBUS2",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.3,
-      "lengthMm": 1.25,
-      "exception": true
-    },
-    {
       "trace": "inside_power_escape_C_VM_pin1",
       "net": "PD_VBUS",
       "wireLayers": [
@@ -427,46 +577,6 @@
       "exception": false
     },
     {
-      "trace": "inside_motor_repair_net1_3",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.45,
-      "lengthMm": 11.105807220519477,
-      "exception": false
-    },
-    {
-      "trace": "inside_motor_repair_net1_4",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.45,
-      "lengthMm": 7.050200566873409,
-      "exception": false
-    },
-    {
-      "trace": "inside_motor_repair_net1_5",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.45,
-      "lengthMm": 5.729021238991545,
-      "exception": false
-    },
-    {
-      "trace": "inside_motor_repair_net1_6",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.45,
-      "lengthMm": 2.3815489269341046,
-      "exception": false
-    },
-    {
       "trace": "inside_motor_repair_net1_7",
       "net": "PD_VBUS",
       "wireLayers": [
@@ -474,16 +584,6 @@
       ],
       "minimumWidthMm": 0.45,
       "lengthMm": 9.870742684749574,
-      "exception": false
-    },
-    {
-      "trace": "inside_motor_repair_net1_8",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.45,
-      "lengthMm": 5.763759247312804,
       "exception": false
     },
     {
@@ -559,16 +659,6 @@
       "exception": false
     },
     {
-      "trace": "inside_motor_repair_net1_8x",
-      "net": "PD_VBUS",
-      "wireLayers": [
-        "top"
-      ],
-      "minimumWidthMm": 0.45,
-      "lengthMm": 8.401219330881979,
-      "exception": false
-    },
-    {
       "trace": "inside_motor_repair_net1_9",
       "net": "PD_VBUS",
       "wireLayers": [
@@ -587,6 +677,1886 @@
       ],
       "minimumWidthMm": 0.45,
       "lengthMm": 2.0863721030956723,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 2.395048000000001,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_1",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 1.3435028842544392,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_2",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_3",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.0707106781186545,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_4",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 3.3500000000000014,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_5",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_6",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_7",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_8",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_9",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_10",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_11",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_12",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.04999999999999716,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_13",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_14",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_15",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_16",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_17",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_18",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_19",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_20",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_21",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_22",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_23",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_24",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_25",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_26",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_27",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_28",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_29",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_30",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_31",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_32",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_85",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_86",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_87",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_88",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_89",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_90",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_91",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_92",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_93",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_94",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.04999999999999716,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_95",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_96",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_97",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_98",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_99",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_100",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_101",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_102",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_103",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_104",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_105",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_106",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_107",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_108",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_109",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_110",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_111",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905933039,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_112",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_113",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_114",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.04999999999999716,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_115",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_116",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_117",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905933039,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_118",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_119",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_120",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_121",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_122",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_123",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_3_seed_124",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025225314586738802,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_2",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_3",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_4",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_5",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_6",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_7",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_8",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 2.2249999999999996,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_9",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_10",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_11",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905933039,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_12",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_13",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_14",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_15",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_16",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_17",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_18",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_19",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_20",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_21",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_22",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_23",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_24",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_25",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_26",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_27",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_28",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.049999999999998934,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_29",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_30",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_31",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_32",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_33",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_34",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_35",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_36",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_37",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_38",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_39",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_40",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_41",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_42",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_43",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_44",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_45",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_46",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_4_seed_47",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_1",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_2",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_3",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_4",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.31819805153394465,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_5",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_6",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_7",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.049999999999998934,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_8",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_9",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_10",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_11",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_12",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_13",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_14",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_15",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_16",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_17",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.049999999999998934,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_18",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_19",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_20",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_21",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_22",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_23",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_5_seed_24",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_0",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.2828427124746218,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_1",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_2",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.21213203435596226,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_3",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_4",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_5",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_6",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_7",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_8",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_9",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_10",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_11",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.7749999999999986,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_12",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.6010407640085664,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_13",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_14",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_15",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_16",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_17",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_18",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_19",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_20",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8_seed_21",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.9250000000000007,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_1",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_32",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_33",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_34",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_35",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_36",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_37",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_38",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_39",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_40",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059325364,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_41",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.05000000000000071,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_42",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932913,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_43",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_44",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_45",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02500000000000213,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_46",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_63",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.02499999999999858,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_64",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.035355339059327875,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_65",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000000355,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_66",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_67",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 1.1500000000000004,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_68",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.03535533905932662,
+      "exception": false
+    },
+    {
+      "trace": "inside_motor_repair_net1_8x_seed_69",
+      "net": "PD_VBUS",
+      "wireLayers": [
+        "top"
+      ],
+      "minimumWidthMm": 0.45,
+      "lengthMm": 0.025000000000001243,
       "exception": false
     }
   ],

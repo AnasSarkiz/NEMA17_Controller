@@ -10,7 +10,7 @@ src={e['source_component_id']:e for e in j if e['type']=='source_component'};pcs
 circles=[e for e in j if e['type']=='pcb_keepout'];assert len(circles)==4
 port_ids={e['pcb_component_id'] for e in pcs.values() if src[e['source_component_id']]['name'] in ['J_PD','J_DATA']}
 for e in circles:
- assert e['shape']=='circle' and abs(e['radius']-2.7)<1e-6 and set(e['layers'])=={'top','bottom'}
+ assert e['shape']=='circle' and abs(e['radius']-2.7)<1e-6 and set(e['layers'])==({'top','bottom'} if next(b for b in j if b['type']=='pcb_board')['num_layers']==2 else {'top','inner1','inner2','bottom'})
  assert set(e.get('excluded_pcb_component_ids',[]))==port_ids,'Mounting keepout exclusions must target only the two independently checked USB native components'
 records=[]
 for name,x in [('J_PD',-7),('J_DATA',7)]:

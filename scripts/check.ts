@@ -88,8 +88,13 @@ const reviewedPhysicalPins:Record<string,Record<number,string>>={
  R_USB_SENSE_H:{1:'DATA_VBUS',2:'DATA_BASE'},R_USB_SENSE_L:{1:'V3V3',2:'DATA_PRESENT'},
  C_VM_SENSE:{1:'VM_SENSE',2:'GND'},
 }
-reviewedPhysicalPins.U_LDO={1:'GND',2:'LOGIC_IN',3:'V3V3'}
-reviewedPhysicalPins.U_MCU={2:'V3V3',5:'STEP',6:'DIR',7:'PD_GOOD',8:'DATA_PRESENT',9:'VM_SENSE',14:'ENABLE_N',15:'SLEEP',26:'USB_DM',27:'USB_DP',29:'GND'}
+reviewedPhysicalPins.U_TEMP={1:'TEMP_SCL',2:'GND',3:'TEMP_ALERT_N',4:'GND',5:'V3V3',6:'TEMP_SDA'}
+reviewedPhysicalPins.Q_BUZZER={1:'BUZZER_GATE',2:'GND',3:'BUZZER_SINK'}
+reviewedPhysicalPins.BZ_ALARM={1:'V3V3',2:'BUZZER_SINK'}
+reviewedPhysicalPins.D_BUZZER={1:'V3V3',2:'BUZZER_SINK'}
+reviewedPhysicalPins.D_STATUS={1:'STATUS_N',2:'LED_ANODE'}
+reviewedPhysicalPins.U_BUCK={1:'V3V3',2:'LOGIC_IN',3:'LOGIC_IN',4:'GND',5:'BUCK_SW',6:'BUCK_BST'}
+reviewedPhysicalPins.U_MCU={10:'TEMP_SCL',11:'TEMP_SDA',12:'BUZZER_PWM',13:'STATUS_N',16:'TEMP_ALERT_N',2:'V3V3',5:'STEP',6:'DIR',7:'PD_GOOD',8:'DATA_PRESENT',9:'VM_SENSE',14:'ENABLE_N',15:'SLEEP',26:'USB_DM',27:'USB_DP',29:'GND'}
 for(const [reference,pins] of Object.entries(reviewedPhysicalPins)) {
  const component=json.find((e:any)=>e.type==='source_component' && e.name===reference)
  for(const [pin,netName] of Object.entries(pins)) {
@@ -100,7 +105,7 @@ for(const [reference,pins] of Object.entries(reviewedPhysicalPins)) {
 }
 const mcu=sourceComponents.find((e:any)=>e.name==='U_MCU')
 if(mcu?.manufacturer_part_number!=='CH32X035G8U6') unique.push({type:'validation_error',message:'Expected CH32X035G8U6 in this separate project.'})
-for(const pin of [1,3,4,10,11,12,13,16,17,18,19,20,21,22,23,28]) {
+for(const pin of [1,3,4,17,18,19,20,21,22,23,28]) {
  const port=json.find((e:any)=>e.type==='source_port' && e.source_component_id===mcu?.source_component_id && e.pin_number===pin)
  if(!port?.do_not_connect) unique.push({type:'validation_error',message:`Unused CH32 physical pin ${pin} must be explicitly NC.`})
 }
@@ -110,7 +115,7 @@ for(const [mcuPin,debugPin] of [[24,3],[25,4]]) {
  const b=json.find((e:any)=>e.type==='source_port' && e.source_component_id===debug?.source_component_id && e.pin_number===debugPin)
  if(!a?.subcircuit_connectivity_map_key || a.subcircuit_connectivity_map_key!==b?.subcircuit_connectivity_map_key) unique.push({type:'validation_error',message:`CH32 physical pin ${mcuPin} must connect to debug pad ${debugPin}.`})
 }
-if(board?.num_layers!==2) unique.push({type:'validation_error',message:'Expected two copper layers in the CH32 board.'})
+if(board?.num_layers!==4) unique.push({type:'validation_error',message:'Expected four copper layers for the CH32 diagnostics revision.'})
 if(json.some((e:any)=>e.type==='pcb_component' && e.layer!=='top')) unique.push({type:'validation_error',message:'Component assembly must be top-side only.'})
 for(const reference of ['J_DEBUG','J_BOOT']) {
  const sc=sourceComponents.find((e:any)=>e.name===reference)

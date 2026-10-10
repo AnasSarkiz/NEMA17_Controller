@@ -1,8 +1,8 @@
 {
-  "source_board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
-  "asset_manifest_sha256": "93cbd941d365eb3b99dc980d4ad7b17ee5ff8be61acd72edc36945039805f155",
-  "installed_glb_sha256": "f57d285a27dd454bab49c170a89bb2fc4ffdb0960c6f0e859a8be0c4bb756a75",
-  "bytes": 38156588,
+  "source_board_sha256": "645d9b85de8dc88191b946ef59a1315769fbab5ee8ad2b12a2c3d1d56374ec45",
+  "asset_manifest_sha256": "d7af17effaed832c06ed326885260a3548c1b163c85c708e0506f05c555d3e29",
+  "installed_glb_sha256": "f02cd04beed946554e7bf161014408c0e26f5485e5a0232b689a81e42d3531b4",
+  "bytes": 45656092,
   "group_names": [
     "CONTROLLER",
     "MOTOR",
@@ -13,8 +13,8 @@
     "PD_CABLE",
     "DATA_CABLE"
   ],
-  "meshes": 17114,
-  "triangles": 1079102,
+  "meshes": 22750,
+  "triangles": 1185670,
   "rendered_gltf_bounds_mm": [
     -24.6,
     -60.2,
