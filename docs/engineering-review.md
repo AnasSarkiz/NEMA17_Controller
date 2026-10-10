@@ -61,3 +61,7 @@ Final tolerance correction: use the22.15±0.05mm locating bore and4.1±0.05mm fr
 HAR-002 factory lead routing now continues the four actual native-CAD stub endpoints (modelOD0.945226mm) through a separate12mm-radius loop to the insulated splice envelopes. CAD-derived stock diameters/colors do not establish actual lead gauge/material; continuity and stock/bend/temperature/pull qualification remain required. Trim supplied300±10mm leads only after measuring the drawing path and retaining stripping/lap slack. Splice insulation candidate isTE RaychemRT-375-1/8-X with required150°C certificate and qualified recoveredassemblyOD≤2.8mm. HC-001 now24×14×6mm, linerOD11mm, borecentersX±3.5/Y−42±1.3, carrierboreØ10mm; seat bottomZ−2.8mm flush with crossbar and useM2.5×10 screws with4mm nominal metalengagement.
 
 The inward JST revision and required body-edge/plug-access checks are documented in [inside-board-jst](inside-board-jst.md). Fabricate only from its current manifest-bound artifacts.
+
+## Verified outer-layer routing revision
+
+See [outer-power-routing.md](outer-power-routing.md) for the current exact widths, bounded pin/leaf exceptions, actual plated-drill path counts and quantified sense-path parasitics. The saved-copper build rule and independently parsed CAM strip/net/clearance checks pass for the bound source. Retained phase vias and hardware/process qualification are explicitly documented.

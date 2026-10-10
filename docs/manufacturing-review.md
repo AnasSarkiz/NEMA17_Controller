@@ -2,7 +2,7 @@
 
 Status: **prototype candidate; USER_REVIEW for fabrication and assembly release**. No supplier upload, order, payment, tscircuit publication or production qualification is authorized by this review.
 
-Independent CAM audit: **PASS** against source SHA-256 `8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a`. This describes offline CAM consistency, not production qualification or supplier approval.
+Independent CAM audit: **PASS** against source SHA-256 `cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e`. This describes offline CAM consistency, not production qualification or supplier approval.
 
 ## Actual-file evidence and corrections
 
@@ -58,6 +58,6 @@ The exact native MPN/footprint/STEP files, pin labels and center convention prov
 
 Final physical CAM result: 37 named nets, 0 shorts, 0 opens, 0 missing pads. See `artifacts/manufacturing/audit.json` for every layer's source comparison, actual tool histogram, unassigned island classification, paste coverage and clearances.
 
-Actual finished-CAM minimum spacing between distinct electrical conductors is top: 0.150353 mm, bottom: 0.151610 mm. The declared 0.15 mm clearance screen allows only the documented 0.0002 mm parser/coordinate tolerance; same-net copper is excluded and native no-connect pads remain separate conductors. Fixed native footprint constraints, if any, require separately documented review.
+Actual finished-CAM minimum spacing between distinct electrical conductors is top: 0.150400 mm, bottom: 0.151622 mm. The declared 0.15 mm clearance screen allows only the documented 0.0002 mm parser/coordinate tolerance; same-net copper is excluded and native no-connect pads remain separate conductors. Fixed native footprint constraints, if any, require separately documented review.
 
 Independent monochrome renders of each copper layer are in `artifacts/manufacturing/independent-render/` (white = copper, black = clear/background). Baseline copper renders are preserved separately. Soldering quality, filled/capped via quality, slot interpretation, stencil release, X-ray QFN voiding, supplier placement interpretation, exact assembled clearance, prices and shipping remain unverified physical/supplier gates. Follow `docs/bringup-checklist.md` for current-limited power-up and qualification. This package is a reviewable prototype candidate and must not be described as production-ready.

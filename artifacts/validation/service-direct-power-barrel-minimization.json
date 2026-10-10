@@ -1,0 +1,132 @@
+{
+  "source_before_sha256": "9fee2a6d4bf2eee72bf44e795c3e4984d57bdbbd40f123c205dec0a7caa6db3d",
+  "source_after_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
+  "removed": [
+    {
+      "removed_barrel": {
+        "type": "pcb_via",
+        "pcb_via_id": "inside_power_escape_U_DRV_VBB2_via",
+        "pcb_trace_id": "inside_power_escape_U_DRV_VBB2",
+        "x": -2.1,
+        "y": -3.3,
+        "hole_diameter": 0.25,
+        "outer_diameter": 0.5,
+        "layers": [
+          "top",
+          "bottom"
+        ],
+        "tented_on_top": true,
+        "tented_on_bottom": true,
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+        "source_net_id": "source_net_1",
+        "source_trace_id": "source_trace_102",
+        "subcircuit_id": "subcircuit_source_group_0"
+      },
+      "native_pin_escape": "inside_power_escape_U_DRV_VBB2",
+      "full_native_escape_endcap_covered_by_top_main_0p45_Cu": true,
+      "remaining_PD_native_pad_islands": 1,
+      "every_remaining_PD_trace_and_via_anchored": true
+    },
+    {
+      "removed_barrel": {
+        "type": "pcb_via",
+        "pcb_via_id": "outer_usb_power_pin_escape_VBUS1_via",
+        "pcb_trace_id": "outer_usb_power_pin_escape_VBUS1",
+        "x": -9.4001603,
+        "y": 9.1258263,
+        "outer_diameter": 0.5,
+        "hole_diameter": 0.25,
+        "layers": [
+          "top",
+          "bottom"
+        ],
+        "tented_on_top": true,
+        "tented_on_bottom": true,
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+        "source_net_id": "source_net_1",
+        "source_trace_id": "source_trace_6",
+        "subcircuit_id": "subcircuit_source_group_0"
+      },
+      "native_pin_escape": "outer_usb_power_pin_escape_VBUS1",
+      "full_native_escape_endcap_covered_by_top_main_0p45_Cu": true,
+      "remaining_PD_native_pad_islands": 1,
+      "every_remaining_PD_trace_and_via_anchored": true
+    },
+    {
+      "removed_barrel": {
+        "type": "pcb_via",
+        "pcb_via_id": "outer_usb_power_pin_escape_VBUS2_via",
+        "pcb_trace_id": "outer_usb_power_pin_escape_VBUS2",
+        "x": -4.6000429,
+        "y": 9.1259914,
+        "outer_diameter": 0.5,
+        "hole_diameter": 0.25,
+        "layers": [
+          "top",
+          "bottom"
+        ],
+        "tented_on_top": true,
+        "tented_on_bottom": true,
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+        "source_net_id": "source_net_1",
+        "source_trace_id": "source_trace_7",
+        "subcircuit_id": "subcircuit_source_group_0"
+      },
+      "native_pin_escape": "outer_usb_power_pin_escape_VBUS2",
+      "full_native_escape_endcap_covered_by_top_main_0p45_Cu": true,
+      "remaining_PD_native_pad_islands": 1,
+      "every_remaining_PD_trace_and_via_anchored": true
+    },
+    {
+      "removed_barrel": {
+        "type": "pcb_via",
+        "pcb_via_id": "inside_power_escape_C_VM_pin1_via",
+        "pcb_trace_id": "inside_power_escape_C_VM_pin1",
+        "x": -4.35,
+        "y": -7.3,
+        "outer_diameter": 0.5,
+        "hole_diameter": 0.25,
+        "layers": [
+          "top",
+          "bottom"
+        ],
+        "tented_on_top": true,
+        "tented_on_bottom": true,
+        "subcircuit_id": "subcircuit_source_group_0",
+        "source_net_id": "source_net_1",
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+        "source_trace_id": "source_trace_131"
+      },
+      "native_pin_escape": "inside_power_escape_C_VM_pin1",
+      "full_native_escape_endcap_covered_by_top_main_0p45_Cu": true,
+      "remaining_PD_native_pad_islands": 1,
+      "every_remaining_PD_trace_and_via_anchored": true
+    },
+    {
+      "removed_barrel": {
+        "type": "pcb_via",
+        "pcb_via_id": "inside_power_escape_C_VCP_pin2_via",
+        "pcb_trace_id": "inside_power_escape_C_VCP_pin2",
+        "x": -4.175,
+        "y": -10.45,
+        "outer_diameter": 0.5,
+        "hole_diameter": 0.25,
+        "layers": [
+          "top",
+          "bottom"
+        ],
+        "tented_on_top": true,
+        "tented_on_bottom": true,
+        "subcircuit_id": "subcircuit_source_group_0",
+        "source_net_id": "source_net_1",
+        "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+        "source_trace_id": "source_trace_126"
+      },
+      "native_pin_escape": "inside_power_escape_C_VCP_pin2",
+      "full_native_escape_endcap_covered_by_top_main_0p45_Cu": true,
+      "remaining_PD_native_pad_islands": 1,
+      "every_remaining_PD_trace_and_via_anchored": true
+    }
+  ],
+  "method": "Remove only redundant native PD fanout barrels with a complete endcap contact to >=0.45mm TOP main copper, no layer-transition descriptor and unchanged one-island/all-remaining-trace native physical connectivity. No pad/trace widths or paths are changed. Native DRC and actual CAM/drill validation must pass again."
+}

@@ -1,1 +1,45 @@
-[]
+[
+  {
+    "net": "GND",
+    "route": [
+      {
+        "route_type": "wire",
+        "x": 0.253677287525381,
+        "y": 2.8899,
+        "width": 0.16,
+        "layer": "top"
+      },
+      {
+        "route_type": "wire",
+        "x": 0.22500000000000142,
+        "y": 2.9250000000000007,
+        "width": 0.16,
+        "layer": "top"
+      },
+      {
+        "route_type": "via",
+        "x": 0.22500000000000142,
+        "y": 2.9250000000000007,
+        "from_layer": "top",
+        "to_layer": "bottom",
+        "via_diameter": 0.4,
+        "via_hole_diameter": 0.2
+      },
+      {
+        "route_type": "wire",
+        "x": 0.22500000000000142,
+        "y": 2.9250000000000007,
+        "width": 0.16,
+        "layer": "bottom"
+      },
+      {
+        "route_type": "wire",
+        "x": 0.11329777119828621,
+        "y": 2.817312058152651,
+        "width": 0.16,
+        "layer": "bottom"
+      }
+    ],
+    "expandedNodes": 3240
+  }
+]

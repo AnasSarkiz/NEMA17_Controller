@@ -1,0 +1,87 @@
+{
+  "commit": "67e914b9bc8a2429639bf24c7ae9a2120c5cfd39",
+  "board_sha256": "8e0d954cef6d148962e09312a51246b1288ce60ac6c326b6c2865c7ef297fb1a",
+  "nets": [
+    {
+      "net": "A_PLUS",
+      "branched_length_mm_by_layer": {
+        "top": 1.7023339754360305,
+        "bottom": 13.61659992311072
+      },
+      "minimum_trace_width_mm": 0.3,
+      "through_vias": [
+        "inside_phase_via_A_PLUS",
+        "inside_motor_repair_net25_0_via0"
+      ]
+    },
+    {
+      "net": "A_MINUS",
+      "branched_length_mm_by_layer": {
+        "top": 8.305208790187178,
+        "bottom": 4.350304832720492
+      },
+      "minimum_trace_width_mm": 0.2,
+      "through_vias": [
+        "inside_phase_via_A_MINUS",
+        "inside_motor_repair_net26_0_via0"
+      ]
+    },
+    {
+      "net": "B_PLUS",
+      "branched_length_mm_by_layer": {
+        "top": 3.1329748796986374,
+        "bottom": 9.177386360737625
+      },
+      "minimum_trace_width_mm": 0.3,
+      "through_vias": [
+        "inside_phase_via_B_PLUS",
+        "inside_motor_repair_net27_0_via0",
+        "inside_motor_repair_net27_0_via1"
+      ]
+    },
+    {
+      "net": "B_MINUS",
+      "branched_length_mm_by_layer": {
+        "top": 1.0501050000000003,
+        "bottom": 10.624416339882606
+      },
+      "minimum_trace_width_mm": 0.3,
+      "through_vias": [
+        "inside_phase_via_B_MINUS"
+      ]
+    },
+    {
+      "net": "PD_VBUS",
+      "branched_length_mm_by_layer": {
+        "top": 66.0117982637722,
+        "bottom": 12.96086162231529
+      },
+      "minimum_trace_width_mm": 0.3,
+      "through_vias": [
+        "freerouted_via_10",
+        "service_usb_repair_net1_0_via0",
+        "service_usb_repair_net1_0_via1",
+        "inside_power_escape_U_DRV_VBB1_via",
+        "inside_power_escape_U_DRV_VBB2_via",
+        "inside_power_escape_C_VM2_pin1_via"
+      ]
+    },
+    {
+      "net": "SENSE1",
+      "branched_length_mm_by_layer": {
+        "top": 2.0414279313883545
+      },
+      "minimum_trace_width_mm": 0.3,
+      "through_vias": []
+    },
+    {
+      "net": "SENSE2",
+      "branched_length_mm_by_layer": {
+        "top": 2.04142795596996
+      },
+      "minimum_trace_width_mm": 0.3,
+      "through_vias": []
+    }
+  ],
+  "finding": "Native DRC/CAM electrical consistency did not enforce the user outer-layer and main-route-width rule. Previous PASS reports do not establish compliance with that rule."
+}

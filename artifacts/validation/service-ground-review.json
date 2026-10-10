@@ -3,39 +3,56 @@
   "layerChanges": [
     {
       "layer": "top",
-      "changedAreaMm2": 131.829056142479,
-      "usbRegionChangedAreaMm2": 38.07972448617206
+      "changedAreaMm2": 161.8004724809981,
+      "usbRegionChangedAreaMm2": 37.378536364523185
     },
     {
       "layer": "bottom",
-      "changedAreaMm2": 167.75589181788197,
-      "usbRegionChangedAreaMm2": 31.837488088278267
+      "changedAreaMm2": 195.5912281559346,
+      "usbRegionChangedAreaMm2": 33.42896984035387
     }
   ],
   "floatingPourFragmentsRemoved": [
     "service_gnd_bottom_1",
-    "service_gnd_bottom_12",
     "service_gnd_bottom_13",
-    "service_gnd_bottom_4",
+    "service_gnd_bottom_14",
+    "service_gnd_bottom_15",
+    "service_gnd_bottom_16",
+    "service_gnd_bottom_17",
+    "service_gnd_bottom_18",
+    "service_gnd_bottom_19",
+    "service_gnd_bottom_20",
+    "service_gnd_bottom_22",
+    "service_gnd_bottom_23",
     "service_gnd_bottom_5",
     "service_gnd_bottom_6",
     "service_gnd_bottom_7",
-    "service_gnd_bottom_9",
+    "service_gnd_bottom_8",
+    "service_gnd_top_10",
+    "service_gnd_top_11",
+    "service_gnd_top_12",
+    "service_gnd_top_13",
     "service_gnd_top_14",
-    "service_gnd_top_16",
-    "service_gnd_top_17",
-    "service_gnd_top_19",
+    "service_gnd_top_15",
     "service_gnd_top_21",
-    "service_gnd_top_22",
-    "service_gnd_top_23",
-    "service_gnd_top_24",
-    "service_gnd_top_25",
-    "service_gnd_top_26",
-    "service_gnd_top_29",
-    "service_gnd_top_7",
-    "service_gnd_top_8"
+    "service_gnd_top_28",
+    "service_gnd_top_3",
+    "service_gnd_top_30",
+    "service_gnd_top_32",
+    "service_gnd_top_33",
+    "service_gnd_top_35",
+    "service_gnd_top_36",
+    "service_gnd_top_38",
+    "service_gnd_top_40",
+    "service_gnd_top_41",
+    "service_gnd_top_42",
+    "service_gnd_top_44",
+    "service_gnd_top_47",
+    "service_gnd_top_5",
+    "service_gnd_top_6",
+    "service_gnd_top_7"
   ],
   "obsoleteMotorCopperFragmentsRemoved": [],
   "allCopperConnectivityStillRequiresIndependentAudit": true,
-  "boardSha256": "5083c2d00bf160a2e64d3f579adff6dd539ea895b048f3643e4f1db4409c358e"
+  "boardSha256": "f5fe251bd8ec5d420a39a61379f8912a7f9b9e59c79b5a302be8965cd478f6e0"
 }

@@ -1,0 +1,79 @@
+{
+  "removedRecords": [
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "service_usb_repair_net0_14",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": -9.075,
+          "y": 6.700000000000003,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -9.075,
+          "y": 8.650000000000002,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -9.925,
+          "y": 9.5,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -9.925,
+          "y": 9.525000000000002,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -9.975,
+          "y": 9.575000000000003,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -9.975,
+          "y": 9.625,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -10.0,
+          "y": 9.650000000000002,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -10.0,
+          "y": 10.175,
+          "width": 0.16,
+          "layer": "top"
+        },
+        {
+          "route_type": "wire",
+          "x": -10.2000063,
+          "y": 10.375826300000002,
+          "width": 0.16,
+          "layer": "top"
+        }
+      ],
+      "pcb_port_ids": [],
+      "source_trace_id": "source_trace_163",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "source_net_id": "source_net_0"
+    }
+  ],
+  "reason": "Reserve current-sense paths before PD main branches and remove exactly conflicting old ground corridor; reconnect all native pads independently."
+}

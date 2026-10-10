@@ -3,235 +3,175 @@
   "rounding_grid_mm": 1e-06,
   "pours": [
     {
-      "pour": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_simple_0_inside_0_usbclear_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0",
+      "pour": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_simple_0_inside_0_usbclear_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 1.4135448060426614e-08
+      "union_delta_mm2": 2.6295329610372607e-07
     },
     {
       "pour": "service_gnd_top_0_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 4.2183645031311246e-07
+      "union_delta_mm2": 2.1072589780753014e-05
     },
     {
       "pour": "service_gnd_top_0_usbclear_0_simple_1_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 5.066653675295466e-07
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_2_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 6.686215763378772e-08
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_3_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.3946040986586439e-08
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_4_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 3.7800351250572245e-07
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_5_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 4.3584356458786615e-07
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_6_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 5.739412146999417e-06
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_7_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 3.7800351253291703e-07
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_8_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 2.7082494754488302e-06
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_9_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 0.0
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_10_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.7264255158874443e-06
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_11_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.3578594076106112e-06
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_12_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.1288275966722201e-09
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_13_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.1288275971877546e-09
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_14_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 2.087626213955033e-06
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_15_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 0.0
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_16_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.794127832008222e-06
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_17_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 7.155323965286646e-07
-    },
-    {
-      "pour": "service_gnd_top_0_usbclear_0_simple_18_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 7.639249820610166e-06
     },
     {
       "pour": "service_gnd_top_1_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 8.241931941799563e-07
+      "union_delta_mm2": 4.806382482500123e-07
     },
     {
       "pour": "service_gnd_top_2_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 2.1255817731849534e-07
+      "union_delta_mm2": 9.620691324936518e-07
     },
     {
-      "pour": "service_gnd_top_3_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_4_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 1.2511315774955772e-06
+      "union_delta_mm2": 1.214648651352243e-06
     },
     {
-      "pour": "service_gnd_top_5_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_4_usbclear_0_simple_1_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 3.698308282959859e-07
+      "union_delta_mm2": 5.343630493537141e-06
     },
     {
-      "pour": "service_gnd_top_6_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_4_usbclear_0_simple_2_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 2.2539913170852278e-07
+      "union_delta_mm2": 5.892239530322136e-06
+    },
+    {
+      "pour": "service_gnd_top_8_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 3.698308282900445e-07
     },
     {
       "pour": "service_gnd_top_9_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 2.2539913170482632e-07
     },
     {
-      "pour": "service_gnd_top_10_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_16_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 4.1972463689440447e-07
     },
     {
-      "pour": "service_gnd_top_11_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_17_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 7.731063126491855e-08
     },
     {
-      "pour": "service_gnd_top_12_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_18_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 3.355034393258836e-07
+      "union_delta_mm2": 2.5080609803658514e-06
     },
     {
-      "pour": "service_gnd_top_15_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_top_19_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 4.589744480337233e-06
+      "union_delta_mm2": 5.354978788480169e-07
+    },
+    {
+      "pour": "service_gnd_top_20_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 7.713969523632318e-07
+    },
+    {
+      "pour": "service_gnd_top_22_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 2.0352367344497793e-07
+    },
+    {
+      "pour": "service_gnd_top_24_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 2.0352367340849924e-07
+    },
+    {
+      "pour": "service_gnd_top_25_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 4.5912246858742153e-07
+    },
+    {
+      "pour": "service_gnd_top_43_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 2.0203140051155524e-07
     },
     {
       "pour": "service_gnd_bottom_0_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 1.0436795614432592e-07
+      "union_delta_mm2": 3.688172209844096e-06
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 4.849889098387777e-07
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_1_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 1.9515007501420984e-08
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_2_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 6.917874153797146e-07
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_3_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 7.979603948091178e-06
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_4_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 0.0
+      "union_delta_mm2": 4.2990937348021667e-07
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_5_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 5.790523190709363e-06
+      "union_delta_mm2": 2.866775692170951e-06
     },
     {
       "pour": "service_gnd_bottom_2_usbclear_0_simple_6_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 3.009762590353294e-08
-    },
-    {
-      "pour": "service_gnd_bottom_2_usbclear_0_simple_7_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 1.2099364564209297e-07
-    },
-    {
-      "pour": "service_gnd_bottom_2_usbclear_0_simple_8_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 6.791328878364616e-07
-    },
-    {
-      "pour": "service_gnd_bottom_2_usbclear_0_simple_9_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 3.2704439785093905e-07
-    },
-    {
-      "pour": "service_gnd_bottom_2_usbclear_0_simple_10_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 7.866242692788784e-07
-    },
-    {
-      "pour": "service_gnd_bottom_2_usbclear_0_simple_11_usbclear_0",
-      "parts": 1,
-      "union_delta_mm2": 2.3773503153712204e-06
+      "union_delta_mm2": 1.585752404639294e-06
     },
     {
       "pour": "service_gnd_bottom_3_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 2.5544514342030305e-06
+      "union_delta_mm2": 4.84576424091281e-07
     },
     {
-      "pour": "service_gnd_bottom_8_usbclear_0_simple_0_usbclear_0",
+      "pour": "service_gnd_bottom_9_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 3.0616460328857412e-06
+      "union_delta_mm2": 7.011512572856165e-07
+    },
+    {
+      "pour": "service_gnd_bottom_9_usbclear_0_simple_1_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 8.398332415931659e-07
+    },
+    {
+      "pour": "service_gnd_bottom_9_usbclear_0_simple_2_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 3.0856473346245785e-06
     },
     {
       "pour": "service_gnd_bottom_10_usbclear_0_simple_0_usbclear_0",
       "parts": 1,
-      "union_delta_mm2": 1.0894378940560625e-06
+      "union_delta_mm2": 2.2419354630511973e-06
+    },
+    {
+      "pour": "service_gnd_bottom_11_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 7.6211963050953645e-06
+    },
+    {
+      "pour": "service_gnd_bottom_12_usbclear_0_simple_0_usbclear_0",
+      "parts": 1,
+      "union_delta_mm2": 1.9741439368606534e-07
     }
   ],
-  "boardSha256": "1d5f57e50f7fefe7240b63d4e2801de307bf2d4d6aa1fc189937a6b9cdc75e02"
+  "boardSha256": "86b49b163b34093a2253d9eae01ac5cf7f8db8a2cd541da86a7401b176ffbf66"
 }

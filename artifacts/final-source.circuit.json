@@ -354,7 +354,7 @@
     "member_source_group_ids": [],
     "is_ground": false,
     "is_power": false,
-    "trace_width": 0.45,
+    "trace_width": 0.3,
     "is_positive_voltage_source": false,
     "subcircuit_id": "subcircuit_source_group_0",
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net34"
@@ -366,7 +366,7 @@
     "member_source_group_ids": [],
     "is_ground": false,
     "is_power": false,
-    "trace_width": 0.45,
+    "trace_width": 0.3,
     "is_positive_voltage_source": false,
     "subcircuit_id": "subcircuit_source_group_0",
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net35"
