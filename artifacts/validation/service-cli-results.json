@@ -1,6 +1,6 @@
 {
   "source_entry_sha256": "15ad1f5d90399ab207943f34bde5b8abbd5880aacd293de7e3e51d480752cedb",
-  "prepared_source_sha256": "efd1ac1b7653838fca1bc53eda52b7553c41a1992c3bda7b2998ea5c0e47f768",
+  "prepared_source_sha256": "6ee1aa7919c35dea76a0a8f1b0ec9a28b733f63b3caf3dc880a7d3fb977237c1",
   "commands": [
     {
       "name": "netlist",
@@ -12,7 +12,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-netlist.txt",
-      "output_sha256": "796471d80c7c32e7400ac240b2d26bb3a232243e8b90b28018dd040d80881485"
+      "output_sha256": "a5006472892fa2eb0370a4d8ce0bbe7038634541d533891c5e4095a7f05853ea"
     },
     {
       "name": "pin-specification",
@@ -36,7 +36,7 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-source.txt",
-      "output_sha256": "4a81675ec1cab690f65a20a7bfe42b8e04786a03d4335386b77f38ff644bcd1e"
+      "output_sha256": "3693166922ee3d7d9992d9422041d01710460a07369b5b79b43c1e2bbc200065"
     },
     {
       "name": "placement",
@@ -48,7 +48,7 @@
       ],
       "exit_code": 1,
       "output": "artifacts/validation/service-cli-placement.txt",
-      "output_sha256": "e316ec04e3055c48bfc5a605d0a8fbf2c5911a15f4b4f1c44ae231b891fa6ac3"
+      "output_sha256": "c937c40fb510a8d10fabb681eeefcd88001b08fe85c0eceb748739a30d296f65"
     },
     {
       "name": "schematic",
@@ -60,11 +60,8 @@
       ],
       "exit_code": 0,
       "output": "artifacts/validation/service-cli-schematic.txt",
-      "output_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "rerun_on_current_functional_schematic": true
+      "output_sha256": "9f299e02bf639e8a666484b072dcbc7a5770ab42393e3967bafd054669a55ae3"
     }
   ],
-  "placement_advisories_are_not_suppressed": true,
-  "previous_prepared_source_sha256": "d1aa91e0720225917972b1ab202b2aa9c63bbbd72977b8f2618b3bf737f07517",
-  "schematic_only_evidence_binding": "artifacts/validation/functional-schematic-invariance.json"
+  "placement_advisories_are_not_suppressed": true
 }

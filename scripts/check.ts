@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto"
 import { spawnSync } from "node:child_process"
 import { readFileSync, writeFileSync } from "node:fs"
 import { runAllChecks, checkViasInPads } from "@tscircuit/checks"
@@ -16,6 +17,8 @@ for (const type of ['pcb_trace','pcb_via','pcb_port','pcb_smtpad','pcb_plated_ho
  const ids=json.filter((e:any)=>e.type===type).map((e:any)=>e[type+'_id'])
  if(new Set(ids).size!==ids.length) unique.push({type:'validation_error',message:'Duplicate circuit record IDs: '+type})
 }
+const padAudit=spawnSync('/workspace/.routing-venv/bin/python',['scripts/audit-native-pad-traces.py'],{encoding:'utf8'})
+if(padAudit.status!==0)unique.push({type:'validation_error',message:'Independent native pad/trace audit failed: '+padAudit.stdout+padAudit.stderr})
 const warnings=checks.filter((e:any)=>e.type.endsWith('_warning'))
 const traceCount=json.filter((e:any)=>e.type==='pcb_trace').length
 if(traceCount===0) unique.push({type:'validation_error',message:'No routed copper was produced.'})
@@ -60,21 +63,18 @@ const resistance=(name:string)=>json.find((e:any)=>e.type==='source_component' &
 const vref=3.3*resistance('R_REF_L')/(resistance('R_REF_H')+resistance('R_REF_L')), current=vref/(8*resistance('R_SA'))
 if(!Number.isFinite(current) || resistance('R_SA')!==resistance('R_SB')) unique.push({type:'validation_error',message:'Missing or mismatched phase-current setting resistors.'})
 // REF leakage is guaranteed +/-3 uA. This component-only formula corner
-// is NOT a qualified phase-current bound: A4988 accuracy is unspecified at VREF~0.674 V.
+// is NOT a qualified phase-current bound: A4988 accuracy is unspecified at VREF~0.458 V.
 const rhMin=resistance('R_REF_H')*.99,rlMax=resistance('R_REF_L')*1.01
-const formulaHigh=(3.465*rlMax/(rhMin+rlMax)+3e-6*rhMin*rlMax/(rhMin+rlMax))/(8*resistance('R_SA')*.99)
-if(resistance('R_REF_H')!==3900 || resistance('R_REF_L')!==1000) unique.push({type:'validation_error',message:'Expected reviewed 3.9k/1k lower-impedance reference divider.'})
-// The switch input remains the original 1/11 divider when disabled.
-// When enabled, its 10k output bleed loads that divider: ADC scale is 21.
-// Ron=0 maximizes the output voltage; positive Ron only lowers it.
+const formulaHigh=(3.6*rlMax/(rhMin+rlMax)+3e-6*rhMin*rlMax/(rhMin+rlMax))/(8*resistance('R_SA')*.99)
+if(resistance('R_REF_H')!==6200 || resistance('R_REF_L')!==1000) unique.push({type:'validation_error',message:'Expected conservative 6.2k/1k reference divider; measured peak-current qualification remains required.'})
+// Always-passive low-voltage monitor protects the ADC even at zero VDD.
 const vmHighMin=resistance('R_VM_H')*.99,vmLowMax=resistance('R_VM_L')*1.01,vmBleedMax=resistance('R_VM_BLEED')*1.01
 const vmParallelMax=vmLowMax*vmBleedMax/(vmLowMax+vmBleedMax)
-const vmDividerInputWorst=35*vmLowMax/(vmHighMin+vmLowMax)
-const vmAdcWorst=35*vmParallelMax/(vmHighMin+vmParallelMax)
+const vmAdcWorst=35*vmParallelMax/(vmHighMin+vmParallelMax)+1e-6*vmBleedMax
+const vmDividerInputWorst=vmAdcWorst
 const vmParallelNominal=resistance('R_VM_L')*resistance('R_VM_BLEED')/(resistance('R_VM_L')+resistance('R_VM_BLEED'))
 const vmAdcScaleNominal=1+resistance('R_VM_H')/vmParallelNominal
-if(!Number.isFinite(vmDividerInputWorst) || vmDividerInputWorst>3.6) unique.push({type:'validation_error',message:'Disabled VM divider exceeds the switch 3.6 V powered-off port review limit at the arithmetic 35 V envelope.'})
-if(!Number.isFinite(vmAdcWorst) || vmAdcWorst>3.3 || vmAdcScaleNominal!==21) unique.push({type:'validation_error',message:'Loaded motor ADC transfer must be nominally VM/21 and stay below 3.3 V at the arithmetic 35 V envelope.'})
+if(!Number.isFinite(vmAdcWorst) || vmAdcWorst>.3 || Math.abs(vmAdcScaleNominal-(1+100000/(10000*470/10470)))>1e-8) unique.push({type:'validation_error',message:'Passive motor monitor must stay below powered-off0.3V with1% resistors and1uA leakage at the35V arithmetic screen.'})
 if(current>.4) unique.push({type:'validation_error',message:'Nominal phase current exceeds 0.4 A.'})
 const sourceComponents=json.filter((e:any)=>e.type==='source_component')
 // Physical-pin review of motor power, PD request, protection and reset defaults.
@@ -82,15 +82,14 @@ const reviewedPhysicalPins:Record<string,Record<number,string>>={
  U_PD:{1:'PD_VDD',2:'PD_VDD',3:'PD_VDD',6:'PD_CC2',7:'PD_CC1',4:'PD_LEGACY_DATA',5:'PD_LEGACY_DATA',9:'GND',10:'PD_GOOD',11:'GND'},
  U_DRV:{1:'B_MINUS',2:'ENABLE_N',3:'GND',4:'CP1',5:'CP2',6:'VCP',8:'VREG',9:'V3V3',10:'V3V3',11:'V3V3',12:'V3V3',13:'GND',14:'SLEEP',15:'V3V3',16:'STEP',17:'VREF',18:'GND',19:'DIR',21:'A_MINUS',22:'PD_VBUS',23:'SENSE1',24:'A_PLUS',26:'B_PLUS',27:'SENSE2',28:'PD_VBUS',29:'GND'},
  U_ESD:{1:'USB_DP',2:'GND',3:'USB_DM',4:'USB_DM',5:'DATA_VBUS',6:'USB_DP'},
- U_VM_ISO:{1:'VM_ENABLE_N',2:'VM_DIV',3:'GND',4:'VM_SENSE',5:'V3V3'},
  Q_DATA:{1:'DATA_BASE',2:'GND',3:'DATA_PRESENT'},
- R_VM_H:{1:'PD_VBUS',2:'VM_DIV'},R_VM_L:{1:'VM_DIV',2:'GND'},
- R_VM_EN:{1:'V3V3',2:'VM_ENABLE_N'},R_VM_BLEED:{1:'VM_SENSE',2:'GND'},
+ R_VM_H:{1:'PD_VBUS',2:'VM_SENSE'},R_VM_L:{1:'VM_SENSE',2:'GND'},
+ R_VM_BLEED:{1:'VM_SENSE',2:'GND'},
  R_USB_SENSE_H:{1:'DATA_VBUS',2:'DATA_BASE'},R_USB_SENSE_L:{1:'V3V3',2:'DATA_PRESENT'},
- C_VM_ISO:{1:'V3V3',2:'GND'},C_VM_SENSE:{1:'VM_SENSE',2:'GND'},
+ C_VM_SENSE:{1:'VM_SENSE',2:'GND'},
 }
 reviewedPhysicalPins.U_LDO={1:'GND',2:'LOGIC_IN',3:'V3V3'}
-reviewedPhysicalPins.U_MCU={2:'V3V3',5:'STEP',6:'DIR',7:'PD_GOOD',8:'DATA_PRESENT',9:'VM_SENSE',14:'ENABLE_N',15:'SLEEP',18:'VM_ENABLE_N',26:'USB_DM',27:'USB_DP',29:'GND'}
+reviewedPhysicalPins.U_MCU={2:'V3V3',5:'STEP',6:'DIR',7:'PD_GOOD',8:'DATA_PRESENT',9:'VM_SENSE',14:'ENABLE_N',15:'SLEEP',26:'USB_DM',27:'USB_DP',29:'GND'}
 for(const [reference,pins] of Object.entries(reviewedPhysicalPins)) {
  const component=json.find((e:any)=>e.type==='source_component' && e.name===reference)
  for(const [pin,netName] of Object.entries(pins)) {
@@ -101,7 +100,7 @@ for(const [reference,pins] of Object.entries(reviewedPhysicalPins)) {
 }
 const mcu=sourceComponents.find((e:any)=>e.name==='U_MCU')
 if(mcu?.manufacturer_part_number!=='CH32X035G8U6') unique.push({type:'validation_error',message:'Expected CH32X035G8U6 in this separate project.'})
-for(const pin of [1,3,4,10,11,12,13,16,17,19,20,21,22,23,28]) {
+for(const pin of [1,3,4,10,11,12,13,16,17,18,19,20,21,22,23,28]) {
  const port=json.find((e:any)=>e.type==='source_port' && e.source_component_id===mcu?.source_component_id && e.pin_number===pin)
  if(!port?.do_not_connect) unique.push({type:'validation_error',message:`Unused CH32 physical pin ${pin} must be explicitly NC.`})
 }
@@ -121,17 +120,19 @@ for(const reference of ['J_DEBUG','J_BOOT']) {
 const pdSource=json.find((e:any)=>e.type==='source_component' && e.name==='U_PD')
 const pdSense=json.find((e:any)=>e.type==='source_port' && e.source_component_id===pdSource?.source_component_id && e.pin_number===8)
 if(!pdSense?.do_not_connect) unique.push({type:'validation_error',message:'CH224K physical pin8 VBUS must be explicitly NC in documented PD-only configuration.'})
-for(const [ref,expected] of [['R_ENABLE',10000],['R_SLEEP',10000],['R_VM_H',100000],['R_VM_L',10000],['R_VM_EN',10000],['R_VM_BLEED',10000],['R_USB_SENSE_H',10000],['R_USB_SENSE_L',10000]] as const)
+for(const [ref,expected] of [['R_ENABLE',10000],['R_SLEEP',10000],['R_VM_H',100000],['R_VM_L',10000],['R_VM_BLEED',470],['R_USB_SENSE_H',10000],['R_USB_SENSE_L',10000]] as const)
  if(resistance(ref)!==expected) unique.push({type:'validation_error',message:ref+' differs from its reviewed value.'})
-for(const [reference,expected] of [['U_VM_ISO','SN74CBTLV1G125DCKR'],['Q_DATA','MMBT3904-7-F'],['C_BULK','EEEFPV101XAP']] as const)
+for(const [reference,expected] of [['Q_DATA','MMBT3904-7-F'],['C_BULK','EEEFPV101XAP']] as const)
  if(sourceComponents.find((e:any)=>e.name===reference)?.manufacturer_part_number!==expected) unique.push({type:'validation_error',message:reference+' must use the exact reviewed native supplier part '+expected})
-for(const [reference,value] of [['C_VM_ISO',100e-9],['C_VM_SENSE',10e-9],['C_BULK',100e-6]] as const) {
+for(const [reference,value] of [['C_VM_SENSE',10e-9],['C_BULK',100e-6]] as const) {
  const actual=sourceComponents.find((e:any)=>e.name===reference)?.capacitance
  if(!Number.isFinite(actual) || Math.abs(actual-value)>value*1e-6) unique.push({type:'validation_error',message:reference+' differs from its reviewed capacitance.'})
 }
 const outerPower=spawnSync('/workspace/.routing-venv/bin/python',['scripts/audit-outer-power.py'],{encoding:'utf8'})
 if(outerPower.status!==0) unique.push({type:'validation_error',message:'Actual saved outer-layer motor/PD routing policy failed: '+outerPower.stdout+outerPower.stderr})
-const report={date:new Date().toISOString(),tool:'@tscircuit/checks',traceCount,currentLimitAmps:current,componentOnlyCurrentFormulaHighAmps:formulaHigh,driverCurrentAccuracyAtSelectedReferenceIsUnspecified:true,motorDividerInputAt35VWorstVolts:vmDividerInputWorst,motorAdcAt35VWorstVolts:vmAdcWorst,enabledMotorAdcScaleNominal:vmAdcScaleNominal,errors:unique,warnings,manufacturingRelease:false,releaseBlockers:['Manufacturer drawing specifies front mounting only; direct rear threads are unverified; separate front-mounted carrier requires sample fit.','Hardware has not been assembled or electrically tested.','Filled/capped exposed-pad vias and assembly process require fabricator acceptance.','A4988 accuracy at selected VREF is unspecified; measure phase current before qualification.','Footprint/rating and USB/PD bench validation remain required.','Powered-off sensor topology is corrected, but intermediate switch VCC, fast rail collapse/output-filter decay and NPN levels require bounded sequencing qualification; add supervision/clamping if pin limits are violated.']}
+for(const obsolete of ['U_VM_ISO','R_VM_EN','C_VM_ISO']) if(sourceComponents.some((e:any)=>e.name===obsolete)) unique.push({type:'validation_error',message:'Obsolete switched monitor must be removed: '+obsolete})
+for(const [reference,expected] of [['D_TVS','SMF4L16A'],['U_ESD','USBLC6-2SC6']]) if(sourceComponents.find((e:any)=>e.name===reference)?.manufacturer_part_number!==expected) unique.push({type:'validation_error',message:'Expected exact traceable protection part: '+reference})
+const report={source_sha256:createHash('sha256').update(readFileSync('artifacts/board.circuit.json')).digest('hex'),date:new Date().toISOString(),tool:'@tscircuit/checks',traceCount,currentLimitAmps:current,componentOnlyCurrentFormulaHighAmps:formulaHigh,driverCurrentAccuracyAtSelectedReferenceIsUnspecified:true,motorDividerInputAt35VWorstVolts:vmDividerInputWorst,motorAdcAt35VWorstVolts:vmAdcWorst,enabledMotorAdcScaleNominal:vmAdcScaleNominal,errors:unique,warnings,manufacturingRelease:false,releaseBlockers:['Manufacturer drawing specifies front mounting only; direct rear threads are unverified; separate front-mounted carrier requires sample fit.','Hardware has not been assembled or electrically tested.','Filled/capped exposed-pad vias and assembly process require fabricator acceptance.','A4988 accuracy at selected VREF is unspecified; measure phase current before qualification.','Footprint/rating and USB/PD bench validation remain required.','Passive monitor has a bounded below0.3V DC/stored-charge voltage at zero/partial VDD; high-frequency coupling, reset defaults, NPN levels and power handover still require prototype tests.']}
 writeFileSync('artifacts/drc-report.json',JSON.stringify(report,null,2)+'\n')
 console.log(JSON.stringify({traceCount,currentLimitAmps:current,componentOnlyCurrentFormulaHighAmps:formulaHigh,driverCurrentAccuracyAtSelectedReferenceIsUnspecified:true,motorDividerInputAt35VWorstVolts:vmDividerInputWorst,motorAdcAt35VWorstVolts:vmAdcWorst,enabledMotorAdcScaleNominal:vmAdcScaleNominal,errors:unique.length,warnings:warnings.length},null,2))
 for(const error of unique) console.error(error.type+': '+error.message)

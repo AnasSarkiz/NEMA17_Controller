@@ -50,6 +50,15 @@
     },
     "C25900": {
       "tolerance": "1%"
+    },
+    "C23179": {
+      "tolerance": "1%"
+    },
+    "C23162": {
+      "tolerance": "1%"
+    },
+    "C4260": {
+      "tolerance": "1%"
     }
   },
   "evidence": {

@@ -1,13 +1,13 @@
 {
-  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-  "actual_archive_sha256": "e7b674a62b54e89456b7c84c0cd15e05d03a7f0e46281e95d4472b704f99d1ba",
-  "actual_F_Paste_sha256": "2ee14e6bae5c50a628952f14c1bce00febc9317b6548f8f01b2c449e4f87f845",
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "actual_archive_sha256": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf",
+  "actual_F_Paste_sha256": "d649b2a9f3d55abaaca0be6052fcc86467ec74ffac3119d184d9d5dd1e963ec3",
   "actual_drill_sha256": {
-    "drill-L1-L2.drl": "188e904d669b6c4f68c2be39f0c5adb584fcb6659bc929cbffcbc9cfb8b61721",
-    "drill_npth.drl": "cb072cf6117387a00d22e06302d6818dd729d0558875b35d527bd571a4722f52"
+    "drill-L1-L2.drl": "199cb253c201147aa49fe035a209a1bb898d187ecc952645a4bdcb249b6dc4b7",
+    "drill_npth.drl": "514777dc7a1111d6631bd952d3a40627f01a65b491c40e27af2953104f8da59f"
   },
   "status": "PASS",
-  "top_spanning_vias_checked": 104,
+  "top_spanning_vias_checked": 98,
   "filled_capped_EP_vias": [
     {
       "via_id": "freerouted_via_40",
@@ -60,7 +60,7 @@
       "native_SMT_pad_overlaps": [
         {
           "ref": "U_DRV",
-          "pad_id": "pcb_smtpad_113",
+          "pad_id": "pcb_smtpad_104",
           "hole_overlap_mm2": 0.04908245704582459,
           "requires_filled_capped_EP_process": true
         }
@@ -96,7 +96,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.4086997502311293
+      "minimum_drill_to_native_top_SMT_land_mm": 1.5353774530782922
     },
     {
       "via_id": "freerouted_via_15",
@@ -187,7 +187,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.2903748
+      "minimum_drill_to_native_top_SMT_land_mm": 1.2755002060820242
     },
     {
       "via_id": "freerouted_via_29",
@@ -227,58 +227,6 @@
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
       "minimum_drill_to_native_top_SMT_land_mm": 0.31097796133204486
-    },
-    {
-      "via_id": "freerouted_via_32",
-      "center_mm": [
-        2.8799,
-        6.981
-      ],
-      "outer_diameter_mm": 0.5,
-      "hole_diameter_mm": 0.25,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.4951748
-    },
-    {
-      "via_id": "freerouted_via_33",
-      "center_mm": [
-        9.3894,
-        2.8876
-      ],
-      "outer_diameter_mm": 0.5,
-      "hole_diameter_mm": 0.25,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.60599117312055
-    },
-    {
-      "via_id": "freerouted_via_34",
-      "center_mm": [
-        -0.5361,
-        2.8443
-      ],
-      "outer_diameter_mm": 0.5,
-      "hole_diameter_mm": 0.25,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.32116196622495086
-    },
-    {
-      "via_id": "freerouted_via_35",
-      "center_mm": [
-        -0.5361,
-        6.85
-      ],
-      "outer_diameter_mm": 0.5,
-      "hole_diameter_mm": 0.25,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.3822983000000002
     },
     {
       "via_id": "freerouted_via_36",
@@ -330,7 +278,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.8184172999999997
+      "minimum_drill_to_native_top_SMT_land_mm": 0.8903246999999999
     },
     {
       "via_id": "supplier_repair_U_MCU_fanout_STEP_via0",
@@ -422,19 +370,6 @@
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
       "minimum_drill_to_native_top_SMT_land_mm": 0.4757047000000005
-    },
-    {
-      "via_id": "supplier_repair_U_MCU_fanout_VM_ENABLE_N_via0",
-      "center_mm": [
-        8.1,
-        1.5
-      ],
-      "outer_diameter_mm": 0.5,
-      "hole_diameter_mm": 0.25,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.6257046999999991
     },
     {
       "via_id": "supplier_repair_U_MCU_fanout_USB_DP_via0",
@@ -590,7 +525,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.28452679999999964
+      "minimum_drill_to_native_top_SMT_land_mm": 0.8838073726225276
     },
     {
       "via_id": "freerouted_via_40",
@@ -643,7 +578,7 @@
       "native_SMT_pad_overlaps": [
         {
           "ref": "U_DRV",
-          "pad_id": "pcb_smtpad_113",
+          "pad_id": "pcb_smtpad_104",
           "hole_overlap_mm2": 0.04908245704582459,
           "requires_filled_capped_EP_process": true
         }
@@ -702,7 +637,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.5481418075950738
+      "minimum_drill_to_native_top_SMT_land_mm": 0.5460878148041445
     },
     {
       "via_id": "service_usb_repair_net2_0_via1",
@@ -845,7 +780,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.31728596486407346
+      "minimum_drill_to_native_top_SMT_land_mm": 0.40053679376696755
     },
     {
       "via_id": "inside_phase_via_A_PLUS",
@@ -1214,7 +1149,7 @@
     {
       "via_id": "outer_native_escape_R_SA_pin1_via",
       "center_mm": [
-        2.0,
+        2,
         -3.75
       ],
       "outer_diameter_mm": 0.5,
@@ -1300,7 +1235,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.8429967999999979
+      "minimum_drill_to_native_top_SMT_land_mm": 1.1933982999999992
     },
     {
       "via_id": "inside_motor_repair_net12_20_via1",
@@ -1342,46 +1277,6 @@
       "minimum_drill_to_native_top_SMT_land_mm": 2.074976799999999
     },
     {
-      "via_id": "inside_motor_repair_net18_1_via0",
-      "center_mm": [
-        -2.1999999999999993,
-        4.450000000000003
-      ],
-      "outer_diameter_mm": 0.4,
-      "hole_diameter_mm": 0.2,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.2694773176381917
-    },
-    {
-      "via_id": "inside_motor_repair_net18_1_via1",
-      "center_mm": [
-        -3.049999999999999,
-        4.0
-      ],
-      "outer_diameter_mm": 0.4,
-      "hole_diameter_mm": 0.2,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.2679967999999997
-    },
-    {
-      "via_id": "inside_motor_repair_net18_1_via2",
-      "center_mm": [
-        -1.7249999999999996,
-        2.0
-      ],
-      "outer_diameter_mm": 0.4,
-      "hole_diameter_mm": 0.2,
-      "native_SMT_pad_overlaps": [],
-      "actual_paste_drill_overlap_mm2": 0.0,
-      "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.06799679999999997,
-      "required_off_pad_process": "IPC4761 TypeVI nonconductive resin fill and mask cover, both faces; copper cap not required; supplier capability/inspection pending"
-    },
-    {
       "via_id": "inside_motor_repair_net19_1_via0",
       "center_mm": [
         -2.4499999999999993,
@@ -1405,7 +1300,7 @@
       "native_SMT_pad_overlaps": [],
       "actual_paste_drill_overlap_mm2": 0.0,
       "process": "ordinary plated via",
-      "minimum_drill_to_native_top_SMT_land_mm": 0.4153742456835001
+      "minimum_drill_to_native_top_SMT_land_mm": 0.4235303978457544
     },
     {
       "via_id": "inside_motor_repair_net19_1_via2",
@@ -1447,15 +1342,33 @@
       "process": "ordinary plated via",
       "minimum_drill_to_native_top_SMT_land_mm": 0.07500090000000093,
       "required_off_pad_process": "IPC4761 TypeVI nonconductive resin fill and mask cover, both faces; copper cap not required; supplier capability/inspection pending"
+    },
+    {
+      "via_id": "independent_passive_monitor_via_0",
+      "center_mm": [
+        1.699926,
+        6.2
+      ],
+      "outer_diameter_mm": 0.5,
+      "hole_diameter_mm": 0.25,
+      "native_SMT_pad_overlaps": [],
+      "actual_paste_drill_overlap_mm2": 0.0,
+      "process": "ordinary plated via",
+      "minimum_drill_to_native_top_SMT_land_mm": 1.542996800000001
+    },
+    {
+      "via_id": "independent_passive_monitor_via_1",
+      "center_mm": [
+        3.900074,
+        5.550014
+      ],
+      "outer_diameter_mm": 0.5,
+      "hole_diameter_mm": 0.25,
+      "native_SMT_pad_overlaps": [],
+      "actual_paste_drill_overlap_mm2": 0.0,
+      "process": "ordinary plated via",
+      "minimum_drill_to_native_top_SMT_land_mm": 1.575018842591329
     }
   ],
-  "scope": "Actual independently parsed stencil; native via drills reconciled against actual Excellon by the bound CAM audit. No physical filling/capping or reflow qualification is claimed.",
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "2be9b0e34d95c579c5a3561a3355cf830216e4878b86995a3deec16de8d611a9",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  "scope": "Actual independently parsed stencil; native via drills reconciled against actual Excellon by the bound CAM audit. No physical filling/capping or reflow qualification is claimed."
 }

@@ -19,10 +19,7 @@ COMPONENTS:
  - Q_DATA: MMBT3904-7-F
  - R_VM_H: 100kΩ resistor
  - R_VM_L: 10kΩ resistor
- - U_VM_ISO: SN74CBTLV1G125DCKR
- - R_VM_EN: 10kΩ resistor
- - R_VM_BLEED: 10kΩ resistor
- - C_VM_ISO: 100nF capacitor
+ - R_VM_BLEED: 470Ω resistor
  - C_VM_SENSE: 10nF capacitor
  - U_LDO: HT7533-1
  - D_PD: D_PD, source_component
@@ -39,7 +36,7 @@ COMPONENTS:
  - C_BULK: 100uF capacitor
  - R_SA: 240mΩ resistor
  - R_SB: 240mΩ resistor
- - R_REF_H: 3.9kΩ resistor
+ - R_REF_H: 6.2kΩ resistor
  - R_REF_L: 1kΩ resistor
  - C_REF: 10nF capacitor
  - R_ENABLE: 10kΩ resistor
@@ -47,7 +44,7 @@ COMPONENTS:
  - J_MOTOR: B4B-PH-K-S(LF)(SN)
  - J_DEBUG: 
  - U_ESD: USBLC6-2SC6
- - D_TVS: SMF18A
+ - D_TVS: SMF4L16A
  - R_USB_BOOT: 4.7kΩ resistor
  - J_BOOT: 
 
@@ -100,20 +97,11 @@ NET: DATA_PRESENT
   - R_USB_SENSE_L pin2
   - U_MCU DATA_PRESENT
 
-NET: VM_DIV
-  - U_VM_ISO A
-  - R_VM_L pin1
-  - R_VM_H pin2
-
-NET: VM_ENABLE_N
-  - R_VM_EN pin2
-  - U_VM_ISO OE_N
-  - U_MCU VM_ENABLE_N
-
 NET: VM_SENSE
   - C_VM_SENSE pin1 (+)
   - R_VM_BLEED pin1
-  - U_VM_ISO B
+  - R_VM_L pin1
+  - R_VM_H pin2
   - U_MCU VM_SENSE
 
 NET: LOGIC_IN
@@ -222,9 +210,7 @@ NET: GND
   - C_LDO_IN pin2 (-)
   - U_LDO GND
   - C_VM_SENSE pin2 (-)
-  - C_VM_ISO pin2 (-)
   - R_VM_BLEED pin2
-  - U_VM_ISO GND
   - R_VM_L pin2
   - Q_DATA pin2
   - R_CC2 pin2
@@ -275,9 +261,6 @@ NET: V3V3
   - U_DRV MS1
   - C_LDO_OUT pin1 (+)
   - U_LDO VOUT
-  - C_VM_ISO pin1 (+)
-  - R_VM_EN pin1
-  - U_VM_ISO VCC
   - R_USB_SENSE_L pin1
   - C_LOGIC pin1 (+)
   - C_MCU pin1 (+)
@@ -377,7 +360,7 @@ U_MCU (CH32X035G8U6)
 - pin15(SLEEP): NETS(SLEEP)
 - pin16(PB1): NOT_CONNECTED
 - pin17(PB6): NOT_CONNECTED
-- pin18(VM_ENABLE_N): NETS(VM_ENABLE_N)
+- pin18(VM_ENABLE_N): NOT_CONNECTED
 - pin19(PB8): NOT_CONNECTED
 - pin20(PB9): NOT_CONNECTED
 - pin21(PB10): NOT_CONNECTED
@@ -421,30 +404,15 @@ Q_DATA (MMBT3904-7-F)
 
 R_VM_H (100kΩ undefined)
 - pin1(anode, pos, left): NETS(PD_VBUS)
-- pin2(cathode, neg, right): NETS(VM_DIV)
+- pin2(cathode, neg, right): NETS(VM_SENSE)
 
 R_VM_L (10kΩ undefined)
-- pin1(anode, pos, left): NETS(VM_DIV)
-- pin2(cathode, neg, right): NETS(GND)
-
-U_VM_ISO (SN74CBTLV1G125DCKR)
-- pin1(OE_N): NETS(VM_ENABLE_N)
-- pin2(A): NETS(VM_DIV)
-- pin3(GND): NETS(GND)
-- pin4(B): NETS(VM_SENSE)
-- pin5(VCC): NETS(V3V3)
-
-R_VM_EN (10kΩ undefined)
-- pin1(anode, pos, left): NETS(V3V3)
-- pin2(cathode, neg, right): NETS(VM_ENABLE_N)
-
-R_VM_BLEED (10kΩ undefined)
 - pin1(anode, pos, left): NETS(VM_SENSE)
 - pin2(cathode, neg, right): NETS(GND)
 
-C_VM_ISO (100nF undefined)
-- pin1(pos): NETS(V3V3)
-- pin2(neg): NETS(GND)
+R_VM_BLEED (470Ω undefined)
+- pin1(anode, pos, left): NETS(VM_SENSE)
+- pin2(cathode, neg, right): NETS(GND)
 
 C_VM_SENSE (10nF undefined)
 - pin1(pos): NETS(VM_SENSE)
@@ -538,7 +506,7 @@ R_SB (240mΩ undefined)
 - pin1(anode, pos, left): NETS(SENSE2)
 - pin2(cathode, neg, right): NETS(GND)
 
-R_REF_H (3.9kΩ undefined)
+R_REF_H (6.2kΩ undefined)
 - pin1(anode, pos, left): NETS(V3V3)
 - pin2(cathode, neg, right): NETS(VREF)
 
@@ -578,7 +546,7 @@ U_ESD (USBLC6-2SC6)
 - pin5(VBUS): NETS(DATA_VBUS)
 - pin6(DP2): NETS(USB_DP)
 
-D_TVS (SMF18A)
+D_TVS (SMF4L16A)
 - pin1(A): NETS(GND)
 - pin2(K): NETS(PD_VBUS)
 

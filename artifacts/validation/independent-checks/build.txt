@@ -1,0 +1,23 @@
+
+> NEMA14_CH32X035G8U6@1.1.5 build
+> npm run render && npm run check
+
+
+> NEMA14_CH32X035G8U6@1.1.5 render
+> bun scripts/render.ts
+
+
+> NEMA14_CH32X035G8U6@1.1.5 check
+> bun scripts/check.ts
+
+{
+  "traceCount": 245,
+  "currentLimitAmps": 0.2387152777777778,
+  "componentOnlyCurrentFormulaHighAmps": 0.26897917779501784,
+  "driverCurrentAccuracyAtSelectedReferenceIsUnspecified": true,
+  "motorDividerInputAt35VWorstVolts": 0.16003358778874402,
+  "motorAdcAt35VWorstVolts": 0.16003358778874402,
+  "enabledMotorAdcScaleNominal": 223.76595744680853,
+  "errors": 0,
+  "warnings": 1
+}

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Check actual top stencil against physical via drills and native solder pads."""
-import hashlib, importlib.util, json, pathlib
+import hashlib, importlib.util, json, pathlib, csv
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 
@@ -22,6 +22,7 @@ def main():
     source_refs = {e['source_component_id']: e['name'] for e in circuit if e['type'] == 'source_component'}
     refs = {e['pcb_component_id']: source_refs[e['source_component_id']] for e in circuit if e['type'] == 'pcb_component'}
     pads = [e for e in circuit if e['type'] == 'pcb_smtpad' and e['layer'] == 'top']
+    filled_ids={r['Via ID'] for r in csv.DictReader((ROOT/'artifacts/assembly/via_process.csv').open()) if 'TypeVII' in r['Required process']}
     rows, errors = [], []
     for via in circuit:
         if via['type'] != 'pcb_via' or 'top' not in via['layers']:

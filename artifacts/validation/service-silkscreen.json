@@ -1,5 +1,5 @@
 {
-  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
   "functional_texts": [
     {
       "text": "PD",
@@ -9,7 +9,7 @@
         "y": 16.8
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.11560077266962057,
+      "raw_ink_mm2_in_label_region": 0.11560077266962052,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -20,7 +20,7 @@
         "y": 15.7
       },
       "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.10216215008440735,
+      "raw_ink_mm2_in_label_region": 0.1021621500844073,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -31,7 +31,7 @@
         "y": 16.8
       },
       "font_mm": 0.7,
-      "raw_ink_mm2_in_label_region": 0.1866901446256746,
+      "raw_ink_mm2_in_label_region": 0.1866901446256747,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -42,7 +42,7 @@
         "y": 15.7
       },
       "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.1539361287641333,
+      "raw_ink_mm2_in_label_region": 0.15393612876413335,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -53,7 +53,7 @@
         "y": -14.1
       },
       "font_mm": 0.6,
-      "raw_ink_mm2_in_label_region": 0.21973932114544945,
+      "raw_ink_mm2_in_label_region": 0.2197393211454496,
       "clipped_ink_mm2": 0.0
     },
     {
@@ -135,13 +135,5 @@
     }
   ],
   "errors": [],
-  "scope": "Raw CLI versus finished Gerber stroke conservation within generous isolated functional-label regions; does not prove physical legibility or manufacturer body marking.",
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "58318c96b72463be6d2ab6223ab9d52e9bb00b062a563b9732e45046fc0abcfe",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  "scope": "Raw CLI versus finished Gerber stroke conservation within generous isolated functional-label regions; does not prove physical legibility or manufacturer body marking."
 }

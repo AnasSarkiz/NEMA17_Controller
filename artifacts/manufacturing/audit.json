@@ -1,5 +1,5 @@
 {
-  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
   "directory": "artifacts/manufacturing",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -9,9 +9,9 @@
   "parser_compatibility": "Only LR right-angle aperture transforms and unambiguous split-line G85 slots are converted to equivalent G00/M15/G01/M16/G05 routing analytically. Original Gerbers independently rendered by PyGerber. Input CAM bytes remain unchanged.",
   "files": {
     "B_Cu.gbr": {
-      "sha256": "ac491a006231b6fcd9040d3c439814fb4557fb993699bf0e33ee46b1507ed8fb",
-      "objects": 1532,
-      "area_mm2": 898.3275780659907,
+      "sha256": "56040d69932fb013e12908f2d2cc0bf39c2b91d1b131176088ded5272999204a",
+      "objects": 1475,
+      "area_mm2": 894.9012945238984,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -56,7 +56,7 @@
       "warnings": []
     },
     "Edge_Cuts.gbr": {
-      "sha256": "12d727a68260e4cdfd44d0337365f72fbde69f3a4ed968f9a3b05aa303e34af0",
+      "sha256": "f8167a4231d23c9bcd07017b61aee2a440695674d958d69e22e468a436d9cba4",
       "objects": 4,
       "area_mm2": 6.999463298281626,
       "bounds_mm": [
@@ -69,9 +69,9 @@
       "warnings": []
     },
     "F_Cu.gbr": {
-      "sha256": "0dba76addf2b7d02993fcaafa4694e84903f34254b150731becc11674fc07b63",
-      "objects": 3189,
-      "area_mm2": 810.2294044315904,
+      "sha256": "06727124cbdc12d0ba38a8873d4224961ee4285fe936f3b4c597b168f013c3f7",
+      "objects": 3137,
+      "area_mm2": 805.7577012663669,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -82,22 +82,22 @@
       "warnings": []
     },
     "F_Fab.gbr": {
-      "sha256": "87b662917b4db4602af7ecbbe187eee8ae16a3338e6f239f643182c9f4ff5d9b",
-      "objects": 59,
-      "area_mm2": 6.828176906959748,
+      "sha256": "c703b2f4a1e945cd0ca47b54e188a2c864ffda370f83d1bd7b930a3c6f5c0329",
+      "objects": 56,
+      "area_mm2": 6.763199793892297,
       "bounds_mm": [
         -14.536968,
         -13.226999000000001,
         9.158898,
-        7.631898
+        7.0049969999999995
       ],
       "LR_applied": 0,
       "warnings": []
     },
     "F_Mask.gbr": {
-      "sha256": "f515e14df3025ca773352d70cae6e717c4e04bd47b3a879be93e4f6d81bcc5a0",
-      "objects": 206,
-      "area_mm2": 246.48602182792789,
+      "sha256": "350a997095a8f6253e30be96f7a96909990ea2e3f78f659a132964ee275ebcc4",
+      "objects": 197,
+      "area_mm2": 240.80854749239583,
       "bounds_mm": [
         -16.706602,
         -16.3,
@@ -108,9 +108,9 @@
       "warnings": []
     },
     "F_Paste.gbr": {
-      "sha256": "2ee14e6bae5c50a628952f14c1bce00febc9317b6548f8f01b2c449e4f87f845",
-      "objects": 161,
-      "area_mm2": 70.94674566226495,
+      "sha256": "d649b2a9f3d55abaaca0be6052fcc86467ec74ffac3119d184d9d5dd1e963ec3",
+      "objects": 152,
+      "area_mm2": 68.81999823399295,
       "bounds_mm": [
         -16.53563,
         -12.832504,
@@ -121,9 +121,9 @@
       "warnings": []
     },
     "F_SilkScreen.gbr": {
-      "sha256": "72dad0d64ba70ed5d2a9915e3852a6849bedd23d0170eabd666a17d2f713e90e",
-      "objects": 147,
-      "area_mm2": 38.673874815724474,
+      "sha256": "b7461b63856f8324721ca94e1e7e08d619fe692adec0d3921d77710e114b6b4c",
+      "objects": 136,
+      "area_mm2": 36.82004786533205,
       "bounds_mm": [
         -17.4,
         -15.749998,
@@ -134,21 +134,21 @@
       "warnings": []
     },
     "drill-L1-L2.drl": {
-      "sha256": "188e904d669b6c4f68c2be39f0c5adb584fcb6659bc929cbffcbc9cfb8b61721",
-      "objects": 116,
+      "sha256": "199cb253c201147aa49fe035a209a1bb898d187ecc952645a4bdcb249b6dc4b7",
+      "objects": 110,
       "G85_joined": 8,
       "parser_notices": [
         "<unknown>:18 \"G90\": G90 header statement found after end of header"
       ],
       "tools_mm": {
-        "0.25": 82,
         "0.799998": 8,
         "0.75": 4,
-        "0.2": 22
+        "0.25": 79,
+        "0.2": 19
       }
     },
     "drill_npth.drl": {
-      "sha256": "cb072cf6117387a00d22e06302d6818dd729d0558875b35d527bd571a4722f52",
+      "sha256": "514777dc7a1111d6631bd952d3a40627f01a65b491c40e27af2953104f8da59f",
       "objects": 8,
       "G85_joined": 0,
       "parser_notices": [
@@ -163,26 +163,26 @@
   "issues": [],
   "archive": {
     "path": "/workspace/NEMA17_Controller/artifacts/nema14-gerbers.zip",
-    "sha256": "e7b674a62b54e89456b7c84c0cd15e05d03a7f0e46281e95d4472b704f99d1ba",
+    "sha256": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf",
     "extracted_bytes_verified": true,
     "members": {
-      "B_Cu.gbr": "ac491a006231b6fcd9040d3c439814fb4557fb993699bf0e33ee46b1507ed8fb",
+      "B_Cu.gbr": "56040d69932fb013e12908f2d2cc0bf39c2b91d1b131176088ded5272999204a",
       "B_Mask.gbr": "2bbfd5f31c6e092f6fc833e6685ba535684a9911fd0802a591bc247aeae44c6e",
       "B_Paste.gbr": "21880a5d8ccf86520b8d968436a0584871c3b32228b6ac256a0e08bffa396018",
       "B_SilkScreen.gbr": "e8fc8dd46f962d9217e34795671e702ee35bd096b56d7881af6658bcd756513d",
-      "Edge_Cuts.gbr": "12d727a68260e4cdfd44d0337365f72fbde69f3a4ed968f9a3b05aa303e34af0",
-      "F_Cu.gbr": "0dba76addf2b7d02993fcaafa4694e84903f34254b150731becc11674fc07b63",
-      "F_Fab.gbr": "87b662917b4db4602af7ecbbe187eee8ae16a3338e6f239f643182c9f4ff5d9b",
-      "F_Mask.gbr": "f515e14df3025ca773352d70cae6e717c4e04bd47b3a879be93e4f6d81bcc5a0",
-      "F_Paste.gbr": "2ee14e6bae5c50a628952f14c1bce00febc9317b6548f8f01b2c449e4f87f845",
-      "F_SilkScreen.gbr": "72dad0d64ba70ed5d2a9915e3852a6849bedd23d0170eabd666a17d2f713e90e",
-      "bom.csv": "bb1ba0aabdaa412ca3267c94d1ade7ed7218ea158b3ab35831c382f60d71622e",
-      "drill-L1-L2.drl": "188e904d669b6c4f68c2be39f0c5adb584fcb6659bc929cbffcbc9cfb8b61721",
-      "drill_npth.drl": "cb072cf6117387a00d22e06302d6818dd729d0558875b35d527bd571a4722f52",
-      "fabrication-notes.md": "45e96d6430e5b0f30c69f76e4f9a8497c7e92ce0cc792b6f33f307abf31dc277",
+      "Edge_Cuts.gbr": "f8167a4231d23c9bcd07017b61aee2a440695674d958d69e22e468a436d9cba4",
+      "F_Cu.gbr": "06727124cbdc12d0ba38a8873d4224961ee4285fe936f3b4c597b168f013c3f7",
+      "F_Fab.gbr": "c703b2f4a1e945cd0ca47b54e188a2c864ffda370f83d1bd7b930a3c6f5c0329",
+      "F_Mask.gbr": "350a997095a8f6253e30be96f7a96909990ea2e3f78f659a132964ee275ebcc4",
+      "F_Paste.gbr": "d649b2a9f3d55abaaca0be6052fcc86467ec74ffac3119d184d9d5dd1e963ec3",
+      "F_SilkScreen.gbr": "b7461b63856f8324721ca94e1e7e08d619fe692adec0d3921d77710e114b6b4c",
+      "bom.csv": "a4b18b0947b0701184f03c358e8d0e8d93ed7a7a087b474ab6afc6c9e58c4f93",
+      "drill-L1-L2.drl": "199cb253c201147aa49fe035a209a1bb898d187ecc952645a4bdcb249b6dc4b7",
+      "drill_npth.drl": "514777dc7a1111d6631bd952d3a40627f01a65b491c40e27af2953104f8da59f",
+      "fabrication-notes.md": "7d88328b7101bdd98b80fb496ddc4a7deb0fc9bbbc10c537e37c39e83ba66115",
       "manual_assembly.csv": "c44879c0fec842ea7b61ebb9f688b5e38c094ab4be0759f9f7aabc1b8f7c8d99",
-      "ordinary_via_process.csv": "2092401025423c291e5b522906e27358627301d01d22213e732697854241cff9",
-      "pick_and_place.csv": "8fadc9642ce6ea5c9d540e41388da70be9c9447ccb0e76e6fedf391e38dabf17",
+      "ordinary_via_process.csv": "6650d0727e173e006730267d9f6a83e2ae4f044f3e3736388a683359ab39221c",
+      "pick_and_place.csv": "0615c60776fd201de4e2be23e3fc1a87333aa979b2013035689a7f43ad90ebda",
       "via_process.csv": "8b13ce2c061a6f9adc48cf6ad8f3f6bca50fea95541a4d9fb8819c3e44f9536f"
     }
   },
@@ -199,12 +199,12 @@
     }
   },
   "connectivity": {
-    "named_nets_checked": 37,
+    "named_nets_checked": 35,
     "shorts": [],
     "opens": [],
     "unconnected_pads": [],
-    "actual_copper_islands": 168,
-    "unassigned_islands": 27,
+    "actual_copper_islands": 160,
+    "unassigned_islands": 28,
     "no_connect_contacts": [],
     "unassigned_island_details": [
       {
@@ -220,6 +220,22 @@
         ],
         "no_connect_pads": [
           "U_PD.VBUS"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.38999780000299994,
+        "bounds_mm": [
+          -7.3999355,
+          9.7259295,
+          -7.0999365,
+          11.0259265
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "J_PD.DN1"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -252,22 +268,6 @@
         ],
         "no_connect_pads": [
           "J_PD.SBU1"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.38999780000299994,
-        "bounds_mm": [
-          -7.3999355,
-          9.7259295,
-          -7.0999365,
-          11.0259265
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "J_PD.DN1"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -320,7 +320,7 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.23517627186496623,
+        "area_mm2": 0.23517627186496612,
         "bounds_mm": [
           -2.949894,
           -9.041018000000001,
@@ -352,7 +352,7 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.23517627186496615,
+        "area_mm2": 0.2351762718649661,
         "bounds_mm": [
           2.050096,
           -6.539118,
@@ -466,6 +466,22 @@
       {
         "area_mm2": 0.1399997999999995,
         "bounds_mm": [
+          5.699400000000001,
+          -0.8499955,
+          5.8994,
+          -0.14999649999999998
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "U_MCU.PB0"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.1399997999999995,
+        "bounds_mm": [
           5.2990960000000005,
           -0.8499955,
           5.499096,
@@ -483,15 +499,15 @@
         "area_mm2": 0.1399997999999995,
         "bounds_mm": [
           5.699400000000001,
-          -0.8499955,
+          3.1499965,
           5.8994,
-          -0.14999649999999998
+          3.8499955
         ],
         "layers": [
           "top"
         ],
         "no_connect_pads": [
-          "U_MCU.PB0"
+          "U_MCU.PB12"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -508,22 +524,6 @@
         ],
         "no_connect_pads": [
           "U_MCU.PB11"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.1399997999999995,
-        "bounds_mm": [
-          5.699400000000001,
-          3.1499965,
-          5.8994,
-          3.8499955
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "U_MCU.PB12"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -572,6 +572,22 @@
         ],
         "no_connect_pads": [
           "U_MCU.PB6"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.13999980000000012,
+        "bounds_mm": [
+          6.6492965,
+          1.4,
+          7.3492955,
+          1.6
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "U_MCU.VM_ENABLE_N"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -656,8 +672,8 @@
             ]
           ],
           "island_indices": [
-            75,
-            108
+            71,
+            104
           ]
         },
         {
@@ -671,23 +687,8 @@
             ]
           ],
           "island_indices": [
-            43,
-            75
-          ]
-        },
-        {
-          "clearance_mm": 0.15063671467410963,
-          "conductors": [
-            [
-              "GND"
-            ],
-            [
-              "VM_ENABLE_N"
-            ]
-          ],
-          "island_indices": [
-            43,
-            55
+            42,
+            71
           ]
         },
         {
@@ -716,8 +717,23 @@
             ]
           ],
           "island_indices": [
-            108,
-            113
+            104,
+            109
+          ]
+        },
+        {
+          "clearance_mm": 0.15169250000000023,
+          "conductors": [
+            [
+              "GND"
+            ],
+            [
+              "USB_DM"
+            ]
+          ],
+          "island_indices": [
+            42,
+            79
           ]
         }
       ],
@@ -735,12 +751,12 @@
               "DATA_PRESENT"
             ],
             [
-              "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
+              "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
             ]
           ],
           "island_indices": [
-            152,
-            159
+            146,
+            152
           ]
         },
         {
@@ -754,8 +770,8 @@
             ]
           ],
           "island_indices": [
-            139,
-            152
+            132,
+            146
           ]
         },
         {
@@ -769,8 +785,8 @@
             ]
           ],
           "island_indices": [
-            121,
-            122
+            120,
+            121
           ]
         },
         {
@@ -784,8 +800,8 @@
             ]
           ],
           "island_indices": [
-            143,
-            152
+            137,
+            146
           ]
         },
         {
@@ -795,12 +811,12 @@
               "DATA_PRESENT"
             ],
             [
-              "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net20"
+              "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net19"
             ]
           ],
           "island_indices": [
-            152,
-            155
+            146,
+            150
           ]
         }
       ],
@@ -823,7 +839,7 @@
   },
   "assembly_tables": {
     "bom.csv": {
-      "rows": 45,
+      "rows": 42,
       "bare_rows": [],
       "missing_fitted": [],
       "unexpected": [],
@@ -831,7 +847,7 @@
       "source_identity_errors": []
     },
     "pick_and_place.csv": {
-      "rows": 44,
+      "rows": 41,
       "bare_rows": [],
       "missing_fitted": [],
       "unexpected": [],
@@ -906,7 +922,7 @@
     },
     {
       "ref": "U_DRV",
-      "pad": "pcb_smtpad_113",
+      "pad": "pcb_smtpad_104",
       "coverage_fraction": 0.5999998140218558
     }
   ],
@@ -931,7 +947,7 @@
   "mask_webs": {
     "F_Mask": {
       "minimum_web_mm": 0.10019999999999916,
-      "opening_polygons": 206,
+      "opening_polygons": 197,
       "scope": "nearest distinct mask openings within 0.25 mm"
     },
     "B_Mask": {
@@ -942,7 +958,7 @@
   },
   "mask": {
     "F_Mask": {
-      "area_mm2": 246.48602182792789,
+      "area_mm2": 240.80854749239583,
       "bounds_mm": [
         -16.706602,
         -16.3,
@@ -1085,13 +1101,5 @@
     "missing_mm2": 0.0,
     "extra_mm2": 0.0
   },
-  "status": "PASS",
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "1686259c04904960da5dfc9aa863e2da6177fcc720dcdeb4885a9cb708a87edf",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  "status": "PASS"
 }

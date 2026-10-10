@@ -1,15 +1,7 @@
 {
-  "checkedNets": 37,
+  "checkedNets": 35,
   "disconnectedNets": [],
   "allCopperLayersChecked": true,
   "nativePolygonAndSlotGeometry": true,
-  "sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "dd451ea83bc063c5a532ab6cf0471018f62c4dd5f78a288bc8ad96fbf50dc741",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  "sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d"
 }

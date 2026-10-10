@@ -1,14 +1,6 @@
 {
-  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-  "mechanical_report_sha256": "ff28ff5c00632121dd355349f42f4ee6f81d43bfe0525d362373be8e2473f304",
-  "drawings_sha256": "dde2e61ffd8b78b308fd30a447add5e476113c15a463529b81d9a2047c4a7671",
-  "physical_fit_verified": false,
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "dcc276d486197f6fa7a463c245f3ae7d4f383e6307f8bac1d33c65da4fd0d634",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "mechanical_report_sha256": "c610dedaf65c03478a848b3a8ea33797e52942bbfef6b4f4227a727fa82c1b54",
+  "drawings_sha256": "92a29c0de32c0bb8beb279e6798b4d234d16a5f001d81242b77631f7203b9238",
+  "physical_fit_verified": false
 }

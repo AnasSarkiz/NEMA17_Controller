@@ -1,0 +1,10 @@
+{
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "status": "PASS",
+  "minimumRequiredMm": 0.15,
+  "analyticRoundingAllowanceMm": 0.0001,
+  "segmentsChecked": 4079,
+  "nearbyForeignMinimumGapMm": 0.15079248634737327,
+  "errors": [],
+  "scope": "Actual supplier polygon/pill/plated-pad copper versus saved trace strips on matching layers; does not replace actual CAM connectivity/drill/mask/paste tests."
+}

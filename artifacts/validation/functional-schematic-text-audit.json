@@ -1,24 +1,24 @@
 {
   "schema": "functional-schematic-text-audit-v2",
-  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
   "pages": [
     {
       "file": "schematic-a4-page-01.svg",
       "text_count": 149,
       "symbol_bodies_checked": 3,
-      "sha256": "9ee9fd17751ba08c272305f5c1223a69dc10c46aa9bcd3d3aaca02e2b121c61e"
+      "sha256": "20fcc30ca1d643b1d9cca6a4bedcc282abe99eb7112797b280f7f2e19b09ab16"
     },
     {
       "file": "schematic-a4-page-02.svg",
       "text_count": 247,
       "symbol_bodies_checked": 6,
-      "sha256": "36923f4aaa0c72dc4f9dcf0a5a30a6112526c54ea3130587fa8dd9ac40163b85"
+      "sha256": "f4a9462b4afa527f8121da2910d16667c747d0dcc344979169a34728e2ea61b3"
     },
     {
       "file": "schematic-a4-page-03.svg",
-      "text_count": 232,
-      "symbol_bodies_checked": 4,
-      "sha256": "1cd54f6331734d2d203d325ea5d72908673c3c0ac37a0d994451f13585c6e007"
+      "text_count": 207,
+      "symbol_bodies_checked": 3,
+      "sha256": "98d23016f708b6359ce68ce5f3ce88f974a008af0f3c0e182adad7f70b463d83"
     }
   ],
   "text_overlap_findings": [],

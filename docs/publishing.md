@@ -1,3 +1,5 @@
+> This independent-review revision is local only. Publication is explicitly outside the current task; earlier links/receipts refer to their recorded older sources.
+
 # Publishing
 
 Requested name: `NEMA14_CH32X035G8U6` (case retained).

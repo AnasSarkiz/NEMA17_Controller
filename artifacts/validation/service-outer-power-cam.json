@@ -1,14 +1,14 @@
 {
   "schema": "outer-power-actual-cam-1",
-  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-  "native_policy_sha256": "d5cbb630848e2c5cb4308a43a762f439df40d971cad985b057b2c2b5b42db404",
-  "cam_audit_sha256": "7007e0cfe6607f65d33f7e0bdb87f299cc2980f20e5ab04fc6d9f66bacb43202",
-  "archive_sha256": "e7b674a62b54e89456b7c84c0cd15e05d03a7f0e46281e95d4472b704f99d1ba",
+  "source_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "native_policy_sha256": "d8c19f281175972ddd731fad77b564f8dd779da3666a162482e92e1f754192f4",
+  "cam_audit_sha256": "6c80f1b0752ab85f82ec7eadf1e12db3249ab629008a8dbab925d7b37259ca1b",
+  "archive_sha256": "6d5203cf101310a49b1f810f0549729780464ca2ccf95d38d9781d92623efdbf",
   "files_sha256": {
-    "F_Cu.gbr": "0dba76addf2b7d02993fcaafa4694e84903f34254b150731becc11674fc07b63",
-    "B_Cu.gbr": "ac491a006231b6fcd9040d3c439814fb4557fb993699bf0e33ee46b1507ed8fb",
-    "drill-L1-L2.drl": "188e904d669b6c4f68c2be39f0c5adb584fcb6659bc929cbffcbc9cfb8b61721",
-    "drill_npth.drl": "cb072cf6117387a00d22e06302d6818dd729d0558875b35d527bd571a4722f52"
+    "F_Cu.gbr": "06727124cbdc12d0ba38a8873d4224961ee4285fe936f3b4c597b168f013c3f7",
+    "B_Cu.gbr": "56040d69932fb013e12908f2d2cc0bf39c2b91d1b131176088ded5272999204a",
+    "drill-L1-L2.drl": "199cb253c201147aa49fe035a209a1bb898d187ecc952645a4bdcb249b6dc4b7",
+    "drill_npth.drl": "514777dc7a1111d6631bd952d3a40627f01a65b491c40e27af2953104f8da59f"
   },
   "checksPassed": true,
   "errors": [],
@@ -9741,13 +9741,5 @@
       ]
     }
   ],
-  "hardwareQualified": false,
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "42a006d5f52ac21e960bf9f5b709d4534332bd2ba640b812e9b2f8fba65910b3",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  "hardwareQualified": false
 }

@@ -254,44 +254,8 @@
       "voltageDropAtNetBudgetMillivolt": 0.0
     },
     {
-      "id": "freerouted_via_32",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.25,
-      "padMm": 0.5,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
-      "id": "freerouted_via_33",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.25,
-      "padMm": 0.5,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
-      "id": "freerouted_via_34",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.25,
-      "padMm": 0.5,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
-      "id": "freerouted_via_35",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.25,
-      "padMm": 0.5,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
       "id": "freerouted_via_36",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "drillMm": 0.25,
       "padMm": 0.5,
       "minimumPlatingUm": 20,
@@ -300,7 +264,7 @@
     },
     {
       "id": "freerouted_via_37",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "drillMm": 0.25,
       "padMm": 0.5,
       "minimumPlatingUm": 20,
@@ -389,15 +353,6 @@
       "voltageDropAtNetBudgetMillivolt": 0.0
     },
     {
-      "id": "supplier_repair_U_MCU_fanout_VM_ENABLE_N_via0",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.25,
-      "padMm": 0.5,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
       "id": "supplier_repair_U_MCU_fanout_USB_DP_via0",
       "net": "USB_DP",
       "drillMm": 0.25,
@@ -417,7 +372,7 @@
     },
     {
       "id": "supplier_repair_U_MCU_fanout_SWDIO_via0",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "drillMm": 0.25,
       "padMm": 0.5,
       "minimumPlatingUm": 20,
@@ -426,7 +381,7 @@
     },
     {
       "id": "supplier_repair_U_MCU_fanout_SWCLK_via0",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "drillMm": 0.25,
       "padMm": 0.5,
       "minimumPlatingUm": 20,
@@ -1010,33 +965,6 @@
       "voltageDropAtNetBudgetMillivolt": 0.329259746268513
     },
     {
-      "id": "inside_motor_repair_net18_1_via0",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.2,
-      "padMm": 0.4,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 2.19506497512342,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
-      "id": "inside_motor_repair_net18_1_via1",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.2,
-      "padMm": 0.4,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 2.19506497512342,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
-      "id": "inside_motor_repair_net18_1_via2",
-      "net": "VM_ENABLE_N",
-      "drillMm": 0.2,
-      "padMm": 0.4,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 2.19506497512342,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
       "id": "inside_motor_repair_net19_1_via0",
       "net": "VM_SENSE",
       "drillMm": 0.2,
@@ -1080,9 +1008,27 @@
       "minimumPlatingUm": 20,
       "estimatedBarrelResistanceMilliohm": 2.19506497512342,
       "voltageDropAtNetBudgetMillivolt": 1.7560519800987362
+    },
+    {
+      "id": "independent_passive_monitor_via_0",
+      "net": "VM_SENSE",
+      "drillMm": 0.25,
+      "padMm": 0.5,
+      "minimumPlatingUm": 20,
+      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
+      "voltageDropAtNetBudgetMillivolt": 0.0
+    },
+    {
+      "id": "independent_passive_monitor_via_1",
+      "net": "VM_SENSE",
+      "drillMm": 0.25,
+      "padMm": 0.5,
+      "minimumPlatingUm": 20,
+      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
+      "voltageDropAtNetBudgetMillivolt": 0.0
     }
   ],
-  "sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
   "checksPassed": true,
   "errors": [],
   "copperSpecification": {
@@ -1195,21 +1141,21 @@
       "maxTemperatureRiseEstimateC": 0
     },
     {
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "minWidthMm": 0.16,
       "maxWidthMm": 0.16,
       "totalBranchedCopperLengthMm": 24.833043556154035,
       "maxTemperatureRiseEstimateC": 0
     },
     {
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "minWidthMm": 0.16,
       "maxWidthMm": 0.16,
       "totalBranchedCopperLengthMm": 24.973303139374238,
       "maxTemperatureRiseEstimateC": 0
     },
     {
-      "net": "DIRECT_net36",
+      "net": "DIRECT_net34",
       "minWidthMm": 0.16,
       "maxWidthMm": 0.16,
       "totalBranchedCopperLengthMm": 2.1671999999999993,
@@ -1335,24 +1281,10 @@
       "maxTemperatureRiseEstimateC": 0
     },
     {
-      "net": "VM_DIV",
-      "minWidthMm": 0.16,
-      "maxWidthMm": 0.16,
-      "totalBranchedCopperLengthMm": 6.618170040833811,
-      "maxTemperatureRiseEstimateC": 0
-    },
-    {
-      "net": "VM_ENABLE_N",
-      "minWidthMm": 0.16,
-      "maxWidthMm": 0.16,
-      "totalBranchedCopperLengthMm": 25.640589192178776,
-      "maxTemperatureRiseEstimateC": 0
-    },
-    {
       "net": "VM_SENSE",
       "minWidthMm": 0.16,
       "maxWidthMm": 0.16,
-      "totalBranchedCopperLengthMm": 27.955900994852612,
+      "totalBranchedCopperLengthMm": 36.86822295352012,
       "maxTemperatureRiseEstimateC": 0
     },
     {
@@ -2503,112 +2435,8 @@
       "thermalScreenDisposition": "isolated-track-screen"
     },
     {
-      "trace": "freerouted_trace_273",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.6316999999999999,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 1.944733571428571,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_274",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.4173,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 1.2846878571428568,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_274",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.18526197667087577,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.5703422281796245,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_275",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.5299,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 1.6313349999999998,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_275",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 5.0395500295165245,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 15.51461473372587,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_275",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 2.9459999999999997,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 9.069471428571426,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_277",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 2.2359999999999998,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 6.883685714285712,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "freerouted_trace_278",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 4.005699999999999,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 12.331833571428566,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
       "trace": "freerouted_trace_281",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "layer": "bottom",
       "widthMm": 0.16,
       "lengthMm": 19.762500000000003,
@@ -2621,7 +2449,7 @@
     },
     {
       "trace": "freerouted_trace_281",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "layer": "bottom",
       "widthMm": 0.16,
       "lengthMm": 1.8362148893852273,
@@ -2634,7 +2462,7 @@
     },
     {
       "trace": "freerouted_trace_282",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.13915861453751355,
@@ -2647,7 +2475,7 @@
     },
     {
       "trace": "freerouted_trace_282",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 1.0625,
@@ -2660,7 +2488,7 @@
     },
     {
       "trace": "freerouted_trace_283",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "bottom",
       "widthMm": 0.16,
       "lengthMm": 0.6875906340257991,
@@ -2673,7 +2501,7 @@
     },
     {
       "trace": "freerouted_trace_283",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "bottom",
       "widthMm": 0.16,
       "lengthMm": 1.1174,
@@ -2686,7 +2514,7 @@
     },
     {
       "trace": "freerouted_trace_283",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "bottom",
       "widthMm": 0.16,
       "lengthMm": 2.416325292670671,
@@ -2699,7 +2527,7 @@
     },
     {
       "trace": "freerouted_trace_283",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "bottom",
       "widthMm": 0.16,
       "lengthMm": 17.3901,
@@ -2712,7 +2540,7 @@
     },
     {
       "trace": "freerouted_trace_284",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03200000000000003,
@@ -2725,7 +2553,7 @@
     },
     {
       "trace": "freerouted_trace_284",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.9274412542042747,
@@ -2738,7 +2566,7 @@
     },
     {
       "trace": "freerouted_trace_285",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.9817,
@@ -2816,7 +2644,7 @@
     },
     {
       "trace": "freerouted_trace_289",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 3.0493,
@@ -2829,7 +2657,7 @@
     },
     {
       "trace": "freerouted_trace_289",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.14198704166225912,
@@ -2842,7 +2670,7 @@
     },
     {
       "trace": "freerouted_trace_290",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.46340000000000003,
@@ -2855,7 +2683,7 @@
     },
     {
       "trace": "freerouted_trace_290",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.33516861428242334,
@@ -2868,7 +2696,7 @@
     },
     {
       "trace": "freerouted_trace_292",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.6316999999999999,
@@ -2881,7 +2709,7 @@
     },
     {
       "trace": "freerouted_trace_294",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.6349,
@@ -2894,7 +2722,7 @@
     },
     {
       "trace": "freerouted_trace_311",
-      "net": "DIRECT_net36",
+      "net": "DIRECT_net34",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 2.1671999999999993,
@@ -3075,19 +2903,6 @@
       "thermalScreenDisposition": "isolated-track-screen"
     },
     {
-      "trace": "supplier_repair_U_MCU_fanout_VM_ENABLE_N",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 1.1007039999999995,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 3.3885958857142833,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
       "trace": "supplier_repair_U_MCU_fanout_USB_DP",
       "net": "USB_DP",
       "layer": "top",
@@ -3128,7 +2943,7 @@
     },
     {
       "trace": "supplier_repair_U_MCU_fanout_SWDIO",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.6002579999999997,
@@ -3141,7 +2956,7 @@
     },
     {
       "trace": "supplier_repair_U_MCU_fanout_SWDIO",
-      "net": "DIRECT_net21",
+      "net": "DIRECT_net20",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.8204879584734931,
@@ -3154,7 +2969,7 @@
     },
     {
       "trace": "supplier_repair_U_MCU_fanout_SWCLK",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.6000039999999993,
@@ -3167,7 +2982,7 @@
     },
     {
       "trace": "supplier_repair_U_MCU_fanout_SWCLK",
-      "net": "DIRECT_net20",
+      "net": "DIRECT_net19",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 1.4326660522312935,
@@ -51839,7 +51654,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.3559400462100317,
@@ -51852,7 +51667,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.05000000000000071,
@@ -51865,7 +51680,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932913,
@@ -51878,7 +51693,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -51891,7 +51706,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -51904,7 +51719,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02500000000000213,
@@ -51917,7 +51732,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.035355339059325364,
@@ -51930,7 +51745,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02500000000000213,
@@ -51943,7 +51758,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -51956,7 +51771,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -51969,7 +51784,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932913,
@@ -51982,7 +51797,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.05000000000000071,
@@ -51995,7 +51810,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -52008,7 +51823,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -52021,7 +51836,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932913,
@@ -52034,7 +51849,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -52047,7 +51862,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.035355339059327875,
@@ -52060,7 +51875,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -52073,7 +51888,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -52086,7 +51901,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02500000000000213,
@@ -52099,7 +51914,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -52112,7 +51927,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.05000000000000071,
@@ -52125,7 +51940,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -52138,7 +51953,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02500000000000213,
@@ -52151,7 +51966,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932662,
@@ -52164,7 +51979,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02500000000000213,
@@ -52177,7 +51992,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.035355339059325364,
@@ -52190,7 +52005,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -52203,7 +52018,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932913,
@@ -52216,7 +52031,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.02499999999999858,
@@ -52229,7 +52044,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.03535533905932913,
@@ -52242,7 +52057,7 @@
     },
     {
       "trace": "inside_motor_repair_net23_0",
-      "net": "VM_DIV",
+      "net": "VM_SENSE",
       "layer": "top",
       "widthMm": 0.16,
       "lengthMm": 0.025444252789183174,
@@ -52250,1046 +52065,6 @@
       "currentBudgetA": 0,
       "ipc2221TemperatureRiseEstimateC": null,
       "resistanceAt20CMilliohm": 0.07833194965812819,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 1.7161486299269062,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 5.283286139274974,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059327875,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667550223,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905933039,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667550994,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059325364,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366754945,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_0",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.0641537216379513,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.19750181447112145,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 2.2627416997969543,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 6.96601194723205,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.6363961030678943,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 1.959190860159017,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.40000000000000036,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 1.2314285714285722,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 1.0960155108391478,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 3.3741620369405187,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059327875,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667550223,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.05000000000000071,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.15392857142857358,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059325364,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366754945,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.05000000000000071,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.15392857142857358,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059327875,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667550223,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.05000000000000071,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.15392857142857358,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059325364,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366754945,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.04999999999999716,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.15392857142856264,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059325364,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366754945,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "bottom",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.05000000000000071,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.15392857142857358,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059327875,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667550223,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932662,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667549835,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.05000000000000071,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.15392857142857358,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.03535533905932913,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366755061,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02499999999999858,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571428132,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059325364,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366754945,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059327875,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.10884393667550223,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.02500000000000213,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07696428571429226,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.035355339059325364,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.1088439366754945,
-      "groundPourCoversCenterline": false,
-      "thermalScreenDisposition": "isolated-track-screen"
-    },
-    {
-      "trace": "inside_motor_repair_net18_1",
-      "net": "VM_ENABLE_N",
-      "layer": "top",
-      "widthMm": 0.16,
-      "lengthMm": 0.025225314586740707,
-      "copperThicknessUm": 35.0,
-      "currentBudgetA": 0,
-      "ipc2221TemperatureRiseEstimateC": null,
-      "resistanceAt20CMilliohm": 0.07765793276346601,
       "groundPourCoversCenterline": false,
       "thermalScreenDisposition": "isolated-track-screen"
     },
@@ -55541,383 +54316,396 @@
       "resistanceAt20CMilliohm": 0.4776657374554169,
       "groundPourCoversCenterline": true,
       "thermalScreenDisposition": "parallel-plane-requires-ground-current-sharing-review"
+    },
+    {
+      "trace": "independent_passive_monitor_bridge",
+      "net": "VM_SENSE",
+      "layer": "bottom",
+      "widthMm": 0.16,
+      "lengthMm": 2.2941519178336907,
+      "copperThicknessUm": 35.0,
+      "currentBudgetA": 0,
+      "ipc2221TemperatureRiseEstimateC": null,
+      "resistanceAt20CMilliohm": 7.062710547045146,
+      "groundPourCoversCenterline": false,
+      "thermalScreenDisposition": "isolated-track-screen"
     }
   ],
   "groundPours": [
     {
-      "id": "service_gnd_top_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 303.1913308040739
+      "areaMm2": 303.1913105515439
     },
     {
-      "id": "service_gnd_top_0_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_0_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 197.84696924948432
+      "areaMm2": 197.84696164156568
     },
     {
-      "id": "service_gnd_top_1_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_1_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 2.183718705075999
+      "areaMm2": 2.183718224443164
     },
     {
-      "id": "service_gnd_top_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 3.849592159820004
+      "areaMm2": 3.8495914053611413
     },
     {
-      "id": "service_gnd_top_4_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_4_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 6.331515649811995
+      "areaMm2": 6.331514434997505
     },
     {
-      "id": "service_gnd_top_4_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_4_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 19.681189550201
+      "areaMm2": 19.681184208250635
     },
     {
-      "id": "service_gnd_top_4_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_4_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 60.19528581815446
+      "areaMm2": 60.19528000973807
     },
     {
-      "id": "service_gnd_top_8_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_8_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.2884847639890007
+      "areaMm2": 1.2884843938629396
     },
     {
-      "id": "service_gnd_top_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.7317183398315008
+      "areaMm2": 1.7317181633911112
     },
     {
-      "id": "service_gnd_top_16_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_16_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 5.380316130696999
+      "areaMm2": 5.380315739260678
     },
     {
-      "id": "service_gnd_top_17_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_17_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.1360118208099996
+      "areaMm2": 1.1360118022999852
     },
     {
-      "id": "service_gnd_top_18_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_18_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 8.454394423933518
+      "areaMm2": 8.454391934759967
     },
     {
-      "id": "service_gnd_top_19_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_19_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 2.9258998515584995
+      "areaMm2": 2.912034314344954
     },
     {
-      "id": "service_gnd_top_20_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_20_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 2.599054224886997
+      "areaMm2": 2.5990534534907663
     },
     {
-      "id": "service_gnd_top_25_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_25_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.821784325994001
+      "areaMm2": 1.8217838669752955
     },
     {
-      "id": "service_gnd_top_43_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_43_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 0.2702615472414999
+      "areaMm2": 0.27026134521729034
     },
     {
-      "id": "service_gnd_bottom_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 19.46929213656951
+      "areaMm2": 19.469288715912057
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.3453554240565
+      "areaMm2": 1.3453553449294933
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
       "areaMm2": 0.044473296696500006
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 134.93907053766415
+      "areaMm2": 134.93906987874922
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_3_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_3_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 392.46601855108935
+      "areaMm2": 392.4660115761456
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_4_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_4_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.0040051130059995
+      "areaMm2": 1.004004683096626
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_5_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_5_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 138.79876357729142
+      "areaMm2": 138.79876061157574
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_6_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_6_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 56.63010400123997
+      "areaMm2": 56.63010241548862
     },
     {
-      "id": "service_gnd_bottom_3_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_3_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 21.655116104178514
+      "areaMm2": 21.48963231480007
     },
     {
-      "id": "service_gnd_bottom_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.5360523417420007
+      "areaMm2": 1.5360516406258087
     },
     {
-      "id": "service_gnd_bottom_9_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_9_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.9405521837190005
+      "areaMm2": 1.9405514623857842
     },
     {
-      "id": "service_gnd_bottom_9_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_9_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 17.32183627560002
+      "areaMm2": 17.321833353647154
     },
     {
-      "id": "service_gnd_bottom_10_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_10_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 6.016207017062003
+      "areaMm2": 6.016204777147864
     },
     {
-      "id": "service_gnd_bottom_11_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_11_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 6.329704215685276
+      "areaMm2": 6.329696595316409
     }
   ],
   "copperPours": [
     {
-      "id": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_simple_0_inside_0_usbclear_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0",
+      "id": "ldo_heat_top_0_simple_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_simple_0_inside_0_usbclear_0_simple_0_usbclear_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_simple_0_usbclear_0_usbclear_0",
       "net": "LOGIC_IN",
       "layer": "top",
-      "areaMm2": 15.321531943561501
+      "areaMm2": 15.321531680696252
     },
     {
-      "id": "service_gnd_top_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 303.1913308040739
+      "areaMm2": 303.1913105515439
     },
     {
-      "id": "service_gnd_top_0_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_0_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 197.84696924948432
+      "areaMm2": 197.84696164156568
     },
     {
-      "id": "service_gnd_top_1_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_1_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 2.183718705075999
+      "areaMm2": 2.183718224443164
     },
     {
-      "id": "service_gnd_top_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 3.849592159820004
+      "areaMm2": 3.8495914053611413
     },
     {
-      "id": "service_gnd_top_4_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_4_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 6.331515649811995
+      "areaMm2": 6.331514434997505
     },
     {
-      "id": "service_gnd_top_4_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_4_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 19.681189550201
+      "areaMm2": 19.681184208250635
     },
     {
-      "id": "service_gnd_top_4_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_4_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 60.19528581815446
+      "areaMm2": 60.19528000973807
     },
     {
-      "id": "service_gnd_top_8_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_8_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.2884847639890007
+      "areaMm2": 1.2884843938629396
     },
     {
-      "id": "service_gnd_top_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.7317183398315008
+      "areaMm2": 1.7317181633911112
     },
     {
-      "id": "service_gnd_top_16_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_16_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 5.380316130696999
+      "areaMm2": 5.380315739260678
     },
     {
-      "id": "service_gnd_top_17_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_17_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.1360118208099996
+      "areaMm2": 1.1360118022999852
     },
     {
-      "id": "service_gnd_top_18_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_18_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 8.454394423933518
+      "areaMm2": 8.454391934759967
     },
     {
-      "id": "service_gnd_top_19_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_19_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 2.9258998515584995
+      "areaMm2": 2.912034314344954
     },
     {
-      "id": "service_gnd_top_20_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_20_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 2.599054224886997
+      "areaMm2": 2.5990534534907663
     },
     {
-      "id": "service_gnd_top_25_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_25_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 1.821784325994001
+      "areaMm2": 1.8217838669752955
     },
     {
-      "id": "service_gnd_top_43_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_top_43_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "top",
-      "areaMm2": 0.2702615472414999
+      "areaMm2": 0.27026134521729034
     },
     {
-      "id": "service_gnd_bottom_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_0_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 19.46929213656951
+      "areaMm2": 19.469288715912057
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.3453554240565
+      "areaMm2": 1.3453553449294933
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
       "areaMm2": 0.044473296696500006
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 134.93907053766415
+      "areaMm2": 134.93906987874922
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_3_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_3_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 392.46601855108935
+      "areaMm2": 392.4660115761456
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_4_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_4_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.0040051130059995
+      "areaMm2": 1.004004683096626
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_5_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_5_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 138.79876357729142
+      "areaMm2": 138.79876061157574
     },
     {
-      "id": "service_gnd_bottom_2_usbclear_0_simple_6_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_2_usbclear_0_simple_6_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 56.63010400123997
+      "areaMm2": 56.63010241548862
     },
     {
-      "id": "service_gnd_bottom_3_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_3_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 21.655116104178514
+      "areaMm2": 21.48963231480007
     },
     {
-      "id": "service_gnd_bottom_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_9_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.5360523417420007
+      "areaMm2": 1.5360516406258087
     },
     {
-      "id": "service_gnd_bottom_9_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_9_usbclear_0_simple_1_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 1.9405521837190005
+      "areaMm2": 1.9405514623857842
     },
     {
-      "id": "service_gnd_bottom_9_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_9_usbclear_0_simple_2_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 17.32183627560002
+      "areaMm2": 17.321833353647154
     },
     {
-      "id": "service_gnd_bottom_10_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_10_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 6.016207017062003
+      "areaMm2": 6.016204777147864
     },
     {
-      "id": "service_gnd_bottom_11_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0",
+      "id": "service_gnd_bottom_11_usbclear_0_simple_0_usbclear_0_simple_0_campruned_0_usbclear_0_usbclear_0",
       "net": "GND",
       "layer": "bottom",
-      "areaMm2": 6.329704215685276
+      "areaMm2": 6.329696595316409
     }
   ],
-  "adcVoltageAt15V": 0.7142857142857143,
-  "switchInputWorstVoltageAt35V": 3.240146654445463,
-  "enabledAdcNominalScale": 21.0,
-  "poweredOffDcVoltageBoundVolts": 0.101,
-  "adcWorstVoltageAt35V": 1.6987025468524748,
+  "adcVoltageAt15V": 0.0670343253779595,
+  "passiveAdcWorstVoltageAt35V": 0.15955888778874402,
+  "enabledAdcNominalScale": 223.7659574468085,
+  "poweredOffDcVoltageBoundVolts": 0.16003358778874402,
+  "adcWorstVoltageAt35V": 0.15955888778874402,
   "qualifiedForManufacture": false,
   "groundThermalCurrentSharingAnalysisPending": true,
   "limits": [
@@ -55926,13 +54714,5 @@
     "Via resistance/plating, switching pulses, USB impedance, EMI and regulator stability require separate validation.",
     "Branched copper totals are not USB pair skew or point-to-point resistance.",
     "A4988 current accuracy and sense/ground path parasitics still require phase-current measurements."
-  ],
-  "schematic_only_evidence_binding": {
-    "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "4a93c84ffff3380649ee7893ad1e291805ed0dccb3ba86105a064257d6bd5fd5",
-    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-    "non_schematic_inputs_equal": true,
-    "original_test_repeated": false
-  }
+  ]
 }

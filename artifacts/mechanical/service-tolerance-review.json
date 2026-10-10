@@ -1,18 +1,13 @@
 {
-  "board_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
-  "mechanical_report_sha256": "ebc81b78d7687e9afba5514375b30558ddfe9bbef9003811416f090f826ad81e",
+  "board_sha256": "6ee4720f90233844e02e207973f481f5ac5da1e55ca5bc92325e957412b3959d",
+  "mechanical_report_sha256": "c610dedaf65c03478a848b3a8ea33797e52942bbfef6b4f4227a727fa82c1b54",
   "bounded_clearance_screens_mm": {
     "pilot_pattern_remaining_radial_mm": 0.04500000000000004,
     "tail_barrier_remaining_mm": 0.34,
     "usb_body_pair_remaining_mm": 1.2999999999999983,
-    "usb_outward_registration_remaining_mm": 0.10000000000000003,
-    "bulk_max_envelope_to_outline_after_0p2_outline_0p1_placement_mm": 0.04997460000019843,
-    "minimum_fastener_to_component_after_0p35_play_0p1_placement_0p05_carrier_mm": 0.5799999000000007,
-    "extension_to_carrier_after_0p2_routing_0p05_OD_0p05_machining_mm": 0.4163690594811054,
-    "extension_to_motor_after_0p2_routing_0p05_OD_0p1_body_0p126_pilot_0p05_machining_mm": 1.3640000000000112,
-    "full_header_edge_after_0p2_outline_0p1_placement_mm": 0.09999989999999742
+    "full_header_edge_remaining_mm": 0.09999989999999742,
+    "minimum_fastener_to_component_after_allowances_mm": 0.5799999000000007
   },
-  "procurement_and_assembly_allowances_are_requirements_not_measurements": true,
-  "factory_lead_OD_material_bend_and_placement_bounds_verified": false,
-  "qualification": "Prototype screen only; actual motor revision, lead stock, model discrepancy, tolerances/materials/retention and fit must be qualified."
+  "allowances_are_requirements_not_measurements": true,
+  "physical_fit_verified": false
 }

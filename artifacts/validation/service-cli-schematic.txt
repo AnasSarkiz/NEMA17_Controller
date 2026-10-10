@@ -1,1 +1,8 @@
-
+<SchematicSheet name="CH32 &amp; USB Control" id="schematic_sheet_1">
+<SchematicBoxPositions>
+<SchematicBoxPlacement componentName="Q_DATA" positionAnchor="center" schX="7.8" schY="-3.4" width="3.4" height="1.5" />
+</SchematicBoxPositions>
+<SchematicPlacementIssues>
+<GenericSchematicBoxTooWide message="Shrink schematic box width" componentName="Q_DATA" currentSchWidth="3.4" measuredInnerLabelHorizontalEmptySpace="1.68" maxAllowedInnerLabelHorizontalEmptySpace="1" suggestedSchWidth="2.72" />
+</SchematicPlacementIssues>
+</SchematicSheet>
