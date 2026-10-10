@@ -1,5 +1,5 @@
 {
-  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
   "functional_texts": [
     {
       "text": "PD",
@@ -138,9 +138,9 @@
   "scope": "Raw CLI versus finished Gerber stroke conservation within generous isolated functional-label regions; does not prove physical legibility or manufacturer body marking.",
   "schematic_only_evidence_binding": {
     "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "798927adc9785a58e8d72bf092902fab791cb3f31c8acd1fae7f12eed4db1509",
-    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "previous_report_sha256": "58318c96b72463be6d2ab6223ab9d52e9bb00b062a563b9732e45046fc0abcfe",
+    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
     "non_schematic_inputs_equal": true,
     "original_test_repeated": false
   }

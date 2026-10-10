@@ -9,7 +9,7 @@
   "matplotlib_version": "3.11.2",
   "numpy_version": "2.3.5",
   "renderer": "native STEP tessellation, true orthographic software Z-buffer, fixed same-scale views",
-  "board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "board_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
   "input_current_at_finish": true,
   "catalog_sha256": "87428be50a1c69397d638a8bbd054b80466429c77558bb50315e41791fd6977a",
   "board_cad_model_count": 45,
@@ -3618,7 +3618,7 @@
     "fastener-clearance-envelopes.step": "3ffff436a47d8017d1d40ac5632e7b80147a5ab8cdcaa43bdc6e612e2fc3d65e",
     "generated-step-validation.json": "4bd222ac305aaf5fd28c320dd7ec26d175df9d035ceda8f7d272e4242658ee0e",
     "harness-and-insulation.step.zip": "0d0f2729982f74f1eab5906a53edafd4ad0b0fcdb158eab0f032d266c4f36969",
-    "input-board.circuit.json": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "input-board.circuit.json": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
     "input-jlcpcb-catalog.json": "87428be50a1c69397d638a8bbd054b80466429c77558bb50315e41791fd6977a",
     "input-review-mechanical.py": "97a1c608b437f1911a1479795575cdfa5d59a6ca5a28bb6f1e8818a1cd4cf616",
     "motor-front-detail.png": "d49170c47c6f6b239488251eea93f5f68de313399190b4d7d14464322d06d0e5",
@@ -3631,12 +3631,12 @@
     "same-edge-provisional-screen.json": "027f1c5b6110b8b4524049004b94fcecf5d0acc6efeb51e146232ad1ff045350",
     "separate-front-carrier.step": "07a9dd068ee8697396e0e17ccc2078ca0147838c61f9199b105fb060bef496cf",
     "service-harness-review.json": "77c1e76b91a3b09b88d92ba0df21ba40032dcb0a6f0cc6a46b62e554ca7d6d0b",
-    "service-tolerance-review.json": "8df3bdaaf54f22404baef3f15a0f96ff80a40a15e6b6dd7c93cbe574ae5475f3"
+    "service-tolerance-review.json": "43ea416773b9e55c86524e3f3fa46494219afd8c7e77bd1806a5519bdad1cec6"
   },
   "rebind_proof": {
     "audited_input_sha256": "f5c0834cdd85d14128d5d7050c79a67d3cb0a7851f6a9ddee7573ae450a7504c",
-    "previous_input_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-    "saved_board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "previous_input_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "saved_board_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
     "mechanical_fingerprint_sha256": "27f28c45ca29a404321fa65eceffd31ed9f33d4f112a4afe351bead1746285c6",
     "coordinate_comparison_resolution_mm": 1e-09,
     "geometry_equivalent": true,

@@ -1,8 +1,8 @@
 {
   "schema": "outer-power-actual-cam-1",
-  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
-  "native_policy_sha256": "2b0b2db090d054a9e9ba49b8cb33aff45eba03721da17387438dae91dd933fdc",
-  "cam_audit_sha256": "1686259c04904960da5dfc9aa863e2da6177fcc720dcdeb4885a9cb708a87edf",
+  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
+  "native_policy_sha256": "d5cbb630848e2c5cb4308a43a762f439df40d971cad985b057b2c2b5b42db404",
+  "cam_audit_sha256": "7007e0cfe6607f65d33f7e0bdb87f299cc2980f20e5ab04fc6d9f66bacb43202",
   "archive_sha256": "e7b674a62b54e89456b7c84c0cd15e05d03a7f0e46281e95d4472b704f99d1ba",
   "files_sha256": {
     "F_Cu.gbr": "0dba76addf2b7d02993fcaafa4694e84903f34254b150731becc11674fc07b63",
@@ -9744,9 +9744,9 @@
   "hardwareQualified": false,
   "schematic_only_evidence_binding": {
     "proof": "artifacts/validation/functional-schematic-evidence-binding.json",
-    "previous_report_sha256": "5b11510c792934433cded7ff2fb1e7b46f454e780563c0d4f483826d08c6f5b5",
-    "original_source_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-    "current_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "previous_report_sha256": "42a006d5f52ac21e960bf9f5b709d4534332bd2ba640b812e9b2f8fba65910b3",
+    "original_source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+    "current_source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
     "non_schematic_inputs_equal": true,
     "original_test_repeated": false
   }

@@ -1,5 +1,5 @@
 {
-  "board_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "board_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
   "pages": [
     {
       "page": 1,
@@ -17,7 +17,7 @@
         "C_LDO_OUT"
       ],
       "analysis": "0 schematic placement findings",
-      "native_svg_sha256": "bd83358d98f266db676484d0d77b8f70f83e2ccddb2e6e3e60792514fa7f13fa",
+      "native_svg_sha256": "9ee9fd17751ba08c272305f5c1223a69dc10c46aa9bcd3d3aaca02e2b121c61e",
       "a4_size_verified": true,
       "all_component_labels_present": true
     },
@@ -40,7 +40,7 @@
         "J_BOOT"
       ],
       "analysis": "0 schematic placement findings",
-      "native_svg_sha256": "c6f2d25a43b02f51228c8dce87eba35a3480e6ae86741ec436dd5be968457d09",
+      "native_svg_sha256": "36923f4aaa0c72dc4f9dcf0a5a30a6112526c54ea3130587fa8dd9ac40163b85",
       "a4_size_verified": true,
       "all_component_labels_present": true
     },
@@ -74,7 +74,7 @@
         "C_VM_SENSE"
       ],
       "analysis": "0 schematic placement findings",
-      "native_svg_sha256": "e2430413eb8b4bcd4a569e24502c97997830ae6e2231a3634f3afa01f55c080f",
+      "native_svg_sha256": "1cd54f6331734d2d203d325ea5d72908673c3c0ac37a0d994451f13585c6e007",
       "a4_size_verified": true,
       "all_component_labels_present": true
     }

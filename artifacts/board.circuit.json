@@ -169700,7 +169700,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -13.4775,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "source_port_id": "source_port_0",
     "facing_direction": "left",
@@ -169738,7 +169738,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -13.4775,
-      "y": 6.000000000000001
+      "y": 6
     },
     "source_port_id": "source_port_2",
     "facing_direction": "left",
@@ -169757,7 +169757,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -13.4775,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_3",
     "facing_direction": "left",
@@ -169776,7 +169776,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -13.4775,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "source_port_id": "source_port_4",
     "facing_direction": "left",
@@ -169795,7 +169795,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -13.4775,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_5",
     "facing_direction": "left",
@@ -169852,7 +169852,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -10.7225,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "source_port_id": "source_port_8",
     "facing_direction": "right",
@@ -169890,7 +169890,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -10.7225,
-      "y": 6.000000000000001
+      "y": 6
     },
     "source_port_id": "source_port_10",
     "facing_direction": "right",
@@ -169909,7 +169909,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -10.7225,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_11",
     "facing_direction": "right",
@@ -169928,7 +169928,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -10.7225,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "source_port_id": "source_port_12",
     "facing_direction": "right",
@@ -169947,7 +169947,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": -10.7225,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_13",
     "facing_direction": "right",
@@ -170106,7 +170106,7 @@
     "schematic_component_id": "schematic_component_2",
     "center": {
       "x": -5.52,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_34",
     "facing_direction": "left",
@@ -170144,7 +170144,7 @@
     "schematic_component_id": "schematic_component_2",
     "center": {
       "x": -5.52,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_36",
     "facing_direction": "left",
@@ -170181,7 +170181,7 @@
     "schematic_port_id": "schematic_port_38",
     "schematic_component_id": "schematic_component_2",
     "center": {
-      "x": -2.8800000000000003,
+      "x": -2.88,
       "y": 6.4
     },
     "source_port_id": "source_port_38",
@@ -170200,7 +170200,7 @@
     "schematic_port_id": "schematic_port_39",
     "schematic_component_id": "schematic_component_2",
     "center": {
-      "x": -2.8800000000000003,
+      "x": -2.88,
       "y": 6
     },
     "source_port_id": "source_port_39",
@@ -170219,8 +170219,8 @@
     "schematic_port_id": "schematic_port_40",
     "schematic_component_id": "schematic_component_2",
     "center": {
-      "x": -2.8800000000000003,
-      "y": 5.6000000000000005
+      "x": -2.88,
+      "y": 5.6
     },
     "source_port_id": "source_port_40",
     "facing_direction": "right",
@@ -170238,7 +170238,7 @@
     "schematic_port_id": "schematic_port_41",
     "schematic_component_id": "schematic_component_2",
     "center": {
-      "x": -2.8800000000000003,
+      "x": -2.88,
       "y": 5.2
     },
     "source_port_id": "source_port_41",
@@ -170257,8 +170257,8 @@
     "schematic_port_id": "schematic_port_42",
     "schematic_component_id": "schematic_component_2",
     "center": {
-      "x": -2.8800000000000003,
-      "y": 4.800000000000001
+      "x": -2.88,
+      "y": 4.8
     },
     "source_port_id": "source_port_42",
     "facing_direction": "right",
@@ -170350,8 +170350,8 @@
     "schematic_port_id": "schematic_port_45",
     "schematic_component_id": "schematic_component_4",
     "center": {
-      "x": -0.8000000000000025,
-      "y": 5.1000000000000005
+      "x": -0.8,
+      "y": 5.1
     },
     "source_port_id": "source_port_45",
     "facing_direction": "up",
@@ -170368,8 +170368,8 @@
     "schematic_port_id": "schematic_port_46",
     "schematic_component_id": "schematic_component_4",
     "center": {
-      "x": -0.8000000000000025,
-      "y": 4.499999999999999
+      "x": -0.8,
+      "y": 4.5
     },
     "source_port_id": "source_port_46",
     "facing_direction": "down",
@@ -170406,7 +170406,7 @@
     "schematic_component_id": "schematic_component_5",
     "center": {
       "x": 1,
-      "y": 3.000000000000001
+      "y": 3
     },
     "source_port_id": "source_port_47",
     "facing_direction": "up",
@@ -170424,7 +170424,7 @@
     "schematic_component_id": "schematic_component_5",
     "center": {
       "x": 1,
-      "y": 2.3999999999999995
+      "y": 2.4
     },
     "source_port_id": "source_port_48",
     "facing_direction": "down",
@@ -170850,7 +170850,7 @@
     "schematic_component_id": "schematic_component_24",
     "center": {
       "x": 3.8,
-      "y": -3.2000000000000015
+      "y": -3.2
     },
     "source_port_id": "source_port_118",
     "facing_direction": "down",
@@ -170887,7 +170887,7 @@
     "schematic_component_id": "schematic_component_25",
     "center": {
       "x": 12,
-      "y": -2.5999999999999983
+      "y": -2.6
     },
     "source_port_id": "source_port_119",
     "facing_direction": "up",
@@ -170905,7 +170905,7 @@
     "schematic_component_id": "schematic_component_25",
     "center": {
       "x": 12,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "source_port_id": "source_port_120",
     "facing_direction": "down",
@@ -171106,7 +171106,7 @@
     "schematic_port_id": "schematic_port_49",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
+      "x": -12.085,
       "y": 5.1
     },
     "source_port_id": "source_port_49",
@@ -171125,8 +171125,8 @@
     "schematic_port_id": "schematic_port_50",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 4.699999999999999
+      "x": -12.085,
+      "y": 4.7
     },
     "source_port_id": "source_port_50",
     "facing_direction": "left",
@@ -171145,7 +171145,7 @@
     "schematic_port_id": "schematic_port_51",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
+      "x": -12.085,
       "y": 4.3
     },
     "source_port_id": "source_port_51",
@@ -171164,8 +171164,8 @@
     "schematic_port_id": "schematic_port_52",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 3.8999999999999995
+      "x": -12.085,
+      "y": 3.9
     },
     "source_port_id": "source_port_52",
     "facing_direction": "left",
@@ -171183,8 +171183,8 @@
     "schematic_port_id": "schematic_port_53",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 3.4999999999999996
+      "x": -12.085,
+      "y": 3.5
     },
     "source_port_id": "source_port_53",
     "facing_direction": "left",
@@ -171202,8 +171202,8 @@
     "schematic_port_id": "schematic_port_54",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 3.0999999999999996
+      "x": -12.085,
+      "y": 3.1
     },
     "source_port_id": "source_port_54",
     "facing_direction": "left",
@@ -171221,8 +171221,8 @@
     "schematic_port_id": "schematic_port_55",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 2.6999999999999993
+      "x": -12.085,
+      "y": 2.7
     },
     "source_port_id": "source_port_55",
     "facing_direction": "left",
@@ -171240,8 +171240,8 @@
     "schematic_port_id": "schematic_port_56",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 2.2999999999999994
+      "x": -12.085,
+      "y": 2.3
     },
     "source_port_id": "source_port_56",
     "facing_direction": "left",
@@ -171259,8 +171259,8 @@
     "schematic_port_id": "schematic_port_57",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 1.8999999999999995
+      "x": -12.085,
+      "y": 1.9
     },
     "source_port_id": "source_port_57",
     "facing_direction": "left",
@@ -171278,8 +171278,8 @@
     "schematic_port_id": "schematic_port_58",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 1.4999999999999996
+      "x": -12.085,
+      "y": 1.5
     },
     "source_port_id": "source_port_58",
     "facing_direction": "left",
@@ -171297,8 +171297,8 @@
     "schematic_port_id": "schematic_port_59",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 1.0999999999999996
+      "x": -12.085,
+      "y": 1.1
     },
     "source_port_id": "source_port_59",
     "facing_direction": "left",
@@ -171316,8 +171316,8 @@
     "schematic_port_id": "schematic_port_60",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 0.6999999999999993
+      "x": -12.085,
+      "y": 0.7
     },
     "source_port_id": "source_port_60",
     "facing_direction": "left",
@@ -171335,8 +171335,8 @@
     "schematic_port_id": "schematic_port_61",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": 0.29999999999999893
+      "x": -12.085,
+      "y": 0.3
     },
     "source_port_id": "source_port_61",
     "facing_direction": "left",
@@ -171354,8 +171354,8 @@
     "schematic_port_id": "schematic_port_62",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": -0.10000000000000053
+      "x": -12.085,
+      "y": -0.1
     },
     "source_port_id": "source_port_62",
     "facing_direction": "left",
@@ -171373,8 +171373,8 @@
     "schematic_port_id": "schematic_port_63",
     "schematic_component_id": "schematic_component_6",
     "center": {
-      "x": -12.084999999999999,
-      "y": -0.5000000000000009
+      "x": -12.085,
+      "y": -0.5
     },
     "source_port_id": "source_port_63",
     "facing_direction": "left",
@@ -171412,7 +171412,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 4.699999999999999
+      "y": 4.7
     },
     "source_port_id": "source_port_65",
     "facing_direction": "right",
@@ -171450,7 +171450,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 3.8999999999999995
+      "y": 3.9
     },
     "source_port_id": "source_port_67",
     "facing_direction": "right",
@@ -171469,7 +171469,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 3.4999999999999996
+      "y": 3.5
     },
     "source_port_id": "source_port_68",
     "facing_direction": "right",
@@ -171488,7 +171488,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 3.0999999999999996
+      "y": 3.1
     },
     "source_port_id": "source_port_69",
     "facing_direction": "right",
@@ -171507,7 +171507,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 2.6999999999999993
+      "y": 2.7
     },
     "source_port_id": "source_port_70",
     "facing_direction": "right",
@@ -171526,7 +171526,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 2.2999999999999994
+      "y": 2.3
     },
     "source_port_id": "source_port_71",
     "facing_direction": "right",
@@ -171545,7 +171545,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 1.8999999999999995
+      "y": 1.9
     },
     "source_port_id": "source_port_72",
     "facing_direction": "right",
@@ -171564,7 +171564,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 1.4999999999999996
+      "y": 1.5
     },
     "source_port_id": "source_port_73",
     "facing_direction": "right",
@@ -171583,7 +171583,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 1.0999999999999996
+      "y": 1.1
     },
     "source_port_id": "source_port_74",
     "facing_direction": "right",
@@ -171602,7 +171602,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 0.6999999999999993
+      "y": 0.7
     },
     "source_port_id": "source_port_75",
     "facing_direction": "right",
@@ -171621,7 +171621,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": 0.29999999999999893
+      "y": 0.3
     },
     "source_port_id": "source_port_76",
     "facing_direction": "right",
@@ -171640,7 +171640,7 @@
     "schematic_component_id": "schematic_component_6",
     "center": {
       "x": -8.115,
-      "y": -0.10000000000000053
+      "y": -0.1
     },
     "source_port_id": "source_port_77",
     "facing_direction": "right",
@@ -171678,7 +171678,7 @@
     "schematic_component_id": "schematic_component_7",
     "center": {
       "x": -12.3,
-      "y": -2.8999999999999995
+      "y": -2.9
     },
     "source_port_id": "source_port_78",
     "facing_direction": "up",
@@ -171696,7 +171696,7 @@
     "schematic_component_id": "schematic_component_7",
     "center": {
       "x": -12.3,
-      "y": -3.500000000000001
+      "y": -3.5
     },
     "source_port_id": "source_port_79",
     "facing_direction": "down",
@@ -171733,7 +171733,7 @@
     "schematic_component_id": "schematic_component_8",
     "center": {
       "x": -10.7,
-      "y": -2.8999999999999986
+      "y": -2.9
     },
     "source_port_id": "source_port_80",
     "facing_direction": "up",
@@ -171770,11 +171770,11 @@
       {
         "from": {
           "x": -12.3,
-          "y": -2.8999999999999995
+          "y": -2.9
         },
         "to": {
           "x": -12.3,
-          "y": -2.3799999999999994
+          "y": -2.38
         }
       }
     ],
@@ -171790,11 +171790,11 @@
       {
         "from": {
           "x": -10.7,
-          "y": -2.8999999999999986
+          "y": -2.9
         },
         "to": {
           "x": -10.7,
-          "y": -2.3799999999999994
+          "y": -2.38
         }
       }
     ],
@@ -171810,22 +171810,22 @@
       {
         "from": {
           "x": -12.9,
-          "y": -2.3799999999999994
+          "y": -2.38
         },
         "to": {
           "x": -10.7,
-          "y": -2.3799999999999994
+          "y": -2.38
         }
       }
     ],
     "junctions": [
       {
         "x": -12.3,
-        "y": -2.3799999999999994
+        "y": -2.38
       },
       {
         "x": -10.7,
-        "y": -2.3799999999999994
+        "y": -2.38
       }
     ],
     "schematic_sheet_id": "schematic_sheet_1",
@@ -171839,11 +171839,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": -12.9,
-      "y": -2.3799999999999994
+      "y": -2.38
     },
     "center": {
       "x": -12.9,
-      "y": -2.3799999999999994
+      "y": -2.38
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -171855,11 +171855,11 @@
       {
         "from": {
           "x": -12.3,
-          "y": -3.500000000000001
+          "y": -3.5
         },
         "to": {
           "x": -12.3,
-          "y": -4.020000000000001
+          "y": -4.02
         }
       }
     ],
@@ -171879,7 +171879,7 @@
         },
         "to": {
           "x": -10.7,
-          "y": -4.020000000000001
+          "y": -4.02
         }
       }
     ],
@@ -171895,22 +171895,22 @@
       {
         "from": {
           "x": -12.9,
-          "y": -4.020000000000001
+          "y": -4.02
         },
         "to": {
           "x": -10.7,
-          "y": -4.020000000000001
+          "y": -4.02
         }
       }
     ],
     "junctions": [
       {
         "x": -12.3,
-        "y": -4.020000000000001
+        "y": -4.02
       },
       {
         "x": -10.7,
-        "y": -4.020000000000001
+        "y": -4.02
       }
     ],
     "schematic_sheet_id": "schematic_sheet_1",
@@ -171924,11 +171924,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -12.9,
-      "y": -4.020000000000001
+      "y": -4.02
     },
     "center": {
       "x": -12.9,
-      "y": -4.020000000000001
+      "y": -4.02
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -172069,7 +172069,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 9.7225,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "source_port_id": "source_port_16",
     "facing_direction": "left",
@@ -172107,7 +172107,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 9.7225,
-      "y": 6.000000000000001
+      "y": 6
     },
     "source_port_id": "source_port_18",
     "facing_direction": "left",
@@ -172126,7 +172126,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 9.7225,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_19",
     "facing_direction": "left",
@@ -172145,7 +172145,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 9.7225,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "source_port_id": "source_port_20",
     "facing_direction": "left",
@@ -172164,7 +172164,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 9.7225,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_21",
     "facing_direction": "left",
@@ -172221,7 +172221,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 12.4775,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "source_port_id": "source_port_24",
     "facing_direction": "right",
@@ -172259,7 +172259,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 12.4775,
-      "y": 6.000000000000001
+      "y": 6
     },
     "source_port_id": "source_port_26",
     "facing_direction": "right",
@@ -172278,7 +172278,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 12.4775,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_27",
     "facing_direction": "right",
@@ -172297,7 +172297,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 12.4775,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "source_port_id": "source_port_28",
     "facing_direction": "right",
@@ -172316,7 +172316,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 12.4775,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_29",
     "facing_direction": "right",
@@ -172431,7 +172431,7 @@
     "schematic_component_id": "schematic_component_43",
     "center": {
       "x": 2.43,
-      "y": 5.800000000000001
+      "y": 5.8
     },
     "source_port_id": "source_port_186",
     "facing_direction": "left",
@@ -172469,7 +172469,7 @@
     "schematic_component_id": "schematic_component_43",
     "center": {
       "x": 2.43,
-      "y": 5.000000000000001
+      "y": 5
     },
     "source_port_id": "source_port_188",
     "facing_direction": "left",
@@ -172487,8 +172487,8 @@
     "schematic_port_id": "schematic_port_189",
     "schematic_component_id": "schematic_component_43",
     "center": {
-      "x": 4.970000000000001,
-      "y": 5.800000000000001
+      "x": 4.97,
+      "y": 5.8
     },
     "source_port_id": "source_port_189",
     "facing_direction": "right",
@@ -172506,7 +172506,7 @@
     "schematic_port_id": "schematic_port_190",
     "schematic_component_id": "schematic_component_43",
     "center": {
-      "x": 4.970000000000001,
+      "x": 4.97,
       "y": 5.4
     },
     "source_port_id": "source_port_190",
@@ -172526,8 +172526,8 @@
     "schematic_port_id": "schematic_port_191",
     "schematic_component_id": "schematic_component_43",
     "center": {
-      "x": 4.970000000000001,
-      "y": 5.000000000000001
+      "x": 4.97,
+      "y": 5
     },
     "source_port_id": "source_port_191",
     "facing_direction": "right",
@@ -172565,7 +172565,7 @@
     "schematic_component_id": "schematic_component_9",
     "center": {
       "x": 10.1,
-      "y": 1.5999999999999994
+      "y": 1.6
     },
     "source_port_id": "source_port_82",
     "facing_direction": "up",
@@ -172583,7 +172583,7 @@
     "schematic_component_id": "schematic_component_9",
     "center": {
       "x": 10.1,
-      "y": 0.9999999999999998
+      "y": 1
     },
     "source_port_id": "source_port_83",
     "facing_direction": "down",
@@ -172620,7 +172620,7 @@
     "schematic_component_id": "schematic_component_10",
     "center": {
       "x": 13.3,
-      "y": 1.5999999999999976
+      "y": 1.6
     },
     "source_port_id": "source_port_84",
     "facing_direction": "up",
@@ -172638,7 +172638,7 @@
     "schematic_component_id": "schematic_component_10",
     "center": {
       "x": 13.3,
-      "y": 0.9999999999999998
+      "y": 1
     },
     "source_port_id": "source_port_85",
     "facing_direction": "down",
@@ -172657,11 +172657,11 @@
       {
         "from": {
           "x": 10.1,
-          "y": 0.9999999999999998
+          "y": 1
         },
         "to": {
           "x": 10.1,
-          "y": 0.47999999999999976
+          "y": 0.48
         }
       }
     ],
@@ -172677,11 +172677,11 @@
       {
         "from": {
           "x": 13.3,
-          "y": 0.9999999999999998
+          "y": 1
         },
         "to": {
           "x": 13.3,
-          "y": 0.47999999999999976
+          "y": 0.48
         }
       }
     ],
@@ -172697,22 +172697,22 @@
       {
         "from": {
           "x": 9.5,
-          "y": 0.47999999999999976
+          "y": 0.48
         },
         "to": {
           "x": 13.3,
-          "y": 0.47999999999999976
+          "y": 0.48
         }
       }
     ],
     "junctions": [
       {
         "x": 10.1,
-        "y": 0.47999999999999976
+        "y": 0.48
       },
       {
         "x": 13.3,
-        "y": 0.47999999999999976
+        "y": 0.48
       }
     ],
     "schematic_sheet_id": "schematic_sheet_1",
@@ -172726,11 +172726,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 9.5,
-      "y": 0.47999999999999976
+      "y": 0.48
     },
     "center": {
       "x": 9.5,
-      "y": 0.47999999999999976
+      "y": 0.48
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -172851,7 +172851,7 @@
     "schematic_component_id": "schematic_component_13",
     "center": {
       "x": 6.605,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "source_port_id": "source_port_90",
     "facing_direction": "left",
@@ -172870,7 +172870,7 @@
     "schematic_component_id": "schematic_component_13",
     "center": {
       "x": 6.605,
-      "y": -3.5999999999999996
+      "y": -3.6
     },
     "source_port_id": "source_port_92",
     "facing_direction": "left",
@@ -172889,7 +172889,7 @@
     "schematic_component_id": "schematic_component_13",
     "center": {
       "x": 8.995,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "source_port_id": "source_port_91",
     "facing_direction": "right",
@@ -172945,7 +172945,7 @@
     "schematic_component_id": "schematic_component_11",
     "center": {
       "x": 2.2,
-      "y": -3.6999999999999997
+      "y": -3.7
     },
     "source_port_id": "source_port_87",
     "facing_direction": "down",
@@ -172981,7 +172981,7 @@
     "schematic_port_id": "schematic_port_88",
     "schematic_component_id": "schematic_component_12",
     "center": {
-      "x": 13.099999999999996,
+      "x": 13.1,
       "y": -3.1
     },
     "source_port_id": "source_port_88",
@@ -172999,8 +172999,8 @@
     "schematic_port_id": "schematic_port_89",
     "schematic_component_id": "schematic_component_12",
     "center": {
-      "x": 13.099999999999996,
-      "y": -3.6999999999999997
+      "x": 13.1,
+      "y": -3.7
     },
     "source_port_id": "source_port_89",
     "facing_direction": "down",
@@ -173135,7 +173135,7 @@
     "schematic_component_id": "schematic_component_42",
     "center": {
       "x": -3.225,
-      "y": -2.5999999999999996
+      "y": -2.6
     },
     "source_port_id": "source_port_182",
     "facing_direction": "left",
@@ -173155,7 +173155,7 @@
     "schematic_component_id": "schematic_component_42",
     "center": {
       "x": -3.225,
-      "y": -2.9999999999999996
+      "y": -3
     },
     "source_port_id": "source_port_183",
     "facing_direction": "left",
@@ -173173,8 +173173,8 @@
     "schematic_port_id": "schematic_port_184",
     "schematic_component_id": "schematic_component_42",
     "center": {
-      "x": -0.7749999999999999,
-      "y": -2.5999999999999996
+      "x": -0.775,
+      "y": -2.6
     },
     "source_port_id": "source_port_184",
     "facing_direction": "right",
@@ -173192,8 +173192,8 @@
     "schematic_port_id": "schematic_port_185",
     "schematic_component_id": "schematic_component_42",
     "center": {
-      "x": -0.7749999999999999,
-      "y": -2.9999999999999996
+      "x": -0.775,
+      "y": -3
     },
     "source_port_id": "source_port_185",
     "facing_direction": "right",
@@ -173230,8 +173230,8 @@
     "schematic_port_id": "schematic_port_194",
     "schematic_component_id": "schematic_component_45",
     "center": {
-      "x": -3.899999999999999,
-      "y": -5.500000000000001
+      "x": -3.9,
+      "y": -5.5
     },
     "source_port_id": "source_port_194",
     "facing_direction": "up",
@@ -173248,8 +173248,8 @@
     "schematic_port_id": "schematic_port_195",
     "schematic_component_id": "schematic_component_45",
     "center": {
-      "x": -3.899999999999999,
-      "y": -6.099999999999999
+      "x": -3.9,
+      "y": -6.1
     },
     "source_port_id": "source_port_195",
     "facing_direction": "down",
@@ -173563,7 +173563,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_123",
     "facing_direction": "left",
@@ -173601,7 +173601,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_125",
     "facing_direction": "left",
@@ -173696,7 +173696,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 2.8000000000000003
+      "y": 2.8
     },
     "source_port_id": "source_port_130",
     "facing_direction": "left",
@@ -173715,7 +173715,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 2.4000000000000004
+      "y": 2.4
     },
     "source_port_id": "source_port_131",
     "facing_direction": "left",
@@ -173753,7 +173753,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 1.5999999999999996
+      "y": 1.6
     },
     "source_port_id": "source_port_133",
     "facing_direction": "left",
@@ -173772,7 +173772,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 1.2000000000000002
+      "y": 1.2
     },
     "source_port_id": "source_port_134",
     "facing_direction": "left",
@@ -173791,7 +173791,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -11.605,
-      "y": 0.7999999999999998
+      "y": 0.8
     },
     "source_port_id": "source_port_135",
     "facing_direction": "left",
@@ -173849,7 +173849,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -8.395,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "source_port_id": "source_port_138",
     "facing_direction": "right",
@@ -173887,7 +173887,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -8.395,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "source_port_id": "source_port_140",
     "facing_direction": "right",
@@ -173983,7 +173983,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -8.395,
-      "y": 2.8000000000000003
+      "y": 2.8
     },
     "source_port_id": "source_port_145",
     "facing_direction": "right",
@@ -174002,7 +174002,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -8.395,
-      "y": 2.4000000000000004
+      "y": 2.4
     },
     "source_port_id": "source_port_146",
     "facing_direction": "right",
@@ -174040,7 +174040,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -8.395,
-      "y": 1.5999999999999996
+      "y": 1.6
     },
     "source_port_id": "source_port_148",
     "facing_direction": "right",
@@ -174060,7 +174060,7 @@
     "schematic_component_id": "schematic_component_26",
     "center": {
       "x": -8.395,
-      "y": 1.2000000000000002
+      "y": 1.2
     },
     "source_port_id": "source_port_149",
     "facing_direction": "right",
@@ -174195,7 +174195,7 @@
     "schematic_port_id": "schematic_port_178",
     "schematic_component_id": "schematic_component_41",
     "center": {
-      "x": -2.8049999999999997,
+      "x": -2.805,
       "y": 6.9
     },
     "source_port_id": "source_port_178",
@@ -174214,7 +174214,7 @@
     "schematic_port_id": "schematic_port_179",
     "schematic_component_id": "schematic_component_41",
     "center": {
-      "x": -2.8049999999999997,
+      "x": -2.805,
       "y": 6.5
     },
     "source_port_id": "source_port_179",
@@ -174290,8 +174290,8 @@
     "schematic_port_id": "schematic_port_164",
     "schematic_component_id": "schematic_component_34",
     "center": {
-      "x": -2.599999999999999,
-      "y": 2.399999999999999
+      "x": -2.6,
+      "y": 2.4
     },
     "source_port_id": "source_port_164",
     "facing_direction": "up",
@@ -174308,8 +174308,8 @@
     "schematic_port_id": "schematic_port_165",
     "schematic_component_id": "schematic_component_34",
     "center": {
-      "x": -2.599999999999999,
-      "y": 1.8000000000000012
+      "x": -2.6,
+      "y": 1.8
     },
     "source_port_id": "source_port_165",
     "facing_direction": "down",
@@ -174346,7 +174346,7 @@
     "schematic_component_id": "schematic_component_35",
     "center": {
       "x": 0.7,
-      "y": 2.400000000000001
+      "y": 2.4
     },
     "source_port_id": "source_port_166",
     "facing_direction": "up",
@@ -174364,7 +174364,7 @@
     "schematic_component_id": "schematic_component_35",
     "center": {
       "x": 0.7,
-      "y": 1.8000000000000003
+      "y": 1.8
     },
     "source_port_id": "source_port_167",
     "facing_direction": "down",
@@ -174382,12 +174382,12 @@
     "edges": [
       {
         "from": {
-          "x": -2.599999999999999,
-          "y": 1.8000000000000012
+          "x": -2.6,
+          "y": 1.8
         },
         "to": {
-          "x": -2.599999999999999,
-          "y": 1.2800000000000011
+          "x": -2.6,
+          "y": 1.28
         }
       }
     ],
@@ -174403,11 +174403,11 @@
       {
         "from": {
           "x": 0.7,
-          "y": 1.8000000000000003
+          "y": 1.8
         },
         "to": {
           "x": 0.7,
-          "y": 1.2800000000000011
+          "y": 1.28
         }
       }
     ],
@@ -174422,23 +174422,23 @@
     "edges": [
       {
         "from": {
-          "x": -3.1999999999999993,
-          "y": 1.2800000000000011
+          "x": -3.2,
+          "y": 1.28
         },
         "to": {
           "x": 0.7,
-          "y": 1.2800000000000011
+          "y": 1.28
         }
       }
     ],
     "junctions": [
       {
-        "x": -2.599999999999999,
-        "y": 1.2800000000000011
+        "x": -2.6,
+        "y": 1.28
       },
       {
         "x": 0.7,
-        "y": 1.2800000000000011
+        "y": 1.28
       }
     ],
     "schematic_sheet_id": "schematic_sheet_2",
@@ -174451,12 +174451,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": -3.1999999999999993,
-      "y": 1.2800000000000011
+      "x": -3.2,
+      "y": 1.28
     },
     "center": {
-      "x": -3.1999999999999993,
-      "y": 1.2800000000000011
+      "x": -3.2,
+      "y": 1.28
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -174552,7 +174552,7 @@
     "schematic_component_id": "schematic_component_36",
     "center": {
       "x": 5.2,
-      "y": 6.500000000000001
+      "y": 6.5
     },
     "source_port_id": "source_port_168",
     "facing_direction": "up",
@@ -174570,7 +174570,7 @@
     "schematic_component_id": "schematic_component_36",
     "center": {
       "x": 5.2,
-      "y": 5.8999999999999995
+      "y": 5.9
     },
     "source_port_id": "source_port_169",
     "facing_direction": "down",
@@ -174607,7 +174607,7 @@
     "schematic_component_id": "schematic_component_37",
     "center": {
       "x": 5.2,
-      "y": 4.000000000000001
+      "y": 4
     },
     "source_port_id": "source_port_170",
     "facing_direction": "up",
@@ -174625,7 +174625,7 @@
     "schematic_component_id": "schematic_component_37",
     "center": {
       "x": 5.2,
-      "y": 3.3999999999999995
+      "y": 3.4
     },
     "source_port_id": "source_port_171",
     "facing_direction": "down",
@@ -174680,7 +174680,7 @@
     "schematic_component_id": "schematic_component_38",
     "center": {
       "x": 8.2,
-      "y": 3.3999999999999986
+      "y": 3.4
     },
     "source_port_id": "source_port_173",
     "facing_direction": "down",
@@ -174717,7 +174717,7 @@
     "schematic_component_id": "schematic_component_39",
     "center": {
       "x": 11,
-      "y": 6.499999999999999
+      "y": 6.5
     },
     "source_port_id": "source_port_174",
     "facing_direction": "up",
@@ -174735,7 +174735,7 @@
     "schematic_component_id": "schematic_component_39",
     "center": {
       "x": 11,
-      "y": 5.899999999999998
+      "y": 5.9
     },
     "source_port_id": "source_port_175",
     "facing_direction": "down",
@@ -174772,7 +174772,7 @@
     "schematic_component_id": "schematic_component_40",
     "center": {
       "x": 14,
-      "y": 6.500000000000001
+      "y": 6.5
     },
     "source_port_id": "source_port_176",
     "facing_direction": "up",
@@ -174790,7 +174790,7 @@
     "schematic_component_id": "schematic_component_40",
     "center": {
       "x": 14,
-      "y": 5.8999999999999995
+      "y": 5.9
     },
     "source_port_id": "source_port_177",
     "facing_direction": "down",
@@ -174826,8 +174826,8 @@
     "schematic_port_id": "schematic_port_156",
     "schematic_component_id": "schematic_component_30",
     "center": {
-      "x": 12.099999999999996,
-      "y": 2.4000000000000017
+      "x": 12.1,
+      "y": 2.4
     },
     "source_port_id": "source_port_156",
     "facing_direction": "up",
@@ -174844,8 +174844,8 @@
     "schematic_port_id": "schematic_port_157",
     "schematic_component_id": "schematic_component_30",
     "center": {
-      "x": 12.099999999999996,
-      "y": 1.8000000000000007
+      "x": 12.1,
+      "y": 1.8
     },
     "source_port_id": "source_port_157",
     "facing_direction": "down",
@@ -175001,8 +175001,8 @@
     "schematic_port_id": "schematic_port_152",
     "schematic_component_id": "schematic_component_28",
     "center": {
-      "x": -9.899999999999997,
-      "y": -3.900000000000001
+      "x": -9.9,
+      "y": -3.9
     },
     "source_port_id": "source_port_152",
     "facing_direction": "down",
@@ -175019,8 +175019,8 @@
     "schematic_port_id": "schematic_port_153",
     "schematic_component_id": "schematic_component_28",
     "center": {
-      "x": -9.899999999999997,
-      "y": -3.2999999999999994
+      "x": -9.9,
+      "y": -3.3
     },
     "source_port_id": "source_port_153",
     "facing_direction": "up",
@@ -175057,7 +175057,7 @@
     "schematic_component_id": "schematic_component_29",
     "center": {
       "x": -6.7,
-      "y": -3.2999999999999994
+      "y": -3.3
     },
     "source_port_id": "source_port_154",
     "facing_direction": "up",
@@ -175112,7 +175112,7 @@
     "schematic_component_id": "schematic_component_31",
     "center": {
       "x": -13,
-      "y": -5.699999999999999
+      "y": -5.7
     },
     "source_port_id": "source_port_158",
     "facing_direction": "up",
@@ -175130,7 +175130,7 @@
     "schematic_component_id": "schematic_component_31",
     "center": {
       "x": -13,
-      "y": -6.300000000000001
+      "y": -6.3
     },
     "source_port_id": "source_port_159",
     "facing_direction": "down",
@@ -175166,8 +175166,8 @@
     "schematic_port_id": "schematic_port_160",
     "schematic_component_id": "schematic_component_32",
     "center": {
-      "x": -11.400000000000004,
-      "y": -5.699999999999999
+      "x": -11.4,
+      "y": -5.7
     },
     "source_port_id": "source_port_160",
     "facing_direction": "up",
@@ -175184,8 +175184,8 @@
     "schematic_port_id": "schematic_port_161",
     "schematic_component_id": "schematic_component_32",
     "center": {
-      "x": -11.400000000000004,
-      "y": -6.300000000000001
+      "x": -11.4,
+      "y": -6.3
     },
     "source_port_id": "source_port_161",
     "facing_direction": "down",
@@ -175221,8 +175221,8 @@
     "schematic_port_id": "schematic_port_163",
     "schematic_component_id": "schematic_component_33",
     "center": {
-      "x": -9.600000000000003,
-      "y": -5.699999999999999
+      "x": -9.6,
+      "y": -5.7
     },
     "source_port_id": "source_port_163",
     "facing_direction": "up",
@@ -175239,8 +175239,8 @@
     "schematic_port_id": "schematic_port_162",
     "schematic_component_id": "schematic_component_33",
     "center": {
-      "x": -9.600000000000003,
-      "y": -6.300000000000001
+      "x": -9.6,
+      "y": -6.3
     },
     "source_port_id": "source_port_162",
     "facing_direction": "down",
@@ -175344,7 +175344,7 @@
       {
         "from": {
           "x": -13,
-          "y": -5.699999999999999
+          "y": -5.7
         },
         "to": {
           "x": -13,
@@ -175363,11 +175363,11 @@
     "edges": [
       {
         "from": {
-          "x": -11.400000000000004,
-          "y": -5.699999999999999
+          "x": -11.4,
+          "y": -5.7
         },
         "to": {
-          "x": -11.400000000000004,
+          "x": -11.4,
           "y": -5.18
         }
       }
@@ -175383,11 +175383,11 @@
     "edges": [
       {
         "from": {
-          "x": -9.600000000000003,
-          "y": -5.699999999999999
+          "x": -9.6,
+          "y": -5.7
         },
         "to": {
-          "x": -9.600000000000003,
+          "x": -9.6,
           "y": -5.18
         }
       }
@@ -175407,7 +175407,7 @@
           "y": -5.18
         },
         "to": {
-          "x": -9.600000000000003,
+          "x": -9.6,
           "y": -5.18
         }
       }
@@ -175418,11 +175418,11 @@
         "y": -5.18
       },
       {
-        "x": -11.400000000000004,
+        "x": -11.4,
         "y": -5.18
       },
       {
-        "x": -9.600000000000003,
+        "x": -9.6,
         "y": -5.18
       }
     ],
@@ -175453,7 +175453,7 @@
       {
         "from": {
           "x": -13,
-          "y": -6.300000000000001
+          "y": -6.3
         },
         "to": {
           "x": -13,
@@ -175472,11 +175472,11 @@
     "edges": [
       {
         "from": {
-          "x": -11.400000000000004,
-          "y": -6.300000000000001
+          "x": -11.4,
+          "y": -6.3
         },
         "to": {
-          "x": -11.400000000000004,
+          "x": -11.4,
           "y": -6.82
         }
       }
@@ -175492,11 +175492,11 @@
     "edges": [
       {
         "from": {
-          "x": -9.600000000000003,
-          "y": -6.300000000000001
+          "x": -9.6,
+          "y": -6.3
         },
         "to": {
-          "x": -9.600000000000003,
+          "x": -9.6,
           "y": -6.82
         }
       }
@@ -175516,7 +175516,7 @@
           "y": -6.82
         },
         "to": {
-          "x": -9.600000000000003,
+          "x": -9.6,
           "y": -6.82
         }
       }
@@ -175527,11 +175527,11 @@
         "y": -6.82
       },
       {
-        "x": -11.400000000000004,
+        "x": -11.4,
         "y": -6.82
       },
       {
-        "x": -9.600000000000003,
+        "x": -9.6,
         "y": -6.82
       }
     ],
@@ -175665,7 +175665,7 @@
     "schematic_component_id": "schematic_component_14",
     "center": {
       "x": 2.1,
-      "y": -3.5999999999999996
+      "y": -3.6
     },
     "source_port_id": "source_port_94",
     "facing_direction": "down",
@@ -175701,8 +175701,8 @@
     "schematic_port_id": "schematic_port_95",
     "schematic_component_id": "schematic_component_15",
     "center": {
-      "x": 2.099999999999999,
-      "y": -5.400000000000001
+      "x": 2.1,
+      "y": -5.4
     },
     "source_port_id": "source_port_95",
     "facing_direction": "up",
@@ -175719,8 +175719,8 @@
     "schematic_port_id": "schematic_port_96",
     "schematic_component_id": "schematic_component_15",
     "center": {
-      "x": 2.099999999999999,
-      "y": -5.999999999999999
+      "x": 2.1,
+      "y": -6
     },
     "source_port_id": "source_port_96",
     "facing_direction": "down",
@@ -175793,7 +175793,7 @@
     "schematic_component_id": "schematic_component_16",
     "center": {
       "x": 5.7175,
-      "y": -3.8000000000000003
+      "y": -3.8
     },
     "source_port_id": "source_port_97",
     "facing_direction": "left",
@@ -175831,7 +175831,7 @@
     "schematic_component_id": "schematic_component_16",
     "center": {
       "x": 5.7175,
-      "y": -4.6000000000000005
+      "y": -4.6
     },
     "source_port_id": "source_port_99",
     "facing_direction": "left",
@@ -175850,7 +175850,7 @@
     "schematic_component_id": "schematic_component_16",
     "center": {
       "x": 8.2825,
-      "y": -3.8000000000000003
+      "y": -3.8
     },
     "source_port_id": "source_port_100",
     "facing_direction": "right",
@@ -175908,7 +175908,7 @@
     "schematic_component_id": "schematic_component_17",
     "center": {
       "x": 14,
-      "y": -2.2999999999999985
+      "y": -2.3
     },
     "source_port_id": "source_port_102",
     "facing_direction": "up",
@@ -175962,8 +175962,8 @@
     "schematic_port_id": "schematic_port_106",
     "schematic_component_id": "schematic_component_19",
     "center": {
-      "x": 10.999999999999996,
-      "y": -2.999999999999999
+      "x": 11,
+      "y": -3
     },
     "source_port_id": "source_port_106",
     "facing_direction": "up",
@@ -175980,8 +175980,8 @@
     "schematic_port_id": "schematic_port_107",
     "schematic_component_id": "schematic_component_19",
     "center": {
-      "x": 10.999999999999996,
-      "y": -3.6000000000000005
+      "x": 11,
+      "y": -3.6
     },
     "source_port_id": "source_port_107",
     "facing_direction": "down",
@@ -176018,7 +176018,7 @@
     "schematic_component_id": "schematic_component_18",
     "center": {
       "x": 9.8,
-      "y": -6.699999999999999
+      "y": -6.7
     },
     "source_port_id": "source_port_104",
     "facing_direction": "up",
@@ -176036,7 +176036,7 @@
     "schematic_component_id": "schematic_component_18",
     "center": {
       "x": 9.8,
-      "y": -7.300000000000001
+      "y": -7.3
     },
     "source_port_id": "source_port_105",
     "facing_direction": "down",
@@ -176073,7 +176073,7 @@
     "schematic_component_id": "schematic_component_20",
     "center": {
       "x": 13,
-      "y": -6.700000000000001
+      "y": -6.7
     },
     "source_port_id": "source_port_108",
     "facing_direction": "up",
@@ -176091,7 +176091,7 @@
     "schematic_component_id": "schematic_component_20",
     "center": {
       "x": 13,
-      "y": -7.299999999999999
+      "y": -7.3
     },
     "source_port_id": "source_port_109",
     "facing_direction": "down",
@@ -176114,17 +176114,17 @@
         },
         "to": {
           "x": -0.8,
-          "y": 5.1000000000000005
+          "y": 5.1
         }
       },
       {
         "from": {
           "x": -0.8,
-          "y": 5.1000000000000005
+          "y": 5.1
         },
         "to": {
-          "x": -0.8000000000000025,
-          "y": 5.1000000000000005
+          "x": -0.8,
+          "y": 5.1
         }
       }
     ],
@@ -176156,21 +176156,21 @@
       {
         "from": {
           "x": 5.2,
-          "y": 5.8999999999999995
+          "y": 5.9
         },
         "to": {
           "x": 5.2,
-          "y": 4.000000000000001
+          "y": 4
         }
       },
       {
         "from": {
           "x": 5.2,
-          "y": 4.000000000000001
+          "y": 4
         },
         "to": {
           "x": 5.2,
-          "y": 4.000000000000001
+          "y": 4
         }
       }
     ],
@@ -176202,21 +176202,21 @@
       {
         "from": {
           "x": 2.1,
-          "y": -3.5999999999999996
+          "y": -3.6
         },
         "to": {
           "x": 2.1,
-          "y": -5.400000000000001
+          "y": -5.4
         }
       },
       {
         "from": {
           "x": 2.1,
-          "y": -5.400000000000001
+          "y": -5.4
         },
         "to": {
-          "x": 2.099999999999999,
-          "y": -5.400000000000001
+          "x": 2.1,
+          "y": -5.4
         }
       }
     ],
@@ -176248,11 +176248,11 @@
       {
         "from": {
           "x": -13.4775,
-          "y": 6.800000000000001
+          "y": 6.8
         },
         "to": {
           "x": -13.8575,
-          "y": 6.800000000000001
+          "y": 6.8
         }
       }
     ],
@@ -176268,11 +176268,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -13.8575,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "center": {
       "x": -13.8575,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176320,11 +176320,11 @@
       {
         "from": {
           "x": -13.4775,
-          "y": 6.000000000000001
+          "y": 6
         },
         "to": {
           "x": -13.8575,
-          "y": 6.000000000000001
+          "y": 6
         }
       }
     ],
@@ -176340,11 +176340,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -13.8575,
-      "y": 6.000000000000001
+      "y": 6
     },
     "center": {
       "x": -13.8575,
-      "y": 6.000000000000001
+      "y": 6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176356,11 +176356,11 @@
       {
         "from": {
           "x": -13.4775,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": -13.8575,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -176376,11 +176376,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -13.8575,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": -13.8575,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176392,7 +176392,7 @@
     "text": "NC",
     "position": {
       "x": -13.8575,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "anchor": "right",
     "rotation": 0,
@@ -176407,11 +176407,11 @@
       {
         "from": {
           "x": -13.4775,
-          "y": 4.800000000000001
+          "y": 4.8
         },
         "to": {
           "x": -13.8575,
-          "y": 4.800000000000001
+          "y": 4.8
         }
       }
     ],
@@ -176427,11 +176427,11 @@
     "text": "PD_CC1",
     "anchor_position": {
       "x": -13.8575,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "center": {
       "x": -13.8575,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176473,7 +176473,7 @@
     "text": "NC",
     "position": {
       "x": -10.3425,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "anchor": "left",
     "rotation": 0,
@@ -176503,7 +176503,7 @@
     "text": "NC",
     "position": {
       "x": -10.3425,
-      "y": 6.000000000000001
+      "y": 6
     },
     "anchor": "left",
     "rotation": 0,
@@ -176518,11 +176518,11 @@
       {
         "from": {
           "x": -10.7225,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": -10.3425,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -176538,11 +176538,11 @@
     "text": "PD_CC2",
     "anchor_position": {
       "x": -10.3425,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": -10.3425,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176554,11 +176554,11 @@
       {
         "from": {
           "x": -10.7225,
-          "y": 5.200000000000001
+          "y": 5.2
         },
         "to": {
           "x": -10.3425,
-          "y": 5.200000000000001
+          "y": 5.2
         }
       }
     ],
@@ -176574,11 +176574,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -10.3425,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "center": {
       "x": -10.3425,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176590,11 +176590,11 @@
       {
         "from": {
           "x": -10.7225,
-          "y": 4.800000000000001
+          "y": 4.8
         },
         "to": {
           "x": -10.3425,
-          "y": 4.800000000000001
+          "y": 4.8
         }
       }
     ],
@@ -176610,11 +176610,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -10.3425,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "center": {
       "x": -10.3425,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176770,11 +176770,11 @@
       {
         "from": {
           "x": -5.52,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": -5.8999999999999995,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -176790,11 +176790,11 @@
     "text": "PD_VDD",
     "anchor_position": {
       "x": -5.8999999999999995,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": -5.8999999999999995,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176842,11 +176842,11 @@
       {
         "from": {
           "x": -5.52,
-          "y": 4.800000000000001
+          "y": 4.8
         },
         "to": {
           "x": -5.8999999999999995,
-          "y": 4.800000000000001
+          "y": 4.8
         }
       }
     ],
@@ -176862,11 +176862,11 @@
     "text": "PD_LEGACY_DATA",
     "anchor_position": {
       "x": -5.8999999999999995,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "center": {
       "x": -5.8999999999999995,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -176913,11 +176913,11 @@
     "edges": [
       {
         "from": {
-          "x": -2.8800000000000003,
+          "x": -2.88,
           "y": 6.4
         },
         "to": {
-          "x": -2.5000000000000004,
+          "x": -2.5,
           "y": 6.4
         }
       }
@@ -176933,11 +176933,11 @@
     "source_net_id": "source_net_6",
     "text": "PD_CC1",
     "anchor_position": {
-      "x": -2.5000000000000004,
+      "x": -2.5,
       "y": 6.4
     },
     "center": {
-      "x": -2.5000000000000004,
+      "x": -2.5,
       "y": 6.4
     },
     "anchor_side": "left",
@@ -176949,7 +176949,7 @@
     "schematic_sheet_id": "schematic_sheet_0",
     "text": "NC",
     "position": {
-      "x": -2.5000000000000004,
+      "x": -2.5,
       "y": 6
     },
     "anchor": "left",
@@ -176964,12 +176964,12 @@
     "edges": [
       {
         "from": {
-          "x": -2.8800000000000003,
-          "y": 5.6000000000000005
+          "x": -2.88,
+          "y": 5.6
         },
         "to": {
-          "x": -2.5000000000000004,
-          "y": 5.6000000000000005
+          "x": -2.5,
+          "y": 5.6
         }
       }
     ],
@@ -176984,12 +176984,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": -2.5000000000000004,
-      "y": 5.6000000000000005
+      "x": -2.5,
+      "y": 5.6
     },
     "center": {
-      "x": -2.5000000000000004,
-      "y": 5.6000000000000005
+      "x": -2.5,
+      "y": 5.6
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177000,11 +177000,11 @@
     "edges": [
       {
         "from": {
-          "x": -2.8800000000000003,
+          "x": -2.88,
           "y": 5.2
         },
         "to": {
-          "x": -2.5000000000000004,
+          "x": -2.5,
           "y": 5.2
         }
       }
@@ -177020,11 +177020,11 @@
     "source_net_id": "source_net_17",
     "text": "PD_GOOD",
     "anchor_position": {
-      "x": -2.5000000000000004,
+      "x": -2.5,
       "y": 5.2
     },
     "center": {
-      "x": -2.5000000000000004,
+      "x": -2.5,
       "y": 5.2
     },
     "anchor_side": "left",
@@ -177036,12 +177036,12 @@
     "edges": [
       {
         "from": {
-          "x": -2.8800000000000003,
-          "y": 4.800000000000001
+          "x": -2.88,
+          "y": 4.8
         },
         "to": {
-          "x": -2.5000000000000004,
-          "y": 4.800000000000001
+          "x": -2.5,
+          "y": 4.8
         }
       }
     ],
@@ -177056,12 +177056,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": -2.5000000000000004,
-      "y": 4.800000000000001
+      "x": -2.5,
+      "y": 4.8
     },
     "center": {
-      "x": -2.5000000000000004,
-      "y": 4.800000000000001
+      "x": -2.5,
+      "y": 4.8
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177108,12 +177108,12 @@
     "edges": [
       {
         "from": {
-          "x": -0.8000000000000025,
-          "y": 4.499999999999999
+          "x": -0.8,
+          "y": 4.5
         },
         "to": {
-          "x": -0.8000000000000025,
-          "y": 4.119999999999999
+          "x": -0.8,
+          "y": 4.12
         }
       }
     ],
@@ -177128,12 +177128,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": -0.8000000000000025,
-      "y": 4.119999999999999
+      "x": -0.8,
+      "y": 4.12
     },
     "center": {
-      "x": -0.8000000000000025,
-      "y": 4.119999999999999
+      "x": -0.8,
+      "y": 4.12
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177145,11 +177145,11 @@
       {
         "from": {
           "x": 1,
-          "y": 3.000000000000001
+          "y": 3
         },
         "to": {
           "x": 1,
-          "y": 3.380000000000001
+          "y": 3.38
         }
       }
     ],
@@ -177165,11 +177165,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": 1,
-      "y": 3.380000000000001
+      "y": 3.38
     },
     "center": {
       "x": 1,
-      "y": 3.380000000000001
+      "y": 3.38
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177181,11 +177181,11 @@
       {
         "from": {
           "x": 1,
-          "y": 2.3999999999999995
+          "y": 2.4
         },
         "to": {
           "x": 1,
-          "y": 2.0199999999999996
+          "y": 2.02
         }
       }
     ],
@@ -177201,11 +177201,11 @@
     "text": "PD_GOOD",
     "anchor_position": {
       "x": 1,
-      "y": 2.0199999999999996
+      "y": 2.02
     },
     "center": {
       "x": 1,
-      "y": 2.0199999999999996
+      "y": 2.02
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177505,11 +177505,11 @@
       {
         "from": {
           "x": 3.8,
-          "y": -3.2000000000000015
+          "y": -3.2
         },
         "to": {
           "x": 3.8,
-          "y": -3.5800000000000014
+          "y": -3.58
         }
       }
     ],
@@ -177525,11 +177525,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 3.8,
-      "y": -3.5800000000000014
+      "y": -3.58
     },
     "center": {
       "x": 3.8,
-      "y": -3.5800000000000014
+      "y": -3.58
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177541,11 +177541,11 @@
       {
         "from": {
           "x": 12,
-          "y": -2.5999999999999983
+          "y": -2.6
         },
         "to": {
           "x": 12,
-          "y": -2.2199999999999984
+          "y": -2.22
         }
       }
     ],
@@ -177561,11 +177561,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": 12,
-      "y": -2.2199999999999984
+      "y": -2.22
     },
     "center": {
       "x": 12,
-      "y": -2.2199999999999984
+      "y": -2.22
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177577,11 +177577,11 @@
       {
         "from": {
           "x": 12,
-          "y": -3.1999999999999997
+          "y": -3.2
         },
         "to": {
           "x": 12,
-          "y": -3.5799999999999996
+          "y": -3.58
         }
       }
     ],
@@ -177597,11 +177597,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 12,
-      "y": -3.5799999999999996
+      "y": -3.58
     },
     "center": {
       "x": 12,
-      "y": -3.5799999999999996
+      "y": -3.58
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_0"
@@ -177612,7 +177612,7 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
+      "x": -12.465000000000002,
       "y": 5.1
     },
     "anchor": "right",
@@ -177627,12 +177627,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": 4.699999999999999
+          "x": -12.085,
+          "y": 4.7
         },
         "to": {
-          "x": -12.465,
-          "y": 4.699999999999999
+          "x": -12.465000000000002,
+          "y": 4.7
         }
       }
     ],
@@ -177647,12 +177647,12 @@
     "source_net_id": "source_net_2",
     "text": "V3V3",
     "anchor_position": {
-      "x": -12.465,
-      "y": 4.699999999999999
+      "x": -12.465000000000002,
+      "y": 4.7
     },
     "center": {
-      "x": -12.465,
-      "y": 4.699999999999999
+      "x": -12.465000000000002,
+      "y": 4.7
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177663,7 +177663,7 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
+      "x": -12.465000000000002,
       "y": 4.3
     },
     "anchor": "right",
@@ -177678,8 +177678,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
-      "y": 3.8999999999999995
+      "x": -12.465000000000002,
+      "y": 3.9
     },
     "anchor": "right",
     "rotation": 0,
@@ -177693,12 +177693,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": 3.4999999999999996
+          "x": -12.085,
+          "y": 3.5
         },
         "to": {
-          "x": -12.465,
-          "y": 3.4999999999999996
+          "x": -12.465000000000002,
+          "y": 3.5
         }
       }
     ],
@@ -177713,12 +177713,12 @@
     "source_net_id": "source_net_13",
     "text": "STEP",
     "anchor_position": {
-      "x": -12.465,
-      "y": 3.4999999999999996
+      "x": -12.465000000000002,
+      "y": 3.5
     },
     "center": {
-      "x": -12.465,
-      "y": 3.4999999999999996
+      "x": -12.465000000000002,
+      "y": 3.5
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177729,12 +177729,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": 3.0999999999999996
+          "x": -12.085,
+          "y": 3.1
         },
         "to": {
-          "x": -12.465,
-          "y": 3.0999999999999996
+          "x": -12.465000000000002,
+          "y": 3.1
         }
       }
     ],
@@ -177749,12 +177749,12 @@
     "source_net_id": "source_net_14",
     "text": "DIR",
     "anchor_position": {
-      "x": -12.465,
-      "y": 3.0999999999999996
+      "x": -12.465000000000002,
+      "y": 3.1
     },
     "center": {
-      "x": -12.465,
-      "y": 3.0999999999999996
+      "x": -12.465000000000002,
+      "y": 3.1
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177765,12 +177765,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": 2.6999999999999993
+          "x": -12.085,
+          "y": 2.7
         },
         "to": {
-          "x": -12.465,
-          "y": 2.6999999999999993
+          "x": -12.465000000000002,
+          "y": 2.7
         }
       }
     ],
@@ -177785,12 +177785,12 @@
     "source_net_id": "source_net_17",
     "text": "PD_GOOD",
     "anchor_position": {
-      "x": -12.465,
-      "y": 2.6999999999999993
+      "x": -12.465000000000002,
+      "y": 2.7
     },
     "center": {
-      "x": -12.465,
-      "y": 2.6999999999999993
+      "x": -12.465000000000002,
+      "y": 2.7
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177801,12 +177801,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": 2.2999999999999994
+          "x": -12.085,
+          "y": 2.3
         },
         "to": {
-          "x": -12.465,
-          "y": 2.2999999999999994
+          "x": -12.465000000000002,
+          "y": 2.3
         }
       }
     ],
@@ -177821,12 +177821,12 @@
     "source_net_id": "source_net_18",
     "text": "DATA_PRESENT",
     "anchor_position": {
-      "x": -12.465,
-      "y": 2.2999999999999994
+      "x": -12.465000000000002,
+      "y": 2.3
     },
     "center": {
-      "x": -12.465,
-      "y": 2.2999999999999994
+      "x": -12.465000000000002,
+      "y": 2.3
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177837,12 +177837,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": 1.8999999999999995
+          "x": -12.085,
+          "y": 1.9
         },
         "to": {
-          "x": -12.465,
-          "y": 1.8999999999999995
+          "x": -12.465000000000002,
+          "y": 1.9
         }
       }
     ],
@@ -177857,12 +177857,12 @@
     "source_net_id": "source_net_22",
     "text": "VM_SENSE",
     "anchor_position": {
-      "x": -12.465,
-      "y": 1.8999999999999995
+      "x": -12.465000000000002,
+      "y": 1.9
     },
     "center": {
-      "x": -12.465,
-      "y": 1.8999999999999995
+      "x": -12.465000000000002,
+      "y": 1.9
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177873,8 +177873,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
-      "y": 1.4999999999999996
+      "x": -12.465000000000002,
+      "y": 1.5
     },
     "anchor": "right",
     "rotation": 0,
@@ -177888,8 +177888,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
-      "y": 1.0999999999999996
+      "x": -12.465000000000002,
+      "y": 1.1
     },
     "anchor": "right",
     "rotation": 0,
@@ -177903,8 +177903,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
-      "y": 0.6999999999999993
+      "x": -12.465000000000002,
+      "y": 0.7
     },
     "anchor": "right",
     "rotation": 0,
@@ -177918,8 +177918,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "NC",
     "position": {
-      "x": -12.465,
-      "y": 0.29999999999999893
+      "x": -12.465000000000002,
+      "y": 0.3
     },
     "anchor": "right",
     "rotation": 0,
@@ -177933,12 +177933,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": -0.10000000000000053
+          "x": -12.085,
+          "y": -0.1
         },
         "to": {
-          "x": -12.465,
-          "y": -0.10000000000000053
+          "x": -12.465000000000002,
+          "y": -0.1
         }
       }
     ],
@@ -177953,12 +177953,12 @@
     "source_net_id": "source_net_15",
     "text": "ENABLE_N",
     "anchor_position": {
-      "x": -12.465,
-      "y": -0.10000000000000053
+      "x": -12.465000000000002,
+      "y": -0.1
     },
     "center": {
-      "x": -12.465,
-      "y": -0.10000000000000053
+      "x": -12.465000000000002,
+      "y": -0.1
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -177969,12 +177969,12 @@
     "edges": [
       {
         "from": {
-          "x": -12.084999999999999,
-          "y": -0.5000000000000009
+          "x": -12.085,
+          "y": -0.5
         },
         "to": {
-          "x": -12.465,
-          "y": -0.5000000000000009
+          "x": -12.465000000000002,
+          "y": -0.5
         }
       }
     ],
@@ -177989,12 +177989,12 @@
     "source_net_id": "source_net_16",
     "text": "SLEEP",
     "anchor_position": {
-      "x": -12.465,
-      "y": -0.5000000000000009
+      "x": -12.465000000000002,
+      "y": -0.5
     },
     "center": {
-      "x": -12.465,
-      "y": -0.5000000000000009
+      "x": -12.465000000000002,
+      "y": -0.5
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178021,7 +178021,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 4.699999999999999
+      "y": 4.7
     },
     "anchor": "left",
     "rotation": 0,
@@ -178072,7 +178072,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 3.8999999999999995
+      "y": 3.9
     },
     "anchor": "left",
     "rotation": 0,
@@ -178087,7 +178087,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 3.4999999999999996
+      "y": 3.5
     },
     "anchor": "left",
     "rotation": 0,
@@ -178102,7 +178102,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 3.0999999999999996
+      "y": 3.1
     },
     "anchor": "left",
     "rotation": 0,
@@ -178117,7 +178117,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 2.6999999999999993
+      "y": 2.7
     },
     "anchor": "left",
     "rotation": 0,
@@ -178132,7 +178132,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 2.2999999999999994
+      "y": 2.3
     },
     "anchor": "left",
     "rotation": 0,
@@ -178147,11 +178147,11 @@
       {
         "from": {
           "x": -8.115,
-          "y": 1.8999999999999995
+          "y": 1.9
         },
         "to": {
           "x": -7.735,
-          "y": 1.8999999999999995
+          "y": 1.9
         }
       }
     ],
@@ -178166,11 +178166,11 @@
     "text": "DCK",
     "anchor_position": {
       "x": -7.735,
-      "y": 1.8999999999999995
+      "y": 1.9
     },
     "center": {
       "x": -7.735,
-      "y": 1.8999999999999995
+      "y": 1.9
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178182,11 +178182,11 @@
       {
         "from": {
           "x": -8.115,
-          "y": 1.4999999999999996
+          "y": 1.5
         },
         "to": {
           "x": -7.735,
-          "y": 1.4999999999999996
+          "y": 1.5
         }
       }
     ],
@@ -178201,11 +178201,11 @@
     "text": "DIO",
     "anchor_position": {
       "x": -7.735,
-      "y": 1.4999999999999996
+      "y": 1.5
     },
     "center": {
       "x": -7.735,
-      "y": 1.4999999999999996
+      "y": 1.5
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178217,11 +178217,11 @@
       {
         "from": {
           "x": -8.115,
-          "y": 1.0999999999999996
+          "y": 1.1
         },
         "to": {
           "x": -7.735,
-          "y": 1.0999999999999996
+          "y": 1.1
         }
       }
     ],
@@ -178237,11 +178237,11 @@
     "text": "USB_DM",
     "anchor_position": {
       "x": -7.735,
-      "y": 1.0999999999999996
+      "y": 1.1
     },
     "center": {
       "x": -7.735,
-      "y": 1.0999999999999996
+      "y": 1.1
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178253,11 +178253,11 @@
       {
         "from": {
           "x": -8.115,
-          "y": 0.6999999999999993
+          "y": 0.7
         },
         "to": {
           "x": -7.735,
-          "y": 0.6999999999999993
+          "y": 0.7
         }
       }
     ],
@@ -178273,11 +178273,11 @@
     "text": "USB_DP",
     "anchor_position": {
       "x": -7.735,
-      "y": 0.6999999999999993
+      "y": 0.7
     },
     "center": {
       "x": -7.735,
-      "y": 0.6999999999999993
+      "y": 0.7
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178289,7 +178289,7 @@
     "text": "NC",
     "position": {
       "x": -7.735,
-      "y": 0.29999999999999893
+      "y": 0.3
     },
     "anchor": "left",
     "rotation": 0,
@@ -178304,11 +178304,11 @@
       {
         "from": {
           "x": -8.115,
-          "y": -0.10000000000000053
+          "y": -0.1
         },
         "to": {
           "x": -7.735,
-          "y": -0.10000000000000053
+          "y": -0.1
         }
       }
     ],
@@ -178324,11 +178324,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -7.735,
-      "y": -0.10000000000000053
+      "y": -0.1
     },
     "center": {
       "x": -7.735,
-      "y": -0.10000000000000053
+      "y": -0.1
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178340,11 +178340,11 @@
       {
         "from": {
           "x": 9.7225,
-          "y": 6.800000000000001
+          "y": 6.8
         },
         "to": {
           "x": 9.3425,
-          "y": 6.800000000000001
+          "y": 6.8
         }
       }
     ],
@@ -178360,11 +178360,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 9.3425,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "center": {
       "x": 9.3425,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178412,11 +178412,11 @@
       {
         "from": {
           "x": 9.7225,
-          "y": 6.000000000000001
+          "y": 6
         },
         "to": {
           "x": 9.3425,
-          "y": 6.000000000000001
+          "y": 6
         }
       }
     ],
@@ -178432,11 +178432,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 9.3425,
-      "y": 6.000000000000001
+      "y": 6
     },
     "center": {
       "x": 9.3425,
-      "y": 6.000000000000001
+      "y": 6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178448,11 +178448,11 @@
       {
         "from": {
           "x": 9.7225,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": 9.3425,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -178468,11 +178468,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 9.3425,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": 9.3425,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178484,7 +178484,7 @@
     "text": "NC",
     "position": {
       "x": 9.3425,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "anchor": "right",
     "rotation": 0,
@@ -178499,11 +178499,11 @@
       {
         "from": {
           "x": 9.7225,
-          "y": 4.800000000000001
+          "y": 4.8
         },
         "to": {
           "x": 9.3425,
-          "y": 4.800000000000001
+          "y": 4.8
         }
       }
     ],
@@ -178519,11 +178519,11 @@
     "text": "DATA_CC1",
     "anchor_position": {
       "x": 9.3425,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "center": {
       "x": 9.3425,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178607,11 +178607,11 @@
       {
         "from": {
           "x": 12.4775,
-          "y": 6.800000000000001
+          "y": 6.8
         },
         "to": {
           "x": 12.8575,
-          "y": 6.800000000000001
+          "y": 6.8
         }
       }
     ],
@@ -178627,11 +178627,11 @@
     "text": "USB_DM",
     "anchor_position": {
       "x": 12.8575,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "center": {
       "x": 12.8575,
-      "y": 6.800000000000001
+      "y": 6.8
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178679,7 +178679,7 @@
     "text": "NC",
     "position": {
       "x": 12.8575,
-      "y": 6.000000000000001
+      "y": 6
     },
     "anchor": "left",
     "rotation": 0,
@@ -178694,11 +178694,11 @@
       {
         "from": {
           "x": 12.4775,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": 12.8575,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -178714,11 +178714,11 @@
     "text": "DATA_CC2",
     "anchor_position": {
       "x": 12.8575,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": 12.8575,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178730,11 +178730,11 @@
       {
         "from": {
           "x": 12.4775,
-          "y": 5.200000000000001
+          "y": 5.2
         },
         "to": {
           "x": 12.8575,
-          "y": 5.200000000000001
+          "y": 5.2
         }
       }
     ],
@@ -178750,11 +178750,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 12.8575,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "center": {
       "x": 12.8575,
-      "y": 5.200000000000001
+      "y": 5.2
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178766,11 +178766,11 @@
       {
         "from": {
           "x": 12.4775,
-          "y": 4.800000000000001
+          "y": 4.8
         },
         "to": {
           "x": 12.8575,
-          "y": 4.800000000000001
+          "y": 4.8
         }
       }
     ],
@@ -178786,11 +178786,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 12.8575,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "center": {
       "x": 12.8575,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178874,11 +178874,11 @@
       {
         "from": {
           "x": 2.43,
-          "y": 5.800000000000001
+          "y": 5.8
         },
         "to": {
           "x": 2.0500000000000003,
-          "y": 5.800000000000001
+          "y": 5.8
         }
       }
     ],
@@ -178894,11 +178894,11 @@
     "text": "USB_DP",
     "anchor_position": {
       "x": 2.0500000000000003,
-      "y": 5.800000000000001
+      "y": 5.8
     },
     "center": {
       "x": 2.0500000000000003,
-      "y": 5.800000000000001
+      "y": 5.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178946,11 +178946,11 @@
       {
         "from": {
           "x": 2.43,
-          "y": 5.000000000000001
+          "y": 5
         },
         "to": {
           "x": 2.0500000000000003,
-          "y": 5.000000000000001
+          "y": 5
         }
       }
     ],
@@ -178966,11 +178966,11 @@
     "text": "USB_DM",
     "anchor_position": {
       "x": 2.0500000000000003,
-      "y": 5.000000000000001
+      "y": 5
     },
     "center": {
       "x": 2.0500000000000003,
-      "y": 5.000000000000001
+      "y": 5
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -178981,12 +178981,12 @@
     "edges": [
       {
         "from": {
-          "x": 4.970000000000001,
-          "y": 5.800000000000001
+          "x": 4.97,
+          "y": 5.8
         },
         "to": {
-          "x": 5.3500000000000005,
-          "y": 5.800000000000001
+          "x": 5.35,
+          "y": 5.8
         }
       }
     ],
@@ -179001,12 +179001,12 @@
     "source_net_id": "source_net_12",
     "text": "USB_DM",
     "anchor_position": {
-      "x": 5.3500000000000005,
-      "y": 5.800000000000001
+      "x": 5.35,
+      "y": 5.8
     },
     "center": {
-      "x": 5.3500000000000005,
-      "y": 5.800000000000001
+      "x": 5.35,
+      "y": 5.8
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179017,11 +179017,11 @@
     "edges": [
       {
         "from": {
-          "x": 4.970000000000001,
+          "x": 4.97,
           "y": 5.4
         },
         "to": {
-          "x": 5.3500000000000005,
+          "x": 5.35,
           "y": 5.4
         }
       }
@@ -179037,11 +179037,11 @@
     "source_net_id": "source_net_4",
     "text": "DATA_VBUS",
     "anchor_position": {
-      "x": 5.3500000000000005,
+      "x": 5.35,
       "y": 5.4
     },
     "center": {
-      "x": 5.3500000000000005,
+      "x": 5.35,
       "y": 5.4
     },
     "anchor_side": "left",
@@ -179053,12 +179053,12 @@
     "edges": [
       {
         "from": {
-          "x": 4.970000000000001,
-          "y": 5.000000000000001
+          "x": 4.97,
+          "y": 5
         },
         "to": {
-          "x": 5.3500000000000005,
-          "y": 5.000000000000001
+          "x": 5.35,
+          "y": 5
         }
       }
     ],
@@ -179073,12 +179073,12 @@
     "source_net_id": "source_net_11",
     "text": "USB_DP",
     "anchor_position": {
-      "x": 5.3500000000000005,
-      "y": 5.000000000000001
+      "x": 5.35,
+      "y": 5
     },
     "center": {
-      "x": 5.3500000000000005,
-      "y": 5.000000000000001
+      "x": 5.35,
+      "y": 5
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179090,11 +179090,11 @@
       {
         "from": {
           "x": 10.1,
-          "y": 1.5999999999999994
+          "y": 1.6
         },
         "to": {
           "x": 10.1,
-          "y": 1.9799999999999995
+          "y": 1.98
         }
       }
     ],
@@ -179110,11 +179110,11 @@
     "text": "DATA_CC1",
     "anchor_position": {
       "x": 10.1,
-      "y": 1.9799999999999995
+      "y": 1.98
     },
     "center": {
       "x": 10.1,
-      "y": 1.9799999999999995
+      "y": 1.98
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179126,11 +179126,11 @@
       {
         "from": {
           "x": 13.3,
-          "y": 1.5999999999999976
+          "y": 1.6
         },
         "to": {
           "x": 13.3,
-          "y": 1.9799999999999978
+          "y": 1.98
         }
       }
     ],
@@ -179146,11 +179146,11 @@
     "text": "DATA_CC2",
     "anchor_position": {
       "x": 13.3,
-      "y": 1.9799999999999978
+      "y": 1.98
     },
     "center": {
       "x": 13.3,
-      "y": 1.9799999999999978
+      "y": 1.98
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179162,11 +179162,11 @@
       {
         "from": {
           "x": 6.605,
-          "y": -3.1999999999999997
+          "y": -3.2
         },
         "to": {
           "x": 6.2250000000000005,
-          "y": -3.1999999999999997
+          "y": -3.2
         }
       }
     ],
@@ -179182,11 +179182,11 @@
     "text": "DATA_BASE",
     "anchor_position": {
       "x": 6.2250000000000005,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "center": {
       "x": 6.2250000000000005,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179198,11 +179198,11 @@
       {
         "from": {
           "x": 6.605,
-          "y": -3.5999999999999996
+          "y": -3.6
         },
         "to": {
           "x": 6.2250000000000005,
-          "y": -3.5999999999999996
+          "y": -3.6
         }
       }
     ],
@@ -179218,11 +179218,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 6.2250000000000005,
-      "y": -3.5999999999999996
+      "y": -3.6
     },
     "center": {
       "x": 6.2250000000000005,
-      "y": -3.5999999999999996
+      "y": -3.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179234,11 +179234,11 @@
       {
         "from": {
           "x": 8.995,
-          "y": -3.1999999999999997
+          "y": -3.2
         },
         "to": {
           "x": 9.375,
-          "y": -3.1999999999999997
+          "y": -3.2
         }
       }
     ],
@@ -179254,11 +179254,11 @@
     "text": "DATA_PRESENT",
     "anchor_position": {
       "x": 9.375,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "center": {
       "x": 9.375,
-      "y": -3.1999999999999997
+      "y": -3.2
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179306,7 +179306,7 @@
       {
         "from": {
           "x": 2.2,
-          "y": -3.6999999999999997
+          "y": -3.7
         },
         "to": {
           "x": 2.2,
@@ -179341,11 +179341,11 @@
     "edges": [
       {
         "from": {
-          "x": 13.099999999999996,
+          "x": 13.1,
           "y": -3.1
         },
         "to": {
-          "x": 13.099999999999996,
+          "x": 13.1,
           "y": -2.72
         }
       }
@@ -179361,11 +179361,11 @@
     "source_net_id": "source_net_2",
     "text": "V3V3",
     "anchor_position": {
-      "x": 13.099999999999996,
+      "x": 13.1,
       "y": -2.72
     },
     "center": {
-      "x": 13.099999999999996,
+      "x": 13.1,
       "y": -2.72
     },
     "anchor_side": "bottom",
@@ -179377,11 +179377,11 @@
     "edges": [
       {
         "from": {
-          "x": 13.099999999999996,
-          "y": -3.6999999999999997
+          "x": 13.1,
+          "y": -3.7
         },
         "to": {
-          "x": 13.099999999999996,
+          "x": 13.1,
           "y": -4.08
         }
       }
@@ -179397,11 +179397,11 @@
     "source_net_id": "source_net_18",
     "text": "DATA_PRESENT",
     "anchor_position": {
-      "x": 13.099999999999996,
+      "x": 13.1,
       "y": -4.08
     },
     "center": {
-      "x": 13.099999999999996,
+      "x": 13.1,
       "y": -4.08
     },
     "anchor_side": "top",
@@ -179414,11 +179414,11 @@
       {
         "from": {
           "x": -3.225,
-          "y": -2.5999999999999996
+          "y": -2.6
         },
         "to": {
           "x": -3.605,
-          "y": -2.5999999999999996
+          "y": -2.6
         }
       }
     ],
@@ -179434,11 +179434,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": -3.605,
-      "y": -2.5999999999999996
+      "y": -2.6
     },
     "center": {
       "x": -3.605,
-      "y": -2.5999999999999996
+      "y": -2.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179450,11 +179450,11 @@
       {
         "from": {
           "x": -3.225,
-          "y": -2.9999999999999996
+          "y": -3
         },
         "to": {
           "x": -3.605,
-          "y": -2.9999999999999996
+          "y": -3
         }
       }
     ],
@@ -179470,11 +179470,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -3.605,
-      "y": -2.9999999999999996
+      "y": -3
     },
     "center": {
       "x": -3.605,
-      "y": -2.9999999999999996
+      "y": -3
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179485,12 +179485,12 @@
     "edges": [
       {
         "from": {
-          "x": -0.7749999999999999,
-          "y": -2.5999999999999996
+          "x": -0.775,
+          "y": -2.6
         },
         "to": {
-          "x": -0.3949999999999999,
-          "y": -2.5999999999999996
+          "x": -0.395,
+          "y": -2.6
         }
       }
     ],
@@ -179504,12 +179504,12 @@
     "schematic_net_label_id": "functional_net_298",
     "text": "DCK",
     "anchor_position": {
-      "x": -0.3949999999999999,
-      "y": -2.5999999999999996
+      "x": -0.395,
+      "y": -2.6
     },
     "center": {
-      "x": -0.3949999999999999,
-      "y": -2.5999999999999996
+      "x": -0.395,
+      "y": -2.6
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179520,12 +179520,12 @@
     "edges": [
       {
         "from": {
-          "x": -0.7749999999999999,
-          "y": -2.9999999999999996
+          "x": -0.775,
+          "y": -3
         },
         "to": {
-          "x": -0.3949999999999999,
-          "y": -2.9999999999999996
+          "x": -0.395,
+          "y": -3
         }
       }
     ],
@@ -179539,12 +179539,12 @@
     "schematic_net_label_id": "functional_net_300",
     "text": "DIO",
     "anchor_position": {
-      "x": -0.3949999999999999,
-      "y": -2.9999999999999996
+      "x": -0.395,
+      "y": -3
     },
     "center": {
-      "x": -0.3949999999999999,
-      "y": -2.9999999999999996
+      "x": -0.395,
+      "y": -3
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179555,12 +179555,12 @@
     "edges": [
       {
         "from": {
-          "x": -3.899999999999999,
-          "y": -5.500000000000001
+          "x": -3.9,
+          "y": -5.5
         },
         "to": {
-          "x": -3.899999999999999,
-          "y": -5.120000000000001
+          "x": -3.9,
+          "y": -5.12
         }
       }
     ],
@@ -179575,12 +179575,12 @@
     "source_net_id": "source_net_2",
     "text": "V3V3",
     "anchor_position": {
-      "x": -3.899999999999999,
-      "y": -5.120000000000001
+      "x": -3.9,
+      "y": -5.12
     },
     "center": {
-      "x": -3.899999999999999,
-      "y": -5.120000000000001
+      "x": -3.9,
+      "y": -5.12
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179591,12 +179591,12 @@
     "edges": [
       {
         "from": {
-          "x": -3.899999999999999,
-          "y": -6.099999999999999
+          "x": -3.9,
+          "y": -6.1
         },
         "to": {
-          "x": -3.899999999999999,
-          "y": -6.479999999999999
+          "x": -3.9,
+          "y": -6.4799999999999995
         }
       }
     ],
@@ -179610,12 +179610,12 @@
     "schematic_net_label_id": "functional_net_304",
     "text": "BOOT",
     "anchor_position": {
-      "x": -3.899999999999999,
-      "y": -6.479999999999999
+      "x": -3.9,
+      "y": -6.4799999999999995
     },
     "center": {
-      "x": -3.899999999999999,
-      "y": -6.479999999999999
+      "x": -3.9,
+      "y": -6.4799999999999995
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_1"
@@ -179770,11 +179770,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -179790,11 +179790,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -179842,11 +179842,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 4.800000000000001
+          "y": 4.8
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 4.800000000000001
+          "y": 4.8
         }
       }
     ],
@@ -179862,11 +179862,11 @@
     "text": "CP2",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180001,11 +180001,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 2.8000000000000003
+          "y": 2.8
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 2.8000000000000003
+          "y": 2.8
         }
       }
     ],
@@ -180021,11 +180021,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 2.8000000000000003
+      "y": 2.8
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 2.8000000000000003
+      "y": 2.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180037,11 +180037,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 2.4000000000000004
+          "y": 2.4
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 2.4000000000000004
+          "y": 2.4
         }
       }
     ],
@@ -180057,11 +180057,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 2.4000000000000004
+      "y": 2.4
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 2.4000000000000004
+      "y": 2.4
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180109,11 +180109,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 1.5999999999999996
+          "y": 1.6
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 1.5999999999999996
+          "y": 1.6
         }
       }
     ],
@@ -180129,11 +180129,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 1.5999999999999996
+      "y": 1.6
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 1.5999999999999996
+      "y": 1.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180145,11 +180145,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 1.2000000000000002
+          "y": 1.2
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 1.2000000000000002
+          "y": 1.2
         }
       }
     ],
@@ -180165,11 +180165,11 @@
     "text": "SLEEP",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 1.2000000000000002
+      "y": 1.2
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 1.2000000000000002
+      "y": 1.2
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180181,11 +180181,11 @@
       {
         "from": {
           "x": -11.605,
-          "y": 0.7999999999999998
+          "y": 0.8
         },
         "to": {
           "x": -11.985000000000001,
-          "y": 0.7999999999999998
+          "y": 0.8
         }
       }
     ],
@@ -180201,11 +180201,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": -11.985000000000001,
-      "y": 0.7999999999999998
+      "y": 0.8
     },
     "center": {
       "x": -11.985000000000001,
-      "y": 0.7999999999999998
+      "y": 0.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180289,11 +180289,11 @@
       {
         "from": {
           "x": -8.395,
-          "y": 5.6000000000000005
+          "y": 5.6
         },
         "to": {
           "x": -8.014999999999999,
-          "y": 5.6000000000000005
+          "y": 5.6
         }
       }
     ],
@@ -180309,11 +180309,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -8.014999999999999,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "center": {
       "x": -8.014999999999999,
-      "y": 5.6000000000000005
+      "y": 5.6
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180361,7 +180361,7 @@
     "text": "NC",
     "position": {
       "x": -8.014999999999999,
-      "y": 4.800000000000001
+      "y": 4.8
     },
     "anchor": "left",
     "rotation": 0,
@@ -180520,7 +180520,7 @@
     "text": "NC",
     "position": {
       "x": -8.014999999999999,
-      "y": 2.8000000000000003
+      "y": 2.8
     },
     "anchor": "left",
     "rotation": 0,
@@ -180535,11 +180535,11 @@
       {
         "from": {
           "x": -8.395,
-          "y": 2.4000000000000004
+          "y": 2.4
         },
         "to": {
           "x": -8.014999999999999,
-          "y": 2.4000000000000004
+          "y": 2.4
         }
       }
     ],
@@ -180555,11 +180555,11 @@
     "text": "B_PLUS",
     "anchor_position": {
       "x": -8.014999999999999,
-      "y": 2.4000000000000004
+      "y": 2.4
     },
     "center": {
       "x": -8.014999999999999,
-      "y": 2.4000000000000004
+      "y": 2.4
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180607,11 +180607,11 @@
       {
         "from": {
           "x": -8.395,
-          "y": 1.5999999999999996
+          "y": 1.6
         },
         "to": {
           "x": -8.014999999999999,
-          "y": 1.5999999999999996
+          "y": 1.6
         }
       }
     ],
@@ -180627,11 +180627,11 @@
     "text": "PD_VBUS",
     "anchor_position": {
       "x": -8.014999999999999,
-      "y": 1.5999999999999996
+      "y": 1.6
     },
     "center": {
       "x": -8.014999999999999,
-      "y": 1.5999999999999996
+      "y": 1.6
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180643,11 +180643,11 @@
       {
         "from": {
           "x": -8.395,
-          "y": 1.2000000000000002
+          "y": 1.2
         },
         "to": {
           "x": -8.014999999999999,
-          "y": 1.2000000000000002
+          "y": 1.2
         }
       }
     ],
@@ -180663,11 +180663,11 @@
     "text": "GND",
     "anchor_position": {
       "x": -8.014999999999999,
-      "y": 1.2000000000000002
+      "y": 1.2
     },
     "center": {
       "x": -8.014999999999999,
-      "y": 1.2000000000000002
+      "y": 1.2
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180678,11 +180678,11 @@
     "edges": [
       {
         "from": {
-          "x": -2.8049999999999997,
+          "x": -2.805,
           "y": 6.9
         },
         "to": {
-          "x": -3.1849999999999996,
+          "x": -3.185,
           "y": 6.9
         }
       }
@@ -180698,11 +180698,11 @@
     "source_net_id": "source_net_30",
     "text": "A_PLUS",
     "anchor_position": {
-      "x": -3.1849999999999996,
+      "x": -3.185,
       "y": 6.9
     },
     "center": {
-      "x": -3.1849999999999996,
+      "x": -3.185,
       "y": 6.9
     },
     "anchor_side": "right",
@@ -180714,11 +180714,11 @@
     "edges": [
       {
         "from": {
-          "x": -2.8049999999999997,
+          "x": -2.805,
           "y": 6.5
         },
         "to": {
-          "x": -3.1849999999999996,
+          "x": -3.185,
           "y": 6.5
         }
       }
@@ -180734,11 +180734,11 @@
     "source_net_id": "source_net_31",
     "text": "A_MINUS",
     "anchor_position": {
-      "x": -3.1849999999999996,
+      "x": -3.185,
       "y": 6.5
     },
     "center": {
-      "x": -3.1849999999999996,
+      "x": -3.185,
       "y": 6.5
     },
     "anchor_side": "right",
@@ -180822,12 +180822,12 @@
     "edges": [
       {
         "from": {
-          "x": -2.599999999999999,
-          "y": 2.399999999999999
+          "x": -2.6,
+          "y": 2.4
         },
         "to": {
-          "x": -2.599999999999999,
-          "y": 2.779999999999999
+          "x": -2.6,
+          "y": 2.78
         }
       }
     ],
@@ -180842,12 +180842,12 @@
     "source_net_id": "source_net_28",
     "text": "SENSE1",
     "anchor_position": {
-      "x": -2.599999999999999,
-      "y": 2.779999999999999
+      "x": -2.6,
+      "y": 2.78
     },
     "center": {
-      "x": -2.599999999999999,
-      "y": 2.779999999999999
+      "x": -2.6,
+      "y": 2.78
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180859,11 +180859,11 @@
       {
         "from": {
           "x": 0.7,
-          "y": 2.400000000000001
+          "y": 2.4
         },
         "to": {
           "x": 0.7,
-          "y": 2.7800000000000007
+          "y": 2.78
         }
       }
     ],
@@ -180879,11 +180879,11 @@
     "text": "SENSE2",
     "anchor_position": {
       "x": 0.7,
-      "y": 2.7800000000000007
+      "y": 2.78
     },
     "center": {
       "x": 0.7,
-      "y": 2.7800000000000007
+      "y": 2.78
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180895,11 +180895,11 @@
       {
         "from": {
           "x": 5.2,
-          "y": 6.500000000000001
+          "y": 6.5
         },
         "to": {
           "x": 5.2,
-          "y": 6.880000000000001
+          "y": 6.88
         }
       }
     ],
@@ -180915,11 +180915,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": 5.2,
-      "y": 6.880000000000001
+      "y": 6.88
     },
     "center": {
       "x": 5.2,
-      "y": 6.880000000000001
+      "y": 6.88
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -180931,11 +180931,11 @@
       {
         "from": {
           "x": 5.2,
-          "y": 3.3999999999999995
+          "y": 3.4
         },
         "to": {
           "x": 5.2,
-          "y": 3.0199999999999996
+          "y": 3.02
         }
       }
     ],
@@ -180951,11 +180951,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 5.2,
-      "y": 3.0199999999999996
+      "y": 3.02
     },
     "center": {
       "x": 5.2,
-      "y": 3.0199999999999996
+      "y": 3.02
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181003,11 +181003,11 @@
       {
         "from": {
           "x": 8.2,
-          "y": 3.3999999999999986
+          "y": 3.4
         },
         "to": {
           "x": 8.2,
-          "y": 3.0199999999999987
+          "y": 3.02
         }
       }
     ],
@@ -181023,11 +181023,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 8.2,
-      "y": 3.0199999999999987
+      "y": 3.02
     },
     "center": {
       "x": 8.2,
-      "y": 3.0199999999999987
+      "y": 3.02
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181039,11 +181039,11 @@
       {
         "from": {
           "x": 11,
-          "y": 6.499999999999999
+          "y": 6.5
         },
         "to": {
           "x": 11,
-          "y": 6.879999999999999
+          "y": 6.88
         }
       }
     ],
@@ -181059,11 +181059,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": 11,
-      "y": 6.879999999999999
+      "y": 6.88
     },
     "center": {
       "x": 11,
-      "y": 6.879999999999999
+      "y": 6.88
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181075,11 +181075,11 @@
       {
         "from": {
           "x": 11,
-          "y": 5.899999999999998
+          "y": 5.9
         },
         "to": {
           "x": 11,
-          "y": 5.519999999999998
+          "y": 5.5200000000000005
         }
       }
     ],
@@ -181095,11 +181095,11 @@
     "text": "ENABLE_N",
     "anchor_position": {
       "x": 11,
-      "y": 5.519999999999998
+      "y": 5.5200000000000005
     },
     "center": {
       "x": 11,
-      "y": 5.519999999999998
+      "y": 5.5200000000000005
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181111,11 +181111,11 @@
       {
         "from": {
           "x": 14,
-          "y": 6.500000000000001
+          "y": 6.5
         },
         "to": {
           "x": 14,
-          "y": 6.880000000000001
+          "y": 6.88
         }
       }
     ],
@@ -181131,11 +181131,11 @@
     "text": "SLEEP",
     "anchor_position": {
       "x": 14,
-      "y": 6.880000000000001
+      "y": 6.88
     },
     "center": {
       "x": 14,
-      "y": 6.880000000000001
+      "y": 6.88
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181147,11 +181147,11 @@
       {
         "from": {
           "x": 14,
-          "y": 5.8999999999999995
+          "y": 5.9
         },
         "to": {
           "x": 14,
-          "y": 5.52
+          "y": 5.5200000000000005
         }
       }
     ],
@@ -181167,11 +181167,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 14,
-      "y": 5.52
+      "y": 5.5200000000000005
     },
     "center": {
       "x": 14,
-      "y": 5.52
+      "y": 5.5200000000000005
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181182,12 +181182,12 @@
     "edges": [
       {
         "from": {
-          "x": 12.099999999999996,
-          "y": 2.4000000000000017
+          "x": 12.1,
+          "y": 2.4
         },
         "to": {
-          "x": 12.099999999999996,
-          "y": 2.7800000000000016
+          "x": 12.1,
+          "y": 2.78
         }
       }
     ],
@@ -181202,12 +181202,12 @@
     "source_net_id": "source_net_2",
     "text": "V3V3",
     "anchor_position": {
-      "x": 12.099999999999996,
-      "y": 2.7800000000000016
+      "x": 12.1,
+      "y": 2.78
     },
     "center": {
-      "x": 12.099999999999996,
-      "y": 2.7800000000000016
+      "x": 12.1,
+      "y": 2.78
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181218,12 +181218,12 @@
     "edges": [
       {
         "from": {
-          "x": 12.099999999999996,
-          "y": 1.8000000000000007
+          "x": 12.1,
+          "y": 1.8
         },
         "to": {
-          "x": 12.099999999999996,
-          "y": 1.4200000000000008
+          "x": 12.1,
+          "y": 1.42
         }
       }
     ],
@@ -181238,12 +181238,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": 12.099999999999996,
-      "y": 1.4200000000000008
+      "x": 12.1,
+      "y": 1.42
     },
     "center": {
-      "x": 12.099999999999996,
-      "y": 1.4200000000000008
+      "x": 12.1,
+      "y": 1.42
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181326,12 +181326,12 @@
     "edges": [
       {
         "from": {
-          "x": -9.899999999999997,
-          "y": -3.900000000000001
+          "x": -9.9,
+          "y": -3.9
         },
         "to": {
-          "x": -9.899999999999997,
-          "y": -4.280000000000001
+          "x": -9.9,
+          "y": -4.28
         }
       }
     ],
@@ -181346,12 +181346,12 @@
     "source_net_id": "source_net_26",
     "text": "VCP",
     "anchor_position": {
-      "x": -9.899999999999997,
-      "y": -4.280000000000001
+      "x": -9.9,
+      "y": -4.28
     },
     "center": {
-      "x": -9.899999999999997,
-      "y": -4.280000000000001
+      "x": -9.9,
+      "y": -4.28
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181362,12 +181362,12 @@
     "edges": [
       {
         "from": {
-          "x": -9.899999999999997,
-          "y": -3.2999999999999994
+          "x": -9.9,
+          "y": -3.3
         },
         "to": {
-          "x": -9.899999999999997,
-          "y": -2.9199999999999995
+          "x": -9.9,
+          "y": -2.92
         }
       }
     ],
@@ -181382,12 +181382,12 @@
     "source_net_id": "source_net_1",
     "text": "PD_VBUS",
     "anchor_position": {
-      "x": -9.899999999999997,
-      "y": -2.9199999999999995
+      "x": -9.9,
+      "y": -2.92
     },
     "center": {
-      "x": -9.899999999999997,
-      "y": -2.9199999999999995
+      "x": -9.9,
+      "y": -2.92
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181399,11 +181399,11 @@
       {
         "from": {
           "x": -6.7,
-          "y": -3.2999999999999994
+          "y": -3.3
         },
         "to": {
           "x": -6.7,
-          "y": -2.9199999999999995
+          "y": -2.92
         }
       }
     ],
@@ -181419,11 +181419,11 @@
     "text": "VREG",
     "anchor_position": {
       "x": -6.7,
-      "y": -2.9199999999999995
+      "y": -2.92
     },
     "center": {
       "x": -6.7,
-      "y": -2.9199999999999995
+      "y": -2.92
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181578,12 +181578,12 @@
     "edges": [
       {
         "from": {
-          "x": 2.099999999999999,
-          "y": -5.999999999999999
+          "x": 2.1,
+          "y": -6
         },
         "to": {
-          "x": 2.099999999999999,
-          "y": -6.379999999999999
+          "x": 2.1,
+          "y": -6.38
         }
       }
     ],
@@ -181598,12 +181598,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": 2.099999999999999,
-      "y": -6.379999999999999
+      "x": 2.1,
+      "y": -6.38
     },
     "center": {
-      "x": 2.099999999999999,
-      "y": -6.379999999999999
+      "x": 2.1,
+      "y": -6.38
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181615,11 +181615,11 @@
       {
         "from": {
           "x": 5.7175,
-          "y": -3.8000000000000003
+          "y": -3.8
         },
         "to": {
           "x": 5.3375,
-          "y": -3.8000000000000003
+          "y": -3.8
         }
       }
     ],
@@ -181635,11 +181635,11 @@
     "text": "VM_ENABLE_N",
     "anchor_position": {
       "x": 5.3375,
-      "y": -3.8000000000000003
+      "y": -3.8
     },
     "center": {
       "x": 5.3375,
-      "y": -3.8000000000000003
+      "y": -3.8
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181687,11 +181687,11 @@
       {
         "from": {
           "x": 5.7175,
-          "y": -4.6000000000000005
+          "y": -4.6
         },
         "to": {
           "x": 5.3375,
-          "y": -4.6000000000000005
+          "y": -4.6
         }
       }
     ],
@@ -181707,11 +181707,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 5.3375,
-      "y": -4.6000000000000005
+      "y": -4.6
     },
     "center": {
       "x": 5.3375,
-      "y": -4.6000000000000005
+      "y": -4.6
     },
     "anchor_side": "right",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181723,11 +181723,11 @@
       {
         "from": {
           "x": 8.2825,
-          "y": -3.8000000000000003
+          "y": -3.8
         },
         "to": {
           "x": 8.662500000000001,
-          "y": -3.8000000000000003
+          "y": -3.8
         }
       }
     ],
@@ -181743,11 +181743,11 @@
     "text": "VM_SENSE",
     "anchor_position": {
       "x": 8.662500000000001,
-      "y": -3.8000000000000003
+      "y": -3.8
     },
     "center": {
       "x": 8.662500000000001,
-      "y": -3.8000000000000003
+      "y": -3.8
     },
     "anchor_side": "left",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181795,11 +181795,11 @@
       {
         "from": {
           "x": 14,
-          "y": -2.2999999999999985
+          "y": -2.3
         },
         "to": {
           "x": 14,
-          "y": -1.9199999999999986
+          "y": -1.92
         }
       }
     ],
@@ -181815,11 +181815,11 @@
     "text": "V3V3",
     "anchor_position": {
       "x": 14,
-      "y": -1.9199999999999986
+      "y": -1.92
     },
     "center": {
       "x": 14,
-      "y": -1.9199999999999986
+      "y": -1.92
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181866,12 +181866,12 @@
     "edges": [
       {
         "from": {
-          "x": 10.999999999999996,
-          "y": -2.999999999999999
+          "x": 11,
+          "y": -3
         },
         "to": {
-          "x": 10.999999999999996,
-          "y": -2.619999999999999
+          "x": 11,
+          "y": -2.62
         }
       }
     ],
@@ -181886,12 +181886,12 @@
     "source_net_id": "source_net_2",
     "text": "V3V3",
     "anchor_position": {
-      "x": 10.999999999999996,
-      "y": -2.619999999999999
+      "x": 11,
+      "y": -2.62
     },
     "center": {
-      "x": 10.999999999999996,
-      "y": -2.619999999999999
+      "x": 11,
+      "y": -2.62
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181902,12 +181902,12 @@
     "edges": [
       {
         "from": {
-          "x": 10.999999999999996,
-          "y": -3.6000000000000005
+          "x": 11,
+          "y": -3.6
         },
         "to": {
-          "x": 10.999999999999996,
-          "y": -3.9800000000000004
+          "x": 11,
+          "y": -3.98
         }
       }
     ],
@@ -181922,12 +181922,12 @@
     "source_net_id": "source_net_0",
     "text": "GND",
     "anchor_position": {
-      "x": 10.999999999999996,
-      "y": -3.9800000000000004
+      "x": 11,
+      "y": -3.98
     },
     "center": {
-      "x": 10.999999999999996,
-      "y": -3.9800000000000004
+      "x": 11,
+      "y": -3.98
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181939,11 +181939,11 @@
       {
         "from": {
           "x": 9.8,
-          "y": -6.699999999999999
+          "y": -6.7
         },
         "to": {
           "x": 9.8,
-          "y": -6.319999999999999
+          "y": -6.32
         }
       }
     ],
@@ -181959,11 +181959,11 @@
     "text": "VM_SENSE",
     "anchor_position": {
       "x": 9.8,
-      "y": -6.319999999999999
+      "y": -6.32
     },
     "center": {
       "x": 9.8,
-      "y": -6.319999999999999
+      "y": -6.32
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -181975,11 +181975,11 @@
       {
         "from": {
           "x": 9.8,
-          "y": -7.300000000000001
+          "y": -7.3
         },
         "to": {
           "x": 9.8,
-          "y": -7.680000000000001
+          "y": -7.68
         }
       }
     ],
@@ -181995,11 +181995,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 9.8,
-      "y": -7.680000000000001
+      "y": -7.68
     },
     "center": {
       "x": 9.8,
-      "y": -7.680000000000001
+      "y": -7.68
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -182011,11 +182011,11 @@
       {
         "from": {
           "x": 13,
-          "y": -6.700000000000001
+          "y": -6.7
         },
         "to": {
           "x": 13,
-          "y": -6.320000000000001
+          "y": -6.32
         }
       }
     ],
@@ -182031,11 +182031,11 @@
     "text": "VM_SENSE",
     "anchor_position": {
       "x": 13,
-      "y": -6.320000000000001
+      "y": -6.32
     },
     "center": {
       "x": 13,
-      "y": -6.320000000000001
+      "y": -6.32
     },
     "anchor_side": "bottom",
     "schematic_sheet_id": "schematic_sheet_2"
@@ -182047,11 +182047,11 @@
       {
         "from": {
           "x": 13,
-          "y": -7.299999999999999
+          "y": -7.3
         },
         "to": {
           "x": 13,
-          "y": -7.679999999999999
+          "y": -7.68
         }
       }
     ],
@@ -182067,11 +182067,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 13,
-      "y": -7.679999999999999
+      "y": -7.68
     },
     "center": {
       "x": 13,
-      "y": -7.679999999999999
+      "y": -7.68
     },
     "anchor_side": "top",
     "schematic_sheet_id": "schematic_sheet_2"

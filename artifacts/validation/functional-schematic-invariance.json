@@ -1,14 +1,14 @@
 {
   "schema": "functional-schematic-invariance-v1",
-  "compared_git_revision": "3644f2d12d117f12a61d8aee38f51c65827ba4aa",
+  "compared_git_revision": "324585931d82a187ef8e879cbaec0cf671ce9c33",
   "boards": [
     {
       "file": "artifacts/board.circuit.json",
-      "before_sha256": "cc74af85d1100ea3f939491e952c04663bb63b91e24140b41966b39fc0c3f61e",
-      "after_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+      "before_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+      "after_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
       "non_schematic_records_byte_equivalent": true,
       "schematic_pin_identities_preserved": true,
-      "old_sheets": 10,
+      "old_sheets": 3,
       "new_sheets": [
         "USB-C PD & Logic Power",
         "CH32 & USB Control",
@@ -17,11 +17,11 @@
     },
     {
       "file": "artifacts/final-source.circuit.json",
-      "before_sha256": "95428dabce15f9a2ccee9b7f4dd501ff3dd149a20bfc79675733a5e02f31ece8",
-      "after_sha256": "d1aa91e0720225917972b1ab202b2aa9c63bbbd72977b8f2618b3bf737f07517",
+      "before_sha256": "d1aa91e0720225917972b1ab202b2aa9c63bbbd72977b8f2618b3bf737f07517",
+      "after_sha256": "efd1ac1b7653838fca1bc53eda52b7553c41a1992c3bda7b2998ea5c0e47f768",
       "non_schematic_records_byte_equivalent": true,
       "schematic_pin_identities_preserved": true,
-      "old_sheets": 10,
+      "old_sheets": 3,
       "new_sheets": [
         "USB-C PD & Logic Power",
         "CH32 & USB Control",

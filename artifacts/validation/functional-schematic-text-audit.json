@@ -1,24 +1,28 @@
 {
-  "schema": "functional-schematic-text-audit-v1",
-  "source_sha256": "c5b3e3869bce576a8fe7947a7977a360a84bd0999950878dea0366c15e86cb55",
+  "schema": "functional-schematic-text-audit-v2",
+  "source_sha256": "456733b372fca8276c10bb3ef7696d55cdd1454b1465d56cd5220271aae23864",
   "pages": [
     {
       "file": "schematic-a4-page-01.svg",
       "text_count": 149,
-      "sha256": "bd83358d98f266db676484d0d77b8f70f83e2ccddb2e6e3e60792514fa7f13fa"
+      "symbol_bodies_checked": 3,
+      "sha256": "9ee9fd17751ba08c272305f5c1223a69dc10c46aa9bcd3d3aaca02e2b121c61e"
     },
     {
       "file": "schematic-a4-page-02.svg",
       "text_count": 247,
-      "sha256": "c6f2d25a43b02f51228c8dce87eba35a3480e6ae86741ec436dd5be968457d09"
+      "symbol_bodies_checked": 6,
+      "sha256": "36923f4aaa0c72dc4f9dcf0a5a30a6112526c54ea3130587fa8dd9ac40163b85"
     },
     {
       "file": "schematic-a4-page-03.svg",
       "text_count": 232,
-      "sha256": "e2430413eb8b4bcd4a569e24502c97997830ae6e2231a3634f3afa01f55c080f"
+      "symbol_bodies_checked": 4,
+      "sha256": "1cd54f6331734d2d203d325ea5d72908673c3c0ac37a0d994451f13585c6e007"
     }
   ],
   "text_overlap_findings": [],
+  "foreign_symbol_body_findings": [],
   "passed": true,
-  "method": "Actual Chromium SVG text bounding boxes; intersections exceeding 0.35 CSS pixel on both axes are findings."
+  "method": "Actual Chromium SVG bounding boxes; intersections exceeding 0.35 CSS pixel on both axes are findings. Text is allowed within its own symbol body, never a foreign symbol body. Net labels have no component owner and are checked against every body."
 }
