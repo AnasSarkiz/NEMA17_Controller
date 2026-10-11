@@ -1,0 +1,140 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-11T19:57:52.065479+00:00",
+  "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
+  "version": "1.3.0",
+  "package_release_id": "a940d82c-ed34-4d1d-aa3d-c4c39f2f7296",
+  "package_is_private": false,
+  "ready_to_build": true,
+  "public_page": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
+  "page_http_status": 200,
+  "github_revision": "9c1ef7cf66c421df7f30ca20e60f6bf715048b72",
+  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/9c1ef7cf66c421df7f30ca20e60f6bf715048b72",
+  "public_file_count": 143,
+  "review_board_sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+  "public_index_sha256": "15fffd161c8b5061f942b6e8c439a91af925eeaadf9504afd9e55904202da5c3",
+  "public_dist_sha256": "df8e8127448f9a110fa501029cd5b29d547fdbed966507d47d37044485d796e9",
+  "geometry_and_functional_records_unchanged": true,
+  "cad_urls_pinned_to_revision": true,
+  "mount_coordinates_mm": [
+    [
+      -13,
+      -13
+    ],
+    [
+      -13,
+      13
+    ],
+    [
+      13,
+      -13
+    ],
+    [
+      13,
+      13
+    ]
+  ],
+  "mount_diameter_mm": 3.2,
+  "board_dimensions_mm": [
+    35,
+    35
+  ],
+  "USB_mouth_coordinates_mm": [
+    [
+      -6.2,
+      17.50000000000005
+    ],
+    [
+      6.2,
+      17.50000000000005
+    ]
+  ],
+  "same_USB_edge": "+Y",
+  "required_maximum_DIN920_head_diameter_mm": 4,
+  "simultaneous_12mm_plug_gap_mm": 0.40000000000000036,
+  "actual_Gerber_outline_centerline_bounds_mm": [
+    -17.5,
+    -17.5,
+    17.5,
+    17.5
+  ],
+  "public_gerber_archive_sha256": "c96a5cf6287cfc7e63f40691c6da65d9a4a37abf8c88eb8a96d07fb22eff41cd",
+  "public_drill_sha256": "0f02a9208b357b749bb0c54602012e5b216744cce70db6185a7d57a7a084f7f4",
+  "public_drill_coordinates_mm": [
+    [
+      -13.0,
+      -13.0
+    ],
+    [
+      -13.0,
+      13.0
+    ],
+    [
+      13.0,
+      -13.0
+    ],
+    [
+      13.0,
+      13.0
+    ]
+  ],
+  "public_evidence_checks": [
+    {
+      "path": "artifacts/mount-drill-verification.json",
+      "sha256": "a7540f30b05e1de9ec9b9c63210d3c892385dbef2a2ef44645c7f0f155c10e8f"
+    },
+    {
+      "path": "artifacts/mechanical/mount-usb-screen.json",
+      "sha256": "a01b535a5d2b462b7e5795a73201154d45bc355568b3da855bd6492f4352a876"
+    },
+    {
+      "path": "artifacts/manufacturing/audit.json",
+      "sha256": "aee25a1d5b4d400a69f546fde532b4e5f4771977fc1dba5fa66aa2015e56ff1c"
+    },
+    {
+      "path": "artifacts/resume-validation.json",
+      "sha256": "b3107e263c841929fc8e2da80a0dd41325aabe03395b292426ab39af77d75c29"
+    },
+    {
+      "path": "src/board.tsx",
+      "sha256": "41aafe8eadbc3bc4422ead4846d6be921111905fe127c66fe54532e152e25d6f"
+    },
+    {
+      "path": "docs/mounting-usb-verification.md",
+      "sha256": "1e09d76e7f9bfedd23e8f3c50461b005f7ea2beb5bcb86728fa137311d30ed14"
+    },
+    {
+      "path": "artifacts/mounting-change-proof.json",
+      "sha256": "fc6e1ffbc202a46b918ae3d3541f482265fb92e9009c54de85e6d1319adf681e"
+    },
+    {
+      "path": "artifacts/trace-width-review.json",
+      "sha256": "30259629714b5e34d67d5c421eb6b0e3ebd2a46321bdf79becad2e239482b3e0"
+    }
+  ],
+  "public_github_checks": [
+    {
+      "path": "artifacts/board.circuit.json",
+      "sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9c1ef7cf66c421df7f30ca20e60f6bf715048b72/artifacts/board.circuit.json"
+    },
+    {
+      "path": "index.circuit.json",
+      "sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9c1ef7cf66c421df7f30ca20e60f6bf715048b72/index.circuit.json"
+    },
+    {
+      "path": "artifacts/nema14-gerbers.zip",
+      "sha256": "c96a5cf6287cfc7e63f40691c6da65d9a4a37abf8c88eb8a96d07fb22eff41cd",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9c1ef7cf66c421df7f30ca20e60f6bf715048b72/artifacts/nema14-gerbers.zip"
+    },
+    {
+      "path": "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step",
+      "sha256": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9c1ef7cf66c421df7f30ca20e60f6bf715048b72/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step"
+    }
+  ],
+  "full_manufacturing_audit_passed": false,
+  "rear_motor_compatibility_verified": false,
+  "physical_hardware_tested": false
+}
