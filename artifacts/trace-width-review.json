@@ -532,7 +532,7 @@
       "voltageDropAtNetBudgetMillivolt": 1.404841584078989
     }
   ],
-  "sha256": "85d545ee603fda6e4acecc893c84e608719a590ea8ebd1e66e7ec00a19c81107",
+  "sha256": "edafbf5568bc4da54413d80284daa8158b6e4c4469031807dffdfe15555c6e10",
   "checksPassed": true,
   "errors": [],
   "copperSpecification": {
@@ -9688,34 +9688,34 @@
   ],
   "groundPours": [
     {
-      "id": "ground_top_0",
+      "id": "ground_top_0_0",
       "layer": "top",
-      "areaMm2": 518.6042023943539
+      "areaMm2": 518.4910463731057
     },
     {
-      "id": "ground_top_1",
+      "id": "ground_top_1_0",
       "layer": "top",
       "areaMm2": 18.821538803875992
     },
     {
-      "id": "ground_top_3",
+      "id": "ground_top_3_0",
       "layer": "top",
       "areaMm2": 11.738333504807002
     },
     {
-      "id": "ground_top_4",
+      "id": "ground_top_4_0",
       "layer": "top",
-      "areaMm2": 29.675570815472526
+      "areaMm2": 29.675570815472515
     },
     {
-      "id": "ground_top_48",
+      "id": "ground_top_48_0",
       "layer": "top",
       "areaMm2": 12.166810602088999
     },
     {
-      "id": "ground_bottom_0",
+      "id": "ground_bottom_0_0",
       "layer": "bottom",
-      "areaMm2": 825.0860763782997
+      "areaMm2": 825.0860763782996
     }
   ],
   "adcVoltageAt15V": 1.3636363636363635,

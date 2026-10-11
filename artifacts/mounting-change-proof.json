@@ -1,0 +1,32 @@
+{
+  "baseline_github_commit": "b241a26ad6a1c08367531033883c6419e9602d2e",
+  "board_sha256": "edafbf5568bc4da54413d80284daa8158b6e4c4469031807dffdfe15555c6e10",
+  "native_source_mounting_replayed": true,
+  "exact_mounts_mm": [
+    [
+      -13,
+      -13
+    ],
+    [
+      -13,
+      13
+    ],
+    [
+      13,
+      -13
+    ],
+    [
+      13,
+      13
+    ]
+  ],
+  "mount_drill_mm": 3.2,
+  "all_layer_keepouts": [
+    "bottom",
+    "top"
+  ],
+  "all_existing_source_pins_nets_components_pads_traces_vias_and_CAD_unchanged": true,
+  "modified_geometry_types": [
+    "pcb_copper_pour"
+  ]
+}

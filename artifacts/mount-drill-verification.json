@@ -1,0 +1,98 @@
+{
+  "passed": true,
+  "source_and_saved_json": [
+    {
+      "path": "artifacts/final-source.circuit.json",
+      "sha256": "cfc0838cbd033bb332a7ff78ba437aa75b259d4ba91228628d4a252600e103a3",
+      "mounts_mm": [
+        [
+          -13,
+          -13
+        ],
+        [
+          -13,
+          13
+        ],
+        [
+          13,
+          -13
+        ],
+        [
+          13,
+          13
+        ]
+      ],
+      "diameter_mm": 3.2
+    },
+    {
+      "path": "artifacts/board.circuit.json",
+      "sha256": "edafbf5568bc4da54413d80284daa8158b6e4c4469031807dffdfe15555c6e10",
+      "mounts_mm": [
+        [
+          -13,
+          -13
+        ],
+        [
+          -13,
+          13
+        ],
+        [
+          13,
+          -13
+        ],
+        [
+          13,
+          13
+        ]
+      ],
+      "diameter_mm": 3.2
+    },
+    {
+      "path": "index.circuit.json",
+      "sha256": "36f8f620cbfa4e5b39acd247e3ed0480fc6b0613f35ab9f328e5ab2c1a65bcce",
+      "mounts_mm": [
+        [
+          -13,
+          -13
+        ],
+        [
+          -13,
+          13
+        ],
+        [
+          13,
+          -13
+        ],
+        [
+          13,
+          13
+        ]
+      ],
+      "diameter_mm": 3.2
+    }
+  ],
+  "actual_drill_file": "drill_npth.drl",
+  "actual_drill_sha256": "8188aa60859cb33a3cd671e8f90cfccddf52d63924710a92e2e6656527667ced",
+  "gerber_archive_sha256": "a84aa46106a40dba9eaf9bce08fcc636985b1d9bb8f0ca693280aebd44a55225",
+  "drill_coordinates_mm": [
+    [
+      -13.0,
+      -13.0
+    ],
+    [
+      -13.0,
+      13.0
+    ],
+    [
+      13.0,
+      -13.0
+    ],
+    [
+      13.0,
+      13.0
+    ]
+  ],
+  "drill_diameter_mm": 3.2,
+  "coordinate_system": "Absolute metric, PCB centre origin; no translation or mirroring applied",
+  "rear_motor_compatibility_verified": false
+}
