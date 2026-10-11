@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "verified_at_utc": "2026-10-11T21:09:49.982116+00:00",
+  "verified_at_utc": "2026-10-11T21:10:44.576839+00:00",
   "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
   "version": "1.4.0",
   "package_release_id": "206e1acb-9472-4afa-9d63-d2544c408ce7",
@@ -101,7 +101,7 @@
     },
     {
       "path": "docs/mounting-usb-verification.md",
-      "sha256": "ea609ed8cb09640e64fe841c455ca45377726ae261ef0424888b5877e9e5804e"
+      "sha256": "f9db8cf6dfb8f5d1d42429ea86a83076104c99d75c2db3beeb66d1e5579afd01"
     },
     {
       "path": "artifacts/mounting-change-proof.json",
