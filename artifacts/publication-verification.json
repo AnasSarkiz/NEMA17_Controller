@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "verified_at_utc": "2026-10-11T20:38:57.638775+00:00",
+  "verified_at_utc": "2026-10-11T21:09:49.982116+00:00",
   "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
   "version": "1.4.0",
   "package_release_id": "206e1acb-9472-4afa-9d63-d2544c408ce7",
@@ -10,10 +10,10 @@
   "page_http_status": 200,
   "github_revision": "0c3e503da78944092f86b5935ecb83f40a97f74e",
   "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/0c3e503da78944092f86b5935ecb83f40a97f74e",
-  "public_file_count": 150,
+  "public_file_count": 157,
   "review_board_sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
   "public_index_sha256": "98dc886431e6487658a644a2405273d464cf03120b6d996a5575ccb29f5bc0b2",
-  "public_dist_sha256": "87af899735b0f9b5a1973277d91e5c4037e78eb00b205d70812bea96ded509e1",
+  "public_dist_sha256": "a06c8e4d0f8aa0d2c0c26ce00ef5dcd273a200fa3ec1f0a6de2dd34d38f25c11",
   "geometry_and_functional_records_unchanged": true,
   "cad_urls_pinned_to_revision": true,
   "mount_coordinates_mm": [
@@ -101,7 +101,7 @@
     },
     {
       "path": "docs/mounting-usb-verification.md",
-      "sha256": "6eb6563e3a03bf9722586ce7001eaa00497dd2a92e28568219b285dab22b9468"
+      "sha256": "ea609ed8cb09640e64fe841c455ca45377726ae261ef0424888b5877e9e5804e"
     },
     {
       "path": "artifacts/mounting-change-proof.json",
