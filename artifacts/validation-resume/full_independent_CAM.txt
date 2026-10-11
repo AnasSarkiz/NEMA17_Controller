@@ -4,16 +4,9 @@
     {
       "kind": "assembly-paste-policy",
       "layer": "F_Paste",
-      "bare_interface_overlap_mm2": 3.7631999999999968,
-      "manual_plated_joint_overlap_mm2": 24.845105051743175,
-      "outside_smt_copper_mm2": 24.84510918167761
-    },
-    {
-      "kind": "assembly-paste-policy",
-      "layer": "B_Paste",
-      "bare_interface_overlap_mm2": 0.0,
-      "manual_plated_joint_overlap_mm2": 24.845105051743182,
-      "outside_smt_copper_mm2": 24.845109181677614
+      "bare_interface_overlap_mm2": 3.763199999999996,
+      "manual_plated_joint_overlap_mm2": 0.0,
+      "outside_smt_copper_mm2": 0.0
     },
     {
       "kind": "assembly-table-policy",
@@ -697,39 +690,15 @@
       "apertures": [
         {
           "bounds_mm": [
-            4.1292,
-            -0.7449955,
-            4.2692000000000005,
-            -0.25499649999999996
-          ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
-        },
-        {
-          "bounds_mm": [
-            3.729404,
-            -0.7449955,
-            3.869404,
-            -0.25499649999999996
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
             2.7543045,
             0.23010399999999998,
             3.2443035,
             0.370104
           ],
           "area_mm2": 0.06859986000000001,
-          "perimeter_mm": 1.2599980000000004,
+          "perimeter_mm": 1.2599980000000002,
           "aspect_ratio_at_100um": 1.4000000000000001,
-          "area_ratio_at_100um": 0.5444441975304721
+          "area_ratio_at_100um": 0.5444441975304722
         },
         {
           "bounds_mm": [
@@ -781,34 +750,10 @@
         },
         {
           "bounds_mm": [
-            2.7543045,
-            2.2301,
-            3.2443035,
-            2.3701
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
-            2.7543045,
-            2.629896,
-            3.2443035,
-            2.7698959999999997
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
             4.1292,
-            3.2549965,
+            -0.7449955,
             4.2692000000000005,
-            3.7449955
+            -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
           "perimeter_mm": 1.2599980000000013,
@@ -817,21 +762,9 @@
         },
         {
           "bounds_mm": [
-            3.729404,
-            3.2549965,
-            3.869404,
-            3.7449955
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
-            5.329096,
+            6.129195999999999,
             -0.7449955,
-            5.469096,
+            6.269196,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -853,15 +786,27 @@
         },
         {
           "bounds_mm": [
-            6.129195999999999,
+            5.329096,
             -0.7449955,
-            6.269196,
+            5.469096,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
           "perimeter_mm": 1.2599980000000013,
           "aspect_ratio_at_100um": 1.4000000000000057,
           "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            3.729404,
+            -0.7449955,
+            3.869404,
+            -0.25499649999999996
+          ],
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
         },
         {
           "bounds_mm": [
@@ -889,6 +834,114 @@
         },
         {
           "bounds_mm": [
+            2.7543045,
+            2.2301,
+            3.2443035,
+            2.3701
+          ],
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
+        },
+        {
+          "bounds_mm": [
+            2.7543045,
+            2.629896,
+            3.2443035,
+            2.7698959999999997
+          ],
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
+        },
+        {
+          "bounds_mm": [
+            4.9293,
+            3.2547425,
+            5.0693,
+            3.7447415
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            4.529503999999999,
+            3.2549965,
+            4.669504,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            3.729404,
+            3.2549965,
+            3.869404,
+            3.7449955
+          ],
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
+        },
+        {
+          "bounds_mm": [
+            5.329096,
+            3.2549965,
+            5.469096,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            5.7294,
+            3.2549965,
+            5.869400000000001,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            6.129195999999999,
+            3.2549965,
+            6.269196,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            4.1292,
+            3.2549965,
+            4.2692000000000005,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
             6.754296500000001,
             0.23010399999999998,
             7.2442955,
@@ -905,6 +958,30 @@
             0.6298999999999999,
             7.2442955,
             0.7699
+          ],
+          "area_mm2": 0.06859985999999994,
+          "perimeter_mm": 1.2599979999999986,
+          "aspect_ratio_at_100um": 1.4000000000000012,
+          "area_ratio_at_100um": 0.5444441975304725
+        },
+        {
+          "bounds_mm": [
+            6.754296500000001,
+            1.030204,
+            7.2442955,
+            1.170204
+          ],
+          "area_mm2": 0.06859985999999994,
+          "perimeter_mm": 1.2599979999999986,
+          "aspect_ratio_at_100um": 1.4000000000000012,
+          "area_ratio_at_100um": 0.5444441975304725
+        },
+        {
+          "bounds_mm": [
+            6.754296500000001,
+            1.43,
+            7.2442955,
+            1.57
           ],
           "area_mm2": 0.06859985999999994,
           "perimeter_mm": 1.2599979999999986,
@@ -946,105 +1023,21 @@
           "perimeter_mm": 1.2599979999999977,
           "aspect_ratio_at_100um": 1.3999999999999968,
           "area_ratio_at_100um": 0.5444441975304711
-        },
-        {
-          "bounds_mm": [
-            4.9293,
-            3.2547425,
-            5.0693,
-            3.7447415
-          ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
-        },
-        {
-          "bounds_mm": [
-            6.129195999999999,
-            3.2549965,
-            6.269196,
-            3.7449955
-          ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
-        },
-        {
-          "bounds_mm": [
-            5.7294,
-            3.2549965,
-            5.869400000000001,
-            3.7449955
-          ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
-        },
-        {
-          "bounds_mm": [
-            5.329096,
-            3.2549965,
-            5.469096,
-            3.7449955
-          ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
-        },
-        {
-          "bounds_mm": [
-            4.529503999999999,
-            3.2549965,
-            4.669504,
-            3.7449955
-          ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
-        },
-        {
-          "bounds_mm": [
-            6.754296500000001,
-            1.030204,
-            7.2442955,
-            1.170204
-          ],
-          "area_mm2": 0.06859985999999994,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304725
-        },
-        {
-          "bounds_mm": [
-            6.754296500000001,
-            1.43,
-            7.2442955,
-            1.57
-          ],
-          "area_mm2": 0.06859985999999994,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304725
         }
       ]
     },
     {
       "kind": "silkscreen-clearance",
       "layer": "F_SilkScreen",
-      "overlap_mask_openings_mm2": 2.7182987677376613,
-      "inside_0_15mm_mask_guard_mm2": 4.6642853874357275,
-      "outside_board_0_10mm_inset_mm2": 1.8434955931273576
+      "overlap_mask_openings_mm2": 2.4119087948582996,
+      "inside_0_15mm_mask_guard_mm2": 4.3493924093960254,
+      "outside_board_0_10mm_inset_mm2": 2.2412851234867284
     },
     {
       "kind": "EP-stencil-coverage",
       "ref": "U_PD",
       "pad": "pcb_smtpad_34",
-      "coverage_fraction": 0.489999899393742
+      "coverage_fraction": 0.4899998993937417
     },
     {
       "kind": "EP-stencil-coverage",
@@ -1059,44 +1052,14 @@
       "coverage_fraction": 0.49000021000044225
     },
     {
-      "kind": "unowned-source-paste",
-      "paste_ids": [
-        "pcb_solder_paste_0",
-        "pcb_solder_paste_1",
-        "pcb_solder_paste_2",
-        "pcb_solder_paste_3",
-        "pcb_solder_paste_4",
-        "pcb_solder_paste_5",
-        "pcb_solder_paste_6",
-        "pcb_solder_paste_7",
-        "pcb_solder_paste_20",
-        "pcb_solder_paste_21",
-        "pcb_solder_paste_22",
-        "pcb_solder_paste_23",
-        "pcb_solder_paste_24",
-        "pcb_solder_paste_25",
-        "pcb_solder_paste_26",
-        "pcb_solder_paste_27",
-        "pcb_solder_paste_142",
-        "pcb_solder_paste_143",
-        "pcb_solder_paste_144",
-        "pcb_solder_paste_145",
-        "pcb_solder_paste_146",
-        "pcb_solder_paste_147",
-        "pcb_solder_paste_148",
-        "pcb_solder_paste_149"
-      ],
-      "reason": "No component ownership is present in saved source; apertures remain included in full CAM comparison."
-    },
-    {
       "kind": "paste-source-mismatch",
       "missing_mm2": 0.0,
-      "extra_mm2": 3.7631999999999968
+      "extra_mm2": 3.763199999999996
     }
   ],
   "connectivity": {
     "named_nets_checked": 33,
-    "actual_copper_islands": 123,
+    "actual_copper_islands": 139,
     "unassigned_islands": 29
   },
   "report": "/workspace/nema14-ch32-board/artifacts/manufacturing/audit.json"

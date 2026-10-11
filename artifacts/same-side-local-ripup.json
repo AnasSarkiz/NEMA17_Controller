@@ -1,0 +1,122 @@
+{
+  "removed_trace": {
+    "type": "pcb_trace",
+    "pcb_trace_id": "same_side_retained_freerouted_trace_265",
+    "route": [
+      {
+        "route_type": "wire",
+        "x": -1.1382,
+        "y": -1.7657,
+        "width": 0.16,
+        "layer": "bottom"
+      },
+      {
+        "route_type": "wire",
+        "x": -1.0179,
+        "y": -1.6454,
+        "width": 0.16,
+        "layer": "bottom"
+      },
+      {
+        "route_type": "wire",
+        "x": 3.4254,
+        "y": -1.6454,
+        "width": 0.16,
+        "layer": "bottom"
+      },
+      {
+        "route_type": "wire",
+        "x": 3.8063,
+        "y": -1.2645,
+        "width": 0.16,
+        "layer": "bottom"
+      },
+      {
+        "route_type": "wire",
+        "x": 4.4555,
+        "y": -1.2645,
+        "width": 0.16,
+        "layer": "bottom"
+      }
+    ],
+    "subcircuit_id": "subcircuit_source_group_0",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17",
+    "source_net_id": "source_net_18",
+    "source_trace_id": "source_trace_68",
+    "pcb_port_ids": []
+  },
+  "reason": "Free PD_GOOD fanout escape and reroute the already disconnected VM_SENSE net.",
+  "additional_removed_traces": [
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "same_side_retained_freerouted_trace_281",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 1.3041,
+          "y": -0.7576,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 1.596,
+          "y": -0.4657,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 5.4055,
+          "y": -0.4657,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 6.1992,
+          "y": -1.2594,
+          "width": 0.16,
+          "layer": "bottom"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net14",
+      "source_net_id": "source_net_14",
+      "source_trace_id": "source_trace_130",
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace",
+      "pcb_trace_id": "same_side_retained_freerouted_trace_251",
+      "route": [
+        {
+          "route_type": "wire",
+          "x": 3.7469,
+          "y": -2.005,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.676,
+          "y": -2.0759,
+          "width": 0.16,
+          "layer": "bottom"
+        },
+        {
+          "route_type": "wire",
+          "x": 3.676,
+          "y": -6.6196,
+          "width": 0.16,
+          "layer": "bottom"
+        }
+      ],
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net13",
+      "source_net_id": "source_net_13",
+      "source_trace_id": "source_trace_101",
+      "pcb_port_ids": []
+    }
+  ]
+}

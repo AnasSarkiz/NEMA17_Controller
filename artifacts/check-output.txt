@@ -1,9 +1,5 @@
-
-> NEMA14_CH32X035G8U6@1.1.5 check
-> bun scripts/check.ts
-
 {
-  "traceCount": 351,
+  "traceCount": 371,
   "currentLimitAmps": 0.350765306122449,
   "currentLimitEngineeringBudgetAmps": 0.3968801324163417,
   "currentLimitBudgetIsNotQualified": true,

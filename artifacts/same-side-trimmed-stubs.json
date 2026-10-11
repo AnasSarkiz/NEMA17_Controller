@@ -1,0 +1,12 @@
+[
+  {
+    "trace_id": "same_side_retained_freerouted_trace_150",
+    "endpoint": "end",
+    "removed_length_mm": 1.8723585852808031,
+    "new_endpoint_mm": [
+      6.851257452464907,
+      7.298042547535093
+    ],
+    "live_pad_connectivity_unchanged": true
+  }
+]

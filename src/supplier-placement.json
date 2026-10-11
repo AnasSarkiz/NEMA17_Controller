@@ -5,8 +5,8 @@
     "pcbRotation": 270
   },
   "U_PD": {
-    "pcbX": -3.4,
-    "pcbY": 8.2,
+    "pcbX": -13.1,
+    "pcbY": 5.9,
     "pcbRotation": 270
   },
   "U_DRV": {
@@ -15,13 +15,13 @@
     "pcbRotation": 270
   },
   "U_ESD": {
-    "pcbX": 5.5,
-    "pcbY": 7.5,
+    "pcbX": 11.8,
+    "pcbY": 7,
     "pcbRotation": 270
   },
   "D_TVS": {
-    "pcbX": -7.0,
-    "pcbY": 15.6,
+    "pcbX": -11.5,
+    "pcbY": 0.5,
     "pcbRotation": 180
   },
   "U_LDO": {
@@ -30,28 +30,28 @@
     "pcbRotation": 270
   },
   "R_PD": {
-    "pcbX": -8.5,
-    "pcbY": 11.7,
+    "pcbX": -12.9,
+    "pcbY": 9.8,
     "pcbRotation": 0
   },
   "R_PG": {
-    "pcbX": -0.5,
-    "pcbY": 11.8,
-    "pcbRotation": 0
+    "pcbX": 0,
+    "pcbY": 15.8,
+    "pcbRotation": 90
   },
   "R_CC1": {
-    "pcbX": 5.5,
-    "pcbY": 10.5,
+    "pcbX": 13.8,
+    "pcbY": 4.1,
     "pcbRotation": 0
   },
   "R_CC2": {
-    "pcbX": 8.5,
-    "pcbY": 12.0,
+    "pcbX": 14.8,
+    "pcbY": 9.6,
     "pcbRotation": 0
   },
   "R_USB_SENSE_H": {
-    "pcbX": 6.2,
-    "pcbY": 14.0,
+    "pcbX": 14.8,
+    "pcbY": 0,
     "pcbRotation": 0
   },
   "R_USB_SENSE_L": {
@@ -60,13 +60,13 @@
     "pcbRotation": 0
   },
   "R_VM_H": {
-    "pcbX": -0.5,
-    "pcbY": 14.0,
+    "pcbX": -15.6,
+    "pcbY": 2.5,
     "pcbRotation": 0
   },
   "R_VM_L": {
-    "pcbX": 3.0,
-    "pcbY": 14.0,
+    "pcbX": -15.6,
+    "pcbY": 0.95,
     "pcbRotation": 0
   },
   "R_SA": {
@@ -95,18 +95,18 @@
     "pcbRotation": 0
   },
   "R_SLEEP": {
-    "pcbX": -6.0,
-    "pcbY": 13.5,
-    "pcbRotation": 0
+    "pcbX": 0,
+    "pcbY": 12.8,
+    "pcbRotation": 90
   },
   "R_USB_BOOT": {
     "pcbX": 2.7,
-    "pcbY": 10.1,
+    "pcbY": 7.8,
     "pcbRotation": 0
   },
   "C_PD": {
-    "pcbX": -5.5,
-    "pcbY": 11.7,
+    "pcbX": -15.7,
+    "pcbY": 9.5,
     "pcbRotation": 0
   },
   "C_MCU": {
@@ -165,14 +165,14 @@
     "pcbRotation": 0
   },
   "J_PD": {
-    "pcbX": -12.1499711,
-    "pcbY": 4.5,
-    "pcbRotation": 270
+    "pcbX": -6.2,
+    "pcbY": 12.1499711,
+    "pcbRotation": 180
   },
   "J_DATA": {
-    "pcbX": 12.1499711,
-    "pcbY": 4.5,
-    "pcbRotation": 90
+    "pcbX": 6.2,
+    "pcbY": 12.1499711,
+    "pcbRotation": 180
   },
   "C_BULK": {
     "pcbX": -12.05,

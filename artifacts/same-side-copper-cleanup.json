@@ -1,0 +1,22 @@
+[
+  {
+    "duplicate_via_removed": "same_side_retained_freerouted_via_58",
+    "kept": "freerouted_via_19"
+  },
+  {
+    "duplicate_via_removed": "same_side_retained_freerouted_via_59",
+    "kept": "freerouted_via_20"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_freerouted_via_9",
+    "net": "DATA_CC1"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_freerouted_via_43",
+    "net": "SLEEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_SLEEP_0_via_12",
+    "net": "SLEEP"
+  }
+]

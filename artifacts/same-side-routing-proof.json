@@ -1,0 +1,30 @@
+{
+  "baseline_github_commit": "ed9bb51f2be2747a6400683fb776b64d46221a7d",
+  "new_source_sha256": "00ca98a932bead820f9ac5cdf8de2d1b5df175286d22c0a56e4b45aa0e3d164a",
+  "source_components_ports_nets_traces_identical": true,
+  "moved_references": [
+    "C_PD",
+    "D_TVS",
+    "J_BOOT",
+    "J_DATA",
+    "J_PD",
+    "R_CC1",
+    "R_CC2",
+    "R_PD",
+    "R_PG",
+    "R_SLEEP",
+    "R_USB_BOOT",
+    "R_USB_SENSE_H",
+    "R_VM_H",
+    "R_VM_L",
+    "U_ESD",
+    "U_PD"
+  ],
+  "baseline_traces": 351,
+  "retained_fixed_traces": 230,
+  "removed_affected_traces": 121,
+  "baseline_vias": 59,
+  "retained_vias": 55,
+  "retained_geometry_is_unmoved": true,
+  "all_pours_will_be_regenerated": true
+}

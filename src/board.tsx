@@ -5,8 +5,9 @@ import placements from "./supplier-placement.json"
 const place=(name:string)=>(placements as Record<string,{pcbX:number,pcbY:number,pcbRotation:number}>)[name]
 import { SchematicNotes } from "./schematic-notes"
 
-// 26 mm square mounting is a parameter, not a verified rear-motor dimension.
-export const mechanical = { width: 35, height: 35, holePitch: 26, holeDiameter: 3.2 }
+// Fixed NEMA14 hole pattern. Same-edge ports require DIN 920 M3 heads ≤4 mm.
+// Circular Ø4.4 mm head envelope includes a defined 0.2 mm radial allowance; rear mounting is unverified.
+export const mechanical = { width: 35, height: 35, holePitch: 26, holeDiameter: 3.2, headEnvelopeRadius: 2.2, usbPortPitch: 12.4 }
 const n = (name: string) => `net.${name}`
 const mcuPins = {pin1:"CC2_UNUSED",pin2:"VDD",pin3:"PC0",pin4:"PC3",pin5:"STEP",pin6:"DIR",pin7:"PD_GOOD",pin8:"DATA_PRESENT",pin9:"VM_SENSE",pin10:"PA5",pin11:"PA6",pin12:"PA7",pin13:"PB0",pin14:"ENABLE_N",pin15:"SLEEP",pin16:"PB1",pin17:"PB6",pin18:"PB7",pin19:"PB8",pin20:"PB9",pin21:"PB10",pin22:"PB11",pin23:"PB12",pin24:"DCK",pin25:"DIO",pin26:"USB_DM",pin27:"USB_DP",pin28:"CC1_UNUSED",pin29:"GND"} as const
 const driverPins = {pin1:"OUT2B",pin2:"ENABLE_N",pin3:"GND",pin4:"CP1",pin5:"CP2",pin6:"VCP",pin7:"NC7",pin8:"VREG",pin9:"MS1",pin10:"MS2",pin11:"MS3",pin12:"RESET_N",pin13:"ROSC",pin14:"SLEEP",pin15:"VDD",pin16:"STEP",pin17:"REF",pin18:"GND18",pin19:"DIR",pin20:"NC20",pin21:"OUT1B",pin22:"VBB1",pin23:"SENSE1",pin24:"OUT1A",pin25:"NC25",pin26:"OUT2A",pin27:"SENSE2",pin28:"VBB2",pin29:"EP"} as const
@@ -22,7 +23,8 @@ export default function Nema14Controller({ routingDisabled = false }: { routingD
   autorouter={{local:true, traceClearance:0.15}} autorouterEffortLevel="2x" schAutoLayoutEnabled>
   <schematicsheet name="NEMA14_CH32X035G8U6" sheetSize="A4">
   {['GND','PD_VBUS','V3V3','LOGIC_IN','DATA_VBUS','PD_VDD','PD_CC1','PD_CC2','DATA_CC1','DATA_CC2','USB_DP','USB_DM','STEP','DIR','ENABLE_N','SLEEP','PD_GOOD','DATA_PRESENT','VM_SENSE','VREF','CP1','CP2','VCP','VREG','SENSE1','SENSE2','A_PLUS','A_MINUS','B_PLUS','B_MINUS'].map(name=><React.Fragment key={name}><net name={name} isGroundNet={name==='GND'} isPowerNet={['PD_VBUS','V3V3','LOGIC_IN','DATA_VBUS','PD_VDD'].includes(name)} nominalTraceWidth={['PD_VBUS','A_PLUS','A_MINUS','B_PLUS','B_MINUS','SENSE1','SENSE2'].includes(name)?0.45:0.16} /></React.Fragment>)}
-  {[-mechanical.holePitch/2,mechanical.holePitch/2].flatMap(x=>[-mechanical.holePitch/2,mechanical.holePitch/2].map(y=><React.Fragment key={`${x},${y}`}><hole name={`M${x}_${y}`} pcbX={x} pcbY={y} diameter={mechanical.holeDiameter} /><keepout pcbX={x} pcbY={y} shape="rect" width={5.4} height={5.4} layers={['top','bottom']} /><silkscreencircle pcbX={x} pcbY={y} radius={2.7} strokeWidth={0.1} /></React.Fragment>))}
+  {/* These keepouts constrain copper. Supplier courtyards remain intact; native STEP solids independently validate component/head clearance. */}
+  {[-mechanical.holePitch/2,mechanical.holePitch/2].flatMap(x=>[-mechanical.holePitch/2,mechanical.holePitch/2].map(y=><React.Fragment key={`${x},${y}`}><hole name={`M${x}_${y}`} pcbX={x} pcbY={y} diameter={mechanical.holeDiameter} /><keepout pcbX={x} pcbY={y} shape="circle" radius={mechanical.headEnvelopeRadius} allowPlacements={true} layers={['top','bottom']} /><silkscreencircle pcbX={x} pcbY={y} radius={mechanical.headEnvelopeRadius} strokeWidth={0.1} /></React.Fragment>))}
   <SupplierPart name="J_PD" {...pinProps("J_PD")}    noConnect={['DP1','DP2','DN1','DN2','SBU1','SBU2']} {...place("J_PD")} connections={{...baseUsb,VBUS1:n('PD_VBUS'),VBUS2:n('PD_VBUS'),CC1:n('PD_CC1'),CC2:n('PD_CC2')}} />
   <SupplierPart name="J_DATA" {...pinProps("J_DATA")}    noConnect={['SBU1','SBU2']} {...place("J_DATA")} connections={{...baseUsb,VBUS1:n('DATA_VBUS'),VBUS2:n('DATA_VBUS'),CC1:n('DATA_CC1'),CC2:n('DATA_CC2'),DP1:n('USB_DP'),DP2:n('USB_DP'),DN1:n('USB_DM'),DN2:n('USB_DM')}} />
   <SupplierPart name="U_PD" {...pinProps("U_PD")}  pinLabels={pdPins} noConnect={['DP','DM']} {...place("U_PD")} connections={{VDD:n('PD_VDD'),CFG2:n('PD_VDD'),CFG3:n('PD_VDD'),CFG1:n('GND'),VBUS:n('PD_VBUS'),CC1:n('PD_CC1'),CC2:n('PD_CC2'),PG:n('PD_GOOD'),GND:n('GND')}} />
@@ -63,10 +65,10 @@ export default function Nema14Controller({ routingDisabled = false }: { routingD
   <SupplierPart name="U_ESD" {...pinProps("U_ESD")}  pinLabels={{pin1:"DP1",pin2:"GND",pin3:"DM1",pin4:"DM2",pin5:"VBUS",pin6:"DP2"}} {...place("U_ESD")} connections={{DP1:n("USB_DP"),DP2:n("USB_DP"),DM1:n("USB_DM"),DM2:n("USB_DM"),VBUS:n("DATA_VBUS"),GND:n("GND")}} />
   <SupplierPart name="D_TVS" {...place("D_TVS")} connections={{pin1:n("GND"),pin2:n("PD_VBUS")}} />
   {resistor('R_USB_BOOT','4.7k','V3V3','.J_BOOT > .BOOT')}
-  <chip name="J_BOOT" {...pinProps("J_BOOT")} cadModel={null} pinLabels={{pin1:'BOOT',pin2:'USB_DP'}} footprint={<footprint>{[-.4,.4].map((x,i)=><React.Fragment key={i}><smtpad portHints={[`pin${i+1}`]} pcbX={x} pcbY={0} width={.4} height={.6} shape="rect" /></React.Fragment>)}<courtyardrect width={1.4} height={.9} /></footprint>} pcbX={1.7} pcbY={11.9} connections={{USB_DP:n('USB_DP')}} />
-  <silkscreentext text="NEMA14 USB+PD" pcbX={0} pcbY={15.3} fontSize={1} />
-  <silkscreentext text="PD 15V" pcbX={-13.5} pcbY={-.6} fontSize={.7} />
-  <silkscreentext text="USB DATA" pcbX={13} pcbY={-.6} fontSize={.7} />
+  <chip name="J_BOOT" {...pinProps("J_BOOT")} cadModel={null} pinLabels={{pin1:'BOOT',pin2:'USB_DP'}} footprint={<footprint>{[-.4,.4].map((x,i)=><React.Fragment key={i}><smtpad portHints={[`pin${i+1}`]} pcbX={x} pcbY={0} width={.4} height={.6} shape="rect" /></React.Fragment>)}<courtyardrect width={1.4} height={.9} /></footprint>} pcbX={15.5} pcbY={2.5} connections={{USB_DP:n('USB_DP')}} />
+  <silkscreentext text="NEMA14 USB+PD" pcbX={0} pcbY={-16.9} fontSize={1} />
+  <silkscreentext text="PD 15V" pcbX={-6.2} pcbY={8.2} fontSize={.7} />
+  <silkscreentext text="USB DATA" pcbX={6.2} pcbY={8.2} fontSize={.7} />
   <silkscreentext text="A+ A- B+ B-" pcbX={0} pcbY={-13.7} fontSize={.65} />
   <SchematicNotes />
   </schematicsheet>

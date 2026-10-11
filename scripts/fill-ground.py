@@ -26,7 +26,9 @@ for layer in layers:
     if a['route_type']==b['route_type']=='wire' and a['layer']==b['layer']==layer:cuts.append(LineString([(a['x'],a['y']),(b['x'],b['y'])]).buffer(max(a['width'],b['width'])/2+.20,quad_segs=16))
   elif typ=='pcb_hole':cuts.append(Point(e['x'],e['y']).buffer(e['hole_diameter']/2+.25,quad_segs=16))
   elif typ=='pcb_keepout':
-   c=e['center'];cuts.append(box(c['x']-e['width']/2-.20,c['y']-e['height']/2-.20,c['x']+e['width']/2+.20,c['y']+e['height']/2+.20))
+   c=e['center']
+   if e['shape']=='circle':cuts.append(Point(c['x'],c['y']).buffer(e['radius']+.20,quad_segs=64))
+   else:cuts.append(box(c['x']-e['width']/2-.20,c['y']-e['height']/2-.20,c['x']+e['width']/2+.20,c['y']+e['height']/2+.20))
  region=box(-17.15,-17.15,17.15,17.15).difference(unary_union(cuts));polys=[region] if region.geom_type=='Polygon' else list(region.geoms)
  for i,p in enumerate(polys):
   if p.area<.02 or not any(p.intersects(t) for t in terminals):continue
