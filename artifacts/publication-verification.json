@@ -1,0 +1,196 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-11T20:38:57.638775+00:00",
+  "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
+  "version": "1.4.0",
+  "package_release_id": "206e1acb-9472-4afa-9d63-d2544c408ce7",
+  "package_is_private": false,
+  "ready_to_build": true,
+  "public_page": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
+  "page_http_status": 200,
+  "github_revision": "0c3e503da78944092f86b5935ecb83f40a97f74e",
+  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/0c3e503da78944092f86b5935ecb83f40a97f74e",
+  "public_file_count": 150,
+  "review_board_sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
+  "public_index_sha256": "98dc886431e6487658a644a2405273d464cf03120b6d996a5575ccb29f5bc0b2",
+  "public_dist_sha256": "87af899735b0f9b5a1973277d91e5c4037e78eb00b205d70812bea96ded509e1",
+  "geometry_and_functional_records_unchanged": true,
+  "cad_urls_pinned_to_revision": true,
+  "mount_coordinates_mm": [
+    [
+      -13,
+      -13
+    ],
+    [
+      -13,
+      13
+    ],
+    [
+      13,
+      -13
+    ],
+    [
+      13,
+      13
+    ]
+  ],
+  "mount_diameter_mm": 3.2,
+  "board_dimensions_mm": [
+    35,
+    35
+  ],
+  "USB_mouth_coordinates_mm": [
+    [
+      -6.2,
+      17.50000000000005
+    ],
+    [
+      6.2,
+      17.50000000000005
+    ]
+  ],
+  "same_USB_edge": "+Y",
+  "required_maximum_DIN920_head_diameter_mm": 4,
+  "simultaneous_12mm_plug_gap_mm": 0.40000000000000036,
+  "actual_Gerber_outline_centerline_bounds_mm": [
+    -17.5,
+    -17.5,
+    17.5,
+    17.5
+  ],
+  "public_gerber_archive_sha256": "6f00c2246dc7ab87be046f55087adefe1e9d8f7e5922bcaa554853273ab675d6",
+  "public_drill_sha256": "7b9e2c42a978cc1d82a74d808c34676f13e4faea5aed150ae652f39117090b16",
+  "public_drill_coordinates_mm": [
+    [
+      -13.0,
+      -13.0
+    ],
+    [
+      -13.0,
+      13.0
+    ],
+    [
+      13.0,
+      -13.0
+    ],
+    [
+      13.0,
+      13.0
+    ]
+  ],
+  "public_evidence_checks": [
+    {
+      "path": "artifacts/mount-drill-verification.json",
+      "sha256": "58e00376e23e9d98675f2ffded771c506e8918bfa3161125b3f870cb490aae89"
+    },
+    {
+      "path": "artifacts/mechanical/mount-usb-screen.json",
+      "sha256": "cef9b70480e5670e48d8f69b1fa0f681c1a4afb58710db44a9f18b18a883605a"
+    },
+    {
+      "path": "artifacts/manufacturing/audit.json",
+      "sha256": "a1a46d0304bd07a46680811fbc98f2f7c1da28790b4250b7a5bdb0bfe25a77ca"
+    },
+    {
+      "path": "artifacts/resume-validation.json",
+      "sha256": "74ef9a74233bf8cf280d135f8403178d467af9802f16e92131d21fef2ef4c5ea"
+    },
+    {
+      "path": "src/board.tsx",
+      "sha256": "00ac6f4779271d32dd81e2c9ad7922aa133d2efd583c450e266c9145930d40ce"
+    },
+    {
+      "path": "docs/mounting-usb-verification.md",
+      "sha256": "6eb6563e3a03bf9722586ce7001eaa00497dd2a92e28568219b285dab22b9468"
+    },
+    {
+      "path": "artifacts/mounting-change-proof.json",
+      "sha256": "d4dffbd384b1fa249be9d45f8e937c510fdfcaa04e9bb8e8c920b4dd375c4bf5"
+    },
+    {
+      "path": "artifacts/trace-width-review.json",
+      "sha256": "2c464a682891c5c29654e3dfddeae02a5aea037056acc38dcdbad69718ec06c2"
+    },
+    {
+      "path": "artifacts/jst-restoration/connector-verification.json",
+      "sha256": "cf2341b013bad49747bfd1c7dc719effcde550135988a44aea84c5ab481bf0f5"
+    },
+    {
+      "path": "src/jlcpcb-catalog.json",
+      "sha256": "19db85fa328378274983139b4be1c63fe0f5622601bd5c3e7a899a97716541a9"
+    },
+    {
+      "path": "artifacts/bom.csv",
+      "sha256": "e9156393d4287eb0259d177c4c4b5849e382b121ecd757fd3bb8600ee0b94ccb"
+    }
+  ],
+  "public_github_checks": [
+    {
+      "path": "artifacts/board.circuit.json",
+      "sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/0c3e503da78944092f86b5935ecb83f40a97f74e/artifacts/board.circuit.json"
+    },
+    {
+      "path": "index.circuit.json",
+      "sha256": "b3b8f07ace822670b5214abbffb4746335fd28f8811464dae4c996f1fdb01137",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/0c3e503da78944092f86b5935ecb83f40a97f74e/index.circuit.json"
+    },
+    {
+      "path": "artifacts/nema14-gerbers.zip",
+      "sha256": "6f00c2246dc7ab87be046f55087adefe1e9d8f7e5922bcaa554853273ab675d6",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/0c3e503da78944092f86b5935ecb83f40a97f74e/artifacts/nema14-gerbers.zip"
+    },
+    {
+      "path": "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step",
+      "sha256": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/0c3e503da78944092f86b5935ecb83f40a97f74e/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step"
+    },
+    {
+      "path": "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step",
+      "sha256": "330cfdeb167726774e998328867b10007c6ca195a3a7aab25f476c0c19b5a7a1",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/0c3e503da78944092f86b5935ecb83f40a97f74e/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step"
+    },
+    {
+      "path": "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj",
+      "sha256": "333d51fc2722f28c1a73c3ef4b240453d4ce90bba01e4b2a7b6d8c059fa62d0f",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/0c3e503da78944092f86b5935ecb83f40a97f74e/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj"
+    }
+  ],
+  "full_manufacturing_audit_passed": false,
+  "rear_motor_compatibility_verified": false,
+  "physical_hardware_tested": false,
+  "fitted_motor_connector": "B4B-PH-K-S(LF)(SN)",
+  "JST_supplier_id": "C131334",
+  "JST_actual_drills": [
+    {
+      "pin": 1,
+      "net": "A_PLUS",
+      "actual_excellon_x_mm": -3.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    },
+    {
+      "pin": 2,
+      "net": "A_MINUS",
+      "actual_excellon_x_mm": -1.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    },
+    {
+      "pin": 3,
+      "net": "B_PLUS",
+      "actual_excellon_x_mm": 1.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    },
+    {
+      "pin": 4,
+      "net": "B_MINUS",
+      "actual_excellon_x_mm": 3.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    }
+  ],
+  "JST_native_STEP_lead_alignment_verified": true,
+  "JST_top_entry_access_screen_pass": true
+}
