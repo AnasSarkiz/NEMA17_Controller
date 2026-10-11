@@ -1,0 +1,9 @@
+# Public publication verification — 2026-10-11
+
+[Public AnasSarkiz/NEMA14_CH32X035G8U6 version 1.2.0](https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6) is finalized and publicly accessible. Registry release ID: `453b5046-d421-4e7f-986d-52a715ecae3a`. The review source and supplier CAD assets are pinned to [GitHub revision c0d42a6](https://github.com/AnasSarkiz/NEMA17_Controller/commit/c0d42a64af878b03c36ed5ff986e23d812b25356).
+
+`artifacts/publication-verification.json` records unauthenticated public downloads. Published `index.circuit.json` and `dist/index/circuit.json` are semantically identical; every circuit and geometry record equals the reviewed board, allowing only revision-pinned CAD URL metadata. Public Gerber ZIP bytes match the reviewed archive. Its actual metric absolute NPTH drill file independently contains exactly (−13,−13), (−13,13), (13,−13), (13,13) mm using the Ø3.2 mm tool. Public GitHub board JSON, delivery JSON, Gerber ZIP and native USB STEP bytes also match local hashes. Mechanical and complete manufacturing evidence were retrieved and compared byte-for-byte.
+
+Compressed archive upload timed out after completing on the server. Fallback reported duplicate keys. All public release evidence files and Circuit JSON were independently retrieved and verified. Transport errors were resolved or disproved by the public downloads; no incomplete upload is treated as success.
+
+Run `python3 scripts/verify-publication.py` to repeat the public-content checks against version 1.2.0. This verifies publication only. It does not change the retained full manufacturing audit **FAIL**, placement suggestions, physical hardware testing status, or unverified rear-motor fit. See [mounting and USB verification](mounting-usb-verification.md) for those blockers. These releases remain prototypes and are **not fabrication approved**.

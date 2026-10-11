@@ -1,0 +1,110 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-11T18:25:38.783852+00:00",
+  "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
+  "version": "1.2.0",
+  "package_release_id": "453b5046-d421-4e7f-986d-52a715ecae3a",
+  "package_is_private": false,
+  "ready_to_build": true,
+  "public_page": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
+  "page_http_status": 200,
+  "github_revision": "c0d42a64af878b03c36ed5ff986e23d812b25356",
+  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/c0d42a64af878b03c36ed5ff986e23d812b25356",
+  "public_file_count": 111,
+  "review_board_sha256": "edafbf5568bc4da54413d80284daa8158b6e4c4469031807dffdfe15555c6e10",
+  "public_index_sha256": "7f997bdbb9e6419945d26e979a3281847ce11f4a80ffcbd964d654e57cfe628a",
+  "public_dist_sha256": "731635be8c7f66a509347073acc6b7b3fb84447889dcbaa359ebc900877e555b",
+  "geometry_and_functional_records_unchanged": true,
+  "cad_urls_pinned_to_revision": true,
+  "mount_coordinates_mm": [
+    [
+      -13,
+      -13
+    ],
+    [
+      -13,
+      13
+    ],
+    [
+      13,
+      -13
+    ],
+    [
+      13,
+      13
+    ]
+  ],
+  "mount_diameter_mm": 3.2,
+  "public_gerber_archive_sha256": "a84aa46106a40dba9eaf9bce08fcc636985b1d9bb8f0ca693280aebd44a55225",
+  "public_drill_sha256": "8188aa60859cb33a3cd671e8f90cfccddf52d63924710a92e2e6656527667ced",
+  "public_drill_coordinates_mm": [
+    [
+      -13.0,
+      -13.0
+    ],
+    [
+      -13.0,
+      13.0
+    ],
+    [
+      13.0,
+      -13.0
+    ],
+    [
+      13.0,
+      13.0
+    ]
+  ],
+  "public_evidence_checks": [
+    {
+      "path": "artifacts/mount-drill-verification.json",
+      "sha256": "eeb684e7a8bf775d9e2bdd7e02c26066a62918b53d2476899b7955a08327cb4a"
+    },
+    {
+      "path": "artifacts/mechanical/mount-usb-screen.json",
+      "sha256": "ee564648b3566ce1bf6dafe95d270edbcfb680aba4fe2a8e51cfdbf9df426801"
+    },
+    {
+      "path": "artifacts/manufacturing/audit.json",
+      "sha256": "768764d48659178644d283de7b88f0827c166eb0cf7cc1524743a36bbbc6a58f"
+    },
+    {
+      "path": "artifacts/resume-validation.json",
+      "sha256": "3bb92bbcc3a0aa924792212ef7ce6b2a4988088bdf3277304d252f9d8550a886"
+    },
+    {
+      "path": "src/board.tsx",
+      "sha256": "aca6ad5d887e8cfbad8eb26c85a91fed7d8bc285a805b5237e1426736a1a6b83"
+    },
+    {
+      "path": "docs/mounting-usb-verification.md",
+      "sha256": "2d72a1f0f9d4d79b7c0618b62643ff44b20d2ae5eff3627cc8138d0db7932d72"
+    }
+  ],
+  "public_github_checks": [
+    {
+      "path": "artifacts/board.circuit.json",
+      "sha256": "edafbf5568bc4da54413d80284daa8158b6e4c4469031807dffdfe15555c6e10",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/c0d42a64af878b03c36ed5ff986e23d812b25356/artifacts/board.circuit.json"
+    },
+    {
+      "path": "index.circuit.json",
+      "sha256": "36f8f620cbfa4e5b39acd247e3ed0480fc6b0613f35ab9f328e5ab2c1a65bcce",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/c0d42a64af878b03c36ed5ff986e23d812b25356/index.circuit.json"
+    },
+    {
+      "path": "artifacts/nema14-gerbers.zip",
+      "sha256": "a84aa46106a40dba9eaf9bce08fcc636985b1d9bb8f0ca693280aebd44a55225",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/c0d42a64af878b03c36ed5ff986e23d812b25356/artifacts/nema14-gerbers.zip"
+    },
+    {
+      "path": "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step",
+      "sha256": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461",
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/c0d42a64af878b03c36ed5ff986e23d812b25356/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step"
+    }
+  ],
+  "full_manufacturing_audit_passed": false,
+  "rear_motor_compatibility_verified": false,
+  "physical_hardware_tested": false,
+  "registry_transport_note": "Compressed archive upload timed out after completing on the server. Fallback reported duplicate keys. All public release evidence files and Circuit JSON were independently retrieved and verified."
+}
