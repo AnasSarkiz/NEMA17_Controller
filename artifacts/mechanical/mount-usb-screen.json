@@ -10,8 +10,8 @@
   },
   "plug_pair_intersections": [],
   "minimum_simultaneous_plug_gap_mm": 0.40000000000000036,
-  "board_sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
-  "native_STEP_models": 38,
+  "board_sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
+  "native_STEP_models": 39,
   "component_intersections": [],
   "fastener_clearances": [
     {
@@ -101,6 +101,82 @@
       13
     ]
   ],
+  "motor_connector": {
+    "reference": "J_MOTOR",
+    "manufacturer_part_number": "B4B-PH-K-S(LF)(SN)",
+    "supplier_id": "C131334",
+    "mating_housing": "PHR-4",
+    "insertion_direction": "+Z (from above)",
+    "body_and_lead_bbox_mm": [
+      -4.94998729999993,
+      -17.249961700000036,
+      -2.1999940000000002,
+      4.951012800000068,
+      -12.549961599999994,
+      6.800006000000001
+    ],
+    "body_within_35mm_outline": true,
+    "native_hole_centres_mm": [
+      [
+        -0.9999979999999999,
+        -14.249963000000001
+      ],
+      [
+        -2.999994,
+        -14.249963000000001
+      ],
+      [
+        0.9999980000000002,
+        -14.249963000000001
+      ],
+      [
+        2.999994,
+        -14.249963000000001
+      ]
+    ],
+    "native_hole_diameter_mm": 0.999998,
+    "STEP_lead_alignment": [
+      {
+        "STEP_lead_xy_mm": [
+          1.0000127000000703,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 1.4757371109958201e-05
+      },
+      {
+        "STEP_lead_xy_mm": [
+          -0.9999872999999297,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 1.0778682735780175e-05
+      },
+      {
+        "STEP_lead_xy_mm": [
+          -2.9999872999999297,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 6.824954282518666e-06
+      },
+      {
+        "STEP_lead_xy_mm": [
+          3.0000127000000703,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 1.8745132772056974e-05
+      }
+    ],
+    "vertical_access_envelope_bbox_mm": [
+      -5.24998729999993,
+      -17.549961700000036,
+      6.800006,
+      5.251012800000067,
+      -12.249961599999995,
+      26.800006
+    ],
+    "vertical_access_intersections": [],
+    "tail_projection_below_PCB_mm": 1.3999940000000002,
+    "cable_and_finger_clearance_hardware_tested": false
+  },
   "rear_motor_compatibility_verified": false,
   "limitations": [
     "Nominal PCB/model screen only; no verified mounting to rear motor endcap.",

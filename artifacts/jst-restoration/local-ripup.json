@@ -1,0 +1,22 @@
+[
+  {
+    "trace": "same_side_retained_same_side_retained_freerouted_trace_247",
+    "net": "V3V3",
+    "near": "VREG"
+  },
+  {
+    "trace": "freerouted_trace_20",
+    "net": "VCP",
+    "near": "VREG"
+  },
+  {
+    "trace": "same_side_retained_same_side_retained_freerouted_trace_16",
+    "net": "GND",
+    "near": "VREG"
+  },
+  {
+    "trace": "same_side_repair_1_V3V3_0",
+    "net": "V3V3",
+    "near": "VREG"
+  }
+]

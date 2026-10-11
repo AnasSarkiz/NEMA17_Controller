@@ -811,14 +811,14 @@
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
     },
     "pcb_component_35-p163": {
-      "pcb_port_id": "pcb_port_162",
-      "net": "A_PLUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
-    },
-    "pcb_component_35-p164": {
       "pcb_port_id": "pcb_port_163",
       "net": "A_MINUS",
       "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22"
+    },
+    "pcb_component_35-p164": {
+      "pcb_port_id": "pcb_port_162",
+      "net": "A_PLUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
     },
     "pcb_component_35-p165": {
       "pcb_port_id": "pcb_port_164",

@@ -16,5 +16,13 @@
       "same_side_retained_freerouted_trace_150"
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [],
+    "retained_live_traces": [
+      "same_side_retained_same_side_retained_freerouted_trace_307",
+      "same_side_retained_same_side_retained_freerouted_trace_314"
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

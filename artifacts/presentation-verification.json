@@ -2,8 +2,8 @@
   "savedPcbGeometryUnchanged": true,
   "addedBootComponents": [],
   "sourcePinsAndNetsUnchanged": true,
-  "pcbGeometrySha256": "b9127762ffb1561459b3dec8d97cf3f535f2ba5b5f910c7bb3227efb0440b5e5",
-  "boardSha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+  "pcbGeometrySha256": "16b1eb892fe6d0d1cfe858db4f4867a584eda8ecdeb919530d03ba9dae375b4d",
+  "boardSha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
   "nativeA4Sheets": [
     {
       "type": "schematic_sheet",
@@ -132,5 +132,5 @@
       }
     }
   ],
-  "componentModels": 38
+  "componentModels": 39
 }

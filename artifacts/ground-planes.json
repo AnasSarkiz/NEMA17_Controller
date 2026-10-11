@@ -4,18 +4,23 @@
   "regions": [
     {
       "layer": "top",
-      "areaMm2": 583.6260135136868,
-      "holes": 7
+      "areaMm2": 541.5456931256513,
+      "holes": 6
     },
     {
       "layer": "top",
-      "areaMm2": 11.738333504806993,
+      "areaMm2": 11.73833350480705,
+      "holes": 0
+    },
+    {
+      "layer": "top",
+      "areaMm2": 35.12991837002655,
       "holes": 0
     },
     {
       "layer": "bottom",
-      "areaMm2": 862.1803768464998,
-      "holes": 16
+      "areaMm2": 875.6668652483515,
+      "holes": 17
     }
   ]
 }

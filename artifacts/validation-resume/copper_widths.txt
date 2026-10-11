@@ -1,6 +1,6 @@
 {
-  "segmentsChecked": 825,
-  "groundRegions": 3,
+  "segmentsChecked": 939,
+  "groundRegions": 4,
   "errors": [],
   "qualifiedForManufacture": false
 }

@@ -18,5 +18,9 @@
   {
     "unanchored_copper_removed": "same_side_repair_0_SLEEP_0_via_12",
     "net": "SLEEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_same_side_retained_freerouted_via_47",
+    "net": "SENSE2"
   }
 ]

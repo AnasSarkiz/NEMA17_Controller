@@ -1,5 +1,5 @@
 {
-  "board_sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+  "board_sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
   "checks": [
     {
       "check": "typescript",
@@ -27,6 +27,15 @@
       ],
       "exit_code": 0,
       "log": "artifacts/validation-resume/connectivity.txt"
+    },
+    {
+      "check": "fitted_JST_and_actual_drills",
+      "command": [
+        "python3",
+        "scripts/check-motor-connector.py"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/validation-resume/fitted_JST_and_actual_drills.txt"
     },
     {
       "check": "exact_mounts_and_actual_drills",
@@ -139,12 +148,12 @@
     }
   ],
   "native_STEP_mechanical_pass": true,
-  "CAD_models_checked": 38,
+  "CAD_models_checked": 39,
   "physical_nets_checked": 33,
   "counts": {
-    "pcb_trace": 371,
-    "pcb_via": 79,
-    "pcb_copper_pour": 3
+    "pcb_trace": 376,
+    "pcb_via": 80,
+    "pcb_copper_pour": 4
   },
   "full_CAM_status": "FAIL",
   "remaining_CAM_findings": [
@@ -161,8 +170,7 @@
       "rows": 41,
       "bare_rows": [
         "J_BOOT",
-        "J_DEBUG",
-        "J_MOTOR"
+        "J_DEBUG"
       ],
       "missing_fitted": [],
       "unexpected": [],
@@ -767,6 +775,23 @@
           }
         },
         {
+          "ref": "J_MOTOR",
+          "errors": {
+            "Manufacturer Part Number": {
+              "export": null,
+              "source": "B4B-PH-K-S(LF)(SN)"
+            },
+            "Comment": {
+              "export": "",
+              "source": "B4B-PH-K-S(LF)(SN)"
+            },
+            "Value": {
+              "export": "C131334",
+              "source": "B4B-PH-K-S(LF)(SN)"
+            }
+          }
+        },
+        {
           "ref": "U_ESD",
           "errors": {
             "Manufacturer Part Number": {
@@ -825,8 +850,7 @@
       "rows": 41,
       "bare_rows": [
         "J_BOOT",
-        "J_DEBUG",
-        "J_MOTOR"
+        "J_DEBUG"
       ],
       "missing_fitted": [],
       "unexpected": [],
@@ -843,9 +867,9 @@
             0.370104
           ],
           "area_mm2": 0.06859986000000001,
-          "perimeter_mm": 1.2599980000000002,
+          "perimeter_mm": 1.2599980000000004,
           "aspect_ratio_at_100um": 1.4000000000000001,
-          "area_ratio_at_100um": 0.5444441975304722
+          "area_ratio_at_100um": 0.5444441975304721
         },
         {
           "bounds_mm": [
@@ -897,9 +921,21 @@
         },
         {
           "bounds_mm": [
-            4.1292,
+            3.729404,
             -0.7449955,
-            4.2692000000000005,
+            3.869404,
+            -0.25499649999999996
+          ],
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
+        },
+        {
+          "bounds_mm": [
+            6.129195999999999,
+            -0.7449955,
+            6.269196,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -909,9 +945,9 @@
         },
         {
           "bounds_mm": [
-            6.129195999999999,
+            4.1292,
             -0.7449955,
-            6.269196,
+            4.2692000000000005,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -933,9 +969,9 @@
         },
         {
           "bounds_mm": [
-            5.329096,
+            4.529249999999999,
             -0.7449955,
-            5.469096,
+            4.66925,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -945,21 +981,9 @@
         },
         {
           "bounds_mm": [
-            3.729404,
+            5.329096,
             -0.7449955,
-            3.869404,
-            -0.25499649999999996
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
-            4.529249999999999,
-            -0.7449955,
-            4.66925,
+            5.469096,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -1029,21 +1053,21 @@
         },
         {
           "bounds_mm": [
-            3.729404,
-            3.2549965,
-            3.869404,
-            3.7449955
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
             5.329096,
             3.2549965,
             5.469096,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            4.1292,
+            3.2549965,
+            4.2692000000000005,
             3.7449955
           ],
           "area_mm2": 0.06859986000000029,
@@ -1077,15 +1101,15 @@
         },
         {
           "bounds_mm": [
-            4.1292,
+            3.729404,
             3.2549965,
-            4.2692000000000005,
+            3.869404,
             3.7449955
           ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
         },
         {
           "bounds_mm": [
@@ -1176,9 +1200,9 @@
     {
       "kind": "silkscreen-clearance",
       "layer": "F_SilkScreen",
-      "overlap_mask_openings_mm2": 2.4119087948582996,
-      "inside_0_15mm_mask_guard_mm2": 4.3493924093960254,
-      "outside_board_0_10mm_inset_mm2": 2.2412851234867284
+      "overlap_mask_openings_mm2": 2.674563914362102,
+      "inside_0_15mm_mask_guard_mm2": 4.750699348703956,
+      "outside_board_0_10mm_inset_mm2": 2.97395193834299
     },
     {
       "kind": "EP-stencil-coverage",
@@ -1206,5 +1230,6 @@
   ],
   "rear_motor_compatibility_verified": false,
   "prototype_fabrication_ready": false,
-  "physical_hardware_tested": false
+  "physical_hardware_tested": false,
+  "CAM_metadata_update": "J_MOTOR is now a fitted supplier connector; only J_DEBUG and J_BOOT are bare interfaces. Copper geometry and required check commands unchanged."
 }

@@ -1,5 +1,5 @@
 {
-  "source_sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+  "source_sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
   "directory": "artifacts/manufacturing",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -9,9 +9,9 @@
   "parser_compatibility": "Only LR right-angle aperture transforms and unambiguous split-line G85 slots are converted to equivalent G00/M15/G01/M16/G05 routing analytically. Original Gerbers independently rendered by PyGerber. Input CAM bytes remain unchanged.",
   "files": {
     "B_Cu.gbr": {
-      "sha256": "5ebd202d596665dd177638606ccd02126923e1d58f811a95832f3bb8e84b13fc",
-      "objects": 360,
-      "area_mm2": 946.9138724622078,
+      "sha256": "eb2f6cc9eff7fdb0e2ffc0581576326702d9c1f07f1aa3998120e724631b22e6",
+      "objects": 384,
+      "area_mm2": 958.5957442775184,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -22,12 +22,12 @@
       "warnings": []
     },
     "B_Mask.gbr": {
-      "sha256": "cd819398d406765135c5f324be56fab8c40eb81d451e978bcd3c3e130092519a",
+      "sha256": "0ffaad07f5514316dbf057676e3653de106f137a41de8c339e2091a36ded1f8d",
       "objects": 36,
-      "area_mm2": 58.14264427203545,
+      "area_mm2": 57.105992622994286,
       "bounds_mm": [
         -14.6,
-        -16.35,
+        -15.049961499999998,
         14.6,
         15.8241
       ],
@@ -35,7 +35,7 @@
       "warnings": []
     },
     "B_Paste.gbr": {
-      "sha256": "5d1b97097aaf8af14c62b16b5ecb51a84e9970f7bd34c0f4a70e4b079d7f2606",
+      "sha256": "fcaf87226513b6262c2782a559a3bf218b169f0b5594087feda94f020b8ce4f4",
       "objects": 0,
       "area_mm2": 0.0,
       "bounds_mm": [],
@@ -43,7 +43,7 @@
       "warnings": []
     },
     "B_SilkScreen.gbr": {
-      "sha256": "6afb668bc17982cdf237bfe870befc34127a4c6a7251656574ab064b14c392bf",
+      "sha256": "4a074ccd5def177b53ac24882c66a44da65599dad5800731cfa0faef1cadbc4d",
       "objects": 0,
       "area_mm2": 0.0,
       "bounds_mm": [],
@@ -51,7 +51,7 @@
       "warnings": []
     },
     "Edge_Cuts.gbr": {
-      "sha256": "473e4d9cabf521de361c580c84e1d4faca29f743c8c6f9b1f5d63aa6618db024",
+      "sha256": "d039b28e729693d683aa9d2b80e20b4de7f544395fd7a5fb314205447c403888",
       "objects": 4,
       "area_mm2": 6.999463298281626,
       "bounds_mm": [
@@ -64,9 +64,9 @@
       "warnings": []
     },
     "F_Cu.gbr": {
-      "sha256": "b5c0d52d602e5d969b630bd6400048fed783e781843c3149ed6966f4ee7a9a48",
-      "objects": 949,
-      "area_mm2": 794.1402660986519,
+      "sha256": "c751caf1019bf152294bcf3e5edea0c9de7e391d79682e88a4a523e03acc9e1d",
+      "objects": 1042,
+      "area_mm2": 784.9186855827833,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -77,7 +77,7 @@
       "warnings": []
     },
     "F_Fab.gbr": {
-      "sha256": "907d3b251361e71d4a02e231fa656ead1e9aa526ff50d5da89d67b43663b4744",
+      "sha256": "047e076771ebe932d2e34ee09e64379295e3999b295a0be8ba2fad2d0d4b99d5",
       "objects": 59,
       "area_mm2": 6.828175266932741,
       "bounds_mm": [
@@ -90,12 +90,12 @@
       "warnings": []
     },
     "F_Mask.gbr": {
-      "sha256": "c01e120f4d38d15681a38f577756f6c1bf6696ae9d31892286c1f33c332fdcb5",
+      "sha256": "16f730d85805b7f5053e18af03b87c2345748ba8fff2607092c07b1fe178c0d3",
       "objects": 262,
-      "area_mm2": 202.1962895954305,
+      "area_mm2": 201.15963794638932,
       "bounds_mm": [
         -16.8501195,
-        -16.35,
+        -16.25,
         16.1,
         16.956601499999998
       ],
@@ -103,7 +103,7 @@
       "warnings": []
     },
     "F_Paste.gbr": {
-      "sha256": "7339d867d45349a015eed271e5b233cbfeaada737d7b060beb67b4860a3432db",
+      "sha256": "bc019688733f31fdf66db9d1233232830d4be3c0e67ce69c2b418d95c51f23dd",
       "objects": 142,
       "area_mm2": 67.35968237147753,
       "bounds_mm": [
@@ -116,12 +116,12 @@
       "warnings": []
     },
     "F_SilkScreen.gbr": {
-      "sha256": "6972ec1a849e16754f7cdc16295938618462b583dc87aca9e006ddc90c38f5f4",
-      "objects": 2828,
-      "area_mm2": 63.001559926342274,
+      "sha256": "9100b66738e606b14dc4a92049a7ad6705e09f6cf011c531dc57e9c82172ad20",
+      "objects": 2942,
+      "area_mm2": 70.59929007449092,
       "bounds_mm": [
         -17.709418000000003,
-        -17.268496594705997,
+        -18.258493985549975,
         19.013196,
         17.594112
       ],
@@ -129,20 +129,20 @@
       "warnings": []
     },
     "drill-L1-L2.drl": {
-      "sha256": "431bcccae13a1076926cd825f74bea8ab4ad536149097c7a28e77a602b05659c",
-      "objects": 91,
+      "sha256": "3b0095cd1b2fd79a3eb5324373acf1a0de14b588e2f511f1a114a35d52606933",
+      "objects": 92,
       "G85_joined": 8,
       "parser_notices": [
         "<unknown>:16 \"G90\": G90 header statement found after end of header"
       ],
       "tools_mm": {
         "0.799998": 8,
-        "0.9": 4,
-        "0.25": 79
+        "0.999998": 4,
+        "0.25": 80
       }
     },
     "drill_npth.drl": {
-      "sha256": "0f02a9208b357b749bb0c54602012e5b216744cce70db6185a7d57a7a084f7f4",
+      "sha256": "7b9e2c42a978cc1d82a74d808c34676f13e4faea5aed150ae652f39117090b16",
       "objects": 8,
       "G85_joined": 0,
       "parser_notices": [
@@ -168,8 +168,7 @@
       "rows": 41,
       "bare_rows": [
         "J_BOOT",
-        "J_DEBUG",
-        "J_MOTOR"
+        "J_DEBUG"
       ],
       "missing_fitted": [],
       "unexpected": [],
@@ -774,6 +773,23 @@
           }
         },
         {
+          "ref": "J_MOTOR",
+          "errors": {
+            "Manufacturer Part Number": {
+              "export": null,
+              "source": "B4B-PH-K-S(LF)(SN)"
+            },
+            "Comment": {
+              "export": "",
+              "source": "B4B-PH-K-S(LF)(SN)"
+            },
+            "Value": {
+              "export": "C131334",
+              "source": "B4B-PH-K-S(LF)(SN)"
+            }
+          }
+        },
+        {
           "ref": "U_ESD",
           "errors": {
             "Manufacturer Part Number": {
@@ -832,8 +848,7 @@
       "rows": 41,
       "bare_rows": [
         "J_BOOT",
-        "J_DEBUG",
-        "J_MOTOR"
+        "J_DEBUG"
       ],
       "missing_fitted": [],
       "unexpected": [],
@@ -850,9 +865,9 @@
             0.370104
           ],
           "area_mm2": 0.06859986000000001,
-          "perimeter_mm": 1.2599980000000002,
+          "perimeter_mm": 1.2599980000000004,
           "aspect_ratio_at_100um": 1.4000000000000001,
-          "area_ratio_at_100um": 0.5444441975304722
+          "area_ratio_at_100um": 0.5444441975304721
         },
         {
           "bounds_mm": [
@@ -904,9 +919,21 @@
         },
         {
           "bounds_mm": [
-            4.1292,
+            3.729404,
             -0.7449955,
-            4.2692000000000005,
+            3.869404,
+            -0.25499649999999996
+          ],
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
+        },
+        {
+          "bounds_mm": [
+            6.129195999999999,
+            -0.7449955,
+            6.269196,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -916,9 +943,9 @@
         },
         {
           "bounds_mm": [
-            6.129195999999999,
+            4.1292,
             -0.7449955,
-            6.269196,
+            4.2692000000000005,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -940,9 +967,9 @@
         },
         {
           "bounds_mm": [
-            5.329096,
+            4.529249999999999,
             -0.7449955,
-            5.469096,
+            4.66925,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -952,21 +979,9 @@
         },
         {
           "bounds_mm": [
-            3.729404,
+            5.329096,
             -0.7449955,
-            3.869404,
-            -0.25499649999999996
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
-            4.529249999999999,
-            -0.7449955,
-            4.66925,
+            5.469096,
             -0.25499649999999996
           ],
           "area_mm2": 0.06859986000000029,
@@ -1036,21 +1051,21 @@
         },
         {
           "bounds_mm": [
-            3.729404,
-            3.2549965,
-            3.869404,
-            3.7449955
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "bounds_mm": [
             5.329096,
             3.2549965,
             5.469096,
+            3.7449955
+          ],
+          "area_mm2": 0.06859986000000029,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.544444197530474
+        },
+        {
+          "bounds_mm": [
+            4.1292,
+            3.2549965,
+            4.2692000000000005,
             3.7449955
           ],
           "area_mm2": 0.06859986000000029,
@@ -1084,15 +1099,15 @@
         },
         {
           "bounds_mm": [
-            4.1292,
+            3.729404,
             3.2549965,
-            4.2692000000000005,
+            3.869404,
             3.7449955
           ],
-          "area_mm2": 0.06859986000000029,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.544444197530474
+          "area_mm2": 0.06859985999999986,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304714
         },
         {
           "bounds_mm": [
@@ -1183,9 +1198,9 @@
     {
       "kind": "silkscreen-clearance",
       "layer": "F_SilkScreen",
-      "overlap_mask_openings_mm2": 2.4119087948582996,
-      "inside_0_15mm_mask_guard_mm2": 4.3493924093960254,
-      "outside_board_0_10mm_inset_mm2": 2.2412851234867284
+      "overlap_mask_openings_mm2": 2.674563914362102,
+      "inside_0_15mm_mask_guard_mm2": 4.750699348703956,
+      "outside_board_0_10mm_inset_mm2": 2.97395193834299
     },
     {
       "kind": "EP-stencil-coverage",
@@ -1213,23 +1228,23 @@
   ],
   "archive": {
     "path": "/workspace/nema14-ch32-board/artifacts/nema14-gerbers.zip",
-    "sha256": "c96a5cf6287cfc7e63f40691c6da65d9a4a37abf8c88eb8a96d07fb22eff41cd",
+    "sha256": "6f00c2246dc7ab87be046f55087adefe1e9d8f7e5922bcaa554853273ab675d6",
     "extracted_bytes_verified": true,
     "members": {
-      "F_Cu.gbr": "b5c0d52d602e5d969b630bd6400048fed783e781843c3149ed6966f4ee7a9a48",
-      "F_SilkScreen.gbr": "6972ec1a849e16754f7cdc16295938618462b583dc87aca9e006ddc90c38f5f4",
-      "F_Mask.gbr": "c01e120f4d38d15681a38f577756f6c1bf6696ae9d31892286c1f33c332fdcb5",
-      "F_Paste.gbr": "7339d867d45349a015eed271e5b233cbfeaada737d7b060beb67b4860a3432db",
-      "B_Cu.gbr": "5ebd202d596665dd177638606ccd02126923e1d58f811a95832f3bb8e84b13fc",
-      "B_SilkScreen.gbr": "6afb668bc17982cdf237bfe870befc34127a4c6a7251656574ab064b14c392bf",
-      "B_Mask.gbr": "cd819398d406765135c5f324be56fab8c40eb81d451e978bcd3c3e130092519a",
-      "B_Paste.gbr": "5d1b97097aaf8af14c62b16b5ecb51a84e9970f7bd34c0f4a70e4b079d7f2606",
-      "Edge_Cuts.gbr": "473e4d9cabf521de361c580c84e1d4faca29f743c8c6f9b1f5d63aa6618db024",
-      "F_Fab.gbr": "907d3b251361e71d4a02e231fa656ead1e9aa526ff50d5da89d67b43663b4744",
-      "drill-L1-L2.drl": "431bcccae13a1076926cd825f74bea8ab4ad536149097c7a28e77a602b05659c",
-      "drill_npth.drl": "0f02a9208b357b749bb0c54602012e5b216744cce70db6185a7d57a7a084f7f4",
-      "bom.csv": "cb0f7e7c2f1b3dd3cd55d652cf9dfb146460b040b4056b96f244e88295a5c1fb",
-      "pick_and_place.csv": "4e37d17eb36dcdb8007fdf4f6202dfb351ef1a3e5092e4d523631cfc21a22a16"
+      "F_Cu.gbr": "c751caf1019bf152294bcf3e5edea0c9de7e391d79682e88a4a523e03acc9e1d",
+      "F_SilkScreen.gbr": "9100b66738e606b14dc4a92049a7ad6705e09f6cf011c531dc57e9c82172ad20",
+      "F_Mask.gbr": "16f730d85805b7f5053e18af03b87c2345748ba8fff2607092c07b1fe178c0d3",
+      "F_Paste.gbr": "bc019688733f31fdf66db9d1233232830d4be3c0e67ce69c2b418d95c51f23dd",
+      "B_Cu.gbr": "eb2f6cc9eff7fdb0e2ffc0581576326702d9c1f07f1aa3998120e724631b22e6",
+      "B_SilkScreen.gbr": "4a074ccd5def177b53ac24882c66a44da65599dad5800731cfa0faef1cadbc4d",
+      "B_Mask.gbr": "0ffaad07f5514316dbf057676e3653de106f137a41de8c339e2091a36ded1f8d",
+      "B_Paste.gbr": "fcaf87226513b6262c2782a559a3bf218b169f0b5594087feda94f020b8ce4f4",
+      "Edge_Cuts.gbr": "d039b28e729693d683aa9d2b80e20b4de7f544395fd7a5fb314205447c403888",
+      "F_Fab.gbr": "047e076771ebe932d2e34ee09e64379295e3999b295a0be8ba2fad2d0d4b99d5",
+      "drill-L1-L2.drl": "3b0095cd1b2fd79a3eb5324373acf1a0de14b588e2f511f1a114a35d52606933",
+      "drill_npth.drl": "7b9e2c42a978cc1d82a74d808c34676f13e4faea5aed150ae652f39117090b16",
+      "bom.csv": "c5346848629f3eb26cefceb7af8c38c4337a7bdf2a27d92f89c7ee5782618f50",
+      "pick_and_place.csv": "c5c05c58059f567db0027f856dce7bca877f93aa9036c3abc10ef23b0306b8c2"
     }
   },
   "copper_comparison": {
@@ -1249,7 +1264,7 @@
     "shorts": [],
     "opens": [],
     "unconnected_pads": [],
-    "actual_copper_islands": 139,
+    "actual_copper_islands": 141,
     "unassigned_islands": 29,
     "no_connect_contacts": [],
     "unassigned_island_details": [
@@ -1320,54 +1335,6 @@
       {
         "area_mm2": 0.38999780000299994,
         "bounds_mm": [
-          -7.1000615,
-          9.325929499999999,
-          -6.8000625,
-          10.6259265
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "J_PD.DP2"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.23517627186496606,
-        "bounds_mm": [
-          -2.949894,
-          -9.641118,
-          -2.049896,
-          -9.361108
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "U_DRV.NC7"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.38999780000299994,
-        "bounds_mm": [
-          -4.5999395,
-          9.325929499999999,
-          -4.2999405,
-          10.6259265
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "J_PD.SBU2"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.38999780000299994,
-        "bounds_mm": [
           -6.1000635,
           9.325929499999999,
           -5.8000645,
@@ -1398,6 +1365,54 @@
         "classification": "intentional native no-connect pad"
       },
       {
+        "area_mm2": 0.38999780000299994,
+        "bounds_mm": [
+          -4.5999395,
+          9.325929499999999,
+          -4.2999405,
+          10.6259265
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "J_PD.SBU2"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.38999780000299994,
+        "bounds_mm": [
+          -7.1000615,
+          9.325929499999999,
+          -6.8000625,
+          10.6259265
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "J_PD.DP2"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.23517627186496626,
+        "bounds_mm": [
+          -2.949894,
+          -9.641118,
+          -2.049896,
+          -9.361108
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "U_DRV.NC7"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
         "area_mm2": 0.23517627186496554,
         "bounds_mm": [
           -0.140032,
@@ -1414,7 +1429,7 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.23517627186496606,
+        "area_mm2": 0.23517627186496629,
         "bounds_mm": [
           2.050096,
           -7.1392180000000005,
@@ -1442,6 +1457,22 @@
         ],
         "no_connect_pads": [
           "U_MCU.PA5"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.1399997999999995,
+        "bounds_mm": [
+          4.8993,
+          -0.8492335,
+          5.0992999999999995,
+          -0.1492345
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "U_MCU.PA6"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -1558,22 +1589,6 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.1399997999999995,
-        "bounds_mm": [
-          4.8993,
-          -0.8492335,
-          5.0992999999999995,
-          -0.1492345
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "U_MCU.PA6"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
         "area_mm2": 0.13999979999999998,
         "bounds_mm": [
           6.6492965,
@@ -1625,6 +1640,22 @@
         "area_mm2": 0.13999980000000012,
         "bounds_mm": [
           6.6492965,
+          1.799796,
+          7.3492955,
+          1.9997960000000001
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "U_MCU.PB8"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.13999980000000012,
+        "bounds_mm": [
+          6.6492965,
           2.2001,
           7.3492955,
           2.4001
@@ -1656,22 +1687,6 @@
       {
         "area_mm2": 0.1399997999999995,
         "bounds_mm": [
-          6.099196,
-          3.1499965,
-          6.299195999999999,
-          3.8499955
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "U_MCU.PB11"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.1399997999999995,
-        "bounds_mm": [
           5.699400000000001,
           3.1499965,
           5.8994,
@@ -1686,18 +1701,18 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.13999980000000012,
+        "area_mm2": 0.1399997999999995,
         "bounds_mm": [
-          6.6492965,
-          1.799796,
-          7.3492955,
-          1.9997960000000001
+          6.099196,
+          3.1499965,
+          6.299195999999999,
+          3.8499955
         ],
         "layers": [
           "top"
         ],
         "no_connect_pads": [
-          "U_MCU.PB8"
+          "U_MCU.PB11"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -1734,8 +1749,8 @@
             ]
           ],
           "island_indices": [
-            1,
-            36
+            2,
+            40
           ]
         },
         {
@@ -1749,8 +1764,8 @@
             ]
           ],
           "island_indices": [
-            35,
-            36
+            34,
+            40
           ]
         },
         {
@@ -1764,8 +1779,8 @@
             ]
           ],
           "island_indices": [
-            27,
-            28
+            32,
+            33
           ]
         },
         {
@@ -1779,23 +1794,23 @@
             ]
           ],
           "island_indices": [
-            54,
-            55
+            58,
+            59
           ]
         },
         {
-          "clearance_mm": 0.1505345000000009,
+          "clearance_mm": 0.1505944482293484,
           "conductors": [
             [
               "GND"
             ],
             [
-              "SENSE1"
+              "STEP"
             ]
           ],
           "island_indices": [
             0,
-            75
+            55
           ]
         }
       ],
@@ -1817,8 +1832,8 @@
             ]
           ],
           "island_indices": [
-            104,
-            127
+            105,
+            129
           ]
         },
         {
@@ -1832,8 +1847,8 @@
             ]
           ],
           "island_indices": [
-            104,
-            136
+            105,
+            137
           ]
         },
         {
@@ -1847,8 +1862,8 @@
             ]
           ],
           "island_indices": [
-            104,
-            121
+            105,
+            122
           ]
         },
         {
@@ -1862,8 +1877,8 @@
             ]
           ],
           "island_indices": [
-            111,
-            122
+            113,
+            123
           ]
         },
         {
@@ -1904,8 +1919,7 @@
       "rows": 41,
       "bare_rows": [
         "J_BOOT",
-        "J_DEBUG",
-        "J_MOTOR"
+        "J_DEBUG"
       ],
       "missing_fitted": [],
       "unexpected": [],
@@ -2507,6 +2521,23 @@
           }
         },
         {
+          "ref": "J_MOTOR",
+          "errors": {
+            "Manufacturer Part Number": {
+              "export": null,
+              "source": "B4B-PH-K-S(LF)(SN)"
+            },
+            "Comment": {
+              "export": "",
+              "source": "B4B-PH-K-S(LF)(SN)"
+            },
+            "Value": {
+              "export": "C131334",
+              "source": "B4B-PH-K-S(LF)(SN)"
+            }
+          }
+        },
+        {
           "ref": "U_ESD",
           "errors": {
             "Manufacturer Part Number": {
@@ -2563,8 +2594,7 @@
       "rows": 41,
       "bare_rows": [
         "J_BOOT",
-        "J_DEBUG",
-        "J_MOTOR"
+        "J_DEBUG"
       ],
       "missing_fitted": [],
       "unexpected": [],
@@ -2625,9 +2655,9 @@
           0.370104
         ],
         "area_mm2": 0.06859986000000001,
-        "perimeter_mm": 1.2599980000000002,
+        "perimeter_mm": 1.2599980000000004,
         "aspect_ratio_at_100um": 1.4000000000000001,
-        "area_ratio_at_100um": 0.5444441975304722
+        "area_ratio_at_100um": 0.5444441975304721
       },
       {
         "bounds_mm": [
@@ -2679,9 +2709,21 @@
       },
       {
         "bounds_mm": [
-          4.1292,
+          3.729404,
           -0.7449955,
-          4.2692000000000005,
+          3.869404,
+          -0.25499649999999996
+        ],
+        "area_mm2": 0.06859985999999986,
+        "perimeter_mm": 1.2599979999999995,
+        "aspect_ratio_at_100um": 1.3999999999999968,
+        "area_ratio_at_100um": 0.5444441975304714
+      },
+      {
+        "bounds_mm": [
+          6.129195999999999,
+          -0.7449955,
+          6.269196,
           -0.25499649999999996
         ],
         "area_mm2": 0.06859986000000029,
@@ -2691,9 +2733,9 @@
       },
       {
         "bounds_mm": [
-          6.129195999999999,
+          4.1292,
           -0.7449955,
-          6.269196,
+          4.2692000000000005,
           -0.25499649999999996
         ],
         "area_mm2": 0.06859986000000029,
@@ -2715,9 +2757,9 @@
       },
       {
         "bounds_mm": [
-          5.329096,
+          4.529249999999999,
           -0.7449955,
-          5.469096,
+          4.66925,
           -0.25499649999999996
         ],
         "area_mm2": 0.06859986000000029,
@@ -2727,21 +2769,9 @@
       },
       {
         "bounds_mm": [
-          3.729404,
+          5.329096,
           -0.7449955,
-          3.869404,
-          -0.25499649999999996
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "bounds_mm": [
-          4.529249999999999,
-          -0.7449955,
-          4.66925,
+          5.469096,
           -0.25499649999999996
         ],
         "area_mm2": 0.06859986000000029,
@@ -2811,21 +2841,21 @@
       },
       {
         "bounds_mm": [
-          3.729404,
-          3.2549965,
-          3.869404,
-          3.7449955
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "bounds_mm": [
           5.329096,
           3.2549965,
           5.469096,
+          3.7449955
+        ],
+        "area_mm2": 0.06859986000000029,
+        "perimeter_mm": 1.2599980000000013,
+        "aspect_ratio_at_100um": 1.4000000000000057,
+        "area_ratio_at_100um": 0.544444197530474
+      },
+      {
+        "bounds_mm": [
+          4.1292,
+          3.2549965,
+          4.2692000000000005,
           3.7449955
         ],
         "area_mm2": 0.06859986000000029,
@@ -2859,15 +2889,15 @@
       },
       {
         "bounds_mm": [
-          4.1292,
+          3.729404,
           3.2549965,
-          4.2692000000000005,
+          3.869404,
           3.7449955
         ],
-        "area_mm2": 0.06859986000000029,
-        "perimeter_mm": 1.2599980000000013,
-        "aspect_ratio_at_100um": 1.4000000000000057,
-        "area_ratio_at_100um": 0.544444197530474
+        "area_mm2": 0.06859985999999986,
+        "perimeter_mm": 1.2599979999999995,
+        "aspect_ratio_at_100um": 1.3999999999999968,
+        "area_ratio_at_100um": 0.5444441975304714
       },
       {
         "bounds_mm": [
@@ -3005,19 +3035,19 @@
   },
   "mask": {
     "F_Mask": {
-      "area_mm2": 202.1962895954305,
+      "area_mm2": 201.15963794638932,
       "bounds_mm": [
         -16.8501195,
-        -16.35,
+        -16.25,
         16.1,
         16.956601499999998
       ]
     },
     "B_Mask": {
-      "area_mm2": 58.14264427203545,
+      "area_mm2": 57.105992622994286,
       "bounds_mm": [
         -14.6,
-        -16.35,
+        -15.049961499999998,
         14.6,
         15.8241
       ]
@@ -3134,9 +3164,9 @@
   ],
   "silkscreen_clearances": {
     "F_SilkScreen": {
-      "overlap_mask_openings_mm2": 2.4119087948582996,
-      "inside_0_15mm_mask_guard_mm2": 4.3493924093960254,
-      "outside_board_0_10mm_inset_mm2": 2.2412851234867284
+      "overlap_mask_openings_mm2": 2.674563914362102,
+      "inside_0_15mm_mask_guard_mm2": 4.750699348703956,
+      "outside_board_0_10mm_inset_mm2": 2.97395193834299
     },
     "B_SilkScreen": {
       "overlap_mask_openings_mm2": 0.0,

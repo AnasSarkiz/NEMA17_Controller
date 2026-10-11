@@ -75,7 +75,7 @@
     "pcbRotation": 90
   },
   "R_SB": {
-    "pcbX": -6.8,
+    "pcbX": -7.2,
     "pcbY": -13.7,
     "pcbRotation": 0
   },
@@ -140,13 +140,13 @@
     "pcbRotation": 0
   },
   "C_VCP": {
-    "pcbX": -4.1,
-    "pcbY": -11.8,
-    "pcbRotation": 270
+    "pcbX": -8.4,
+    "pcbY": -11,
+    "pcbRotation": 0
   },
   "C_VREG": {
-    "pcbX": -2.0,
-    "pcbY": -12.3,
+    "pcbX": -4.7,
+    "pcbY": -11.5,
     "pcbRotation": 0
   },
   "C_DRV_LOGIC": {
@@ -188,5 +188,10 @@
     "pcbX": 0.0,
     "pcbY": 2.8,
     "pcbRotation": 90
+  },
+  "J_MOTOR": {
+    "pcbX": 0,
+    "pcbY": -14.8,
+    "pcbRotation": 180
   }
 }

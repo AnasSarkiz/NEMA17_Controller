@@ -13,7 +13,7 @@ A two-layer tscircuit **hardware prototype** for the STEPperONLINE 14HM11-0404S,
 | Computer USB-C | USB 2.0 full-speed D+/D− and two 5.1 kΩ CC pull-downs; USBLC6-2SC6 ESD protection |
 | Driver | A4988SETTR-T, fixed 1/16 microsteps, regulated phase current |
 | Current | 0.351 A nominal peak; 0.24 Ω sense resistors; 39 kΩ/10 kΩ VREF divider |
-| Motor connection | Four plated wire-solder holes: A+, A−, B+, B− |
+| Motor connection | JST PH 4-pin B4B-PH-K-S(LF)(SN), C131334; top entry; matching PHR-4 cable; pins 1–4: A+, A−, B+, B− |
 | Programming | Data USB-C via ROM ISP with 4.7 kΩ BOOT jumper; WCH-LinkE debug pads retained |
 | Tools | tscircuit 0.0.2764, CLI 0.1.2261; latest npm versions at setup time, pinned in lockfile |
 
@@ -44,7 +44,7 @@ The supplied listing establishes the motor envelope; it does **not** establish r
 
 ## Cost and release
 
-There are 38 fitted parts and three bare motor/debug/BOOT interfaces, with no purchased PD module, motor-driver module, external crystal, buck inductor, potentiometer, or motor connector. A rough small-volume component allowance is **US$4–7**, excluding PCB, assembly, shipping, motor, and supply. This is an estimate, not a vendor quote or an absolute budget guarantee. Ratings and procurement notes are in `docs/bom.md`.
+There are 39 fitted parts, including the JST PH motor header, and two bare debug/BOOT interfaces. There is no purchased PD module, motor-driver module, external crystal, buck inductor, or potentiometer. A rough small-volume component allowance is **US$4–7**, excluding PCB, assembly, shipping, motor, and supply. This is an estimate, not a vendor quote or an absolute budget guarantee. Ratings and procurement notes are in `docs/bom.md`.
 
 Before ordering: obtain the motor rear drawing, review the footprint pin numbering and assembly rotations, check the current DRC/short report, then bench-test USB, PD negotiation, disabled start-up, phase current, regeneration, and temperature. The configured install/start instructions are saved as a draft in environment settings; saving that draft does not publish the environment.
 
@@ -54,7 +54,7 @@ Before ordering: obtain the motor rear drawing, review the footprint pin numberi
 
 ## Supplier models and A4 schematics
 
-[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. All **38/38 fitted components** use exact JLCPCB imports with native land patterns and OBJ/STEP models. Motor/debug/boot connections are bare PCB pads. See [supplier CAD details](docs/supplier-cad.md) and [the import report](artifacts/jlcpcb-import-report.json).
+[Printable A4 schematic](artifacts/schematic-a4.pdf): 9 numbered landscape sheets with chip-purpose notes and every numbered physical pin. All **39/39 fitted components** use exact JLCPCB imports with native land patterns and OBJ/STEP models. The motor interface is a fitted JST PH header with a matching PHR-4 cable; debug/boot interfaces remain bare PCB pads. See [supplier CAD details](docs/supplier-cad.md) and [the import report](artifacts/jlcpcb-import-report.json).
 
 The GitHub repository is currently [AnasSarkiz/NEMA17_Controller](https://github.com/AnasSarkiz/NEMA17_Controller). Its requested rename to `NEMA14_CH32X035G8U6` is blocked by the GitHub integration (HTTP 403); repository settings must apply it. The project/package name is already correct. Supplier CAD URLs use the existing public repository so they load now.
 
@@ -75,3 +75,7 @@ The [electrical review](docs/electrical.md) records power-trace widening, filled
 Both original USB-C ports now face the same +Y edge of the exact 35 × 35 mm PCB. The four Ø3.2 mm holes remain exactly (±13, ±13) mm. This layout requires **M3 DIN 920 heads ≤Ø4 mm**. Two bounded 12 mm-wide plug housings have 0.4 mm gap; native STEP bodies clear the conservative Ø4.4 mm screw envelope by 0.13 mm. Actual cable and fastener samples and full assembly tolerances remain untested.
 
 [Mounting and USB verification](docs/mounting-usb-verification.md) records preserved source pins, values and nets, relocated parts, rerouted copper, actual Circuit JSON/Gerber coordinates and all executed checks. Native DRC and physical/CAM connectivity pass. Native placement suggestions and full assembly CAM findings remain documented. **Prototype only; fabrication approval and rear-motor compatibility remain unverified.**
+
+## Restored JST motor connector — 1.4.0
+
+The previously published 1.3.0 boards exposed four bare motor solder holes and omitted the reference’s fitted JST header. This revision adds the actual **B4B-PH-K-S(LF)(SN), C131334**, with its unchanged supplier land pattern, original OBJ/STEP assets, and corrected native-model anchor. It mates with a **PHR-4** housing from above. Physical pins 1–4 remain A+, A−, B+, B−. Nearby placement and affected copper are revised; the board stays exactly 35 × 35 mm, both USB-C ports stay on +Y, and mounting holes stay exactly (±13, ±13), Ø3.2 mm. [JST restoration and validation](docs/jst-restoration.md) records the measured lead/drill alignment, vertical insertion screen and remaining prototype limitations.

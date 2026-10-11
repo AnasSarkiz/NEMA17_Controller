@@ -117,5 +117,115 @@
     ],
     "expanded": 182350,
     "trace_id": "same_side_repair_1_VM_SENSE_0"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_115",
+    "start_mm": [
+      -1.0007870000000005,
+      -10.500095
+    ],
+    "end_mm": [
+      -0.5004,
+      -10.5001
+    ],
+    "vias_mm": [],
+    "expanded": 740,
+    "trace_id": "same_side_repair_1_V3V3_0"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_115",
+    "start_mm": [
+      -1.0007870000000005,
+      -10.500095
+    ],
+    "end_mm": [
+      -0.5004,
+      -10.5001
+    ],
+    "vias_mm": [],
+    "expanded": 740,
+    "trace_id": "same_side_repair_0_V3V3_0"
+  },
+  {
+    "net": "VCP",
+    "start_port": "pcb_port_112",
+    "start_mm": [
+      -4.1,
+      -10.4683
+    ],
+    "end_mm": [
+      -8.4683,
+      -11.0
+    ],
+    "vias_mm": [],
+    "expanded": 9172,
+    "trace_id": "same_side_repair_1_VCP_0"
+  },
+  {
+    "net": "VREG",
+    "start_port": "pcb_port_114",
+    "start_mm": [
+      -2.7,
+      -11.6183
+    ],
+    "end_mm": [
+      -5.400024,
+      -11.5
+    ],
+    "vias_mm": [],
+    "expanded": 1794,
+    "trace_id": "same_side_repair_0_VREG_0"
+  },
+  {
+    "net": "SENSE2",
+    "start_port": "pcb_port_133",
+    "start_mm": [
+      -10.6908,
+      -8.6401
+    ],
+    "end_mm": [
+      -9.068,
+      -13.7
+    ],
+    "vias_mm": [],
+    "expanded": 1728,
+    "trace_id": "same_side_repair_1_SENSE2_0"
+  },
+  {
+    "net": "B_PLUS",
+    "start_port": "pcb_port_132",
+    "start_mm": [
+      -0.5004,
+      -4.6041
+    ],
+    "end_mm": [
+      0.9999980000000002,
+      -14.249963000000001
+    ],
+    "vias_mm": [],
+    "expanded": 15806,
+    "trace_id": "same_side_repair_2_B_PLUS_0"
+  },
+  {
+    "net": "B_MINUS",
+    "start_port": "pcb_port_107",
+    "start_mm": [
+      -2.1194,
+      -5.9256
+    ],
+    "end_mm": [
+      2.999994,
+      -14.249963000000001
+    ],
+    "vias_mm": [
+      [
+        -2.5749999999999993,
+        -12.2
+      ]
+    ],
+    "expanded": 55756,
+    "trace_id": "same_side_repair_3_B_MINUS_0"
   }
 ]

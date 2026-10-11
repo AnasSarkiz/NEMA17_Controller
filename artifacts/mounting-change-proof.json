@@ -1,6 +1,6 @@
 {
-  "baseline_github_commit": "ed9bb51f2be2747a6400683fb776b64d46221a7d",
-  "board_sha256": "5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3",
+  "baseline_github_commit": "92fb70235cefa4db220daad44c5a76e1bdea211b",
+  "board_sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
   "board_dimensions_mm": [
     35,
     35
@@ -24,28 +24,20 @@
     ]
   ],
   "mount_drill_mm": 3.2,
-  "source_components_ports_nets_traces_identical": true,
-  "supplier_imports_and_native_land_patterns_unchanged": true,
+  "source_components_ports_nets_traces_identical": false,
+  "source_ports_nets_traces_identical": true,
+  "only_component_metadata_change": "J_MOTOR gains B4B-PH-K-S(LF)(SN) / C131334",
+  "original_supplier_imports_unchanged": true,
+  "new_motor_connector_uses_native_supplier_land_pattern": true,
   "saved_placements_pads_CAD_and_mounting_equal_native_source": true,
   "native_via_in_pad_flag": true,
   "via_in_pad_policy": "Only the three grounded exposed-pad thermal sites pass the strict independent via-in-pad check; all other via-in-pad placements remain prohibited.",
   "moved_references": [
-    "C_PD",
-    "D_TVS",
-    "J_BOOT",
-    "J_DATA",
-    "J_PD",
-    "R_CC1",
-    "R_CC2",
-    "R_PD",
-    "R_PG",
-    "R_SLEEP",
-    "R_USB_BOOT",
-    "R_USB_SENSE_H",
-    "R_VM_H",
-    "R_VM_L",
-    "U_ESD",
-    "U_PD"
+    "C_VCP",
+    "C_VREG",
+    "J_DEBUG",
+    "J_MOTOR",
+    "R_SB"
   ],
   "all_layer_keepouts": [
     "bottom",
@@ -85,12 +77,88 @@
   "native_DRC_warnings": 0,
   "physical_nets_checked": 33,
   "final_counts": {
-    "pcb_trace": 371,
-    "pcb_via": 79,
-    "pcb_copper_pour": 3
+    "pcb_trace": 376,
+    "pcb_via": 80,
+    "pcb_copper_pour": 4
   },
   "placement_and_affected_copper_changed": true,
   "construction_receipts_are_history": "Routing/pruning/repair receipts include trial and subsequently replaced copper; this proof and current board JSON describe the final geometry.",
+  "motor_connector": {
+    "reference": "J_MOTOR",
+    "manufacturer_part_number": "B4B-PH-K-S(LF)(SN)",
+    "supplier_id": "C131334",
+    "mating_housing": "PHR-4",
+    "insertion_direction": "+Z (from above)",
+    "body_and_lead_bbox_mm": [
+      -4.94998729999993,
+      -17.249961700000036,
+      -2.1999940000000002,
+      4.951012800000068,
+      -12.549961599999994,
+      6.800006000000001
+    ],
+    "body_within_35mm_outline": true,
+    "native_hole_centres_mm": [
+      [
+        -0.9999979999999999,
+        -14.249963000000001
+      ],
+      [
+        -2.999994,
+        -14.249963000000001
+      ],
+      [
+        0.9999980000000002,
+        -14.249963000000001
+      ],
+      [
+        2.999994,
+        -14.249963000000001
+      ]
+    ],
+    "native_hole_diameter_mm": 0.999998,
+    "STEP_lead_alignment": [
+      {
+        "STEP_lead_xy_mm": [
+          1.0000127000000703,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 1.4757371109958201e-05
+      },
+      {
+        "STEP_lead_xy_mm": [
+          -0.9999872999999297,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 1.0778682735780175e-05
+      },
+      {
+        "STEP_lead_xy_mm": [
+          -2.9999872999999297,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 6.824954282518666e-06
+      },
+      {
+        "STEP_lead_xy_mm": [
+          3.0000127000000703,
+          -14.249961699999995
+        ],
+        "minimum_distance_to_native_hole_mm": 1.8745132772056974e-05
+      }
+    ],
+    "vertical_access_envelope_bbox_mm": [
+      -5.24998729999993,
+      -17.549961700000036,
+      6.800006,
+      5.251012800000067,
+      -12.249961599999995,
+      26.800006
+    ],
+    "vertical_access_intersections": [],
+    "tail_projection_below_PCB_mm": 1.3999940000000002,
+    "cable_and_finger_clearance_hardware_tested": false
+  },
   "rear_motor_compatibility_verified": false,
   "fabrication_approved": false
 }

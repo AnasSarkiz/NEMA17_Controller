@@ -8,5 +8,25 @@
       7.298042547535093
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_retained_same_side_retained_freerouted_trace_307",
+    "endpoint": "end",
+    "removed_length_mm": 2.024581169079633,
+    "new_endpoint_mm": [
+      -6.251418830920366,
+      -2.6482
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_retained_same_side_retained_freerouted_trace_314",
+    "endpoint": "start",
+    "removed_length_mm": 0.5577630443101971,
+    "new_endpoint_mm": [
+      -3.1517,
+      -15.005073153101801
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

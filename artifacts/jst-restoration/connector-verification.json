@@ -1,0 +1,155 @@
+{
+  "passed": true,
+  "manufacturer_part_number": "B4B-PH-K-S(LF)(SN)",
+  "supplier_id": "C131334",
+  "mating_housing": "PHR-4",
+  "pins_1_through_4": [
+    "A_PLUS",
+    "A_MINUS",
+    "B_PLUS",
+    "B_MINUS"
+  ],
+  "source_saved_delivered_checks": [
+    {
+      "path": "artifacts/final-source.circuit.json",
+      "sha256": "0c9909a9f7b3f8795181fc88bd848a26926623162a8544886f60e6b2c50c9810",
+      "pins_and_native_drills": [
+        {
+          "pin": 1,
+          "net": "A_PLUS",
+          "x": -2.999994,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 2,
+          "net": "A_MINUS",
+          "x": -0.9999979999999999,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 3,
+          "net": "B_PLUS",
+          "x": 0.9999980000000002,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 4,
+          "net": "B_MINUS",
+          "x": 2.999994,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        }
+      ]
+    },
+    {
+      "path": "artifacts/board.circuit.json",
+      "sha256": "aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f",
+      "pins_and_native_drills": [
+        {
+          "pin": 1,
+          "net": "A_PLUS",
+          "x": -2.999994,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 2,
+          "net": "A_MINUS",
+          "x": -0.9999979999999999,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 3,
+          "net": "B_PLUS",
+          "x": 0.9999980000000002,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 4,
+          "net": "B_MINUS",
+          "x": 2.999994,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        }
+      ]
+    },
+    {
+      "path": "index.circuit.json",
+      "sha256": "b3b8f07ace822670b5214abbffb4746335fd28f8811464dae4c996f1fdb01137",
+      "pins_and_native_drills": [
+        {
+          "pin": 1,
+          "net": "A_PLUS",
+          "x": -2.999994,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 2,
+          "net": "A_MINUS",
+          "x": -0.9999979999999999,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 3,
+          "net": "B_PLUS",
+          "x": 0.9999980000000002,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        },
+        {
+          "pin": 4,
+          "net": "B_MINUS",
+          "x": 2.999994,
+          "y": -14.249963000000001,
+          "drill_diameter_mm": 0.999998
+        }
+      ]
+    }
+  ],
+  "actual_archive_sha256": "6f00c2246dc7ab87be046f55087adefe1e9d8f7e5922bcaa554853273ab675d6",
+  "actual_plated_drill_file": "drill-L1-L2.drl",
+  "actual_plated_drill_sha256": "3b0095cd1b2fd79a3eb5324373acf1a0de14b588e2f511f1a114a35d52606933",
+  "actual_JST_drill_matches": [
+    {
+      "pin": 1,
+      "net": "A_PLUS",
+      "actual_excellon_x_mm": -3.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    },
+    {
+      "pin": 2,
+      "net": "A_MINUS",
+      "actual_excellon_x_mm": -1.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    },
+    {
+      "pin": 3,
+      "net": "B_PLUS",
+      "actual_excellon_x_mm": 1.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    },
+    {
+      "pin": 4,
+      "net": "B_MINUS",
+      "actual_excellon_x_mm": 3.0,
+      "actual_excellon_y_mm": -14.25,
+      "actual_tool_diameter_mm": 0.999998
+    }
+  ],
+  "drill_comparison_tolerance_mm": 0.0001,
+  "native_and_supplier_BOM_include_fitted_JST": true,
+  "native_BOM_value": "C131334",
+  "native_BOM_identity_policy_requires_assembly_review": true,
+  "original_STEP_and_OBJ_hashes_verified": true,
+  "rear_motor_compatibility_verified": false
+}

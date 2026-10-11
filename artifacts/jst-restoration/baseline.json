@@ -1,0 +1,7 @@
+{
+  "baseline_github_commit": "92fb70235cefa4db220daad44c5a76e1bdea211b",
+  "expected_part": "B4B-PH-K-S(LF)(SN)",
+  "supplier_id": "C131334",
+  "reference": "https://tscircuit.com/imrishabh18/rp2040-motor-controller",
+  "existing_motor_interface": "Four bare solder holes; no purchased connector or CAD model"
+}
