@@ -1,7 +1,7 @@
 # Same-edge USB and mounting verification — 2026-10-11
 
-Review version: **1.3.0**. GitHub baseline: `ed9bb51f2be2747a6400683fb776b64d46221a7d`.
-Final board SHA-256: `5f1a74669a45ac1f4adf9eaf56f1a481de54db8fedaa78f4566ac7f75fdbdaf3`.
+Review version: **1.4.0**. GitHub baseline: `92fb70235cefa4db220daad44c5a76e1bdea211b`.
+Final board SHA-256: `aff93389007ff1dca6a1acc798c6b3973e4edacc2b6efa2850d5420be2c37d3f`.
 
 The PCB remains exactly **35 × 35 mm**, without an extension. Native source output, saved `artifacts/board.circuit.json`, delivery `index.circuit.json`, and the actual absolute-metric NPTH Excellon file all contain exactly four **Ø3.2 mm** holes at **(−13,−13), (−13,13), (13,−13), (13,13) mm**. The actual Gerber outline centreline spans −17.5 to +17.5 mm on both axes and encloses 1225 mm². See `mount-drill-verification.json` and `manufacturing/audit.json` for raw-file hashes, coordinate parsing and outline evidence.
 
@@ -21,7 +21,7 @@ Circular radius-2.2 mm keepouts constrain every copper layer. `allowPlacements=t
 
 ## Electrical function and actual copper
 
-Every source component, physical pin identity, component value, net and source connection equals the GitHub baseline. Original supplier imports and land patterns remain unchanged. Placement and affected signal/power/ground copper were changed; they are not claimed to equal the baseline. `mounting-change-proof.json` binds the final source, saved geometry, counts and function. The routing, repair, pruning and cleanup receipts record construction history, including routes subsequently replaced; current board JSON and the final proof define the delivered geometry.
+Every physical pin identity, component value, net and source connection equals the GitHub baseline. The only source-component metadata change is J_MOTOR gaining the fitted JST manufacturer and supplier identity. Original supplier imports and land patterns remain unchanged. Placement and affected signal/power/ground copper were changed; they are not claimed to equal the baseline. `mounting-change-proof.json` binds the final source, saved geometry, counts and function. The routing, repair, pruning and cleanup receipts record construction history, including routes subsequently replaced; current board JSON and the final proof define the delivered geometry.
 
 Retained legal copper was exported as fixed DSN input, affected copper rerouted with Freerouting, and physical opens and obsolete tails repaired against actual native pad geometry. Duplicate thermal vias and unanchored signal copper were removed. Ground fills were regenerated with 0.20 mm foreign-net clearance and 0.35 mm edge inset, retaining anchored regions. RP2040 internal PD power branches were widened to **0.55 mm** for the retained 0.75 A screening budget; this does not qualify current or temperature on hardware.
 
@@ -36,6 +36,7 @@ Native DRC: **zero errors and zero warnings**. Native source compilation, netlis
 | typescript | PASS | `artifacts/validation-resume/typescript.txt` |
 | drc | PASS | `artifacts/validation-resume/drc.txt` |
 | connectivity | PASS | `artifacts/validation-resume/connectivity.txt` |
+| fitted_JST_and_actual_drills | PASS | `artifacts/validation-resume/fitted_JST_and_actual_drills.txt` |
 | exact_mounts_and_actual_drills | PASS | `artifacts/validation-resume/exact_mounts_and_actual_drills.txt` |
 | native_json_checks | PASS | `artifacts/validation-resume/native_json_checks.txt` |
 | native_netlist | PASS | `artifacts/validation-resume/native_netlist.txt` |
