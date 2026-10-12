@@ -1,8 +1,10 @@
 # Current mounting, connector and copper verification
 
-This is the v1.6.0 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
+This is the v1.7.0 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
 
-Board SHA-256: `677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b`. Saved copper: 415 traces, 189 plated vias and 38 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
+Board SHA-256: `4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9`. Saved copper: 420 traces, 193 plated vias and 36 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
+
+The all-edge resistor audit checks 23 resistors / 46 actual Gerber flashes. Minimum measured nominal pad-to-edge clearance is **0.753 mm**. See [resistor edge clearance](resistor-edge-clearance.md).
 
 The PCB remains **35 × 35 × 1.6 mm**, four layers. Source, saved JSON and actual native Gerber Excellon agree on exactly **Ø3.2 mm NPTH at (±13, ±13)**. The actual drill member is `drill_npth.drl`; its SHA-256 is `014c50469b18c0c9451d2781b9a083ee12655717153f358bb0df49fd12e64724`.
 
@@ -25,6 +27,7 @@ Rear-motor compatibility is **unverified**. The available motor drawing establis
 | native_source | PASS | `artifacts/validation-resume/native_source.txt` |
 | native_schematic-placement | PASS | `artifacts/validation-resume/native_schematic-placement.txt` |
 | native_placement | FAIL / review required | `artifacts/validation-resume/native_placement.txt` |
+| all_resistor_edge_clearances | PASS | `artifacts/validation-resume/all_resistor_edge_clearances.txt` |
 | schematic_geometry_ERC | PASS | `artifacts/validation-resume/schematic_geometry_ERC.txt` |
 | every_trace_review | PASS | `artifacts/validation-resume/every_trace_review.txt` |
 | reference_feedback | PASS | `artifacts/validation-resume/reference_feedback.txt` |

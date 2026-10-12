@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "traces_reviewed": 415,
-  "wire_segments_reviewed": 4675,
-  "vias_reviewed": 189,
+  "traces_reviewed": 420,
+  "wire_segments_reviewed": 5246,
+  "vias_reviewed": 193,
   "errors": []
 }

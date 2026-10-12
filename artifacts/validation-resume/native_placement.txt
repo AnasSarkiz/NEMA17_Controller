@@ -17,16 +17,16 @@ board-edge status:
 - U_PD: 9.27mm inside left edge
 - R_PD: 1.126mm inside bottom edge
 - C_PD: 7.02mm inside right edge
-- R_PG: 0.37mm inside top edge
+- R_PG: 0.753mm inside right edge
 - U_MCU: 11.55mm inside right edge
 - C_MCU: 14.4mm inside bottom edge
 - C_LOGIC: 13.2mm inside bottom edge
-- R_CC1: 0.37mm inside left edge
-- R_CC2: 0.559mm inside right edge
-- R_USB_SENSE_H: 0.366mm inside bottom edge
+- R_CC1: 0.754mm inside left edge
+- R_CC2: 0.754mm inside right edge
+- R_USB_SENSE_H: 0.753mm inside bottom edge
 - R_USB_SENSE_L: 10.556mm inside bottom edge
-- R_VM_H: 0.366mm inside bottom edge
-- R_VM_L: 0.37mm inside top edge
+- R_VM_H: 0.753mm inside bottom edge
+- R_VM_L: 0.753mm inside top edge
 - C_VM_SENSE: 0.38mm inside top edge
 - U_BUCK: 6.065mm inside left edge
 - D_PD: 0.37mm inside left edge
@@ -44,7 +44,7 @@ board-edge status:
 - R_REF_L: 9.28mm inside top edge
 - C_REF: 10.95mm inside right edge
 - R_ENABLE: 7.64mm inside top edge
-- R_SLEEP: 0.366mm inside right edge
+- R_SLEEP: 0.753mm inside right edge
 - J_MOTOR: 2.45mm inside top edge
 - J_DEBUG: 1.25mm inside top edge
 - U_ESD: 4.444mm inside top edge
@@ -59,28 +59,28 @@ board-edge status:
 - U_TEMP: 7.2mm inside top edge
 - C_TEMP: 6.01mm inside top edge
 - R_TEMP_SDA: 9.199mm inside bottom edge
-- R_TEMP_SCL: 0.37mm inside right edge
+- R_TEMP_SCL: 0.754mm inside right edge
 - D_PWR: 2.88mm inside top edge
-- R_PWR_LED: 1.4mm inside bottom edge
+- R_PWR_LED: 1.205mm inside right edge
 - D_STATUS: 0.455mm inside left edge
 - R_STATUS_R: 5.419mm inside bottom edge
 - Q_STATUS_R: 11.75mm inside bottom edge
-- R_STATUS_G: 0.559mm inside bottom edge
+- R_STATUS_G: 0.754mm inside bottom edge
 - Q_STATUS_G: 7.02mm inside right edge
 - R_STATUS_B: 9.784mm inside bottom edge
 - Q_STATUS_B: 0.39mm inside right edge
 - BZ1: 0.35mm inside right edge
 - Q_BUZZER: 0.37mm inside right edge
 - D_BUZZER: 3.895mm inside right edge
-- R_BUZZER_GATE: 0.559mm inside right edge
+- R_BUZZER_GATE: 0.754mm inside right edge
 - R_BUZZER_PD: 5.029mm inside right edge
 - C_BUZZER: 4.55mm inside top edge
 
 flagged components:
 - R_VM_L
   source placement: placement_mode=none
-  resolved placement: center=(-6.623mm, -16.698mm) on top; bounds=(minX=-7.78mm, maxX=-5.467mm, minY=-17.13mm, maxY=-16.266mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
-  board edge status: 0.37mm inside top edge
+  resolved placement: center=(-6.625mm, -16.315mm) on top; bounds=(minX=-7.782mm, maxX=-5.468mm, minY=-16.747mm, maxY=-15.883mm); size=(width=2.313mm, height=0.864mm); anchor_alignment="center"
+  board edge status: 0.753mm inside top edge
   issues:
   - R_VM_L connections cross the routing path between its pads. Suggested move: rotate R_VM_L 180 degrees.
 - C_VCP
@@ -103,8 +103,8 @@ flagged components:
   - C_REF connections cross the routing path between its pads. Suggested move: rotate C_REF 180 degrees.
 - R_PWR_LED
   source placement: placement_mode=none
-  resolved placement: center=(15.346mm, 15.83mm) on top; bounds=(minX=14.63mm, maxX=16.061mm, minY=15.56mm, maxY=16.1mm); size=(width=1.431mm, height=0.54mm); anchor_alignment="center"
-  board edge status: 1.4mm inside bottom edge
+  resolved placement: center=(16.025mm, 8.51mm) on top; bounds=(minX=15.755mm, maxX=16.295mm, minY=7.794mm, maxY=9.226mm); size=(width=0.54mm, height=1.431mm); anchor_alignment="center"
+  board edge status: 1.205mm inside right edge
   issues:
   - R_PWR_LED connections cross the routing path between its pads. Suggested move: rotate R_PWR_LED 180 degrees.
 - R_STATUS_R

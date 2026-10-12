@@ -1,0 +1,1 @@
+All-edge resistor check: 23 resistors; 46 actual Gerber pads; min 0.752996999999997 mm; errors []

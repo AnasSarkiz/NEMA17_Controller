@@ -1,0 +1,4 @@
+{
+  "baseline_git_revision": "88cf468ffe93870cff181c06d808ad959d1ddce3",
+  "scope": "All resistors, all four board edges, top and bottom; fixed native footprints, pin roles, USB/JST, MCU, driver, mounting and outline."
+}

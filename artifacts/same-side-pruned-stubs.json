@@ -94,5 +94,24 @@
     ],
     "retained_live_traces": [],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_0_PWR_LED_A_0_layer_section_0"
+    ],
+    "retained_live_traces": [
+      "freerouted_trace_187",
+      "freerouted_trace_333",
+      "freerouted_trace_95",
+      "same_side_repair_12_PD_VBUS_0_layer_section_0"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [],
+    "retained_live_traces": [
+      "freerouted_trace_319"
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

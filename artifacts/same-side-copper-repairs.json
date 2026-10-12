@@ -4365,5 +4365,1673 @@
     "vias_mm": [],
     "expanded": 15446,
     "trace_id": "same_side_repair_2_DATA_VBUS_2_rerouted"
+  },
+  {
+    "net": "TEMP_SCL",
+    "start_port": "pcb_port_201",
+    "start_mm": [
+      16.462816000000004,
+      16.44
+    ],
+    "end_mm": [
+      16.2577,
+      15.79426346153846
+    ],
+    "vias_mm": [
+      [
+        16.275,
+        15.75
+      ]
+    ],
+    "expanded": 2939,
+    "trace_id": "same_side_repair_0_TEMP_SCL_0"
+  },
+  {
+    "net": "BUZZER_PWM",
+    "start_port": "pcb_port_59",
+    "start_mm": [
+      15.625,
+      -12.625
+    ],
+    "end_mm": [
+      15.597184,
+      -11.93
+    ],
+    "vias_mm": [],
+    "expanded": 925,
+    "trace_id": "same_side_repair_1_BUZZER_PWM_0_rerouted"
+  },
+  {
+    "net": "PD_GOOD",
+    "start_port": "pcb_port_48",
+    "start_mm": [
+      16.315,
+      -13.806636000000001
+    ],
+    "end_mm": [
+      16.6419,
+      -14.562725
+    ],
+    "vias_mm": [
+      [
+        15.625,
+        -14.55
+      ]
+    ],
+    "expanded": 8458,
+    "trace_id": "same_side_repair_2_PD_GOOD_0"
+  },
+  {
+    "net": "VM_SENSE",
+    "start_port": "pcb_port_91",
+    "start_mm": [
+      -15.975,
+      16.343364
+    ],
+    "end_mm": [
+      -16.2925,
+      14.5692
+    ],
+    "vias_mm": [
+      [
+        -16.825,
+        14.649999999999999
+      ]
+    ],
+    "expanded": 7247,
+    "trace_id": "same_side_repair_3_VM_SENSE_0"
+  },
+  {
+    "net": "VM_SENSE",
+    "start_port": "pcb_port_91",
+    "start_mm": [
+      -15.9836,
+      -13.5927
+    ],
+    "end_mm": [
+      -7.378364,
+      -16.315
+    ],
+    "vias_mm": [
+      [
+        -8.2,
+        -16.1
+      ]
+    ],
+    "expanded": 52043,
+    "trace_id": "same_side_repair_4_VM_SENSE_1"
+  },
+  {
+    "net": "VM_SENSE",
+    "start_port": "pcb_port_57",
+    "start_mm": [
+      4.0356,
+      -16.0047
+    ],
+    "end_mm": [
+      -7.378364,
+      -16.315
+    ],
+    "vias_mm": [],
+    "expanded": 60983,
+    "trace_id": "same_side_repair_5_VM_SENSE_2"
+  },
+  {
+    "net": "PD_VBUS",
+    "start_port": "pcb_port_90",
+    "start_mm": [
+      -15.975,
+      14.836635999999999
+    ],
+    "end_mm": [
+      -15.123473684210527,
+      15.846826315789475
+    ],
+    "vias_mm": [
+      [
+        -15.125,
+        15.725000000000001
+      ]
+    ],
+    "expanded": 3332,
+    "trace_id": "same_side_repair_6_PD_VBUS_0"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_47",
+    "start_mm": [
+      16.315,
+      -15.313364000000002
+    ],
+    "end_mm": [
+      16.360039999999998,
+      -16.0219
+    ],
+    "vias_mm": [],
+    "expanded": 28,
+    "trace_id": "same_side_repair_7_V3V3_0"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_202",
+    "start_mm": [
+      15.597184000000002,
+      16.44
+    ],
+    "end_mm": [
+      14.9128,
+      16.5078
+    ],
+    "vias_mm": [],
+    "expanded": 27,
+    "trace_id": "same_side_repair_8_V3V3_1"
+  },
+  {
+    "net": "DATA_VBUS",
+    "start_port": "pcb_port_86",
+    "start_mm": [
+      -13.558364,
+      16.315
+    ],
+    "end_mm": [
+      -8.3783,
+      12.0975
+    ],
+    "vias_mm": [],
+    "expanded": 8306,
+    "trace_id": "same_side_repair_9_DATA_VBUS_0"
+  },
+  {
+    "net": "DATA_CC1",
+    "start_port": "pcb_port_21",
+    "start_mm": [
+      -15.3792,
+      0.6694
+    ],
+    "end_mm": [
+      -16.462816,
+      -15.72
+    ],
+    "vias_mm": [],
+    "expanded": 742,
+    "trace_id": "same_side_repair_10_DATA_CC1_0"
+  },
+  {
+    "net": "DATA_CC2",
+    "start_port": "pcb_port_27",
+    "start_mm": [
+      13.6504,
+      -10.3646
+    ],
+    "end_mm": [
+      15.597184,
+      -10.72
+    ],
+    "vias_mm": [],
+    "expanded": 78,
+    "trace_id": "same_side_repair_11_DATA_CC2_0"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      16.315,
+      13.121636
+    ],
+    "end_mm": [
+      12.4634,
+      -1.1214
+    ],
+    "vias_mm": [],
+    "expanded": 3961,
+    "trace_id": "same_side_repair_12_SLEEP_0"
+  },
+  {
+    "net": "DATA_PRESENT",
+    "start_port": "pcb_port_87",
+    "start_mm": [
+      -12.051636,
+      16.315
+    ],
+    "end_mm": [
+      -11.4151,
+      16.702
+    ],
+    "vias_mm": [],
+    "expanded": 25,
+    "trace_id": "same_side_repair_13_DATA_PRESENT_0"
+  },
+  {
+    "net": "BUZZER_GATE",
+    "start_port": "pcb_port_236",
+    "start_mm": [
+      16.462816,
+      -11.93
+    ],
+    "end_mm": [
+      16.642,
+      -12.6115
+    ],
+    "vias_mm": [],
+    "expanded": 864,
+    "trace_id": "same_side_repair_14_BUZZER_GATE_0"
+  },
+  {
+    "net": "STATUS_G_K",
+    "start_port": "pcb_port_208",
+    "start_mm": [
+      -0.0217,
+      15.7928
+    ],
+    "end_mm": [
+      0.48,
+      15.597184
+    ],
+    "vias_mm": [],
+    "expanded": 20,
+    "trace_id": "same_side_repair_15_STATUS_G_K_0"
+  },
+  {
+    "net": "STATUS_G_C",
+    "start_port": "pcb_port_217",
+    "start_mm": [
+      0.48,
+      16.462816
+    ],
+    "end_mm": [
+      0.9817,
+      16.6584
+    ],
+    "vias_mm": [],
+    "expanded": 20,
+    "trace_id": "same_side_repair_16_STATUS_G_C_0"
+  },
+  {
+    "net": "PWR_LED_A",
+    "start_port": "pcb_port_204",
+    "start_mm": [
+      15.735,
+      13.8971
+    ],
+    "end_mm": [
+      14.875,
+      15.625
+    ],
+    "vias_mm": [
+      [
+        16.875,
+        15.450000000000003
+      ]
+    ],
+    "expanded": 38849,
+    "trace_id": "same_side_repair_0_PWR_LED_A_0"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.275000000000002,
+      8.325000000000001
+    ],
+    "end_mm": [
+      14.9128,
+      16.5078
+    ],
+    "vias_mm": [
+      [
+        16.825000000000003,
+        10.275000000000002
+      ]
+    ],
+    "expanded": 10237,
+    "trace_id": "same_side_repair_0_V3V3_0"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_1_V3V3_1"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_2_V3V3_2"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_3_V3V3_3"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_4_V3V3_4"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_5_V3V3_5"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_6_V3V3_6"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_7_V3V3_7"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_8_V3V3_8"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_9_V3V3_9"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_10_V3V3_10"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_11_V3V3_11"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_12_V3V3_12"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_13_V3V3_13"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_14_V3V3_14"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_15_V3V3_15"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_16_V3V3_16"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_17_V3V3_17"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_18_V3V3_18"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_19_V3V3_19"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_20_V3V3_20"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_21_V3V3_21"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_22_V3V3_22"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_23_V3V3_23"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_24_V3V3_24"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_25_V3V3_25"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_26_V3V3_26"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_27_V3V3_27"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_28_V3V3_28"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_29_V3V3_29"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_30_V3V3_30"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_31_V3V3_31"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_32_V3V3_32"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_33_V3V3_33"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_34_V3V3_34"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_35_V3V3_35"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_36_V3V3_36"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_37_V3V3_37"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_38_V3V3_38"
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_205",
+    "start_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "end_mm": [
+      16.825000000000003,
+      10.275000000000002
+    ],
+    "vias_mm": [],
+    "expanded": 2035,
+    "trace_id": "same_side_repair_39_V3V3_39"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.7701,
+      13.8257
+    ],
+    "end_mm": [
+      -16.4228,
+      15.1199
+    ],
+    "vias_mm": [
+      [
+        -16.8,
+        13.975000000000001
+      ]
+    ],
+    "expanded": 2260,
+    "trace_id": "same_side_repair_0_STATUS_R_K_0"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_1_STATUS_R_K_1"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_2_STATUS_R_K_2"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_3_STATUS_R_K_3"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_4_STATUS_R_K_4"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_5_STATUS_R_K_5"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_6_STATUS_R_K_6"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_7_STATUS_R_K_7"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_8_STATUS_R_K_8"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_9_STATUS_R_K_9"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_10_STATUS_R_K_10"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_11_STATUS_R_K_11"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_12_STATUS_R_K_12"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_13_STATUS_R_K_13"
+  },
+  {
+    "net": "STATUS_R_K",
+    "start_port": "pcb_port_207",
+    "start_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "end_mm": [
+      -16.8,
+      13.975000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1481,
+    "trace_id": "same_side_repair_14_STATUS_R_K_14"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_85",
+    "start_mm": [
+      16.7,
+      -10.475000000000001
+    ],
+    "end_mm": [
+      16.403765,
+      -8.519406
+    ],
+    "vias_mm": [
+      [
+        16.825000000000003,
+        -10.175
+      ]
+    ],
+    "expanded": 3802,
+    "trace_id": "same_side_repair_0_GND_0"
+  },
+  {
+    "net": "PWR_LED_A",
+    "start_port": "pcb_port_204",
+    "start_mm": [
+      15.735,
+      9.54910382448951
+    ],
+    "end_mm": [
+      15.775,
+      9.175
+    ],
+    "vias_mm": [
+      [
+        15.725000000000001,
+        9.525000000000002
+      ]
+    ],
+    "expanded": 5095,
+    "trace_id": "same_side_repair_0_PWR_LED_A_0"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      15.9,
+      13.5
+    ],
+    "end_mm": [
+      12.4634,
+      -1.1214
+    ],
+    "vias_mm": [
+      [
+        15.075000000000003,
+        15.625
+      ]
+    ],
+    "expanded": 10430,
+    "trace_id": "same_side_repair_1_SLEEP_0"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      15.850000000000001,
+      13.700000000000003
+    ],
+    "end_mm": [
+      12.4634,
+      -1.1214
+    ],
+    "vias_mm": [
+      [
+        15.625,
+        13.650000000000002
+      ],
+      [
+        13.175,
+        6.425000000000001
+      ]
+    ],
+    "expanded": 109657,
+    "trace_id": "same_side_repair_0_SLEEP_0"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_1",
+    "start_mm": [
+      -10.55,
+      14.05
+    ],
+    "end_mm": [
+      -10.55,
+      11.725000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 93,
+    "trace_id": "same_side_repair_0_GND_0"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_3",
+    "start_mm": [
+      -2.45,
+      10.225000000000001
+    ],
+    "end_mm": [
+      -2.725,
+      10.200000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 11,
+    "trace_id": "same_side_repair_1_GND_1"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_2",
+    "start_mm": [
+      -2.0,
+      14.05
+    ],
+    "end_mm": [
+      -2.0,
+      11.725000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 93,
+    "trace_id": "same_side_repair_2_GND_2"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_17",
+    "start_mm": [
+      1.75,
+      14.05
+    ],
+    "end_mm": [
+      1.75,
+      11.725000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 1787,
+    "trace_id": "same_side_repair_3_GND_3"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_19",
+    "start_mm": [
+      9.950000000000001,
+      10.225000000000001
+    ],
+    "end_mm": [
+      9.675,
+      10.200000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 11,
+    "trace_id": "same_side_repair_4_GND_4"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_18",
+    "start_mm": [
+      10.4,
+      14.05
+    ],
+    "end_mm": [
+      10.4,
+      11.725000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 93,
+    "trace_id": "same_side_repair_5_GND_5"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_13",
+    "start_mm": [
+      -9.675,
+      10.200000000000001
+    ],
+    "end_mm": [
+      -9.950000000000001,
+      10.225000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 11,
+    "trace_id": "same_side_repair_6_GND_6"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_29",
+    "start_mm": [
+      2.725,
+      10.200000000000001
+    ],
+    "end_mm": [
+      2.45,
+      10.225000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 11,
+    "trace_id": "same_side_repair_7_GND_7"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_40",
+    "start_mm": [
+      -0.75,
+      -0.8250000000000001
+    ],
+    "end_mm": [
+      -0.408735,
+      -0.727456
+    ],
+    "vias_mm": [],
+    "expanded": 14,
+    "trace_id": "same_side_repair_8_GND_8"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_40",
+    "start_mm": [
+      -0.408735,
+      -0.727456
+    ],
+    "end_mm": [
+      0.8,
+      -3.0250000000000004
+    ],
+    "vias_mm": [
+      [
+        0.8000000000000007,
+        -2.7249999999999996
+      ]
+    ],
+    "expanded": 10488,
+    "trace_id": "same_side_repair_9_GND_9"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_46",
+    "start_mm": [
+      9.700000000000001,
+      3.625
+    ],
+    "end_mm": [
+      7.801469,
+      3.550205
+    ],
+    "vias_mm": [],
+    "expanded": 111,
+    "trace_id": "same_side_repair_10_GND_10"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_46",
+    "start_mm": [
+      7.801469,
+      3.550205
+    ],
+    "end_mm": [
+      11.587836,
+      6.42059
+    ],
+    "vias_mm": [],
+    "expanded": 35798,
+    "trace_id": "same_side_repair_11_GND_11"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_46",
+    "start_mm": [
+      11.587836,
+      6.42059
+    ],
+    "end_mm": [
+      9.575000000000001,
+      8.200000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 8061,
+    "trace_id": "same_side_repair_12_GND_12"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_77",
+    "start_mm": [
+      3.619812,
+      2.199746
+    ],
+    "end_mm": [
+      -0.408735,
+      -0.727456
+    ],
+    "vias_mm": [],
+    "expanded": 143682,
+    "trace_id": "same_side_repair_13_GND_13"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_79",
+    "start_mm": [
+      -1.8250000000000002,
+      2.9250000000000003
+    ],
+    "end_mm": [
+      -1.1,
+      2.9250000000000003
+    ],
+    "vias_mm": [],
+    "expanded": 29,
+    "trace_id": "same_side_repair_14_GND_14"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_83",
+    "start_mm": [
+      -15.850000000000001,
+      -15.975000000000001
+    ],
+    "end_mm": [
+      -15.845568,
+      -16.6465
+    ],
+    "vias_mm": [],
+    "expanded": 27,
+    "trace_id": "same_side_repair_15_GND_15"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_83",
+    "start_mm": [
+      -15.350000000000001,
+      -15.475000000000001
+    ],
+    "end_mm": [
+      -10.475000000000001,
+      -14.600000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 355,
+    "trace_id": "same_side_repair_16_GND_16"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_85",
+    "start_mm": [
+      16.403765,
+      -8.519406
+    ],
+    "end_mm": [
+      16.400000000000002,
+      -7.825
+    ],
+    "vias_mm": [],
+    "expanded": 28,
+    "trace_id": "same_side_repair_17_GND_17"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_89",
+    "start_mm": [
+      3.225,
+      6.9
+    ],
+    "end_mm": [
+      4.248195,
+      7.810002
+    ],
+    "vias_mm": [],
+    "expanded": 41,
+    "trace_id": "same_side_repair_18_GND_18"
+  },
+  {
+    "net": "GND",
+    "start_port": "pcb_port_89",
+    "start_mm": [
+      3.225,
+      6.9
+    ],
+    "end_mm": [
+      4.248195,
+      7.810002
+    ],
+    "vias_mm": [],
+    "expanded": 41,
+    "trace_id": "same_side_repair_0_GND_0_rerouted"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      15.625,
+      13.650000000000002
+    ],
+    "end_mm": [
+      13.175,
+      6.425000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 3875,
+    "trace_id": "same_side_repair_0_SLEEP_0"
+  },
+  {
+    "net": "TEMP_SCL",
+    "start_port": "pcb_port_65",
+    "start_mm": [
+      5.925000000000001,
+      1.7750000000000001
+    ],
+    "end_mm": [
+      6.6865,
+      1.7302
+    ],
+    "vias_mm": [],
+    "expanded": 30,
+    "trace_id": "same_side_repair_0_TEMP_SCL_0"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      13.175,
+      6.425000000000001
+    ],
+    "end_mm": [
+      12.4634,
+      -1.1214
+    ],
+    "vias_mm": [],
+    "expanded": 562,
+    "trace_id": "same_side_repair_1_SLEEP_1"
+  },
+  {
+    "net": "TEMP_SCL",
+    "start_port": "pcb_port_65",
+    "start_mm": [
+      6.6865,
+      1.7302
+    ],
+    "end_mm": [
+      10.897,
+      3.4368
+    ],
+    "vias_mm": [],
+    "expanded": 244,
+    "trace_id": "same_side_repair_1_TEMP_SCL_1"
+  },
+  {
+    "net": "TEMP_SCL",
+    "start_port": "pcb_port_65",
+    "start_mm": [
+      10.897,
+      3.4368
+    ],
+    "end_mm": [
+      16.275,
+      15.75
+    ],
+    "vias_mm": [],
+    "expanded": 60843,
+    "trace_id": "same_side_repair_2_TEMP_SCL_2"
+  },
+  {
+    "net": "TEMP_SCL",
+    "start_port": "pcb_port_65",
+    "start_mm": [
+      16.275,
+      15.75
+    ],
+    "end_mm": [
+      16.25,
+      16.2
+    ],
+    "vias_mm": [],
+    "expanded": 18,
+    "trace_id": "same_side_repair_3_TEMP_SCL_3"
+  },
+  {
+    "net": "TEMP_SCL",
+    "start_port": "pcb_port_191",
+    "start_mm": [
+      7.9750000000000005,
+      -10.075000000000001
+    ],
+    "end_mm": [
+      10.897,
+      3.4368
+    ],
+    "vias_mm": [
+      [
+        8.675,
+        -8.95
+      ],
+      [
+        9.675,
+        -3.5249999999999986
+      ]
+    ],
+    "expanded": 372502,
+    "trace_id": "same_side_repair_4_TEMP_SCL_4"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      15.625,
+      13.650000000000002
+    ],
+    "end_mm": [
+      13.175,
+      6.425000000000001
+    ],
+    "vias_mm": [],
+    "expanded": 3977,
+    "trace_id": "same_side_repair_5_SLEEP_0"
+  },
+  {
+    "net": "SLEEP",
+    "start_port": "pcb_port_159",
+    "start_mm": [
+      13.175,
+      6.425000000000001
+    ],
+    "end_mm": [
+      12.4634,
+      -1.1214
+    ],
+    "vias_mm": [],
+    "expanded": 562,
+    "trace_id": "same_side_repair_6_SLEEP_1"
   }
 ]

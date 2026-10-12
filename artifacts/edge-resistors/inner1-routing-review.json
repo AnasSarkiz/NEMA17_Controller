@@ -1,0 +1,32 @@
+{
+  "scope": "Named, bounded routing exceptions; geometric/native/CAM checks are still mandatory",
+  "allowed_nets": [
+    "GND",
+    "V3V3",
+    "SLEEP"
+  ],
+  "maximum_signal_length_mm": 25,
+  "reason": "Ground stitching belongs on the ground layer. The 3.3 V resistor branch and static A4988 SLEEP control use narrow corridors on inner1 in the fixed 35 mm outline; power screening and actual ground/copper connectivity remain required. No clock, USB differential pair or motor phase output is permitted by this exception.",
+  "tracks": [
+    {
+      "trace": "same_side_repair_0_V3V3_0_layer_section_1",
+      "net": "V3V3",
+      "length_mm": 7.026151883657291,
+      "minimum_width_mm": 0.16
+    },
+    {
+      "trace": "same_side_repair_0_GND_0_layer_section_1",
+      "net": "GND",
+      "length_mm": 1.8318655602122738,
+      "minimum_width_mm": 0.16
+    },
+    {
+      "trace": "same_side_repair_1_SLEEP_0_layer_section_1",
+      "net": "SLEEP",
+      "length_mm": 18.39764037949244,
+      "minimum_width_mm": 0.16
+    }
+  ],
+  "high_frequency_or_phase_nets_allowed": false,
+  "hardware_EMI_and_thermal_testing_completed": false
+}

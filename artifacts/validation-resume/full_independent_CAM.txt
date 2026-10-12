@@ -2,6 +2,28 @@
   "status": "FAIL",
   "issues": [
     {
+      "kind": "unassigned-copper-islands",
+      "islands": [
+        {
+          "area_mm2": 0.1472473711374738,
+          "bounds_mm": [
+            16.625,
+            15.2,
+            17.125,
+            15.7
+          ],
+          "layers": [
+            "top",
+            "bottom",
+            "inner1",
+            "inner2"
+          ],
+          "no_connect_pads": [],
+          "classification": "unassigned copper: review"
+        }
+      ]
+    },
+    {
       "kind": "assembly-paste-policy",
       "layer": "F_Paste",
       "bare_interface_overlap_mm2": 3.7631999999999977,
@@ -1418,9 +1440,9 @@
     {
       "kind": "silkscreen-clearance",
       "layer": "F_SilkScreen",
-      "overlap_mask_openings_mm2": 7.927109735314136,
-      "inside_0_15mm_mask_guard_mm2": 12.894311187730013,
-      "outside_board_0_10mm_inset_mm2": 9.45243084731237
+      "overlap_mask_openings_mm2": 8.172886217913257,
+      "inside_0_15mm_mask_guard_mm2": 13.311154879495863,
+      "outside_board_0_10mm_inset_mm2": 8.695510065616244
     },
     {
       "kind": "EP-stencil-coverage",
@@ -1448,8 +1470,8 @@
   ],
   "connectivity": {
     "named_nets_checked": 50,
-    "actual_copper_islands": 620,
-    "unassigned_islands": 26
+    "actual_copper_islands": 631,
+    "unassigned_islands": 27
   },
   "report": "/workspace/nema14-ch32-board/artifacts/manufacturing/audit.json"
 }

@@ -30,23 +30,23 @@
     "pcbRotation": 0
   },
   "R_PG": {
-    "pcbX": 16.642003,
-    "pcbY": -15.973398,
+    "pcbX": 16.315,
+    "pcbY": -14.56,
     "pcbRotation": 90
   },
   "R_CC1": {
-    "pcbX": -16.414355,
-    "pcbY": -15.719998,
+    "pcbX": -16.03,
+    "pcbY": -15.72,
     "pcbRotation": 0
   },
   "R_CC2": {
-    "pcbX": 16.225645,
-    "pcbY": -10.719998,
+    "pcbX": 16.03,
+    "pcbY": -10.72,
     "pcbRotation": 0
   },
   "R_USB_SENSE_H": {
-    "pcbX": -12.803398,
-    "pcbY": 16.702003,
+    "pcbX": -12.805,
+    "pcbY": 16.315,
     "pcbRotation": 0
   },
   "R_USB_SENSE_L": {
@@ -55,13 +55,13 @@
     "pcbRotation": 0
   },
   "R_VM_H": {
-    "pcbX": -15.973398,
-    "pcbY": 16.702003,
-    "pcbRotation": 0
+    "pcbX": -15.975,
+    "pcbY": 15.59,
+    "pcbRotation": 90
   },
   "R_VM_L": {
-    "pcbX": -6.623398,
-    "pcbY": -16.697997,
+    "pcbX": -6.625,
+    "pcbY": -16.315,
     "pcbRotation": 0
   },
   "R_SA": {
@@ -90,8 +90,8 @@
     "pcbRotation": 0
   },
   "R_SLEEP": {
-    "pcbX": 16.702003,
-    "pcbY": 13.876602,
+    "pcbX": 16.315,
+    "pcbY": 13.875,
     "pcbRotation": 90
   },
   "R_USB_BOOT": {
@@ -185,9 +185,9 @@
     "pcbRotation": 0
   },
   "R_PWR_LED": {
-    "pcbX": 15.345645,
-    "pcbY": 15.830002,
-    "pcbRotation": 0
+    "pcbX": 16.025,
+    "pcbY": 8.51,
+    "pcbRotation": 90
   },
   "D_STATUS": {
     "pcbX": -16.320002,
@@ -215,8 +215,8 @@
     "pcbRotation": 90
   },
   "R_STATUS_G": {
-    "pcbX": 0.480002,
-    "pcbY": 16.225645,
+    "pcbX": 0.48,
+    "pcbY": 16.03,
     "pcbRotation": 90
   },
   "R_STATUS_B": {
@@ -240,9 +240,9 @@
     "pcbRotation": 90
   },
   "R_TEMP_SCL": {
-    "pcbX": 16.860002,
-    "pcbY": 16.395645,
-    "pcbRotation": 90
+    "pcbX": 16.03,
+    "pcbY": 16.44,
+    "pcbRotation": 180
   },
   "BZ1": {
     "pcbX": 12.35,
@@ -260,8 +260,8 @@
     "pcbRotation": 0
   },
   "R_BUZZER_GATE": {
-    "pcbX": 16.225645,
-    "pcbY": -11.929998,
+    "pcbX": 16.03,
+    "pcbY": -11.93,
     "pcbRotation": 0
   },
   "R_BUZZER_PD": {

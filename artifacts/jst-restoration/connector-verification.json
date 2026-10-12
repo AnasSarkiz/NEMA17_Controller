@@ -12,7 +12,7 @@
   "source_saved_delivered_checks": [
     {
       "path": "artifacts/final-source.circuit.json",
-      "sha256": "ac4e7e595fc1b0e1a13e00daeed4ab5ed160f416324001f08584449962d95a29",
+      "sha256": "650299d3573fc1d2698c5bf193961bb6b744d99765fbe2690b31fed52c241853",
       "pins_and_native_drills": [
         {
           "pin": 1,
@@ -46,7 +46,7 @@
     },
     {
       "path": "artifacts/board.circuit.json",
-      "sha256": "677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b",
+      "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
       "pins_and_native_drills": [
         {
           "pin": 1,
@@ -80,7 +80,7 @@
     },
     {
       "path": "index.circuit.json",
-      "sha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
+      "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
       "pins_and_native_drills": [
         {
           "pin": 1,
@@ -113,9 +113,9 @@
       ]
     }
   ],
-  "actual_archive_sha256": "bde482d458cc8a669ae0c1d22684679626d43e027430aea71986bbd2f8d831b7",
+  "actual_archive_sha256": "69475c724f19f2610d676bb410e2d2ecb5cfe0c98a18755cd43b93b60602c235",
   "actual_plated_drill_file": "drill-L1-L4.drl",
-  "actual_plated_drill_sha256": "8ed67abb1b51486035fc276c8a03d330b850c74cc2bb1313b34d8a86f5916e0e",
+  "actual_plated_drill_sha256": "f2a27d72c5c7c4c87863223392bf4fe090e7ea80d7349bdb9283e75076e8d070",
   "actual_JST_drill_matches": [
     {
       "pin": 1,

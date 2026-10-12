@@ -1,0 +1,188 @@
+{
+  "baseline_git_revision": "88cf468ffe93870cff181c06d808ad959d1ddce3",
+  "moved_resistors": [
+    "R_BUZZER_GATE",
+    "R_CC1",
+    "R_CC2",
+    "R_PG",
+    "R_PWR_LED",
+    "R_SLEEP",
+    "R_STATUS_G",
+    "R_TEMP_SCL",
+    "R_USB_SENSE_H",
+    "R_VM_H",
+    "R_VM_L"
+  ],
+  "native_footprints_courtyards_models_translated_without_resizing": true,
+  "electrical_source_identical": true,
+  "removed_physically_affected_copper": [
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_19",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_30",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    {
+      "type": "pcb_via",
+      "id": "freerouted_via_7",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_48",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_78",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_85",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_90",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_100",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
+    },
+    {
+      "type": "pcb_via",
+      "id": "freerouted_via_30",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_142",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_147",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_184",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net16"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_189",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_194",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_195",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_196",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_197",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_198",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_via",
+      "id": "freerouted_via_47",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net17"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_221",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_321",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net41"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_322",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net41"
+    },
+    {
+      "type": "pcb_via",
+      "id": "freerouted_via_92",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net41"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_332",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net43"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_334",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net42"
+    },
+    {
+      "type": "pcb_via",
+      "id": "freerouted_via_98",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net42"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "freerouted_trace_345",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net46"
+    },
+    {
+      "type": "pcb_via",
+      "id": "feedback_ground_stitch_12",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0"
+    },
+    {
+      "type": "pcb_via",
+      "id": "same_side_repair_0_TEMP_SCL_0_via_6",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "same_side_repair_0_TEMP_SCL_0_layer_section_0",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net21"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "same_side_repair_9_V3V3_1",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "same_side_repair_13_BUZZER_GATE_0",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net49"
+    },
+    {
+      "type": "pcb_trace",
+      "id": "feedback_fanout_pcb_port_235",
+      "net_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net22"
+    }
+  ],
+  "retained_trace_records": 389,
+  "retained_vias": 182,
+  "ground_pours_require_refill": true
+}

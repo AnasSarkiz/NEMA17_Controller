@@ -78,5 +78,55 @@
       -3.4598400222181507
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_95",
+    "endpoint": "start",
+    "removed_length_mm": 0.2242485537599913,
+    "new_endpoint_mm": [
+      16.6419,
+      -14.512748553759993
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_187",
+    "endpoint": "end",
+    "removed_length_mm": 0.466963474457939,
+    "new_endpoint_mm": [
+      -16.25719303935564,
+      14.604506960644361
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_333",
+    "endpoint": "end",
+    "removed_length_mm": 0.14020399412112938,
+    "new_endpoint_mm": [
+      -16.47319600587887,
+      15.1199
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_12_PD_VBUS_0_layer_section_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.2831042327482254,
+    "new_endpoint_mm": [
+      -15.310899456406506,
+      15.846376869592726
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_319",
+    "endpoint": "start",
+    "removed_length_mm": 4.152609358444748,
+    "new_endpoint_mm": [
+      15.735,
+      9.744490641555252
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

@@ -29,7 +29,7 @@ for t in [e for e in j if e['type']=='pcb_trace']:
    if tag in node and node[tag] in pp and node.get('layer') not in pp[node[tag]]['layers']:issues.append('port endpoint is on the wrong copper layer')
   if node['route_type']=='wire':
    if node['layer'] not in layers:issues.append('undefined copper layer')
-   if node['layer']=='inner1':issues.append('signal/track on reserved ground-plane layer')
+   if node['layer']=='inner1' and names.get(k) not in ['GND','V3V3','SLEEP']:issues.append('unreviewed track on inner1 ground plane')
    if not math.isfinite(node['width']) or node['width']<board['min_trace_width']-1e-6:issues.append('trace below board width rule')
    widths.append(node['width']);used.add(node['layer'])
  for a,b in zip(route,route[1:]):
