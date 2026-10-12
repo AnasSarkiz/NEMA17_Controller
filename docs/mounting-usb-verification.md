@@ -2,7 +2,7 @@
 
 This is the v1.7.0 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
 
-Board SHA-256: `4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9`. Saved copper: 420 traces, 193 plated vias and 36 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
+Board SHA-256: `0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0`. Saved copper: 420 traces, 192 plated vias and 36 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
 
 The all-edge resistor audit checks 23 resistors / 46 actual Gerber flashes. Minimum measured nominal pad-to-edge clearance is **0.753 mm**. See [resistor edge clearance](resistor-edge-clearance.md).
 

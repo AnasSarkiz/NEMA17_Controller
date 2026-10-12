@@ -26,7 +26,7 @@
     },
     {
       "path": "artifacts/board.circuit.json",
-      "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+      "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
       "mounts_mm": [
         [
           -13,
@@ -49,7 +49,7 @@
     },
     {
       "path": "index.circuit.json",
-      "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+      "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
       "mounts_mm": [
         [
           -13,
@@ -72,8 +72,8 @@
     }
   ],
   "actual_drill_file": "drill_npth.drl",
-  "actual_drill_sha256": "5a3f4f27d7f832ebd8472496807c782c10f7dce8c9e352f7b1c35894f8b9ea6e",
-  "gerber_archive_sha256": "69475c724f19f2610d676bb410e2d2ecb5cfe0c98a18755cd43b93b60602c235",
+  "actual_drill_sha256": "342b9ae8f61317431bbab63e2ec451ad73c6253474ae08700df671a32e1167e3",
+  "gerber_archive_sha256": "9c441b73dc777c1e4d36380d37f0e07e3db5345ede06020207e9196bf9112b2a",
   "drill_coordinates_mm": [
     [
       -13.0,

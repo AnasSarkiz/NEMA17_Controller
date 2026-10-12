@@ -1684,15 +1684,6 @@
       "voltageDropAtNetBudgetMillivolt": 1.3170389850740523
     },
     {
-      "id": "same_side_repair_0_PWR_LED_A_0_via_7",
-      "net": "PWR_LED_A",
-      "drillMm": 0.25,
-      "padMm": 0.5,
-      "minimumPlatingUm": 20,
-      "estimatedBarrelResistanceMilliohm": 1.7560519800987362,
-      "voltageDropAtNetBudgetMillivolt": 0.0
-    },
-    {
       "id": "same_side_repair_0_V3V3_0_via_12",
       "net": "V3V3",
       "drillMm": 0.25,
@@ -1738,7 +1729,7 @@
       "voltageDropAtNetBudgetMillivolt": 0.0
     }
   ],
-  "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+  "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
   "checksPassed": true,
   "errors": [],
   "copperSpecification": {

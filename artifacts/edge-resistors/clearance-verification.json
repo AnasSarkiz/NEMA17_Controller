@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "board_sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+  "board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
   "baseline_git_revision": "88cf468ffe93870cff181c06d808ad959d1ddce3",
   "target_pad_to_edge_mm": 0.75,
   "scope": "Every resistor; all four edges; top and bottom assembly sides",

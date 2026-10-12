@@ -2,6 +2,6 @@
   "passed": true,
   "traces_reviewed": 420,
   "wire_segments_reviewed": 5246,
-  "vias_reviewed": 193,
+  "vias_reviewed": 192,
   "errors": []
 }

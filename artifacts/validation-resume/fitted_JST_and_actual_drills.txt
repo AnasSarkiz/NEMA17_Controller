@@ -46,7 +46,7 @@
     },
     {
       "path": "artifacts/board.circuit.json",
-      "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+      "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
       "pins_and_native_drills": [
         {
           "pin": 1,
@@ -80,7 +80,7 @@
     },
     {
       "path": "index.circuit.json",
-      "sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+      "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
       "pins_and_native_drills": [
         {
           "pin": 1,
@@ -113,9 +113,9 @@
       ]
     }
   ],
-  "actual_archive_sha256": "69475c724f19f2610d676bb410e2d2ecb5cfe0c98a18755cd43b93b60602c235",
+  "actual_archive_sha256": "9c441b73dc777c1e4d36380d37f0e07e3db5345ede06020207e9196bf9112b2a",
   "actual_plated_drill_file": "drill-L1-L4.drl",
-  "actual_plated_drill_sha256": "f2a27d72c5c7c4c87863223392bf4fe090e7ea80d7349bdb9283e75076e8d070",
+  "actual_plated_drill_sha256": "7bcb8f7129052e48a36e10eb5c686e4ae6c970a5cf4293b0e55d8af7b5815060",
   "actual_JST_drill_matches": [
     {
       "pin": 1,

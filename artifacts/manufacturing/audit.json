@@ -1,5 +1,5 @@
 {
-  "source_sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+  "source_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
   "directory": "artifacts/manufacturing",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -9,9 +9,9 @@
   "parser_compatibility": "Only LR right-angle aperture transforms and unambiguous split-line G85 slots are converted to equivalent G00/M15/G01/M16/G05 routing analytically. Original Gerbers independently rendered by PyGerber. Input CAM bytes remain unchanged.",
   "files": {
     "B_Cu.gbr": {
-      "sha256": "8906e5f78dc8427be6a346d0c974c5ca55434a64a50a087bf5422c7159a82dc1",
-      "objects": 1763,
-      "area_mm2": 836.4520572363381,
+      "sha256": "af0d82f728875c3152b63de84aa5f0686eb90dab64b180548679187cc888c788",
+      "objects": 1762,
+      "area_mm2": 836.2557274081548,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -22,7 +22,7 @@
       "warnings": []
     },
     "B_Mask.gbr": {
-      "sha256": "2f5902dd9943b81fb37f1488189e43ad9d74939f92dacf0458c202f72fcf2150",
+      "sha256": "0a536b852a2d008226dc7ed78157f5320ecc7f5b136e8bb8698463a661987d39",
       "objects": 36,
       "area_mm2": 57.105992622994286,
       "bounds_mm": [
@@ -35,7 +35,7 @@
       "warnings": []
     },
     "B_Paste.gbr": {
-      "sha256": "49cc1f452359ed21b05f0194a2d6ee8d908f4af694ed6005c33f0a7b9f8fec7e",
+      "sha256": "f7aca3332d7104d6b9b853e431e72c340c60ff5fe9a60966455524a5aa5ef236",
       "objects": 0,
       "area_mm2": 0.0,
       "bounds_mm": [],
@@ -43,7 +43,7 @@
       "warnings": []
     },
     "B_SilkScreen.gbr": {
-      "sha256": "82e3e9e4febad3de2b566fe2dd9897bf11f1701728448e8a15a6df6a58b448dd",
+      "sha256": "0209ab9ee4ce3b02a7e3e17288e9c4192f84c4f9ef42018aa0d6e6529138a6a2",
       "objects": 0,
       "area_mm2": 0.0,
       "bounds_mm": [],
@@ -51,7 +51,7 @@
       "warnings": []
     },
     "Edge_Cuts.gbr": {
-      "sha256": "2c6b43e8db34355c8796386a6033d3f456c958c7f9ad8b144d4424bd0d3f9e31",
+      "sha256": "5d3f686fc21843795d8d5dfdc1964568fb1d87d50ccb55e5912bead38a39d7e7",
       "objects": 4,
       "area_mm2": 6.999463298281626,
       "bounds_mm": [
@@ -64,9 +64,9 @@
       "warnings": []
     },
     "F_Cu.gbr": {
-      "sha256": "dce2988de90e427593147fbce108e58d4b954df367838e732ba1be736f4abbe6",
-      "objects": 2156,
-      "area_mm2": 781.9927633433443,
+      "sha256": "657aea30aa5e8fd839433b9235266a4a23d96896422db4876ea5ae87983f908d",
+      "objects": 2155,
+      "area_mm2": 781.7964335151611,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -77,7 +77,7 @@
       "warnings": []
     },
     "F_Fab.gbr": {
-      "sha256": "fab0b953adf8b0176a5ab8d2aea0be8b6dab75989c53fb2b7318b0d7dffe5ebe",
+      "sha256": "a55ddb1ab805e913da4db10fd96352a31aa499c3b499d94e88cc54c09107417d",
       "objects": 591,
       "area_mm2": 14.957980540967903,
       "bounds_mm": [
@@ -90,7 +90,7 @@
       "warnings": []
     },
     "F_Mask.gbr": {
-      "sha256": "87dc88430c1bb51750c27e5388a4d8ec10495bd130fec3a35433a6e8c78a8139",
+      "sha256": "ee33b2123aed65a24d460ac5d779f381f09179daa926a27d5131fff0da931b7e",
       "objects": 329,
       "area_mm2": 248.96349744407624,
       "bounds_mm": [
@@ -103,7 +103,7 @@
       "warnings": []
     },
     "F_Paste.gbr": {
-      "sha256": "1860fe91d1ae6bd930909c2e3571ae300f35b11fa631066e6d7ffdaa83796307",
+      "sha256": "c70e2eb506ef148c347ef44b690eadf6a6b341990aa84715296d521434785077",
       "objects": 197,
       "area_mm2": 89.92232642863404,
       "bounds_mm": [
@@ -116,7 +116,7 @@
       "warnings": []
     },
     "F_SilkScreen.gbr": {
-      "sha256": "213177b9361c1e3669bd06e96e0ae7daa7ab554d1599a0567dd7971bd025c44b",
+      "sha256": "3bf05ab644eed1a49f34cb3df7cd49449a909d85e7342ad94ca029717aa4ce89",
       "objects": 4827,
       "area_mm2": 103.28836095635674,
       "bounds_mm": [
@@ -129,9 +129,9 @@
       "warnings": []
     },
     "In1_Cu.gbr": {
-      "sha256": "44e6758bc6c55d6e435d0a80a55f4c467612ead66393ac2d213f1b77693e676a",
-      "objects": 603,
-      "area_mm2": 1015.96278257971,
+      "sha256": "d541d1c5b2bc5fc99130250308887821b498fd016cb1fc9ce06a6bf45c9d69dc",
+      "objects": 602,
+      "area_mm2": 1015.7664527515268,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -142,9 +142,9 @@
       "warnings": []
     },
     "In2_Cu.gbr": {
-      "sha256": "142e2fa76edc1055a7ddd28da39657eb4486b541d4703a059d7422fdc865525c",
-      "objects": 2157,
-      "area_mm2": 849.6846657991874,
+      "sha256": "4bdcc835248b81f7351cd1ceadf4c3c98f94dd0330e5e745e6ab48de11976073",
+      "objects": 2156,
+      "area_mm2": 849.4883359710041,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -155,8 +155,8 @@
       "warnings": []
     },
     "drill-L1-L4.drl": {
-      "sha256": "f2a27d72c5c7c4c87863223392bf4fe090e7ea80d7349bdb9283e75076e8d070",
-      "objects": 205,
+      "sha256": "7bcb8f7129052e48a36e10eb5c686e4ae6c970a5cf4293b0e55d8af7b5815060",
+      "objects": 204,
       "G85_joined": 8,
       "parser_notices": [
         "<unknown>:16 \"G90\": G90 header statement found after end of header"
@@ -164,11 +164,11 @@
       "tools_mm": {
         "0.799998": 8,
         "0.999998": 4,
-        "0.25": 193
+        "0.25": 192
       }
     },
     "drill_npth.drl": {
-      "sha256": "5a3f4f27d7f832ebd8472496807c782c10f7dce8c9e352f7b1c35894f8b9ea6e",
+      "sha256": "342b9ae8f61317431bbab63e2ec451ad73c6253474ae08700df671a32e1167e3",
       "objects": 8,
       "G85_joined": 0,
       "parser_notices": [
@@ -181,28 +181,6 @@
     }
   },
   "issues": [
-    {
-      "kind": "unassigned-copper-islands",
-      "islands": [
-        {
-          "area_mm2": 0.1472473711374738,
-          "bounds_mm": [
-            16.625,
-            15.2,
-            17.125,
-            15.7
-          ],
-          "layers": [
-            "top",
-            "bottom",
-            "inner1",
-            "inner2"
-          ],
-          "no_connect_pads": [],
-          "classification": "unassigned copper: review"
-        }
-      ]
-    },
     {
       "kind": "assembly-paste-policy",
       "layer": "F_Paste",
@@ -1650,23 +1628,23 @@
   ],
   "archive": {
     "path": "/workspace/nema14-ch32-board/artifacts/nema14-gerbers.zip",
-    "sha256": "69475c724f19f2610d676bb410e2d2ecb5cfe0c98a18755cd43b93b60602c235",
+    "sha256": "9c441b73dc777c1e4d36380d37f0e07e3db5345ede06020207e9196bf9112b2a",
     "extracted_bytes_verified": true,
     "members": {
-      "F_Cu.gbr": "dce2988de90e427593147fbce108e58d4b954df367838e732ba1be736f4abbe6",
-      "F_SilkScreen.gbr": "213177b9361c1e3669bd06e96e0ae7daa7ab554d1599a0567dd7971bd025c44b",
-      "F_Mask.gbr": "87dc88430c1bb51750c27e5388a4d8ec10495bd130fec3a35433a6e8c78a8139",
-      "F_Paste.gbr": "1860fe91d1ae6bd930909c2e3571ae300f35b11fa631066e6d7ffdaa83796307",
-      "B_Cu.gbr": "8906e5f78dc8427be6a346d0c974c5ca55434a64a50a087bf5422c7159a82dc1",
-      "B_SilkScreen.gbr": "82e3e9e4febad3de2b566fe2dd9897bf11f1701728448e8a15a6df6a58b448dd",
-      "B_Mask.gbr": "2f5902dd9943b81fb37f1488189e43ad9d74939f92dacf0458c202f72fcf2150",
-      "B_Paste.gbr": "49cc1f452359ed21b05f0194a2d6ee8d908f4af694ed6005c33f0a7b9f8fec7e",
-      "Edge_Cuts.gbr": "2c6b43e8db34355c8796386a6033d3f456c958c7f9ad8b144d4424bd0d3f9e31",
-      "In1_Cu.gbr": "44e6758bc6c55d6e435d0a80a55f4c467612ead66393ac2d213f1b77693e676a",
-      "In2_Cu.gbr": "142e2fa76edc1055a7ddd28da39657eb4486b541d4703a059d7422fdc865525c",
-      "F_Fab.gbr": "fab0b953adf8b0176a5ab8d2aea0be8b6dab75989c53fb2b7318b0d7dffe5ebe",
-      "drill-L1-L4.drl": "f2a27d72c5c7c4c87863223392bf4fe090e7ea80d7349bdb9283e75076e8d070",
-      "drill_npth.drl": "5a3f4f27d7f832ebd8472496807c782c10f7dce8c9e352f7b1c35894f8b9ea6e",
+      "F_Cu.gbr": "657aea30aa5e8fd839433b9235266a4a23d96896422db4876ea5ae87983f908d",
+      "F_SilkScreen.gbr": "3bf05ab644eed1a49f34cb3df7cd49449a909d85e7342ad94ca029717aa4ce89",
+      "F_Mask.gbr": "ee33b2123aed65a24d460ac5d779f381f09179daa926a27d5131fff0da931b7e",
+      "F_Paste.gbr": "c70e2eb506ef148c347ef44b690eadf6a6b341990aa84715296d521434785077",
+      "B_Cu.gbr": "af0d82f728875c3152b63de84aa5f0686eb90dab64b180548679187cc888c788",
+      "B_SilkScreen.gbr": "0209ab9ee4ce3b02a7e3e17288e9c4192f84c4f9ef42018aa0d6e6529138a6a2",
+      "B_Mask.gbr": "0a536b852a2d008226dc7ed78157f5320ecc7f5b136e8bb8698463a661987d39",
+      "B_Paste.gbr": "f7aca3332d7104d6b9b853e431e72c340c60ff5fe9a60966455524a5aa5ef236",
+      "Edge_Cuts.gbr": "5d3f686fc21843795d8d5dfdc1964568fb1d87d50ccb55e5912bead38a39d7e7",
+      "In1_Cu.gbr": "d541d1c5b2bc5fc99130250308887821b498fd016cb1fc9ce06a6bf45c9d69dc",
+      "In2_Cu.gbr": "4bdcc835248b81f7351cd1ceadf4c3c98f94dd0330e5e745e6ab48de11976073",
+      "F_Fab.gbr": "a55ddb1ab805e913da4db10fd96352a31aa499c3b499d94e88cc54c09107417d",
+      "drill-L1-L4.drl": "7bcb8f7129052e48a36e10eb5c686e4ae6c970a5cf4293b0e55d8af7b5815060",
+      "drill_npth.drl": "342b9ae8f61317431bbab63e2ec451ad73c6253474ae08700df671a32e1167e3",
       "bom.csv": "2e87fc535dbe32cdbb703bd9c4fd3ee3a301eebee3e97f976d09a06978e56d2c",
       "pick_and_place.csv": "6755cf156aa5186b72912378d05d44e9fff6b5b04118bf971947e28352e8575a"
     }
@@ -1698,8 +1676,8 @@
     "shorts": [],
     "opens": [],
     "unconnected_pads": [],
-    "actual_copper_islands": 631,
-    "unassigned_islands": 27,
+    "actual_copper_islands": 627,
+    "unassigned_islands": 26,
     "no_connect_contacts": [],
     "unassigned_island_details": [
       {
@@ -1959,23 +1937,6 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.1472473711374738,
-        "bounds_mm": [
-          16.625,
-          15.2,
-          17.125,
-          15.7
-        ],
-        "layers": [
-          "top",
-          "bottom",
-          "inner1",
-          "inner2"
-        ],
-        "no_connect_pads": [],
-        "classification": "unassigned copper: review"
-      },
-      {
         "area_mm2": 0.38999780000299994,
         "bounds_mm": [
           -4.5999395,
@@ -2198,7 +2159,7 @@
           ],
           "island_indices": [
             110,
-            125
+            127
           ]
         },
         {
@@ -2213,7 +2174,7 @@
           ],
           "island_indices": [
             123,
-            125
+            127
           ]
         }
       ],
@@ -2235,8 +2196,8 @@
             ]
           ],
           "island_indices": [
-            282,
-            294
+            281,
+            293
           ]
         },
         {
@@ -2250,8 +2211,8 @@
             ]
           ],
           "island_indices": [
-            198,
-            208
+            197,
+            207
           ]
         },
         {
@@ -2265,8 +2226,8 @@
             ]
           ],
           "island_indices": [
-            204,
-            205
+            203,
+            204
           ]
         },
         {
@@ -2280,8 +2241,8 @@
             ]
           ],
           "island_indices": [
-            282,
-            291
+            281,
+            290
           ]
         },
         {
@@ -2295,8 +2256,8 @@
             ]
           ],
           "island_indices": [
-            269,
-            300
+            268,
+            299
           ]
         }
       ],
@@ -2318,8 +2279,8 @@
             ]
           ],
           "island_indices": [
-            460,
-            461
+            458,
+            459
           ]
         },
         {
@@ -2333,8 +2294,8 @@
             ]
           ],
           "island_indices": [
-            409,
-            410
+            407,
+            408
           ]
         },
         {
@@ -2348,8 +2309,8 @@
             ]
           ],
           "island_indices": [
-            409,
-            411
+            407,
+            409
           ]
         },
         {
@@ -2363,8 +2324,8 @@
             ]
           ],
           "island_indices": [
-            326,
-            407
+            324,
+            405
           ]
         },
         {
@@ -2378,8 +2339,8 @@
             ]
           ],
           "island_indices": [
-            457,
-            458
+            455,
+            456
           ]
         }
       ],
@@ -2401,8 +2362,8 @@
             ]
           ],
           "island_indices": [
-            500,
-            510
+            497,
+            507
           ]
         },
         {
@@ -2416,8 +2377,8 @@
             ]
           ],
           "island_indices": [
-            508,
-            509
+            505,
+            506
           ]
         },
         {
@@ -2431,8 +2392,8 @@
             ]
           ],
           "island_indices": [
-            519,
-            542
+            516,
+            539
           ]
         },
         {
@@ -2446,8 +2407,8 @@
             ]
           ],
           "island_indices": [
-            506,
-            579
+            503,
+            576
           ]
         },
         {
@@ -2461,8 +2422,8 @@
             ]
           ],
           "island_indices": [
-            509,
-            510
+            506,
+            507
           ]
         }
       ],

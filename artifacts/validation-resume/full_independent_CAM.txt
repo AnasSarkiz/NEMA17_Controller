@@ -2,28 +2,6 @@
   "status": "FAIL",
   "issues": [
     {
-      "kind": "unassigned-copper-islands",
-      "islands": [
-        {
-          "area_mm2": 0.1472473711374738,
-          "bounds_mm": [
-            16.625,
-            15.2,
-            17.125,
-            15.7
-          ],
-          "layers": [
-            "top",
-            "bottom",
-            "inner1",
-            "inner2"
-          ],
-          "no_connect_pads": [],
-          "classification": "unassigned copper: review"
-        }
-      ]
-    },
-    {
       "kind": "assembly-paste-policy",
       "layer": "F_Paste",
       "bare_interface_overlap_mm2": 3.7631999999999977,
@@ -1470,8 +1448,8 @@
   ],
   "connectivity": {
     "named_nets_checked": 50,
-    "actual_copper_islands": 631,
-    "unassigned_islands": 27
+    "actual_copper_islands": 627,
+    "unassigned_islands": 26
   },
   "report": "/workspace/nema14-ch32-board/artifacts/manufacturing/audit.json"
 }

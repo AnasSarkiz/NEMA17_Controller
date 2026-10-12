@@ -1,9 +1,9 @@
 {
   "passed": true,
-  "board_sha256": "4d3b1d4ca24870283fd553df674e9910775ece133c28864042268364bd4f4af9",
+  "board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
   "traces_reviewed": 420,
   "wire_segments_reviewed": 5246,
-  "vias_reviewed": 193,
+  "vias_reviewed": 192,
   "errors": [],
   "trace_inventory": [
     {

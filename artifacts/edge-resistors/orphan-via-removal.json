@@ -1,0 +1,31 @@
+{
+  "removed_via": {
+    "type": "pcb_via",
+    "pcb_via_id": "same_side_repair_0_PWR_LED_A_0_via_7",
+    "x": 16.875,
+    "y": 15.450000000000003,
+    "outer_diameter": 0.5,
+    "hole_diameter": 0.25,
+    "layers": [
+      "top",
+      "inner1",
+      "inner2",
+      "bottom"
+    ],
+    "from_layer": "top",
+    "to_layer": "bottom",
+    "source_net_id": "source_net_30",
+    "source_trace_id": "source_trace_179",
+    "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net41",
+    "subcircuit_id": "subcircuit_source_group_0",
+    "tented_on_top": true,
+    "tented_on_bottom": true
+  },
+  "actual_CAM_island_bbox_mm": [
+    16.625,
+    15.2,
+    17.125,
+    15.7
+  ],
+  "live_pad_partitions_unchanged": true
+}

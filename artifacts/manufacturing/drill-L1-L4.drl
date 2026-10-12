@@ -1,7 +1,7 @@
 M48
-; DRILL file {tscircuit} date 2026-10-12T20:07:24.369Z
+; DRILL file {tscircuit} date 2026-10-12T20:33:55.757Z
 ; FORMAT={-:-/ absolute / metric / decimal}
-; #@! TF.CreationDate,2026-10-12T20:07:24.369Z
+; #@! TF.CreationDate,2026-10-12T20:33:55.757Z
 ; #@! TF.GenerationSoftware,tscircuit
 ; #@! TF.FileFunction,Plated,1,4,PTH
 FMAT,2
@@ -225,7 +225,6 @@ X15.6250Y-14.5500
 X-16.8250Y14.6500
 X-8.2000Y-16.1000
 X-15.1250Y15.7250
-X16.8750Y15.4500
 X16.8250Y10.2750
 X-16.8000Y13.9750
 X16.8250Y-10.1750
