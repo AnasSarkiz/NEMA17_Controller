@@ -1,4 +1,4 @@
-# NEMA14 CH32X035G8U6 controller — v1.5.0 prototype
+# NEMA14 CH32X035G8U6 controller — v1.5.1 prototype
 
 A **35 × 35 × 1.6 mm**, four-layer controller with native JLCPCB parts, two USB-C ports on one edge and a fitted JST PH motor connector. This revision adds the reference power/debug LED, RGB status LED, TMP102 temperature sensor and PWM magnetic buzzer. USB-C and JST physical-pin roles match Rishabh’s reference, with board-specific MCU GPIOs documented in [reference feedback](docs/reference-feedback.md).
 

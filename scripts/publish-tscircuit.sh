@@ -55,7 +55,10 @@ assert built==saved,'Native CLI dist build differs from saved routing'
 (stage/'dist/index/circuit.json').write_text(json.dumps(built,separators=(',',':'))+'\n')
 print('Including verified compact native dist/index/circuit.json')
 PYDIST
-XDG_CONFIG_HOME=/workspace/.config tsci push index.circuit.tsx --include-dist --compress
+if ! XDG_CONFIG_HOME=/workspace/.config tsci push index.circuit.tsx --include-dist --compress; then
+  # Archive upload can complete after the CLI timeout. Verify exact public files.
+  python3 "$project_root/scripts/verify-publication.py" "$project_root"
+fi
 python3 - "$package_stage" <<'PYVERSION'
 import json,pathlib,sys
 p=pathlib.Path(sys.argv[1]);print('Published registry version:',json.loads((p/'package.json').read_text())['version'])

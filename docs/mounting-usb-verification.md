@@ -1,6 +1,6 @@
 # Current mounting, connector and copper verification
 
-This is the v1.5.0 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
+This is the v1.5.1 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
 
 Board SHA-256: `027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70`. Saved copper: 415 traces, 189 plated vias and 38 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
 
