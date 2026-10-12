@@ -1,15 +1,15 @@
 [
   [
     "U_MCU - CH32X035G8U6",
-    "USB computer control; generates STEP/DIR.\nChecks PD voltage before enabling the motor.\nInternal clock avoids an external crystal."
+    "USB computer control; generates STEP/DIR.\nFirmware must check PD before motor enable.\nInternal clock avoids an external crystal."
   ],
   [
     "U_PD - CH224K",
     "USB-C PD sink requests a 15 V motor supply.\nPG reports a completed power negotiation."
   ],
   [
-    "U_LDO - HT7533-1",
-    "Creates 3.3 V for MCU and driver logic.\nDiode OR accepts either USB data power or PD."
+    "U_BUCK - AP63203WU-7",
+    "3.3 V buck for MCU, logic and PWM buzzer.\nDiode OR accepts programming USB or PD."
   ],
   [
     "U_DRV - A4988",
@@ -18,5 +18,9 @@
   [
     "U_ESD - USBLC6-2SC6",
     "Clamps ESD on USB D+ and D- at the data port.\nVBUS pin references the USB protection diodes."
+  ],
+  [
+    "U_TEMP / BZ1 / D_STATUS / D_PWR",
+    "TMP102: I2C temperature, address 0x48.\nPWM magnetic buzzer and RGB status need firmware.\nPower LED indicates 3.3 V; RGB uses USB 5 V."
   ]
 ]

@@ -24,5 +24,75 @@
       "same_side_retained_same_side_retained_freerouted_trace_314"
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "freerouted_trace_115",
+      "freerouted_trace_200",
+      "freerouted_trace_250",
+      "same_side_retained_feedback_retained_freerouted_trace_16",
+      "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_124",
+      "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_136",
+      "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_72",
+      "same_side_retained_feedback_retained_same_side_retained_same_side_repair_0_PD_GOOD_0"
+    ],
+    "retained_live_traces": [],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "freerouted_trace_160",
+      "freerouted_trace_180",
+      "freerouted_trace_59",
+      "same_side_retained_feedback_retained_freerouted_trace_16",
+      "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_136",
+      "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_52",
+      "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_255",
+      "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_299",
+      "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_320"
+    ],
+    "retained_live_traces": [],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [],
+    "retained_live_traces": [],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "freerouted_trace_265",
+      "freerouted_trace_291",
+      "same_side_repair_11_SLEEP_0",
+      "same_side_repair_16_USB_DM_0",
+      "same_side_repair_3_DIR_2"
+    ],
+    "retained_live_traces": [
+      "freerouted_trace_283",
+      "freerouted_trace_319",
+      "same_side_repair_14_PD_CC2_0",
+      "same_side_repair_32_DATA_PRESENT_1"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "freerouted_trace_326",
+      "same_side_repair_1_DATA_PRESENT_0_rerouted",
+      "same_side_repair_2_DIR_1",
+      "same_side_repair_2_STATUS_B_C_0"
+    ],
+    "retained_live_traces": [
+      "freerouted_trace_344",
+      "same_side_repair_3_B_PLUS_0"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_21_STATUS_B_C_0"
+    ],
+    "retained_live_traces": [],
+    "live_pad_connectivity_unchanged": true
   }
 ]

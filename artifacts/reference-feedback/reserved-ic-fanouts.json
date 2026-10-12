@@ -1,0 +1,214 @@
+[
+  {
+    "removed_copper": [
+      "freerouted_via_40",
+      "freerouted_trace_180",
+      "freerouted_trace_181",
+      "freerouted_via_50",
+      "freerouted_trace_212",
+      "freerouted_trace_217",
+      "freerouted_via_60",
+      "freerouted_trace_294",
+      "freerouted_via_85",
+      "same_side_repair_2_V3V3_0",
+      "same_side_repair_1_BUZZER_PWM_0_via_3",
+      "same_side_repair_1_BUZZER_PWM_0",
+      "same_side_repair_2_VREF_0",
+      "same_side_repair_4_A_PLUS_0_via_4",
+      "same_side_repair_4_A_PLUS_0",
+      "same_side_repair_5_PD_GOOD_0",
+      "same_side_repair_6_VM_SENSE_0",
+      "same_side_repair_7_PD_VBUS_0_via_8",
+      "same_side_repair_7_PD_VBUS_0",
+      "same_side_repair_8_V3V3_0",
+      "same_side_repair_11_DIR_0",
+      "same_side_repair_16_STATUS_B_C_0"
+    ],
+    "reserved_fanouts": [
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_58",
+        "net": "LED_R",
+        "via_xy_mm": [
+          3.2,
+          -0.7000000000000001
+        ]
+      },
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_60",
+        "net": "LED_G",
+        "via_xy_mm": [
+          4.0,
+          -0.7000000000000001
+        ]
+      }
+    ],
+    "all_geometry_requires_final_independent_checks": true
+  },
+  {
+    "removed_copper": [
+      "feedback_fanout_pcb_port_58",
+      "feedback_fanout_pcb_port_58_via",
+      "feedback_fanout_pcb_port_60",
+      "feedback_fanout_pcb_port_60_via",
+      "same_side_repair_1_VREF_0",
+      "same_side_repair_3_A_PLUS_0_via_4",
+      "same_side_repair_3_A_PLUS_0",
+      "same_side_repair_4_PD_GOOD_0",
+      "same_side_repair_5_VM_SENSE_0",
+      "same_side_repair_6_PD_VBUS_0_via_8",
+      "same_side_repair_6_PD_VBUS_0",
+      "same_side_repair_7_V3V3_0",
+      "same_side_repair_8_V3V3_1",
+      "same_side_repair_9_DIR_0_via_14",
+      "same_side_repair_9_DIR_0",
+      "same_side_repair_10_ENABLE_N_0",
+      "same_side_repair_12_DATA_PRESENT_0",
+      "same_side_repair_13_A_MINUS_0_via_5",
+      "same_side_repair_13_A_MINUS_0",
+      "same_side_repair_14_STATUS_B_C_0"
+    ],
+    "reserved_fanouts": [
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_58",
+        "net": "LED_R",
+        "via_xy_mm": [
+          3.2,
+          -0.7000000000000001
+        ]
+      },
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_60",
+        "net": "LED_G",
+        "via_xy_mm": [
+          4.0,
+          -0.7000000000000001
+        ]
+      }
+    ],
+    "all_geometry_requires_final_independent_checks": true
+  },
+  {
+    "removed_copper": [
+      "freerouted_trace_14",
+      "freerouted_trace_175",
+      "freerouted_trace_192",
+      "freerouted_trace_204",
+      "freerouted_trace_220",
+      "freerouted_trace_262",
+      "freerouted_trace_278",
+      "freerouted_trace_286",
+      "freerouted_trace_290",
+      "freerouted_trace_293",
+      "freerouted_trace_325",
+      "same_side_repair_0_LED_R_0",
+      "feedback_fanout_pcb_port_58",
+      "feedback_fanout_pcb_port_58_via",
+      "feedback_fanout_pcb_port_60",
+      "feedback_fanout_pcb_port_60_via",
+      "same_side_repair_0_VREF_0",
+      "same_side_repair_1_A_PLUS_0_via_4",
+      "same_side_repair_1_A_PLUS_0",
+      "same_side_repair_2_PD_GOOD_0",
+      "same_side_repair_3_VM_SENSE_0",
+      "same_side_repair_4_PD_VBUS_0_via_8",
+      "same_side_repair_4_PD_VBUS_0",
+      "same_side_repair_6_V3V3_1",
+      "same_side_repair_8_ENABLE_N_0",
+      "same_side_repair_9_DATA_PRESENT_0",
+      "same_side_repair_10_A_MINUS_0_via_5",
+      "same_side_repair_10_A_MINUS_0",
+      "same_side_repair_11_STATUS_B_C_0"
+    ],
+    "reserved_fanouts": [
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_53",
+        "net": "STEP",
+        "via_xy_mm": [
+          0.7000000000000001,
+          1.8
+        ]
+      },
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_58",
+        "net": "LED_R",
+        "via_xy_mm": [
+          3.2,
+          -0.7000000000000001
+        ]
+      },
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_60",
+        "net": "LED_G",
+        "via_xy_mm": [
+          4.0,
+          -0.7000000000000001
+        ]
+      },
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_61",
+        "net": "LED_B",
+        "via_xy_mm": [
+          4.7,
+          -0.7000000000000001
+        ]
+      },
+      {
+        "component": "U_DRV",
+        "port": "pcb_port_128",
+        "net": "SENSE1",
+        "via_xy_mm": [
+          1.0,
+          -4.6000000000000005
+        ]
+      },
+      {
+        "component": "U_DRV",
+        "port": "pcb_port_121",
+        "net": "STEP",
+        "via_xy_mm": [
+          3.4000000000000004,
+          -9.450000000000001
+        ]
+      }
+    ],
+    "all_geometry_requires_final_independent_checks": true
+  },
+  {
+    "removed_copper": [],
+    "reserved_fanouts": [],
+    "all_geometry_requires_final_independent_checks": true
+  },
+  {
+    "removed_copper": [],
+    "reserved_fanouts": [],
+    "all_geometry_requires_final_independent_checks": true
+  },
+  {
+    "removed_copper": [],
+    "reserved_fanouts": [
+      {
+        "component": "U_MCU",
+        "port": "pcb_port_59",
+        "net": "BUZZER_PWM",
+        "via_xy_mm": [
+          3.6,
+          -1.1
+        ]
+      }
+    ],
+    "all_geometry_requires_final_independent_checks": true
+  },
+  {
+    "removed_copper": [],
+    "reserved_fanouts": [],
+    "all_geometry_requires_final_independent_checks": true
+  }
+]

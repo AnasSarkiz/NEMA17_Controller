@@ -1,0 +1,11 @@
+{
+  "removed_redundant_same_net_sites": [
+    {
+      "removed_via": "feedback_fanout_pcb_port_235_via",
+      "retained_via": "same_side_repair_1_BUZZER_PWM_0_via_66",
+      "centre_spacing_mm": 0.2657536453183675,
+      "physical_pad_connectivity_unchanged": true
+    }
+  ],
+  "remaining_close_sites": []
+}

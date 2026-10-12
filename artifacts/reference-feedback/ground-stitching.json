@@ -1,0 +1,7 @@
+{
+  "stitches": [],
+  "remaining_ground_roots": 1,
+  "strict_no_additional_via_in_pad": true,
+  "all_layer_clearance_mm": 0.15,
+  "board_sha256": "0dd9a9d119918fd505fd566e3048f8e72edaefa844bb87c241c2d001ef8eaa7c"
+}

@@ -18,5 +18,95 @@
     "trace": "same_side_repair_1_V3V3_0",
     "net": "V3V3",
     "near": "VREG"
+  },
+  {
+    "trace": "freerouted_trace_113",
+    "net": "V3V3",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "freerouted_trace_120",
+    "net": "V3V3",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "freerouted_trace_169",
+    "net": "BUZZER_PWM",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "freerouted_trace_181",
+    "net": "SLEEP",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "freerouted_trace_224",
+    "net": "VREF",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "freerouted_trace_248",
+    "net": "BUZZER_GATE",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "same_side_repair_15_SLEEP_0",
+    "net": "SLEEP",
+    "near": "TEMP_SDA"
+  },
+  {
+    "trace": "freerouted_trace_129",
+    "net": "V3V3",
+    "near": "TEMP_SCL"
+  },
+  {
+    "trace": "freerouted_trace_183",
+    "net": "SLEEP",
+    "near": "TEMP_SCL"
+  },
+  {
+    "trace": "freerouted_trace_249",
+    "net": "BUZZER_GATE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_251",
+    "net": "BUZZER_GATE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_252",
+    "net": "BUZZER_GATE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_253",
+    "net": "BUZZER_GATE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_264",
+    "net": "VM_SENSE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "same_side_repair_6_PD_GOOD_0",
+    "net": "PD_GOOD",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_51",
+    "net": "USB_DM",
+    "near": "LED_R"
+  },
+  {
+    "trace": "freerouted_trace_13",
+    "net": "GND",
+    "near": "LED_G"
+  },
+  {
+    "trace": "freerouted_trace_176",
+    "net": "ENABLE_N",
+    "near": "LED_G"
   }
 ]

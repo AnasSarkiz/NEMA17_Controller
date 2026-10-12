@@ -1,0 +1,237 @@
+[
+  {
+    "trace": "freerouted_trace_87",
+    "net": "PD_GOOD",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_115",
+    "net": "V3V3",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_130",
+    "net": "V3V3",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_85",
+    "net": "PD_GOOD",
+    "near": "DIR"
+  },
+  {
+    "trace": "freerouted_trace_6",
+    "net": "PD_VBUS",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_315",
+    "net": "STATUS_B_K",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_71",
+    "net": "DATA_VBUS",
+    "near": "BUZZER_GATE"
+  },
+  {
+    "via": "freerouted_via_21",
+    "net": "DATA_VBUS",
+    "near": "BUZZER_GATE"
+  },
+  {
+    "trace": "freerouted_trace_196",
+    "net": "BUZZER_PWM",
+    "near": "BUZZER_GATE"
+  },
+  {
+    "via": "freerouted_via_69",
+    "net": "DIRECT_net19",
+    "near": "BUZZER_GATE"
+  },
+  {
+    "trace": "freerouted_trace_14",
+    "net": "PD_VBUS",
+    "near": "STATUS_G_K"
+  },
+  {
+    "via": "freerouted_via_2",
+    "net": "PD_VBUS",
+    "near": "STATUS_G_K"
+  },
+  {
+    "via": "freerouted_via_91",
+    "net": "STATUS_R_K",
+    "near": "STATUS_G_K"
+  },
+  {
+    "trace": "freerouted_trace_327",
+    "net": "STATUS_G_C",
+    "near": "STATUS_G_K"
+  },
+  {
+    "trace": "freerouted_trace_330",
+    "net": "STATUS_G_C",
+    "near": "STATUS_G_K"
+  },
+  {
+    "trace": "freerouted_trace_43",
+    "net": "USB_DM",
+    "near": "DIRECT_net19"
+  },
+  {
+    "trace": "freerouted_trace_61",
+    "net": "USB_DP",
+    "near": "DIRECT_net19"
+  },
+  {
+    "trace": "freerouted_trace_240",
+    "net": "DIRECT_net18",
+    "near": "DIRECT_net19"
+  },
+  {
+    "trace": "freerouted_trace_241",
+    "net": "DIRECT_net18",
+    "near": "DIRECT_net19"
+  },
+  {
+    "trace": "freerouted_trace_231",
+    "net": "TEMP_SCL",
+    "near": "V3V3"
+  },
+  {
+    "trace": "freerouted_trace_232",
+    "net": "TEMP_SCL",
+    "near": "V3V3"
+  },
+  {
+    "via": "freerouted_via_63",
+    "net": "TEMP_SCL",
+    "near": "V3V3"
+  },
+  {
+    "trace": "freerouted_trace_96",
+    "net": "PD_GOOD",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_117",
+    "net": "V3V3",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_118",
+    "net": "V3V3",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_177",
+    "net": "DIR",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_178",
+    "net": "DIR",
+    "near": "STEP"
+  },
+  {
+    "trace": "same_side_repair_0_VREF_0",
+    "net": "VREF",
+    "near": "STEP"
+  },
+  {
+    "trace": "freerouted_trace_13",
+    "net": "PD_VBUS",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_25",
+    "net": "PD_VBUS",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_215",
+    "net": "ENABLE_N",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_289",
+    "net": "A_PLUS",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_292",
+    "net": "A_PLUS",
+    "near": "SENSE1"
+  },
+  {
+    "via": "freerouted_via_83",
+    "net": "A_PLUS",
+    "near": "SENSE1"
+  },
+  {
+    "trace": "freerouted_trace_191",
+    "net": "VM_SENSE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_202",
+    "net": "LED_R",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_203",
+    "net": "LED_G",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_206",
+    "net": "LED_G",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "via": "freerouted_via_53",
+    "net": "LED_G",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_208",
+    "net": "LED_B",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_356",
+    "net": "BUZZER_GATE",
+    "near": "BUZZER_PWM"
+  },
+  {
+    "trace": "freerouted_trace_323",
+    "net": "STATUS_B_K",
+    "near": "STATUS_B_C"
+  },
+  {
+    "via": "same_side_repair_1_VREF_1_via_3",
+    "net": "VREF",
+    "near": "STATUS_B_C"
+  },
+  {
+    "trace": "same_side_repair_1_VREF_1",
+    "net": "VREF",
+    "near": "STATUS_B_C"
+  },
+  {
+    "trace": "freerouted_trace_8",
+    "net": "PD_CC2",
+    "near": "VREF"
+  },
+  {
+    "via": "freerouted_via_6",
+    "net": "PD_VBUS",
+    "near": "VREF"
+  },
+  {
+    "via": "freerouted_via_95",
+    "net": "STATUS_B_K",
+    "near": "VREF"
+  }
+]

@@ -10,8 +10,8 @@
   },
   "plug_pair_intersections": [],
   "minimum_simultaneous_plug_gap_mm": 0.40000000000000036,
-  "board_sha256": "0c9909a9f7b3f8795181fc88bd848a26926623162a8544886f60e6b2c50c9810",
-  "native_STEP_models": 39,
+  "board_sha256": "c328f546989deedf0cfe1a3e8fd9a1d9cde6553e593638721e6f022939172f50",
+  "native_STEP_models": 61,
   "component_intersections": [],
   "fastener_clearances": [
     {
@@ -28,14 +28,56 @@
     },
     {
       "reference": "R_PD",
-      "mount": "(-13, 13)",
-      "distance_to_radius2p2_fastener_mm": 0.5950000000000006,
+      "mount": "(13, 13)",
+      "distance_to_radius2p2_fastener_mm": 0.34700300000000084,
       "intersection_mm3": 0
     },
     {
-      "reference": "R_CC2",
+      "reference": "D_DATA",
+      "mount": "(13, -13)",
+      "distance_to_radius2p2_fastener_mm": 0.5600012999999997,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "U_ESD",
+      "mount": "(-13, -13)",
+      "distance_to_radius2p2_fastener_mm": 0.5887997841164689,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "C_BUCK_OUT1",
+      "mount": "(-13, 13)",
+      "distance_to_radius2p2_fastener_mm": 0.3491096303048504,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "D_PWR",
+      "mount": "(-13, -13)",
+      "distance_to_radius2p2_fastener_mm": 0.7637327771114975,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "R_PWR_LED",
       "mount": "(13, 13)",
-      "distance_to_radius2p2_fastener_mm": 0.954381872887303,
+      "distance_to_radius2p2_fastener_mm": 0.972204488717815,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "D_STATUS",
+      "mount": "(-13, 13)",
+      "distance_to_radius2p2_fastener_mm": 0.3200019999999988,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "R_BUZZER_GATE",
+      "mount": "(13, -13)",
+      "distance_to_radius2p2_fastener_mm": 0.6463247836888201,
+      "intersection_mm3": 0
+    },
+    {
+      "reference": "R_BUZZER_PD",
+      "mount": "(13, -13)",
+      "distance_to_radius2p2_fastener_mm": 0.43724074521865475,
       "intersection_mm3": 0
     }
   ],

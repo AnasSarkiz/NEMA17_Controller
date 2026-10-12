@@ -1,21 +1,111 @@
 {
-  "baseline_github_commit": "92fb70235cefa4db220daad44c5a76e1bdea211b",
-  "new_source_sha256": "0c9909a9f7b3f8795181fc88bd848a26926623162a8544886f60e6b2c50c9810",
-  "source_components_ports_nets_traces_identical": false,
-  "source_ports_nets_traces_identical": true,
-  "motor_connector_added_without_pin_or_net_changes": true,
-  "moved_references": [
-    "C_VCP",
-    "C_VREG",
-    "J_DEBUG",
-    "J_MOTOR",
-    "R_SB"
+  "baseline_github_commit": "4c52e213a64453989395b31f8e8441130466fdcd",
+  "new_source_sha256": "aac41c9fc7cd01bf4a427eed39d5d304bb3cd8c72e6255a4ccf628a9f3c47438",
+  "existing_connected_pins_and_net_roles_preserved": true,
+  "existing_passive_values_preserved": true,
+  "additional_MCU_connections": [
+    {
+      "component": "U_MCU",
+      "pin": 10,
+      "new_net": "N:LED_R"
+    },
+    {
+      "component": "U_MCU",
+      "pin": 11,
+      "new_net": "N:BUZZER_PWM"
+    },
+    {
+      "component": "U_MCU",
+      "pin": 12,
+      "new_net": "N:LED_G"
+    },
+    {
+      "component": "U_MCU",
+      "pin": 13,
+      "new_net": "N:LED_B"
+    },
+    {
+      "component": "U_MCU",
+      "pin": 17,
+      "new_net": "N:TEMP_SCL"
+    },
+    {
+      "component": "U_MCU",
+      "pin": 18,
+      "new_net": "N:TEMP_SDA"
+    }
   ],
-  "baseline_traces": 371,
-  "retained_fixed_traces": 356,
-  "removed_affected_traces": 15,
-  "baseline_vias": 79,
-  "retained_vias": 79,
-  "retained_geometry_is_unmoved": true,
-  "all_pours_will_be_regenerated": true
+  "intentional_removed_linear_supply_parts": [
+    "C_LDO_IN",
+    "C_LDO_OUT",
+    "U_LDO"
+  ],
+  "added_components": [
+    "BZ1",
+    "C_BOOTSTRAP",
+    "C_BUCK_IN",
+    "C_BUCK_OUT1",
+    "C_BUCK_OUT2",
+    "C_BUZZER",
+    "C_TEMP",
+    "D_BUZZER",
+    "D_PWR",
+    "D_STATUS",
+    "L_BUCK",
+    "Q_BUZZER",
+    "Q_STATUS_B",
+    "Q_STATUS_G",
+    "Q_STATUS_R",
+    "R_BUZZER_GATE",
+    "R_BUZZER_PD",
+    "R_PWR_LED",
+    "R_STATUS_B",
+    "R_STATUS_G",
+    "R_STATUS_R",
+    "R_TEMP_SCL",
+    "R_TEMP_SDA",
+    "U_BUCK",
+    "U_TEMP"
+  ],
+  "moved_references": [
+    "C_CP",
+    "C_DRV_LOGIC",
+    "C_LOGIC",
+    "C_MCU",
+    "C_PD",
+    "C_REF",
+    "C_VCP",
+    "C_VM",
+    "C_VM_SENSE",
+    "C_VREG",
+    "D_DATA",
+    "D_PD",
+    "D_TVS",
+    "J_BOOT",
+    "R_CC1",
+    "R_CC2",
+    "R_ENABLE",
+    "R_PD",
+    "R_PG",
+    "R_REF_H",
+    "R_REF_L",
+    "R_SA",
+    "R_SB",
+    "R_SLEEP",
+    "R_USB_BOOT",
+    "R_USB_SENSE_H",
+    "R_USB_SENSE_L",
+    "R_VM_H",
+    "R_VM_L",
+    "U_ESD",
+    "U_MCU",
+    "U_PD"
+  ],
+  "baseline_traces": 376,
+  "retained_fixed_traces": 0,
+  "removed_affected_traces": 376,
+  "retained_vias": 0,
+  "all_pours_will_be_regenerated": true,
+  "source_identical_to_baseline": false,
+  "routing_strategy": "Full copper reroute; native pads, net roles and three thermal vias preserved"
 }

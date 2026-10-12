@@ -1,0 +1,363 @@
+[
+  {
+    "component": "R_STATUS_B",
+    "pin": "pin2",
+    "net": "STATUS_B_C",
+    "via_xy_mm": [
+      4.025,
+      -6.9
+    ],
+    "removed_conflicting_copper": [
+      "same_side_repair_28_DIR_0",
+      "same_side_repair_2_VREF_1",
+      "same_side_repair_30_SLEEP_0",
+      "same_side_repair_3_VREF_1_via_3"
+    ]
+  },
+  {
+    "component": "U_DRV",
+    "pin": "VBB1",
+    "net": "PD_VBUS",
+    "via_xy_mm": [
+      2.6,
+      -5.800000000000001
+    ],
+    "removed_conflicting_copper": [
+      "feedback_ground_stitch_3"
+    ]
+  },
+  {
+    "component": "R_BUZZER_GATE",
+    "pin": "pin1",
+    "net": "BUZZER_PWM",
+    "via_xy_mm": [
+      15.8,
+      -12.825000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_DRV",
+    "pin": "DIR",
+    "net": "DIR",
+    "via_xy_mm": [
+      3.4000000000000004,
+      -7.050000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "R_SB",
+    "pin": "pin1",
+    "net": "SENSE2",
+    "via_xy_mm": [
+      3.35,
+      -6.0
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_MCU",
+    "pin": "DATA_PRESENT",
+    "net": "DATA_PRESENT",
+    "via_xy_mm": [
+      1.75,
+      0.35000000000000003
+    ],
+    "removed_conflicting_copper": [
+      "same_side_repair_4_LED_R_1"
+    ]
+  },
+  {
+    "component": "R_STATUS_B",
+    "pin": "pin2",
+    "net": "STATUS_B_C",
+    "via_xy_mm": [
+      3.375,
+      -8.0
+    ],
+    "removed_conflicting_copper": [
+      "same_side_repair_10_VREF_0",
+      "same_side_repair_10_VREF_0_via_2",
+      "same_side_repair_5_VREF_0"
+    ]
+  },
+  {
+    "component": "U_DRV",
+    "pin": "VDD",
+    "net": "V3V3",
+    "via_xy_mm": [
+      2.0500000000000003,
+      -10.15
+    ],
+    "removed_conflicting_copper": [
+      "freerouted_trace_219",
+      "same_side_repair_11_SLEEP_0_via_3",
+      "same_side_repair_19_LOGIC_IN_0"
+    ]
+  },
+  {
+    "component": "U_DRV",
+    "pin": "RESET_N",
+    "net": "V3V3",
+    "via_xy_mm": [
+      0.5,
+      -11.600000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_DRV",
+    "pin": "MS3",
+    "net": "V3V3",
+    "via_xy_mm": [
+      0.0,
+      -11.600000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_DRV",
+    "pin": "MS2",
+    "net": "V3V3",
+    "via_xy_mm": [
+      -0.5,
+      -11.600000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_DRV",
+    "pin": "MS1",
+    "net": "V3V3",
+    "via_xy_mm": [
+      -0.4,
+      -11.600000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "C_DRV_LOGIC",
+    "pin": "pin1",
+    "net": "V3V3",
+    "via_xy_mm": [
+      4.3,
+      -11.8
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_TEMP",
+    "pin": "V_POS",
+    "net": "V3V3",
+    "via_xy_mm": [
+      6.8500000000000005,
+      -9.65
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "C_TEMP",
+    "pin": "pin1",
+    "net": "V3V3",
+    "via_xy_mm": [
+      6.275,
+      -11.675
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "BZ1",
+    "pin": "_POS",
+    "net": "V3V3",
+    "via_xy_mm": [
+      10.25,
+      -5.300000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "D_BUZZER",
+    "pin": "cathode",
+    "net": "V3V3",
+    "via_xy_mm": [
+      9.75,
+      -6.925000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "C_BUZZER",
+    "pin": "pin1",
+    "net": "V3V3",
+    "via_xy_mm": [
+      5.2,
+      -12.5
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_PD",
+    "pin": "CC2",
+    "net": "PD_CC2",
+    "via_xy_mm": [
+      -0.375,
+      -3.95
+    ],
+    "removed_conflicting_copper": [
+      "freerouted_trace_22"
+    ]
+  },
+  {
+    "component": "U_DRV",
+    "pin": "DIR",
+    "net": "DIR",
+    "via_xy_mm": [
+      3.225,
+      -7.3500000000000005
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "R_REF_H",
+    "pin": "pin2",
+    "net": "VREF",
+    "via_xy_mm": [
+      3.85,
+      -2.0500000000000003
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "R_REF_L",
+    "pin": "pin1",
+    "net": "VREF",
+    "via_xy_mm": [
+      5.95,
+      -7.800000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "C_REF",
+    "pin": "pin1",
+    "net": "VREF",
+    "via_xy_mm": [
+      6.1000000000000005,
+      -4.9
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_DRV",
+    "pin": "SENSE1",
+    "net": "SENSE1",
+    "via_xy_mm": [
+      1.0,
+      -4.6000000000000005
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "R_SB",
+    "pin": "pin1",
+    "net": "SENSE2",
+    "via_xy_mm": [
+      4.4,
+      -6.9
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_DRV",
+    "pin": "OUT1B",
+    "net": "A_MINUS",
+    "via_xy_mm": [
+      3.225,
+      -6.5
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "U_TEMP",
+    "pin": "SDA",
+    "net": "TEMP_SDA",
+    "via_xy_mm": [
+      6.2,
+      -10.850000000000001
+    ],
+    "removed_conflicting_copper": [
+      "freerouted_trace_83"
+    ]
+  },
+  {
+    "component": "U_DRV",
+    "pin": "SLEEP",
+    "net": "SLEEP",
+    "via_xy_mm": [
+      1.5,
+      -11.225000000000001
+    ],
+    "removed_conflicting_copper": [
+      "freerouted_trace_116",
+      "same_side_repair_12_LOGIC_IN_0"
+    ]
+  },
+  {
+    "component": "U_DRV",
+    "pin": "REF",
+    "net": "VREF",
+    "via_xy_mm": [
+      3.6,
+      -8.65
+    ],
+    "removed_conflicting_copper": [
+      "same_side_repair_34_STATUS_B_K_0",
+      "same_side_repair_3_B_PLUS_0"
+    ]
+  },
+  {
+    "component": "R_STATUS_B",
+    "pin": "pin1",
+    "net": "STATUS_B_K",
+    "via_xy_mm": [
+      7.2,
+      6.7250000000000005
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "R_STATUS_B",
+    "pin": "pin2",
+    "net": "STATUS_B_C",
+    "via_xy_mm": [
+      7.2,
+      7.425000000000001
+    ],
+    "removed_conflicting_copper": []
+  },
+  {
+    "component": "Q_STATUS_R",
+    "pin": "pin1",
+    "net": "GND",
+    "via_xy_mm": [
+      -1.5750000000000002,
+      5.1000000000000005
+    ],
+    "removed_conflicting_copper": [
+      "same_side_repair_32_DATA_PRESENT_1"
+    ]
+  },
+  {
+    "component": "Q_STATUS_G",
+    "pin": "pin1",
+    "net": "GND",
+    "via_xy_mm": [
+      9.575000000000001,
+      8.200000000000001
+    ],
+    "removed_conflicting_copper": [
+      "freerouted_trace_73"
+    ]
+  }
+]

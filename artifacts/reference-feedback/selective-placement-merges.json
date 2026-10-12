@@ -1,0 +1,31 @@
+[
+  {
+    "changed_components": [
+      "R_STATUS_B"
+    ],
+    "removed_actual_affected_copper": [
+      {
+        "id": "freerouted_trace_71",
+        "net": "USB_DP"
+      },
+      {
+        "id": "freerouted_trace_343",
+        "net": "STATUS_G_C"
+      },
+      {
+        "id": "freerouted_via_103",
+        "net": "STATUS_G_C"
+      },
+      {
+        "id": "same_side_repair_15_STATUS_B_K_1",
+        "net": "STATUS_B_K"
+      },
+      {
+        "id": "feedback_fanout_pcb_port_222",
+        "net": "STATUS_B_C"
+      }
+    ],
+    "unaffected_copper_retained": 536,
+    "source_pin_roles_preserved": true
+  }
+]

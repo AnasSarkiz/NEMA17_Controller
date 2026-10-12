@@ -56,7 +56,7 @@ const reviewedPhysicalPins:Record<string,Record<number,string>>={
  U_DRV:{1:'B_MINUS',2:'ENABLE_N',3:'GND',4:'CP1',5:'CP2',6:'VCP',8:'VREG',9:'V3V3',10:'V3V3',11:'V3V3',12:'V3V3',13:'GND',14:'SLEEP',15:'V3V3',16:'STEP',17:'VREF',18:'GND',19:'DIR',21:'A_MINUS',22:'PD_VBUS',23:'SENSE1',24:'A_PLUS',26:'B_PLUS',27:'SENSE2',28:'PD_VBUS',29:'GND'},
  U_ESD:{1:'USB_DP',2:'GND',3:'USB_DM',4:'USB_DM',5:'DATA_VBUS',6:'USB_DP'},
 }
-reviewedPhysicalPins.U_LDO={1:'GND',2:'LOGIC_IN',3:'V3V3'}
+reviewedPhysicalPins.U_BUCK={1:'V3V3',2:'LOGIC_IN',3:'LOGIC_IN',4:'GND',5:'BUCK_SW',6:'BUCK_BST'}
 reviewedPhysicalPins.U_MCU={2:'V3V3',5:'STEP',6:'DIR',7:'PD_GOOD',8:'DATA_PRESENT',9:'VM_SENSE',14:'ENABLE_N',15:'SLEEP',26:'USB_DM',27:'USB_DP',29:'GND'}
 for(const [reference,pins] of Object.entries(reviewedPhysicalPins)) {
  const component=json.find((e:any)=>e.type==='source_component' && e.name===reference)

@@ -28,5 +28,55 @@
       -15.005073153101801
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_283",
+    "endpoint": "start",
+    "removed_length_mm": 3.9313298100274094,
+    "new_endpoint_mm": [
+      -2.9776,
+      -3.2216913262379303
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_319",
+    "endpoint": "end",
+    "removed_length_mm": 15.82288558577592,
+    "new_endpoint_mm": [
+      15.735,
+      5.8008312593942595
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_14_PD_CC2_0",
+    "endpoint": "end",
+    "removed_length_mm": 3.4049916577075914,
+    "new_endpoint_mm": [
+      -4.463107270506697,
+      -1.3381072705066979
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "freerouted_trace_344",
+    "endpoint": "end",
+    "removed_length_mm": 5.3332031657969114,
+    "new_endpoint_mm": [
+      5.657819086141738,
+      12.712280913858262
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_3_B_PLUS_0",
+    "endpoint": "end",
+    "removed_length_mm": 2.941719025735442,
+    "new_endpoint_mm": [
+      0.10984002221815298,
+      -3.4598400222181507
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

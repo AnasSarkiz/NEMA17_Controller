@@ -22,5 +22,217 @@
   {
     "unanchored_copper_removed": "same_side_retained_same_side_retained_freerouted_via_47",
     "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_trace_118",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_trace_121",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_86",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_168",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_169",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_176",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_10",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_11",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_12",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_8",
+    "net": "USB_DM"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_29",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_50",
+    "net": "SENSE1"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_trace_249",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_freerouted_via_1",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_16",
+    "net": "DIRECT_net40"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_45",
+    "net": "LOGIC_IN"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_3",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_10",
+    "net": "USB_DP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_repair_1_SLEEP_1_via_15",
+    "net": "SLEEP"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_trace_153",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_trace_155",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_37",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_trace_127",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_262",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_28",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_29",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_31",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_32",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_repair_1_VM_SENSE_0_via_4",
+    "net": "VM_SENSE"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_trace_321",
+    "net": "SENSE1"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_50",
+    "net": "SENSE1"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_same_side_retained_freerouted_via_51",
+    "net": "SENSE1"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_repair_1_SENSE2_0",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_freerouted_via_1",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_16",
+    "net": "DIRECT_net40"
+  },
+  {
+    "unanchored_copper_removed": "same_side_retained_feedback_retained_same_side_retained_freerouted_via_17",
+    "net": "DIRECT_net40"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_75",
+    "net": "LOGIC_IN"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_23_PD_CC2_0_via_25",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_20_USB_DM_1_via_15",
+    "net": "USB_DM"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_28_DIR_0_via_60",
+    "net": "DIR"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_78",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_79",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_84",
+    "net": "A_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_91",
+    "net": "PWR_LED_A"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_28_DIR_0_via_42",
+    "net": "DIR"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_42",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_3_B_PLUS_0_via_44",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_trace_324",
+    "net": "STATUS_B_K"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_94",
+    "net": "STATUS_B_K"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_14_STATUS_B_K_0_via_2",
+    "net": "STATUS_B_K"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_14_STATUS_B_K_0",
+    "net": "STATUS_B_K"
+  },
+  {
+    "unanchored_copper_removed": "feedback_fanout_pcb_port_222_via",
+    "net": "STATUS_B_C"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_16_STATUS_B_C_0_via_30",
+    "net": "STATUS_B_C"
   }
 ]
