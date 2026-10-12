@@ -3,20 +3,20 @@
   "every_trace_inventory_verified": true,
   "hardware_operation_verified": false,
   "passed": true,
-  "verified_at_utc": "2026-10-12T16:24:49.610224+00:00",
+  "verified_at_utc": "2026-10-12T17:03:07.119239+00:00",
   "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
-  "version": "1.5.0",
-  "package_release_id": "fb792f22-230f-4959-b90f-5ee4266b36ea",
+  "version": "1.5.1",
+  "package_release_id": "5fff5a1b-e87c-4186-9a91-4d9b31db7eeb",
   "package_is_private": false,
   "ready_to_build": true,
   "public_page": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
   "page_http_status": 200,
-  "github_revision": "a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8",
-  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8",
+  "github_revision": "86aef93307f42516aabe46d3a6d52541cd387186",
+  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/86aef93307f42516aabe46d3a6d52541cd387186",
   "public_file_count": 213,
   "review_board_sha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
-  "public_index_sha256": "179c938a0f22c4ba592f72b01136a62b88dbb74ba7eee7ba988be6d2c5e3bfbc",
-  "public_dist_sha256": "21af1e876179109a08785c89c14bdd65f4e793e1e248548dd9989a8273392c1b",
+  "public_index_sha256": "63df8a7b6f36730879cee5d5c02ed9fe28079fb0474bf0100ca3a05a89f152b6",
+  "public_dist_sha256": "e0800612a9ac47887907103206a0ce84fa9c58a71edc7b6969d11b77b452e519",
   "geometry_and_functional_records_unchanged": true,
   "cad_urls_pinned_to_revision": true,
   "mount_coordinates_mm": [
@@ -104,7 +104,7 @@
     },
     {
       "path": "docs/mounting-usb-verification.md",
-      "sha256": "b0f9ade0251e257b4a8ccc6a350537411d9d8c09f7ec3d425ad538973cc28a6a"
+      "sha256": "b0a780bd45766de3b24ccd1990da14d9bcd6888f5fb679ca7e07132364dcd78a"
     },
     {
       "path": "artifacts/mounting-change-proof.json",
@@ -124,7 +124,7 @@
     },
     {
       "path": "artifacts/bom.csv",
-      "sha256": "e9156393d4287eb0259d177c4c4b5849e382b121ecd757fd3bb8600ee0b94ccb"
+      "sha256": "5df27f48b38a74af33a88bf6f477108afa66885e08afc77de952c37000bab786"
     },
     {
       "path": "artifacts/reference-feedback/circuit-verification.json",
@@ -151,32 +151,32 @@
     {
       "path": "artifacts/board.circuit.json",
       "sha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8/artifacts/board.circuit.json"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/86aef93307f42516aabe46d3a6d52541cd387186/artifacts/board.circuit.json"
     },
     {
       "path": "index.circuit.json",
       "sha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8/index.circuit.json"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/86aef93307f42516aabe46d3a6d52541cd387186/index.circuit.json"
     },
     {
       "path": "artifacts/nema14-gerbers.zip",
       "sha256": "bde482d458cc8a669ae0c1d22684679626d43e027430aea71986bbd2f8d831b7",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8/artifacts/nema14-gerbers.zip"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/86aef93307f42516aabe46d3a6d52541cd387186/artifacts/nema14-gerbers.zip"
     },
     {
       "path": "imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step",
       "sha256": "3806dacd6082a75cfb24d3ba4b86b3d0c96213134c67e1385eb1599a89b2c461",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/86aef93307f42516aabe46d3a6d52541cd387186/imports/supplier/TYPE_C_31_M_12/TYPE_C_31_M_12.step"
     },
     {
       "path": "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step",
       "sha256": "330cfdeb167726774e998328867b10007c6ca195a3a7aab25f476c0c19b5a7a1",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/86aef93307f42516aabe46d3a6d52541cd387186/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.step"
     },
     {
       "path": "imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj",
       "sha256": "333d51fc2722f28c1a73c3ef4b240453d4ce90bba01e4b2a7b6d8c059fa62d0f",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a7fdc803d53df9b653d2f6fdaa63b2dd660ef6f8/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/86aef93307f42516aabe46d3a6d52541cd387186/imports/supplier/B4B_PH_K_S_LF__SN_/B4B_PH_K_S_LF__SN_.obj"
     }
   ],
   "full_manufacturing_audit_passed": false,
