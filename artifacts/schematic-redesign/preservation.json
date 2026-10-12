@@ -1,0 +1,8 @@
+{
+  "baseline_git_revision": "a951b8705d5431c8ff5501fee0a93d5e70638891",
+  "baseline_board_sha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
+  "current_board_sha256": "677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b",
+  "non_schematic_records_identical": true,
+  "gerber_zip_bytes_identical": true,
+  "gerber_zip_sha256": "bde482d458cc8a669ae0c1d22684679626d43e027430aea71986bbd2f8d831b7"
+}

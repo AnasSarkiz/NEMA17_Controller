@@ -3,188 +3,76 @@
   "addedBootComponents": [],
   "sourcePinsAndNetsUnchanged": true,
   "pcbGeometrySha256": "96041efa2c91fba14877f6b3e4b9f2275c59a6ce48ef228c56c901cc80b6a77d",
-  "boardSha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
+  "boardSha256": "677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b",
   "nativeA4Sheets": [
     {
       "type": "schematic_sheet",
       "schematic_sheet_id": "schematic_sheet_0",
-      "name": "NEMA14_CH32X035G8U6_1",
-      "display_name": "NEMA14_CH32X035G8U6 1/13",
-      "sheet_index": 0,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_1",
-      "name": "NEMA14_CH32X035G8U6_2",
-      "display_name": "NEMA14_CH32X035G8U6 2/13",
+      "name": "01 Power & USB-PD",
+      "display_name": "Power & USB-PD",
       "sheet_index": 1,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,
       "center": {
-        "x": 0,
-        "y": 0
+        "x": 16,
+        "y": 11
       }
     },
     {
       "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_2",
-      "name": "NEMA14_CH32X035G8U6_3",
-      "display_name": "NEMA14_CH32X035G8U6 3/13",
+      "schematic_sheet_id": "schematic_sheet_1",
+      "name": "02 Programming & USB",
+      "display_name": "Programming & USB",
       "sheet_index": 2,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,
       "center": {
-        "x": 0,
-        "y": 0
+        "x": 16,
+        "y": 11
       }
     },
     {
       "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_3",
-      "name": "NEMA14_CH32X035G8U6_4",
-      "display_name": "NEMA14_CH32X035G8U6 4/13",
+      "schematic_sheet_id": "schematic_sheet_2",
+      "name": "03 Controller & clocks",
+      "display_name": "Controller & clocks",
       "sheet_index": 3,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,
       "center": {
-        "x": 0,
-        "y": 0
+        "x": 16,
+        "y": 11
       }
     },
     {
       "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_4",
-      "name": "NEMA14_CH32X035G8U6_5",
-      "display_name": "NEMA14_CH32X035G8U6 5/13",
+      "schematic_sheet_id": "schematic_sheet_3",
+      "name": "04 Stepper motor driver",
+      "display_name": "Stepper motor driver",
       "sheet_index": 4,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,
       "center": {
-        "x": 0,
-        "y": 0
+        "x": 16,
+        "y": 11
       }
     },
     {
       "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_5",
-      "name": "NEMA14_CH32X035G8U6_6",
-      "display_name": "NEMA14_CH32X035G8U6 6/13",
+      "schematic_sheet_id": "schematic_sheet_4",
+      "name": "05 Temperature & feedback",
+      "display_name": "Temperature & feedback",
       "sheet_index": 5,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,
       "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_6",
-      "name": "NEMA14_CH32X035G8U6_7",
-      "display_name": "NEMA14_CH32X035G8U6 7/13",
-      "sheet_index": 6,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_7",
-      "name": "NEMA14_CH32X035G8U6_8",
-      "display_name": "NEMA14_CH32X035G8U6 8/13",
-      "sheet_index": 7,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_8",
-      "name": "NEMA14_CH32X035G8U6_9",
-      "display_name": "NEMA14_CH32X035G8U6 9/13",
-      "sheet_index": 8,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_9",
-      "name": "NEMA14_CH32X035G8U6_10",
-      "display_name": "NEMA14_CH32X035G8U6 10/13",
-      "sheet_index": 9,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_10",
-      "name": "NEMA14_CH32X035G8U6_11",
-      "display_name": "NEMA14_CH32X035G8U6 11/13",
-      "sheet_index": 10,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_11",
-      "name": "NEMA14_CH32X035G8U6_12",
-      "display_name": "NEMA14_CH32X035G8U6 12/13",
-      "sheet_index": 11,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
-      }
-    },
-    {
-      "type": "schematic_sheet",
-      "schematic_sheet_id": "schematic_sheet_12",
-      "name": "NEMA14_CH32X035G8U6_13",
-      "display_name": "NEMA14_CH32X035G8U6 13/13",
-      "sheet_index": 12,
-      "sheet_size": "a4",
-      "sheet_width": 297,
-      "sheet_height": 210,
-      "center": {
-        "x": 0,
-        "y": 0
+        "x": 16,
+        "y": 11
       }
     }
   ],

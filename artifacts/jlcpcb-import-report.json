@@ -88,8 +88,9 @@
       "expectedEdgeYmm": 17.5
     }
   ],
-  "schematicA4PageCount": 13,
+  "schematicA4PageCount": 5,
   "allNumberedPhysicalPinsOnSchematic": true,
   "numberedPinCount": 241,
-  "schematicNamedNetStubCoverageVerified": true
+  "schematicGeometricConnectivityVerified": true,
+  "schematicAnalysis": "artifacts/schematic-redesign/analysis.json"
 }

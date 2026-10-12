@@ -1,5 +1,5 @@
 {
-  "board_sha256": "027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70",
+  "board_sha256": "677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b",
   "checks": [
     {
       "check": "typescript",
@@ -110,6 +110,15 @@
       ],
       "exit_code": 1,
       "log": "artifacts/validation-resume/native_placement.txt"
+    },
+    {
+      "check": "schematic_geometry_ERC",
+      "command": [
+        "/workspace/.routing-venv/bin/python",
+        "scripts/verify-schematic.py"
+      ],
+      "exit_code": 0,
+      "log": "artifacts/validation-resume/schematic_geometry_ERC.txt"
     },
     {
       "check": "every_trace_review",
@@ -1622,5 +1631,14 @@
   ],
   "rear_motor_compatibility_verified": false,
   "prototype_fabrication_ready": false,
-  "physical_hardware_tested": false
+  "physical_hardware_tested": false,
+  "retry_history": [
+    {
+      "check": "exact_mounts_and_actual_drills",
+      "previous_exit_code": 1,
+      "retry_exit_code": 0,
+      "board_sha256": "677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b",
+      "retried_at_utc": "2026-10-12T18:59:05.932450+00:00"
+    }
+  ]
 }

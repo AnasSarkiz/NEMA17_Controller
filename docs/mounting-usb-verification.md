@@ -1,8 +1,8 @@
 # Current mounting, connector and copper verification
 
-This is the v1.5.1 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
+This is the v1.6.0 **hardware prototype**, not a manufacturing release. The historical v1.4 evidence is in [history](history/v1.4-mounting-usb-verification.md).
 
-Board SHA-256: `027983306f6e14d97ed69e4582da4a2ff910c21eb91002e4c3a5926a6a228c70`. Saved copper: 415 traces, 189 plated vias and 38 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
+Board SHA-256: `677d0d923b619fb8f95e5cbbb5ab861f4d87428131e372a4142f606fa903b84b`. Saved copper: 415 traces, 189 plated vias and 38 ground regions. Native DRC reports 0 errors and 0 warnings. Independent Circuit JSON geometry checks 50 nets, with 0 disconnected nets. Independent parsing of the actual current Gerbers reports 0 opens and 0 shorts.
 
 The PCB remains **35 × 35 × 1.6 mm**, four layers. Source, saved JSON and actual native Gerber Excellon agree on exactly **Ø3.2 mm NPTH at (±13, ±13)**. The actual drill member is `drill_npth.drl`; its SHA-256 is `014c50469b18c0c9451d2781b9a083ee12655717153f358bb0df49fd12e64724`.
 
@@ -25,6 +25,7 @@ Rear-motor compatibility is **unverified**. The available motor drawing establis
 | native_source | PASS | `artifacts/validation-resume/native_source.txt` |
 | native_schematic-placement | PASS | `artifacts/validation-resume/native_schematic-placement.txt` |
 | native_placement | FAIL / review required | `artifacts/validation-resume/native_placement.txt` |
+| schematic_geometry_ERC | PASS | `artifacts/validation-resume/schematic_geometry_ERC.txt` |
 | every_trace_review | PASS | `artifacts/validation-resume/every_trace_review.txt` |
 | reference_feedback | PASS | `artifacts/validation-resume/reference_feedback.txt` |
 | gerber_shorts | PASS | `artifacts/validation-resume/gerber_shorts.txt` |
