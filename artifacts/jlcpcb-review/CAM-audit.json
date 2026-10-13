@@ -1,5 +1,5 @@
 {
-  "source_sha256": "9862e881e53654c5478927a5aa6a7d145bf222fd5c787f35bce9de2cf2dac3f7",
+  "source_sha256": "331941c3b23319a99b10ece6e460ae54e7dc9490ea69bf158e2f2d3e0789a062",
   "directory": "artifacts/jlcpcb-review/cam",
   "parser_versions": {
     "gerbonara": "1.5.0",

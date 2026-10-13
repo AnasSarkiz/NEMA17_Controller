@@ -411804,7 +411804,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411817,7 +411818,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411830,7 +411832,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411843,7 +411846,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411856,7 +411860,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411869,7 +411874,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411882,7 +411888,8 @@
     "y": -5.500105,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411895,7 +411902,8 @@
     "y": -6.498833,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411908,7 +411916,8 @@
     "y": -6.999213,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411921,7 +411930,8 @@
     "y": -7.499593,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411934,7 +411944,8 @@
     "y": -7.999973000000001,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411947,7 +411958,8 @@
     "y": -8.500353,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411960,7 +411972,8 @@
     "y": -9.000733,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411973,7 +411986,8 @@
     "y": -9.501113,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411986,7 +412000,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -411999,7 +412014,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412012,7 +412028,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412025,7 +412042,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412038,7 +412056,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412051,7 +412070,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412064,7 +412084,8 @@
     "y": -10.500095,
     "width": 0.6299987399999999,
     "height": 0.19600672,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412077,7 +412098,8 @@
     "y": -9.501113,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412090,7 +412112,8 @@
     "y": -9.000733,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412103,7 +412126,8 @@
     "y": -8.500352999999999,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412116,7 +412140,8 @@
     "y": -7.999972999999999,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412129,7 +412154,8 @@
     "y": -7.499592999999999,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412142,7 +412168,8 @@
     "y": -6.999212999999999,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412155,7 +412182,8 @@
     "y": -6.498832999999999,
     "width": 0.19600672,
     "height": 0.6299987399999999,
-    "ccw_rotation": 270
+    "ccw_rotation": 270,
+    "radius": 0.09800336
   },
   {
     "type": "pcb_solder_paste",
@@ -412974,7 +413002,8 @@
     "y": 11.468495,
     "width": 0.38500812,
     "height": 0.64189356,
-    "ccw_rotation": 0
+    "ccw_rotation": 0,
+    "radius": 0.19250406
   },
   {
     "type": "pcb_solder_paste",
@@ -412987,7 +413016,8 @@
     "y": 11.468495,
     "width": 0.38500812,
     "height": 0.64189356,
-    "ccw_rotation": 0
+    "ccw_rotation": 0,
+    "radius": 0.19250406
   },
   {
     "type": "pcb_solder_paste",
@@ -413000,7 +413030,8 @@
     "y": 13.135497,
     "width": 0.38500812,
     "height": 0.64189356,
-    "ccw_rotation": 0
+    "ccw_rotation": 0,
+    "radius": 0.19250406
   },
   {
     "type": "pcb_solder_paste",
@@ -413013,7 +413044,8 @@
     "y": 13.135497,
     "width": 0.38500812,
     "height": 0.64189356,
-    "ccw_rotation": 0
+    "ccw_rotation": 0,
+    "radius": 0.19250406
   },
   {
     "type": "pcb_solder_paste",
