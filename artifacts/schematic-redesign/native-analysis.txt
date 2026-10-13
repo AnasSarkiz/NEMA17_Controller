@@ -3,10 +3,6 @@
 <SchematicBoxPlacement componentName="J_PD" positionAnchor="center" schX="4" schY="14.8" width="1.6" height="3.2" />
 </SchematicBoxPositions>
 <SchematicPlacementIssues>
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="12" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="12" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="12" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="12" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
 <SchematicBoxInnerLabelCollision message="Inner labels are colliding. Increase the schWidth or schHeight." componentName="J_PD" currentSchWidth="1.6" currentSchHeight="3.2" overlappingSides="right,bottom" />
 </SchematicPlacementIssues>
 </SchematicSheet>
@@ -15,10 +11,6 @@
 <SchematicBoxPlacement componentName="J_DATA" positionAnchor="center" schX="4" schY="14.1" width="1.6" height="3.2" />
 </SchematicBoxPositions>
 <SchematicPlacementIssues>
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="11.3" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="11.3" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="11.3" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
-<SchematicTextCollision text="GND3/4 = GND1/2; VBUS3/4 = VBUS1/2" collidingObjectType="trace" newSchX="3" newSchY="11.3" message="Text &quot;GND3/4 = GND1/2; VBUS3/4 = VBUS1/2&quot; overlaps trace; reposition the text to leave its visible area clear." />
 <SchematicBoxInnerLabelCollision message="Inner labels are colliding. Increase the schWidth or schHeight." componentName="J_DATA" currentSchWidth="1.6" currentSchHeight="3.2" overlappingSides="right,bottom" />
 </SchematicPlacementIssues>
 </SchematicSheet>

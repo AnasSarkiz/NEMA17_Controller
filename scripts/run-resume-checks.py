@@ -13,6 +13,7 @@ for name,cmd in checks:
 j=json.loads((root/'artifacts/board.circuit.json').read_text());m=json.loads((root/'artifacts/mechanical/mount-usb-screen.json').read_text());sha=hashlib.sha256((root/'artifacts/board.circuit.json').read_bytes()).hexdigest();mechanical_current=m['board_sha256']==sha and m['passed']
 cam_path=root/'artifacts/manufacturing/audit.json';cam=json.loads(cam_path.read_text()) if cam_path.exists() else {};cam_current=cam.get('source_sha256')==sha
 if not cam_current:cam={'status':'NOT_COMPLETED_FOR_CURRENT_BOARD','issues':['See full_independent_CAM log; a stale audit is not validation evidence.']}
+(root/'artifacts/schematic-redesign/native-analysis.txt').write_bytes((out/'native_schematic-placement.txt').read_bytes())
 record={'board_sha256':sha,'checks':receipts,'native_STEP_mechanical_pass':bool(mechanical_current),'CAD_models_checked':m['native_STEP_models'],'physical_nets_checked':json.loads((root/'artifacts/physical-connectivity.json').read_text())['checkedNets'],'counts':{t:sum(e['type']==t for e in j) for t in ['pcb_trace','pcb_via','pcb_copper_pour']},'full_CAM_status':cam['status'],'remaining_CAM_findings':cam['issues'],'rear_motor_compatibility_verified':False,'prototype_fabrication_ready':False,'physical_hardware_tested':False}
 (root/'artifacts/resume-validation.json').write_text(json.dumps(record,indent=2)+'\n')
 # Fail the whole qualification if any required check failed. The public prototype
