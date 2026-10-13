@@ -1,10 +1,10 @@
 {
-  "native_board_sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
+  "native_board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
   "native_export_sha256": "ff07bc5385a29a4ba87c968c853e5a043f95f7a8c7f8236408a9a73b3a9d6f9e",
-  "order_source_sha256": "dbcdbf971af88d4eac327a5f0a0a8d746fab6e8f22192df457f42aacda314ef6",
-  "review_cam_sha256": "16e1bb2933a7b025cb7b451b844b2f373a2e4dfb97af0d484ea9aaffd20d87e0",
-  "fabrication_zip_sha256": "140f0d542bd9a178b9a58e33e062fe1780b34c4b0b93776c9545d5b32b5b1109",
-  "source_github_revision": "dd4b1bf5479a5771d2eeda3456daae399dce3c45",
+  "order_source_sha256": "56893b1a651d4052cee44678175609f2322ebe03d9ac96edf0fd005eee4d1dc6",
+  "review_cam_sha256": "6a907f237cc65a4377e7d7e0ebe678bd1feff57a6fab48083101d9fa6c17e19b",
+  "fabrication_zip_sha256": "cd947ea75a0cf51e48c725731ed9cc4565a16b91a542d245f5e267589e69c11b",
+  "source_github_revision": "e234acd30714a6a5d1c15baa10cf2bc6d1ef4b0c",
   "electrical_source_and_all_nonpaste_records_unchanged": true,
   "copied_unchanged_copper_mask_drill_outline": {
     "F_Cu.gbr": "98dd3cdf6840516d93853fd99886c2fffbe7e3b807aa42189b7777c26b3eb96e",

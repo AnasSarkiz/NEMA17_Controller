@@ -3,7 +3,7 @@
   "addedBootComponents": [],
   "sourcePinsAndNetsUnchanged": true,
   "pcbGeometrySha256": "b904c4bb76024e7fa9333a4e2f525a4de681a7e5755168c8a93dd3b615e638ff",
-  "boardSha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
+  "boardSha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
   "nativeA4Sheets": [
     {
       "type": "schematic_sheet",

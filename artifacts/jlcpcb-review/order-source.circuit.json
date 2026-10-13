@@ -395768,8 +395768,8 @@
     },
     "rotation": 0,
     "size": {
-      "width": 1.6,
-      "height": 3.2
+      "width": 2.2,
+      "height": 3.6
     },
     "port_arrangement": {
       "right_side": {
@@ -395828,8 +395828,8 @@
     "schematic_sheet_id": "schematic_sheet_0",
     "text": "J_PD",
     "position": {
-      "x": 3.2,
-      "y": 16.78
+      "x": 2.9,
+      "y": 16.98
     },
     "rotation": 0,
     "font_size": 0.27,
@@ -395843,8 +395843,8 @@
     "schematic_sheet_id": "schematic_sheet_0",
     "text": "TYPE-C-31-M-12",
     "position": {
-      "x": 6.6,
-      "y": 13.05
+      "x": 6.8999999999999995,
+      "y": 12.85
     },
     "rotation": 0,
     "font_size": 0.21,
@@ -395858,7 +395858,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": 3.825,
-      "y": 12.8
+      "y": 12.600000000000001
     },
     "source_port_id": "source_port_0",
     "facing_direction": "down",
@@ -395877,7 +395877,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": 3.625,
-      "y": 12.8
+      "y": 12.600000000000001
     },
     "source_port_id": "source_port_1",
     "facing_direction": "down",
@@ -395896,7 +395896,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": 4.225,
-      "y": 12.8
+      "y": 12.600000000000001
     },
     "source_port_id": "source_port_2",
     "facing_direction": "down",
@@ -395915,7 +395915,7 @@
     "schematic_component_id": "schematic_component_0",
     "center": {
       "x": 4.025,
-      "y": 12.8
+      "y": 12.600000000000001
     },
     "source_port_id": "source_port_3",
     "facing_direction": "down",
@@ -395933,7 +395933,7 @@
     "schematic_port_id": "schematic_port_4",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 13.950000000000001
     },
     "source_port_id": "source_port_4",
@@ -395952,7 +395952,7 @@
     "schematic_port_id": "schematic_port_5",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 15.65
     },
     "source_port_id": "source_port_5",
@@ -395971,7 +395971,7 @@
     "schematic_port_id": "schematic_port_6",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.5
     },
     "source_port_id": "source_port_6",
@@ -395990,7 +395990,7 @@
     "schematic_port_id": "schematic_port_7",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 15.100000000000001
     },
     "source_port_id": "source_port_7",
@@ -396009,7 +396009,7 @@
     "schematic_port_id": "schematic_port_8",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.700000000000001
     },
     "source_port_id": "source_port_8",
@@ -396028,7 +396028,7 @@
     "schematic_port_id": "schematic_port_9",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.9
     },
     "source_port_id": "source_port_9",
@@ -396047,7 +396047,7 @@
     "schematic_port_id": "schematic_port_10",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.15
     },
     "source_port_id": "source_port_10",
@@ -396066,7 +396066,7 @@
     "schematic_port_id": "schematic_port_11",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 15.45
     },
     "source_port_id": "source_port_11",
@@ -396085,7 +396085,7 @@
     "schematic_port_id": "schematic_port_12",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 13.600000000000001
     },
     "source_port_id": "source_port_12",
@@ -396104,7 +396104,7 @@
     "schematic_port_id": "schematic_port_13",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 13.4
     },
     "source_port_id": "source_port_13",
@@ -396123,7 +396123,7 @@
     "schematic_port_id": "schematic_port_14",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 16.200000000000003
     },
     "source_port_id": "source_port_14",
@@ -396143,7 +396143,7 @@
     "schematic_port_id": "schematic_port_15",
     "schematic_component_id": "schematic_component_0",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 16
     },
     "source_port_id": "source_port_15",
@@ -397433,18 +397433,18 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 16.200000000000003
         },
         "to": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 16.41
         },
         "from_schematic_port_id": "schematic_port_14"
       },
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 16.41
         },
         "to": {
@@ -397456,7 +397456,7 @@
     ],
     "junctions": [
       {
-        "x": 6.550000000000001,
+        "x": 6.8500000000000005,
         "y": 16.41
       }
     ]
@@ -398108,11 +398108,11 @@
       {
         "from": {
           "x": 3.825,
-          "y": 12.8
+          "y": 12.600000000000001
         },
         "to": {
           "x": 3.825,
-          "y": 12
+          "y": 11.8
         },
         "from_schematic_port_id": "schematic_port_0"
       }
@@ -398120,7 +398120,7 @@
     "junctions": [
       {
         "x": 3.825,
-        "y": 12
+        "y": 11.8
       }
     ]
   },
@@ -398134,11 +398134,11 @@
       {
         "from": {
           "x": 3.625,
-          "y": 12.8
+          "y": 12.600000000000001
         },
         "to": {
           "x": 3.625,
-          "y": 12
+          "y": 11.8
         },
         "from_schematic_port_id": "schematic_port_1"
       }
@@ -398155,11 +398155,11 @@
       {
         "from": {
           "x": 4.225,
-          "y": 12.8
+          "y": 12.600000000000001
         },
         "to": {
           "x": 4.225,
-          "y": 12
+          "y": 11.8
         },
         "from_schematic_port_id": "schematic_port_2"
       }
@@ -398176,11 +398176,11 @@
       {
         "from": {
           "x": 4.025,
-          "y": 12.8
+          "y": 12.600000000000001
         },
         "to": {
           "x": 4.025,
-          "y": 12
+          "y": 11.8
         },
         "from_schematic_port_id": "schematic_port_3"
       }
@@ -398188,7 +398188,7 @@
     "junctions": [
       {
         "x": 4.025,
-        "y": 12
+        "y": 11.8
       }
     ]
   },
@@ -398202,18 +398202,18 @@
       {
         "from": {
           "x": 3.625,
-          "y": 12
+          "y": 11.8
         },
         "to": {
           "x": 4.225,
-          "y": 12
+          "y": 11.8
         }
       }
     ],
     "junctions": [
       {
         "x": 3.925,
-        "y": 12
+        "y": 11.8
       }
     ]
   },
@@ -398227,11 +398227,11 @@
       {
         "from": {
           "x": 3.925,
-          "y": 12
+          "y": 11.8
         },
         "to": {
           "x": 3.925,
-          "y": 11.6
+          "y": 11.4
         }
       }
     ],
@@ -398246,11 +398246,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 3.925,
-      "y": 11.6
+      "y": 11.4
     },
     "center": {
       "x": 3.925,
-      "y": 11.51
+      "y": 11.31
     },
     "anchor_side": "top",
     "symbol_name": "rail_down"
@@ -398264,11 +398264,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 13.600000000000001
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 13.600000000000001
         },
         "from_schematic_port_id": "schematic_port_12"
@@ -398285,11 +398285,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 13.4
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 13.4
         },
         "from_schematic_port_id": "schematic_port_13"
@@ -398297,7 +398297,7 @@
     ],
     "junctions": [
       {
-        "x": 5.8500000000000005,
+        "x": 6.15,
         "y": 13.4
       }
     ]
@@ -398311,11 +398311,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 13.4
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 13.600000000000001
         }
       }
@@ -398331,11 +398331,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 13.4
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.9
         }
       }
@@ -398350,11 +398350,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
     "text": "GND",
     "anchor_position": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 12.9
     },
     "center": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 12.81
     },
     "anchor_side": "top",
@@ -398369,11 +398369,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 16.200000000000003
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 16.200000000000003
         },
         "from_schematic_port_id": "schematic_port_14"
@@ -398390,11 +398390,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 16
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 16
         },
         "from_schematic_port_id": "schematic_port_15"
@@ -398411,18 +398411,18 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 16
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 16.200000000000003
         }
       }
     ],
     "junctions": [
       {
-        "x": 5.8500000000000005,
+        "x": 6.15,
         "y": 16.1
       }
     ]
@@ -398436,21 +398436,21 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 16.1
         },
         "to": {
-          "x": 6.550000000000001,
+          "x": 6.8500000000000005,
           "y": 16.1
         }
       },
       {
         "from": {
-          "x": 6.550000000000001,
+          "x": 6.8500000000000005,
           "y": 16.1
         },
         "to": {
-          "x": 6.550000000000001,
+          "x": 6.8500000000000005,
           "y": 16.450000000000003
         }
       }
@@ -398465,11 +398465,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
     "text": "PD_VBUS",
     "anchor_position": {
-      "x": 6.550000000000001,
+      "x": 6.8500000000000005,
       "y": 16.450000000000003
     },
     "center": {
-      "x": 6.550000000000001,
+      "x": 6.8500000000000005,
       "y": 16.540000000000003
     },
     "anchor_side": "bottom",
@@ -398744,18 +398744,18 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 15.65
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 15.65
         },
         "from_schematic_port_id": "schematic_port_5"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 15.65
         },
         "to": {
@@ -398796,28 +398796,28 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 15.45
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 15.45
         },
         "from_schematic_port_id": "schematic_port_11"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 15.45
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 15.030000000000001
         }
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 15.030000000000001
         },
         "to": {
@@ -398903,11 +398903,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 13.875000000000002
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.025
       }
     ],
@@ -398921,11 +398921,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.025
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 13.875000000000002
       }
     ],
@@ -398939,11 +398939,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.425
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.575
       }
     ],
@@ -398957,11 +398957,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.575
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.425
       }
     ],
@@ -398975,11 +398975,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 15.025000000000002
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 15.175
       }
     ],
@@ -398993,11 +398993,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 15.175
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 15.025000000000002
       }
     ],
@@ -399011,11 +399011,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.625000000000002
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.775
       }
     ],
@@ -399029,11 +399029,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.775
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.625000000000002
       }
     ],
@@ -399047,11 +399047,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.825000000000001
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.975
       }
     ],
@@ -399065,11 +399065,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.975
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.825000000000001
       }
     ],
@@ -399083,11 +399083,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.075000000000001
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.225
       }
     ],
@@ -399101,11 +399101,11 @@
     "schematic_component_id": "schematic_component_0",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 14.225
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 14.075000000000001
       }
     ],
@@ -399819,8 +399819,8 @@
     },
     "rotation": 0,
     "size": {
-      "width": 1.6,
-      "height": 3.2
+      "width": 2.2,
+      "height": 3.6
     },
     "port_arrangement": {
       "right_side": {
@@ -399879,8 +399879,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "J_DATA",
     "position": {
-      "x": 3.2,
-      "y": 16.08
+      "x": 2.9,
+      "y": 16.28
     },
     "rotation": 0,
     "font_size": 0.27,
@@ -399894,8 +399894,8 @@
     "schematic_sheet_id": "schematic_sheet_1",
     "text": "TYPE-C-31-M-12",
     "position": {
-      "x": 6.6,
-      "y": 12.35
+      "x": 6.8999999999999995,
+      "y": 12.149999999999999
     },
     "rotation": 0,
     "font_size": 0.21,
@@ -399909,7 +399909,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 3.825,
-      "y": 12.1
+      "y": 11.899999999999999
     },
     "source_port_id": "source_port_16",
     "facing_direction": "down",
@@ -399928,7 +399928,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 3.625,
-      "y": 12.1
+      "y": 11.899999999999999
     },
     "source_port_id": "source_port_17",
     "facing_direction": "down",
@@ -399947,7 +399947,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 4.225,
-      "y": 12.1
+      "y": 11.899999999999999
     },
     "source_port_id": "source_port_18",
     "facing_direction": "down",
@@ -399966,7 +399966,7 @@
     "schematic_component_id": "schematic_component_1",
     "center": {
       "x": 4.025,
-      "y": 12.1
+      "y": 11.899999999999999
     },
     "source_port_id": "source_port_19",
     "facing_direction": "down",
@@ -399984,7 +399984,7 @@
     "schematic_port_id": "schematic_port_20",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 13.25
     },
     "source_port_id": "source_port_20",
@@ -400003,7 +400003,7 @@
     "schematic_port_id": "schematic_port_21",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.95
     },
     "source_port_id": "source_port_21",
@@ -400022,7 +400022,7 @@
     "schematic_port_id": "schematic_port_22",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 13.8
     },
     "source_port_id": "source_port_22",
@@ -400041,7 +400041,7 @@
     "schematic_port_id": "schematic_port_23",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.399999999999999
     },
     "source_port_id": "source_port_23",
@@ -400060,7 +400060,7 @@
     "schematic_port_id": "schematic_port_24",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14
     },
     "source_port_id": "source_port_24",
@@ -400079,7 +400079,7 @@
     "schematic_port_id": "schematic_port_25",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.2
     },
     "source_port_id": "source_port_25",
@@ -400098,7 +400098,7 @@
     "schematic_port_id": "schematic_port_26",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 13.45
     },
     "source_port_id": "source_port_26",
@@ -400117,7 +400117,7 @@
     "schematic_port_id": "schematic_port_27",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 14.75
     },
     "source_port_id": "source_port_27",
@@ -400136,7 +400136,7 @@
     "schematic_port_id": "schematic_port_28",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 12.899999999999999
     },
     "source_port_id": "source_port_28",
@@ -400155,7 +400155,7 @@
     "schematic_port_id": "schematic_port_29",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 12.7
     },
     "source_port_id": "source_port_29",
@@ -400174,7 +400174,7 @@
     "schematic_port_id": "schematic_port_30",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 15.5
     },
     "source_port_id": "source_port_30",
@@ -400194,7 +400194,7 @@
     "schematic_port_id": "schematic_port_31",
     "schematic_component_id": "schematic_component_1",
     "center": {
-      "x": 5.2,
+      "x": 5.5,
       "y": 15.3
     },
     "source_port_id": "source_port_31",
@@ -400871,11 +400871,11 @@
       {
         "from": {
           "x": 3.825,
-          "y": 12.1
+          "y": 11.899999999999999
         },
         "to": {
           "x": 3.825,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         },
         "from_schematic_port_id": "schematic_port_16"
       }
@@ -400883,7 +400883,7 @@
     "junctions": [
       {
         "x": 3.825,
-        "y": 11.299999999999999
+        "y": 11.099999999999998
       }
     ]
   },
@@ -400897,11 +400897,11 @@
       {
         "from": {
           "x": 3.625,
-          "y": 12.1
+          "y": 11.899999999999999
         },
         "to": {
           "x": 3.625,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         },
         "from_schematic_port_id": "schematic_port_17"
       }
@@ -400918,11 +400918,11 @@
       {
         "from": {
           "x": 4.225,
-          "y": 12.1
+          "y": 11.899999999999999
         },
         "to": {
           "x": 4.225,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         },
         "from_schematic_port_id": "schematic_port_18"
       }
@@ -400939,11 +400939,11 @@
       {
         "from": {
           "x": 4.025,
-          "y": 12.1
+          "y": 11.899999999999999
         },
         "to": {
           "x": 4.025,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         },
         "from_schematic_port_id": "schematic_port_19"
       }
@@ -400951,7 +400951,7 @@
     "junctions": [
       {
         "x": 4.025,
-        "y": 11.299999999999999
+        "y": 11.099999999999998
       }
     ]
   },
@@ -400965,18 +400965,18 @@
       {
         "from": {
           "x": 3.625,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         },
         "to": {
           "x": 4.225,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         }
       }
     ],
     "junctions": [
       {
         "x": 3.925,
-        "y": 11.299999999999999
+        "y": 11.099999999999998
       }
     ]
   },
@@ -400990,11 +400990,11 @@
       {
         "from": {
           "x": 3.925,
-          "y": 11.299999999999999
+          "y": 11.099999999999998
         },
         "to": {
           "x": 3.925,
-          "y": 10.899999999999999
+          "y": 10.699999999999998
         }
       }
     ],
@@ -401009,11 +401009,11 @@
     "text": "GND",
     "anchor_position": {
       "x": 3.925,
-      "y": 10.899999999999999
+      "y": 10.699999999999998
     },
     "center": {
       "x": 3.925,
-      "y": 10.809999999999999
+      "y": 10.609999999999998
     },
     "anchor_side": "top",
     "symbol_name": "rail_down"
@@ -401027,11 +401027,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 12.899999999999999
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.899999999999999
         },
         "from_schematic_port_id": "schematic_port_28"
@@ -401048,11 +401048,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 12.7
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.7
         },
         "from_schematic_port_id": "schematic_port_29"
@@ -401060,7 +401060,7 @@
     ],
     "junctions": [
       {
-        "x": 5.8500000000000005,
+        "x": 6.15,
         "y": 12.7
       }
     ]
@@ -401074,11 +401074,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.7
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.899999999999999
         }
       }
@@ -401094,11 +401094,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.7
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 12.2
         }
       }
@@ -401113,11 +401113,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
     "text": "GND",
     "anchor_position": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 12.2
     },
     "center": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 12.11
     },
     "anchor_side": "top",
@@ -401132,32 +401132,32 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 15.5
         },
         "to": {
-          "x": 5.65,
+          "x": 5.95,
           "y": 15.5
         }
       },
       {
         "from": {
-          "x": 5.65,
+          "x": 5.95,
           "y": 15.5
         },
         "to": {
-          "x": 5.75,
+          "x": 6.05,
           "y": 15.5
         },
         "is_crossing": true
       },
       {
         "from": {
-          "x": 5.75,
+          "x": 6.05,
           "y": 15.5
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 15.5
         }
       }
@@ -401173,32 +401173,32 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 15.3
         },
         "to": {
-          "x": 5.65,
+          "x": 5.95,
           "y": 15.3
         }
       },
       {
         "from": {
-          "x": 5.65,
+          "x": 5.95,
           "y": 15.3
         },
         "to": {
-          "x": 5.75,
+          "x": 6.05,
           "y": 15.3
         },
         "is_crossing": true
       },
       {
         "from": {
-          "x": 5.75,
+          "x": 6.05,
           "y": 15.3
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 15.3
         }
       }
@@ -401214,18 +401214,18 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 15.3
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 15.5
         }
       }
     ],
     "junctions": [
       {
-        "x": 5.8500000000000005,
+        "x": 6.15,
         "y": 15.4
       }
     ]
@@ -401239,21 +401239,21 @@
     "edges": [
       {
         "from": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 15.4
         },
         "to": {
-          "x": 6.550000000000001,
+          "x": 6.8500000000000005,
           "y": 15.4
         }
       },
       {
         "from": {
-          "x": 6.550000000000001,
+          "x": 6.8500000000000005,
           "y": 15.4
         },
         "to": {
-          "x": 6.550000000000001,
+          "x": 6.8500000000000005,
           "y": 15.75
         }
       }
@@ -401268,11 +401268,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "text": "DATA_VBUS",
     "anchor_position": {
-      "x": 6.550000000000001,
+      "x": 6.8500000000000005,
       "y": 15.75
     },
     "center": {
-      "x": 6.550000000000001,
+      "x": 6.8500000000000005,
       "y": 15.84
     },
     "anchor_side": "bottom",
@@ -401287,28 +401287,28 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14.95
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.95
         },
         "from_schematic_port_id": "schematic_port_21"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.95
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 17.275
         }
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 17.275
         },
         "to": {
@@ -401339,32 +401339,32 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 13.8
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 13.8
         },
         "from_schematic_port_id": "schematic_port_22"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 13.8
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 14
         }
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 14
         },
         "to": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14
         },
         "to_schematic_port_id": "schematic_port_24"
@@ -401372,7 +401372,7 @@
     ],
     "junctions": [
       {
-        "x": 5.7,
+        "x": 6,
         "y": 13.8
       }
     ]
@@ -401386,18 +401386,18 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 13.8
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 13.8
         },
         "from_schematic_port_id": "schematic_port_22"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 13.8
         },
         "to": {
@@ -401526,32 +401526,32 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14.399999999999999
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.399999999999999
         },
         "from_schematic_port_id": "schematic_port_23"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.399999999999999
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.2
         }
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.2
         },
         "to": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14.2
         },
         "to_schematic_port_id": "schematic_port_25"
@@ -401559,11 +401559,11 @@
     ],
     "junctions": [
       {
-        "x": 5.7,
+        "x": 6,
         "y": 14.399999999999999
       },
       {
-        "x": 5.7,
+        "x": 6,
         "y": 14.2
       }
     ]
@@ -401577,38 +401577,38 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14.75
         },
         "to": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.75
         },
         "from_schematic_port_id": "schematic_port_27"
       },
       {
         "from": {
-          "x": 5.7,
+          "x": 6,
           "y": 14.75
         },
         "to": {
-          "x": 9.3,
+          "x": 9.6,
           "y": 14.75
         }
       },
       {
         "from": {
-          "x": 9.3,
+          "x": 9.6,
           "y": 14.75
         },
         "to": {
-          "x": 9.3,
+          "x": 9.6,
           "y": 17.275
         }
       },
       {
         "from": {
-          "x": 9.3,
+          "x": 9.6,
           "y": 17.275
         },
         "to": {
@@ -401689,11 +401689,11 @@
     "schematic_component_id": "schematic_component_1",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 13.175
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 13.325
       }
     ],
@@ -401707,11 +401707,11 @@
     "schematic_component_id": "schematic_component_1",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 13.325
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 13.175
       }
     ],
@@ -401727,11 +401727,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 13.8
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 13.8
         },
         "from_schematic_port_id": "schematic_port_22"
@@ -401747,11 +401747,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8",
     "text": "USB_DM",
     "anchor_position": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 13.8
     },
     "center": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 13.8
     },
     "anchor_side": "left"
@@ -401765,11 +401765,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14.399999999999999
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 14.399999999999999
         },
         "from_schematic_port_id": "schematic_port_23"
@@ -401785,11 +401785,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
     "text": "USB_DP",
     "anchor_position": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 14.399999999999999
     },
     "center": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 14.399999999999999
     },
     "anchor_side": "left"
@@ -401803,11 +401803,11 @@
     "edges": [
       {
         "from": {
-          "x": 5.2,
+          "x": 5.5,
           "y": 14.2
         },
         "to": {
-          "x": 5.8500000000000005,
+          "x": 6.15,
           "y": 14.2
         },
         "from_schematic_port_id": "schematic_port_25"
@@ -401823,11 +401823,11 @@
     "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
     "text": "USB_DP",
     "anchor_position": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 14.2
     },
     "center": {
-      "x": 5.8500000000000005,
+      "x": 6.15,
       "y": 14.2
     },
     "anchor_side": "left"
@@ -401839,11 +401839,11 @@
     "schematic_component_id": "schematic_component_1",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 13.375
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 13.524999999999999
       }
     ],
@@ -401857,11 +401857,11 @@
     "schematic_component_id": "schematic_component_1",
     "points": [
       {
-        "x": 5.125,
+        "x": 5.425,
         "y": 13.524999999999999
       },
       {
-        "x": 5.275,
+        "x": 5.575,
         "y": 13.375
       }
     ],

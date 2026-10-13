@@ -1,5 +1,5 @@
 {
-  "source_sha256": "dbcdbf971af88d4eac327a5f0a0a8d746fab6e8f22192df457f42aacda314ef6",
+  "source_sha256": "56893b1a651d4052cee44678175609f2322ebe03d9ac96edf0fd005eee4d1dc6",
   "directory": "artifacts/jlcpcb-review/cam",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -182,7 +182,7 @@
   "issues": [],
   "archive": {
     "path": "/workspace/nema14-ch32-board/artifacts/jlcpcb-review/review-cam.zip",
-    "sha256": "16e1bb2933a7b025cb7b451b844b2f373a2e4dfb97af0d484ea9aaffd20d87e0",
+    "sha256": "6a907f237cc65a4377e7d7e0ebe678bd1feff57a6fab48083101d9fa6c17e19b",
     "extracted_bytes_verified": true,
     "members": {
       "B_Cu.gbr": "0ba5aaf4299442a2a4d54a02500f235862fd4968ebffbe23deefe0d3d26f3866",
