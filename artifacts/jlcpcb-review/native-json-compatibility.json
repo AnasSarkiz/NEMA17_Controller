@@ -1,11 +1,11 @@
 {
-  "native_board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
-  "order_source_sha256": "331941c3b23319a99b10ece6e460ae54e7dc9490ea69bf158e2f2d3e0789a062",
+  "native_board_sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
+  "order_source_sha256": "dbcdbf971af88d4eac327a5f0a0a8d746fab6e8f22192df457f42aacda314ef6",
   "strict_full_native_schema_passed": false,
   "legacy_native_schema_findings": [
     {
       "type": "source_component",
-      "id": "source_component_57",
+      "id": "source_component_55",
       "name": "BZ1"
     },
     {
@@ -261,6 +261,22 @@
       "id": "pcb_component_62"
     },
     {
+      "type": "pcb_component",
+      "id": "pcb_component_63"
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_64"
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_65"
+    },
+    {
+      "type": "pcb_component",
+      "id": "pcb_component_66"
+    },
+    {
       "type": "pcb_hole",
       "id": "pcb_hole_0"
     },
@@ -311,7 +327,7 @@
   ],
   "findings_by_type": {
     "source_component": 1,
-    "pcb_component": 63,
+    "pcb_component": 67,
     "pcb_hole": 4,
     "pcb_silkscreen_circle": 4,
     "pcb_silkscreen_text": 4

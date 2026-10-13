@@ -113,5 +113,24 @@
       "freerouted_trace_319"
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_0_GND_0_layer_section_1",
+      "same_side_repair_0_PD_VBUS_0_layer_section_0",
+      "same_side_repair_0_PD_VBUS_0_layer_section_2",
+      "same_side_repair_0_V3V3_0_layer_section_1"
+    ],
+    "retained_live_traces": [
+      "freerouted_trace_319"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [],
+    "retained_live_traces": [
+      "same_side_repair_16_SLEEP_0"
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

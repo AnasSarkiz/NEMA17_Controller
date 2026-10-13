@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "manufacturer_part_number": "B4B-PH-K-S(LF)(SN)",
-  "supplier_id": "C131334",
-  "mating_housing": "PHR-4",
+  "manufacturer_part_number": "BM04B-SRSS-TB(LF)(SN)",
+  "supplier_id": "C160390",
+  "mating_housing": "SHR-04V-S",
   "pins_1_through_4": [
     "A_PLUS",
     "A_MINUS",
@@ -12,144 +12,231 @@
   "source_saved_delivered_checks": [
     {
       "path": "artifacts/final-source.circuit.json",
-      "sha256": "650299d3573fc1d2698c5bf193961bb6b744d99765fbe2690b31fed52c241853",
-      "pins_and_native_drills": [
+      "sha256": "e81d1464634d1a40476ae8a5136c5a1498852c27a028cd68755013e8506935e0",
+      "pins_and_native_pads": [
         {
           "pin": 1,
           "net": "A_PLUS",
-          "x": -2.999994,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -0.050002999999999576,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 2,
           "net": "A_MINUS",
-          "x": -0.9999979999999999,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -1.0500009999999995,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 3,
           "net": "B_PLUS",
-          "x": 0.9999980000000002,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -2.0499989999999997,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 4,
           "net": "B_MINUS",
-          "x": 2.999994,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -3.0499969999999994,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
+        },
+        {
+          "pin": 5,
+          "net": null,
+          "x": 1.249969,
+          "y": -15.770010300000001,
+          "width": 1.1999976,
+          "height": 1.7999964
+        },
+        {
+          "pin": 6,
+          "net": null,
+          "x": -4.349969,
+          "y": -15.7700103,
+          "width": 1.1999976,
+          "height": 1.7999964
         }
       ]
     },
     {
       "path": "artifacts/board.circuit.json",
-      "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
-      "pins_and_native_drills": [
+      "sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
+      "pins_and_native_pads": [
         {
           "pin": 1,
           "net": "A_PLUS",
-          "x": -2.999994,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -0.050002999999999576,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 2,
           "net": "A_MINUS",
-          "x": -0.9999979999999999,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -1.0500009999999995,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 3,
           "net": "B_PLUS",
-          "x": 0.9999980000000002,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -2.0499989999999997,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 4,
           "net": "B_MINUS",
-          "x": 2.999994,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -3.0499969999999994,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
+        },
+        {
+          "pin": 5,
+          "net": null,
+          "x": 1.249969,
+          "y": -15.770010300000001,
+          "width": 1.1999976,
+          "height": 1.7999964
+        },
+        {
+          "pin": 6,
+          "net": null,
+          "x": -4.349969,
+          "y": -15.7700103,
+          "width": 1.1999976,
+          "height": 1.7999964
         }
       ]
     },
     {
       "path": "index.circuit.json",
-      "sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
-      "pins_and_native_drills": [
+      "sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
+      "pins_and_native_pads": [
         {
           "pin": 1,
           "net": "A_PLUS",
-          "x": -2.999994,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -0.050002999999999576,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 2,
           "net": "A_MINUS",
-          "x": -0.9999979999999999,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -1.0500009999999995,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 3,
           "net": "B_PLUS",
-          "x": 0.9999980000000002,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -2.0499989999999997,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
         },
         {
           "pin": 4,
           "net": "B_MINUS",
-          "x": 2.999994,
-          "y": -14.249963000000001,
-          "drill_diameter_mm": 0.999998
+          "x": -3.0499969999999994,
+          "y": -13.2449963,
+          "width": 0.5999988,
+          "height": 1.5500096
+        },
+        {
+          "pin": 5,
+          "net": null,
+          "x": 1.249969,
+          "y": -15.770010300000001,
+          "width": 1.1999976,
+          "height": 1.7999964
+        },
+        {
+          "pin": 6,
+          "net": null,
+          "x": -4.349969,
+          "y": -15.7700103,
+          "width": 1.1999976,
+          "height": 1.7999964
         }
       ]
     }
   ],
-  "actual_archive_sha256": "9c441b73dc777c1e4d36380d37f0e07e3db5345ede06020207e9196bf9112b2a",
-  "actual_plated_drill_file": "drill-L1-L4.drl",
-  "actual_plated_drill_sha256": "7bcb8f7129052e48a36e10eb5c686e4ae6c970a5cf4293b0e55d8af7b5815060",
-  "actual_JST_drill_matches": [
+  "actual_JST_copper_matches": [
     {
       "pin": 1,
       "net": "A_PLUS",
-      "actual_excellon_x_mm": -3.0,
-      "actual_excellon_y_mm": -14.25,
-      "actual_tool_diameter_mm": 0.999998
+      "actual_Gerber_bounds_mm": [
+        -0.3500025,
+        -14.020001,
+        0.24999649999999998,
+        -12.469991
+      ]
     },
     {
       "pin": 2,
       "net": "A_MINUS",
-      "actual_excellon_x_mm": -1.0,
-      "actual_excellon_y_mm": -14.25,
-      "actual_tool_diameter_mm": 0.999998
+      "actual_Gerber_bounds_mm": [
+        -1.3500005,
+        -14.020001,
+        -0.7500015,
+        -12.469991
+      ]
     },
     {
       "pin": 3,
       "net": "B_PLUS",
-      "actual_excellon_x_mm": 1.0,
-      "actual_excellon_y_mm": -14.25,
-      "actual_tool_diameter_mm": 0.999998
+      "actual_Gerber_bounds_mm": [
+        -2.3499985,
+        -14.020001,
+        -1.7499995000000002,
+        -12.469991
+      ]
     },
     {
       "pin": 4,
       "net": "B_MINUS",
-      "actual_excellon_x_mm": 3.0,
-      "actual_excellon_y_mm": -14.25,
-      "actual_tool_diameter_mm": 0.999998
+      "actual_Gerber_bounds_mm": [
+        -3.3499964999999996,
+        -14.020001,
+        -2.7499975,
+        -12.469991
+      ]
+    },
+    {
+      "pin": 5,
+      "net": null,
+      "actual_Gerber_bounds_mm": [
+        0.6499700000000002,
+        -16.670008,
+        1.849968,
+        -14.870012
+      ]
+    },
+    {
+      "pin": 6,
+      "net": null,
+      "actual_Gerber_bounds_mm": [
+        -4.949968,
+        -16.670008,
+        -3.74997,
+        -14.870012
+      ]
     }
   ],
-  "drill_comparison_tolerance_mm": 0.0001,
-  "native_and_supplier_BOM_include_fitted_JST": true,
-  "native_BOM_value": "C131334",
-  "native_BOM_identity_policy_requires_assembly_review": true,
+  "actual_JST_drill_matches": [],
+  "JST_drilled_terminals": 0,
   "original_STEP_and_OBJ_hashes_verified": true,
   "rear_motor_compatibility_verified": false
 }

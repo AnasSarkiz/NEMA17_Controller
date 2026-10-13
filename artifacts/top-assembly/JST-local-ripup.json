@@ -1,0 +1,10 @@
+[
+  {
+    "id": "freerouted_trace_300",
+    "net": "VREG"
+  },
+  {
+    "id": "same_side_repair_3_B_PLUS_0_rerouted",
+    "net": "B_PLUS"
+  }
+]

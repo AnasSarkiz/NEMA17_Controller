@@ -161,7 +161,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT; USB shell tabs need secondary soldering"
   },
   {
     "reference": "J_DATA",
@@ -325,7 +325,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT; USB shell tabs need secondary soldering"
   },
   {
     "reference": "U_PD",
@@ -440,7 +440,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_PD",
@@ -474,7 +474,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_PD",
@@ -508,15 +508,15 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_PG",
     "part": "C25804",
     "mpn": "0603WAF1002T5E",
     "center_mm": {
-      "x": 16.315,
-      "y": -14.56
+      "x": 16.31,
+      "y": -14.54
     },
     "layer": "top",
     "rotation_deg": 90,
@@ -527,8 +527,8 @@
           "pin2"
         ],
         "center_mm": [
-          16.315,
-          -13.806636000000001
+          16.31,
+          -13.786635999999998
         ]
       },
       {
@@ -536,13 +536,13 @@
           "pin1"
         ],
         "center_mm": [
-          16.315,
-          -15.313364000000002
+          16.31,
+          -15.293364
         ]
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "U_MCU",
@@ -819,7 +819,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_MCU",
@@ -853,7 +853,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_LOGIC",
@@ -887,7 +887,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_CC1",
@@ -921,7 +921,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_CC2",
@@ -955,7 +955,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_USB_SENSE_H",
@@ -989,7 +989,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_USB_SENSE_L",
@@ -1023,7 +1023,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_VM_H",
@@ -1057,7 +1057,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_VM_L",
@@ -1091,7 +1091,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_VM_SENSE",
@@ -1125,7 +1125,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "U_BUCK",
@@ -1195,7 +1195,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "D_PD",
@@ -1233,7 +1233,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "D_DATA",
@@ -1271,7 +1271,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "U_DRV",
@@ -1548,7 +1548,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_CP",
@@ -1582,7 +1582,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_VCP",
@@ -1616,7 +1616,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_VREG",
@@ -1650,7 +1650,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_DRV_LOGIC",
@@ -1684,7 +1684,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_VM",
@@ -1718,7 +1718,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_BULK",
@@ -1752,7 +1752,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_SA",
@@ -1786,7 +1786,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_SB",
@@ -1820,7 +1820,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_REF_H",
@@ -1854,7 +1854,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_REF_L",
@@ -1888,7 +1888,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_REF",
@@ -1922,7 +1922,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_ENABLE",
@@ -1956,15 +1956,15 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_SLEEP",
     "part": "C25803",
     "mpn": "0603WAF1003T5E",
     "center_mm": {
-      "x": 16.315,
-      "y": 13.875
+      "x": 16.31,
+      "y": 14.13
     },
     "layer": "top",
     "rotation_deg": 90,
@@ -1975,8 +1975,8 @@
           "pin2"
         ],
         "center_mm": [
-          16.315,
-          14.628364
+          16.31,
+          14.883364000000002
         ]
       },
       {
@@ -1984,69 +1984,83 @@
           "pin1"
         ],
         "center_mm": [
-          16.315,
-          13.121636
+          16.31,
+          13.376636
         ]
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "J_MOTOR",
-    "part": "C131334",
-    "mpn": "B4B-PH-K-S(LF)(SN)",
+    "part": "C160390",
+    "mpn": "BM04B-SRSS-TB(LF)(SN)",
     "center_mm": {
-      "x": 0,
-      "y": -14.249963000000001
+      "x": -1.5499999999999996,
+      "y": -14.57
     },
     "layer": "top",
     "rotation_deg": 180,
-    "pin1_location": "bottomside_right",
+    "pin1_location": "bottomside_left",
     "physical_pads": [
       {
         "pin_hints": [
-          "unnamed_platedhole9",
-          "pin2"
-        ],
-        "center_mm": [
-          -0.9999980000000002,
-          -14.249963000000003
-        ]
-      },
-      {
-        "pin_hints": [
-          "unnamed_platedhole10",
           "pin1"
         ],
         "center_mm": [
-          -2.9999940000000005,
-          -14.249963000000008
+          -0.05000299999999957,
+          -13.244996300000002
         ]
       },
       {
         "pin_hints": [
-          "unnamed_platedhole11",
+          "pin2"
+        ],
+        "center_mm": [
+          -1.0500009999999993,
+          -13.244996299999999
+        ]
+      },
+      {
+        "pin_hints": [
           "pin3"
         ],
         "center_mm": [
-          0.9999980000000004,
-          -14.249963
+          -2.0499989999999997,
+          -13.2449963
         ]
       },
       {
         "pin_hints": [
-          "unnamed_platedhole12",
           "pin4"
         ],
         "center_mm": [
-          2.9999940000000005,
-          -14.249963000000008
+          -3.049997,
+          -13.2449963
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          1.249969,
+          -15.770010300000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          -4.349969,
+          -15.770010299999997
         ]
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "THT hand solder or supplier quoted secondary operation"
+    "process": "top-side SMT"
   },
   {
     "reference": "U_ESD",
@@ -2116,7 +2130,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "D_TVS",
@@ -2150,7 +2164,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_USB_BOOT",
@@ -2184,7 +2198,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "L_BUCK",
@@ -2218,7 +2232,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_BOOTSTRAP",
@@ -2252,7 +2266,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_BUCK_IN",
@@ -2286,7 +2300,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_BUCK_OUT1",
@@ -2320,7 +2334,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_BUCK_OUT2",
@@ -2354,7 +2368,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "U_TEMP",
@@ -2424,7 +2438,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_TEMP",
@@ -2458,7 +2472,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_TEMP_SDA",
@@ -2492,7 +2506,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_TEMP_SCL",
@@ -2526,7 +2540,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "D_PWR",
@@ -2564,7 +2578,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_PWR_LED",
@@ -2598,7 +2612,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "D_STATUS",
@@ -2650,7 +2664,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_STATUS_R",
@@ -2684,7 +2698,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "Q_STATUS_R",
@@ -2727,7 +2741,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_STATUS_G",
@@ -2761,7 +2775,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "Q_STATUS_G",
@@ -2804,7 +2818,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_STATUS_B",
@@ -2838,7 +2852,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "Q_STATUS_B",
@@ -2881,7 +2895,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "BZ1",
@@ -2933,7 +2947,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "Q_BUZZER",
@@ -2976,7 +2990,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "D_BUZZER",
@@ -3014,7 +3028,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_BUZZER_GATE",
@@ -3048,7 +3062,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "R_BUZZER_PD",
@@ -3082,7 +3096,7 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   },
   {
     "reference": "C_BUZZER",
@@ -3116,6 +3130,6 @@
       }
     ],
     "manufacturer_pickup_datum_and_rotation_approved": false,
-    "process": "SMT"
+    "process": "top-side SMT"
   }
 ]

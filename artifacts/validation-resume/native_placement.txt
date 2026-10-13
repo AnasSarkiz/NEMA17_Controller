@@ -8,7 +8,7 @@ worst issues:
 5. R_PWR_LED connections cross the routing path between its pads. Suggested move: rotate R_PWR_LED 180 degrees.
 
 board top-layer utilization:
-- occupied: 65.955% (807.945mm^2 of 1225mm^2)
+- occupied: 64.235% (786.875mm^2 of 1225mm^2)
 - empty spaces over 5% of board area: none
 
 board-edge status:
@@ -17,7 +17,7 @@ board-edge status:
 - U_PD: 9.27mm inside left edge
 - R_PD: 1.126mm inside bottom edge
 - C_PD: 7.02mm inside right edge
-- R_PG: 0.753mm inside right edge
+- R_PG: 0.758mm inside right edge
 - U_MCU: 11.55mm inside right edge
 - C_MCU: 14.4mm inside bottom edge
 - C_LOGIC: 13.2mm inside bottom edge
@@ -44,13 +44,11 @@ board-edge status:
 - R_REF_L: 9.28mm inside top edge
 - C_REF: 10.95mm inside right edge
 - R_ENABLE: 7.64mm inside top edge
-- R_SLEEP: 0.753mm inside right edge
-- J_MOTOR: 2.45mm inside top edge
-- J_DEBUG: 1.25mm inside top edge
+- R_SLEEP: 0.758mm inside right edge
+- J_MOTOR: 0.83mm inside top edge
 - U_ESD: 4.444mm inside top edge
 - D_TVS: 9.55mm inside bottom edge
 - R_USB_BOOT: 9.42mm inside bottom edge
-- J_BOOT: 0.8mm inside right edge
 - L_BUCK: 4.57mm inside left edge
 - C_BOOTSTRAP: 4.77mm inside left edge
 - C_BUCK_IN: 1.93mm inside left edge
@@ -75,6 +73,12 @@ board-edge status:
 - R_BUZZER_GATE: 0.754mm inside right edge
 - R_BUZZER_PD: 5.029mm inside right edge
 - C_BUZZER: 4.55mm inside top edge
+- TP_3V3: 1.45mm inside top edge
+- TP_GND: 1.45mm inside top edge
+- TP_DCK: 1.45mm inside top edge
+- TP_DIO: 1.45mm inside top edge
+- TP_BOOT: 0.85mm inside right edge
+- TP_BOOT_USB_DP: 0.85mm inside right edge
 
 flagged components:
 - R_VM_L

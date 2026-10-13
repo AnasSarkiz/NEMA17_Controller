@@ -1,0 +1,378 @@
+{
+  "status": "OPTIMAL",
+  "moves": [
+    {
+      "reference": "R_PD",
+      "old_center": {
+        "x": 12.796602,
+        "y": 15.942003
+      },
+      "new_center": {
+        "x": 12.8,
+        "y": 15.94
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_PD",
+      "old_center": {
+        "x": 9.380023,
+        "y": 4.059999
+      },
+      "new_center": {
+        "x": 9.38,
+        "y": 4.06
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_PG",
+      "old_center": {
+        "x": 16.315,
+        "y": -14.56
+      },
+      "new_center": {
+        "x": 16.31,
+        "y": -14.54
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_LOGIC",
+      "old_center": {
+        "x": -0.44499500000000003,
+        "y": 2.595
+      },
+      "new_center": {
+        "x": -0.44,
+        "y": 2.6
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_USB_SENSE_H",
+      "old_center": {
+        "x": -12.805,
+        "y": 16.315
+      },
+      "new_center": {
+        "x": -12.8,
+        "y": 16.31
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_USB_SENSE_L",
+      "old_center": {
+        "x": 2.106602,
+        "y": 6.512003
+      },
+      "new_center": {
+        "x": 2.11,
+        "y": 6.51
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_VM_H",
+      "old_center": {
+        "x": -15.974999999999998,
+        "y": 15.59
+      },
+      "new_center": {
+        "x": -15.97,
+        "y": 15.59
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_VM_L",
+      "old_center": {
+        "x": -6.625,
+        "y": -16.315
+      },
+      "new_center": {
+        "x": -6.62,
+        "y": -16.31
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_VM_SENSE",
+      "old_center": {
+        "x": 14.580023,
+        "y": -16.670001
+      },
+      "new_center": {
+        "x": 14.58,
+        "y": -16.67
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_CP",
+      "old_center": {
+        "x": -4.689885,
+        "y": -9.589998
+      },
+      "new_center": {
+        "x": -4.69,
+        "y": -9.59
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_VCP",
+      "old_center": {
+        "x": -7.559885,
+        "y": -8.199998
+      },
+      "new_center": {
+        "x": -7.56,
+        "y": -8.2
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_VREG",
+      "old_center": {
+        "x": -4.689977,
+        "y": -11.490001
+      },
+      "new_center": {
+        "x": -4.69,
+        "y": -11.49
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_DRV_LOGIC",
+      "old_center": {
+        "x": 4.710115,
+        "y": -9.989998
+      },
+      "new_center": {
+        "x": 4.71,
+        "y": -9.99
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_VM",
+      "old_center": {
+        "x": 0.510115,
+        "y": -3.289998
+      },
+      "new_center": {
+        "x": 0.51,
+        "y": -3.29
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_BULK",
+      "old_center": {
+        "x": -12.05,
+        "y": -5.4
+      },
+      "new_center": {
+        "x": -12.06,
+        "y": -5.4
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_SA",
+      "old_center": {
+        "x": -4.351495,
+        "y": -6.6337340000000005
+      },
+      "new_center": {
+        "x": -4.35,
+        "y": -6.63
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_REF_H",
+      "old_center": {
+        "x": 2.436602,
+        "y": -2.057997
+      },
+      "new_center": {
+        "x": 2.44,
+        "y": -2.06
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_REF_L",
+      "old_center": {
+        "x": 6.006602,
+        "y": -7.787997
+      },
+      "new_center": {
+        "x": 6.01,
+        "y": -7.79
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_ENABLE",
+      "old_center": {
+        "x": -7.073398,
+        "y": -9.427997
+      },
+      "new_center": {
+        "x": -7.07,
+        "y": -9.43
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_SLEEP",
+      "old_center": {
+        "x": 16.315,
+        "y": 13.875
+      },
+      "new_center": {
+        "x": 16.31,
+        "y": 14.13
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "J_MOTOR",
+      "old_center": {
+        "x": -4.5,
+        "y": -14.5
+      },
+      "new_center": {
+        "x": -1.55,
+        "y": -14.57
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_USB_BOOT",
+      "old_center": {
+        "x": 2.705645,
+        "y": 7.810002000000001
+      },
+      "new_center": {
+        "x": 2.71,
+        "y": 7.81
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_BOOTSTRAP",
+      "old_center": {
+        "x": -12.459998,
+        "y": 2.460115
+      },
+      "new_center": {
+        "x": -12.46,
+        "y": 2.46
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_BUCK_IN",
+      "old_center": {
+        "x": -14.706006,
+        "y": 4.125085
+      },
+      "new_center": {
+        "x": -14.71,
+        "y": 4.13
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_BUCK_OUT1",
+      "old_center": {
+        "x": -13.355,
+        "y": 9.805005
+      },
+      "new_center": {
+        "x": -13.36,
+        "y": 9.81
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_BUCK_OUT2",
+      "old_center": {
+        "x": -15.165000000000001,
+        "y": 7.745005
+      },
+      "new_center": {
+        "x": -15.16,
+        "y": 7.75
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "C_TEMP",
+      "old_center": {
+        "x": 7.340115,
+        "y": -11.219998
+      },
+      "new_center": {
+        "x": 7.34,
+        "y": -11.22
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_TEMP_SDA",
+      "old_center": {
+        "x": -7.929998000000001,
+        "y": 7.585645
+      },
+      "new_center": {
+        "x": -7.93,
+        "y": 7.59
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_PWR_LED",
+      "old_center": {
+        "x": 16.025,
+        "y": 8.51
+      },
+      "new_center": {
+        "x": 16.02,
+        "y": 8.51
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_STATUS_R",
+      "old_center": {
+        "x": -0.489998,
+        "y": 11.365645
+      },
+      "new_center": {
+        "x": -0.49,
+        "y": 11.37
+      },
+      "angle_delta": 0
+    },
+    {
+      "reference": "R_BUZZER_PD",
+      "old_center": {
+        "x": 11.755645,
+        "y": -10.219998
+      },
+      "new_center": {
+        "x": 11.76,
+        "y": -10.22
+      },
+      "angle_delta": 0
+    }
+  ],
+  "independent_copper_and_STEP_checks_required": true
+}

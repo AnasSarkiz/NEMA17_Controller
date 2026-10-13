@@ -1,5 +1,5 @@
 {
-  "board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
+  "board_sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
   "checks": [
     {
       "check": "all_resistor_edge_clearances",
@@ -40,7 +40,7 @@
     {
       "check": "fitted_JST_and_actual_drills",
       "command": [
-        "python3",
+        "/workspace/.routing-venv/bin/python",
         "scripts/check-motor-connector.py"
       ],
       "exit_code": 0,
@@ -187,31 +187,12 @@
   "CAD_models_checked": 61,
   "physical_nets_checked": 50,
   "counts": {
-    "pcb_trace": 420,
+    "pcb_trace": 415,
     "pcb_via": 192,
-    "pcb_copper_pour": 36
+    "pcb_copper_pour": 30
   },
   "full_CAM_status": "FAIL",
   "remaining_CAM_findings": [
-    {
-      "kind": "assembly-paste-policy",
-      "layer": "F_Paste",
-      "bare_interface_overlap_mm2": 3.7631999999999977,
-      "manual_plated_joint_overlap_mm2": 0.0,
-      "outside_smt_copper_mm2": 0.0
-    },
-    {
-      "kind": "assembly-table-policy",
-      "table": "bom.csv",
-      "rows": 63,
-      "bare_rows": [
-        "J_BOOT",
-        "J_DEBUG"
-      ],
-      "missing_fitted": [],
-      "unexpected": [],
-      "duplicate_refs": []
-    },
     {
       "kind": "BOM-source-identity",
       "errors": [
@@ -781,15 +762,15 @@
           "errors": {
             "Manufacturer Part Number": {
               "export": null,
-              "source": "B4B-PH-K-S(LF)(SN)"
+              "source": "BM04B-SRSS-TB(LF)(SN)"
             },
             "Comment": {
               "export": "",
-              "source": "B4B-PH-K-S(LF)(SN)"
+              "source": "BM04B-SRSS-TB(LF)(SN)"
             },
             "Value": {
-              "export": "C131334",
-              "source": "B4B-PH-K-S(LF)(SN)"
+              "export": "C160390",
+              "source": "BM04B-SRSS-TB(LF)(SN)"
             }
           }
         },
@@ -1255,20 +1236,21 @@
       ]
     },
     {
-      "kind": "assembly-table-policy",
-      "table": "pick_and_place.csv",
-      "rows": 63,
-      "bare_rows": [
-        "J_BOOT",
-        "J_DEBUG"
-      ],
-      "missing_fitted": [],
-      "unexpected": [],
-      "duplicate_refs": []
-    },
-    {
       "kind": "stencil-release-screen",
       "apertures": [
+        {
+          "layer": "F_Paste",
+          "bounds_mm": [
+            2.7299,
+            -0.04499550000000002,
+            2.8699,
+            0.4450035
+          ],
+          "area_mm2": 0.06859985999999985,
+          "perimeter_mm": 1.2599979999999995,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304712
+        },
         {
           "layer": "F_Paste",
           "bounds_mm": [
@@ -1298,19 +1280,6 @@
         {
           "layer": "F_Paste",
           "bounds_mm": [
-            2.7299,
-            -0.04499550000000002,
-            2.8699,
-            0.4450035
-          ],
-          "area_mm2": 0.06859985999999985,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
             3.12995,
             -0.04499550000000002,
             3.2699499999999997,
@@ -1320,32 +1289,6 @@
           "perimeter_mm": 1.2599979999999995,
           "aspect_ratio_at_100um": 1.3999999999999968,
           "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            4.3301,
-            -0.04499550000000002,
-            4.4701,
-            0.4450035
-          ],
-          "area_mm2": 0.06859986000000028,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304739
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            4.729896,
-            -0.04499550000000002,
-            4.869896000000001,
-            0.4450035
-          ],
-          "area_mm2": 0.06859986000000028,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304739
         },
         {
           "layer": "F_Paste",
@@ -1467,9 +1410,9 @@
         {
           "layer": "F_Paste",
           "bounds_mm": [
-            3.130204,
+            2.330104,
             3.9549964999999996,
-            3.2702039999999997,
+            2.4701039999999996,
             4.444995499999999
           ],
           "area_mm2": 0.06859985999999979,
@@ -1493,6 +1436,19 @@
         {
           "layer": "F_Paste",
           "bounds_mm": [
+            3.130204,
+            3.9549964999999996,
+            3.2702039999999997,
+            4.444995499999999
+          ],
+          "area_mm2": 0.06859985999999979,
+          "perimeter_mm": 1.2599979999999986,
+          "aspect_ratio_at_100um": 1.3999999999999968,
+          "area_ratio_at_100um": 0.5444441975304712
+        },
+        {
+          "layer": "F_Paste",
+          "bounds_mm": [
             3.929796,
             3.9549964999999996,
             4.069796,
@@ -1506,28 +1462,28 @@
         {
           "layer": "F_Paste",
           "bounds_mm": [
-            4.3301,
-            3.9549964999999996,
-            4.4701,
-            4.444995499999999
+            4.729896,
+            -0.04499550000000002,
+            4.869896000000001,
+            0.4450035
           ],
-          "area_mm2": 0.06859986000000022,
-          "perimeter_mm": 1.2599980000000004,
+          "area_mm2": 0.06859986000000028,
+          "perimeter_mm": 1.2599980000000013,
           "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304738
+          "area_ratio_at_100um": 0.5444441975304739
         },
         {
           "layer": "F_Paste",
           "bounds_mm": [
-            2.330104,
-            3.9549964999999996,
-            2.4701039999999996,
-            4.444995499999999
+            4.3301,
+            -0.04499550000000002,
+            4.4701,
+            0.4450035
           ],
-          "area_mm2": 0.06859985999999979,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
+          "area_mm2": 0.06859986000000028,
+          "perimeter_mm": 1.2599980000000013,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.5444441975304739
         },
         {
           "layer": "F_Paste",
@@ -1623,6 +1579,19 @@
         {
           "layer": "F_Paste",
           "bounds_mm": [
+            4.3301,
+            3.9549964999999996,
+            4.4701,
+            4.444995499999999
+          ],
+          "area_mm2": 0.06859986000000022,
+          "perimeter_mm": 1.2599980000000004,
+          "aspect_ratio_at_100um": 1.4000000000000057,
+          "area_ratio_at_100um": 0.5444441975304738
+        },
+        {
+          "layer": "F_Paste",
+          "bounds_mm": [
             4.729896,
             3.9549964999999996,
             4.869896000000001,
@@ -1638,9 +1607,9 @@
     {
       "kind": "silkscreen-clearance",
       "layer": "F_SilkScreen",
-      "overlap_mask_openings_mm2": 8.172886217913257,
-      "inside_0_15mm_mask_guard_mm2": 13.311154879495863,
-      "outside_board_0_10mm_inset_mm2": 8.695510065616244
+      "overlap_mask_openings_mm2": 7.573375080549779,
+      "inside_0_15mm_mask_guard_mm2": 12.727007540706735,
+      "outside_board_0_10mm_inset_mm2": 8.8918550384707
     },
     {
       "kind": "EP-stencil-coverage",
@@ -1659,24 +1628,9 @@
       "ref": "U_DRV",
       "pad": "pcb_smtpad_98",
       "coverage_fraction": 0.49000021000044225
-    },
-    {
-      "kind": "paste-source-mismatch",
-      "layer": "F_Paste",
-      "missing_mm2": 0.0,
-      "extra_mm2": 3.7631999999999977
     }
   ],
   "rear_motor_compatibility_verified": false,
   "prototype_fabrication_ready": false,
-  "physical_hardware_tested": false,
-  "retry_history": [
-    {
-      "check": "full_independent_CAM",
-      "previous_exit_code": 1,
-      "retry_exit_code": 1,
-      "board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
-      "retried_at_utc": "2026-10-13T05:41:58.749565+00:00"
-    }
-  ]
+  "physical_hardware_tested": false
 }

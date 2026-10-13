@@ -30,8 +30,8 @@
     "pcbRotation": 0
   },
   "R_PG": {
-    "pcbX": 16.315,
-    "pcbY": -14.56,
+    "pcbX": 16.31,
+    "pcbY": -14.54,
     "pcbRotation": 90
   },
   "R_CC1": {
@@ -90,8 +90,8 @@
     "pcbRotation": 0
   },
   "R_SLEEP": {
-    "pcbX": 16.315,
-    "pcbY": 13.875,
+    "pcbX": 16.31,
+    "pcbY": 14.13,
     "pcbRotation": 90
   },
   "R_USB_BOOT": {
@@ -175,8 +175,8 @@
     "pcbRotation": 90
   },
   "J_MOTOR": {
-    "pcbX": 0,
-    "pcbY": -14.8,
+    "pcbX": -1.5499999999999998,
+    "pcbY": -14.57,
     "pcbRotation": 180
   },
   "D_PWR": {
@@ -302,6 +302,36 @@
   "C_BUCK_OUT2": {
     "pcbX": -15.165,
     "pcbY": 7.745005,
+    "pcbRotation": 0
+  },
+  "TP_3V3": {
+    "pcbX": 6.0,
+    "pcbY": -15.5,
+    "pcbRotation": 0
+  },
+  "TP_GND": {
+    "pcbX": 9.0,
+    "pcbY": -15.5,
+    "pcbRotation": 0
+  },
+  "TP_DCK": {
+    "pcbX": 7.5,
+    "pcbY": -15.5,
+    "pcbRotation": 0
+  },
+  "TP_DIO": {
+    "pcbX": 10.5,
+    "pcbY": -15.5,
+    "pcbRotation": 0
+  },
+  "TP_BOOT": {
+    "pcbX": 16.1,
+    "pcbY": 12.0,
+    "pcbRotation": 0
+  },
+  "TP_BOOT_USB_DP": {
+    "pcbX": 16.1,
+    "pcbY": 10.2,
     "pcbRotation": 0
   }
 }

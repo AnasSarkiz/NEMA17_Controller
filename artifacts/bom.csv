@@ -4,7 +4,7 @@ J_DATA,TYPE-C-31-M-12,C165948,,,,6.2,12.57501465,180,top,native supplier import 
 U_PD,CH224K,C970725,,,,-4.479881000000001,-2.090068,270,top,native supplier import with OBJ and STEP
 R_PD,ERJPA3F1001V,C441922,1kΩ,,,12.796602,15.942003,0,top,native supplier import with OBJ and STEP
 C_PD,CL10A105KB8NNNC,C15849,1uF,,,9.380023,4.059999,0,top,native supplier import with OBJ and STEP
-R_PG,0603WAF1002T5E,C25804,10kΩ,,,16.315,-14.56,90,top,native supplier import with OBJ and STEP
+R_PG,0603WAF1002T5E,C25804,10kΩ,,,16.31,-14.54,90,top,native supplier import with OBJ and STEP
 U_MCU,CH32X035G8U6,C7437027,,,,3.6000000000000005,2.2,270,top,native supplier import with OBJ and STEP
 C_MCU,CC0603KRX7R9BB104,C14663,100nF,,,-2.25,2,90,top,native supplier import with OBJ and STEP
 C_LOGIC,CL21A475KBQNNNE,C98192,4.7uF,,,-0.44499500000000003,2.595,90,top,native supplier import with OBJ and STEP
@@ -31,13 +31,11 @@ R_REF_H,0603WAF3902T5E,C23153,39kΩ,,,2.436602,-2.057997,0,top,native supplier i
 R_REF_L,0603WAF1002T5E,C25804,10kΩ,,,6.006602,-7.787997,0,top,native supplier import with OBJ and STEP
 C_REF,CL10B103KB8NNNC,C1589,10nF,,,6.1,-3.5,90,top,native supplier import with OBJ and STEP
 R_ENABLE,0603WAF1003T5E,C25803,100kΩ,,,-7.073398,-9.427997,0,top,native supplier import with OBJ and STEP
-R_SLEEP,0603WAF1003T5E,C25803,100kΩ,,,16.315,13.875,90,top,native supplier import with OBJ and STEP
-J_MOTOR,B4B-PH-K-S(LF)(SN),C131334,,,,0,-14.249963000000001,180,top,native supplier import with OBJ and STEP
-J_DEBUG,,,,,,8.25,-15.5,0,top,bare PCB interface
+R_SLEEP,0603WAF1003T5E,C25803,100kΩ,,,16.31,14.13,90,top,native supplier import with OBJ and STEP
+J_MOTOR,BM04B-SRSS-TB(LF)(SN),C160390,,,,-1.5499999999999996,-14.57,180,top,native supplier import with OBJ and STEP
 U_ESD,USBLC6-2SC6,C2687116,,,,-8.804901,-11.83999,270,top,native supplier import with OBJ and STEP
 D_TVS,SMF18A,C19077512,,,,-4.100017,7.349998,180,top,native supplier import with OBJ and STEP
 R_USB_BOOT,0402WGF4701TCE,C25900,4.7kΩ,,,2.705645,7.810002000000001,0,top,native supplier import with OBJ and STEP
-J_BOOT,,,,,,16.1,12,0,top,bare PCB interface
 L_BUCK,SRN4018-4R7M,C780206,4.7µH,,,-10.829953,6.499996,0,top,native supplier import with OBJ and STEP
 C_BOOTSTRAP,CL05B104KO5NNNC,C1525,100nF,,,-12.459998,2.460115,90,top,native supplier import with OBJ and STEP
 C_BUCK_IN,CL31A106KBHNNNE,C13585,10uF,,,-14.706006,4.125085,90,top,native supplier import with OBJ and STEP
@@ -62,3 +60,9 @@ D_BUZZER,PMEG6020ELRX,C478000,,,,11.437407,-7.820002000000001,0,top,native suppl
 R_BUZZER_GATE,0402WGF1000TCE,C25076,100Ω,,,16.03,-11.93,0,top,native supplier import with OBJ and STEP
 R_BUZZER_PD,0402WGF1003TCE,C25741,100kΩ,,,11.755645,-10.219998,0,top,native supplier import with OBJ and STEP
 C_BUZZER,CL10A106KP8NNNC,C19702,10uF,,,6.6,-12.5,0,top,native supplier import with OBJ and STEP
+TP_3V3,,,,,,6,-15.5,0,top,bare PCB interface
+TP_GND,,,,,,9,-15.5,0,top,bare PCB interface
+TP_DCK,,,,,,7.5,-15.5,0,top,bare PCB interface
+TP_DIO,,,,,,10.5,-15.5,0,top,bare PCB interface
+TP_BOOT,,,,,,16.1,12,0,top,bare PCB interface
+TP_BOOT_USB_DP,,,,,,16.1,10.2,0,top,bare PCB interface

@@ -1,29 +1,33 @@
 {
-  "native_board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
-  "native_export_sha256": "9c441b73dc777c1e4d36380d37f0e07e3db5345ede06020207e9196bf9112b2a",
-  "order_source_sha256": "331941c3b23319a99b10ece6e460ae54e7dc9490ea69bf158e2f2d3e0789a062",
-  "review_cam_sha256": "0b08095599636a4be9646dff4bc8a6b4e0ccae832443daf47f56fecf3781f87a",
-  "fabrication_zip_sha256": "5d6ac4e4105baab84a73c6e52ac1008b93d215c0f89fd09a9739fbce71f04aa1",
-  "source_github_revision": "de945392351af9a3a7b5e0a78de86c4b2b7c7613",
+  "native_board_sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
+  "native_export_sha256": "ff07bc5385a29a4ba87c968c853e5a043f95f7a8c7f8236408a9a73b3a9d6f9e",
+  "order_source_sha256": "dbcdbf971af88d4eac327a5f0a0a8d746fab6e8f22192df457f42aacda314ef6",
+  "review_cam_sha256": "16e1bb2933a7b025cb7b451b844b2f373a2e4dfb97af0d484ea9aaffd20d87e0",
+  "fabrication_zip_sha256": "140f0d542bd9a178b9a58e33e062fe1780b34c4b0b93776c9545d5b32b5b1109",
+  "source_github_revision": "dd4b1bf5479a5771d2eeda3456daae399dce3c45",
   "electrical_source_and_all_nonpaste_records_unchanged": true,
   "copied_unchanged_copper_mask_drill_outline": {
-    "F_Cu.gbr": "657aea30aa5e8fd839433b9235266a4a23d96896422db4876ea5ae87983f908d",
-    "F_Mask.gbr": "ee33b2123aed65a24d460ac5d779f381f09179daa926a27d5131fff0da931b7e",
-    "B_Cu.gbr": "af0d82f728875c3152b63de84aa5f0686eb90dab64b180548679187cc888c788",
-    "B_Mask.gbr": "0a536b852a2d008226dc7ed78157f5320ecc7f5b136e8bb8698463a661987d39",
-    "Edge_Cuts.gbr": "5d3f686fc21843795d8d5dfdc1964568fb1d87d50ccb55e5912bead38a39d7e7",
-    "In1_Cu.gbr": "d541d1c5b2bc5fc99130250308887821b498fd016cb1fc9ce06a6bf45c9d69dc",
-    "In2_Cu.gbr": "4bdcc835248b81f7351cd1ceadf4c3c98f94dd0330e5e745e6ab48de11976073",
-    "drill-L1-L4.drl": "7bcb8f7129052e48a36e10eb5c686e4ae6c970a5cf4293b0e55d8af7b5815060",
-    "drill_npth.drl": "342b9ae8f61317431bbab63e2ec451ad73c6253474ae08700df671a32e1167e3"
+    "F_Cu.gbr": "98dd3cdf6840516d93853fd99886c2fffbe7e3b807aa42189b7777c26b3eb96e",
+    "F_Mask.gbr": "74b26771a5037a52cb849e0638c267d8fba3d4bd0945db1d879e138c9519a407",
+    "B_Cu.gbr": "0ba5aaf4299442a2a4d54a02500f235862fd4968ebffbe23deefe0d3d26f3866",
+    "B_Mask.gbr": "1d174574cafe41930ed26b8e82d878fd22861341be914f6e81d73cef90c4387a",
+    "Edge_Cuts.gbr": "41af1feb6e78963f5c9bc42ba6cf5fe271628802bebf86e2a67cfd9a443bc8b3",
+    "In1_Cu.gbr": "5be85a41b3e989eafa57e527600d28f1e09c2705496f3ee1de0cd1d88b25aa5a",
+    "In2_Cu.gbr": "2169d6d5e5216ed1db251aadd1a3e954487633af4dbd031ff2c47eb29567bcee",
+    "drill-L1-L4.drl": "3f9a8bb552892e57a9055aedac5f989bd313afde814cb004e2e3829f2f5eda5b",
+    "drill_npth.drl": "b2b235f6c15a68a3c2352a8faed6bc60557ebe9c8a1b2f0c7c689a9c9ce666b2"
   },
   "fitted_components": 61,
-  "SMT_components": 60,
-  "manual_THT_components": 1,
+  "SMT_components": 61,
+  "manual_THT_components": 0,
   "bottom_SMT_references": [],
   "excluded_bare_interfaces": [
-    "J_BOOT",
-    "J_DEBUG"
+    "TP_3V3",
+    "TP_BOOT",
+    "TP_BOOT_USB_DP",
+    "TP_DCK",
+    "TP_DIO",
+    "TP_GND"
   ],
   "paste_changes": [
     {
@@ -215,12 +219,11 @@
   "silkscreen_changes": [
     {
       "layer": "top",
-      "original_area_mm2": 103.28836095635674,
-      "new_area_mm2": 100.18366892477526,
-      "reference_captions_placed": 9,
+      "original_area_mm2": 98.76221902140199,
+      "new_area_mm2": 100.0415767540245,
+      "reference_captions_placed": 8,
       "captions_omitted_for_clearance": [
-        "J_BOOT",
-        "J_DEBUG",
+        "J_MOTOR",
         "U_BUCK",
         "U_DRV",
         "U_ESD",
@@ -272,7 +275,13 @@
         "R_USB_SENSE_H",
         "R_USB_SENSE_L",
         "R_VM_H",
-        "R_VM_L"
+        "R_VM_L",
+        "TP_3V3",
+        "TP_BOOT",
+        "TP_BOOT_USB_DP",
+        "TP_DCK",
+        "TP_DIO",
+        "TP_GND"
       ],
       "policy": "current component outlines and intact reference captions; board inset 0.101 mm, mask guard 0.151 mm, drill guard 0.101 mm; full references in assembly files"
     },
@@ -302,6 +311,6 @@
     "stencil_thickness_um": 100,
     "thermal_via_process": "filled and capped/planarized via-in-pad; supplier must confirm capability and quote",
     "assembly_sides": "top",
-    "JST_process": "separate manual THT soldering, unless secondary supplier operation is quoted"
+    "JST_process": "top-side SMT C160390; no drilled JST terminals"
   }
 }

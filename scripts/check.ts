@@ -30,7 +30,7 @@ for (const name of ['J_PD','J_DATA']) {
  usbMouths.push({name,x,y})
 }
 if(usbMouths.length!==2 || Math.abs(usbMouths[1].x-usbMouths[0].x-12.4)>.001)
- unique.push({type:'validation_error',message:'Same-edge USB mouths must have 12.4 mm centre pitch for two 12 mm plug envelopes.'})
+ unique.push({type:'validation_error',message:'Same-edge USB mouths must have 12.4 mm centre pitch for two 10 mm cable housings.'})
 const mountingKeepouts=json.filter((e:any)=>e.type==='pcb_keepout')
 const expectedLayers=board?.num_layers===4?['top','inner1','inner2','bottom']:['top','bottom']
 if(mountingKeepouts.length!==4 || mountingKeepouts.some((e:any)=>e.shape!=='circle' || Math.abs(e.radius-2.2)>.00001 || ![-13,13].includes(e.center.x) || ![-13,13].includes(e.center.y) || expectedLayers.some(l=>!e.layers.includes(l))))
@@ -68,10 +68,10 @@ for(const [reference,pins] of Object.entries(reviewedPhysicalPins)) {
 }
 for(const [ref,expected] of [['R_ENABLE',100000],['R_SLEEP',100000],['R_VM_H',100000],['R_VM_L',10000]] as const)
  if(resistance(ref)!==expected) unique.push({type:'validation_error',message:ref+' differs from its reviewed value.'})
-// The motor interface must be a fitted JST PH part, with its native CAD model and reviewed coil order.
+// The motor interface must be a fitted SMT JST SH part, with its native CAD model and reviewed coil order.
 const motorConnector=json.find((e:any)=>e.type==='source_component' && e.name==='J_MOTOR')
-if(motorConnector?.manufacturer_part_number!=='B4B-PH-K-S(LF)(SN)' || motorConnector?.supplier_part_numbers?.jlcpcb?.[0]!=='C131334')
- unique.push({type:'validation_error',message:'J_MOTOR must be the fitted 4-pin JST PH B4B-PH-K-S(LF)(SN), C131334.'})
+if(motorConnector?.manufacturer_part_number!=='BM04B-SRSS-TB(LF)(SN)' || motorConnector?.supplier_part_numbers?.jlcpcb?.[0]!=='C160390')
+ unique.push({type:'validation_error',message:'J_MOTOR must be the fitted 4-pin SMT JST SH BM04B-SRSS-TB(LF)(SN), C160390.'})
 if(!json.some((e:any)=>e.type==='cad_component' && e.source_component_id===motorConnector?.source_component_id && e.model_step_url && e.model_obj_url))
  unique.push({type:'validation_error',message:'J_MOTOR requires the actual supplier STEP and OBJ models.'})
 for(const [i,name] of ['A_PLUS','A_MINUS','B_PLUS','B_MINUS'].entries()) {

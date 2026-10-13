@@ -1,0 +1,72 @@
+{
+  "removed": [
+    {
+      "type": "pcb_via",
+      "pcb_via_id": "same_side_repair_0_PD_VBUS_0_via_59",
+      "x": -7.6,
+      "y": -13.475,
+      "outer_diameter": 0.5,
+      "hole_diameter": 0.25,
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "bottom"
+      ],
+      "from_layer": "top",
+      "to_layer": "bottom",
+      "source_net_id": "source_net_1",
+      "source_trace_id": "source_trace_6",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "tented_on_top": true,
+      "tented_on_bottom": true
+    },
+    {
+      "type": "pcb_via",
+      "pcb_via_id": "same_side_repair_1_SLEEP_0_via_15",
+      "x": 15.075000000000003,
+      "y": 15.625,
+      "outer_diameter": 0.5,
+      "hole_diameter": 0.25,
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "bottom"
+      ],
+      "from_layer": "top",
+      "to_layer": "bottom",
+      "source_net_id": "source_net_15",
+      "source_trace_id": "source_trace_136",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net15",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "tented_on_top": true,
+      "tented_on_bottom": true
+    },
+    {
+      "type": "pcb_via",
+      "pcb_via_id": "freerouted_via_82",
+      "x": -1.1762,
+      "y": -11.5825,
+      "hole_diameter": 0.25,
+      "outer_diameter": 0.5,
+      "layers": [
+        "top",
+        "inner1",
+        "inner2",
+        "bottom"
+      ],
+      "from_layer": "top",
+      "to_layer": "bottom",
+      "subcircuit_id": "subcircuit_source_group_0",
+      "subcircuit_connectivity_map_key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31",
+      "source_net_id": "source_net_31",
+      "source_trace_id": "source_trace_88",
+      "tented_on_top": true,
+      "tented_on_bottom": true
+    }
+  ],
+  "all_live_terminal_connectivity_preserved": true,
+  "identified_by_actual_Gerber_islands": true
+}

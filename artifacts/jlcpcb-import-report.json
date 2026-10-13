@@ -1,6 +1,6 @@
 {
   "mappedComponents": 61,
-  "distinctParts": 45,
+  "distinctParts": 46,
   "references": {
     "J_PD": "C165948",
     "J_DATA": "C165948",
@@ -35,7 +35,7 @@
     "C_REF": "C1589",
     "R_ENABLE": "C25803",
     "R_SLEEP": "C25803",
-    "J_MOTOR": "C131334",
+    "J_MOTOR": "C160390",
     "U_ESD": "C2687116",
     "D_TVS": "C19077512",
     "R_USB_BOOT": "C25900",
@@ -66,8 +66,12 @@
   },
   "pending": [],
   "barePcbPads": [
-    "J_DEBUG",
-    "J_BOOT"
+    "TP_3V3",
+    "TP_GND",
+    "TP_DCK",
+    "TP_DIO",
+    "TP_BOOT",
+    "TP_BOOT_USB_DP"
   ],
   "complete": true,
   "supplierAssetsHashVerified": true,
@@ -89,8 +93,9 @@
     }
   ],
   "schematicA4PageCount": 5,
-  "allNumberedPhysicalPinsOnSchematic": true,
-  "numberedPinCount": 241,
+  "allElectricalPinsOnSchematic": true,
+  "NCMechanicalHoldDownPadsOmittedFromSymbol": 2,
+  "numberedPinCount": 243,
   "schematicGeometricConnectivityVerified": true,
   "schematicAnalysis": "artifacts/schematic-redesign/analysis.json"
 }

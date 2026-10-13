@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
+  "board_sha256": "b112b7643d2abc532f2605b0cbfd9358ba81814c2af5bb4e3006b24dec4f139c",
   "reference": "e8d285f7-c3d8-46f5-9a54-344fdde0124e",
   "physical_pin_checks": [
     {
@@ -238,6 +238,18 @@
       "net": "B_MINUS"
     },
     {
+      "component": "J_MOTOR",
+      "physical_pin": 5,
+      "pin_name": "MOUNT1",
+      "net": null
+    },
+    {
+      "component": "J_MOTOR",
+      "physical_pin": 6,
+      "pin_name": "MOUNT2",
+      "net": null
+    },
+    {
       "component": "Q_STATUS_R",
       "physical_pin": 1,
       "pin_name": "pin1",
@@ -402,7 +414,7 @@
     {
       "component": "J_PD",
       "physical_pin": 7,
-      "pin_name": "DN2",
+      "pin_name": "DM2",
       "net": null
     },
     {
@@ -414,7 +426,7 @@
     {
       "component": "J_PD",
       "physical_pin": 9,
-      "pin_name": "DN1",
+      "pin_name": "DM1",
       "net": null
     },
     {
@@ -498,7 +510,7 @@
     {
       "component": "J_DATA",
       "physical_pin": 7,
-      "pin_name": "DN2",
+      "pin_name": "DM2",
       "net": "USB_DM"
     },
     {
@@ -510,7 +522,7 @@
     {
       "component": "J_DATA",
       "physical_pin": 9,
-      "pin_name": "DN1",
+      "pin_name": "DM1",
       "net": "USB_DM"
     },
     {

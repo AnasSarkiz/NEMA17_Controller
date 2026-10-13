@@ -1,1 +1,1 @@
-Reference feedback and connector physical pins PASS: 92 pins; 63 native courtyards
+Reference feedback and connector physical pins PASS: 94 pins; 67 native courtyards
