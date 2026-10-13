@@ -1,0 +1,3121 @@
+[
+  {
+    "reference": "J_PD",
+    "part": "C165948",
+    "mpn": "TYPE-C-31-M-12",
+    "center_mm": {
+      "x": -6.2,
+      "y": 12.57501465
+    },
+    "layer": "top",
+    "rotation_deg": 180,
+    "pin1_location": "rightside_top",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "unnamed_platedhole1",
+          "pin2"
+        ],
+        "center_mm": [
+          -10.525112000000005,
+          14.924101899999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole2",
+          "pin1"
+        ],
+        "center_mm": [
+          -10.525112000000012,
+          10.744277900000004
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole3",
+          "pin4"
+        ],
+        "center_mm": [
+          -1.874888000000002,
+          10.7442779
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole4",
+          "pin3"
+        ],
+        "center_mm": [
+          -1.874888,
+          14.924101900000013
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          -4.449940000000002,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          -4.9500660000000005,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin7"
+        ],
+        "center_mm": [
+          -5.449938,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin8"
+        ],
+        "center_mm": [
+          -5.950064000000001,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin9"
+        ],
+        "center_mm": [
+          -6.449936,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin10"
+        ],
+        "center_mm": [
+          -6.950062,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin11"
+        ],
+        "center_mm": [
+          -7.44968,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin12"
+        ],
+        "center_mm": [
+          -7.9500600000000015,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin13"
+        ],
+        "center_mm": [
+          -3.000044500000001,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin14"
+        ],
+        "center_mm": [
+          -9.400006300000001,
+          9.975826300000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin15"
+        ],
+        "center_mm": [
+          -8.6001603,
+          9.975826300000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin16"
+        ],
+        "center_mm": [
+          -3.8000429,
+          9.975991399999998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "J_DATA",
+    "part": "C165948",
+    "mpn": "TYPE-C-31-M-12",
+    "center_mm": {
+      "x": 6.2,
+      "y": 12.57501465
+    },
+    "layer": "top",
+    "rotation_deg": 180,
+    "pin1_location": "rightside_top",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "unnamed_platedhole5",
+          "pin2"
+        ],
+        "center_mm": [
+          1.8748879999999997,
+          14.924101900000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole6",
+          "pin1"
+        ],
+        "center_mm": [
+          1.8748879999999997,
+          10.744277899999995
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole7",
+          "pin4"
+        ],
+        "center_mm": [
+          10.525112000000012,
+          10.744277900000004
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole8",
+          "pin3"
+        ],
+        "center_mm": [
+          10.525112000000005,
+          14.924101899999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          7.950059999999998,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          7.449934,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin7"
+        ],
+        "center_mm": [
+          6.950062,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin8"
+        ],
+        "center_mm": [
+          6.449936,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin9"
+        ],
+        "center_mm": [
+          5.950064000000001,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin10"
+        ],
+        "center_mm": [
+          5.449938,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin11"
+        ],
+        "center_mm": [
+          4.950319999999999,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin12"
+        ],
+        "center_mm": [
+          4.44994,
+          9.9759279
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin13"
+        ],
+        "center_mm": [
+          9.399955499999999,
+          9.975927899999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin14"
+        ],
+        "center_mm": [
+          2.9999937,
+          9.975826300000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin15"
+        ],
+        "center_mm": [
+          3.7998397000000006,
+          9.975826300000003
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin16"
+        ],
+        "center_mm": [
+          8.599957099999997,
+          9.975991399999996
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "U_PD",
+    "part": "C970725",
+    "mpn": "CH224K",
+    "center_mm": {
+      "x": -4.479881000000001,
+      "y": -2.090068
+    },
+    "layer": "top",
+    "rotation_deg": 270,
+    "pin1_location": "bottomside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin10"
+        ],
+        "center_mm": [
+          -1.480013999999999,
+          -0.09007200000000037
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin9"
+        ],
+        "center_mm": [
+          -1.4797599999999997,
+          -1.0900700000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin8"
+        ],
+        "center_mm": [
+          -1.47976,
+          -2.0900680000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin7"
+        ],
+        "center_mm": [
+          -1.47976,
+          -3.0900660000000006
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          -1.4800140000000002,
+          -4.090064000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          -7.480002000000002,
+          -4.090064
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          -7.480002,
+          -3.090065999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          -7.480002,
+          -2.0900679999999996
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -7.480001999999998,
+          -1.0900699999999994
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -7.480001999999999,
+          -0.09007199999999949
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin11"
+        ],
+        "center_mm": [
+          -4.479754,
+          -2.090068
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_PD",
+    "part": "C441922",
+    "mpn": "ERJPA3F1001V",
+    "center_mm": {
+      "x": 12.796602,
+      "y": 15.942003
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          13.549966000000001,
+          15.942003000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          12.043238,
+          15.942003000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_PD",
+    "part": "C15849",
+    "mpn": "CL10A105KB8NNNC",
+    "center_mm": {
+      "x": 9.380023,
+      "y": 4.059999
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          10.080047,
+          4.059999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          8.679998999999999,
+          4.059999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_PG",
+    "part": "C25804",
+    "mpn": "0603WAF1002T5E",
+    "center_mm": {
+      "x": 16.315,
+      "y": -14.56
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.315,
+          -13.806636000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          16.315,
+          -15.313364000000002
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "U_MCU",
+    "part": "C7437027",
+    "mpn": "CH32X035G8U6",
+    "center_mm": {
+      "x": 3.6000000000000005,
+      "y": 2.2
+    },
+    "layer": "top",
+    "rotation_deg": 270,
+    "pin1_location": "bottomside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          1.600004,
+          2.2010160000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          1.600004,
+          1.7999500000000008
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          1.6000039999999995,
+          1.3999000000000006
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin7"
+        ],
+        "center_mm": [
+          1.6000039999999995,
+          1.0001040000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          1.600004,
+          2.599796000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          1.6000040000000002,
+          3.0001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          1.6000040000000002,
+          3.3998960000000014
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin8"
+        ],
+        "center_mm": [
+          2.400104,
+          0.2000040000000003
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin9"
+        ],
+        "center_mm": [
+          2.7998999999999996,
+          0.2000040000000003
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin10"
+        ],
+        "center_mm": [
+          3.1999499999999994,
+          0.20000400000000007
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin11"
+        ],
+        "center_mm": [
+          3.6,
+          0.20076600000000022
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin12"
+        ],
+        "center_mm": [
+          3.999796,
+          0.20000400000000007
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin13"
+        ],
+        "center_mm": [
+          4.4001,
+          0.20000399999999985
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin14"
+        ],
+        "center_mm": [
+          4.7998959999999995,
+          0.20000399999999985
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin15"
+        ],
+        "center_mm": [
+          5.599996,
+          1.0001039999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin16"
+        ],
+        "center_mm": [
+          5.599996,
+          1.3998999999999997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin17"
+        ],
+        "center_mm": [
+          5.599996,
+          1.800204
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin18"
+        ],
+        "center_mm": [
+          5.599996,
+          2.1999999999999993
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin19"
+        ],
+        "center_mm": [
+          5.599996,
+          2.5997959999999996
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin20"
+        ],
+        "center_mm": [
+          5.599996000000001,
+          3.0000999999999993
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin21"
+        ],
+        "center_mm": [
+          5.599996000000001,
+          3.399896
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin22"
+        ],
+        "center_mm": [
+          4.799896000000001,
+          4.1999960000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin23"
+        ],
+        "center_mm": [
+          4.4001,
+          4.1999960000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin24"
+        ],
+        "center_mm": [
+          3.999796000000001,
+          4.1999960000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin25"
+        ],
+        "center_mm": [
+          3.6,
+          4.1997420000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin26"
+        ],
+        "center_mm": [
+          3.2002040000000007,
+          4.1999960000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin27"
+        ],
+        "center_mm": [
+          2.799900000000001,
+          4.1999960000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin28"
+        ],
+        "center_mm": [
+          2.4001040000000007,
+          4.1999960000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin29"
+        ],
+        "center_mm": [
+          3.619812,
+          2.199746
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_MCU",
+    "part": "C14663",
+    "mpn": "CC0603KRX7R9BB104",
+    "center_mm": {
+      "x": -2.25,
+      "y": 2
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -2.2499999999999996,
+          2.7000240000000004
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -2.25,
+          1.2999759999999998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_LOGIC",
+    "part": "C98192",
+    "mpn": "CL21A475KBQNNNE",
+    "center_mm": {
+      "x": -0.44499500000000003,
+      "y": 2.595
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -0.4449949999999999,
+          3.594998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -0.4449950000000001,
+          1.595002
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_CC1",
+    "part": "C25905",
+    "mpn": "0402WGF5101TCE",
+    "center_mm": {
+      "x": -16.03,
+      "y": -15.72
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -15.597184000000002,
+          -15.720000000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -16.462816,
+          -15.720000000000002
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_CC2",
+    "part": "C25905",
+    "mpn": "0402WGF5101TCE",
+    "center_mm": {
+      "x": 16.03,
+      "y": -10.72
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.462816,
+          -10.72
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          15.597184000000002,
+          -10.72
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_USB_SENSE_H",
+    "part": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "center_mm": {
+      "x": -12.805,
+      "y": 16.315
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -12.051636,
+          16.315
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -13.558364,
+          16.315
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_USB_SENSE_L",
+    "part": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "center_mm": {
+      "x": 2.106602,
+      "y": 6.512003
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          2.859966,
+          6.512003
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          1.3532380000000004,
+          6.512003
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_VM_H",
+    "part": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "center_mm": {
+      "x": -15.974999999999998,
+      "y": 15.59
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -15.975,
+          16.343364
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -15.975,
+          14.836636000000002
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_VM_L",
+    "part": "C25804",
+    "mpn": "0603WAF1002T5E",
+    "center_mm": {
+      "x": -6.625,
+      "y": -16.315
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -5.871636,
+          -16.315
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -7.378364,
+          -16.315
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_VM_SENSE",
+    "part": "C1589",
+    "mpn": "CL10B103KB8NNNC",
+    "center_mm": {
+      "x": 14.580023,
+      "y": -16.670001
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          15.280047000000001,
+          -16.670001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          13.879999000000002,
+          -16.670001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "U_BUCK",
+    "part": "C780769",
+    "mpn": "AP63203WU-7",
+    "center_mm": {
+      "x": -10.210016,
+      "y": 2.129895
+    },
+    "layer": "top",
+    "rotation_deg": 180,
+    "pin1_location": "bottomside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          -9.260056,
+          0.9299989999999996
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          -10.210016,
+          0.9299989999999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          -11.159976000000002,
+          0.929999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          -11.159976000000002,
+          3.3297909999999997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -10.210016,
+          3.3297909999999997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -9.260056,
+          3.3297909999999997
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "D_PD",
+    "part": "C8598",
+    "mpn": "B5819W SL",
+    "center_mm": {
+      "x": -14.829979,
+      "y": 0.410011
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2",
+          "anode",
+          "pos"
+        ],
+        "center_mm": [
+          -13.129956999999997,
+          0.41001100000000007
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1",
+          "cathode",
+          "neg"
+        ],
+        "center_mm": [
+          -16.530001000000002,
+          0.410011
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "D_DATA",
+    "part": "C8598",
+    "mpn": "B5819W SL",
+    "center_mm": {
+      "x": 9.389986,
+      "y": -11.869979
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2",
+          "anode",
+          "pos"
+        ],
+        "center_mm": [
+          9.389986,
+          -10.169957
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1",
+          "cathode",
+          "neg"
+        ],
+        "center_mm": [
+          9.389986,
+          -13.570001000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "U_DRV",
+    "part": "C38437",
+    "mpn": "A4988SETTR-T",
+    "center_mm": {
+      "x": 0.00010000000000021103,
+      "y": -8.0001
+    },
+    "layer": "top",
+    "rotation_deg": 270,
+    "pin1_location": "bottomside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin29"
+        ],
+        "center_mm": [
+          -2.699999999995354e-05,
+          -7.999973
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin28"
+        ],
+        "center_mm": [
+          -1.5011669999999986,
+          -5.500104999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin27"
+        ],
+        "center_mm": [
+          -1.0007869999999992,
+          -5.500104999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin26"
+        ],
+        "center_mm": [
+          -0.5004069999999989,
+          -5.500105000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin25"
+        ],
+        "center_mm": [
+          -2.6999999999331036e-05,
+          -5.500105000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin24"
+        ],
+        "center_mm": [
+          0.5003530000000008,
+          -5.500105
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin23"
+        ],
+        "center_mm": [
+          1.0007329999999999,
+          -5.500105
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin22"
+        ],
+        "center_mm": [
+          1.5011129999999997,
+          -5.500104999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin21"
+        ],
+        "center_mm": [
+          2.5000950000000004,
+          -6.498832999999992
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin20"
+        ],
+        "center_mm": [
+          2.5000950000000035,
+          -6.999213000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin19"
+        ],
+        "center_mm": [
+          2.5000950000000035,
+          -7.499593000000007
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin18"
+        ],
+        "center_mm": [
+          2.500095,
+          -7.999972999999997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin17"
+        ],
+        "center_mm": [
+          2.5000950000000013,
+          -8.500353000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin16"
+        ],
+        "center_mm": [
+          2.5000950000000013,
+          -9.000733000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin15"
+        ],
+        "center_mm": [
+          2.500094999999999,
+          -9.501112999999991
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin14"
+        ],
+        "center_mm": [
+          1.501113,
+          -10.500095000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin13"
+        ],
+        "center_mm": [
+          1.0007330000000016,
+          -10.500095000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin12"
+        ],
+        "center_mm": [
+          0.5003529999999993,
+          -10.500095
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin11"
+        ],
+        "center_mm": [
+          -2.7000000001102917e-05,
+          -10.500094999999993
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin10"
+        ],
+        "center_mm": [
+          -0.500407000000001,
+          -10.500094999999996
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin9"
+        ],
+        "center_mm": [
+          -1.0007870000000016,
+          -10.500094999999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin8"
+        ],
+        "center_mm": [
+          -1.5011670000000028,
+          -10.500095000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin7"
+        ],
+        "center_mm": [
+          -2.4998950000000004,
+          -9.501112999999991
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          -2.4998950000000026,
+          -9.000733000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          -2.4998950000000035,
+          -8.500352999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          -2.499895000000002,
+          -7.999972999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          -2.4998950000000026,
+          -7.499593000000007
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -2.4998950000000026,
+          -6.999213000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -2.4998949999999973,
+          -6.498832999999992
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_CP",
+    "part": "C960916",
+    "mpn": "CL05B104KB5NNNC",
+    "center_mm": {
+      "x": -4.689885,
+      "y": -9.589998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -4.269769,
+          -9.589998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -5.1100010000000005,
+          -9.589998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_VCP",
+    "part": "C960916",
+    "mpn": "CL05B104KB5NNNC",
+    "center_mm": {
+      "x": -7.559885,
+      "y": -8.199998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -7.139769,
+          -8.199998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -7.980001000000001,
+          -8.199998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_VREG",
+    "part": "C21120",
+    "mpn": "CL10B224KA8NNNC",
+    "center_mm": {
+      "x": -4.689977,
+      "y": -11.490001
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -3.9899530000000003,
+          -11.490000999999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -5.390001,
+          -11.490000999999998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_DRV_LOGIC",
+    "part": "C1525",
+    "mpn": "CL05B104KO5NNNC",
+    "center_mm": {
+      "x": 4.710115,
+      "y": -9.989998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          5.130231,
+          -9.989997999999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          4.289999,
+          -9.989997999999998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_VM",
+    "part": "C960916",
+    "mpn": "CL05B104KB5NNNC",
+    "center_mm": {
+      "x": 0.510115,
+      "y": -3.289998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          0.930231,
+          -3.2899979999999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          0.08999899999999998,
+          -3.2899979999999998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_BULK",
+    "part": "C72522",
+    "mpn": "RVT1V470M0605",
+    "center_mm": {
+      "x": -12.05,
+      "y": -5.4
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -12.05,
+          -8.070048
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -12.05,
+          -2.729952000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_SA",
+    "part": "C2930216",
+    "mpn": "FRL0805FR240TS",
+    "center_mm": {
+      "x": -4.351495,
+      "y": -6.6337340000000005
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -4.351495,
+          -5.633736
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -4.351495000000001,
+          -7.633732000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_SB",
+    "part": "C2930216",
+    "mpn": "FRL0805FR240TS",
+    "center_mm": {
+      "x": 4.4,
+      "y": -5
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          4.400000000000001,
+          -4.000002000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          4.400000000000001,
+          -5.999997999999999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_REF_H",
+    "part": "C23153",
+    "mpn": "0603WAF3902T5E",
+    "center_mm": {
+      "x": 2.436602,
+      "y": -2.057997
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          3.189966,
+          -2.057997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          1.6832380000000002,
+          -2.057997
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_REF_L",
+    "part": "C25804",
+    "mpn": "0603WAF1002T5E",
+    "center_mm": {
+      "x": 6.006602,
+      "y": -7.787997
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          6.759966,
+          -7.787997000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          5.253238,
+          -7.787997000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_REF",
+    "part": "C1589",
+    "mpn": "CL10B103KB8NNNC",
+    "center_mm": {
+      "x": 6.1,
+      "y": -3.5
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          6.1,
+          -2.7999760000000005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          6.1,
+          -4.200024
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_ENABLE",
+    "part": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "center_mm": {
+      "x": -7.073398,
+      "y": -9.427997
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -6.320033999999999,
+          -9.427997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -7.826762000000001,
+          -9.427997
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_SLEEP",
+    "part": "C25803",
+    "mpn": "0603WAF1003T5E",
+    "center_mm": {
+      "x": 16.315,
+      "y": 13.875
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.315,
+          14.628364
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          16.315,
+          13.121636
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "J_MOTOR",
+    "part": "C131334",
+    "mpn": "B4B-PH-K-S(LF)(SN)",
+    "center_mm": {
+      "x": 0,
+      "y": -14.249963000000001
+    },
+    "layer": "top",
+    "rotation_deg": 180,
+    "pin1_location": "bottomside_right",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "unnamed_platedhole9",
+          "pin2"
+        ],
+        "center_mm": [
+          -0.9999980000000002,
+          -14.249963000000003
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole10",
+          "pin1"
+        ],
+        "center_mm": [
+          -2.9999940000000005,
+          -14.249963000000008
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole11",
+          "pin3"
+        ],
+        "center_mm": [
+          0.9999980000000004,
+          -14.249963
+        ]
+      },
+      {
+        "pin_hints": [
+          "unnamed_platedhole12",
+          "pin4"
+        ],
+        "center_mm": [
+          2.9999940000000005,
+          -14.249963000000008
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "THT hand solder or supplier quoted secondary operation"
+  },
+  {
+    "reference": "U_ESD",
+    "part": "C2687116",
+    "mpn": "USBLC6-2SC6",
+    "center_mm": {
+      "x": -8.804901,
+      "y": -11.83999
+    },
+    "layer": "top",
+    "rotation_deg": 270,
+    "pin1_location": "bottomside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -9.953996999999998,
+          -10.89003
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -9.953996999999998,
+          -11.83999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          -9.953996999999998,
+          -12.78995
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          -7.655804999999997,
+          -12.789950000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          -7.655804999999997,
+          -11.83999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          -7.655804999999997,
+          -10.890030000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "D_TVS",
+    "part": "C19077512",
+    "mpn": "SMF18A",
+    "center_mm": {
+      "x": -4.100017,
+      "y": 7.349998
+    },
+    "layer": "top",
+    "rotation_deg": 180,
+    "pin1_location": "bottomside_right",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -2.4500330000000003,
+          7.349997999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -5.750000999999999,
+          7.349998000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_USB_BOOT",
+    "part": "C25900",
+    "mpn": "0402WGF4701TCE",
+    "center_mm": {
+      "x": 2.705645,
+      "y": 7.810002000000001
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          3.138461,
+          7.810002000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          2.272829,
+          7.810002000000001
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "L_BUCK",
+    "part": "C780206",
+    "mpn": "SRN4018-4R7M",
+    "center_mm": {
+      "x": -10.829953,
+      "y": 6.499996
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -12.230001,
+          6.499996
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -9.429905000000002,
+          6.499996
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_BOOTSTRAP",
+    "part": "C1525",
+    "mpn": "CL05B104KO5NNNC",
+    "center_mm": {
+      "x": -12.459998,
+      "y": 2.460115
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -12.459998000000002,
+          2.880231
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -12.459998000000002,
+          2.0399990000000003
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_BUCK_IN",
+    "part": "C13585",
+    "mpn": "CL31A106KBHNNNE",
+    "center_mm": {
+      "x": -14.706006,
+      "y": 4.125085
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -14.706005999999999,
+          5.717665
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -14.706005999999999,
+          2.532505
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_BUCK_OUT1",
+    "part": "C45783",
+    "mpn": "CL21A226MAQNNNE",
+    "center_mm": {
+      "x": -13.355,
+      "y": 9.805005
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -12.355002,
+          9.805005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -14.354997999999997,
+          9.805005
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_BUCK_OUT2",
+    "part": "C45783",
+    "mpn": "CL21A226MAQNNNE",
+    "center_mm": {
+      "x": -15.165000000000001,
+      "y": 7.745005
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -14.165002,
+          7.745005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -16.164998000000004,
+          7.745004999999999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "U_TEMP",
+    "part": "C99269",
+    "mpn": "TMP102AIDRLR",
+    "center_mm": {
+      "x": 6.959985,
+      "y": -9.649923
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "rightside_bottom",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin5"
+        ],
+        "center_mm": [
+          6.2099992,
+          -9.65005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          7.7099708,
+          -9.65005
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          7.7099708,
+          -9.149923999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          7.7099708,
+          -10.149921999999998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          6.2099992,
+          -9.149923999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin6"
+        ],
+        "center_mm": [
+          6.2099992,
+          -10.149921999999998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_TEMP",
+    "part": "C1525",
+    "mpn": "CL05B104KO5NNNC",
+    "center_mm": {
+      "x": 7.340115,
+      "y": -11.219998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          7.760230999999999,
+          -11.219997999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          6.919999,
+          -11.219997999999999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_TEMP_SDA",
+    "part": "C25900",
+    "mpn": "0402WGF4701TCE",
+    "center_mm": {
+      "x": -7.929998000000001,
+      "y": 7.585645
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -7.929998,
+          8.018460999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -7.929998,
+          7.1528290000000005
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_TEMP_SCL",
+    "part": "C25900",
+    "mpn": "0402WGF4701TCE",
+    "center_mm": {
+      "x": 16.03,
+      "y": 16.44
+    },
+    "layer": "top",
+    "rotation_deg": 180,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          15.597184,
+          16.44
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          16.462816,
+          16.44
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "D_PWR",
+    "part": "C965799",
+    "mpn": "XL-1608SURC-06",
+    "center_mm": {
+      "x": -9.341006,
+      "y": -14.216572
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": null,
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin1",
+          "cathode",
+          "neg"
+        ],
+        "center_mm": [
+          -10.0900012,
+          -14.220001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2",
+          "anode",
+          "pos"
+        ],
+        "center_mm": [
+          -8.592010799999999,
+          -14.213142999999999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_PWR_LED",
+    "part": "C25104",
+    "mpn": "0402WGF3300TCE",
+    "center_mm": {
+      "x": 16.025,
+      "y": 8.51
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.025,
+          8.942816000000002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          16.025,
+          8.077183999999999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "D_STATUS",
+    "part": "C458749",
+    "mpn": "LTST-C19HE1WT",
+    "center_mm": {
+      "x": -16.320002,
+      "y": 12.301996
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          -16.77008999999998,
+          11.468494999999997
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          -15.869913999999978,
+          11.468495000000003
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -15.869913999999978,
+          13.135497000000006
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -16.77008999999998,
+          13.135496999999996
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_STATUS_R",
+    "part": "C11702",
+    "mpn": "0402WGF1001TCE",
+    "center_mm": {
+      "x": -0.489998,
+      "y": 11.365645
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -0.48999800000000004,
+          11.798461000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -0.48999800000000004,
+          10.932829000000002
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "Q_STATUS_R",
+    "part": "C509876",
+    "mpn": "DTC114EU3HZGT106",
+    "center_mm": {
+      "x": -3.25,
+      "y": 4.75
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "rightside_top",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          -4.19996,
+          4.75
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          -2.30004,
+          5.399986
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          -2.30004,
+          4.100014
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_STATUS_G",
+    "part": "C11702",
+    "mpn": "0402WGF1001TCE",
+    "center_mm": {
+      "x": 0.48,
+      "y": 16.03
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          0.48,
+          16.462816
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          0.48,
+          15.597184
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "Q_STATUS_G",
+    "part": "C509876",
+    "mpn": "DTC114EU3HZGT106",
+    "center_mm": {
+      "x": 9.079959,
+      "y": 6.889998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "rightside_top",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          8.129999,
+          6.889998000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          10.029919000000001,
+          7.539984000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          10.029919000000001,
+          6.240012
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_STATUS_B",
+    "part": "C11702",
+    "mpn": "0402WGF1001TCE",
+    "center_mm": {
+      "x": 6.5,
+      "y": 7
+    },
+    "layer": "top",
+    "rotation_deg": 90,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          6.5,
+          7.432816
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          6.5,
+          6.567184
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "Q_STATUS_B",
+    "part": "C509876",
+    "mpn": "DTC114EU3HZGT106",
+    "center_mm": {
+      "x": 15.709958999999998,
+      "y": 4.809998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "rightside_top",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          14.759998999999999,
+          4.809998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          16.659919,
+          5.459984000000001
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.659918999999995,
+          4.160012
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "BZ1",
+    "part": "C7544813",
+    "mpn": "HYG-8503A",
+    "center_mm": {
+      "x": 12.35,
+      "y": -1.6999999999999997
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "bottomside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          8.750185,
+          -5.299942
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          15.949815000000001,
+          -5.299942
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          15.949561,
+          1.899688
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin4"
+        ],
+        "center_mm": [
+          8.750185,
+          1.899942
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "Q_BUZZER",
+    "part": "C20917",
+    "mpn": "AO3400A",
+    "center_mm": {
+      "x": 15.629997,
+      "y": -8.46999
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "rightside_bottom",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          16.629995000000005,
+          -9.41995
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.629995000000005,
+          -7.520029999999999
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin3"
+        ],
+        "center_mm": [
+          14.629999,
+          -8.46999
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "D_BUZZER",
+    "part": "C478000",
+    "mpn": "PMEG6020ELRX",
+    "center_mm": {
+      "x": 11.437407,
+      "y": -7.820002000000001
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2",
+          "anode",
+          "pos"
+        ],
+        "center_mm": [
+          13.129808999999998,
+          -7.820002
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1",
+          "cathode",
+          "neg"
+        ],
+        "center_mm": [
+          9.745005000000003,
+          -7.820002
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_BUZZER_GATE",
+    "part": "C25076",
+    "mpn": "0402WGF1000TCE",
+    "center_mm": {
+      "x": 16.03,
+      "y": -11.93
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          16.462816,
+          -11.93
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          15.597184000000002,
+          -11.93
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "R_BUZZER_PD",
+    "part": "C25741",
+    "mpn": "0402WGF1003TCE",
+    "center_mm": {
+      "x": 11.755645,
+      "y": -10.219998
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          12.188461000000002,
+          -10.219998
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          11.322828999999999,
+          -10.219998
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  },
+  {
+    "reference": "C_BUZZER",
+    "part": "C19702",
+    "mpn": "CL10A106KP8NNNC",
+    "center_mm": {
+      "x": 6.6,
+      "y": -12.5
+    },
+    "layer": "top",
+    "rotation_deg": 0,
+    "pin1_location": "topside_left",
+    "physical_pads": [
+      {
+        "pin_hints": [
+          "pin2"
+        ],
+        "center_mm": [
+          7.300023999999999,
+          -12.5
+        ]
+      },
+      {
+        "pin_hints": [
+          "pin1"
+        ],
+        "center_mm": [
+          5.899976,
+          -12.5
+        ]
+      }
+    ],
+    "manufacturer_pickup_datum_and_rotation_approved": false,
+    "process": "SMT"
+  }
+]

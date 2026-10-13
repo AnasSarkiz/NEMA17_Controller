@@ -1270,6 +1270,7 @@
       "kind": "stencil-release-screen",
       "apertures": [
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             3.929796,
             -0.04499550000000002,
@@ -1282,6 +1283,7 @@
           "area_ratio_at_100um": 0.5444441975304726
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             2.330104,
             -0.04499550000000002,
@@ -1294,6 +1296,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             2.7299,
             -0.04499550000000002,
@@ -1306,6 +1309,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             3.12995,
             -0.04499550000000002,
@@ -1318,6 +1322,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             4.3301,
             -0.04499550000000002,
@@ -1330,6 +1335,7 @@
           "area_ratio_at_100um": 0.5444441975304739
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             4.729896,
             -0.04499550000000002,
@@ -1342,6 +1348,7 @@
           "area_ratio_at_100um": 0.5444441975304739
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             3.5300000000000002,
             -0.04423350000000001,
@@ -1354,6 +1361,7 @@
           "area_ratio_at_100um": 0.5444441975304714
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             0.930104,
@@ -1366,6 +1374,7 @@
           "area_ratio_at_100um": 0.5444441975304726
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             1.3298999999999999,
@@ -1378,6 +1387,7 @@
           "area_ratio_at_100um": 0.5444441975304726
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             1.7299499999999999,
@@ -1390,6 +1400,7 @@
           "area_ratio_at_100um": 0.5444441975304726
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             2.1310160000000002,
@@ -1402,6 +1413,7 @@
           "area_ratio_at_100um": 0.5444441975304714
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             2.529796,
@@ -1414,6 +1426,7 @@
           "area_ratio_at_100um": 0.5444441975304714
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             2.9301000000000004,
@@ -1426,6 +1439,7 @@
           "area_ratio_at_100um": 0.5444441975304714
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             1.3550045,
             3.329896,
@@ -1438,6 +1452,7 @@
           "area_ratio_at_100um": 0.5444441975304714
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             3.5300000000000002,
             3.9547424999999996,
@@ -1450,6 +1465,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             3.130204,
             3.9549964999999996,
@@ -1462,6 +1478,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             2.7299,
             3.9549964999999996,
@@ -1474,6 +1491,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             3.929796,
             3.9549964999999996,
@@ -1486,6 +1504,7 @@
           "area_ratio_at_100um": 0.5444441975304725
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             4.3301,
             3.9549964999999996,
@@ -1498,6 +1517,7 @@
           "area_ratio_at_100um": 0.5444441975304738
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             2.330104,
             3.9549964999999996,
@@ -1510,6 +1530,7 @@
           "area_ratio_at_100um": 0.5444441975304712
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             0.930104,
@@ -1522,6 +1543,7 @@
           "area_ratio_at_100um": 0.5444441975304725
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             1.3298999999999999,
@@ -1534,6 +1556,7 @@
           "area_ratio_at_100um": 0.5444441975304725
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             1.7302039999999999,
@@ -1546,6 +1569,7 @@
           "area_ratio_at_100um": 0.5444441975304725
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             2.1300000000000003,
@@ -1558,6 +1582,7 @@
           "area_ratio_at_100um": 0.5444441975304711
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             2.529796,
@@ -1570,6 +1595,7 @@
           "area_ratio_at_100um": 0.5444441975304711
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             2.9301000000000004,
@@ -1582,6 +1608,7 @@
           "area_ratio_at_100um": 0.5444441975304711
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             5.3549965,
             3.329896,
@@ -1594,6 +1621,7 @@
           "area_ratio_at_100um": 0.5444441975304711
         },
         {
+          "layer": "F_Paste",
           "bounds_mm": [
             4.729896,
             3.9549964999999996,
@@ -1634,11 +1662,21 @@
     },
     {
       "kind": "paste-source-mismatch",
+      "layer": "F_Paste",
       "missing_mm2": 0.0,
       "extra_mm2": 3.7631999999999977
     }
   ],
   "rear_motor_compatibility_verified": false,
   "prototype_fabrication_ready": false,
-  "physical_hardware_tested": false
+  "physical_hardware_tested": false,
+  "retry_history": [
+    {
+      "check": "full_independent_CAM",
+      "previous_exit_code": 1,
+      "retry_exit_code": 1,
+      "board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
+      "retried_at_utc": "2026-10-13T05:41:58.749565+00:00"
+    }
+  ]
 }

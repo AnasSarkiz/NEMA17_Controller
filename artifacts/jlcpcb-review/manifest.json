@@ -1,0 +1,307 @@
+{
+  "native_board_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
+  "native_export_sha256": "9c441b73dc777c1e4d36380d37f0e07e3db5345ede06020207e9196bf9112b2a",
+  "order_source_sha256": "9862e881e53654c5478927a5aa6a7d145bf222fd5c787f35bce9de2cf2dac3f7",
+  "review_cam_sha256": "0b08095599636a4be9646dff4bc8a6b4e0ccae832443daf47f56fecf3781f87a",
+  "fabrication_zip_sha256": "5d6ac4e4105baab84a73c6e52ac1008b93d215c0f89fd09a9739fbce71f04aa1",
+  "source_github_revision": "de945392351af9a3a7b5e0a78de86c4b2b7c7613",
+  "electrical_source_and_all_nonpaste_records_unchanged": true,
+  "copied_unchanged_copper_mask_drill_outline": {
+    "F_Cu.gbr": "657aea30aa5e8fd839433b9235266a4a23d96896422db4876ea5ae87983f908d",
+    "F_Mask.gbr": "ee33b2123aed65a24d460ac5d779f381f09179daa926a27d5131fff0da931b7e",
+    "B_Cu.gbr": "af0d82f728875c3152b63de84aa5f0686eb90dab64b180548679187cc888c788",
+    "B_Mask.gbr": "0a536b852a2d008226dc7ed78157f5320ecc7f5b136e8bb8698463a661987d39",
+    "Edge_Cuts.gbr": "5d3f686fc21843795d8d5dfdc1964568fb1d87d50ccb55e5912bead38a39d7e7",
+    "In1_Cu.gbr": "d541d1c5b2bc5fc99130250308887821b498fd016cb1fc9ce06a6bf45c9d69dc",
+    "In2_Cu.gbr": "4bdcc835248b81f7351cd1ceadf4c3c98f94dd0330e5e745e6ab48de11976073",
+    "drill-L1-L4.drl": "7bcb8f7129052e48a36e10eb5c686e4ae6c970a5cf4293b0e55d8af7b5815060",
+    "drill_npth.drl": "342b9ae8f61317431bbab63e2ec451ad73c6253474ae08700df671a32e1167e3"
+  },
+  "fitted_components": 61,
+  "SMT_components": 60,
+  "manual_THT_components": 1,
+  "bottom_SMT_references": [],
+  "excluded_bare_interfaces": [
+    "J_BOOT",
+    "J_DEBUG"
+  ],
+  "paste_changes": [
+    {
+      "reference": "U_PD",
+      "pad": "pcb_smtpad_34",
+      "policy": "four windows; 60% exposed-pad area"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_41",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_42",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_43",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_44",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_45",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_46",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_47",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_48",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_49",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_50",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_51",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_52",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_53",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_54",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_55",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_56",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_57",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_58",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_59",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_60",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_61",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_62",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_63",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_64",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_65",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_66",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_67",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_68",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_69",
+      "policy": "four windows; 60% exposed-pad area"
+    },
+    {
+      "reference": "U_DRV",
+      "pad": "pcb_smtpad_98",
+      "policy": "four windows; 60% exposed-pad area"
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_179",
+      "policy": "0.75 linear pad scale"
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_180",
+      "policy": "0.75 linear pad scale"
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_181",
+      "policy": "0.75 linear pad scale"
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_182",
+      "policy": "0.75 linear pad scale"
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_183",
+      "policy": "0.75 linear pad scale"
+    },
+    {
+      "reference": "U_TEMP",
+      "pad": "pcb_smtpad_184",
+      "policy": "0.75 linear pad scale"
+    }
+  ],
+  "silkscreen_changes": [
+    {
+      "layer": "top",
+      "original_area_mm2": 103.28836095635674,
+      "new_area_mm2": 100.18366892477526,
+      "reference_captions_placed": 9,
+      "captions_omitted_for_clearance": [
+        "J_BOOT",
+        "J_DEBUG",
+        "U_BUCK",
+        "U_DRV",
+        "U_ESD",
+        "U_MCU",
+        "U_TEMP",
+        "C_BOOTSTRAP",
+        "C_BUCK_IN",
+        "C_BUCK_OUT1",
+        "C_BUCK_OUT2",
+        "C_BULK",
+        "C_BUZZER",
+        "C_CP",
+        "C_DRV_LOGIC",
+        "C_LOGIC",
+        "C_MCU",
+        "C_PD",
+        "C_REF",
+        "C_TEMP",
+        "C_VM",
+        "C_VM_SENSE",
+        "C_VREG",
+        "D_BUZZER",
+        "D_DATA",
+        "D_PWR",
+        "D_STATUS",
+        "D_TVS",
+        "L_BUCK",
+        "Q_BUZZER",
+        "Q_STATUS_B",
+        "Q_STATUS_G",
+        "Q_STATUS_R",
+        "R_BUZZER_GATE",
+        "R_BUZZER_PD",
+        "R_CC2",
+        "R_ENABLE",
+        "R_PD",
+        "R_PWR_LED",
+        "R_REF_H",
+        "R_REF_L",
+        "R_SA",
+        "R_SB",
+        "R_SLEEP",
+        "R_STATUS_B",
+        "R_STATUS_G",
+        "R_STATUS_R",
+        "R_TEMP_SCL",
+        "R_TEMP_SDA",
+        "R_USB_BOOT",
+        "R_USB_SENSE_H",
+        "R_USB_SENSE_L",
+        "R_VM_H",
+        "R_VM_L"
+      ],
+      "policy": "current component outlines and intact reference captions; board inset 0.101 mm, mask guard 0.151 mm, drill guard 0.101 mm; full references in assembly files"
+    },
+    {
+      "layer": "bottom",
+      "original_area_mm2": 0.0,
+      "new_area_mm2": 0.0,
+      "reference_captions_placed": 0,
+      "captions_omitted_for_clearance": [],
+      "policy": "current component outlines and intact reference captions; board inset 0.101 mm, mask guard 0.151 mm, drill guard 0.101 mm; full references in assembly files"
+    }
+  ],
+  "assembly_preview_approved_by_JLCPCB": false,
+  "physical_hardware_tested": false,
+  "rear_motor_compatibility_verified": false,
+  "process_requests": {
+    "layers": 4,
+    "dimensions_mm": [
+      35,
+      35
+    ],
+    "thickness_mm": 1.6,
+    "outer_copper_min_um": 35,
+    "inner_copper_min_um": 17.5,
+    "via_barrel_plating_min_um": 20,
+    "surface_finish": "ENIG requested for bare contact pads",
+    "stencil_thickness_um": 100,
+    "thermal_via_process": "filled and capped/planarized via-in-pad; supplier must confirm capability and quote",
+    "assembly_sides": "top",
+    "JST_process": "separate manual THT soldering, unless secondary supplier operation is quoted"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "NEMA14_CH32X035G8U6",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "NEMA14 CH32X035 USB-C PD hardware prototype",
   "main": "index.circuit.tsx",
   "scripts": {
