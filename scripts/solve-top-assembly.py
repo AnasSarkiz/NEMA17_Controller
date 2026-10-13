@@ -2,7 +2,7 @@ import json,math,pathlib,itertools,sys
 from ortools.sat.python import cp_model
 from shapely.geometry import Polygon,box,Point
 from shapely.affinity import rotate,translate
-root=pathlib.Path(sys.argv[1]);j=json.loads((root/'artifacts/top-assembly/raw-source.circuit.json').read_text());src={e['source_component_id']:e['name'] for e in j if e['type']=='source_component'};comps={e['pcb_component_id']:e for e in j if e['type']=='pcb_component'};scale=100
+root=pathlib.Path(sys.argv[1]);j=json.loads((root/'artifacts/top-assembly/raw-source.circuit.json').read_text());src={e['source_component_id']:e['name'] for e in j if e['type']=='source_component'};comps={e['pcb_component_id']:e for e in j if e['type']=='pcb_component'};scale=1000
 courts={}
 for e in j:
  if e['type']=='pcb_courtyard_outline':courts[e['pcb_component_id']]=Polygon([(q['x'],q['y']) for q in e['outline']])
@@ -20,7 +20,7 @@ for id,c in comps.items():
  movable=n.startswith(('R_','C_','TP_')) or n in ['Y_MCU','J_MOTOR']
  if not movable:
   x0=math.floor(a*scale);y0=math.floor(b*scale);ix.append(model.new_fixed_size_interval_var(x0,math.ceil(d*scale)-x0,n+'x'));iy.append(model.new_fixed_size_interval_var(y0,math.ceil(e*scale)-y0,n+'y'));continue
- limit=4 if n in priority else 3 if n.startswith('TP_') else 2
+ limit=12 if n.startswith('TP_') else 4 if n in priority else 2
  x=model.new_int_var(round((cx-limit)*scale),round((cx+limit)*scale),n+'x');y=model.new_int_var(round((cy-limit)*scale),round((cy+limit)*scale),n+'y');r=model.new_bool_var(n+'rot')
  physical=[p for p in j if p['type'] in ['pcb_smtpad','pcb_plated_hole'] and p.get('pcb_component_id')==id]
  padgeoms=[]
@@ -50,7 +50,7 @@ if status not in [cp_model.FEASIBLE,cp_model.OPTIMAL]:sys.exit(1)
 moves=[]
 for id,(x,y,r) in variables.items():
  c=comps[id];n=src[c['source_component_id']];xx,yy=solver.value(x)/scale,solver.value(y)/scale;angle=90*solver.value(r);dx,dy=xx-c['center']['x'],yy-c['center']['y']
- if abs(dx)+abs(dy)<.00001 and angle==0:continue
+ if abs(dx)+abs(dy)<.0015 and angle==0:continue
  p=placements[n];p['pcbX']+=dx;p['pcbY']+=dy;p['pcbRotation']=(p.get('pcbRotation',0)+angle)%360
  moves.append({'reference':n,'old_center':c['center'],'new_center':{'x':xx,'y':yy},'angle_delta':angle})
 (root/'artifacts/top-assembly/placement-plan.json').write_text(json.dumps({'status':solver.status_name(status),'moves':moves,'independent_copper_and_STEP_checks_required':True},indent=2)+'\n');(root/'src/supplier-placement.json').write_text(json.dumps(placements,indent=2)+'\n');print(json.dumps(moves),flush=True)
