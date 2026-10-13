@@ -1,5 +1,5 @@
 {
-  "source_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "source_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
   "directory": "artifacts/manufacturing",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -9,9 +9,9 @@
   "parser_compatibility": "Only LR right-angle aperture transforms and unambiguous split-line G85 slots are converted to equivalent G00/M15/G01/M16/G05 routing analytically. Original Gerbers independently rendered by PyGerber. Input CAM bytes remain unchanged.",
   "files": {
     "B_Cu.gbr": {
-      "sha256": "0ba5aaf4299442a2a4d54a02500f235862fd4968ebffbe23deefe0d3d26f3866",
-      "objects": 1476,
-      "area_mm2": 856.6512363404639,
+      "sha256": "0ea01d4029f450dcb083cebb82b606ad70774fd16d395462dde40c422a58dc4c",
+      "objects": 1460,
+      "area_mm2": 872.1148664244215,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -22,7 +22,7 @@
       "warnings": []
     },
     "B_Mask.gbr": {
-      "sha256": "1d174574cafe41930ed26b8e82d878fd22861341be914f6e81d73cef90c4387a",
+      "sha256": "016034fec080ddf8eab8831a6115fb286fda18abc2c0c4748b1c4bc2c462a241",
       "objects": 32,
       "area_mm2": 49.06435301683974,
       "bounds_mm": [
@@ -35,7 +35,7 @@
       "warnings": []
     },
     "B_Paste.gbr": {
-      "sha256": "3f381264728decd607b7bea40fa3fe50a2c76754380089191ee00ce634c54991",
+      "sha256": "9d9ccc677d66fcf98e79dd042c198efc255fe92c9c1c3c8ac518930993232299",
       "objects": 0,
       "area_mm2": 0.0,
       "bounds_mm": [],
@@ -43,7 +43,7 @@
       "warnings": []
     },
     "B_SilkScreen.gbr": {
-      "sha256": "303e513c1f2058f8fd58f4b2ba1b152f865ba27564db3114a9b0d619f516325b",
+      "sha256": "9d9ccc677d66fcf98e79dd042c198efc255fe92c9c1c3c8ac518930993232299",
       "objects": 0,
       "area_mm2": 0.0,
       "bounds_mm": [],
@@ -51,7 +51,7 @@
       "warnings": []
     },
     "Edge_Cuts.gbr": {
-      "sha256": "41af1feb6e78963f5c9bc42ba6cf5fe271628802bebf86e2a67cfd9a443bc8b3",
+      "sha256": "8e989aba79de15e1a7f9530b6957a4e6a514dccef63bdde12ba13d2e05994d8e",
       "objects": 4,
       "area_mm2": 6.999463298281626,
       "bounds_mm": [
@@ -64,9 +64,9 @@
       "warnings": []
     },
     "F_Cu.gbr": {
-      "sha256": "98dd3cdf6840516d93853fd99886c2fffbe7e3b807aa42189b7777c26b3eb96e",
-      "objects": 2346,
-      "area_mm2": 784.8181109991932,
+      "sha256": "ee2dee437a943fa397ce6cd61117dad65ab4f1c268b7c694ace60524d5edd2a0",
+      "objects": 2409,
+      "area_mm2": 795.3082180308037,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -77,7 +77,7 @@
       "warnings": []
     },
     "F_Fab.gbr": {
-      "sha256": "a636ce157666bdecacb1576b20a90a1600b9c7ed8e2ccf2b7f79e84c744b4189",
+      "sha256": "f229d88bbb17bbb75ea1825ecdb141df7dad11005d0354809328ac545126117a",
       "objects": 591,
       "area_mm2": 14.957980540967903,
       "bounds_mm": [
@@ -90,9 +90,9 @@
       "warnings": []
     },
     "F_Mask.gbr": {
-      "sha256": "74b26771a5037a52cb849e0638c267d8fba3d4bd0945db1d879e138c9519a407",
+      "sha256": "85dd4885dc573ecf1e2c1f3c2a7a9a4330a6ffc0c6f8ee12f70b310fc5c75f0f",
       "objects": 331,
-      "area_mm2": 246.9832770483405,
+      "area_mm2": 246.98327704834045,
       "bounds_mm": [
         -17.13,
         -17.119999999999997,
@@ -103,35 +103,35 @@
       "warnings": []
     },
     "F_Paste.gbr": {
-      "sha256": "ec53e77ce8675d90b880d6f12d11131e78ff0e4288f913f709212fb82a8868dd",
-      "objects": 197,
-      "area_mm2": 90.09872376861807,
+      "sha256": "a92df34b5d7bf101b404b24571603f0d338960592fadf93c0c59dace6a048712",
+      "objects": 238,
+      "area_mm2": 98.63292063107181,
       "bounds_mm": [
-        -16.95,
-        -16.985000499999998,
-        16.9799945,
-        16.6607965
+        -16.962594,
+        -16.985,
+        16.979994,
+        16.660796
       ],
       "LR_applied": 0,
       "warnings": []
     },
     "F_SilkScreen.gbr": {
-      "sha256": "ce3aac0ebcfabbf7ca02364c84d831b7597b15eb99be08301280e9567d01fd2f",
-      "objects": 4805,
-      "area_mm2": 98.76221902140199,
+      "sha256": "fcab0f594234e7b38058349cde687a75e5aa956714a317e10c36b442445a14f7",
+      "objects": 160,
+      "area_mm2": 102.89376094677202,
       "bounds_mm": [
-        -19.075391389726562,
-        -18.888622,
-        20.246668000000003,
-        19.225166888951005
+        -17.399,
+        -17.395,
+        17.399,
+        17.196805
       ],
       "LR_applied": 0,
       "warnings": []
     },
     "In1_Cu.gbr": {
-      "sha256": "5be85a41b3e989eafa57e527600d28f1e09c2705496f3ee1de0cd1d88b25aa5a",
-      "objects": 357,
-      "area_mm2": 1027.6915868781837,
+      "sha256": "ff54564956b49522a14db85f15071f8e7e9cf3f8aa8e5575dc3818dda28749ce",
+      "objects": 832,
+      "area_mm2": 977.525592436997,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -142,9 +142,9 @@
       "warnings": []
     },
     "In2_Cu.gbr": {
-      "sha256": "2169d6d5e5216ed1db251aadd1a3e954487633af4dbd031ff2c47eb29567bcee",
-      "objects": 2207,
-      "area_mm2": 843.269970797286,
+      "sha256": "3bbd0356c761559551b59afbd60c135540f5c47c22ebc9e0f4e44bb1ffac3c1d",
+      "objects": 1982,
+      "area_mm2": 850.9515834417139,
       "bounds_mm": [
         -17.15,
         -17.15,
@@ -155,19 +155,20 @@
       "warnings": []
     },
     "drill-L1-L4.drl": {
-      "sha256": "3f9a8bb552892e57a9055aedac5f989bd313afde814cb004e2e3829f2f5eda5b",
-      "objects": 200,
+      "sha256": "34e01c3c6fc73eeece579f9ada3c18fb2abd699a96c9a31684e6bd348470d340",
+      "objects": 201,
       "G85_joined": 8,
       "parser_notices": [
-        "<unknown>:14 \"G90\": G90 header statement found after end of header"
+        "<unknown>:16 \"G90\": G90 header statement found after end of header"
       ],
       "tools_mm": {
         "0.799998": 8,
-        "0.25": 192
+        "0.25": 177,
+        "0.2": 16
       }
     },
     "drill_npth.drl": {
-      "sha256": "b2b235f6c15a68a3c2352a8faed6bc60557ebe9c8a1b2f0c7c689a9c9ce666b2",
+      "sha256": "9fda5a4b58110165c7266dc06cd4d83675a4082c8c14ff4cbe4cc359d4e3de8a",
       "objects": 8,
       "G85_joined": 0,
       "parser_notices": [
@@ -179,1465 +180,28 @@
       }
     }
   },
-  "issues": [
-    {
-      "kind": "BOM-source-identity",
-      "errors": [
-        {
-          "ref": "J_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "TYPE-C-31-M-12"
-            },
-            "Comment": {
-              "export": "",
-              "source": "TYPE-C-31-M-12"
-            },
-            "Value": {
-              "export": "C165948",
-              "source": "TYPE-C-31-M-12"
-            }
-          }
-        },
-        {
-          "ref": "J_DATA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "TYPE-C-31-M-12"
-            },
-            "Comment": {
-              "export": "",
-              "source": "TYPE-C-31-M-12"
-            },
-            "Value": {
-              "export": "C165948",
-              "source": "TYPE-C-31-M-12"
-            }
-          }
-        },
-        {
-          "ref": "U_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CH224K"
-            },
-            "Comment": {
-              "export": "",
-              "source": "CH224K"
-            },
-            "Value": {
-              "export": "C970725",
-              "source": "CH224K"
-            }
-          }
-        },
-        {
-          "ref": "R_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "ERJPA3F1001V"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "ERJPA3F1001V"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10A105KB8NNNC"
-            },
-            "Comment": {
-              "export": "1u",
-              "source": "CL10A105KB8NNNC"
-            },
-            "Value": {
-              "export": "1u",
-              "source": "1uF"
-            }
-          }
-        },
-        {
-          "ref": "R_PG",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1002T5E"
-            },
-            "Comment": {
-              "export": "10k",
-              "source": "0603WAF1002T5E"
-            },
-            "Value": {
-              "export": "10k",
-              "source": "10k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "U_MCU",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CH32X035G8U6"
-            },
-            "Comment": {
-              "export": "",
-              "source": "CH32X035G8U6"
-            },
-            "Value": {
-              "export": "C7437027",
-              "source": "CH32X035G8U6"
-            }
-          }
-        },
-        {
-          "ref": "C_MCU",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CC0603KRX7R9BB104"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CC0603KRX7R9BB104"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_LOGIC",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL21A475KBQNNNE"
-            },
-            "Comment": {
-              "export": "4.7u",
-              "source": "CL21A475KBQNNNE"
-            },
-            "Value": {
-              "export": "4.7u",
-              "source": "4.7uF"
-            }
-          }
-        },
-        {
-          "ref": "R_CC1",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF5101TCE"
-            },
-            "Comment": {
-              "export": "5.1k",
-              "source": "0402WGF5101TCE"
-            },
-            "Value": {
-              "export": "5.1k",
-              "source": "5.1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_CC2",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF5101TCE"
-            },
-            "Comment": {
-              "export": "5.1k",
-              "source": "0402WGF5101TCE"
-            },
-            "Value": {
-              "export": "5.1k",
-              "source": "5.1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_USB_SENSE_H",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_USB_SENSE_L",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_VM_H",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_VM_L",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1002T5E"
-            },
-            "Comment": {
-              "export": "10k",
-              "source": "0603WAF1002T5E"
-            },
-            "Value": {
-              "export": "10k",
-              "source": "10k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_VM_SENSE",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10B103KB8NNNC"
-            },
-            "Comment": {
-              "export": "10n",
-              "source": "CL10B103KB8NNNC"
-            },
-            "Value": {
-              "export": "10n",
-              "source": "10nF"
-            }
-          }
-        },
-        {
-          "ref": "U_BUCK",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "AP63203WU-7"
-            },
-            "Comment": {
-              "export": "",
-              "source": "AP63203WU-7"
-            },
-            "Value": {
-              "export": "C780769",
-              "source": "AP63203WU-7"
-            }
-          }
-        },
-        {
-          "ref": "D_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "B5819W SL"
-            },
-            "Comment": {
-              "export": "",
-              "source": "B5819W SL"
-            },
-            "Value": {
-              "export": "C8598",
-              "source": "B5819W SL"
-            }
-          }
-        },
-        {
-          "ref": "D_DATA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "B5819W SL"
-            },
-            "Comment": {
-              "export": "",
-              "source": "B5819W SL"
-            },
-            "Value": {
-              "export": "C8598",
-              "source": "B5819W SL"
-            }
-          }
-        },
-        {
-          "ref": "U_DRV",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "A4988SETTR-T"
-            },
-            "Comment": {
-              "export": "",
-              "source": "A4988SETTR-T"
-            },
-            "Value": {
-              "export": "C38437",
-              "source": "A4988SETTR-T"
-            }
-          }
-        },
-        {
-          "ref": "C_CP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KB5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KB5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_VCP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KB5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KB5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_VREG",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10B224KA8NNNC"
-            },
-            "Comment": {
-              "export": "220n",
-              "source": "CL10B224KA8NNNC"
-            },
-            "Value": {
-              "export": "220n",
-              "source": "220nF"
-            }
-          }
-        },
-        {
-          "ref": "C_DRV_LOGIC",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KO5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KO5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_VM",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KB5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KB5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_BULK",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "RVT1V470M0605"
-            },
-            "Comment": {
-              "export": "47u",
-              "source": "RVT1V470M0605"
-            },
-            "Value": {
-              "export": "47u",
-              "source": "47uF"
-            }
-          }
-        },
-        {
-          "ref": "R_SA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "FRL0805FR240TS"
-            },
-            "Comment": {
-              "export": "240m",
-              "source": "FRL0805FR240TS"
-            },
-            "Value": {
-              "export": "240m",
-              "source": "240m\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_SB",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "FRL0805FR240TS"
-            },
-            "Comment": {
-              "export": "240m",
-              "source": "FRL0805FR240TS"
-            },
-            "Value": {
-              "export": "240m",
-              "source": "240m\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_REF_H",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF3902T5E"
-            },
-            "Comment": {
-              "export": "39k",
-              "source": "0603WAF3902T5E"
-            },
-            "Value": {
-              "export": "39k",
-              "source": "39k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_REF_L",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1002T5E"
-            },
-            "Comment": {
-              "export": "10k",
-              "source": "0603WAF1002T5E"
-            },
-            "Value": {
-              "export": "10k",
-              "source": "10k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_REF",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10B103KB8NNNC"
-            },
-            "Comment": {
-              "export": "10n",
-              "source": "CL10B103KB8NNNC"
-            },
-            "Value": {
-              "export": "10n",
-              "source": "10nF"
-            }
-          }
-        },
-        {
-          "ref": "R_ENABLE",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_SLEEP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "J_MOTOR",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "BM04B-SRSS-TB(LF)(SN)"
-            },
-            "Comment": {
-              "export": "",
-              "source": "BM04B-SRSS-TB(LF)(SN)"
-            },
-            "Value": {
-              "export": "C160390",
-              "source": "BM04B-SRSS-TB(LF)(SN)"
-            }
-          }
-        },
-        {
-          "ref": "U_ESD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "USBLC6-2SC6"
-            },
-            "Comment": {
-              "export": "",
-              "source": "USBLC6-2SC6"
-            },
-            "Value": {
-              "export": "C2687116",
-              "source": "USBLC6-2SC6"
-            }
-          }
-        },
-        {
-          "ref": "D_TVS",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "SMF18A"
-            },
-            "Comment": {
-              "export": "",
-              "source": "SMF18A"
-            },
-            "Value": {
-              "export": "C19077512",
-              "source": "SMF18A"
-            }
-          }
-        },
-        {
-          "ref": "R_USB_BOOT",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF4701TCE"
-            },
-            "Comment": {
-              "export": "4.7k",
-              "source": "0402WGF4701TCE"
-            },
-            "Value": {
-              "export": "4.7k",
-              "source": "4.7k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "L_BUCK",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "SRN4018-4R7M"
-            },
-            "Comment": {
-              "export": "",
-              "source": "SRN4018-4R7M"
-            },
-            "Value": {
-              "export": "C780206",
-              "source": "SRN4018-4R7M"
-            }
-          }
-        },
-        {
-          "ref": "C_BOOTSTRAP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KO5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KO5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_BUCK_IN",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL31A106KBHNNNE"
-            },
-            "Comment": {
-              "export": "10u",
-              "source": "CL31A106KBHNNNE"
-            },
-            "Value": {
-              "export": "10u",
-              "source": "10uF"
-            }
-          }
-        },
-        {
-          "ref": "C_BUCK_OUT1",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL21A226MAQNNNE"
-            },
-            "Comment": {
-              "export": "22u",
-              "source": "CL21A226MAQNNNE"
-            },
-            "Value": {
-              "export": "22u",
-              "source": "22uF"
-            }
-          }
-        },
-        {
-          "ref": "C_BUCK_OUT2",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL21A226MAQNNNE"
-            },
-            "Comment": {
-              "export": "22u",
-              "source": "CL21A226MAQNNNE"
-            },
-            "Value": {
-              "export": "22u",
-              "source": "22uF"
-            }
-          }
-        },
-        {
-          "ref": "U_TEMP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "TMP102AIDRLR"
-            },
-            "Comment": {
-              "export": "",
-              "source": "TMP102AIDRLR"
-            },
-            "Value": {
-              "export": "C99269",
-              "source": "TMP102AIDRLR"
-            }
-          }
-        },
-        {
-          "ref": "C_TEMP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KO5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KO5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "R_TEMP_SDA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF4701TCE"
-            },
-            "Comment": {
-              "export": "4.7k",
-              "source": "0402WGF4701TCE"
-            },
-            "Value": {
-              "export": "4.7k",
-              "source": "4.7k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_TEMP_SCL",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF4701TCE"
-            },
-            "Comment": {
-              "export": "4.7k",
-              "source": "0402WGF4701TCE"
-            },
-            "Value": {
-              "export": "4.7k",
-              "source": "4.7k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "D_PWR",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "XL-1608SURC-06"
-            },
-            "Comment": {
-              "export": "",
-              "source": "XL-1608SURC-06"
-            },
-            "Value": {
-              "export": "C965799",
-              "source": "XL-1608SURC-06"
-            }
-          }
-        },
-        {
-          "ref": "R_PWR_LED",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF3300TCE"
-            },
-            "Comment": {
-              "export": "330",
-              "source": "0402WGF3300TCE"
-            },
-            "Value": {
-              "export": "330",
-              "source": "330\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "D_STATUS",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "LTST-C19HE1WT"
-            },
-            "Comment": {
-              "export": "",
-              "source": "LTST-C19HE1WT"
-            },
-            "Value": {
-              "export": "C458749",
-              "source": "LTST-C19HE1WT"
-            }
-          }
-        },
-        {
-          "ref": "R_STATUS_R",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1001TCE"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "0402WGF1001TCE"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "Q_STATUS_R",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "DTC114EU3HZGT106"
-            },
-            "Comment": {
-              "export": "",
-              "source": "DTC114EU3HZGT106"
-            },
-            "Value": {
-              "export": "C509876",
-              "source": "DTC114EU3HZGT106"
-            }
-          }
-        },
-        {
-          "ref": "R_STATUS_G",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1001TCE"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "0402WGF1001TCE"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "Q_STATUS_G",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "DTC114EU3HZGT106"
-            },
-            "Comment": {
-              "export": "",
-              "source": "DTC114EU3HZGT106"
-            },
-            "Value": {
-              "export": "C509876",
-              "source": "DTC114EU3HZGT106"
-            }
-          }
-        },
-        {
-          "ref": "R_STATUS_B",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1001TCE"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "0402WGF1001TCE"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "Q_STATUS_B",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "DTC114EU3HZGT106"
-            },
-            "Comment": {
-              "export": "",
-              "source": "DTC114EU3HZGT106"
-            },
-            "Value": {
-              "export": "C509876",
-              "source": "DTC114EU3HZGT106"
-            }
-          }
-        },
-        {
-          "ref": "BZ1",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "HYG-8503A"
-            },
-            "Comment": {
-              "export": "",
-              "source": "HYG-8503A"
-            },
-            "Value": {
-              "export": "C7544813",
-              "source": "HYG-8503A"
-            }
-          }
-        },
-        {
-          "ref": "Q_BUZZER",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "AO3400A"
-            },
-            "Comment": {
-              "export": "",
-              "source": "AO3400A"
-            },
-            "Value": {
-              "export": "C20917",
-              "source": "AO3400A"
-            }
-          }
-        },
-        {
-          "ref": "D_BUZZER",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "PMEG6020ELRX"
-            },
-            "Comment": {
-              "export": "",
-              "source": "PMEG6020ELRX"
-            },
-            "Value": {
-              "export": "C478000",
-              "source": "PMEG6020ELRX"
-            }
-          }
-        },
-        {
-          "ref": "R_BUZZER_GATE",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1000TCE"
-            },
-            "Comment": {
-              "export": "100",
-              "source": "0402WGF1000TCE"
-            },
-            "Value": {
-              "export": "100",
-              "source": "100\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_BUZZER_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1003TCE"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0402WGF1003TCE"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_BUZZER",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10A106KP8NNNC"
-            },
-            "Comment": {
-              "export": "10u",
-              "source": "CL10A106KP8NNNC"
-            },
-            "Value": {
-              "export": "10u",
-              "source": "10uF"
-            }
-          }
-        }
-      ]
-    },
-    {
-      "kind": "stencil-release-screen",
-      "apertures": [
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            2.7299,
-            -0.04499550000000002,
-            2.8699,
-            0.4450035
-          ],
-          "area_mm2": 0.06859985999999985,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            3.929796,
-            -0.04499550000000002,
-            4.069796,
-            0.4450035
-          ],
-          "area_mm2": 0.06859986000000007,
-          "perimeter_mm": 1.2599980000000004,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304726
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            2.330104,
-            -0.04499550000000002,
-            2.4701039999999996,
-            0.4450035
-          ],
-          "area_mm2": 0.06859985999999985,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            3.12995,
-            -0.04499550000000002,
-            3.2699499999999997,
-            0.4450035
-          ],
-          "area_mm2": 0.06859985999999985,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            3.5300000000000002,
-            -0.04423350000000001,
-            3.67,
-            0.44576550000000004
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            0.930104,
-            1.8450035,
-            1.0701040000000002
-          ],
-          "area_mm2": 0.06859986000000007,
-          "perimeter_mm": 1.2599980000000004,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304726
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            1.3298999999999999,
-            1.8450035,
-            1.4699
-          ],
-          "area_mm2": 0.06859986000000007,
-          "perimeter_mm": 1.2599980000000004,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304726
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            1.7299499999999999,
-            1.8450035,
-            1.86995
-          ],
-          "area_mm2": 0.06859986000000007,
-          "perimeter_mm": 1.2599980000000004,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304726
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            2.1310160000000002,
-            1.8450035,
-            2.271016
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            2.529796,
-            1.8450035,
-            2.669796
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            2.9301000000000004,
-            1.8450035,
-            3.0701
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            1.3550045,
-            3.329896,
-            1.8450035,
-            3.469896
-          ],
-          "area_mm2": 0.06859985999999986,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304714
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            3.5300000000000002,
-            3.9547424999999996,
-            3.67,
-            4.444741499999999
-          ],
-          "area_mm2": 0.06859985999999979,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            2.330104,
-            3.9549964999999996,
-            2.4701039999999996,
-            4.444995499999999
-          ],
-          "area_mm2": 0.06859985999999979,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            2.7299,
-            3.9549964999999996,
-            2.8699,
-            4.444995499999999
-          ],
-          "area_mm2": 0.06859985999999979,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            3.130204,
-            3.9549964999999996,
-            3.2702039999999997,
-            4.444995499999999
-          ],
-          "area_mm2": 0.06859985999999979,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304712
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            3.929796,
-            3.9549964999999996,
-            4.069796,
-            4.444995499999999
-          ],
-          "area_mm2": 0.06859986000000001,
-          "perimeter_mm": 1.2599979999999995,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304725
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            4.729896,
-            -0.04499550000000002,
-            4.869896000000001,
-            0.4450035
-          ],
-          "area_mm2": 0.06859986000000028,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304739
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            4.3301,
-            -0.04499550000000002,
-            4.4701,
-            0.4450035
-          ],
-          "area_mm2": 0.06859986000000028,
-          "perimeter_mm": 1.2599980000000013,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304739
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            0.930104,
-            5.8449955,
-            1.0701040000000002
-          ],
-          "area_mm2": 0.06859985999999994,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304725
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            1.3298999999999999,
-            5.8449955,
-            1.4699
-          ],
-          "area_mm2": 0.06859985999999994,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304725
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            1.7302039999999999,
-            5.8449955,
-            1.870204
-          ],
-          "area_mm2": 0.06859985999999994,
-          "perimeter_mm": 1.2599979999999986,
-          "aspect_ratio_at_100um": 1.4000000000000012,
-          "area_ratio_at_100um": 0.5444441975304725
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            2.1300000000000003,
-            5.8449955,
-            2.27
-          ],
-          "area_mm2": 0.06859985999999973,
-          "perimeter_mm": 1.2599979999999977,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304711
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            2.529796,
-            5.8449955,
-            2.669796
-          ],
-          "area_mm2": 0.06859985999999973,
-          "perimeter_mm": 1.2599979999999977,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304711
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            2.9301000000000004,
-            5.8449955,
-            3.0701
-          ],
-          "area_mm2": 0.06859985999999973,
-          "perimeter_mm": 1.2599979999999977,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304711
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            5.3549965,
-            3.329896,
-            5.8449955,
-            3.469896
-          ],
-          "area_mm2": 0.06859985999999973,
-          "perimeter_mm": 1.2599979999999977,
-          "aspect_ratio_at_100um": 1.3999999999999968,
-          "area_ratio_at_100um": 0.5444441975304711
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            4.3301,
-            3.9549964999999996,
-            4.4701,
-            4.444995499999999
-          ],
-          "area_mm2": 0.06859986000000022,
-          "perimeter_mm": 1.2599980000000004,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304738
-        },
-        {
-          "layer": "F_Paste",
-          "bounds_mm": [
-            4.729896,
-            3.9549964999999996,
-            4.869896000000001,
-            4.444995499999999
-          ],
-          "area_mm2": 0.06859986000000022,
-          "perimeter_mm": 1.2599980000000004,
-          "aspect_ratio_at_100um": 1.4000000000000057,
-          "area_ratio_at_100um": 0.5444441975304738
-        }
-      ]
-    },
-    {
-      "kind": "silkscreen-clearance",
-      "layer": "F_SilkScreen",
-      "overlap_mask_openings_mm2": 7.573375080549779,
-      "inside_0_15mm_mask_guard_mm2": 12.727007540706735,
-      "outside_board_0_10mm_inset_mm2": 8.8918550384707
-    },
-    {
-      "kind": "EP-stencil-coverage",
-      "ref": "U_PD",
-      "pad": "pcb_smtpad_34",
-      "coverage_fraction": 0.4899998993937412
-    },
-    {
-      "kind": "EP-stencil-coverage",
-      "ref": "U_MCU",
-      "pad": "pcb_smtpad_69",
-      "coverage_fraction": 0.48999995999992085
-    },
-    {
-      "kind": "EP-stencil-coverage",
-      "ref": "U_DRV",
-      "pad": "pcb_smtpad_98",
-      "coverage_fraction": 0.49000021000044225
-    }
-  ],
+  "issues": [],
   "archive": {
     "path": "/workspace/nema14-ch32-board/artifacts/nema14-gerbers.zip",
-    "sha256": "ff07bc5385a29a4ba87c968c853e5a043f95f7a8c7f8236408a9a73b3a9d6f9e",
+    "sha256": "782478b3bfb28fb162a798c2ab369e7c04c38f9f51ebbd516c7caffbdfcc3c8e",
     "extracted_bytes_verified": true,
     "members": {
-      "F_Cu.gbr": "98dd3cdf6840516d93853fd99886c2fffbe7e3b807aa42189b7777c26b3eb96e",
-      "F_SilkScreen.gbr": "ce3aac0ebcfabbf7ca02364c84d831b7597b15eb99be08301280e9567d01fd2f",
-      "F_Mask.gbr": "74b26771a5037a52cb849e0638c267d8fba3d4bd0945db1d879e138c9519a407",
-      "F_Paste.gbr": "ec53e77ce8675d90b880d6f12d11131e78ff0e4288f913f709212fb82a8868dd",
-      "B_Cu.gbr": "0ba5aaf4299442a2a4d54a02500f235862fd4968ebffbe23deefe0d3d26f3866",
-      "B_SilkScreen.gbr": "303e513c1f2058f8fd58f4b2ba1b152f865ba27564db3114a9b0d619f516325b",
-      "B_Mask.gbr": "1d174574cafe41930ed26b8e82d878fd22861341be914f6e81d73cef90c4387a",
-      "B_Paste.gbr": "3f381264728decd607b7bea40fa3fe50a2c76754380089191ee00ce634c54991",
-      "Edge_Cuts.gbr": "41af1feb6e78963f5c9bc42ba6cf5fe271628802bebf86e2a67cfd9a443bc8b3",
-      "In1_Cu.gbr": "5be85a41b3e989eafa57e527600d28f1e09c2705496f3ee1de0cd1d88b25aa5a",
-      "In2_Cu.gbr": "2169d6d5e5216ed1db251aadd1a3e954487633af4dbd031ff2c47eb29567bcee",
-      "F_Fab.gbr": "a636ce157666bdecacb1576b20a90a1600b9c7ed8e2ccf2b7f79e84c744b4189",
-      "drill-L1-L4.drl": "3f9a8bb552892e57a9055aedac5f989bd313afde814cb004e2e3829f2f5eda5b",
-      "drill_npth.drl": "b2b235f6c15a68a3c2352a8faed6bc60557ebe9c8a1b2f0c7c689a9c9ce666b2",
-      "bom.csv": "8b85e80f3ce84d0ef7d8f11c0486d11cc0e479f6009aa83e48c23fdca7293615",
-      "pick_and_place.csv": "49fbd28acbca94508f58ad1bc55a4aa232fc9944c003b7e168d8454c40873363"
+      "B_Cu.gbr": "0ea01d4029f450dcb083cebb82b606ad70774fd16d395462dde40c422a58dc4c",
+      "B_Mask.gbr": "016034fec080ddf8eab8831a6115fb286fda18abc2c0c4748b1c4bc2c462a241",
+      "B_Paste.gbr": "9d9ccc677d66fcf98e79dd042c198efc255fe92c9c1c3c8ac518930993232299",
+      "B_SilkScreen.gbr": "9d9ccc677d66fcf98e79dd042c198efc255fe92c9c1c3c8ac518930993232299",
+      "Edge_Cuts.gbr": "8e989aba79de15e1a7f9530b6957a4e6a514dccef63bdde12ba13d2e05994d8e",
+      "F_Cu.gbr": "ee2dee437a943fa397ce6cd61117dad65ab4f1c268b7c694ace60524d5edd2a0",
+      "F_Fab.gbr": "f229d88bbb17bbb75ea1825ecdb141df7dad11005d0354809328ac545126117a",
+      "F_Mask.gbr": "85dd4885dc573ecf1e2c1f3c2a7a9a4330a6ffc0c6f8ee12f70b310fc5c75f0f",
+      "F_Paste.gbr": "a92df34b5d7bf101b404b24571603f0d338960592fadf93c0c59dace6a048712",
+      "F_SilkScreen.gbr": "fcab0f594234e7b38058349cde687a75e5aa956714a317e10c36b442445a14f7",
+      "In1_Cu.gbr": "ff54564956b49522a14db85f15071f8e7e9cf3f8aa8e5575dc3818dda28749ce",
+      "In2_Cu.gbr": "3bbd0356c761559551b59afbd60c135540f5c47c22ebc9e0f4e44bb1ffac3c1d",
+      "bom.csv": "7919fd582b0b9321da136c38b8449695992661cac3358c995fbf4335d6605f51",
+      "drill-L1-L4.drl": "34e01c3c6fc73eeece579f9ada3c18fb2abd699a96c9a31684e6bd348470d340",
+      "drill_npth.drl": "9fda5a4b58110165c7266dc06cd4d83675a4082c8c14ff4cbe4cc359d4e3de8a",
+      "pick_and_place.csv": "e18e324ba4f5c9d15436076ac0217e1a72329f2fd361d18444b5c4ec9039ba59"
     }
   },
   "copper_comparison": {
@@ -1667,7 +231,7 @@
     "shorts": [],
     "opens": [],
     "unconnected_pads": [],
-    "actual_copper_islands": 611,
+    "actual_copper_islands": 640,
     "unassigned_islands": 28,
     "no_connect_contacts": [],
     "unassigned_island_details": [
@@ -1722,22 +286,6 @@
       {
         "area_mm2": 0.1399997999999995,
         "bounds_mm": [
-          4.3001000000000005,
-          3.8499964999999996,
-          4.5001,
-          4.5499955
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "U_MCU.PB12"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.1399997999999995,
-        "bounds_mm": [
           4.699896000000001,
           3.8499964999999996,
           4.899896,
@@ -1748,6 +296,22 @@
         ],
         "no_connect_pads": [
           "U_MCU.PB11"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 0.1399997999999995,
+        "bounds_mm": [
+          4.3001000000000005,
+          3.8499964999999996,
+          4.5001,
+          4.5499955
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "U_MCU.PB12"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -1784,38 +348,6 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 5.760220802116,
-        "bounds_mm": [
-          7.550162,
-          0.699919,
-          9.950208,
-          3.099965
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "BZ1.NC2"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.3899978000030011,
-        "bounds_mm": [
-          7.8000605,
-          9.325929499999999,
-          8.1000595,
-          10.6259265
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "J_DATA.SBU2"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
         "area_mm2": 0.8999967000030004,
         "bounds_mm": [
           -8.2300005,
@@ -1848,6 +380,38 @@
         "classification": "intentional native no-connect pad"
       },
       {
+        "area_mm2": 0.3899978000030011,
+        "bounds_mm": [
+          7.8000605,
+          9.325929499999999,
+          8.1000595,
+          10.6259265
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "J_DATA.SBU2"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 5.760220802116,
+        "bounds_mm": [
+          7.550162,
+          0.699919,
+          9.950208,
+          3.099965
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "BZ1.NC2"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
         "area_mm2": 0.38999780000299994,
         "bounds_mm": [
           -7.5996795,
@@ -1860,38 +424,6 @@
         ],
         "no_connect_pads": [
           "J_PD.SBU1"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 5.760220802116004,
-        "bounds_mm": [
-          14.749538,
-          0.699665,
-          17.149584,
-          3.099711
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "BZ1.NC1"
-        ],
-        "classification": "intentional native no-connect pad"
-      },
-      {
-        "area_mm2": 0.38999780000299994,
-        "bounds_mm": [
-          -6.5999355,
-          9.325929499999999,
-          -6.2999365,
-          10.6259265
-        ],
-        "layers": [
-          "top"
-        ],
-        "no_connect_pads": [
-          "J_PD.DM1"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -1914,16 +446,16 @@
       {
         "area_mm2": 0.38999780000299994,
         "bounds_mm": [
-          -5.5999375,
+          -6.5999355,
           9.325929499999999,
-          -5.2999385000000006,
+          -6.2999365,
           10.6259265
         ],
         "layers": [
           "top"
         ],
         "no_connect_pads": [
-          "J_PD.DM2"
+          "J_PD.DM1"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -1944,6 +476,22 @@
         "classification": "intentional native no-connect pad"
       },
       {
+        "area_mm2": 0.38999780000299994,
+        "bounds_mm": [
+          -5.5999375,
+          9.325929499999999,
+          -5.2999385000000006,
+          10.6259265
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "J_PD.DM2"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
         "area_mm2": 2.159991600008001,
         "bounds_mm": [
           -4.949968,
@@ -1956,6 +504,22 @@
         ],
         "no_connect_pads": [
           "J_MOTOR.MOUNT2"
+        ],
+        "classification": "intentional native no-connect pad"
+      },
+      {
+        "area_mm2": 5.760220802116004,
+        "bounds_mm": [
+          14.749538,
+          0.699665,
+          17.149584,
+          3.099711
+        ],
+        "layers": [
+          "top"
+        ],
+        "no_connect_pads": [
+          "BZ1.NC1"
         ],
         "classification": "intentional native no-connect pad"
       },
@@ -1976,7 +540,7 @@
         "classification": "intentional native no-connect pad"
       },
       {
-        "area_mm2": 0.23517627186496587,
+        "area_mm2": 0.2351762718649662,
         "bounds_mm": [
           -2.949894,
           -9.641118,
@@ -2136,68 +700,68 @@
             ]
           ],
           "island_indices": [
-            76,
-            82
+            72,
+            78
           ]
         },
         {
-          "clearance_mm": 0.1516104286661575,
+          "clearance_mm": 0.15164535308958818,
           "conductors": [
             [
-              "USB_DM"
+              "STATUS_R_K"
             ],
             [
-              "DATA_CC1"
+              "STATUS_R_C"
             ]
           ],
           "island_indices": [
-            137,
-            158
+            53,
+            72
           ]
         },
         {
-          "clearance_mm": 0.15161042866615776,
+          "clearance_mm": 0.1516959999999994,
           "conductors": [
             [
-              "DCK"
+              "CP1"
             ],
             [
-              "LOGIC_IN"
+              "CP2"
             ]
           ],
           "island_indices": [
-            120,
-            145
+            37,
+            58
           ]
         },
         {
-          "clearance_mm": 0.15162195846891086,
+          "clearance_mm": 0.15169600000000116,
           "conductors": [
             [
-              "DIO"
+              "GND"
             ],
             [
-              "USB_DM"
+              "BUZZER_GATE"
             ]
           ],
           "island_indices": [
-            118,
-            119
+            0,
+            169
           ]
         },
         {
-          "clearance_mm": 0.1516219584689109,
+          "clearance_mm": 0.15169950000000118,
           "conductors": [
             [
-              "USB_DP"
+              "V3V3"
             ],
             [
-              "USB_DM"
+              "VCP"
             ]
           ],
           "island_indices": [
-            107,
-            119
+            22,
+            26
           ]
         }
       ],
@@ -2206,23 +770,8 @@
       "scope": "actual finished copper edges; pairs within 0.50 mm; same electrical net excluded"
     },
     "bottom": {
-      "minimum_distinct_conductor_clearance_mm": 0.15169999999999995,
+      "minimum_distinct_conductor_clearance_mm": 0.15170000000000172,
       "closest_pairs": [
-        {
-          "clearance_mm": 0.15169999999999995,
-          "conductors": [
-            [
-              "DATA_CC2"
-            ],
-            [
-              "DIO"
-            ]
-          ],
-          "island_indices": [
-            275,
-            286
-          ]
-        },
         {
           "clearance_mm": 0.15170000000000172,
           "conductors": [
@@ -2234,8 +783,8 @@
             ]
           ],
           "island_indices": [
-            191,
-            202
+            195,
+            211
           ]
         },
         {
@@ -2249,23 +798,8 @@
             ]
           ],
           "island_indices": [
-            197,
-            199
-          ]
-        },
-        {
-          "clearance_mm": 0.1518225607005133,
-          "conductors": [
-            [
-              "DATA_CC2"
-            ],
-            [
-              "TEMP_SCL"
-            ]
-          ],
-          "island_indices": [
-            275,
-            283
+            204,
+            207
           ]
         },
         {
@@ -2279,8 +813,38 @@
             ]
           ],
           "island_indices": [
-            260,
-            293
+            264,
+            305
+          ]
+        },
+        {
+          "clearance_mm": 0.1576915469843626,
+          "conductors": [
+            [
+              "DATA_CC2"
+            ],
+            [
+              "BUZZER_PWM"
+            ]
+          ],
+          "island_indices": [
+            306,
+            307
+          ]
+        },
+        {
+          "clearance_mm": 0.15844367950109867,
+          "conductors": [
+            [
+              "GND"
+            ],
+            [
+              "B_MINUS"
+            ]
+          ],
+          "island_indices": [
+            189,
+            218
           ]
         }
       ],
@@ -2302,23 +866,23 @@
             ]
           ],
           "island_indices": [
-            442,
-            443
+            468,
+            469
           ]
         },
         {
           "clearance_mm": 0.16005644056182172,
           "conductors": [
             [
-              "BUZZER_PWM"
+              "LED_R"
             ],
             [
-              "LED_R"
+              "BUZZER_PWM"
             ]
           ],
           "island_indices": [
-            404,
-            405
+            419,
+            436
           ]
         },
         {
@@ -2332,23 +896,8 @@
             ]
           ],
           "island_indices": [
-            404,
-            406
-          ]
-        },
-        {
-          "clearance_mm": 0.16148888369297767,
-          "conductors": [
-            [
-              "GND"
-            ],
-            [
-              "B_PLUS"
-            ]
-          ],
-          "island_indices": [
-            317,
-            366
+            436,
+            437
           ]
         },
         {
@@ -2362,8 +911,23 @@
             ]
           ],
           "island_indices": [
-            439,
-            440
+            467,
+            488
+          ]
+        },
+        {
+          "clearance_mm": 0.16710733425614235,
+          "conductors": [
+            [
+              "SENSE1"
+            ],
+            [
+              "A_PLUS"
+            ]
+          ],
+          "island_indices": [
+            397,
+            398
           ]
         }
       ],
@@ -2385,8 +949,8 @@
             ]
           ],
           "island_indices": [
-            487,
-            497
+            506,
+            512
           ]
         },
         {
@@ -2400,23 +964,8 @@
             ]
           ],
           "island_indices": [
-            495,
-            496
-          ]
-        },
-        {
-          "clearance_mm": 0.15169999999999997,
-          "conductors": [
-            [
-              "DATA_CC1"
-            ],
-            [
-              "BOOT_PAD"
-            ]
-          ],
-          "island_indices": [
-            493,
-            561
+            510,
+            511
           ]
         },
         {
@@ -2430,8 +979,8 @@
             ]
           ],
           "island_indices": [
-            496,
-            497
+            511,
+            512
           ]
         },
         {
@@ -2445,8 +994,23 @@
             ]
           ],
           "island_indices": [
-            512,
-            539
+            527,
+            552
+          ]
+        },
+        {
+          "clearance_mm": 0.1530246422285302,
+          "conductors": [
+            [
+              "TEMP_SCL"
+            ],
+            [
+              "LED_B"
+            ]
+          ],
+          "island_indices": [
+            603,
+            621
           ]
         }
       ],
@@ -2474,1045 +1038,7 @@
       "missing_fitted": [],
       "unexpected": [],
       "duplicate_refs": [],
-      "source_identity_errors": [
-        {
-          "ref": "J_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "TYPE-C-31-M-12"
-            },
-            "Comment": {
-              "export": "",
-              "source": "TYPE-C-31-M-12"
-            },
-            "Value": {
-              "export": "C165948",
-              "source": "TYPE-C-31-M-12"
-            }
-          }
-        },
-        {
-          "ref": "J_DATA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "TYPE-C-31-M-12"
-            },
-            "Comment": {
-              "export": "",
-              "source": "TYPE-C-31-M-12"
-            },
-            "Value": {
-              "export": "C165948",
-              "source": "TYPE-C-31-M-12"
-            }
-          }
-        },
-        {
-          "ref": "U_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CH224K"
-            },
-            "Comment": {
-              "export": "",
-              "source": "CH224K"
-            },
-            "Value": {
-              "export": "C970725",
-              "source": "CH224K"
-            }
-          }
-        },
-        {
-          "ref": "R_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "ERJPA3F1001V"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "ERJPA3F1001V"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10A105KB8NNNC"
-            },
-            "Comment": {
-              "export": "1u",
-              "source": "CL10A105KB8NNNC"
-            },
-            "Value": {
-              "export": "1u",
-              "source": "1uF"
-            }
-          }
-        },
-        {
-          "ref": "R_PG",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1002T5E"
-            },
-            "Comment": {
-              "export": "10k",
-              "source": "0603WAF1002T5E"
-            },
-            "Value": {
-              "export": "10k",
-              "source": "10k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "U_MCU",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CH32X035G8U6"
-            },
-            "Comment": {
-              "export": "",
-              "source": "CH32X035G8U6"
-            },
-            "Value": {
-              "export": "C7437027",
-              "source": "CH32X035G8U6"
-            }
-          }
-        },
-        {
-          "ref": "C_MCU",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CC0603KRX7R9BB104"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CC0603KRX7R9BB104"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_LOGIC",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL21A475KBQNNNE"
-            },
-            "Comment": {
-              "export": "4.7u",
-              "source": "CL21A475KBQNNNE"
-            },
-            "Value": {
-              "export": "4.7u",
-              "source": "4.7uF"
-            }
-          }
-        },
-        {
-          "ref": "R_CC1",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF5101TCE"
-            },
-            "Comment": {
-              "export": "5.1k",
-              "source": "0402WGF5101TCE"
-            },
-            "Value": {
-              "export": "5.1k",
-              "source": "5.1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_CC2",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF5101TCE"
-            },
-            "Comment": {
-              "export": "5.1k",
-              "source": "0402WGF5101TCE"
-            },
-            "Value": {
-              "export": "5.1k",
-              "source": "5.1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_USB_SENSE_H",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_USB_SENSE_L",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_VM_H",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_VM_L",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1002T5E"
-            },
-            "Comment": {
-              "export": "10k",
-              "source": "0603WAF1002T5E"
-            },
-            "Value": {
-              "export": "10k",
-              "source": "10k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_VM_SENSE",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10B103KB8NNNC"
-            },
-            "Comment": {
-              "export": "10n",
-              "source": "CL10B103KB8NNNC"
-            },
-            "Value": {
-              "export": "10n",
-              "source": "10nF"
-            }
-          }
-        },
-        {
-          "ref": "U_BUCK",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "AP63203WU-7"
-            },
-            "Comment": {
-              "export": "",
-              "source": "AP63203WU-7"
-            },
-            "Value": {
-              "export": "C780769",
-              "source": "AP63203WU-7"
-            }
-          }
-        },
-        {
-          "ref": "D_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "B5819W SL"
-            },
-            "Comment": {
-              "export": "",
-              "source": "B5819W SL"
-            },
-            "Value": {
-              "export": "C8598",
-              "source": "B5819W SL"
-            }
-          }
-        },
-        {
-          "ref": "D_DATA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "B5819W SL"
-            },
-            "Comment": {
-              "export": "",
-              "source": "B5819W SL"
-            },
-            "Value": {
-              "export": "C8598",
-              "source": "B5819W SL"
-            }
-          }
-        },
-        {
-          "ref": "U_DRV",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "A4988SETTR-T"
-            },
-            "Comment": {
-              "export": "",
-              "source": "A4988SETTR-T"
-            },
-            "Value": {
-              "export": "C38437",
-              "source": "A4988SETTR-T"
-            }
-          }
-        },
-        {
-          "ref": "C_CP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KB5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KB5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_VCP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KB5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KB5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_VREG",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10B224KA8NNNC"
-            },
-            "Comment": {
-              "export": "220n",
-              "source": "CL10B224KA8NNNC"
-            },
-            "Value": {
-              "export": "220n",
-              "source": "220nF"
-            }
-          }
-        },
-        {
-          "ref": "C_DRV_LOGIC",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KO5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KO5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_VM",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KB5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KB5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_BULK",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "RVT1V470M0605"
-            },
-            "Comment": {
-              "export": "47u",
-              "source": "RVT1V470M0605"
-            },
-            "Value": {
-              "export": "47u",
-              "source": "47uF"
-            }
-          }
-        },
-        {
-          "ref": "R_SA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "FRL0805FR240TS"
-            },
-            "Comment": {
-              "export": "240m",
-              "source": "FRL0805FR240TS"
-            },
-            "Value": {
-              "export": "240m",
-              "source": "240m\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_SB",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "FRL0805FR240TS"
-            },
-            "Comment": {
-              "export": "240m",
-              "source": "FRL0805FR240TS"
-            },
-            "Value": {
-              "export": "240m",
-              "source": "240m\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_REF_H",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF3902T5E"
-            },
-            "Comment": {
-              "export": "39k",
-              "source": "0603WAF3902T5E"
-            },
-            "Value": {
-              "export": "39k",
-              "source": "39k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_REF_L",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1002T5E"
-            },
-            "Comment": {
-              "export": "10k",
-              "source": "0603WAF1002T5E"
-            },
-            "Value": {
-              "export": "10k",
-              "source": "10k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_REF",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10B103KB8NNNC"
-            },
-            "Comment": {
-              "export": "10n",
-              "source": "CL10B103KB8NNNC"
-            },
-            "Value": {
-              "export": "10n",
-              "source": "10nF"
-            }
-          }
-        },
-        {
-          "ref": "R_ENABLE",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_SLEEP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0603WAF1003T5E"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0603WAF1003T5E"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "J_MOTOR",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "BM04B-SRSS-TB(LF)(SN)"
-            },
-            "Comment": {
-              "export": "",
-              "source": "BM04B-SRSS-TB(LF)(SN)"
-            },
-            "Value": {
-              "export": "C160390",
-              "source": "BM04B-SRSS-TB(LF)(SN)"
-            }
-          }
-        },
-        {
-          "ref": "U_ESD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "USBLC6-2SC6"
-            },
-            "Comment": {
-              "export": "",
-              "source": "USBLC6-2SC6"
-            },
-            "Value": {
-              "export": "C2687116",
-              "source": "USBLC6-2SC6"
-            }
-          }
-        },
-        {
-          "ref": "D_TVS",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "SMF18A"
-            },
-            "Comment": {
-              "export": "",
-              "source": "SMF18A"
-            },
-            "Value": {
-              "export": "C19077512",
-              "source": "SMF18A"
-            }
-          }
-        },
-        {
-          "ref": "R_USB_BOOT",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF4701TCE"
-            },
-            "Comment": {
-              "export": "4.7k",
-              "source": "0402WGF4701TCE"
-            },
-            "Value": {
-              "export": "4.7k",
-              "source": "4.7k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "L_BUCK",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "SRN4018-4R7M"
-            },
-            "Comment": {
-              "export": "",
-              "source": "SRN4018-4R7M"
-            },
-            "Value": {
-              "export": "C780206",
-              "source": "SRN4018-4R7M"
-            }
-          }
-        },
-        {
-          "ref": "C_BOOTSTRAP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KO5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KO5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "C_BUCK_IN",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL31A106KBHNNNE"
-            },
-            "Comment": {
-              "export": "10u",
-              "source": "CL31A106KBHNNNE"
-            },
-            "Value": {
-              "export": "10u",
-              "source": "10uF"
-            }
-          }
-        },
-        {
-          "ref": "C_BUCK_OUT1",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL21A226MAQNNNE"
-            },
-            "Comment": {
-              "export": "22u",
-              "source": "CL21A226MAQNNNE"
-            },
-            "Value": {
-              "export": "22u",
-              "source": "22uF"
-            }
-          }
-        },
-        {
-          "ref": "C_BUCK_OUT2",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL21A226MAQNNNE"
-            },
-            "Comment": {
-              "export": "22u",
-              "source": "CL21A226MAQNNNE"
-            },
-            "Value": {
-              "export": "22u",
-              "source": "22uF"
-            }
-          }
-        },
-        {
-          "ref": "U_TEMP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "TMP102AIDRLR"
-            },
-            "Comment": {
-              "export": "",
-              "source": "TMP102AIDRLR"
-            },
-            "Value": {
-              "export": "C99269",
-              "source": "TMP102AIDRLR"
-            }
-          }
-        },
-        {
-          "ref": "C_TEMP",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL05B104KO5NNNC"
-            },
-            "Comment": {
-              "export": "100n",
-              "source": "CL05B104KO5NNNC"
-            },
-            "Value": {
-              "export": "100n",
-              "source": "100nF"
-            }
-          }
-        },
-        {
-          "ref": "R_TEMP_SDA",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF4701TCE"
-            },
-            "Comment": {
-              "export": "4.7k",
-              "source": "0402WGF4701TCE"
-            },
-            "Value": {
-              "export": "4.7k",
-              "source": "4.7k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_TEMP_SCL",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF4701TCE"
-            },
-            "Comment": {
-              "export": "4.7k",
-              "source": "0402WGF4701TCE"
-            },
-            "Value": {
-              "export": "4.7k",
-              "source": "4.7k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "D_PWR",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "XL-1608SURC-06"
-            },
-            "Comment": {
-              "export": "",
-              "source": "XL-1608SURC-06"
-            },
-            "Value": {
-              "export": "C965799",
-              "source": "XL-1608SURC-06"
-            }
-          }
-        },
-        {
-          "ref": "R_PWR_LED",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF3300TCE"
-            },
-            "Comment": {
-              "export": "330",
-              "source": "0402WGF3300TCE"
-            },
-            "Value": {
-              "export": "330",
-              "source": "330\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "D_STATUS",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "LTST-C19HE1WT"
-            },
-            "Comment": {
-              "export": "",
-              "source": "LTST-C19HE1WT"
-            },
-            "Value": {
-              "export": "C458749",
-              "source": "LTST-C19HE1WT"
-            }
-          }
-        },
-        {
-          "ref": "R_STATUS_R",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1001TCE"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "0402WGF1001TCE"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "Q_STATUS_R",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "DTC114EU3HZGT106"
-            },
-            "Comment": {
-              "export": "",
-              "source": "DTC114EU3HZGT106"
-            },
-            "Value": {
-              "export": "C509876",
-              "source": "DTC114EU3HZGT106"
-            }
-          }
-        },
-        {
-          "ref": "R_STATUS_G",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1001TCE"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "0402WGF1001TCE"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "Q_STATUS_G",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "DTC114EU3HZGT106"
-            },
-            "Comment": {
-              "export": "",
-              "source": "DTC114EU3HZGT106"
-            },
-            "Value": {
-              "export": "C509876",
-              "source": "DTC114EU3HZGT106"
-            }
-          }
-        },
-        {
-          "ref": "R_STATUS_B",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1001TCE"
-            },
-            "Comment": {
-              "export": "1k",
-              "source": "0402WGF1001TCE"
-            },
-            "Value": {
-              "export": "1k",
-              "source": "1k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "Q_STATUS_B",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "DTC114EU3HZGT106"
-            },
-            "Comment": {
-              "export": "",
-              "source": "DTC114EU3HZGT106"
-            },
-            "Value": {
-              "export": "C509876",
-              "source": "DTC114EU3HZGT106"
-            }
-          }
-        },
-        {
-          "ref": "BZ1",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "HYG-8503A"
-            },
-            "Comment": {
-              "export": "",
-              "source": "HYG-8503A"
-            },
-            "Value": {
-              "export": "C7544813",
-              "source": "HYG-8503A"
-            }
-          }
-        },
-        {
-          "ref": "Q_BUZZER",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "AO3400A"
-            },
-            "Comment": {
-              "export": "",
-              "source": "AO3400A"
-            },
-            "Value": {
-              "export": "C20917",
-              "source": "AO3400A"
-            }
-          }
-        },
-        {
-          "ref": "D_BUZZER",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "PMEG6020ELRX"
-            },
-            "Comment": {
-              "export": "",
-              "source": "PMEG6020ELRX"
-            },
-            "Value": {
-              "export": "C478000",
-              "source": "PMEG6020ELRX"
-            }
-          }
-        },
-        {
-          "ref": "R_BUZZER_GATE",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1000TCE"
-            },
-            "Comment": {
-              "export": "100",
-              "source": "0402WGF1000TCE"
-            },
-            "Value": {
-              "export": "100",
-              "source": "100\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "R_BUZZER_PD",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "0402WGF1003TCE"
-            },
-            "Comment": {
-              "export": "100k",
-              "source": "0402WGF1003TCE"
-            },
-            "Value": {
-              "export": "100k",
-              "source": "100k\u03a9"
-            }
-          }
-        },
-        {
-          "ref": "C_BUZZER",
-          "errors": {
-            "Manufacturer Part Number": {
-              "export": null,
-              "source": "CL10A106KP8NNNC"
-            },
-            "Comment": {
-              "export": "10u",
-              "source": "CL10A106KP8NNNC"
-            },
-            "Value": {
-              "export": "10u",
-              "source": "10uF"
-            }
-          }
-        }
-      ]
+      "source_identity_errors": []
     },
     "pick_and_place.csv": {
       "rows": 61,
@@ -3561,395 +1087,30 @@
   },
   "stencil_release_screen": {
     "candidate_thickness_mm": 0.1,
-    "minimum_aspect_ratio": 1.3999999999999968,
-    "minimum_area_ratio": 0.5444441975304711,
+    "minimum_aspect_ratio": 1.899999999999995,
+    "minimum_area_ratio": 0.7388883950605716,
     "screen_limits": {
       "aspect_ratio": 1.5,
       "area_ratio": 0.66
     },
-    "failing_apertures": [
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          2.7299,
-          -0.04499550000000002,
-          2.8699,
-          0.4450035
-        ],
-        "area_mm2": 0.06859985999999985,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          3.929796,
-          -0.04499550000000002,
-          4.069796,
-          0.4450035
-        ],
-        "area_mm2": 0.06859986000000007,
-        "perimeter_mm": 1.2599980000000004,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304726
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          2.330104,
-          -0.04499550000000002,
-          2.4701039999999996,
-          0.4450035
-        ],
-        "area_mm2": 0.06859985999999985,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          3.12995,
-          -0.04499550000000002,
-          3.2699499999999997,
-          0.4450035
-        ],
-        "area_mm2": 0.06859985999999985,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          3.5300000000000002,
-          -0.04423350000000001,
-          3.67,
-          0.44576550000000004
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          0.930104,
-          1.8450035,
-          1.0701040000000002
-        ],
-        "area_mm2": 0.06859986000000007,
-        "perimeter_mm": 1.2599980000000004,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304726
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          1.3298999999999999,
-          1.8450035,
-          1.4699
-        ],
-        "area_mm2": 0.06859986000000007,
-        "perimeter_mm": 1.2599980000000004,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304726
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          1.7299499999999999,
-          1.8450035,
-          1.86995
-        ],
-        "area_mm2": 0.06859986000000007,
-        "perimeter_mm": 1.2599980000000004,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304726
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          2.1310160000000002,
-          1.8450035,
-          2.271016
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          2.529796,
-          1.8450035,
-          2.669796
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          2.9301000000000004,
-          1.8450035,
-          3.0701
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          1.3550045,
-          3.329896,
-          1.8450035,
-          3.469896
-        ],
-        "area_mm2": 0.06859985999999986,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304714
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          3.5300000000000002,
-          3.9547424999999996,
-          3.67,
-          4.444741499999999
-        ],
-        "area_mm2": 0.06859985999999979,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          2.330104,
-          3.9549964999999996,
-          2.4701039999999996,
-          4.444995499999999
-        ],
-        "area_mm2": 0.06859985999999979,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          2.7299,
-          3.9549964999999996,
-          2.8699,
-          4.444995499999999
-        ],
-        "area_mm2": 0.06859985999999979,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          3.130204,
-          3.9549964999999996,
-          3.2702039999999997,
-          4.444995499999999
-        ],
-        "area_mm2": 0.06859985999999979,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304712
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          3.929796,
-          3.9549964999999996,
-          4.069796,
-          4.444995499999999
-        ],
-        "area_mm2": 0.06859986000000001,
-        "perimeter_mm": 1.2599979999999995,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304725
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          4.729896,
-          -0.04499550000000002,
-          4.869896000000001,
-          0.4450035
-        ],
-        "area_mm2": 0.06859986000000028,
-        "perimeter_mm": 1.2599980000000013,
-        "aspect_ratio_at_100um": 1.4000000000000057,
-        "area_ratio_at_100um": 0.5444441975304739
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          4.3301,
-          -0.04499550000000002,
-          4.4701,
-          0.4450035
-        ],
-        "area_mm2": 0.06859986000000028,
-        "perimeter_mm": 1.2599980000000013,
-        "aspect_ratio_at_100um": 1.4000000000000057,
-        "area_ratio_at_100um": 0.5444441975304739
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          0.930104,
-          5.8449955,
-          1.0701040000000002
-        ],
-        "area_mm2": 0.06859985999999994,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304725
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          1.3298999999999999,
-          5.8449955,
-          1.4699
-        ],
-        "area_mm2": 0.06859985999999994,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304725
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          1.7302039999999999,
-          5.8449955,
-          1.870204
-        ],
-        "area_mm2": 0.06859985999999994,
-        "perimeter_mm": 1.2599979999999986,
-        "aspect_ratio_at_100um": 1.4000000000000012,
-        "area_ratio_at_100um": 0.5444441975304725
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          2.1300000000000003,
-          5.8449955,
-          2.27
-        ],
-        "area_mm2": 0.06859985999999973,
-        "perimeter_mm": 1.2599979999999977,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304711
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          2.529796,
-          5.8449955,
-          2.669796
-        ],
-        "area_mm2": 0.06859985999999973,
-        "perimeter_mm": 1.2599979999999977,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304711
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          2.9301000000000004,
-          5.8449955,
-          3.0701
-        ],
-        "area_mm2": 0.06859985999999973,
-        "perimeter_mm": 1.2599979999999977,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304711
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          5.3549965,
-          3.329896,
-          5.8449955,
-          3.469896
-        ],
-        "area_mm2": 0.06859985999999973,
-        "perimeter_mm": 1.2599979999999977,
-        "aspect_ratio_at_100um": 1.3999999999999968,
-        "area_ratio_at_100um": 0.5444441975304711
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          4.3301,
-          3.9549964999999996,
-          4.4701,
-          4.444995499999999
-        ],
-        "area_mm2": 0.06859986000000022,
-        "perimeter_mm": 1.2599980000000004,
-        "aspect_ratio_at_100um": 1.4000000000000057,
-        "area_ratio_at_100um": 0.5444441975304738
-      },
-      {
-        "layer": "F_Paste",
-        "bounds_mm": [
-          4.729896,
-          3.9549964999999996,
-          4.869896000000001,
-          4.444995499999999
-        ],
-        "area_mm2": 0.06859986000000022,
-        "perimeter_mm": 1.2599980000000004,
-        "aspect_ratio_at_100um": 1.4000000000000057,
-        "area_ratio_at_100um": 0.5444441975304738
-      }
-    ],
+    "failing_apertures": [],
     "scope": "common geometric release screens only; physical paste/stencil/reflow process acceptance still pending"
   },
   "exposed_pad_stencil": [
     {
       "ref": "U_PD",
       "pad": "pcb_smtpad_34",
-      "coverage_fraction": 0.4899998993937412
+      "coverage_fraction": 0.59999937810074
     },
     {
       "ref": "U_MCU",
       "pad": "pcb_smtpad_69",
-      "coverage_fraction": 0.48999995999992085
+      "coverage_fraction": 0.5999998140218561
     },
     {
       "ref": "U_DRV",
       "pad": "pcb_smtpad_98",
-      "coverage_fraction": 0.49000021000044225
+      "coverage_fraction": 0.599999814021856
     }
   ],
   "board_outline": {
@@ -3984,7 +1145,7 @@
   },
   "mask": {
     "F_Mask": {
-      "area_mm2": 246.9832770483405,
+      "area_mm2": 246.98327704834045,
       "bounds_mm": [
         -17.13,
         -17.119999999999997,
@@ -4002,7 +1163,7 @@
       ]
     }
   },
-  "plated_annulus_source_min_mm": 0.125,
+  "plated_annulus_source_min_mm": 0.1,
   "copper_clearances": {
     "top": {
       "mount_hole_edge_clearance_mm": 0.760342870630996,
@@ -4217,9 +1378,9 @@
   ],
   "silkscreen_clearances": {
     "F_SilkScreen": {
-      "overlap_mask_openings_mm2": 7.573375080549779,
-      "inside_0_15mm_mask_guard_mm2": 12.727007540706735,
-      "outside_board_0_10mm_inset_mm2": 8.8918550384707
+      "overlap_mask_openings_mm2": 0.0,
+      "inside_0_15mm_mask_guard_mm2": 0.0,
+      "outside_board_0_10mm_inset_mm2": 0.0
     },
     "B_SilkScreen": {
       "overlap_mask_openings_mm2": 0.0,
@@ -4237,5 +1398,5 @@
       "extra_mm2": 0.0
     }
   },
-  "status": "FAIL"
+  "status": "PASS"
 }

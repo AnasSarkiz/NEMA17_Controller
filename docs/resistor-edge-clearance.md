@@ -8,7 +8,7 @@ The [independent clearance receipt](../artifacts/edge-resistors/clearance-verifi
 
 Native DRC, independent physical connectivity, every-trace/net review, copper width/current screening, actual Gerber copper/drill analysis and STEP mechanical screening qualify the final board revision. The [full qualification receipt](../artifacts/resume-validation.json) retains actual exit codes. The five-sheet schematic and electrical source remain unchanged.
 
-The 12 mm USB plug envelopes and M3 DIN 920 maximum Ø4 mm head requirement remain in force. Mechanical screening is nominal CAD evidence. Manufacturing assembly BOM/CPL, paste/stencil and silkscreen findings, firmware/bench tests and rear motor fit remain unqualified; this is a prototype publication.
+The approved 10 mm USB plug housings and M3 DIN 920 maximum Ø4 mm head requirement remain in force. Mechanical screening is nominal CAD evidence. The default export applies the reviewed BOM/CPL, paste/stencil and silkscreen policies. Read the current hash-bound manufacturing audit for its result. Supplier approval, firmware/bench tests and rear motor fit remain pending.
 
 | Resistor | Previous centre (mm) | New centre (mm) | Rotation | New nominal minimum pad-to-edge (mm) |
 |---|---|---|---|---|

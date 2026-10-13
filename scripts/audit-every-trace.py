@@ -9,6 +9,7 @@ src={e['source_component_id']:e for e in j if e['type']=='source_component'};sp=
 for p in sp.values():
  k=p.get('subcircuit_connectivity_map_key')
  if k and k not in names:names[k]='DIRECT_'+k.rsplit('_',1)[-1]
+policy=json.loads((ROOT/'src/layer-routing-policy.json').read_text());allowed_inner1=set(policy['inner1_allowed_nets'])
 errors=[];rows=[];segments=[];seen=set()
 def reference(pid):
  p=pp[pid];s=sp[p['source_port_id']];return src[s['source_component_id']]['name']+'.'+str(s.get('pin_number',s['name']))+' ('+s['name']+')'
@@ -29,12 +30,17 @@ for t in [e for e in j if e['type']=='pcb_trace']:
    if tag in node and node[tag] in pp and node.get('layer') not in pp[node[tag]]['layers']:issues.append('port endpoint is on the wrong copper layer')
   if node['route_type']=='wire':
    if node['layer'] not in layers:issues.append('undefined copper layer')
-   if node['layer']=='inner1' and names.get(k) not in ['GND','V3V3','SLEEP']:issues.append('unreviewed track on inner1 ground plane')
+   if node['layer']=='inner1' and names.get(k) not in allowed_inner1:issues.append('unreviewed track on inner1 ground plane')
    if not math.isfinite(node['width']) or node['width']<board['min_trace_width']-1e-6:issues.append('trace below board width rule')
    widths.append(node['width']);used.add(node['layer'])
  for a,b in zip(route,route[1:]):
   if a['route_type']==b['route_type']=='wire' and a['layer']==b['layer']:
    distance=math.hypot(b['x']-a['x'],b['y']-a['y']);length+=distance;segments.append({'trace':tid,'net':names.get(k),'layer':a['layer'],'start_mm':[a['x'],a['y']],'end_mm':[b['x'],b['y']],'length_mm':distance,'width_mm':max(a['width'],b['width'])})
+ inner1_length=sum(math.hypot(b['x']-a['x'],b['y']-a['y']) for a,b in zip(route,route[1:]) if a['route_type']==b['route_type']=='wire' and a['layer']==b['layer']=='inner1')
+ limit=policy['maximum_A_MINUS_inner1_section_mm'] if names.get(k)=='A_MINUS' else policy['maximum_clock_or_flash_inner1_section_mm'] if names.get(k,'').startswith('QSPI_') or names.get(k) in ['XIN','XOUT','XTAL_OUT'] else policy['maximum_inner1_trace_section_length_mm']
+ if inner1_length>limit:issues.append('inner1 route exceeds reviewed section-length bound')
+ if names.get(k)=='A_MINUS' and any(n.get('layer')=='inner1' and n.get('width',0)<policy['minimum_A_MINUS_inner1_width_mm'] for n in route):issues.append('inner1 phase bridge below reviewed width')
+ if names.get(k) in ['USB_DP','USB_DM','MCU_DP','MCU_DM'] and any(n.get('layer') in ['inner1','inner2'] for n in route):issues.append('USB signal uses forbidden inner routing layer')
  for pid in ports:
   if pid not in pp:issues.append('unknown physical port '+pid)
   elif sp[pp[pid]['source_port_id']].get('subcircuit_connectivity_map_key')!=k:issues.append('trace attached to a port of another net')

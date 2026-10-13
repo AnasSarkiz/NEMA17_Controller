@@ -148,5 +148,35 @@
       13.069981910052945
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_freerouted_trace_77_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 2.990999910158967,
+    "new_endpoint_mm": [
+      8.13175631900176,
+      -0.39645631900176004
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_same_side_repair_24_DATA_CC1_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 4.047862835728029,
+    "new_endpoint_mm": [
+      1.2185585205092835,
+      7.300000000000001
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_same_side_repair_10_STATUS_B_K_0_layer_section_1_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.2694543648262995,
+    "new_endpoint_mm": [
+      5.125,
+      9.57803300858899
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

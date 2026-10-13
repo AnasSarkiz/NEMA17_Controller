@@ -1,5 +1,60 @@
 {
-  "escapes": [],
+  "escapes": [
+    {
+      "port": "pcb_port_99",
+      "via_xy_mm": [
+        -10.05,
+        -0.6999999999999993
+      ],
+      "trace": "feedback_ground_escape_pcb_port_99",
+      "layer": "top"
+    },
+    {
+      "port": "pcb_port_160",
+      "via_xy_mm": [
+        14.350000000000001,
+        16.875
+      ],
+      "trace": "feedback_ground_escape_pcb_port_160",
+      "layer": "top"
+    },
+    {
+      "port": "pcb_port_174",
+      "via_xy_mm": [
+        -5.75,
+        6.325000000000003
+      ],
+      "trace": "feedback_ground_escape_pcb_port_174",
+      "layer": "top"
+    },
+    {
+      "port": "pcb_port_188",
+      "via_xy_mm": [
+        8.425,
+        -8.975
+      ],
+      "trace": "feedback_ground_escape_pcb_port_188",
+      "layer": "top"
+    },
+    {
+      "port": "pcb_port_144",
+      "via_xy_mm": [
+        1.6000000000000014,
+        -3.5249999999999986
+      ],
+      "trace": "feedback_ground_escape_pcb_port_144",
+      "layer": "top"
+    },
+    {
+      "port": "pcb_port_142",
+      "via_xy_mm": [
+        6.450000000000003,
+        -6.924999999999999
+      ],
+      "trace": "feedback_ground_escape_pcb_port_142",
+      "layer": "top"
+    }
+  ],
   "remaining_ground_roots": 3,
   "reserved_plane": "inner1",
   "no_additional_via_in_pad": true

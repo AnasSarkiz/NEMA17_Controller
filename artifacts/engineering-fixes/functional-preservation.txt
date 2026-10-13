@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+  "functional_terminal_count": 241,
+  "functional_net_groups_compared": 50,
+  "functional_nets_preserved": true,
+  "NC_roles_preserved": true,
+  "fitted_components": 61,
+  "bare_top_test_points": 6,
+  "assembly_face": "top",
+  "USB_housing_width_mm": 10,
+  "USB_housing_pitch_mm": 12.4,
+  "USB_nominal_housing_gap_mm": 2.4,
+  "rear_motor_compatibility_verified": false,
+  "errors": []
+}

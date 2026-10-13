@@ -1,21 +1,21 @@
 {
-  "native_board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
-  "native_export_sha256": "ff07bc5385a29a4ba87c968c853e5a043f95f7a8c7f8236408a9a73b3a9d6f9e",
-  "order_source_sha256": "56893b1a651d4052cee44678175609f2322ebe03d9ac96edf0fd005eee4d1dc6",
-  "review_cam_sha256": "6a907f237cc65a4377e7d7e0ebe678bd1feff57a6fab48083101d9fa6c17e19b",
-  "fabrication_zip_sha256": "cd947ea75a0cf51e48c725731ed9cc4565a16b91a542d245f5e267589e69c11b",
-  "source_github_revision": "e234acd30714a6a5d1c15baa10cf2bc6d1ef4b0c",
+  "native_board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+  "native_export_sha256": "782478b3bfb28fb162a798c2ab369e7c04c38f9f51ebbd516c7caffbdfcc3c8e",
+  "order_source_sha256": "9cdba3ea54059749ab1c4b97bd03690b285adf8b6d415dbca73a00668d87db28",
+  "review_cam_sha256": "782478b3bfb28fb162a798c2ab369e7c04c38f9f51ebbd516c7caffbdfcc3c8e",
+  "fabrication_zip_sha256": "14daa12a452cbfc1bd8cefc9688e9f6c16c884795dab4245eacdc2bd9c3ba0ac",
+  "source_github_revision": "9d28fc0d4a9e3585c58d4f486dae2c53ac5760df",
   "electrical_source_and_all_nonpaste_records_unchanged": true,
   "copied_unchanged_copper_mask_drill_outline": {
-    "F_Cu.gbr": "98dd3cdf6840516d93853fd99886c2fffbe7e3b807aa42189b7777c26b3eb96e",
-    "F_Mask.gbr": "74b26771a5037a52cb849e0638c267d8fba3d4bd0945db1d879e138c9519a407",
-    "B_Cu.gbr": "0ba5aaf4299442a2a4d54a02500f235862fd4968ebffbe23deefe0d3d26f3866",
-    "B_Mask.gbr": "1d174574cafe41930ed26b8e82d878fd22861341be914f6e81d73cef90c4387a",
-    "Edge_Cuts.gbr": "41af1feb6e78963f5c9bc42ba6cf5fe271628802bebf86e2a67cfd9a443bc8b3",
-    "In1_Cu.gbr": "5be85a41b3e989eafa57e527600d28f1e09c2705496f3ee1de0cd1d88b25aa5a",
-    "In2_Cu.gbr": "2169d6d5e5216ed1db251aadd1a3e954487633af4dbd031ff2c47eb29567bcee",
-    "drill-L1-L4.drl": "3f9a8bb552892e57a9055aedac5f989bd313afde814cb004e2e3829f2f5eda5b",
-    "drill_npth.drl": "b2b235f6c15a68a3c2352a8faed6bc60557ebe9c8a1b2f0c7c689a9c9ce666b2"
+    "F_Cu.gbr": "ee2dee437a943fa397ce6cd61117dad65ab4f1c268b7c694ace60524d5edd2a0",
+    "F_Mask.gbr": "85dd4885dc573ecf1e2c1f3c2a7a9a4330a6ffc0c6f8ee12f70b310fc5c75f0f",
+    "B_Cu.gbr": "0ea01d4029f450dcb083cebb82b606ad70774fd16d395462dde40c422a58dc4c",
+    "B_Mask.gbr": "016034fec080ddf8eab8831a6115fb286fda18abc2c0c4748b1c4bc2c462a241",
+    "Edge_Cuts.gbr": "8e989aba79de15e1a7f9530b6957a4e6a514dccef63bdde12ba13d2e05994d8e",
+    "In1_Cu.gbr": "ff54564956b49522a14db85f15071f8e7e9cf3f8aa8e5575dc3818dda28749ce",
+    "In2_Cu.gbr": "3bbd0356c761559551b59afbd60c135540f5c47c22ebc9e0f4e44bb1ffac3c1d",
+    "drill-L1-L4.drl": "34e01c3c6fc73eeece579f9ada3c18fb2abd699a96c9a31684e6bd348470d340",
+    "drill_npth.drl": "9fda5a4b58110165c7266dc06cd4d83675a4082c8c14ff4cbe4cc359d4e3de8a"
   },
   "fitted_components": 61,
   "SMT_components": 61,
@@ -219,21 +219,19 @@
   "silkscreen_changes": [
     {
       "layer": "top",
-      "original_area_mm2": 98.76221902140199,
-      "new_area_mm2": 100.0415767540245,
-      "reference_captions_placed": 8,
+      "original_area_mm2": 98.74177158604077,
+      "new_area_mm2": 102.89378435096559,
+      "reference_captions_placed": 10,
       "captions_omitted_for_clearance": [
         "J_MOTOR",
         "U_BUCK",
         "U_DRV",
-        "U_ESD",
         "U_MCU",
         "U_TEMP",
         "C_BOOTSTRAP",
         "C_BUCK_IN",
         "C_BUCK_OUT1",
         "C_BUCK_OUT2",
-        "C_BULK",
         "C_BUZZER",
         "C_CP",
         "C_DRV_LOGIC",
@@ -312,5 +310,8 @@
     "thermal_via_process": "filled and capped/planarized via-in-pad; supplier must confirm capability and quote",
     "assembly_sides": "top",
     "JST_process": "top-side SMT C160390; no drilled JST terminals"
-  }
+  },
+  "upstream_native_export_sha256": "7000bad11347822f40c1e932e1646607389c253dd62519d8a59c9a55d2e7618e",
+  "default_export_contains_qualified_assembly_corrections": true,
+  "upstream_tool_output_retained_as_diagnostic_only": "artifacts/engineering-fixes/upstream-native-gerbers.zip"
 }

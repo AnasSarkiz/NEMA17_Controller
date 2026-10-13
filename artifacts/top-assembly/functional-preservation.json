@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
   "functional_terminal_count": 241,
   "functional_net_groups_compared": 50,
   "functional_nets_preserved": true,

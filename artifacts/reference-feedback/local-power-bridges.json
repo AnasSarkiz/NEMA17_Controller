@@ -1,0 +1,20 @@
+[
+  {
+    "trace": "reviewed_local_signal_bridge_STATUS_B_C",
+    "points_mm": [
+      [
+        2.35,
+        6.7328
+      ],
+      [
+        11.950000000000003,
+        5.425000000000001
+      ]
+    ],
+    "removed_foreign_trace_ids": [
+      "same_side_repair_1_PWR_LED_A_1",
+      "same_side_repair_3_DATA_CC2_0"
+    ],
+    "independent_physical_branch_cut_and_thermal_screen_required": true
+  }
+]

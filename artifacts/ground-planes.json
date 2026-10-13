@@ -4,153 +4,118 @@
   "regions": [
     {
       "layer": "top",
-      "areaMm2": 209.080591800144,
-      "holes": 3
+      "areaMm2": 342.1277521292901,
+      "holes": 6
     },
     {
       "layer": "top",
-      "areaMm2": 66.98846795269264,
+      "areaMm2": 3.5182735762889923,
+      "holes": 0
+    },
+    {
+      "layer": "top",
+      "areaMm2": 38.177858729791346,
       "holes": 1
     },
     {
       "layer": "top",
-      "areaMm2": 5.034860850734995,
-      "holes": 0
-    },
-    {
-      "layer": "top",
-      "areaMm2": 38.177858737744856,
+      "areaMm2": 43.53929565612204,
       "holes": 1
     },
     {
       "layer": "top",
-      "areaMm2": 43.53929567886804,
-      "holes": 1
-    },
-    {
-      "layer": "top",
-      "areaMm2": 48.50156904788974,
+      "areaMm2": 12.63490586739901,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 13.342371299216994,
+      "areaMm2": 12.198986854069977,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 12.736535336006481,
+      "areaMm2": 22.993683032021544,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 22.993683030102552,
+      "areaMm2": 6.666449723667011,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 6.66644972556351,
+      "areaMm2": 3.2727970931104977,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 1.119944765519999,
+      "areaMm2": 3.863071901735502,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 3.863071901735507,
+      "areaMm2": 2.7478120349799977,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 16.5825047825525,
+      "areaMm2": 12.922967647607994,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 2.433343271106501,
+      "areaMm2": 22.123475259542033,
       "holes": 0
     },
     {
       "layer": "top",
-      "areaMm2": 20.777027098190977,
-      "holes": 0
-    },
-    {
-      "layer": "top",
-      "areaMm2": 1.7107250124470001,
+      "areaMm2": 1.7107250124470013,
       "holes": 0
     },
     {
       "layer": "inner1",
-      "areaMm2": 994.6752989438128,
-      "holes": 132
+      "areaMm2": 919.6414838290124,
+      "holes": 97
+    },
+    {
+      "layer": "inner1",
+      "areaMm2": 1.7088796356409999,
+      "holes": 0
     },
     {
       "layer": "inner2",
-      "areaMm2": 499.7568183414717,
-      "holes": 18
+      "areaMm2": 584.8142409891276,
+      "holes": 33
     },
     {
       "layer": "inner2",
-      "areaMm2": 128.39133853213835,
+      "areaMm2": 127.81703572320245,
       "holes": 7
     },
     {
       "layer": "inner2",
-      "areaMm2": 47.431566823017555,
-      "holes": 4
-    },
-    {
-      "layer": "inner2",
-      "areaMm2": 3.147335621275499,
-      "holes": 0
-    },
-    {
-      "layer": "inner2",
-      "areaMm2": 17.16904391569197,
-      "holes": 0
-    },
-    {
-      "layer": "inner2",
-      "areaMm2": 16.817618020278477,
-      "holes": 1
-    },
-    {
-      "layer": "bottom",
-      "areaMm2": 641.9720593487548,
-      "holes": 28
-    },
-    {
-      "layer": "bottom",
-      "areaMm2": 7.019867192349503,
+      "areaMm2": 14.880180293603951,
       "holes": 0
     },
     {
       "layer": "bottom",
-      "areaMm2": 19.818947615691485,
+      "areaMm2": 693.191511899245,
+      "holes": 40
+    },
+    {
+      "layer": "bottom",
+      "areaMm2": 6.683060293876003,
       "holes": 0
     },
     {
       "layer": "bottom",
-      "areaMm2": 4.055527566174499,
+      "areaMm2": 19.818947616036983,
       "holes": 0
     },
     {
       "layer": "bottom",
-      "areaMm2": 32.05404555121597,
+      "areaMm2": 32.05404556308352,
       "holes": 3
-    },
-    {
-      "layer": "bottom",
-      "areaMm2": 9.905981730024012,
-      "holes": 0
-    },
-    {
-      "layer": "bottom",
-      "areaMm2": 18.912497004541013,
-      "holes": 1
     }
   ]
 }

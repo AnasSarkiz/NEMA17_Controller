@@ -132,5 +132,35 @@
       "same_side_repair_16_SLEEP_0"
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "inner1_local_escape_STATUS_B_C_0",
+      "review_baseline_freerouted_trace_315_run_1",
+      "review_baseline_same_side_repair_0_LED_R_0_layer_section_2_run_1",
+      "review_baseline_same_side_repair_11_STATUS_G_C_0_layer_section_2_run_0",
+      "review_baseline_same_side_repair_12_STATUS_B_C_0_layer_section_0_run_1",
+      "same_side_repair_4_PD_VDD_0_layer_section_1"
+    ],
+    "retained_live_traces": [
+      "review_baseline_freerouted_trace_77_run_0",
+      "review_baseline_same_side_repair_10_STATUS_B_K_0_layer_section_1_run_0",
+      "review_baseline_same_side_repair_24_DATA_CC1_0_run_0"
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_4_PD_VDD_0_layer_section_0"
+    ],
+    "retained_live_traces": [],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "review_baseline_freerouted_trace_104_run_0"
+    ],
+    "retained_live_traces": [],
+    "live_pad_connectivity_unchanged": true
   }
 ]

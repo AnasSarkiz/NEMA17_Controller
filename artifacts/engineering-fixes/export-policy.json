@@ -1,0 +1,8 @@
+{
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+  "default_export_sha256": "782478b3bfb28fb162a798c2ab369e7c04c38f9f51ebbd516c7caffbdfcc3c8e",
+  "upstream_native_export_sha256": "7000bad11347822f40c1e932e1646607389c253dd62519d8a59c9a55d2e7618e",
+  "qualified_paste_silkscreen_BOM_CPL_applied": true,
+  "native_copper_mask_outline_drill_bytes_preserved": true,
+  "supplier_approval": false
+}

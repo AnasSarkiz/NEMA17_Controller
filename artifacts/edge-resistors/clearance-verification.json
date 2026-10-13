@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
   "baseline_git_revision": "88cf468ffe93870cff181c06d808ad959d1ddce3",
   "target_pad_to_edge_mm": 0.75,
   "scope": "Every resistor; all four edges; top and bottom assembly sides",
@@ -11,12 +11,14 @@
     "R_CC1",
     "R_CC2",
     "R_USB_SENSE_H",
+    "R_USB_SENSE_L",
     "R_VM_H",
     "R_VM_L",
     "R_SLEEP",
     "R_TEMP_SCL",
     "R_PWR_LED",
     "R_STATUS_G",
+    "R_STATUS_B",
     "R_BUZZER_GATE"
   ],
   "minimum_actual_pad_edge_mm": 0.752996999999997,
@@ -306,49 +308,49 @@
       "reference": "R_USB_SENSE_L",
       "layer": "top",
       "center_mm": {
-        "x": 2.106602,
-        "y": 6.512003
+        "x": -8.804901,
+        "y": -11.83999
       },
       "rotation_deg": 0,
-      "moved": false,
-      "minimum_actual_pad_edge_mm": 10.555994,
+      "moved": true,
+      "minimum_actual_pad_edge_mm": 5.228007,
       "actual_pad_matches": [
         {
           "pad_id": "pcb_smtpad_80",
           "native_xy_mm": [
-            2.859966,
-            6.512003
+            -8.051537,
+            -11.83999
           ],
           "actual_Gerber_bounds_mm": [
-            2.4567285,
-            6.08,
-            3.2632035,
-            6.944006
+            -8.4547745,
+            -12.271993,
+            -7.648299499999999,
+            -11.407987
           ],
           "all_four_edge_margins_mm": {
-            "left": 19.9567285,
-            "bottom": 23.58,
-            "right": 14.2367965,
-            "top": 10.555994
+            "left": 9.0452255,
+            "bottom": 5.228007,
+            "right": 25.1482995,
+            "top": 28.907987
           }
         },
         {
           "pad_id": "pcb_smtpad_81",
           "native_xy_mm": [
-            1.3532380000000002,
-            6.512003
+            -9.558264999999999,
+            -11.83999
           ],
           "actual_Gerber_bounds_mm": [
-            0.9500004999999999,
-            6.08,
-            1.7564755,
-            6.944006
+            -9.9615025,
+            -12.271993,
+            -9.155027500000001,
+            -11.407987
           ],
           "all_four_edge_margins_mm": {
-            "left": 18.4500005,
-            "bottom": 23.58,
-            "right": 15.7435245,
-            "top": 10.555994
+            "left": 7.5384975,
+            "bottom": 5.228007,
+            "right": 26.655027500000003,
+            "top": 28.907987
           }
         }
       ]
@@ -1071,49 +1073,49 @@
       "reference": "R_STATUS_B",
       "layer": "top",
       "center_mm": {
-        "x": 6.5,
-        "y": 7
+        "x": 2.85,
+        "y": 6.3
       },
       "rotation_deg": 90,
-      "moved": false,
-      "minimum_actual_pad_edge_mm": 9.784355,
+      "moved": true,
+      "minimum_actual_pad_edge_mm": 10.484355,
       "actual_pad_matches": [
         {
           "pad_id": "pcb_smtpad_209",
           "native_xy_mm": [
-            6.5,
-            7.432816
+            2.85,
+            6.732816
           ],
           "actual_Gerber_bounds_mm": [
-            6.229998,
-            7.149986999999999,
-            6.770002,
-            7.715645
+            2.5799980000000002,
+            6.449987,
+            3.120002,
+            7.015644999999999
           ],
           "all_four_edge_margins_mm": {
-            "left": 23.729998000000002,
-            "bottom": 24.649987,
-            "right": 10.729998,
-            "top": 9.784355
+            "left": 20.079998,
+            "bottom": 23.949987,
+            "right": 14.379998,
+            "top": 10.484355
           }
         },
         {
           "pad_id": "pcb_smtpad_210",
           "native_xy_mm": [
-            6.5,
-            6.567184
+            2.85,
+            5.867184
           ],
           "actual_Gerber_bounds_mm": [
-            6.229998,
-            6.284355,
-            6.770002,
-            6.850013000000001
+            2.5799980000000002,
+            5.584355,
+            3.120002,
+            6.1500129999999995
           ],
           "all_four_edge_margins_mm": {
-            "left": 23.729998000000002,
-            "bottom": 23.784354999999998,
-            "right": 10.729998,
-            "top": 10.649987
+            "left": 20.079998,
+            "bottom": 23.084355000000002,
+            "right": 14.379998,
+            "top": 11.349987
           }
         }
       ]

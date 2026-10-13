@@ -1,0 +1,14 @@
+{
+  "traceCount": 452,
+  "currentLimitAmps": 0.350765306122449,
+  "currentLimitEngineeringBudgetAmps": 0.3968801324163417,
+  "currentLimitBudgetIsNotQualified": true,
+  "motorAdcAt35VWorstVolts": 3.240146654445463,
+  "errors": 1,
+  "warnings": 0
+}
+pcb_trace_error: Trace [.U_PD > .VDD to net.PD_VDD] has dangling endpoint at (6.71, 12.66)
+{"removed_trace_ids": ["review_baseline_freerouted_trace_104_run_0"], "retained_live_traces": [], "live_pad_connectivity_unchanged": true}
+[]
+[{"unanchored_copper_removed": "same_side_repair_11_PD_VDD_0_via_3", "net": "PD_VDD"}]
+Filled 23 ground regions

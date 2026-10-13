@@ -10,7 +10,7 @@
   },
   "plug_pair_intersections": [],
   "minimum_simultaneous_plug_gap_mm": 2.4000000000000004,
-  "board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
   "native_STEP_models": 61,
   "component_intersections": [],
   "fastener_clearances": [
@@ -60,12 +60,6 @@
       "reference": "R_SLEEP",
       "mount": "(13, 13)",
       "distance_to_radius2p2_fastener_mm": 0.722571641551323,
-      "intersection_mm3": 0
-    },
-    {
-      "reference": "U_ESD",
-      "mount": "(-13, -13)",
-      "distance_to_radius2p2_fastener_mm": 0.5887997841164689,
       "intersection_mm3": 0
     },
     {
@@ -255,12 +249,12 @@
     ],
     "individual_STEP_metal_terminal_centers_verified": false,
     "vertical_access_envelope_bbox_mm": [
-      -4.850000100000001,
-      -16.762503,
-      5.0600000000000005,
-      1.7500001000000012,
-      -12.552502999999998,
-      25.060000000000002
+      -0.3500023999999996,
+      -14.0200011,
+      0.7999999999999999,
+      0.24999640000000045,
+      -12.469991499999999,
+      0.9
     ],
     "vertical_access_intersections": [],
     "tail_projection_below_PCB_mm": 0,

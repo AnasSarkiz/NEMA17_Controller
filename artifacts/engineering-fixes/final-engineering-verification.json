@@ -1,0 +1,136 @@
+{
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+  "baseline_board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "baseline_github_commit": "9d28fc0d4a9e3585c58d4f486dae2c53ac5760df",
+  "all_functional_terminal_net_groups_and_NC_roles_preserved": true,
+  "all_fitted_MPNs_supplier_numbers_values_and_ratings_preserved": true,
+  "fitted_components_on_top": 61,
+  "bare_top_test_points": 6,
+  "moved_references": [
+    {
+      "reference": "R_USB_SENSE_L",
+      "before_center_mm": {
+        "x": 2.106602,
+        "y": 6.512003
+      },
+      "after_center_mm": {
+        "x": -8.804901,
+        "y": -11.83999
+      },
+      "before_rotation_deg": 0,
+      "after_rotation_deg": 0
+    },
+    {
+      "reference": "U_ESD",
+      "before_center_mm": {
+        "x": -8.804901,
+        "y": -11.83999
+      },
+      "after_center_mm": {
+        "x": 9,
+        "y": 7
+      },
+      "before_rotation_deg": 270,
+      "after_rotation_deg": 0
+    },
+    {
+      "reference": "Q_STATUS_G",
+      "before_center_mm": {
+        "x": 9.079959,
+        "y": 6.889998
+      },
+      "after_center_mm": {
+        "x": 5.5,
+        "y": 7
+      },
+      "before_rotation_deg": 0,
+      "after_rotation_deg": 0
+    },
+    {
+      "reference": "R_STATUS_B",
+      "before_center_mm": {
+        "x": 6.5,
+        "y": 7
+      },
+      "after_center_mm": {
+        "x": 2.85,
+        "y": 6.3
+      },
+      "before_rotation_deg": 90,
+      "after_rotation_deg": 90
+    },
+    {
+      "reference": "TP_BOOT",
+      "before_center_mm": {
+        "x": 16.1,
+        "y": 12
+      },
+      "after_center_mm": {
+        "x": 0,
+        "y": 5.5
+      },
+      "before_rotation_deg": 0,
+      "after_rotation_deg": 0
+    },
+    {
+      "reference": "TP_BOOT_USB_DP",
+      "before_center_mm": {
+        "x": 16.1,
+        "y": 10.2
+      },
+      "after_center_mm": {
+        "x": 1.5,
+        "y": 5.5
+      },
+      "before_rotation_deg": 0,
+      "after_rotation_deg": 0
+    }
+  ],
+  "default_manufacturing_CAM_passed": true,
+  "strict_Circuit_JSON_schema_passed": true,
+  "exact_coupled_USB_ground_reference_verified": true,
+  "board_dimensions_mm": [
+    35,
+    35,
+    1.6
+  ],
+  "mounts_mm": [
+    [
+      -13,
+      -13,
+      3.2
+    ],
+    [
+      -13,
+      13,
+      3.2
+    ],
+    [
+      13,
+      -13,
+      3.2
+    ],
+    [
+      13,
+      13,
+      3.2
+    ]
+  ],
+  "USB_mouths_mm": [
+    [
+      -6.2,
+      17.5
+    ],
+    [
+      6.2,
+      17.5
+    ]
+  ],
+  "cable_housing_width_mm": 10,
+  "nominal_cable_housing_gap_mm": 2.4,
+  "maximum_required_fastener_head_diameter_mm": 4,
+  "hardware_operation_verified": false,
+  "supplier_order_or_process_approval": false,
+  "controlled_impedance_verified": false,
+  "rear_motor_compatibility_verified": false
+}
