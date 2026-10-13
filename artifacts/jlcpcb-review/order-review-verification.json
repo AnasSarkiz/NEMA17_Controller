@@ -7,7 +7,7 @@
   "JLCPCB_gerber_zip_sha256": "5d6ac4e4105baab84a73c6e52ac1008b93d215c0f89fd09a9739fbce71f04aa1",
   "SMT_components": 60,
   "manual_THT_components": 1,
-  "verified_at_utc": "2026-10-13T06:00:17.420974+00:00",
+  "verified_at_utc": "2026-10-13T06:03:02.229957+00:00",
   "every_trace_and_segment_reviewed": true,
   "electrical_geometry_and_connections_preserved": true,
   "raw_native_export_manufacturing_qualified": false,
@@ -20,7 +20,7 @@
     "Confirm native land-pattern CPL datum, pickup rotation, pin 1 and all polarized parts in JLCPCB placement preview; USB body and land-pattern centers differ.",
     "Confirm filled/capped planarized exposed-pad vias, 100 um stencil windows, paste/reflow process and requested copper/plating minima.",
     "Confirm exact BOM availability and quote; no substitutions authorized.",
-    "Confirm top-side SMT support; quote JST secondary soldering or use separate manual THT BOM.",
+    "Confirm top-side SMT support; quote USB shell/JST secondary soldering or use the separate manual THT plan.",
     "Review USB signal/reference layout and switching/sense/ground current paths; no controlled-impedance, EMC or thermal hardware qualification is claimed."
   ],
   "remaining_CAD_tooling_review": [
