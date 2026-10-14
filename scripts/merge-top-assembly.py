@@ -55,7 +55,15 @@ for original in old:
   if any(l in layers(p) and padkey(p,npp,np)!=key and geom.distance(g.geometry(p))<.150001 for p in newpads):hit=True
   if any(geom.distance(Point(h['x'],h['y']).buffer(h['hole_diameter']/2))<.1 for h in fresh if h['type']=='pcb_hole'):hit=True
  if original['type']=='pcb_via':
-  thermal=any(p['type']=='pcb_smtpad' and p.get('width',0)>1 and p.get('height',0)>1 and ns[next(c['source_component_id'] for c in fresh if c['type']=='pcb_component' and c['pcb_component_id']==p['pcb_component_id'])]['name'] in ['U_MCU','U_DRV','U_PD'] and abs(p['x']-e['x'])<.001 and abs(p['y']-e['y'])<.001 and padkey(p,npp,np)==key for p in newpads)
+  thermal=False
+  offsets=json.loads((root/'src/thermal-via-offsets.json').read_text())
+  for p in newpads:
+   if p['type']!='pcb_smtpad' or p.get('width',0)<=1 or p.get('height',0)<=1:continue
+   ref=ns[next(c['source_component_id'] for c in fresh if c['type']=='pcb_component' and c['pcb_component_id']==p['pcb_component_id'])]['name']
+   if ref not in offsets:continue
+   off=offsets[ref]
+   site=(p['x']+off['x'],p['y']+off['y'])
+   if math.dist(site,(e['x'],e['y']))<.001 and padkey(p,npp,np)==key and g.geometry(p).covers(Point(e['x'],e['y']).buffer(e['outer_diameter']/2)):thermal=True
   drill=Point(e['x'],e['y']).buffer(e['hole_diameter']/2)
   if not thermal and any(p['type']=='pcb_smtpad' and drill.intersects(g.geometry(p)) for p in newpads):hit=True
  if hit:removed.append(original.get('pcb_trace_id',original.get('pcb_via_id')))
