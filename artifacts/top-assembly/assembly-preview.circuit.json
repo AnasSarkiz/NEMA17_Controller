@@ -1483,7 +1483,7 @@
       ]
     },
     "resistance": 1000,
-    "display_resistance": "1kΩ",
+    "display_resistance": "1k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -1528,7 +1528,7 @@
         "C15849"
       ]
     },
-    "capacitance": 0.000001,
+    "capacitance": 1e-06,
     "display_capacitance": "1uF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -1579,7 +1579,7 @@
       ]
     },
     "resistance": 10000,
-    "display_resistance": "10kΩ",
+    "display_resistance": "10k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2047,7 +2047,7 @@
         "C14663"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -2091,7 +2091,7 @@
         "C98192"
       ]
     },
-    "capacitance": 0.0000047,
+    "capacitance": 4.7e-06,
     "display_capacitance": "4.7uF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -2140,7 +2140,7 @@
       ]
     },
     "resistance": 5100,
-    "display_resistance": "5.1kΩ",
+    "display_resistance": "5.1k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2188,7 +2188,7 @@
       ]
     },
     "resistance": 5100,
-    "display_resistance": "5.1kΩ",
+    "display_resistance": "5.1k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2238,7 +2238,7 @@
       ]
     },
     "resistance": 100000,
-    "display_resistance": "100kΩ",
+    "display_resistance": "100k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2288,7 +2288,7 @@
       ]
     },
     "resistance": 100000,
-    "display_resistance": "100kΩ",
+    "display_resistance": "100k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2338,7 +2338,7 @@
       ]
     },
     "resistance": 100000,
-    "display_resistance": "100kΩ",
+    "display_resistance": "100k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2388,7 +2388,7 @@
       ]
     },
     "resistance": 10000,
-    "display_resistance": "10kΩ",
+    "display_resistance": "10k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -2431,7 +2431,7 @@
         "C1589"
       ]
     },
-    "capacitance": 1e-8,
+    "capacitance": 1e-08,
     "display_capacitance": "10nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3097,7 +3097,7 @@
         "C960916"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3141,7 +3141,7 @@
         "C960916"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3185,7 +3185,7 @@
         "C21120"
       ]
     },
-    "capacitance": 2.2e-7,
+    "capacitance": 2.2e-07,
     "display_capacitance": "220nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3231,7 +3231,7 @@
         "C1525"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3275,7 +3275,7 @@
         "C960916"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3319,7 +3319,7 @@
         "C72522"
       ]
     },
-    "capacitance": 0.000047,
+    "capacitance": 4.7e-05,
     "display_capacitance": "47uF",
     "are_pins_interchangeable": false,
     "source_group_id": "source_group_0"
@@ -3368,7 +3368,7 @@
       ]
     },
     "resistance": 0.24,
-    "display_resistance": "240mΩ",
+    "display_resistance": "240m\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3416,7 +3416,7 @@
       ]
     },
     "resistance": 0.24,
-    "display_resistance": "240mΩ",
+    "display_resistance": "240m\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3464,7 +3464,7 @@
       ]
     },
     "resistance": 39000,
-    "display_resistance": "39kΩ",
+    "display_resistance": "39k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3514,7 +3514,7 @@
       ]
     },
     "resistance": 10000,
-    "display_resistance": "10kΩ",
+    "display_resistance": "10k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3557,7 +3557,7 @@
         "C1589"
       ]
     },
-    "capacitance": 1e-8,
+    "capacitance": 1e-08,
     "display_capacitance": "10nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -3608,7 +3608,7 @@
       ]
     },
     "resistance": 100000,
-    "display_resistance": "100kΩ",
+    "display_resistance": "100k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3658,7 +3658,7 @@
       ]
     },
     "resistance": 100000,
-    "display_resistance": "100kΩ",
+    "display_resistance": "100k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3951,7 +3951,7 @@
       ]
     },
     "resistance": 4700,
-    "display_resistance": "4.7kΩ",
+    "display_resistance": "4.7k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -3993,7 +3993,7 @@
     "name": "L_BUCK",
     "ftype": "simple_inductor",
     "inductance": "4.7uH",
-    "display_inductance": "4.7µH",
+    "display_inductance": "4.7\u00b5H",
     "supplier_part_numbers": {
       "jlcpcb": [
         "C780206"
@@ -4044,7 +4044,7 @@
         "C1525"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -4088,7 +4088,7 @@
         "C13585"
       ]
     },
-    "capacitance": 0.00001,
+    "capacitance": 1e-05,
     "display_capacitance": "10uF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -4132,7 +4132,7 @@
         "C45783"
       ]
     },
-    "capacitance": 0.000022,
+    "capacitance": 2.2e-05,
     "display_capacitance": "22uF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -4176,7 +4176,7 @@
         "C45783"
       ]
     },
-    "capacitance": 0.000022,
+    "capacitance": 2.2e-05,
     "display_capacitance": "22uF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -4333,7 +4333,7 @@
         "C1525"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -4382,7 +4382,7 @@
       ]
     },
     "resistance": 4700,
-    "display_resistance": "4.7kΩ",
+    "display_resistance": "4.7k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -4430,7 +4430,7 @@
       ]
     },
     "resistance": 4700,
-    "display_resistance": "4.7kΩ",
+    "display_resistance": "4.7k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -4524,7 +4524,7 @@
       ]
     },
     "resistance": 330,
-    "display_resistance": "330Ω",
+    "display_resistance": "330\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -4648,7 +4648,7 @@
       ]
     },
     "resistance": 1000,
-    "display_resistance": "1kΩ",
+    "display_resistance": "1k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -4758,7 +4758,7 @@
       ]
     },
     "resistance": 1000,
-    "display_resistance": "1kΩ",
+    "display_resistance": "1k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -4868,7 +4868,7 @@
       ]
     },
     "resistance": 1000,
-    "display_resistance": "1kΩ",
+    "display_resistance": "1k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -5152,7 +5152,7 @@
       ]
     },
     "resistance": 100,
-    "display_resistance": "100Ω",
+    "display_resistance": "100\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -5202,7 +5202,7 @@
       ]
     },
     "resistance": 100000,
-    "display_resistance": "100kΩ",
+    "display_resistance": "100k\u03a9",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
   },
@@ -5245,7 +5245,7 @@
         "C19702"
       ]
     },
-    "capacitance": 0.00001,
+    "capacitance": 1e-05,
     "display_capacitance": "10uF",
     "are_pins_interchangeable": true,
     "source_group_id": "source_group_0"
@@ -5578,7 +5578,7 @@
         "C1525"
       ]
     },
-    "capacitance": 1e-7,
+    "capacitance": 1e-07,
     "max_voltage_rating": 16,
     "display_capacitance": "100nF",
     "are_pins_interchangeable": true,
@@ -5625,7 +5625,7 @@
         "C52923"
       ]
     },
-    "capacitance": 0.000001,
+    "capacitance": 1e-06,
     "max_voltage_rating": 6.3,
     "display_capacitance": "1uF",
     "are_pins_interchangeable": true,
@@ -9811,7 +9811,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_right",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "1kΩ",
+    "symbol_display_value": "1k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -9847,7 +9847,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "10kΩ",
+    "symbol_display_value": "10k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -9979,7 +9979,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "5.1kΩ",
+    "symbol_display_value": "5.1k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -9997,7 +9997,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "5.1kΩ",
+    "symbol_display_value": "5.1k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10015,7 +10015,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100kΩ",
+    "symbol_display_value": "100k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10033,7 +10033,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100kΩ",
+    "symbol_display_value": "100k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10051,7 +10051,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100kΩ",
+    "symbol_display_value": "100k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10069,7 +10069,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "10kΩ",
+    "symbol_display_value": "10k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10380,7 +10380,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "240mΩ",
+    "symbol_display_value": "240m\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10398,7 +10398,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "240mΩ",
+    "symbol_display_value": "240m\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10416,7 +10416,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "39kΩ",
+    "symbol_display_value": "39k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10434,7 +10434,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "10kΩ",
+    "symbol_display_value": "10k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10470,7 +10470,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100kΩ",
+    "symbol_display_value": "100k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10488,7 +10488,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100kΩ",
+    "symbol_display_value": "100k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10636,7 +10636,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "4.7kΩ",
+    "symbol_display_value": "4.7k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10654,7 +10654,7 @@
     "is_box_with_pins": true,
     "symbol_name": "inductor_up",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "4.7µH",
+    "symbol_display_value": "4.7\u00b5H",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10817,7 +10817,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_up",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "4.7kΩ",
+    "symbol_display_value": "4.7k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10835,7 +10835,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_up",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "4.7kΩ",
+    "symbol_display_value": "4.7k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10870,7 +10870,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "330Ω",
+    "symbol_display_value": "330\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10941,7 +10941,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_right",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "1kΩ",
+    "symbol_display_value": "1k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -10975,7 +10975,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_right",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "1kΩ",
+    "symbol_display_value": "1k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -11009,7 +11009,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_right",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "1kΩ",
+    "symbol_display_value": "1k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -11129,7 +11129,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_right",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100Ω",
+    "symbol_display_value": "100\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -11147,7 +11147,7 @@
     "is_box_with_pins": true,
     "symbol_name": "boxresistor_down",
     "schematic_sheet_id": "schematic_sheet_0",
-    "symbol_display_value": "100kΩ",
+    "symbol_display_value": "100k\u03a9",
     "schematic_group_id": "schematic_group_0"
   },
   {
@@ -33673,7 +33673,7 @@
       "pin29"
     ],
     "is_covered_with_solder_mask": false,
-    "x": -0.000026999999999999965,
+    "x": -2.6999999999999965e-05,
     "y": -7.999973,
     "subcircuit_id": "subcircuit_source_group_0"
   },
@@ -33684,7 +33684,7 @@
     "shape": "rect",
     "width": 2.23999552,
     "height": 2.23999552,
-    "x": -0.000026999999999999965,
+    "x": -2.6999999999999965e-05,
     "y": -7.999973,
     "pcb_component_id": "pcb_component_19",
     "pcb_smtpad_id": "pcb_smtpad_106",
@@ -33754,7 +33754,7 @@
     "pcb_port_id": "pcb_port_138",
     "layer": "top",
     "shape": "rotated_pill",
-    "x": -0.00002699999999954075,
+    "x": -2.699999999954075e-05,
     "y": -5.500105,
     "radius": 0.1400048,
     "height": 0.2800096,
@@ -34020,7 +34020,7 @@
     "pcb_port_id": "pcb_port_124",
     "layer": "top",
     "shape": "rotated_pill",
-    "x": -0.000027000000000459233,
+    "x": -2.7000000000459233e-05,
     "y": -10.500095,
     "radius": 0.1400048,
     "height": 0.2800096,
@@ -51165,7 +51165,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -0.000027000000000459233,
+    "x": -2.7000000000459233e-05,
     "y": -10.500095,
     "source_port_id": "source_port_124"
   },
@@ -51333,7 +51333,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -0.00002699999999954075,
+    "x": -2.699999999954075e-05,
     "y": -5.500105,
     "source_port_id": "source_port_138"
   },
@@ -51381,7 +51381,7 @@
       "top"
     ],
     "subcircuit_id": "subcircuit_source_group_0",
-    "x": -0.000026999999999999965,
+    "x": -2.6999999999999965e-05,
     "y": -7.999973,
     "source_port_id": "source_port_142"
   },
@@ -53033,7 +53033,7 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": 0.000063500000123895,
+      "x": 6.3500000123895e-05,
       "y": 0,
       "z": -0.81
     }
@@ -53184,7 +53184,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.65
     }
   },
@@ -53209,7 +53209,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -53234,7 +53234,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -53383,7 +53383,7 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": 0.000012700000070253736,
+      "x": 1.2700000070253736e-05,
       "y": 0,
       "z": -0.62
     }
@@ -53409,7 +53409,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": 0.000012699999999199463,
+      "y": 1.2699999999199463e-05,
       "z": -0.6
     }
   },
@@ -53434,7 +53434,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": 0.000012699999999199463,
+      "y": 1.2699999999199463e-05,
       "z": -0.6
     }
   },
@@ -53484,7 +53484,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.25
     }
   },
@@ -53509,7 +53509,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.25
     }
   },
@@ -53559,7 +53559,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.25
     }
   },
@@ -53584,7 +53584,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.25
     }
   },
@@ -53609,7 +53609,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.05
     }
   },
@@ -53634,7 +53634,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": 0.000012699999842880061,
+      "y": 1.2699999842880061e-05,
       "z": 0
     }
   },
@@ -53659,7 +53659,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": 0.000012699999842880061,
+      "y": 1.2699999842880061e-05,
       "z": 0
     }
   },
@@ -53833,8 +53833,8 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": -0.000012700000070253736,
-      "y": 0.000012700000070253736,
+      "x": -1.2700000070253736e-05,
+      "y": 1.2700000070253736e-05,
       "z": -0.048939
     }
   },
@@ -53884,7 +53884,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -53934,7 +53934,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.25
     }
   },
@@ -53984,7 +53984,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.65
     }
   },
@@ -54009,7 +54009,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.65
     }
   },
@@ -54033,7 +54033,7 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": -0.00005079999999679785,
+      "x": -5.079999999679785e-05,
       "y": 0.029921200000003978,
       "z": 0
     }
@@ -54059,7 +54059,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": -0.25
     }
   },
@@ -54084,7 +54084,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54109,7 +54109,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54133,8 +54133,8 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": -0.000012700000070253736,
-      "y": 0.00005079999993995443,
+      "x": -1.2700000070253736e-05,
+      "y": 5.079999993995443e-05,
       "z": -0.01
     }
   },
@@ -54159,7 +54159,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54209,7 +54209,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54233,7 +54233,7 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": 0.000012699999956566899,
+      "x": 1.2699999956566899e-05,
       "y": 0,
       "z": -0.1
     }
@@ -54259,7 +54259,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54283,7 +54283,7 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": 0.000012699999956566899,
+      "x": 1.2699999956566899e-05,
       "y": 0,
       "z": -0.1
     }
@@ -54309,7 +54309,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54333,7 +54333,7 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": 0.000012699999956566899,
+      "x": 1.2699999956566899e-05,
       "y": 0,
       "z": -0.1
     }
@@ -54358,8 +54358,8 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": -0.000012700000013410317,
-      "y": 0.000012699999999199463,
+      "x": -1.2700000013410317e-05,
+      "y": 1.2699999999199463e-05,
       "z": 0
     }
   },
@@ -54383,8 +54383,8 @@
     "model_origin_alignment": "center_of_component_on_board_surface",
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
-      "x": 0.000012700000070253736,
-      "y": -0.000012699999956566899,
+      "x": 1.2700000070253736e-05,
+      "y": -1.2699999956566899e-05,
       "z": 0.050795
     }
   },
@@ -54434,7 +54434,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },
@@ -54459,7 +54459,7 @@
     "anchor_alignment": "center_of_component_on_board_surface",
     "model_origin_position": {
       "x": 0,
-      "y": -0.000012700000070253736,
+      "y": -1.2700000070253736e-05,
       "z": 0
     }
   },

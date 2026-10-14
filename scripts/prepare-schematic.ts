@@ -231,5 +231,7 @@ export function prepareSchematic(json:any[]) {
   if(Math.abs(e.to.x-current.x)>1e-6)result.push({from:current,to:e.to});return result
  })
  const comps=out.filter(e=>e.type==='schematic_component');if(comps.length!==oldComponents.size||new Set(comps.map(e=>e.source_component_id)).size!==oldComponents.size)throw Error('Functional sheet coverage changed')
+ const sheetCount=out.filter(e=>e.type==="schematic_sheet").length
+ for(const e of out)if(e.type==="schematic_text"&&/^Sheet \d+ \//.test(e.text))e.text=e.text.replace(/^(Sheet \d+ \/) \d+/,`$1 ${sheetCount}`)
  return out
 }

@@ -1,6 +1,6 @@
-# NEMA14_CH32X035G8U6 1.10.1: engineering fixes
+# NEMA14_CH32X035G8U6 1.10.2: engineering fixes
 
-Saved board SHA-256: `7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb`. Starting GitHub revision: `0d6f9bc`. Original functional nets, NC roles, values and ratings are preserved, with the authorized USB4145 upright connector substitution and three added bottom DNP encoder components; see `artifacts/engineering-fixes/final-engineering-verification.json`.
+Saved board SHA-256: `3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece`. Starting GitHub revision: `0d6f9bc`. Original functional nets, NC roles, values and ratings are preserved, with the authorized USB4145 upright connector substitution and three added bottom DNP encoder components; see `artifacts/engineering-fixes/final-engineering-verification.json`.
 
 The board is 35 × 35 × 1.6 mm, four layers, with four NPTH holes exactly (±13, ±13), Ø3.2 mm. USB4145-03-0070-C (C5815189) sockets are upright at nominal (−6.05, 15.15) and (6.05, 15.15), with insertion along +Z. Two defined 10 mm cable housings have 2.1 mm nominal separation. The fastener requirement remains maximum Ø4 mm heads; the STEP screen includes a Ø4.4 mm × 3 mm envelope. This verifies nominal CAD geometry, not physical assembly or rear motor attachment.
 

@@ -38657,7 +38657,7 @@
     "type": "schematic_text",
     "schematic_text_id": "pro_text_6",
     "schematic_sheet_id": "schematic_sheet_0",
-    "text": "Sheet 1 / 5   \u2022   A4   \u2022   Rev SC-01",
+    "text": "Sheet 1 / 6   \u2022   A4   \u2022   Rev SC-01",
     "position": {
       "x": 22,
       "y": 1.05
@@ -42712,7 +42712,7 @@
     "type": "schematic_text",
     "schematic_text_id": "pro_text_116",
     "schematic_sheet_id": "schematic_sheet_1",
-    "text": "Sheet 2 / 5   \u2022   A4   \u2022   Rev SC-01",
+    "text": "Sheet 2 / 6   \u2022   A4   \u2022   Rev SC-01",
     "position": {
       "x": 22,
       "y": 1.05
@@ -45434,7 +45434,7 @@
     "type": "schematic_text",
     "schematic_text_id": "pro_text_189",
     "schematic_sheet_id": "schematic_sheet_2",
-    "text": "Sheet 3 / 5   \u2022   A4   \u2022   Rev SC-01",
+    "text": "Sheet 3 / 6   \u2022   A4   \u2022   Rev SC-01",
     "position": {
       "x": 22,
       "y": 1.05
@@ -47955,7 +47955,7 @@
     "type": "schematic_text",
     "schematic_text_id": "pro_text_272",
     "schematic_sheet_id": "schematic_sheet_3",
-    "text": "Sheet 4 / 5   \u2022   A4   \u2022   Rev SC-01",
+    "text": "Sheet 4 / 6   \u2022   A4   \u2022   Rev SC-01",
     "position": {
       "x": 22,
       "y": 1.05
@@ -52525,7 +52525,7 @@
     "type": "schematic_text",
     "schematic_text_id": "pro_text_400",
     "schematic_sheet_id": "schematic_sheet_4",
-    "text": "Sheet 5 / 5   \u2022   A4   \u2022   Rev SC-01",
+    "text": "Sheet 5 / 6   \u2022   A4   \u2022   Rev SC-01",
     "position": {
       "x": 22,
       "y": 1.05
@@ -56373,7 +56373,7 @@
     "type": "schematic_text",
     "schematic_text_id": "pro_text_514",
     "schematic_sheet_id": "schematic_sheet_5",
-    "text": "Sheet 6 / 5   \u2022   A4   \u2022   Rev SC-01",
+    "text": "Sheet 6 / 6   \u2022   A4   \u2022   Rev SC-01",
     "position": {
       "x": 22,
       "y": 1.05

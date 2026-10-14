@@ -26,4 +26,4 @@ Supplier review still must confirm exact stock and quote, pickup orientation, vi
 
 Every native and order-source record passes its installed Circuit JSON schema. Display offsets are canonical strings, optional null IDs are omitted, and the buzzer uses a generic pinout record with its real MPN and pin identities retained. See `native-json-compatibility.json`. The actual coupled USB copper and adjacent grounded references are checked separately; fabricator stackup/impedance and bench USB operation remain unverified.
 
-Board source SHA-256: `7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb`. Corrected CAM audit: PASS, zero findings. Electrical source, placement, native footprints/courtyards, copper, masks, drills and outline are preserved.
+Board source SHA-256: `3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece`. Corrected CAM audit: PASS, zero findings. Electrical source, placement, native footprints/courtyards, copper, masks, drills and outline are preserved.

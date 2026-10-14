@@ -1,5 +1,5 @@
 """Independent schematic geometry/ERC and preservation analysis; no inferred trace connectivity."""
-import collections, hashlib, json, pathlib, subprocess
+import collections, hashlib, json, pathlib, subprocess, re
 from shapely.geometry import Point, LineString
 root=pathlib.Path(__file__).resolve().parents[1]
 board_path=root/'artifacts/board.circuit.json';j=json.loads(board_path.read_text())
@@ -26,6 +26,9 @@ source={e['source_component_id']:e for e in j if e['type']=='source_component'}
 sp={e['source_port_id']:e for e in j if e['type']=='source_port'}
 ports={e['source_port_id']:e for e in j if e['type']=='schematic_port'}
 components=[e for e in j if e['type']=='schematic_component'];sheets=[e for e in j if e['type']=='schematic_sheet']
+footers=[re.fullmatch(r'Sheet (\d+) / (\d+).*',e.get('text','')) for e in j if e['type']=='schematic_text']
+footers=[m for m in footers if m]
+if len(footers)!=len(sheets) or sorted(int(m[1]) for m in footers)!=list(range(1,len(sheets)+1)) or any(int(m[2])!=len(sheets) for m in footers):errors.append('A4 footer sheet numbering disagrees with the actual functional sheets')
 if len(sheets)!=6 or any(e.get('sheet_width')!=297 or e.get('sheet_height')!=210 for e in sheets):errors.append('Expected six functional A4 sheets including DNP encoder')
 if collections.Counter(e['source_component_id'] for e in components)!=collections.Counter(source.keys()):errors.append('Component symbol coverage mismatch')
 omitted=set(sp)-set(ports)

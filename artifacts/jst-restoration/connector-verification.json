@@ -12,7 +12,7 @@
   "source_saved_delivered_checks": [
     {
       "path": "artifacts/final-source.circuit.json",
-      "sha256": "7b9fe09b833bfde0d1eb1efd284ee80796964ec587b1521910932e1934a499eb",
+      "sha256": "3bedac91cb79cb39a22e01b791c05d4ad8b222ff859fceddbc92b2c1f5c5035f",
       "pins_and_native_pads": [
         {
           "pin": 1,
@@ -66,7 +66,7 @@
     },
     {
       "path": "artifacts/board.circuit.json",
-      "sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
+      "sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
       "pins_and_native_pads": [
         {
           "pin": 1,
@@ -120,7 +120,7 @@
     },
     {
       "path": "index.circuit.json",
-      "sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
+      "sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
       "pins_and_native_pads": [
         {
           "pin": 1,

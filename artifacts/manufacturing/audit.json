@@ -1,5 +1,5 @@
 {
-  "source_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
+  "source_sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
   "directory": "artifacts/manufacturing",
   "parser_versions": {
     "gerbonara": "1.5.0",
@@ -9,7 +9,7 @@
   "parser_compatibility": "Only LR right-angle aperture transforms and unambiguous split-line G85 slots are converted to equivalent G00/M15/G01/M16/G05 routing analytically. Original Gerbers independently rendered by PyGerber. Input CAM bytes remain unchanged.",
   "files": {
     "B_Cu.gbr": {
-      "sha256": "a03ebc584874e07611a35fadf048229c1e76b784a3b33e9f3c9e63fdf5f860a9",
+      "sha256": "9f4615465763b25f7bbaf55f5f53b3d998957218e966e7f62b065713885d559f",
       "objects": 1730,
       "area_mm2": 875.8123122649496,
       "bounds_mm": [
@@ -22,7 +22,7 @@
       "warnings": []
     },
     "B_Mask.gbr": {
-      "sha256": "afe2d9c038edb2ae1aaac67b86882fd415810e5a6fb14f8465fe6a5aa8089137",
+      "sha256": "c7e12512059e62743e066d23c96f47ab58f5d9bbd7b8b7eb1199b2a8eae7df75",
       "objects": 58,
       "area_mm2": 54.35339123950721,
       "bounds_mm": [
@@ -56,7 +56,7 @@
       "warnings": []
     },
     "Edge_Cuts.gbr": {
-      "sha256": "bf6bfc1c62dd6aa1852393d0b63c5cb6c4fd7e8bec9ba983c047640ca13b6a79",
+      "sha256": "6ca852e50ab5ac6f94b4ecad8d491d62f5703511b7493f862c0bbb3397a3a98d",
       "objects": 4,
       "area_mm2": 6.999463298281626,
       "bounds_mm": [
@@ -69,7 +69,7 @@
       "warnings": []
     },
     "F_Cu.gbr": {
-      "sha256": "9b46886b77370b90ea5ee2fadb800cc9609b8c356c4cefe98a9eb1f7f465117b",
+      "sha256": "636c99f17f026307113725537e28e4a1cd60c379681e0d3b57bfef87dbd6a2b3",
       "objects": 2515,
       "area_mm2": 792.9926825340266,
       "bounds_mm": [
@@ -82,7 +82,7 @@
       "warnings": []
     },
     "F_Fab.gbr": {
-      "sha256": "e3e0258e3cf136f5a5e4d06a3ff0d68c39bf5b80a5784da5fbba45d38dbf5093",
+      "sha256": "2f6bfdd790a6473006446f5a962bcdb127d1b6906cc9bcdf2d14af7ebcc207e1",
       "objects": 591,
       "area_mm2": 14.957980540967903,
       "bounds_mm": [
@@ -95,7 +95,7 @@
       "warnings": []
     },
     "F_Mask.gbr": {
-      "sha256": "7b20936dc30bc4e96c723a4212e31daa7798254281ebf09488c1b55cf080112c",
+      "sha256": "2005017aab56c248d1d5dbb9e59f86755b4c90ff3d82459be7f8ae0c8685df9a",
       "objects": 337,
       "area_mm2": 241.43934673160174,
       "bounds_mm": [
@@ -134,7 +134,7 @@
       "warnings": []
     },
     "In1_Cu.gbr": {
-      "sha256": "d465a0415456c8f774fa1ec2b1d38c6a4e017765c7ea5b446594a43ceaf0ec8f",
+      "sha256": "131669dd257647547d7c843b96516788e40e2571d2e80465cdbec9587672b93e",
       "objects": 1282,
       "area_mm2": 970.6027596470451,
       "bounds_mm": [
@@ -147,7 +147,7 @@
       "warnings": []
     },
     "In2_Cu.gbr": {
-      "sha256": "eddbf7ad3621ba81e6aff40fdc791d893e893e16ca7074a6128876c32d6fc4c0",
+      "sha256": "d7c72722ecfeb0f71c818c447636896c94b37fc644e25e26edaefbaa75612b97",
       "objects": 2478,
       "area_mm2": 831.5329295641772,
       "bounds_mm": [
@@ -160,7 +160,7 @@
       "warnings": []
     },
     "drill-L1-L4.drl": {
-      "sha256": "71469efefd5c569937557786b74d41ea1e6cba99291ce59d2a8262de9cbca6c6",
+      "sha256": "1a928e3217301648521c114dbc4b9c6d75e49ff09d39a545f2e1c045a098f9df",
       "objects": 237,
       "G85_joined": 8,
       "parser_notices": [
@@ -172,7 +172,7 @@
       }
     },
     "drill_npth.drl": {
-      "sha256": "0dbbc0ba73cdf7666b7fbc8b500a2da113c676bb47679d49947776729811dc3b",
+      "sha256": "a09b567607c22ee4dd8c590b9a41782ab2a0cebad87903664008b250acb1b2ec",
       "objects": 6,
       "G85_joined": 0,
       "parser_notices": [
@@ -187,24 +187,24 @@
   "issues": [],
   "archive": {
     "path": "/workspace/nema14-ch32-board/artifacts/nema14-gerbers.zip",
-    "sha256": "06ecd199cec00d40a7e65dd3e4bc9bdabac13d591ab7ba5f16dc785bed23205b",
+    "sha256": "e545c3a59a45a5ba59b2327a44394b2650996234ddceb1fd569a62a8b38421b3",
     "extracted_bytes_verified": true,
     "members": {
-      "B_Cu.gbr": "a03ebc584874e07611a35fadf048229c1e76b784a3b33e9f3c9e63fdf5f860a9",
-      "B_Mask.gbr": "afe2d9c038edb2ae1aaac67b86882fd415810e5a6fb14f8465fe6a5aa8089137",
+      "B_Cu.gbr": "9f4615465763b25f7bbaf55f5f53b3d998957218e966e7f62b065713885d559f",
+      "B_Mask.gbr": "c7e12512059e62743e066d23c96f47ab58f5d9bbd7b8b7eb1199b2a8eae7df75",
       "B_Paste.gbr": "9d9ccc677d66fcf98e79dd042c198efc255fe92c9c1c3c8ac518930993232299",
       "B_SilkScreen.gbr": "af22b4bd3a026e3e5c91136f9c49fe3ac178e55719973effecfe3fc995bb2831",
-      "Edge_Cuts.gbr": "bf6bfc1c62dd6aa1852393d0b63c5cb6c4fd7e8bec9ba983c047640ca13b6a79",
-      "F_Cu.gbr": "9b46886b77370b90ea5ee2fadb800cc9609b8c356c4cefe98a9eb1f7f465117b",
-      "F_Fab.gbr": "e3e0258e3cf136f5a5e4d06a3ff0d68c39bf5b80a5784da5fbba45d38dbf5093",
-      "F_Mask.gbr": "7b20936dc30bc4e96c723a4212e31daa7798254281ebf09488c1b55cf080112c",
+      "Edge_Cuts.gbr": "6ca852e50ab5ac6f94b4ecad8d491d62f5703511b7493f862c0bbb3397a3a98d",
+      "F_Cu.gbr": "636c99f17f026307113725537e28e4a1cd60c379681e0d3b57bfef87dbd6a2b3",
+      "F_Fab.gbr": "2f6bfdd790a6473006446f5a962bcdb127d1b6906cc9bcdf2d14af7ebcc207e1",
+      "F_Mask.gbr": "2005017aab56c248d1d5dbb9e59f86755b4c90ff3d82459be7f8ae0c8685df9a",
       "F_Paste.gbr": "d0ba4c7c88a4d1284f50294e79253031c57fce255bb3d4ef0e0d87458c14836e",
       "F_SilkScreen.gbr": "86be89a2d9c5a53bcf658947fed3392ebd3c2eb5f0b3454ab0966e2e4351db07",
-      "In1_Cu.gbr": "d465a0415456c8f774fa1ec2b1d38c6a4e017765c7ea5b446594a43ceaf0ec8f",
-      "In2_Cu.gbr": "eddbf7ad3621ba81e6aff40fdc791d893e893e16ca7074a6128876c32d6fc4c0",
+      "In1_Cu.gbr": "131669dd257647547d7c843b96516788e40e2571d2e80465cdbec9587672b93e",
+      "In2_Cu.gbr": "d7c72722ecfeb0f71c818c447636896c94b37fc644e25e26edaefbaa75612b97",
       "bom.csv": "9773e9edd9b4bfdd361912118f160b96ad9982a22747ec619ad46204413cf315",
-      "drill-L1-L4.drl": "71469efefd5c569937557786b74d41ea1e6cba99291ce59d2a8262de9cbca6c6",
-      "drill_npth.drl": "0dbbc0ba73cdf7666b7fbc8b500a2da113c676bb47679d49947776729811dc3b",
+      "drill-L1-L4.drl": "1a928e3217301648521c114dbc4b9c6d75e49ff09d39a545f2e1c045a098f9df",
+      "drill_npth.drl": "a09b567607c22ee4dd8c590b9a41782ab2a0cebad87903664008b250acb1b2ec",
       "pick_and_place.csv": "c2b83f1fd6c598d186fe584edd0ac85f5247688ceb09f4ce4734f7c59b3c3409"
     }
   },

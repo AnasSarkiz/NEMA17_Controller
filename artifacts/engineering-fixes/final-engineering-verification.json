@@ -1,5 +1,5 @@
 {
-  "board_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
+  "board_sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
   "baseline_board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
   "baseline_github_commit": "0d6f9bc",
   "all_functional_terminal_net_groups_and_NC_roles_preserved": true,

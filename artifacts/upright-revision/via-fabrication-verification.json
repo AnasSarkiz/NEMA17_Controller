@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "board_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
-  "actual_plated_drill_file_sha256": "71469efefd5c569937557786b74d41ea1e6cba99291ce59d2a8262de9cbca6c6",
+  "board_sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
+  "actual_plated_drill_file_sha256": "1a928e3217301648521c114dbc4b9c6d75e49ff09d39a545f2e1c045a098f9df",
   "capability_source": "https://jlcpcb.com/capabilities/pcb-capabilities",
   "via_rule": "Diameter difference >=0.10 mm; 0.15 mm preferred. This revision requires >=0.30 mm drill and >=0.45 mm pad.",
   "nominal_dimensions_not_fabricated_measurements": true,
