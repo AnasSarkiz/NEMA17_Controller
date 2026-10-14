@@ -1,4 +1,4 @@
-# NEMA14_CH32X035G8U6 1.10.0: engineering fixes
+# NEMA14_CH32X035G8U6 1.10.1: engineering fixes
 
 Saved board SHA-256: `7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb`. Starting GitHub revision: `0d6f9bc`. Original functional nets, NC roles, values and ratings are preserved, with the authorized USB4145 upright connector substitution and three added bottom DNP encoder components; see `artifacts/engineering-fixes/final-engineering-verification.json`.
 

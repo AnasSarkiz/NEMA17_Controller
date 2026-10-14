@@ -49,7 +49,7 @@ def main():
         if ref not in {'J_PD','J_DATA','J_MOTOR'}:continue
         joints.append({'Reference':ref,'Pad hints':','.join(hole.get('port_hints',[])),
                        'X mm':hole['x'],'Y mm':hole['y'],
-                       'Process request':'separate THT soldering of USB shell tabs; supplier must quote or assembler must hand solder'})
+                       'Process request':'approved TOP-side secondary soldering of 0.7 mm USB shell stakes in 1.6 mm PCB; supplier quote/process confirmation pending'})
     assert len([e for e in joints if e['Reference'] in {'J_PD','J_DATA'}])==8
     assert len([e for e in joints if e['Reference']=='J_MOTOR'])==0
     with (OUT/'Through-Hole-Joint-Plan.csv').open('w',newline='') as f:
@@ -95,7 +95,7 @@ The 100 um stencil has independently screened fine-pitch apertures and four wind
 
 SMT fitted parts: {manifest['SMT_components']}. Bottom SMT references: {bottom}. Separate bare top-side `TP_*` test points have no purchased component or stencil paste. JST `J_MOTOR` is native SMT BM04B-SRSS-TB(LF)(SN), C160390, and is included in the top-side SMT BOM and CPL. No bottom-side fitted components or JST through-hole leads are present. The functional order is pin 1 A+, 2 A−, 3 B+, 4 B−. The JST mates vertically from +Z.
 
-The **eight USB-C shell tabs require through-hole soldering**. `Through-Hole-Joint-Plan.csv` lists the actual eight joint coordinates for supplier quotation or manual soldering. USB signal pads receive stencil paste; shell slots do not. Do not assume an SMT-only quote includes these joints or that the unsoldered USB tabs provide a qualified cable-retention or shield-ground connection.
+The **eight USB-C shell tabs require supplier-approved TOP-side secondary soldering**. Their 0.7 mm stakes do not protrude through the 1.6 mm board; do not assume a bottom-wave or ordinary through-hole process is suitable. `Through-Hole-Joint-Plan.csv` lists the actual eight joint coordinates for supplier quotation or manual soldering. USB signal pads receive stencil paste; shell slots do not. Do not assume an SMT-only quote includes these joints or that the unsoldered USB tabs provide a qualified cable-retention or shield-ground connection.
 
 CPL coordinates are millimeters about board center, unmirrored board XY for both sides. Rotation is the native imported footprint orientation plus component placement rotation. **Check every polarized part and pin 1 in JLCPCB's placement preview.** `placement-orientation-review.json` lists each actual numbered pad, center, side and rotation; source agreement is not proof of supplier pickup convention. For both USB connectors the imported land-pattern center differs from the body-bounding-box center by 0.975 mm along the mouth axis. Do not silently substitute the body center as the pickup datum.
 
@@ -103,7 +103,9 @@ The preview images show actual corrected mask and silkscreen Gerbers, not the na
 
 Software verification covers source nets, all saved traces/segments/vias, physical connectivity, actual CAM shorts/opens and clearance, pad/mask/drill agreement, stencil geometry, assembly identities, exact outline and mounts, and nominal native STEP mechanical checks. **USB impedance/reference paths, switching loops, sense/ground return behavior, firmware and thermal performance still require engineering and hardware validation.** A working reference board does not prove this implementation works.
 
-Both USB mouths share the +Y edge, with defined 10 mm cable housings at 12.4 mm pitch, giving a 2.4 mm nominal gap. Use M3 DIN 920 screw heads no larger than Ø4 mm. Cable/screw screening is nominal CAD evidence. Verify real plug tolerances, JST mating cable, underside clearance and the mounting stack. Rear-motor compatibility has not been verified.
+Both USB mouths share the +Y edge, with defined 10 mm cable housings at 12.1 mm pitch, giving a 2.1 mm nominal gap. Use M3 DIN 920 screw heads no larger than Ø4 mm. Cable/screw screening is nominal CAD evidence. Verify real plug tolerances, JST mating cable, underside clearance and the mounting stack. Rear-motor compatibility has not been verified.
+
+Economic versus Standard PCBA service and panelization are unconfirmed. Require supplier acceptance of the eight short USB shell stakes and the three filled/capped exposed-pad vias before choosing the assembly service. If the accepted service requires a panel, obtain its approved rail, tooling-hole and fiducial requirements; no factory panel is released in this package. Panel/process acceptance is a supplier-review blocker. The functional PCB remains 35 × 35 mm.
 
 Supplier review still must confirm exact stock and quote, pickup orientation, via-in-pad and stencil/reflow process, specified stackup/copper, and assembly sides/THT plan. Do not authorize substitutes. Prototype bring-up must verify USB data, 15 V PD, regulator isolation, phase current/thermal behavior, motor, temperature sensor, LEDs and buzzer before production approval.
 
