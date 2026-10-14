@@ -1,4 +1,4 @@
-# NEMA14_CH32X035G8U6 1.10.0
+# NEMA14_CH32X035G8U6 1.10.1
 
 35 × 35 × 1.6 mm, four-layer NEMA14 controller. Four NPTH holes are exactly (±13, ±13), Ø3.2 mm. Both USB-C sockets face upward; defined 10 mm housings have 2.1 mm nominal separation. Maximum Ø4 mm DIN 920 screw heads are required. Minimum via drill/pad: Ø0.30/Ø0.45 mm.
 

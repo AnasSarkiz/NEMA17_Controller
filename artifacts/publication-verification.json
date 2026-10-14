@@ -12,20 +12,20 @@
   "every_trace_inventory_verified": true,
   "hardware_operation_verified": false,
   "passed": true,
-  "verified_at_utc": "2026-10-14T03:31:51.152556+00:00",
+  "verified_at_utc": "2026-10-14T04:47:32.590443+00:00",
   "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
-  "version": "1.10.0",
-  "package_release_id": "f24fa34f-f33f-45b3-b0fd-5c1dd076bdfc",
+  "version": "1.10.1",
+  "package_release_id": "f9bbc494-95d6-4fab-a098-022bff916049",
   "package_is_private": false,
   "ready_to_build": true,
   "public_page": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
   "page_http_status": 200,
-  "github_revision": "a5dabcbafd26b20044ad118d50b20b5c8dbbe718",
-  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/a5dabcbafd26b20044ad118d50b20b5c8dbbe718",
+  "github_revision": "3c781617c8d66e6f2481d6e481b08fe0b2b1f445",
+  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/3c781617c8d66e6f2481d6e481b08fe0b2b1f445",
   "public_file_count": 330,
   "review_board_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
-  "public_index_sha256": "0d0aa11dd375ed840d362b88a5e6882e9a233ba5511dd11b84c5c3b9e1f7d84f",
-  "public_dist_sha256": "427026c6afd3d418cfab80b09a939dfb9e3b59822622bd1a14ebbc714d1ec293",
+  "public_index_sha256": "ec6f6b3f2f7a2d2ea8572683a177ff267753b0adff2ce7c97f6afe74f64ae84a",
+  "public_dist_sha256": "e3adb347f2df5ad8710c093e4603c4286c028d86cc0fc998087d3f1dfcd61054",
   "geometry_and_functional_records_unchanged": true,
   "cad_urls_pinned_to_revision": true,
   "mount_coordinates_mm": [
@@ -113,7 +113,7 @@
     },
     {
       "path": "docs/engineering-fixes.md",
-      "sha256": "73df0fb7d28472373bda08d4ce99e5c0bad8246f246c7edb5c3331833bc2726d"
+      "sha256": "b41f7e8840c75bce879d7f1e699425080404a23149ff8e03fd5295e7ffa61eed"
     },
     {
       "path": "artifacts/edge-resistors/clearance-verification.json",
@@ -233,7 +233,7 @@
     },
     {
       "path": "docs/top-assembly.md",
-      "sha256": "bfb386d0395d4d028a6dc4a66c059878a0d2c9925c72909ca44e2fd64d2c66cb"
+      "sha256": "1c4da65c4d55eefc8697425a90333db63be7b7eeb21c7b5d4f5655efac85f992"
     },
     {
       "path": "artifacts/top-assembly/functional-preservation.json",
@@ -245,7 +245,7 @@
     },
     {
       "path": "artifacts/top-assembly/assembly-preview.circuit.json",
-      "sha256": "e6ddf9d1c230b381d14dd7bd94e72e8076d558cac1e41dbe9934a801d621dfd9"
+      "sha256": "e54ff1800b6849a300cc033d75d8371f11b1beaabebdfb641e268559ff48a473"
     },
     {
       "path": "assembly-preview.circuit.tsx",
@@ -256,32 +256,32 @@
     {
       "path": "artifacts/board.circuit.json",
       "sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a5dabcbafd26b20044ad118d50b20b5c8dbbe718/artifacts/board.circuit.json"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/3c781617c8d66e6f2481d6e481b08fe0b2b1f445/artifacts/board.circuit.json"
     },
     {
       "path": "index.circuit.json",
       "sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a5dabcbafd26b20044ad118d50b20b5c8dbbe718/index.circuit.json"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/3c781617c8d66e6f2481d6e481b08fe0b2b1f445/index.circuit.json"
     },
     {
       "path": "artifacts/nema14-gerbers.zip",
       "sha256": "06ecd199cec00d40a7e65dd3e4bc9bdabac13d591ab7ba5f16dc785bed23205b",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a5dabcbafd26b20044ad118d50b20b5c8dbbe718/artifacts/nema14-gerbers.zip"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/3c781617c8d66e6f2481d6e481b08fe0b2b1f445/artifacts/nema14-gerbers.zip"
     },
     {
       "path": "imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step",
       "sha256": "37a757d880a4d9fd7245a628c6d26d1d405e234fb7ea8a957dfd7486c6544327",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a5dabcbafd26b20044ad118d50b20b5c8dbbe718/imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/3c781617c8d66e6f2481d6e481b08fe0b2b1f445/imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step"
     },
     {
       "path": "imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.step",
       "sha256": "964a6ef3cf073fa6bd9a72a93f3994d14fdd4580a82e79db9f75d96016a47941",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a5dabcbafd26b20044ad118d50b20b5c8dbbe718/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.step"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/3c781617c8d66e6f2481d6e481b08fe0b2b1f445/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.step"
     },
     {
       "path": "imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.obj",
       "sha256": "82e116e1a05f42b854ef6ec9bb73f3204d230dc6102f8188bd1e84352918de8a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/a5dabcbafd26b20044ad118d50b20b5c8dbbe718/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.obj"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/3c781617c8d66e6f2481d6e481b08fe0b2b1f445/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.obj"
     }
   ],
   "full_manufacturing_audit_passed": true,
@@ -316,7 +316,7 @@
     },
     {
       "path": "artifacts/jlcpcb-review/JLCPCB-OrderReview.zip",
-      "sha256": "5afe7c78415c74660b491035d7215458e14027ccb1c2ccefa024405a74b93646"
+      "sha256": "c231de9023af66f8524ad718caf6b2db2e0221c4be182ded565fdf82e7224a05"
     },
     {
       "path": "artifacts/jlcpcb-review/Manual-THT-BOM.csv",
@@ -324,7 +324,7 @@
     },
     {
       "path": "artifacts/jlcpcb-review/REVIEW-INSTRUCTIONS.md",
-      "sha256": "80fd9a9ebdb1748cd06c8c58d825b685fb6bbdc1d5cc44141f8e93316872c77b"
+      "sha256": "5c649422f023c7ce7709cc4f5520da361c1dcadef8223347f16fa2e696f8ee75"
     },
     {
       "path": "artifacts/jlcpcb-review/Thermal-Via-Process.csv",
@@ -332,7 +332,7 @@
     },
     {
       "path": "artifacts/jlcpcb-review/Through-Hole-Joint-Plan.csv",
-      "sha256": "0cfe965862a38d1d5fda9156ba558c5a6ad17d4b00cdc7246ef8c3f29e691420"
+      "sha256": "6543a6b3f97eca1f1ea807f57349deab89c67372141c4d1ba7f34b67cb165c6c"
     },
     {
       "path": "artifacts/jlcpcb-review/bottom-assembly-map.svg",
