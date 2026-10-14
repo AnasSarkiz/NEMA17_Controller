@@ -9,3 +9,5 @@ All 61 fitted parts are TOP SMT. The bottom AS5600 and two capacitors are doNotP
 [Current review and checks](docs/opposite-edge-review.md) · [Qualification](artifacts/resume-validation.json) · [Connectivity](artifacts/physical-connectivity.json) · [JLCPCB review package](artifacts/jlcpcb-review/JLCPCB-OrderReview.zip) · [Six-sheet schematic PDF](artifacts/schematic-a4.pdf) · [Nominal mechanical screen](artifacts/mechanical/opposite-edge-fit.png).
 
 Supplier stock, CPL pickup/polarity confirmation, thermal-via filling/capping, USB shell secondary soldering, and real cable/fastener tolerances need confirmation. Firmware, electrical/thermal bench testing, rear motor fit, and encoder shaft/magnet/air gap remain unverified. No order or payment was submitted.
+
+Version 1.11.1 corrects generated order instructions and preview captions for the opposite-edge upright USB-C arrangement. CPL guidance now uses the native land-pattern datum and requires supplier pickup confirmation. The qualified copper, footprints, drill files and frozen board hash are unchanged.

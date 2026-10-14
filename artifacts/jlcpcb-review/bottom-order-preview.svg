@@ -8,5 +8,5 @@
 <circle cx="13" cy="13" r="1.6" fill="white" stroke="#777" stroke-width=".05"/>
 <circle cx="13" cy="-13" r="1.6" fill="white" stroke="#777" stroke-width=".05"/>
 <text x="0" y="-19.7" text-anchor="middle" font-family="sans-serif" font-size="1">NEMA14_CH32X035G8U6 — bottom</text>
-<text x="0" y="20" text-anchor="middle" font-family="sans-serif" font-size=".65">Unmirrored board XY; +Y USB edge at top; 35 × 35 mm</text>
+<text x="0" y="20" text-anchor="middle" font-family="sans-serif" font-size=".65">Unmirrored board XY; +Y at top; 35 × 35 mm</text>
 </svg>
