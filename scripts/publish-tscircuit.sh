@@ -15,6 +15,13 @@ for d in ['src','docs','scripts','references']:shutil.copytree(root/d,stage/d,ig
 for f in ['index.circuit.tsx','assembly-preview.circuit.tsx','README.md','package.json','package-lock.json','tsconfig.json','tscircuit.config.json']:shutil.copy2(root/f,stage/f)
 for f in (root/'imports/supplier').rglob('*.tsx'):
  target=stage/f.relative_to(root);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(f,target)
+# Preserve native model files imported by newly cloned supplier TSX modules.
+for f in (stage/'imports/supplier').rglob('*.tsx'):
+ for asset in re.findall(r'from\s+[\"\'](\./[^\"\']+\.(?:obj|step))[\"\']',f.read_text()):
+  relative=(f.parent/asset).relative_to(stage);source=root/relative
+  assert source.is_file(),relative
+  shutil.copy2(source,stage/relative)
+
 (stage/'artifacts').mkdir()
 for f in (root/'artifacts').glob('schematic-a4-page-*.svg'):shutil.copy2(f,stage/'artifacts'/f.name)
 for f in ['schematic-a4.pdf','bom.csv','source-bom.csv','pick_and_place.csv','drc-report.json','physical-connectivity.json','jlcpcb-import-report.json']:

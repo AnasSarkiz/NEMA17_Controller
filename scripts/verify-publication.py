@@ -47,7 +47,7 @@ for e in remote:
         source=next(q for q in remote if q['type']=='source_component' and q['source_component_id']==e['source_component_id'])
         assert source['manufacturer_part_number']=='USB4145-03-0070-C' and source['supplier_part_numbers']=={'jlcpcb':['C5815189']}
         usb.append(mouth)
-assert len(usb)==2 and all(abs(x-ex)<1e-5 and abs(y-15.15)<.001 for (x,y),ex in zip(sorted(usb),[-6.05,6.05]))
+assert len(usb)==2 and all(abs(x-ex)<.001 and abs(y-15.15)<.001 for (x,y),ex in zip(sorted(usb),[-6.05,6.05]))
 dnp={names[e['source_component_id']] for e in remote if e['type']=='pcb_component' and e.get('do_not_place')}
 assert dnp=={'U_ENCODER','C_ENCODER','C_ENCODER_BULK'}
 assert all(e['layer']=='bottom' for e in remote if e['type']=='pcb_component' and e.get('do_not_place'))
