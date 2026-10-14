@@ -84,11 +84,19 @@ assert built==saved,'Native CLI dist build differs from saved routing'
 (stage/'dist/index/circuit.json').write_text(json.dumps(built,separators=(',',':'))+'\n')
 print('Including verified compact native dist/index/circuit.json')
 PYDIST
-if ! XDG_CONFIG_HOME=/workspace/.config tsci push index.circuit.tsx --include-dist --compress; then
-  # Archive upload can complete after the CLI timeout. Verify exact public files.
-  python3 "$project_root/scripts/recover-publication.py" "$package_stage"
-  python3 "$project_root/scripts/verify-publication.py" "$project_root"
+# Verify uploads even when the CLI returns zero: it can report failed files
+# after a partial fallback upload. Native bounded archives repair missing rows.
+if [ "${1:-}" != "--recover-only" ]; then
+  upload_log=$(mktemp /tmp/nema14-registry-upload.XXXXXX)
+  XDG_CONFIG_HOME=/workspace/.config tsci push index.circuit.tsx --include-dist --compress > "$upload_log" 2>&1 || true
+  python3 - "$upload_log" <<'PYLOG'
+import pathlib,sys
+for line in pathlib.Path(sys.argv[1]).read_text().splitlines():
+ if len(line)<500 and any(word in line for word in ['Publish completed','failed upload','Error:','uploaded']):print(line)
+PYLOG
 fi
+python3 "$project_root/scripts/recover-publication.py" "$package_stage"
+python3 "$project_root/scripts/verify-publication.py" "$project_root"
 python3 - "$package_stage" <<'PYVERSION'
 import json,pathlib,sys
 p=pathlib.Path(sys.argv[1]);print('Published registry version:',json.loads((p/'package.json').read_text())['version'])
