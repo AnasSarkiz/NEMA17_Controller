@@ -434,5 +434,277 @@
   {
     "unanchored_copper_removed": "same_side_repair_11_PD_VDD_0_via_3",
     "net": "PD_VDD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_18_V3V3_2_via_64",
+    "net": "V3V3"
+  },
+  {
+    "unanchored_copper_removed": "review_baseline_review_baseline_same_side_repair_14_PD_CC2_0_run_0_run_2",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "review_baseline_review_baseline_freerouted_trace_51_run_0_run_0",
+    "net": "DATA_CC1"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_2_STEP_0_via_18",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_2_STEP_0_via_36",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_2_STEP_0_via_90",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_DIR_0_via_42",
+    "net": "DIR"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_DIR_0_via_72",
+    "net": "DIR"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_14_DIR_1",
+    "net": "DIR"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_B_PLUS_1_via_84",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_5_B_PLUS_0_via_51",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_B_PLUS_0_via_54",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_5_B_PLUS_0_layer_section_0",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_5_B_PLUS_0_layer_section_1",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_52",
+    "net": "LED_G"
+  },
+  {
+    "unanchored_copper_removed": "review_baseline_review_baseline_freerouted_trace_205_run_0_run_0",
+    "net": "LED_G"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_8",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_PD_VBUS_0_via_116",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "feedback_fanout_pcb_port_226_via",
+    "net": "V3V3"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_31",
+    "net": "PD_VDD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_36_ENABLE_N_1_layer_section_0",
+    "net": "ENABLE_N"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_29",
+    "net": "PD_GOOD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_PD_GOOD_1_via_27",
+    "net": "PD_GOOD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_SENSE2_0_via_40",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "review_escape_D_PWR_anode_via",
+    "net": "PWR_LED_A"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_20",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "reviewed_local_U_MCU_PA5_via",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_16_STATUS_B_C_0_via_89",
+    "net": "STATUS_B_C"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_35",
+    "net": "V3V3"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_3",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_PD_GOOD_1_via_7",
+    "net": "PD_GOOD"
+  },
+  {
+    "unanchored_copper_removed": "feedback_fanout_pcb_port_149_via",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_B_PLUS_1_via_124",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_11_STATUS_G_C_0_via_18",
+    "net": "STATUS_G_C"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_PD_GOOD_1_via_3",
+    "net": "PD_GOOD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_B_PLUS_1_via_173",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_7_STATUS_G_C_0_via_71",
+    "net": "STATUS_G_C"
+  },
+  {
+    "unanchored_copper_removed": "feedback_ground_stitch_0",
+    "net": "GND"
+  },
+  {
+    "unanchored_copper_removed": "feedback_ground_stitch_0_next",
+    "net": "GND"
+  },
+  {
+    "unanchored_copper_removed": "feedback_ground_stitch_1",
+    "net": "GND"
+  },
+  {
+    "unanchored_copper_removed": "feedback_ground_stitch_0_next_next",
+    "net": "GND"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_6_PD_VBUS_0_via_6",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_10_PD_VBUS_3_via_33",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_PD_VBUS_0_via_62",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "review_baseline_review_baseline_same_side_repair_12_PD_VBUS_0_layer_section_0_run_0_run_0",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "review_baseline_review_baseline_same_side_repair_6_PD_VBUS_0_layer_section_1_run_0_run_0",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_24_DATA_VBUS_2_via_2",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_24_DATA_VBUS_2_via_62",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_3_DATA_VBUS_0_via_14",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_24_DATA_VBUS_2_layer_section_0",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_SLEEP_0_via_20",
+    "net": "SLEEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_3_VM_SENSE_0_via_13",
+    "net": "VM_SENSE"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_TEMP_SDA_0_via_12",
+    "net": "TEMP_SDA"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_TEMP_SDA_0_via_38",
+    "net": "TEMP_SDA"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_TEMP_SDA_0_via_42",
+    "net": "TEMP_SDA"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_LED_B_0_via_18",
+    "net": "LED_B"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STATUS_R_K_0_via_12",
+    "net": "STATUS_R_K"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_21_V3V3_5_via_2",
+    "net": "V3V3"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_ENABLE_N_0_via_68",
+    "net": "ENABLE_N"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_39_DATA_PRESENT_0_via_21",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_48",
+    "net": "VM_SENSE"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_LED_B_0_via_23",
+    "net": "LED_B"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_ENABLE_N_0_via_96",
+    "net": "ENABLE_N"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_7_DATA_PRESENT_0_via_39",
+    "net": "DATA_PRESENT"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_VM_SENSE_1_via_63",
+    "net": "VM_SENSE"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_ENABLE_N_0_via_123",
+    "net": "ENABLE_N"
+  },
+  {
+    "unanchored_copper_removed": "review_escape_U_PD_PG_via",
+    "net": "PD_GOOD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_27_STEP_0_via_17",
+    "net": "STEP"
   }
 ]

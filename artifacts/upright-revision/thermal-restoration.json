@@ -1,0 +1,45 @@
+{
+  "sites": [
+    {
+      "reference": "U_MCU",
+      "centre_mm": [
+        3.619812,
+        2.199746
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "displaced_copper": [
+        {
+          "id": "same_side_repair_1_STEP_0",
+          "net": "STEP"
+        },
+        {
+          "id": "same_side_repair_10_ENABLE_N_0",
+          "net": "ENABLE_N"
+        }
+      ]
+    },
+    {
+      "reference": "U_DRV",
+      "centre_mm": [
+        -2.6999999999999965e-05,
+        -7.999973
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "displaced_copper": []
+    },
+    {
+      "reference": "U_PD",
+      "centre_mm": [
+        -4.479754,
+        -2.090068
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "displaced_copper": []
+    }
+  ],
+  "requires_full_requalification": true,
+  "board_sha256": "63e58754174c68d8be732f648b1fb541dedc10c188e632081aa61cc1993af71d"
+}

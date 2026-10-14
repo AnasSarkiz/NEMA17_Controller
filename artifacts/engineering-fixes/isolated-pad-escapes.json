@@ -1,13 +1,1 @@
-[
-  {
-    "net": "GND",
-    "port": "C_VREG:pin2",
-    "via_mm": [
-      -3.79,
-      -10.79
-    ],
-    "removed_foreign_trace_ids": [
-      "review_baseline_same_side_repair_0_VREG_0_run_0"
-    ]
-  }
-]
+[]

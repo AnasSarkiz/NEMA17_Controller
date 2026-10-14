@@ -25,6 +25,10 @@ for name in ['mounting-change-proof.json','mount-drill-verification.json','check
 for relative in ['mechanical/mount-usb-screen.json','manufacturing/audit.json','mechanical/same-edge-fit.svg','mechanical/same-edge-fit.png']:
  source=root/'artifacts'/relative;target=stage/'artifacts'/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(source,target)
 
+upright=stage/'artifacts/upright-revision';upright.mkdir()
+for name in ['via-fabrication-verification.json','oscillator-verification.json','native-circle-checker.json','circle-checker-regression.json','thermal-restoration.json']:
+ shutil.copy2(root/'artifacts/upright-revision'/name,upright/name)
+
 engineering=stage/'artifacts/engineering-fixes';engineering.mkdir()
 for name in ['usb-verification.json','schema-verification.json','export-policy.json','usb-routing-plan.json','native-json-compatibility.json','final-engineering-verification.json']:
  source=root/'artifacts/engineering-fixes'/name
@@ -44,6 +48,9 @@ j=json.loads(board_path.read_text())
 pattern=re.compile(r'(https://raw\.githubusercontent\.com/AnasSarkiz/(?:NEMA17_Controller|NEMA14_CH32X035G8U6|NEMA14_RP2040)/)main(/imports/supplier/)')
 pin=lambda s:pattern.sub(lambda m:'https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/'+revision+m[2],s)
 for f in (stage/'imports/supplier').rglob('*.tsx'):f.write_text(pin(f.read_text()))
+preview_path=stage/'artifacts/top-assembly/assembly-preview.circuit.json'
+preview_path.write_text(pin(preview_path.read_text()))
+
 for e in j:
  if e['type']=='cad_component':
   for field in ['model_obj_url','model_step_url']:

@@ -7,7 +7,7 @@ import json,copy,math,pathlib,hashlib
 from shapely.geometry import Point,LineString
 from shapely.strtree import STRtree
 import verify_supplier_connectivity as g
-j=g.j;ROOT=g.ROOT;old=json.loads((ROOT/'artifacts/engineering-fixes/baseline.circuit.json').read_text());fresh=json.loads((ROOT/'artifacts/final-source.circuit.json').read_text())
+j=g.j;ROOT=g.ROOT;old=json.loads((ROOT/'artifacts/upright-revision/baseline-board.circuit.json').read_text());fresh=json.loads((ROOT/'artifacts/final-source.circuit.json').read_text())
 def idx(a,t):return {e[t+'_id']:e for e in a if e['type']==t}
 os,ns=idx(old,'source_component'),idx(fresh,'source_component');op,np=idx(old,'source_port'),idx(fresh,'source_port');opp,npp=idx(old,'pcb_port'),idx(fresh,'pcb_port');oldpc,newpc=idx(old,'pcb_component'),idx(fresh,'pcb_component')
 def semantic(p,s):return s[p['source_component_id']]['name'],p['name']
@@ -34,8 +34,8 @@ for p in old:
  if p['type'] not in ['pcb_smtpad','pcb_plated_hole']:continue
  q=newpadbyport[remap[p['pcb_port_id']]]
  if g.geometry(p).symmetric_difference(g.geometry(q)).area>1e-7:changed.append(p)
-usb_names={'USB_DP','USB_DM','MCU_DP','MCU_DM'};netnames={k:v['name'] for k,v in nets.items()};ground=next(k for k,v in nets.items() if v['name']=='GND')
-fixed=[e for e in j if e['type'] in ['pcb_trace','pcb_via'] and e.get(e['type']+'_id','').startswith(('usb_coupled_','usb_fan_','usb_escape_'))]
+usb_names={'USB_DP','USB_DM','MCU_DP','MCU_DM','XIN','XOUT','XTAL_OUT'};netnames={k:v['name'] for k,v in nets.items()};ground=next(k for k,v in nets.items() if v['name']=='GND')
+fixed=[e for e in j if e['type'] in ['pcb_trace','pcb_via'] and e.get(e['type']+'_id','').startswith(('usb_coupled_','usb_fan_','usb_escape_','oscillator_'))]
 fx=[]
 for e in fixed:
  if e['type']=='pcb_via':
@@ -56,6 +56,8 @@ def legal(key,layer,geometry):
 for original in old:
  if original['type'] not in ['pcb_trace','pcb_via']:continue
  e=reid(copy.deepcopy(original));key=e['subcircuit_connectivity_map_key'];name=netnames[key]
+ if e['type']=='pcb_via':
+  e['outer_diameter']=max(.45,e['outer_diameter']);e['hole_diameter']=max(.3,e['hole_diameter'])
  if name in usb_names or name in ['DIO','DCK'] and any(f.get('pcb_via_id','').startswith('usb_escape_') and f.get('subcircuit_connectivity_map_key')==key for f in fixed):continue
  if e['type']=='pcb_via':
   geom=Point(e['x'],e['y']).buffer(e['outer_diameter']/2)
@@ -72,4 +74,4 @@ for original in old:
     if tag in p and (p[tag] not in newpadbyport or not g.geometry(newpadbyport[p[tag]]).buffer(.00001).covers(Point(p['x'],p['y']))):del p[tag]
   out={**e,'pcb_trace_id':'legal_baseline_'+e['pcb_trace_id']+'_segment_'+str(i),'route':[aa,bb],'pcb_port_ids':list({p[tag] for p in [aa,bb] for tag in ['start_pcb_port_id','end_pcb_port_id'] if tag in p})};kept.append(out)
 base=[{**e,'is_via_in_pad_allowed':True} if e['type']=='pcb_board' else e for e in fresh if e['type'] not in ['pcb_trace','pcb_via','pcb_copper_pour'] and not e['type'].endswith(('_error','_warning'))]
-g.path.write_text(json.dumps(base+kept+fixed,indent=2)+'\n');(ROOT/'artifacts/engineering-fixes/legal-baseline-copper.json').write_text(json.dumps({'baseline_sha256':hashlib.sha256((ROOT/'artifacts/engineering-fixes/baseline.circuit.json').read_bytes()).hexdigest(),'retained_conductor_records':len(kept),'retained_fixed_USB_records':len(fixed),'removed_segments_and_vias':removed,'requires_routing_ground_fill_and_full_validation':True},indent=2)+'\n');print('Preserved',len(kept),'baseline conductors and',len(fixed),'USB constructions; removed',len(removed),'conflicting segments/vias')
+g.path.write_text(json.dumps(base+kept+fixed,indent=2)+'\n');(ROOT/'artifacts/engineering-fixes/legal-baseline-copper.json').write_text(json.dumps({'baseline_sha256':hashlib.sha256((ROOT/'artifacts/upright-revision/baseline-board.circuit.json').read_bytes()).hexdigest(),'retained_conductor_records':len(kept),'retained_fixed_USB_records':len(fixed),'removed_segments_and_vias':removed,'requires_routing_ground_fill_and_full_validation':True},indent=2)+'\n');print('Preserved',len(kept),'baseline conductors and',len(fixed),'USB constructions; removed',len(removed),'conflicting segments/vias')

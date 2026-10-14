@@ -2,52 +2,24 @@
   "baseline_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
   "changed_physical_terminals": [
     [
-      "Q_STATUS_G",
+      "R_USB_SENSE_H",
       "pin1"
     ],
     [
-      "Q_STATUS_G",
+      "R_USB_SENSE_H",
       "pin2"
-    ],
-    [
-      "Q_STATUS_G",
-      "pin3"
-    ],
-    [
-      "U_ESD",
-      "DM1"
-    ],
-    [
-      "U_ESD",
-      "DM2"
-    ],
-    [
-      "U_ESD",
-      "DP1"
-    ],
-    [
-      "U_ESD",
-      "DP2"
-    ],
-    [
-      "U_ESD",
-      "GND"
-    ],
-    [
-      "U_ESD",
-      "VBUS"
     ]
   ],
   "old_net_to_new_net": {
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net2",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3",
-    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
+    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8",
-    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6",
-    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net9": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net9",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11",
@@ -90,24 +62,9 @@
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net48": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net48",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net49": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net49"
   },
-  "unaffected_copper_records_retained": 550,
+  "unaffected_copper_records_retained": 752,
   "affected_copper_records_removed": [
-    "freerouted_trace_51",
-    "freerouted_via_13",
-    "freerouted_trace_205",
-    "freerouted_trace_207",
-    "same_side_repair_0_LED_R_0_via_38",
-    "feedback_fanout_pcb_port_222_via",
-    "same_side_repair_11_STATUS_G_C_0_layer_section_3",
-    "feedback_fanout_pcb_port_219",
-    "feedback_fanout_pcb_port_219_via",
-    "same_side_repair_9_DATA_VBUS_0_rerouted",
-    "usb_fan_ESD_USB_DP",
-    "usb_fan_ESD_USB_DP_via",
-    "usb_fan_ESD_USB_DM",
-    "usb_fan_ESD_USB_DM_via",
-    "usb_fan_ESD_IO_link_USB_DP",
-    "usb_fan_ESD_IO_link_USB_DM"
+    "same_side_repair_21_V3V3_5_via_16"
   ],
   "requires_routing_and_independent_checks": true
 }

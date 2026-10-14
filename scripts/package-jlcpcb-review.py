@@ -32,15 +32,15 @@ def main():
     parts=sorted([e for e in j if e['type']=='pcb_component'],key=lambda c:sources[c['source_component_id']]['name'])
     thermal=[]
     components={e['pcb_component_id']:e for e in parts}
-    for pad in [e for e in j if e['type']=='pcb_smtpad' and e.get('width',0)>2 and e.get('height',0)>2]:
+    for pad in [e for e in j if e['type']=='pcb_smtpad' and e.get('width',0)>1 and e.get('height',0)>1]:
         ref=sources[components[pad['pcb_component_id']]['source_component_id']]['name']
         if ref not in {'U_MCU','U_DRV','U_PD'}:continue
         for via in [e for e in j if e['type']=='pcb_via']:
-            if audit.shape(pad).intersects(audit.shape(via)):
+            if via['pcb_via_id']=='thermal_via_'+ref and audit.shape(pad).covers(audit.shape(via)):
                 thermal.append({'Reference':ref,'Via':via['pcb_via_id'],'X mm':via['x'],'Y mm':via['y'],
                                 'Drill mm':via['hole_diameter'],'Copper pad mm':via['outer_diameter'],
                                 'Process request':'fill, copper cap and planarize; supplier quote and process approval pending'})
-    assert {e['Reference'] for e in thermal}=={'U_MCU','U_DRV','U_PD'}
+    assert len(thermal)==3 and {e['Reference'] for e in thermal}=={'U_MCU','U_DRV','U_PD'}
     with (OUT/'Thermal-Via-Process.csv').open('w',newline='') as f:
         writer=csv.DictWriter(f,fieldnames=list(thermal[0]));writer.writeheader();writer.writerows(thermal)
     joints=[]

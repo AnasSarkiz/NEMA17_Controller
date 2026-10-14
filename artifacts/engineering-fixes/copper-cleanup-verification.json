@@ -14,5 +14,5 @@
       "log": "artifacts/engineering-fixes/copper-DRC-pass-1.txt"
     }
   ],
-  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc"
+  "board_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb"
 }

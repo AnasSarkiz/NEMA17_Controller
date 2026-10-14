@@ -1,7 +1,9 @@
-# NEMA14 CH32X035 motor controller
+# NEMA14_CH32X035G8U6 1.10.0
 
-35 × 35 mm, four-layer, 15 V USB-PD stepper-controller prototype. Fitted parts populate the top face; LEDs, TMP102 and buzzer remain present. USB-C mouths share the +Y edge. Use two 10 mm cable housings at 12.4 mm pitch and M3 DIN 920 heads ≤Ø4 mm. Mount holes are exactly (±13, ±13), Ø3.2 mm.
+35 × 35 × 1.6 mm, four-layer NEMA14 controller. Four NPTH holes are exactly (±13, ±13), Ø3.2 mm. Both USB-C sockets face upward; defined 10 mm housings have 2.1 mm nominal separation. Maximum Ø4 mm DIN 920 screw heads are required. Minimum via drill/pad: Ø0.30/Ø0.45 mm.
 
-The regenerated [JLCPCB order-review package](artifacts/jlcpcb-review/JLCPCB-OrderReview.zip) passes the independent CAM audit. It includes a top-side SMT JST-SH, native supplier BOM/CPL, stencil and assembly maps, plus the eight USB shell joints requiring secondary soldering. Supplier approval of pickup orientation, availability, stencil and thermal-via processing remains required.
+Factory component assembly is TOP only, with separate bare TOP test pads. AS5600 C79815 and its 100 nF/1 µF capacitors are BOTTOM **doNotPlace**, omitted from factory BOM/CPL and paste. TMP102, LEDs, buzzer, USB/PD and JST-SH motor interfaces are retained.
 
-See [assembly and harness constraints](docs/top-assembly.md), [functional five-sheet schematic](artifacts/schematic-a4.pdf), [order-review receipt](artifacts/jlcpcb-review/order-review-verification.json) and [current validation](artifacts/resume-validation.json). `assembly-preview.circuit.tsx` is a separate unrouted visual concept. Rear-motor attachment, firmware and bench behavior are unverified.
+See [engineering fixes](docs/engineering-fixes.md), [six-sheet schematic](artifacts/schematic-a4.pdf), [current checks](artifacts/resume-validation.json), [JLCPCB order review](docs/jlcpcb-order-review.md) and [assembly/harness constraints](docs/top-assembly.md). The current Circuit JSON is `index.circuit.json` and the default fabrication archive is `artifacts/nema14-gerbers.zip`.
+
+Supplier process/pickup approval and prototype bench tests remain outstanding. Rear mounting and encoder shaft/magnet fit are unverified. `assembly-preview.circuit.tsx` is an unrouted visual concept. No manufacturing order or production approval is implied.

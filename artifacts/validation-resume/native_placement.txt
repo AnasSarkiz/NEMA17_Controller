@@ -1,4 +1,4 @@
-placement summary: 10 suboptimal orientations
+placement summary: 11 suboptimal orientations
 
 worst issues:
 1. C_PD connections cross the routing path between its pads. Suggested move: rotate C_PD 180 degrees.
@@ -8,12 +8,12 @@ worst issues:
 5. C_VREG connections cross the routing path between its pads. Suggested move: rotate C_VREG 180 degrees.
 
 board top-layer utilization:
-- occupied: 64.235% (786.875mm^2 of 1225mm^2)
+- occupied: 57.601% (705.61mm^2 of 1225mm^2)
 - empty spaces over 5% of board area: none
 
 board-edge status:
-- J_PD: 1.676mm inside bottom edge
-- J_DATA: 1.676mm inside bottom edge
+- J_PD: 0.295mm inside bottom edge
+- J_DATA: 0.295mm inside bottom edge
 - U_PD: 9.27mm inside left edge
 - R_PD: 1.126mm inside bottom edge
 - C_PD: 7.02mm inside right edge
@@ -23,9 +23,9 @@ board-edge status:
 - C_LOGIC: 13.2mm inside bottom edge
 - R_CC1: 0.754mm inside left edge
 - R_CC2: 0.754mm inside right edge
-- R_USB_SENSE_H: 0.753mm inside bottom edge
+- R_USB_SENSE_H: 11.843mm inside left edge
 - R_USB_SENSE_L: 5.228mm inside top edge
-- R_VM_H: 0.753mm inside bottom edge
+- R_VM_H: 15.093mm inside top edge
 - R_VM_L: 0.753mm inside top edge
 - C_VM_SENSE: 0.38mm inside top edge
 - U_BUCK: 6.065mm inside left edge
@@ -79,6 +79,9 @@ board-edge status:
 - TP_DIO: 1.45mm inside top edge
 - TP_BOOT: 11.45mm inside bottom edge
 - TP_BOOT_USB_DP: 11.45mm inside bottom edge
+- U_ENCODER: 13.82mm inside top edge
+- C_ENCODER: 11.83mm inside left edge
+- C_ENCODER_BULK: 11.83mm inside left edge
 
 flagged components:
 - C_PD
@@ -123,6 +126,12 @@ flagged components:
   board edge status: 10.95mm inside right edge
   issues:
   - C_REF connections cross the routing path between its pads. Suggested move: rotate C_REF 180 degrees.
+- D_TVS
+  source placement: placement_mode=none
+  resolved placement: center=(-4.1mm, 7.35mm) on top; bounds=(minX=-6.4mm, maxX=-1.8mm, minY=6.75mm, maxY=7.95mm); size=(width=4.6mm, height=1.2mm); anchor_alignment="center"
+  board edge status: 9.55mm inside bottom edge
+  issues:
+  - D_TVS connections cross the routing path between its pads. Suggested move: rotate D_TVS 180 degrees.
 - R_PWR_LED
   source placement: placement_mode=none
   resolved placement: center=(16.025mm, 8.51mm) on top; bounds=(minX=15.755mm, maxX=16.295mm, minY=7.794mm, maxY=9.226mm); size=(width=0.54mm, height=1.431mm); anchor_alignment="center"

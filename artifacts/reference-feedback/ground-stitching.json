@@ -1,22 +1,7 @@
 {
-  "stitches": [
-    {
-      "via": "feedback_ground_stitch_0",
-      "xy_mm": [
-        4.225,
-        7.79531
-      ],
-      "isolated_ports": [
-        "pcb_port_215"
-      ],
-      "joins_layers": [
-        "top",
-        "bottom"
-      ]
-    }
-  ],
-  "remaining_ground_roots": 2,
+  "stitches": [],
+  "remaining_ground_roots": 1,
   "strict_no_additional_via_in_pad": true,
   "all_layer_clearance_mm": 0.15,
-  "board_sha256": "36db35567c22e94afe8eeac9e8622436fc985e4fe7562519cc214790cbedaa83"
+  "board_sha256": "d585f918d696ec29284785894837e2801d4c0a31e29c683dbd6dcaeb69b5ab06"
 }

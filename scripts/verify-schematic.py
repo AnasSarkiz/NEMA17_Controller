@@ -26,12 +26,15 @@ source={e['source_component_id']:e for e in j if e['type']=='source_component'}
 sp={e['source_port_id']:e for e in j if e['type']=='source_port'}
 ports={e['source_port_id']:e for e in j if e['type']=='schematic_port'}
 components=[e for e in j if e['type']=='schematic_component'];sheets=[e for e in j if e['type']=='schematic_sheet']
-if len(sheets)!=5 or any(e.get('sheet_width')!=297 or e.get('sheet_height')!=210 for e in sheets):errors.append('Expected five A4 sheets')
+if len(sheets)!=6 or any(e.get('sheet_width')!=297 or e.get('sheet_height')!=210 for e in sheets):errors.append('Expected six functional A4 sheets including DNP encoder')
 if collections.Counter(e['source_component_id'] for e in components)!=collections.Counter(source.keys()):errors.append('Component symbol coverage mismatch')
 omitted=set(sp)-set(ports)
 for sid in omitted:
  p=sp[sid];c=source[p['source_component_id']]
  if c['name']=='J_MOTOR' and p['name'] in ['MOUNT1','MOUNT2'] and not p.get('subcircuit_connectivity_map_key'):continue
+ if c.get('standard')=='usb_c' and p['name'] in ['GND3','GND4','VBUS3','VBUS4']:
+  canonical={'GND3':'GND1','GND4':'GND2','VBUS3':'VBUS1','VBUS4':'VBUS2'}[p['name']];q=next(q for q in sp.values() if q['source_component_id']==p['source_component_id'] and q['name']==canonical)
+  if q['source_port_id'] in ports and q.get('subcircuit_connectivity_map_key')==p.get('subcircuit_connectivity_map_key'):continue
  errors.append('Unrepresented physical pin '+c['name']+'.'+p['name'])
 if set(ports)-set(sp):errors.append('Invented schematic source pin')
 for sid,p in ports.items():

@@ -178,5 +178,265 @@
       9.57803300858899
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_7_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.28374909696032363,
+    "new_endpoint_mm": [
+      -5.150740910616204,
+      11.058240910616204
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_34_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.4711170433812824,
+    "new_endpoint_mm": [
+      -7.8186829566187175,
+      8.8992
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_95_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.8456376074354669,
+    "new_endpoint_mm": [
+      9.129856086643986,
+      -3.2688560866439866
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_14_PD_GOOD_0_layer_section_0_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 2.4308941848935826,
+    "new_endpoint_mm": [
+      -0.719447775379801,
+      -0.05000000000000071
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_16_STATUS_B_C_2_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.0914141930149486,
+    "new_endpoint_mm": [
+      13.869449299663197,
+      3.1944492996631957
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_22_PD_CC1_1_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 5.382626297059874,
+    "new_endpoint_mm": [
+      -2.7540111756081727,
+      -2.420988824391826
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_1_PD_VBUS_1_layer_section_0_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 2.8934957210320804,
+    "new_endpoint_mm": [
+      -7.4767716301335305,
+      9.94822836986647
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_9_LED_B_2_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.6960083476167862,
+    "new_endpoint_mm": [
+      8.51212696919286,
+      -1.8878730308071425
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_0_LED_R_0_layer_section_3_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.9931978344844257,
+    "new_endpoint_mm": [
+      -0.8681978344844258,
+      4.550000000000001
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_14_PD_CC2_0_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 1.6907763225953765,
+    "new_endpoint_mm": [
+      -3.375,
+      5.230420983536051
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_10_STATUS_B_K_0_layer_section_1_run_0_run_1",
+    "endpoint": "start",
+    "removed_length_mm": 0.9157035148962983,
+    "new_endpoint_mm": [
+      -0.6603425475350938,
+      13.360342547535094
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_same_side_repair_2_DATA_CC1_0_layer_section_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.8490936186647648,
+    "new_endpoint_mm": [
+      5.937873030807142,
+      10.062873030807141
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_32_PD_CC2_2_layer_section_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.39472905465992447,
+    "new_endpoint_mm": [
+      -5.75,
+      -0.2490183765412694
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "reviewed_local_U_MCU_PA5",
+    "endpoint": "end",
+    "removed_length_mm": 1.9554209835360477,
+    "new_endpoint_mm": [
+      3.15,
+      -1.0945790164639522
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_same_side_repair_4_LED_R_0_layer_section_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 2.4871501243030205,
+    "new_endpoint_mm": [
+      7.549981910052944,
+      4.100000000000001
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_11_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.5295052419010388,
+    "new_endpoint_mm": [
+      -6.943283252777952,
+      10.750683252777952
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_98_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.5254735495658562,
+    "new_endpoint_mm": [
+      -2.6448,
+      -0.7447264504341438
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_7_STATUS_G_C_1",
+    "endpoint": "end",
+    "removed_length_mm": 3.2872896808188443,
+    "new_endpoint_mm": [
+      5.179393398282203,
+      12.8206066017178
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_95_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 11.112428298895617,
+    "new_endpoint_mm": [
+      9.45040760089684,
+      -14.24850760089684
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_28_ENABLE_N_0_layer_section_1_run_1_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.7284356052152653,
+    "new_endpoint_mm": [
+      1.3319197338440647,
+      5.025000000000002
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_1_B_PLUS_0_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 5.7207667028668325,
+    "new_endpoint_mm": [
+      -1.139700685688851,
+      -14.35
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_222_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 2.477199155838346,
+    "new_endpoint_mm": [
+      8.994299155838346,
+      -1.1214
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_0_DATA_CC1_0_layer_section_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.8730438578798351,
+    "new_endpoint_mm": [
+      5.449951969989664,
+      16.006856143666983
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_15_ENABLE_N_0",
+    "endpoint": "end",
+    "removed_length_mm": 1.2541366814959198,
+    "new_endpoint_mm": [
+      -4.8063894995133865,
+      2.618610500486614
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_1_VM_SENSE_0_layer_section_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.5735462273709138,
+    "new_endpoint_mm": [
+      1.925018089947057,
+      -1.0999999999999979
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_4_LED_B_0_layer_section_0",
+    "endpoint": "end",
+    "removed_length_mm": 2.383667927199396,
+    "new_endpoint_mm": [
+      6.72196699141101,
+      -0.6499999999999986
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

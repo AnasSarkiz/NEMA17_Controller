@@ -3,8 +3,8 @@
   "issues": [],
   "connectivity": {
     "named_nets_checked": 50,
-    "actual_copper_islands": 640,
-    "unassigned_islands": 28
+    "actual_copper_islands": 726,
+    "unassigned_islands": 30
   },
   "report": "/workspace/nema14-ch32-board/artifacts/manufacturing/audit.json"
 }

@@ -1,7 +1,7 @@
 {
   "passed": true,
-  "source_sha256": "9cdba3ea54059749ab1c4b97bd03690b285adf8b6d415dbca73a00668d87db28",
+  "source_sha256": "4a1234e999815f04bef0852ff680ee2efd5a95bd1a4bcdc7149f7dc548bb4718",
   "native_Circuit_JSON_solder_paste_schema_checked": true,
-  "apertures_checked": 238,
+  "apertures_checked": 246,
   "errors": []
 }

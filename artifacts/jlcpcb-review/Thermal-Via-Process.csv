@@ -1,4 +1,4 @@
 Reference,Via,X mm,Y mm,Drill mm,Copper pad mm,Process request
-U_PD,freerouted_via_106,-4.479754,-2.090068,0.25,0.5,"fill, copper cap and planarize; supplier quote and process approval pending"
-U_MCU,freerouted_via_107,3.619812,2.199746,0.25,0.5,"fill, copper cap and planarize; supplier quote and process approval pending"
-U_DRV,freerouted_via_108,-2.6999999999999965e-05,-7.999973,0.25,0.5,"fill, copper cap and planarize; supplier quote and process approval pending"
+U_PD,thermal_via_U_PD,-4.479754,-2.090068,0.3,0.5,"fill, copper cap and planarize; supplier quote and process approval pending"
+U_MCU,thermal_via_U_MCU,3.619812,2.199746,0.3,0.5,"fill, copper cap and planarize; supplier quote and process approval pending"
+U_DRV,thermal_via_U_DRV,-2.6999999999999965e-05,-7.999973,0.3,0.5,"fill, copper cap and planarize; supplier quote and process approval pending"

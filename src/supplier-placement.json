@@ -45,8 +45,8 @@
     "pcbRotation": 0
   },
   "R_USB_SENSE_H": {
-    "pcbX": -12.805,
-    "pcbY": 16.315,
+    "pcbX": -4.5,
+    "pcbY": 1.5,
     "pcbRotation": 0
   },
   "R_USB_SENSE_L": {
@@ -55,8 +55,8 @@
     "pcbRotation": 0
   },
   "R_VM_H": {
-    "pcbX": -15.975,
-    "pcbY": 15.59,
+    "pcbX": 0.25,
+    "pcbY": -1.25,
     "pcbRotation": 90
   },
   "R_VM_L": {
@@ -150,14 +150,14 @@
     "pcbRotation": 90
   },
   "J_PD": {
-    "pcbX": -6.2,
-    "pcbY": 12.1499711,
-    "pcbRotation": 180
+    "pcbX": -6.2024952,
+    "pcbY": 15.15,
+    "pcbRotation": 0
   },
   "J_DATA": {
-    "pcbX": 6.2,
-    "pcbY": 12.1499711,
-    "pcbRotation": 180
+    "pcbX": 5.8975048,
+    "pcbY": 15.15,
+    "pcbRotation": 0
   },
   "C_BULK": {
     "pcbX": -12.05,
@@ -332,6 +332,21 @@
   "TP_BOOT_USB_DP": {
     "pcbX": 1.5,
     "pcbY": 5.5,
+    "pcbRotation": 0
+  },
+  "U_ENCODER": {
+    "pcbX": 0,
+    "pcbY": 0,
+    "pcbRotation": 0
+  },
+  "C_ENCODER": {
+    "pcbX": -5,
+    "pcbY": 1.8,
+    "pcbRotation": 0
+  },
+  "C_ENCODER_BULK": {
+    "pcbX": -5,
+    "pcbY": 0.2,
     "pcbRotation": 0
   }
 }

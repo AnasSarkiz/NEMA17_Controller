@@ -3,7 +3,7 @@
   "source_and_saved_json": [
     {
       "path": "artifacts/final-source.circuit.json",
-      "sha256": "7ba1ac76e5428bfbb84a3c3fb5dab7cbb1917f47818bb29188380f3fa1bd667b",
+      "sha256": "7b9fe09b833bfde0d1eb1efd284ee80796964ec587b1521910932e1934a499eb",
       "mounts_mm": [
         [
           -13,
@@ -26,7 +26,7 @@
     },
     {
       "path": "artifacts/board.circuit.json",
-      "sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+      "sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
       "mounts_mm": [
         [
           -13,
@@ -49,7 +49,7 @@
     },
     {
       "path": "index.circuit.json",
-      "sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+      "sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
       "mounts_mm": [
         [
           -13,
@@ -72,8 +72,8 @@
     }
   ],
   "actual_drill_file": "drill_npth.drl",
-  "actual_drill_sha256": "9fda5a4b58110165c7266dc06cd4d83675a4082c8c14ff4cbe4cc359d4e3de8a",
-  "gerber_archive_sha256": "782478b3bfb28fb162a798c2ab369e7c04c38f9f51ebbd516c7caffbdfcc3c8e",
+  "actual_drill_sha256": "0dbbc0ba73cdf7666b7fbc8b500a2da113c676bb47679d49947776729811dc3b",
+  "gerber_archive_sha256": "06ecd199cec00d40a7e65dd3e4bc9bdabac13d591ab7ba5f16dc785bed23205b",
   "drill_coordinates_mm": [
     [
       -13.0,

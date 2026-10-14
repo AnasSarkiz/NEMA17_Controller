@@ -1,33 +1,33 @@
 {
   "passed": true,
-  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+  "board_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb",
   "cores": [
     {
       "core": "connector_to_ESD",
       "layer": "bottom",
       "reference_layer": "inner2",
-      "actual_minimum_pair_clearance_mm": 0.15999999999999764,
-      "core_length_difference_mm": 0.44535329380125876,
+      "actual_minimum_pair_clearance_mm": 0.1599999999999983,
+      "core_length_difference_mm": 0.1406897577081292,
       "tracks": [
         {
           "net": "USB_DP",
           "trace_id": "usb_coupled_connector_to_ESD_USB_DP",
-          "actual_length_mm": 4.438365789706736,
-          "screened_reference_samples": 167,
-          "local_USB_via_antipad_samples": 12,
+          "actual_length_mm": 4.420214280248089,
+          "screened_reference_samples": 165,
+          "local_USB_via_antipad_samples": 13,
           "ground_reference_coverage_fraction": 1.0,
-          "exact_screened_reference_length_mm": 4.13907602963813,
+          "exact_screened_reference_length_mm": 4.0961115464406745,
           "exact_unsupported_reference_length_mm": 0.0,
           "unsupported_samples_mm": []
         },
         {
           "net": "USB_DM",
           "trace_id": "usb_coupled_connector_to_ESD_USB_DM",
-          "actual_length_mm": 4.883719083507994,
-          "screened_reference_samples": 173,
-          "local_USB_via_antipad_samples": 24,
+          "actual_length_mm": 4.5609040379562185,
+          "screened_reference_samples": 147,
+          "local_USB_via_antipad_samples": 37,
           "ground_reference_coverage_fraction": 1.0,
-          "exact_screened_reference_length_mm": 4.308490204522386,
+          "exact_screened_reference_length_mm": 3.6206497688324735,
           "exact_unsupported_reference_length_mm": 0.0,
           "unsupported_samples_mm": []
         }
@@ -37,28 +37,28 @@
       "core": "ESD_to_MCU",
       "layer": "bottom",
       "reference_layer": "inner2",
-      "actual_minimum_pair_clearance_mm": 0.16000000000000014,
-      "core_length_difference_mm": 0.11140043582678416,
+      "actual_minimum_pair_clearance_mm": 0.15286192663889347,
+      "core_length_difference_mm": 0.220361949547069,
       "tracks": [
         {
           "net": "USB_DP",
           "trace_id": "usb_coupled_ESD_to_MCU_USB_DP",
-          "actual_length_mm": 7.6502395334175,
-          "screened_reference_samples": 291,
-          "local_USB_via_antipad_samples": 17,
+          "actual_length_mm": 7.699808434849931,
+          "screened_reference_samples": 309,
+          "local_USB_via_antipad_samples": 0,
           "ground_reference_coverage_fraction": 1.0,
-          "exact_screened_reference_length_mm": 7.25824581980909,
+          "exact_screened_reference_length_mm": 7.699808434849931,
           "exact_unsupported_reference_length_mm": 0.0,
           "unsupported_samples_mm": []
         },
         {
           "net": "USB_DM",
           "trace_id": "usb_coupled_ESD_to_MCU_USB_DM",
-          "actual_length_mm": 7.761639969244285,
-          "screened_reference_samples": 292,
-          "local_USB_via_antipad_samples": 20,
+          "actual_length_mm": 7.920170384397,
+          "screened_reference_samples": 318,
+          "local_USB_via_antipad_samples": 0,
           "ground_reference_coverage_fraction": 1.0,
-          "exact_screened_reference_length_mm": 7.293264570182013,
+          "exact_screened_reference_length_mm": 7.920170384397,
           "exact_unsupported_reference_length_mm": 0.0,
           "unsupported_samples_mm": []
         }
