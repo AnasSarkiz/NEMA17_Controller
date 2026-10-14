@@ -46,7 +46,9 @@ board_path=root/'artifacts/board.circuit.json';original=json.loads(board_path.re
 assert json.loads((root/'index.circuit.json').read_text())==original
 j=json.loads(board_path.read_text())
 pattern=re.compile(r'(https://raw\.githubusercontent\.com/AnasSarkiz/(?:NEMA17_Controller|NEMA14_CH32X035G8U6|NEMA14_RP2040)/)main(/imports/supplier/)')
-pin=lambda s:pattern.sub(lambda m:'https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/'+revision+m[2],s)
+def pin(s):
+ s=pattern.sub(lambda m:'https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/'+revision+m[2],s)
+ return s.replace(str(root)+'/imports/supplier/','https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/'+revision+'/imports/supplier/')
 for f in (stage/'imports/supplier').rglob('*.tsx'):f.write_text(pin(f.read_text()))
 preview_path=stage/'artifacts/top-assembly/assembly-preview.circuit.json'
 preview_path.write_text(pin(preview_path.read_text()))

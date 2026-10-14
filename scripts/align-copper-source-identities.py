@@ -23,4 +23,14 @@ for net in g.nets:
    changes.append({'element':target.get('pcb_trace_id',target.get('pcb_via_id')),'old_source_trace':target.get('source_trace_id'),'new_source_trace':chosen})
    target['source_trace_id']=chosen
 
+# Native checks select one representative per source-trace ID. Put its actual
+# terminal-contact record before internal rail sections; geometry is unchanged.
+source_traces={t['source_trace_id']:t for t in traces}
+def contact_priority(t):
+ expected=set(source_traces[t['source_trace_id']].get('connected_source_port_ids',[]))
+ actual={g.ports[p]['source_port_id'] for p in t.get('pcb_port_ids',[]) if p in g.ports}
+ return 0 if expected & actual else 1
+ordered=sorted([e for e in g.j if e['type']=='pcb_trace'],key=contact_priority)
+g.j[:]=[e for e in g.j if e['type']!='pcb_trace']+ordered
+
 g.path.write_text(json.dumps(g.j,indent=2)+'\n');(g.ROOT/'artifacts/reference-feedback/copper-source-identities.json').write_text(json.dumps({'geometry_and_net_keys_unchanged':True,'changes':changes,'board_sha256':hashlib.sha256(g.path.read_bytes()).hexdigest()},indent=2)+'\n');print('Aligned',len(changes),'copper source identities with their actual physical lands')
