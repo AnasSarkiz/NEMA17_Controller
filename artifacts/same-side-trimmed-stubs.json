@@ -438,5 +438,125 @@
       -0.6499999999999986
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_214_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 1.4022968000000005,
+    "new_endpoint_mm": [
+      -6.312365509504885,
+      -7.365165509504885
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_11_V3V3_2_rerouted_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 0.2034947852436939,
+    "new_endpoint_mm": [
+      6.089657452464908,
+      -14.614657452464908
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_reviewed_local_signal_bridge_STATUS_B_C_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.1379065088311109,
+    "new_endpoint_mm": [
+      3.477492384688654,
+      6.579202652010852
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "reviewed_local_U_MCU_PA5",
+    "endpoint": "end",
+    "removed_length_mm": 0.1445971064110081,
+    "new_endpoint_mm": [
+      3.15,
+      -0.9499819100529441
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "reviewed_local_U_MCU_DIR",
+    "endpoint": "end",
+    "removed_length_mm": 0.35071538179922723,
+    "new_endpoint_mm": [
+      1.2800046997916692,
+      1.3999533328611504
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_freerouted_trace_17_run_0_run_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.31084580192617434,
+    "new_endpoint_mm": [
+      -11.0233,
+      -7.759154198073826
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "review_baseline_review_baseline_same_side_repair_24_STEP_2_run_0_run_0",
+    "endpoint": "end",
+    "removed_length_mm": 1.0973926098725517,
+    "new_endpoint_mm": [
+      8.575000000000003,
+      -6.327607390127447
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_1_DATA_VBUS_0_layer_section_0",
+    "endpoint": "start",
+    "removed_length_mm": 1.8963201265101153,
+    "new_endpoint_mm": [
+      8.475000000000001,
+      10.468197834484423
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "same_side_repair_6_PD_CC1_0",
+    "endpoint": "start",
+    "removed_length_mm": 0.3555341396640147,
+    "new_endpoint_mm": [
+      -6.548599398900249,
+      3.0235993989002523
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "usb_cc_escape_J_PD_CC2",
+    "endpoint": "end",
+    "removed_length_mm": 0.9349257999999997,
+    "new_endpoint_mm": [
+      1.050062,
+      14.215074199999998
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "usb_cc_escape_J_DATA_CC1",
+    "endpoint": "end",
+    "removed_length_mm": 0.8390524455338643,
+    "new_endpoint_mm": [
+      -0.750062,
+      -14.215074199999998
+    ],
+    "live_pad_connectivity_unchanged": true
+  },
+  {
+    "trace_id": "usb_cc_escape_J_DATA_CC2",
+    "endpoint": "end",
+    "removed_length_mm": 0.7069233132546145,
+    "new_endpoint_mm": [
+      0.750062,
+      -16.0849258
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

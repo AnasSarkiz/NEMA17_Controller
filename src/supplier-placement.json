@@ -15,8 +15,8 @@
     "pcbRotation": 270
   },
   "U_ESD": {
-    "pcbX": 9,
-    "pcbY": 7,
+    "pcbX": 9.0,
+    "pcbY": 7.0,
     "pcbRotation": 0
   },
   "D_TVS": {
@@ -25,22 +25,22 @@
     "pcbRotation": 180
   },
   "R_PD": {
-    "pcbX": 12.796602,
-    "pcbY": 15.942003,
+    "pcbX": 12.8,
+    "pcbY": 8.9,
     "pcbRotation": 0
   },
   "R_PG": {
-    "pcbX": 16.31,
-    "pcbY": -14.54,
+    "pcbX": 16.3,
+    "pcbY": -8.28,
     "pcbRotation": 90
   },
   "R_CC1": {
-    "pcbX": -16.03,
+    "pcbX": -6.4,
     "pcbY": -15.72,
     "pcbRotation": 0
   },
   "R_CC2": {
-    "pcbX": 16.03,
+    "pcbX": 6.8,
     "pcbY": -10.72,
     "pcbRotation": 0
   },
@@ -50,8 +50,8 @@
     "pcbRotation": 0
   },
   "R_USB_SENSE_L": {
-    "pcbX": -8.804901,
-    "pcbY": -11.83999,
+    "pcbX": -8.8,
+    "pcbY": -16.3,
     "pcbRotation": 0
   },
   "R_VM_H": {
@@ -60,8 +60,8 @@
     "pcbRotation": 90
   },
   "R_VM_L": {
-    "pcbX": -6.625,
-    "pcbY": -16.315,
+    "pcbX": -6.62,
+    "pcbY": 5.5,
     "pcbRotation": 0
   },
   "R_SA": {
@@ -80,17 +80,17 @@
     "pcbRotation": 0
   },
   "R_REF_L": {
-    "pcbX": 6.006602,
-    "pcbY": -7.787997,
+    "pcbX": 4.62,
+    "pcbY": -7.79,
     "pcbRotation": 0
   },
   "R_ENABLE": {
-    "pcbX": -7.073398,
-    "pcbY": -9.427997,
+    "pcbX": -7.07,
+    "pcbY": -6.96,
     "pcbRotation": 0
   },
   "R_SLEEP": {
-    "pcbX": 16.31,
+    "pcbX": 6.04,
     "pcbY": 14.13,
     "pcbRotation": 90
   },
@@ -110,13 +110,13 @@
     "pcbRotation": 90
   },
   "C_LOGIC": {
-    "pcbX": -0.44499500000000003,
+    "pcbX": -0.444995,
     "pcbY": 2.595,
     "pcbRotation": 90
   },
   "C_VM_SENSE": {
-    "pcbX": 14.580023,
-    "pcbY": -16.670001,
+    "pcbX": 14.58,
+    "pcbY": 6.76,
     "pcbRotation": 0
   },
   "C_CP": {
@@ -125,13 +125,13 @@
     "pcbRotation": 0
   },
   "C_VCP": {
-    "pcbX": -7.559885,
-    "pcbY": -8.199998,
+    "pcbX": -7.56,
+    "pcbY": -8.2,
     "pcbRotation": 0
   },
   "C_VREG": {
-    "pcbX": -4.689977,
-    "pcbY": -11.490001,
+    "pcbX": -4.69,
+    "pcbY": -11.49,
     "pcbRotation": 0
   },
   "C_DRV_LOGIC": {
@@ -150,38 +150,38 @@
     "pcbRotation": 90
   },
   "J_PD": {
-    "pcbX": -6.2024952,
+    "pcbX": 0.1475048,
     "pcbY": 15.15,
     "pcbRotation": 0
   },
   "J_DATA": {
-    "pcbX": 5.8975048,
-    "pcbY": 15.15,
+    "pcbX": -0.1524952,
+    "pcbY": -15.15,
     "pcbRotation": 0
   },
   "C_BULK": {
-    "pcbX": -12.05,
-    "pcbY": -5.4,
+    "pcbX": -13.84,
+    "pcbY": -5.01,
     "pcbRotation": 90
   },
   "D_PD": {
-    "pcbX": -14.829979,
-    "pcbY": 0.410011,
+    "pcbX": 12.88,
+    "pcbY": -8.58,
     "pcbRotation": 0
   },
   "D_DATA": {
-    "pcbX": 9.389986,
-    "pcbY": -11.869979,
+    "pcbX": -8.59,
+    "pcbY": -11.87,
     "pcbRotation": 90
   },
   "J_MOTOR": {
-    "pcbX": -1.5499999999999998,
-    "pcbY": -14.57,
-    "pcbRotation": 180
+    "pcbX": -7.2,
+    "pcbY": 12.85,
+    "pcbRotation": 90
   },
   "D_PWR": {
-    "pcbX": -9.341006,
-    "pcbY": -14.216572,
+    "pcbX": -13.32,
+    "pcbY": 0.87,
     "pcbRotation": 0
   },
   "R_PWR_LED": {
@@ -190,8 +190,8 @@
     "pcbRotation": 90
   },
   "D_STATUS": {
-    "pcbX": -16.320002,
-    "pcbY": 12.301996,
+    "pcbX": 7.8,
+    "pcbY": 12.3,
     "pcbRotation": 0
   },
   "Q_STATUS_R": {
@@ -201,7 +201,7 @@
   },
   "Q_STATUS_G": {
     "pcbX": 5.5,
-    "pcbY": 7,
+    "pcbY": 7.0,
     "pcbRotation": 0
   },
   "Q_STATUS_B": {
@@ -216,7 +216,7 @@
   },
   "R_STATUS_G": {
     "pcbX": 0.48,
-    "pcbY": 16.03,
+    "pcbY": 9.17,
     "pcbRotation": 90
   },
   "R_STATUS_B": {
@@ -225,13 +225,13 @@
     "pcbRotation": 90
   },
   "U_TEMP": {
-    "pcbX": 6.959985,
-    "pcbY": -9.649923,
+    "pcbX": 4.51,
+    "pcbY": -11.81,
     "pcbRotation": 0
   },
   "C_TEMP": {
-    "pcbX": 7.340115,
-    "pcbY": -11.219998,
+    "pcbX": 7.34,
+    "pcbY": -11.8,
     "pcbRotation": 0
   },
   "R_TEMP_SDA": {
@@ -240,7 +240,7 @@
     "pcbRotation": 90
   },
   "R_TEMP_SCL": {
-    "pcbX": 16.03,
+    "pcbX": 9.17,
     "pcbY": 16.44,
     "pcbRotation": 180
   },
@@ -250,28 +250,28 @@
     "pcbRotation": 0
   },
   "Q_BUZZER": {
-    "pcbX": 15.629997,
-    "pcbY": -8.46999,
+    "pcbX": 8.55,
+    "pcbY": -8.45,
     "pcbRotation": 0
   },
   "D_BUZZER": {
-    "pcbX": 11.437407,
-    "pcbY": -7.820002,
-    "pcbRotation": 0
+    "pcbX": 11.82,
+    "pcbY": 5.77,
+    "pcbRotation": 90
   },
   "R_BUZZER_GATE": {
-    "pcbX": 16.03,
-    "pcbY": -11.93,
+    "pcbX": 6.98,
+    "pcbY": -12.88,
     "pcbRotation": 0
   },
   "R_BUZZER_PD": {
-    "pcbX": 11.755645,
-    "pcbY": -10.219998,
+    "pcbX": 9.1,
+    "pcbY": -10.71,
     "pcbRotation": 0
   },
   "C_BUZZER": {
-    "pcbX": 6.6,
-    "pcbY": -12.5,
+    "pcbX": 5.64,
+    "pcbY": -1.44,
     "pcbRotation": 0
   },
   "U_BUCK": {
@@ -295,14 +295,14 @@
     "pcbRotation": 90
   },
   "C_BUCK_OUT1": {
-    "pcbX": -13.355,
-    "pcbY": 9.805005,
+    "pcbX": -15.43,
+    "pcbY": 7.85,
     "pcbRotation": 0
   },
   "C_BUCK_OUT2": {
-    "pcbX": -15.165,
-    "pcbY": 7.745005,
-    "pcbRotation": 0
+    "pcbX": -7.54,
+    "pcbY": 2.79,
+    "pcbRotation": 90
   },
   "TP_3V3": {
     "pcbX": 6.0,
@@ -321,11 +321,11 @@
   },
   "TP_DIO": {
     "pcbX": 10.5,
-    "pcbY": -15.5,
+    "pcbY": -16.69,
     "pcbRotation": 0
   },
   "TP_BOOT": {
-    "pcbX": 0,
+    "pcbX": 0.0,
     "pcbY": 5.5,
     "pcbRotation": 0
   },
@@ -335,17 +335,17 @@
     "pcbRotation": 0
   },
   "U_ENCODER": {
-    "pcbX": 0,
-    "pcbY": 0,
+    "pcbX": 0.0,
+    "pcbY": 0.0,
     "pcbRotation": 0
   },
   "C_ENCODER": {
-    "pcbX": -5,
+    "pcbX": -5.0,
     "pcbY": 1.8,
     "pcbRotation": 0
   },
   "C_ENCODER_BULK": {
-    "pcbX": -5,
+    "pcbX": -5.0,
     "pcbY": 0.2,
     "pcbRotation": 0
   }

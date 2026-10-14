@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # Firmware interface (hardware contract; implementation pending)
 
 | Signal | CH32X035G8U6 pad | GPIO | Requirement |

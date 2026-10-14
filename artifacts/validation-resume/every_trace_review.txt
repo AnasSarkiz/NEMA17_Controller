@@ -1,7 +1,14 @@
 {
-  "passed": true,
-  "traces_reviewed": 512,
-  "wire_segments_reviewed": 6409,
-  "vias_reviewed": 229,
-  "errors": []
+  "passed": false,
+  "traces_reviewed": 429,
+  "wire_segments_reviewed": 8039,
+  "vias_reviewed": 279,
+  "errors": [
+    {
+      "trace": "same_side_repair_0_DCK_0",
+      "issues": [
+        "inner1 route exceeds reviewed section-length bound"
+      ]
+    }
+  ]
 }

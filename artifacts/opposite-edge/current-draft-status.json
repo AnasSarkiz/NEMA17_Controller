@@ -1,0 +1,17 @@
+{
+  "status": "BLOCKED_ELECTRICAL_QUALIFICATION",
+  "board_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
+  "checks_ran": 23,
+  "zero_exit_checks": 16,
+  "nonzero_exit_checks": 7,
+  "disconnected_nets": [
+    "A_PLUS",
+    "A_MINUS",
+    "B_PLUS"
+  ],
+  "native_DRC_errors": 28,
+  "mechanical_nominal_screen_passed": true,
+  "rear_motor_compatibility_verified": false,
+  "new_registry_release_published": false,
+  "publication_allowed": false
+}

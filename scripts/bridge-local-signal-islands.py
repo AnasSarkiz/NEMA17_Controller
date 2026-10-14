@@ -3,6 +3,7 @@ sys.path.insert(0,'scripts')
 import verify_supplier_connectivity as g
 from shapely.geometry import Point,LineString,box
 from shapely.strtree import STRtree
+width=float(next((q.split('=',1)[1] for q in sys.argv if q.startswith('--width=')),.16));assert .16<=width<=.55
 requested=next(q.split('=',1)[1] for q in sys.argv if q.startswith('--net='));net=next(k for k,v in g.nets.items() if v==requested);stack=['top','inner1','inner2','bottom'];shapes=[];owners=[]
 for e in g.j:
  typ=e['type']
@@ -29,7 +30,7 @@ for ra in lands:
     for pts in [[a,b],[a,(b[0],a[1]),b],[a,(a[0],b[1]),b]]:
      length=LineString(pts).length
      if length>15:continue
-     geom=LineString(pts).buffer(.08);hits=set();bad=False
+     geom=LineString(pts).buffer(width/2);hits=set();bad=False
      if not box(-17.15,-17.15,17.15,17.15).covers(geom):continue
      for i in tree.query(geom.buffer(.153)):
       e=owners[i]

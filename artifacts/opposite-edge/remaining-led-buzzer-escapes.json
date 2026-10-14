@@ -1,0 +1,20 @@
+[
+  {
+    "ref": "R_BUZZER_GATE",
+    "role": "pin2",
+    "width": 0.16,
+    "radius": 5
+  },
+  {
+    "ref": "D_STATUS",
+    "role": "G_NEG",
+    "width": 0.16,
+    "radius": 5
+  },
+  {
+    "ref": "R_STATUS_G",
+    "role": "pin1",
+    "width": 0.16,
+    "radius": 5
+  }
+]

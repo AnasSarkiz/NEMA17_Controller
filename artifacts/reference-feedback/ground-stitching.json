@@ -3,5 +3,5 @@
   "remaining_ground_roots": 1,
   "strict_no_additional_via_in_pad": true,
   "all_layer_clearance_mm": 0.15,
-  "board_sha256": "d585f918d696ec29284785894837e2801d4c0a31e29c683dbd6dcaeb69b5ab06"
+  "board_sha256": "d3aaf5813925789ea5bcdfa62c013dfdef93d46eccd80fded563a077597b24d1"
 }

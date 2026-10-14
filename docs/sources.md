@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # Sources and evidence
 
 - Motor requested by user: https://www.omc-stepperonline.com/nema-14-bipolar-0-9deg-11ncm-15-58oz-in-0-4a-10v-35x35x28mm-4-wires-14hm11-0404s . Manufacturer drawing verified: https://www.omc-stepperonline.com/download/14HM11-0404S.pdf . It confirms 0.40 A/phase, 25 Ω ±10%, 24 mH ±20%, 0.9° steps, and front-face 26 ±0.2 mm M3 mounting pitch. Rear attachment dimensions are absent.

@@ -2,20 +2,1020 @@
   "geometry_and_net_keys_unchanged": true,
   "changes": [
     {
-      "element": "thermal_via_U_MCU",
-      "old_source_trace": "source_trace_48",
+      "element": "reviewed_local_U_ESD_GND_via",
+      "old_source_trace": "source_trace_155",
       "new_source_trace": "source_trace_0"
     },
     {
-      "element": "thermal_via_U_DRV",
-      "old_source_trace": "source_trace_102",
+      "element": "reviewed_local_C_BUCK_OUT2_pin2_via",
+      "old_source_trace": "source_trace_169",
       "new_source_trace": "source_trace_0"
     },
     {
-      "element": "thermal_via_U_PD",
-      "old_source_trace": "source_trace_40",
+      "element": "reviewed_local_U_TEMP_ADD0_via",
+      "old_source_trace": "source_trace_172",
       "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_C_TEMP_pin2_via",
+      "old_source_trace": "source_trace_176",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_Q_BUZZER_pin2_via",
+      "old_source_trace": "source_trace_207",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_U_ENCODER_GND_via",
+      "old_source_trace": "source_trace_225",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_C_ENCODER_BULK_pin2_via",
+      "old_source_trace": "source_trace_232",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_R_SA_pin2_via",
+      "old_source_trace": "source_trace_133",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_C_PD_pin2_via",
+      "old_source_trace": "source_trace_44",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_C_VM_pin2_via",
+      "old_source_trace": "source_trace_129",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "reviewed_local_C_BUZZER_pin2_via",
+      "old_source_trace": "source_trace_216",
+      "new_source_trace": "source_trace_0"
+    },
+    {
+      "element": "freerouted_via_9",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "freerouted_via_10",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "freerouted_via_12",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_via_2",
+      "old_source_trace": "source_trace_11",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_via_17",
+      "old_source_trace": "source_trace_11",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_via_20",
+      "old_source_trace": "source_trace_11",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_via_27",
+      "old_source_trace": "source_trace_11",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_layer_section_1",
+      "old_source_trace": "source_trace_90",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_layer_section_2",
+      "old_source_trace": "source_trace_90",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_19_PD_VBUS_3_layer_section_3",
+      "old_source_trace": "source_trace_90",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "review_baseline_review_baseline_freerouted_trace_17_run_0_run_0",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "review_baseline_review_baseline_freerouted_trace_18_run_0_run_0",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "review_baseline_review_baseline_freerouted_trace_35_run_0_run_0",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "review_baseline_review_baseline_freerouted_trace_47_run_0_run_0",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_12_PD_VBUS_5",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_1_PD_VBUS_0_via_3",
+      "old_source_trace": "source_trace_123",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_1_PD_VBUS_0_layer_section_1",
+      "old_source_trace": "source_trace_123",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_2_PD_VBUS_1_via_12",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_2_PD_VBUS_1_via_23",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_2_PD_VBUS_1_layer_section_0",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_2_PD_VBUS_1_layer_section_1",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_2_PD_VBUS_1_layer_section_2",
+      "old_source_trace": "source_trace_157",
+      "new_source_trace": "source_trace_10"
+    },
+    {
+      "element": "same_side_repair_4_PD_VBUS_3_via_5",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_4_PD_VBUS_3_via_46",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "reviewed_local_U_PD_VBUS_via",
+      "old_source_trace": "source_trace_36",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_12_PD_VBUS_0_via_27",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_12_PD_VBUS_0_layer_section_0",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_12_PD_VBUS_0_layer_section_1",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_12_PD_VBUS_0_layer_section_2",
+      "old_source_trace": "source_trace_99",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_0_PD_VBUS_0",
+      "old_source_trace": "source_trace_36",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_0_PD_VBUS_0_rerouted_via_15",
+      "old_source_trace": "source_trace_36",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_0_PD_VBUS_0_rerouted_layer_section_0",
+      "old_source_trace": "source_trace_36",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_0_PD_VBUS_0_rerouted_layer_section_1",
+      "old_source_trace": "source_trace_36",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "usb_power_escape_J_PD_east_via",
+      "old_source_trace": "source_trace_9",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_0_PD_VBUS_0_rerouted_rerouted_rerouted",
+      "old_source_trace": "source_trace_41",
+      "new_source_trace": "source_trace_8"
+    },
+    {
+      "element": "same_side_repair_24_V3V3_3_layer_section_1",
+      "old_source_trace": "source_trace_142",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_16_V3V3_3_via_3",
+      "old_source_trace": "source_trace_110",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_16_V3V3_3_via_23",
+      "old_source_trace": "source_trace_110",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_16_V3V3_3_layer_section_0",
+      "old_source_trace": "source_trace_110",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_16_V3V3_3_layer_section_1",
+      "old_source_trace": "source_trace_110",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_16_V3V3_3_layer_section_2",
+      "old_source_trace": "source_trace_110",
+      "new_source_trace": "source_trace_173"
+    },
+    {
+      "element": "same_side_repair_17_V3V3_4",
+      "old_source_trace": "source_trace_47",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_18_V3V3_5_via_19",
+      "old_source_trace": "source_trace_111",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_18_V3V3_5_layer_section_0",
+      "old_source_trace": "source_trace_111",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_18_V3V3_5_layer_section_1",
+      "old_source_trace": "source_trace_111",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_0_V3V3_0",
+      "old_source_trace": "source_trace_158",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_3_V3V3_3_via_45",
+      "old_source_trace": "source_trace_47",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_3_V3V3_3_layer_section_0",
+      "old_source_trace": "source_trace_47",
+      "new_source_trace": "source_trace_223"
+    },
+    {
+      "element": "same_side_repair_3_V3V3_3_layer_section_1",
+      "old_source_trace": "source_trace_47",
+      "new_source_trace": "source_trace_111"
+    },
+    {
+      "element": "same_side_repair_0_V3V3_0_rerouted",
+      "old_source_trace": "source_trace_217",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_1_V3V3_1_via_17",
+      "old_source_trace": "source_trace_158",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_1_V3V3_1_layer_section_1",
+      "old_source_trace": "source_trace_158",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_0_V3V3_0_rerouted_rerouted",
+      "old_source_trace": "source_trace_45",
+      "new_source_trace": "source_trace_223"
+    },
+    {
+      "element": "same_side_repair_0_V3V3_0_rerouted_rerouted_rerouted",
+      "old_source_trace": "source_trace_47",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_1_V3V3_1_rerouted",
+      "old_source_trace": "source_trace_68",
+      "new_source_trace": "source_trace_66"
+    },
+    {
+      "element": "reviewed_local_R_REF_H_pin1_via",
+      "old_source_trace": "source_trace_136",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_0_V3V3_0_rerouted_rerouted_rerouted_rerouted",
+      "old_source_trace": "source_trace_136",
+      "new_source_trace": "source_trace_223"
+    },
+    {
+      "element": "same_side_repair_1_V3V3_1_rerouted_rerouted",
+      "old_source_trace": "source_trace_47",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_2_V3V3_2_via_3",
+      "old_source_trace": "source_trace_66",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_2_V3V3_2_layer_section_0",
+      "old_source_trace": "source_trace_66",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_2_V3V3_2_layer_section_1",
+      "old_source_trace": "source_trace_66",
+      "new_source_trace": "source_trace_224"
+    },
+    {
+      "element": "same_side_repair_0_V3V3_0_rerouted_rerouted_rerouted_rerouted_rerouted",
+      "old_source_trace": "source_trace_110",
+      "new_source_trace": "source_trace_45"
+    },
+    {
+      "element": "same_side_repair_40_LOGIC_IN_1_layer_section_0",
+      "old_source_trace": "source_trace_86",
+      "new_source_trace": "source_trace_164"
+    },
+    {
+      "element": "same_side_repair_40_LOGIC_IN_1_layer_section_1",
+      "old_source_trace": "source_trace_86",
+      "new_source_trace": "source_trace_85"
+    },
+    {
+      "element": "same_side_repair_0_LOGIC_IN_0_via_2",
+      "old_source_trace": "source_trace_91",
+      "new_source_trace": "source_trace_85"
+    },
+    {
+      "element": "same_side_repair_0_LOGIC_IN_0_via_19",
+      "old_source_trace": "source_trace_91",
+      "new_source_trace": "source_trace_85"
+    },
+    {
+      "element": "same_side_repair_0_LOGIC_IN_0_layer_section_1",
+      "old_source_trace": "source_trace_91",
+      "new_source_trace": "source_trace_85"
+    },
+    {
+      "element": "same_side_repair_0_LOGIC_IN_0_layer_section_2",
+      "old_source_trace": "source_trace_91",
+      "new_source_trace": "source_trace_85"
+    },
+    {
+      "element": "same_side_repair_44_DATA_VBUS_2_layer_section_0",
+      "old_source_trace": "source_trace_92",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_5_DATA_VBUS_0_rerouted_layer_section_0",
+      "old_source_trace": "source_trace_23",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_5_DATA_VBUS_0_rerouted_layer_section_1",
+      "old_source_trace": "source_trace_23",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_19_DATA_VBUS_0",
+      "old_source_trace": "source_trace_74",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_20_DATA_VBUS_1",
+      "old_source_trace": "source_trace_74",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_21_DATA_VBUS_2_via_2",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_21_DATA_VBUS_2_via_16",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_21_DATA_VBUS_2_layer_section_0",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_21_DATA_VBUS_2_layer_section_1",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_21_DATA_VBUS_2_layer_section_2",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_12_DATA_VBUS_0",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "usb_power_escape_J_DATA_east_via",
+      "old_source_trace": "source_trace_23",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "reviewed_local_U_ESD_VBUS_via",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "reviewed_local_D_STATUS__POS_via",
+      "old_source_trace": "source_trace_185",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_0_DATA_VBUS_0_via_2",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_0_DATA_VBUS_0_layer_section_0",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_0_DATA_VBUS_0_layer_section_1",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_2_DATA_VBUS_2",
+      "old_source_trace": "source_trace_23",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_0_DATA_VBUS_0_rerouted",
+      "old_source_trace": "source_trace_154",
+      "new_source_trace": "source_trace_22"
+    },
+    {
+      "element": "same_side_repair_49_PD_VDD_0_layer_section_1",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "same_side_repair_0_PD_VDD_0_via_183",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "same_side_repair_0_PD_VDD_0_rerouted_via_210",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "same_side_repair_0_PD_VDD_0_rerouted_via_229",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "same_side_repair_0_PD_VDD_0_rerouted_layer_section_1",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "same_side_repair_0_PD_VDD_0_rerouted_layer_section_2",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "same_side_repair_0_PD_VDD_0_rerouted_layer_section_3",
+      "old_source_trace": "source_trace_42",
+      "new_source_trace": "source_trace_32"
+    },
+    {
+      "element": "reviewed_local_U_PD_CC1_via",
+      "old_source_trace": "source_trace_37",
+      "new_source_trace": "source_trace_12"
+    },
+    {
+      "element": "same_side_repair_6_DATA_CC1_0_layer_section_3",
+      "old_source_trace": "source_trace_26",
+      "new_source_trace": "source_trace_70"
+    },
+    {
+      "element": "reviewed_local_R_CC2_pin1_via",
+      "old_source_trace": "source_trace_72",
+      "new_source_trace": "source_trace_27"
+    },
+    {
+      "element": "usb_fan_MCU_USB_DP_via",
+      "old_source_trace": "source_trace_57",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "usb_fan_MCU_USB_DP_bottom",
+      "old_source_trace": "source_trace_57",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "usb_fan_ESD_USB_DP_via",
+      "old_source_trace": "source_trace_150",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "usb_lower_DP2_via",
+      "old_source_trace": "source_trace_29",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "usb_lower_DP2_bottom",
+      "old_source_trace": "source_trace_29",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "same_side_repair_0_USB_DP_0_via_3",
+      "old_source_trace": "source_trace_150",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "same_side_repair_0_USB_DP_0_layer_section_1",
+      "old_source_trace": "source_trace_150",
+      "new_source_trace": "source_trace_28"
+    },
+    {
+      "element": "same_side_repair_2_USB_DP_2_layer_section_0",
+      "old_source_trace": "source_trace_28",
+      "new_source_trace": "source_trace_151"
+    },
+    {
+      "element": "usb_fan_MCU_USB_DM_via",
+      "old_source_trace": "source_trace_56",
+      "new_source_trace": "source_trace_30"
+    },
+    {
+      "element": "usb_fan_MCU_USB_DM_bottom",
+      "old_source_trace": "source_trace_56",
+      "new_source_trace": "source_trace_30"
+    },
+    {
+      "element": "usb_fan_ESD_USB_DM_via",
+      "old_source_trace": "source_trace_152",
+      "new_source_trace": "source_trace_30"
+    },
+    {
+      "element": "usb_lower_mirrored_DM2",
+      "old_source_trace": "source_trace_31",
+      "new_source_trace": "source_trace_30"
+    },
+    {
+      "element": "same_side_repair_3_USB_DM_0",
+      "old_source_trace": "source_trace_152",
+      "new_source_trace": "source_trace_30"
+    },
+    {
+      "element": "same_side_repair_0_USB_DM_0_layer_section_3",
+      "old_source_trace": "source_trace_30",
+      "new_source_trace": "source_trace_153"
+    },
+    {
+      "element": "reviewed_local_U_DRV_DIR_via",
+      "old_source_trace": "source_trace_114",
+      "new_source_trace": "source_trace_50"
+    },
+    {
+      "element": "same_side_repair_0_ENABLE_N_0_layer_section_1",
+      "old_source_trace": "source_trace_51",
+      "new_source_trace": "source_trace_143"
+    },
+    {
+      "element": "reviewed_local_U_DRV_SLEEP_via",
+      "old_source_trace": "source_trace_116",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "reviewed_local_R_SLEEP_pin1_via",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_1_SLEEP_1_via_7",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_1_SLEEP_1_via_196",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_1_SLEEP_1_via_218",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_14_SLEEP_1_via_233",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_14_SLEEP_1_via_244",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_14_SLEEP_1_layer_section_0",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_14_SLEEP_1_layer_section_1",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_14_SLEEP_1_layer_section_2",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_14_SLEEP_1_layer_section_3",
+      "old_source_trace": "source_trace_144",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "same_side_repair_0_SLEEP_0",
+      "old_source_trace": "source_trace_116",
+      "new_source_trace": "source_trace_52"
+    },
+    {
+      "element": "reviewed_local_U_MCU_PD_GOOD_via",
+      "old_source_trace": "source_trace_53",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "reviewed_local_R_PG_pin2_via",
+      "old_source_trace": "source_trace_46",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "same_side_repair_1_PD_GOOD_1_via_51",
+      "old_source_trace": "source_trace_46",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "same_side_repair_1_PD_GOOD_1_via_62",
+      "old_source_trace": "source_trace_46",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "same_side_repair_1_PD_GOOD_1_layer_section_0",
+      "old_source_trace": "source_trace_46",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "same_side_repair_1_PD_GOOD_1_layer_section_1",
+      "old_source_trace": "source_trace_46",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "same_side_repair_1_PD_GOOD_1_layer_section_2",
+      "old_source_trace": "source_trace_46",
+      "new_source_trace": "source_trace_39"
+    },
+    {
+      "element": "reviewed_local_TP_DIO_pin1_via",
+      "old_source_trace": "source_trace_220",
+      "new_source_trace": "source_trace_59"
+    },
+    {
+      "element": "same_side_repair_26_BOOT_PAD_0",
+      "old_source_trace": "source_trace_159",
+      "new_source_trace": "source_trace_221"
+    },
+    {
+      "element": "same_side_repair_57_DATA_PRESENT_0_layer_section_1",
+      "old_source_trace": "source_trace_76",
+      "new_source_trace": "source_trace_54"
+    },
+    {
+      "element": "same_side_repair_11_VM_SENSE_2_via_2",
+      "old_source_trace": "source_trace_80",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_11_VM_SENSE_2_via_18",
+      "old_source_trace": "source_trace_80",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_11_VM_SENSE_2_layer_section_1",
+      "old_source_trace": "source_trace_80",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_11_VM_SENSE_2_layer_section_2",
+      "old_source_trace": "source_trace_80",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_1_VM_SENSE_1_via_5",
+      "old_source_trace": "source_trace_82",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_1_VM_SENSE_1_layer_section_0",
+      "old_source_trace": "source_trace_82",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_1_VM_SENSE_1_layer_section_1",
+      "old_source_trace": "source_trace_82",
+      "new_source_trace": "source_trace_55"
+    },
+    {
+      "element": "same_side_repair_0_VREF_0_via_5",
+      "old_source_trace": "source_trace_137",
+      "new_source_trace": "source_trace_117"
+    },
+    {
+      "element": "same_side_repair_0_VREF_0_layer_section_1",
+      "old_source_trace": "source_trace_137",
+      "new_source_trace": "source_trace_117"
+    },
+    {
+      "element": "reviewed_local_J_MOTOR_B_MINUS_via",
+      "old_source_trace": "source_trace_149",
+      "new_source_trace": "source_trace_97"
+    },
+    {
+      "element": "same_side_repair_4_TEMP_SDA_2_layer_section_1",
+      "old_source_trace": "source_trace_177",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "reviewed_local_U_TEMP_SDA_via",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "reviewed_local_U_ENCODER_SDA_via",
+      "old_source_trace": "source_trace_227",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_via_4",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_via_17",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_via_28",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_via_92",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_via_162",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_layer_section_0",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_layer_section_1",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_layer_section_2",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_layer_section_3",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_layer_section_4",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SDA_1_layer_section_5",
+      "old_source_trace": "source_trace_174",
+      "new_source_trace": "source_trace_60"
+    },
+    {
+      "element": "reviewed_local_R_TEMP_SCL_pin1_via",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_3_TEMP_SCL_1_via_117",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "reviewed_local_U_TEMP_SCL_via",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_3_TEMP_SCL_1_via_14",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_3_TEMP_SCL_1_via_35",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_4_TEMP_SCL_2_rerouted_via_34",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SCL_0_via_5",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SCL_0_via_19",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SCL_0_layer_section_0",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SCL_0_layer_section_1",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_1_TEMP_SCL_0_layer_section_2",
+      "old_source_trace": "source_trace_179",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_via_55",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_layer_section_0",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_layer_section_1",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_layer_section_2",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_layer_section_3",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_rerouted_via_20",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_rerouted_layer_section_0",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "same_side_repair_0_TEMP_SCL_0_rerouted_layer_section_1",
+      "old_source_trace": "source_trace_170",
+      "new_source_trace": "source_trace_61"
+    },
+    {
+      "element": "reviewed_local_R_BUZZER_GATE_pin1_via",
+      "old_source_trace": "source_trace_211",
+      "new_source_trace": "source_trace_62"
+    },
+    {
+      "element": "same_side_repair_10_BUZZER_GATE_1",
+      "old_source_trace": "source_trace_212",
+      "new_source_trace": "source_trace_213"
+    },
+    {
+      "element": "reviewed_local_R_BUZZER_GATE_pin2_via",
+      "old_source_trace": "source_trace_212",
+      "new_source_trace": "source_trace_206"
+    },
+    {
+      "element": "same_side_repair_0_BUZZER_GATE_0",
+      "old_source_trace": "source_trace_212",
+      "new_source_trace": "source_trace_206"
+    },
+    {
+      "element": "same_side_repair_61_BUZZER_SINK_1_layer_section_0",
+      "old_source_trace": "source_trace_205",
+      "new_source_trace": "source_trace_210"
+    },
+    {
+      "element": "reviewed_local_Q_BUZZER_pin3_via",
+      "old_source_trace": "source_trace_208",
+      "new_source_trace": "source_trace_205"
+    },
+    {
+      "element": "same_side_repair_0_BUZZER_SINK_0_via_30",
+      "old_source_trace": "source_trace_208",
+      "new_source_trace": "source_trace_205"
+    },
+    {
+      "element": "same_side_repair_0_BUZZER_SINK_0_layer_section_0",
+      "old_source_trace": "source_trace_208",
+      "new_source_trace": "source_trace_205"
+    },
+    {
+      "element": "same_side_repair_0_BUZZER_SINK_0_layer_section_1",
+      "old_source_trace": "source_trace_208",
+      "new_source_trace": "source_trace_205"
+    },
+    {
+      "element": "same_side_repair_6_LED_R_2_via_3",
+      "old_source_trace": "source_trace_192",
+      "new_source_trace": "source_trace_63"
+    },
+    {
+      "element": "review_baseline_same_side_repair_6_LED_R_2_layer_section_1_run_0",
+      "old_source_trace": "source_trace_192",
+      "new_source_trace": "source_trace_63"
+    },
+    {
+      "element": "reviewed_local_Q_STATUS_R_pin2_via",
+      "old_source_trace": "source_trace_192",
+      "new_source_trace": "source_trace_63"
+    },
+    {
+      "element": "reviewed_local_R_STATUS_G_pin1_via",
+      "old_source_trace": "source_trace_194",
+      "new_source_trace": "source_trace_187"
+    },
+    {
+      "element": "reviewed_local_R_STATUS_B_pin1_via",
+      "old_source_trace": "source_trace_199",
+      "new_source_trace": "source_trace_188"
     }
   ],
-  "board_sha256": "de353678d5524ec540f188153083ae0b0c4b58cb03f34c7a3f63ccc64b2fb0e4"
+  "board_sha256": "f75bc167bcadb92a1c59eb101cdbe9eeb9d0f299b05edae0b123e8cbf3850feb"
 }

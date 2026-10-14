@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # NEMA14_CH32X035G8U6 1.10.2: engineering fixes
 
 Saved board SHA-256: `3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece`. Starting GitHub revision: `0d6f9bc`. Original functional nets, NC roles, values and ratings are preserved, with the authorized USB4145 upright connector substitution and three added bottom DNP encoder components; see `artifacts/engineering-fixes/final-engineering-verification.json`.

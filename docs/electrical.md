@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # Electrical design review
 
 A4988 VREF = 3.3 × 10/(39+10) = 0.6735 V; Itrip = VREF/(8 × 0.24) = 0.3508 A. The native 0.24 Ω, 1%, 125 mW resistors dissipate about 29.5 mW nominally. A deliberately expanded 3.465 V rail budget, 1% resistor bounds and a provisional 5% driver allowance estimate 0.3969 A. This is an engineering budget, not a qualified maximum: the actual driver accuracy, ground bounce and sense-track resistance must be measured. The SMF18A clamp still requires regenerative-energy testing.

@@ -1,0 +1,14 @@
+{
+  "PWR": {
+    "x": 1.2,
+    "y": 12.4,
+    "font_size": 0.8,
+    "distance_to_port_center_mm": 2.8935272592460555
+  },
+  "DATA": {
+    "x": -6.3,
+    "y": -14.2,
+    "font_size": 0.8,
+    "distance_to_port_center_mm": 6.37122437212817
+  }
+}

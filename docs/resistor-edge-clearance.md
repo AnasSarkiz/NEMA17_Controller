@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # CH32X035 resistor edge clearance — v1.7.0
 
 Every resistor is reviewed on all four board edges, including top and bottom assembly sides. The nominal pad-to-profile target is **at least 0.75 mm**. A 1 mm placement attempt was assessed; the delivered layout uses the 0.75 mm target within the fixed 35 × 35 mm outline, fixed connectors, native courtyards and screw envelopes.

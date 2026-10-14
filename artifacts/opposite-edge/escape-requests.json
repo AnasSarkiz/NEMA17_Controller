@@ -1,0 +1,14 @@
+[
+  {
+    "ref": "U_TEMP",
+    "role": "GND",
+    "width": 0.16,
+    "radius": 5
+  },
+  {
+    "ref": "C_BUZZER",
+    "role": "pin2",
+    "width": 0.16,
+    "radius": 5
+  }
+]

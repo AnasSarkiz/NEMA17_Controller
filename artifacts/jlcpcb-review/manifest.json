@@ -1,21 +1,21 @@
 {
-  "native_board_sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
-  "native_export_sha256": "e545c3a59a45a5ba59b2327a44394b2650996234ddceb1fd569a62a8b38421b3",
-  "order_source_sha256": "8029476ba1954d61d31dd6d9a021ebee8ecd155ad193f929edd65c206e4a965d",
-  "review_cam_sha256": "e545c3a59a45a5ba59b2327a44394b2650996234ddceb1fd569a62a8b38421b3",
-  "fabrication_zip_sha256": "d4d14553f3d2cc42899a7efc1fda4329ac9dbc781016857211ec272e885ffa02",
-  "source_github_revision": "0d5b0fad3ab62afd340fa6bc8ba0b1b51404c83d",
+  "native_board_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
+  "native_export_sha256": "7587a50fc4b228883e49ced1f27f09edebfd2793500edf89b418d699a70fc228",
+  "order_source_sha256": "cbead087ea637857b34885f75b03632273ac9fbf0628eeac07896c99ded706f4",
+  "review_cam_sha256": "7587a50fc4b228883e49ced1f27f09edebfd2793500edf89b418d699a70fc228",
+  "fabrication_zip_sha256": "e42bc9ee2f740821e9dff0fb675e3f6a0bf7927233372f58d335e14520620474",
+  "source_github_revision": "a342a888b82d46c8a56bb510bb04c3a29b179543",
   "electrical_source_and_all_nonpaste_records_unchanged": true,
   "copied_unchanged_copper_mask_drill_outline": {
-    "F_Cu.gbr": "636c99f17f026307113725537e28e4a1cd60c379681e0d3b57bfef87dbd6a2b3",
-    "F_Mask.gbr": "2005017aab56c248d1d5dbb9e59f86755b4c90ff3d82459be7f8ae0c8685df9a",
-    "B_Cu.gbr": "9f4615465763b25f7bbaf55f5f53b3d998957218e966e7f62b065713885d559f",
-    "B_Mask.gbr": "c7e12512059e62743e066d23c96f47ab58f5d9bbd7b8b7eb1199b2a8eae7df75",
-    "Edge_Cuts.gbr": "6ca852e50ab5ac6f94b4ecad8d491d62f5703511b7493f862c0bbb3397a3a98d",
-    "In1_Cu.gbr": "131669dd257647547d7c843b96516788e40e2571d2e80465cdbec9587672b93e",
-    "In2_Cu.gbr": "d7c72722ecfeb0f71c818c447636896c94b37fc644e25e26edaefbaa75612b97",
-    "drill-L1-L4.drl": "1a928e3217301648521c114dbc4b9c6d75e49ff09d39a545f2e1c045a098f9df",
-    "drill_npth.drl": "a09b567607c22ee4dd8c590b9a41782ab2a0cebad87903664008b250acb1b2ec"
+    "F_Cu.gbr": "d0b1b1eaeca2bd3ae634c46dc4547543d6274a55a8c9a683224c77044f4adfef",
+    "F_Mask.gbr": "4b7c612a0a7921900408595ce7f865fc9d8314cb6d7de66fdf86cf46a30b5648",
+    "B_Cu.gbr": "7017bc01231eb6b6172eb7a328f25046c9b67fe24fd37a2e0e8eea1da4738c3d",
+    "B_Mask.gbr": "ed26a945cda47c6e2ce45465b18b50f057e7a36212814555f6d9ba09cbc31713",
+    "Edge_Cuts.gbr": "2d1b6976a40fe10b0c98e7222eedd499f0274e33b083790c9850cfd6bd05f004",
+    "In1_Cu.gbr": "6a5231190aa4b4747c82b098fced29890d04d4a6e04b32b2cace3508743309ba",
+    "In2_Cu.gbr": "10fb08aa8cc5e84138e9aa00477aa693a38037771f86c3d4e201aa7fda65aac7",
+    "drill-L1-L4.drl": "d6d50af1fe70873cdad9036fd006a5d3802f9df0707688142bfea99b3b228eb6",
+    "drill_npth.drl": "f5a63d604ebc7e59976019317e760cf0274df771f1d48d4210e02e7818216ba4"
   },
   "fitted_components": 61,
   "SMT_components": 61,
@@ -224,18 +224,18 @@
   "silkscreen_changes": [
     {
       "layer": "top",
-      "original_area_mm2": 105.58039278046198,
-      "new_area_mm2": 104.83143206305193,
-      "reference_captions_placed": 9,
+      "original_area_mm2": 102.50971136568305,
+      "new_area_mm2": 95.1611309508578,
+      "reference_captions_placed": 8,
       "captions_omitted_for_clearance": [
         "J_DATA",
         "J_MOTOR",
+        "J_PD",
         "U_BUCK",
         "U_DRV",
+        "U_ESD",
         "U_MCU",
-        "U_PD",
         "U_TEMP",
-        "BZ1",
         "C_BOOTSTRAP",
         "C_BUCK_IN",
         "C_BUCK_OUT1",
@@ -248,11 +248,13 @@
         "C_PD",
         "C_REF",
         "C_TEMP",
+        "C_VCP",
         "C_VM",
         "C_VM_SENSE",
         "C_VREG",
         "D_BUZZER",
         "D_DATA",
+        "D_PWR",
         "D_STATUS",
         "D_TVS",
         "L_BUCK",
@@ -265,7 +267,7 @@
         "R_CC1",
         "R_CC2",
         "R_ENABLE",
-        "R_PD",
+        "R_PG",
         "R_PWR_LED",
         "R_REF_H",
         "R_REF_L",
@@ -286,38 +288,37 @@
         "TP_BOOT",
         "TP_BOOT_USB_DP",
         "TP_DCK",
-        "TP_DIO",
         "TP_GND"
       ],
       "knockout_role_markings": [
         {
           "caption": "PWR",
           "centre_mm": [
-            -7.1,
-            10.9
+            1.2,
+            12.4
           ],
-          "font_height_mm": 1.3,
+          "font_height_mm": 0.8,
           "negative_stroke_mm": 0.15,
           "rectangle_bounds_mm": [
-            -8.827879334999999,
-            9.991339000000002,
-            -5.6785368212165865,
-            11.522599406891757
+            0.011689639999999724,
+            11.715824000000001,
+            2.1996426787834125,
+            12.908097406891757
           ]
         },
         {
           "caption": "DATA",
           "centre_mm": [
-            8.5,
-            10.4
+            -6.3,
+            -14.2
           ],
-          "font_height_mm": 1.3,
+          "font_height_mm": 0.8,
           "negative_stroke_mm": 0.15,
           "rectangle_bounds_mm": [
-            6.246965589879918,
-            9.491339000000002,
-            10.455738846868435,
-            11.022705199999999
+            -7.811481960120082,
+            -14.884175999999998,
+            -4.971556603131565,
+            -13.6917968
           ]
         }
       ],
@@ -326,7 +327,7 @@
     {
       "layer": "bottom",
       "original_area_mm2": 6.164774855678367,
-      "new_area_mm2": 7.097542469452054,
+      "new_area_mm2": 7.000402186918747,
       "reference_captions_placed": 1,
       "captions_omitted_for_clearance": [
         "U_ENCODER",
@@ -355,7 +356,10 @@
     "assembly_sides": "top",
     "JST_process": "top-side SMT C160390; no drilled JST terminals"
   },
-  "upstream_native_export_sha256": "13ecbfcb7323aa5eb263626f0baf311fb4aedc6c73000ec993a1a9d0b4e83d3a",
+  "upstream_native_export_sha256": "33ea8332d6f072fef8034452326f39616302506624defdfa78c2e72d55b88dce",
   "default_export_contains_qualified_assembly_corrections": true,
-  "upstream_tool_output_retained_as_diagnostic_only": "artifacts/engineering-fixes/upstream-native-gerbers.zip"
+  "upstream_tool_output_retained_as_diagnostic_only": "artifacts/engineering-fixes/upstream-native-gerbers.zip",
+  "overall_revision_status": "BLOCKED_ELECTRICAL_QUALIFICATION",
+  "fabrication_approved": false,
+  "current_qualification_receipt": "artifacts/resume-validation.json"
 }

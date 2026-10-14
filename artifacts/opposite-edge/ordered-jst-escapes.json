@@ -1,0 +1,6 @@
+[
+ {"ref":"J_MOTOR","role":"A_PLUS","points":[],"site":[-7.325,11.35],"width":0.3,"diameter":0.5},
+ {"ref":"J_MOTOR","role":"A_MINUS","points":[],"site":[-7.325,12.35],"width":0.3,"diameter":0.5},
+ {"ref":"J_MOTOR","role":"B_PLUS","points":[],"site":[-7.325,13.35],"width":0.3,"diameter":0.5},
+ {"ref":"J_MOTOR","role":"B_MINUS","points":[],"site":[-7.325,14.35],"width":0.3,"diameter":0.5}
+]

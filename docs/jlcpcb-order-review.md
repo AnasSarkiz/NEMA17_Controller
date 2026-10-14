@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # NEMA14_CH32X035G8U6: JLCPCB engineering review
 
 This handoff is prepared for order review. It is not JLCPCB approval or a production release. No order or payment has been submitted.

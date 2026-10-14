@@ -1,9 +1,37 @@
 {
-  "traceCount": 512,
+  "traceCount": 429,
   "currentLimitAmps": 0.350765306122449,
   "currentLimitEngineeringBudgetAmps": 0.3968801324163417,
   "currentLimitBudgetIsNotQualified": true,
   "motorAdcAt35VWorstVolts": 3.240146654445463,
-  "errors": 0,
+  "errors": 28,
   "warnings": 0
 }
+pcb_port_not_connected_error: Port [U_DRV.OUT1B] is not connected to net [A_MINUS] by a PCB trace.
+pcb_trace_error: Trace [.U_DRV > .OUT1B to net.A_MINUS] is missing a connection to SMD pad U_DRV.OUT1B
+pcb_trace_error: Trace [.R_REF_H > .pin2 to net.VREF] has dangling endpoint at (3.85, -2.05)
+pcb_trace_error: Trace [.TP_3V3 > .pin1 to net.V3V3] has dangling endpoint at (6.09, -14.61)
+pcb_trace_error: Trace [.U_MCU > .SLEEP to net.SLEEP] has dangling endpoint at (5.60, 0.65)
+pcb_trace_error: Trace [.U_TEMP > .SDA to net.TEMP_SDA] has dangling endpoint at (3.75, -12.72)
+pcb_trace_error: Trace [.U_MCU > .PB6 to net.TEMP_SCL] has dangling endpoint at (6.55, 1.45)
+pcb_trace_error: Trace [.U_ENCODER > .SCL to net.TEMP_SCL] has dangling endpoint at (0.73, -1.13)
+pcb_trace_error: Trace [.J_PD > .CC2 to net.PD_CC2] has dangling endpoint at (1.05, 15.15)
+pcb_trace_error: Trace [.U_ESD > .VBUS to net.DATA_VBUS] has dangling endpoint at (10.40, 9.03)
+pcb_trace_error: Trace [.D_STATUS > ._POS to net.DATA_VBUS] has dangling endpoint at (6.83, 11.48)
+pcb_trace_error: Trace [.U_DRV > .OUT1B to net.A_MINUS] has dangling endpoint at (2.18, -6.32)
+pcb_trace_error: Trace [.U_DRV > .OUT1B to net.A_MINUS] has dangling endpoint at (2.18, -6.30)
+pcb_trace_error: Trace [.U_DRV > .OUT2A to net.B_PLUS] has dangling endpoint at (-0.50, -4.75)
+pcb_trace_error: Trace [.U_MCU > .PA5 to net.LED_R] has dangling endpoint at (0.25, 3.88)
+pcb_trace_error: Trace [.D_STATUS > .B_NEG to net.STATUS_B_K] has dangling endpoint at (-0.66, 13.36)
+pcb_trace_error: Trace [.U_DRV > .SENSE2 to net.SENSE2] has dangling endpoint at (-3.77, -12.70)
+pcb_trace_error: Trace [.J_DATA > .VBUS1 to net.DATA_VBUS] has dangling endpoint at (-8.38, 0.10)
+pcb_trace_error: Trace [.U_MCU > .ENABLE_N to net.ENABLE_N] has dangling endpoint at (-4.76, 2.67)
+pcb_trace_error: Trace [.J_DATA > .VBUS1 to net.DATA_VBUS] has dangling endpoint at (1.13, -14.55)
+pcb_trace_error: Trace [.U_MCU > .VM_SENSE to net.VM_SENSE] has dangling endpoint at (-3.07, -0.07)
+pcb_trace_error: Trace [.R_PG > .pin1 to net.V3V3] has dangling endpoint at (6.45, -11.85)
+pcb_trace_error: Trace [.J_DATA > .DM1 to net.USB_DM] has dangling endpoint at (9.21, 5.05)
+pcb_trace_error: Trace [.U_MCU > .STEP to net.STEP] has dangling endpoint at (8.88, -2.22)
+pcb_trace_error: Trace [.U_MCU > .PB6 to net.TEMP_SCL] has dangling endpoint at (1.62, -0.38)
+pcb_trace_error: Trace [.J_MOTOR > .A_PLUS to net.A_PLUS] has dangling endpoint at (-8.03, 11.35)
+pcb_trace_error: Trace [.J_MOTOR > .A_MINUS to net.A_MINUS] has dangling endpoint at (-8.63, 12.85)
+pcb_trace_error: Trace [.J_MOTOR > .B_PLUS to net.B_PLUS] has dangling endpoint at (-8.32, 13.95)

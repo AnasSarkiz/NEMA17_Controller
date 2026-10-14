@@ -1,12 +1,405 @@
 {
-  "date": "2026-10-14T05:26:36.635Z",
+  "date": "2026-10-14T15:40:43.900Z",
   "tool": "@tscircuit/checks",
-  "traceCount": 512,
+  "traceCount": 429,
   "currentLimitAmps": 0.350765306122449,
   "currentLimitEngineeringBudgetAmps": 0.3968801324163417,
   "currentLimitBudgetIsNotQualified": true,
   "motorAdcAt35VWorstVolts": 3.240146654445463,
-  "errors": [],
+  "errors": [
+    {
+      "type": "pcb_port_not_connected_error",
+      "message": "Port [U_DRV.OUT1B] is not connected to net [A_MINUS] by a PCB trace.",
+      "error_type": "pcb_port_not_connected_error",
+      "pcb_port_ids": [
+        "pcb_port_134"
+      ],
+      "pcb_component_ids": [
+        "pcb_component_19"
+      ],
+      "pcb_port_not_connected_error_id": "pcb_port_not_connected_error_trace_source_trace_95"
+    },
+    {
+      "type": "pcb_trace_error",
+      "message": "Trace [.U_DRV > .OUT1B to net.A_MINUS] is missing a connection to SMD pad U_DRV.OUT1B",
+      "source_trace_id": "source_trace_95",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_id": "reviewed_local_U_DRV_OUT1B",
+      "pcb_trace_error_id": "missing_connection_reviewed_local_U_DRV_OUT1B_pcb_port_134",
+      "center": {
+        "x": 2.1750000000000007,
+        "y": -6.324999999999999
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": [
+        "pcb_port_134"
+      ]
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_review_baseline_review_baseline_feedback_fanout_pcb_port_152_run_0_run_0_end",
+      "message": "Trace [.R_REF_H > .pin2 to net.VREF] has dangling endpoint at (3.85, -2.05)",
+      "source_trace_id": "source_trace_137",
+      "pcb_trace_id": "review_baseline_review_baseline_feedback_fanout_pcb_port_152_run_0_run_0",
+      "center": {
+        "x": 3.85,
+        "y": -2.0500000000000003
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_review_baseline_review_baseline_same_side_repair_11_V3V3_2_rerouted_run_0_run_0_end",
+      "message": "Trace [.TP_3V3 > .pin1 to net.V3V3] has dangling endpoint at (6.09, -14.61)",
+      "source_trace_id": "source_trace_217",
+      "pcb_trace_id": "review_baseline_review_baseline_same_side_repair_11_V3V3_2_rerouted_run_0_run_0",
+      "center": {
+        "x": 6.089657452464908,
+        "y": -14.614657452464908
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_U_MCU_SLEEP_end",
+      "message": "Trace [.U_MCU > .SLEEP to net.SLEEP] has dangling endpoint at (5.60, 0.65)",
+      "source_trace_id": "source_trace_52",
+      "pcb_trace_id": "reviewed_local_U_MCU_SLEEP",
+      "center": {
+        "x": 5.600000000000001,
+        "y": 0.6500000000000021
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_U_TEMP_SDA_end",
+      "message": "Trace [.U_TEMP > .SDA to net.TEMP_SDA] has dangling endpoint at (3.75, -12.72)",
+      "source_trace_id": "source_trace_174",
+      "pcb_trace_id": "reviewed_local_U_TEMP_SDA",
+      "center": {
+        "x": 3.75,
+        "y": -12.725
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_2_TEMP_SCL_0_rerouted_end",
+      "message": "Trace [.U_MCU > .PB6 to net.TEMP_SCL] has dangling endpoint at (6.55, 1.45)",
+      "source_trace_id": "source_trace_61",
+      "pcb_trace_id": "same_side_repair_2_TEMP_SCL_0_rerouted",
+      "center": {
+        "x": 6.55,
+        "y": 1.45
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_4_TEMP_SCL_2_end",
+      "message": "Trace [.U_ENCODER > .SCL to net.TEMP_SCL] has dangling endpoint at (0.73, -1.13)",
+      "source_trace_id": "source_trace_228",
+      "pcb_trace_id": "same_side_repair_4_TEMP_SCL_2",
+      "center": {
+        "x": 0.7250000000000014,
+        "y": -1.125
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_usb_cc_escape_J_PD_CC2_end",
+      "message": "Trace [.J_PD > .CC2 to net.PD_CC2] has dangling endpoint at (1.05, 15.15)",
+      "source_trace_id": "source_trace_13",
+      "pcb_trace_id": "usb_cc_escape_J_PD_CC2",
+      "center": {
+        "x": 1.050062,
+        "y": 15.149999999999999
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_U_ESD_VBUS_end",
+      "message": "Trace [.U_ESD > .VBUS to net.DATA_VBUS] has dangling endpoint at (10.40, 9.03)",
+      "source_trace_id": "source_trace_154",
+      "pcb_trace_id": "reviewed_local_U_ESD_VBUS",
+      "center": {
+        "x": 10.400000000000002,
+        "y": 9.025000000000002
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_D_STATUS__POS_end",
+      "message": "Trace [.D_STATUS > ._POS to net.DATA_VBUS] has dangling endpoint at (6.83, 11.48)",
+      "source_trace_id": "source_trace_185",
+      "pcb_trace_id": "reviewed_local_D_STATUS__POS",
+      "center": {
+        "x": 6.825000000000003,
+        "y": 11.475000000000001
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_U_DRV_OUT1B_start",
+      "message": "Trace [.U_DRV > .OUT1B to net.A_MINUS] has dangling endpoint at (2.18, -6.32)",
+      "source_trace_id": "source_trace_95",
+      "pcb_trace_id": "reviewed_local_U_DRV_OUT1B",
+      "center": {
+        "x": 2.1750000000000007,
+        "y": -6.324999999999999
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_U_DRV_OUT1B_end",
+      "message": "Trace [.U_DRV > .OUT1B to net.A_MINUS] has dangling endpoint at (2.18, -6.30)",
+      "source_trace_id": "source_trace_95",
+      "pcb_trace_id": "reviewed_local_U_DRV_OUT1B",
+      "center": {
+        "x": 2.1750000000000007,
+        "y": -6.299999999999999
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_reviewed_local_U_DRV_OUT2A_end",
+      "message": "Trace [.U_DRV > .OUT2A to net.B_PLUS] has dangling endpoint at (-0.50, -4.75)",
+      "source_trace_id": "source_trace_96",
+      "pcb_trace_id": "reviewed_local_U_DRV_OUT2A",
+      "center": {
+        "x": -0.5004,
+        "y": -4.7484
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_review_baseline_same_side_repair_6_LED_R_2_layer_section_1_run_0_end",
+      "message": "Trace [.U_MCU > .PA5 to net.LED_R] has dangling endpoint at (0.25, 3.88)",
+      "source_trace_id": "source_trace_63",
+      "pcb_trace_id": "review_baseline_same_side_repair_6_LED_R_2_layer_section_1_run_0",
+      "center": {
+        "x": 0.25,
+        "y": 3.875
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_review_baseline_review_baseline_same_side_repair_10_STATUS_B_K_0_layer_section_1_run_0_run_1_start",
+      "message": "Trace [.D_STATUS > .B_NEG to net.STATUS_B_K] has dangling endpoint at (-0.66, 13.36)",
+      "source_trace_id": "source_trace_188",
+      "pcb_trace_id": "review_baseline_review_baseline_same_side_repair_10_STATUS_B_K_0_layer_section_1_run_0_run_1",
+      "center": {
+        "x": -0.6603425475350938,
+        "y": 13.360342547535094
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_3_SENSE2_0_layer_section_0_end",
+      "message": "Trace [.U_DRV > .SENSE2 to net.SENSE2] has dangling endpoint at (-3.77, -12.70)",
+      "source_trace_id": "source_trace_119",
+      "pcb_trace_id": "same_side_repair_3_SENSE2_0_layer_section_0",
+      "center": {
+        "x": -3.7749999999999986,
+        "y": -12.7
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_5_DATA_VBUS_0_end",
+      "message": "Trace [.J_DATA > .VBUS1 to net.DATA_VBUS] has dangling endpoint at (-8.38, 0.10)",
+      "source_trace_id": "source_trace_22",
+      "pcb_trace_id": "same_side_repair_5_DATA_VBUS_0",
+      "center": {
+        "x": -8.3783,
+        "y": 0.10255555555555596
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_7_ENABLE_N_0_start",
+      "message": "Trace [.U_MCU > .ENABLE_N to net.ENABLE_N] has dangling endpoint at (-4.76, 2.67)",
+      "source_trace_id": "source_trace_51",
+      "pcb_trace_id": "same_side_repair_7_ENABLE_N_0",
+      "center": {
+        "x": -4.76,
+        "y": 2.6650000000000014
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_5_DATA_VBUS_0_rerouted_layer_section_1_start",
+      "message": "Trace [.J_DATA > .VBUS1 to net.DATA_VBUS] has dangling endpoint at (1.13, -14.55)",
+      "source_trace_id": "source_trace_22",
+      "pcb_trace_id": "same_side_repair_5_DATA_VBUS_0_rerouted_layer_section_1",
+      "center": {
+        "x": 1.125,
+        "y": -14.55
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_11_VM_SENSE_2_layer_section_2_end",
+      "message": "Trace [.U_MCU > .VM_SENSE to net.VM_SENSE] has dangling endpoint at (-3.07, -0.07)",
+      "source_trace_id": "source_trace_55",
+      "pcb_trace_id": "same_side_repair_11_VM_SENSE_2_layer_section_2",
+      "center": {
+        "x": -3.0749999999999993,
+        "y": -0.07499999999999929
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_18_V3V3_5_layer_section_0_start",
+      "message": "Trace [.R_PG > .pin1 to net.V3V3] has dangling endpoint at (6.45, -11.85)",
+      "source_trace_id": "source_trace_45",
+      "pcb_trace_id": "same_side_repair_18_V3V3_5_layer_section_0",
+      "center": {
+        "x": 6.450000000000003,
+        "y": -11.85
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_usb_coupled_connector_to_ESD_USB_DM_end",
+      "message": "Trace [.J_DATA > .DM1 to net.USB_DM] has dangling endpoint at (9.21, 5.05)",
+      "source_trace_id": "source_trace_30",
+      "pcb_trace_id": "usb_coupled_connector_to_ESD_USB_DM",
+      "center": {
+        "x": 9.205,
+        "y": 5.05
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_7_STEP_0_layer_section_0_start",
+      "message": "Trace [.U_MCU > .STEP to net.STEP] has dangling endpoint at (8.88, -2.22)",
+      "source_trace_id": "source_trace_49",
+      "pcb_trace_id": "same_side_repair_7_STEP_0_layer_section_0",
+      "center": {
+        "x": 8.875,
+        "y": -2.2249999999999996
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_same_side_repair_0_TEMP_SCL_0_layer_section_3_end",
+      "message": "Trace [.U_MCU > .PB6 to net.TEMP_SCL] has dangling endpoint at (1.62, -0.38)",
+      "source_trace_id": "source_trace_61",
+      "pcb_trace_id": "same_side_repair_0_TEMP_SCL_0_layer_section_3",
+      "center": {
+        "x": 1.6150000000000013,
+        "y": -0.38499999999999873
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_inner1_local_escape_A_PLUS_0_end",
+      "message": "Trace [.J_MOTOR > .A_PLUS to net.A_PLUS] has dangling endpoint at (-8.03, 11.35)",
+      "source_trace_id": "source_trace_146",
+      "pcb_trace_id": "inner1_local_escape_A_PLUS_0",
+      "center": {
+        "x": -8.025,
+        "y": 11.35
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_inner1_local_escape_A_MINUS_1_end",
+      "message": "Trace [.J_MOTOR > .A_MINUS to net.A_MINUS] has dangling endpoint at (-8.63, 12.85)",
+      "source_trace_id": "source_trace_147",
+      "pcb_trace_id": "inner1_local_escape_A_MINUS_1",
+      "center": {
+        "x": -8.625,
+        "y": 12.85
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    },
+    {
+      "type": "pcb_trace_error",
+      "error_type": "pcb_trace_error",
+      "pcb_trace_error_id": "disconnected_endpoint_inner1_local_escape_B_PLUS_2_end",
+      "message": "Trace [.J_MOTOR > .B_PLUS to net.B_PLUS] has dangling endpoint at (-8.32, 13.95)",
+      "source_trace_id": "source_trace_148",
+      "pcb_trace_id": "inner1_local_escape_B_PLUS_2",
+      "center": {
+        "x": -8.325,
+        "y": 13.95
+      },
+      "pcb_component_ids": [],
+      "pcb_port_ids": []
+    }
+  ],
   "warnings": [],
   "manufacturingRelease": false,
   "releaseBlockers": [

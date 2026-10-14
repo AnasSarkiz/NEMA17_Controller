@@ -1,0 +1,14 @@
+[
+  {
+    "ref": "U_TEMP",
+    "role": "SDA",
+    "width": 0.16,
+    "radius": 5
+  },
+  {
+    "ref": "U_MCU",
+    "role": "PB0",
+    "width": 0.16,
+    "radius": 5
+  }
+]

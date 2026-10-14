@@ -1,8 +1,8 @@
 {
   "passed": true,
-  "source_sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
-  "board_sha256": "3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece",
-  "records_checked": 3877,
+  "source_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
+  "board_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
+  "records_checked": 3854,
   "no_inherited_schema_errors_accepted": true,
   "errors": []
 }

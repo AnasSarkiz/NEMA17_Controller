@@ -1,7 +1,12 @@
 {
   "inner1_allowed_nets": [
     "A_MINUS",
+    "A_PLUS",
     "BOOT_PAD",
+    "BUZZER_GATE",
+    "BUZZER_PWM",
+    "B_MINUS",
+    "B_PLUS",
     "DATA_CC1",
     "DATA_CC2",
     "DATA_PRESENT",
@@ -12,6 +17,11 @@
     "ENABLE_N",
     "GND",
     "LED_B",
+    "LED_G",
+    "LED_R",
+    "PD_CC1",
+    "PD_CC2",
+    "PD_GOOD",
     "PD_VBUS",
     "PWR_LED_A",
     "QSPI_SCLK",
@@ -25,7 +35,9 @@
     "STATUS_B_C",
     "STATUS_B_K",
     "STATUS_G_C",
+    "STATUS_G_K",
     "STATUS_R_C",
+    "STATUS_R_K",
     "STEP",
     "SWCLK",
     "SWDIO",
@@ -44,5 +56,10 @@
   "minimum_A_MINUS_inner1_width_mm": 0.3,
   "USB_inner_signal_tracks_allowed": false,
   "required_main_inner1_ground_region_area_mm2": 700,
-  "rationale": "Inner1 carries grounded fill plus reviewed low-current/control escapes. The 6.17 mm A_MINUS bridge is screened at phase current on minimum 17.5 um copper. Every USB trunk stays on an outer layer with its adjacent grounded reference geometrically verified. Independent continuity, copper/thermal and Gerber audits remain mandatory. PD_VBUS on inner1 is limited to the physically cut-verified high-value voltage-divider branch; its full-power rail stays on reviewed power layers."
+  "rationale": "Inner1 retains grounded fill with bounded control routes and short motor-pin transitions totaling no more than 8 mm per phase. Motor trunks use outer/inner2 copper. Every phase transition is at least 0.30 mm wide and must pass full-budget thermal, physical connectivity, clearance, ground-plane area and USB reference checks.",
+  "maximum_total_phase_inner1_length_mm": 8,
+  "minimum_phase_inner1_width_mm": 0.3,
+  "USB_construction_reference_buffer_mm": 0.4,
+  "USB_reference_requires_full_track_width": true,
+  "USB_construction_reference_rationale": "Pair outer edge is 0.330 mm from the centreline. A 0.400 mm construction buffer plus the existing 0.15 mm copper clearance and 0.02 mm grid margin leaves 0.04 mm beyond the 0.20 mm ground-fill setback. Final exact full-track ground-reference geometry remains mandatory."
 }
