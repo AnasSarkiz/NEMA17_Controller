@@ -40,4 +40,4 @@ B+ uses 10.847 mm total inner1 copper at 0.30 mm. Its maximum screened rise is 1
 | actual_via_drills_and_JLCPCB_clearances | 0 | [log](../artifacts/validation-resume/actual_via_drills_and_JLCPCB_clearances.txt) |
 | oscillator_layout | 0 | [log](../artifacts/validation-resume/oscillator_layout.txt) |
 
-Version 1.11.1 corrects generated order instructions and preview captions for the opposite-edge upright USB-C arrangement. CPL guidance now uses the native land-pattern datum and requires supplier pickup confirmation. The qualified copper, footprints, drill files and frozen board hash are unchanged.
+Version 1.11.2 corrects generated order instructions, preview captions and the assembly concept for the opposite-edge upright USB-C arrangement. CPL guidance now uses the native land-pattern datum and requires supplier pickup confirmation. The qualified copper, footprints, drill files and frozen board hash are unchanged.

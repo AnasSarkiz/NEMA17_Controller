@@ -86,7 +86,10 @@ print('Including verified compact native dist/index/circuit.json')
 PYDIST
 # Verify uploads even when the CLI returns zero: it can report failed files
 # after a partial fallback upload. Native bounded archives repair missing rows.
-if [ "${1:-}" != "--recover-only" ]; then
+if [ "${1:-}" = "--bounded-upload" ]; then
+  python3 "$project_root/scripts/ensure-registry-release.py" "$package_stage"
+fi
+if [ "${1:-}" != "--recover-only" ] && [ "${1:-}" != "--bounded-upload" ]; then
   upload_log=$(mktemp /tmp/nema14-registry-upload.XXXXXX)
   XDG_CONFIG_HOME=/workspace/.config tsci push index.circuit.tsx --include-dist --compress > "$upload_log" 2>&1 || true
   python3 - "$upload_log" <<'PYLOG'

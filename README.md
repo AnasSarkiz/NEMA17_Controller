@@ -10,4 +10,4 @@ All 61 fitted parts are TOP SMT. The bottom AS5600 and two capacitors are doNotP
 
 Supplier stock, CPL pickup/polarity confirmation, thermal-via filling/capping, USB shell secondary soldering, and real cable/fastener tolerances need confirmation. Firmware, electrical/thermal bench testing, rear motor fit, and encoder shaft/magnet/air gap remain unverified. No order or payment was submitted.
 
-Version 1.11.1 corrects generated order instructions and preview captions for the opposite-edge upright USB-C arrangement. CPL guidance now uses the native land-pattern datum and requires supplier pickup confirmation. The qualified copper, footprints, drill files and frozen board hash are unchanged.
+Version 1.11.2 corrects generated order instructions, preview captions and the assembly concept for the opposite-edge upright USB-C arrangement. CPL guidance now uses the native land-pattern datum and requires supplier pickup confirmation. The qualified copper, footprints, drill files and frozen board hash are unchanged.
