@@ -1,10 +1,8 @@
-> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+# NEMA14_CH32X035G8U6 1.11.0: engineering fixes
 
-# NEMA14_CH32X035G8U6 1.10.2: engineering fixes
+Saved board SHA-256: `0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64`. Starting GitHub revision: `a342a888b82d46c8a56bb510bb04c3a29b179543`. Original functional nets, NC roles, values and ratings are preserved, with the authorized USB4145 upright connector substitution and three added bottom DNP encoder components; see `artifacts/engineering-fixes/final-engineering-verification.json`.
 
-Saved board SHA-256: `3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece`. Starting GitHub revision: `0d6f9bc`. Original functional nets, NC roles, values and ratings are preserved, with the authorized USB4145 upright connector substitution and three added bottom DNP encoder components; see `artifacts/engineering-fixes/final-engineering-verification.json`.
-
-The board is 35 × 35 × 1.6 mm, four layers, with four NPTH holes exactly (±13, ±13), Ø3.2 mm. USB4145-03-0070-C (C5815189) sockets are upright at nominal (−6.05, 15.15) and (6.05, 15.15), with insertion along +Z. Two defined 10 mm cable housings have 2.1 mm nominal separation. The fastener requirement remains maximum Ø4 mm heads; the STEP screen includes a Ø4.4 mm × 3 mm envelope. This verifies nominal CAD geometry, not physical assembly or rear motor attachment.
+The board is 35 × 35 × 1.6 mm, four layers, with four NPTH holes exactly (±13, ±13), Ø3.2 mm. USB4145-03-0070-C (C5815189) sockets face +Z on opposite PCB edges at nominal J_PD (0.3, 15.15), J_DATA (0.0, -15.15) mm. Two defined 10 mm cable housings have 23.300 mm separation. Maximum Ø6 mm × 3 mm screw heads are screened with a Ø6.4 mm × 3 mm envelope; a Ø6 mm vertical driver shaft is screened with both cable housings present. This verifies nominal CAD geometry, not physical assembly or rear motor attachment.
 
 All 61 fitted parts and 6 separate bare test pads remain on top. Standard USB-C schematic symbols, both contact orientations, independent 5.1 kΩ data CC resistors, CH224K 15 V configuration, Schottky supply isolation, SMT JST-SH C160390 coil order, TMP102, LEDs and buzzer are retained. See [reference pin review](reference-feedback.md) and [motor connector/harness](jst-restoration.md).
 
@@ -18,15 +16,43 @@ ESD protection and local parts were moved to support coupled outer-layer USB tru
 
 | Reference | Previous XY mm | Current XY mm |
 |---|---|---|
-| J_PD | (-6.2, 12.57501465) | (-6.05, 15.149999999999999) |
-| J_DATA | (6.2, 12.57501465) | (6.05, 15.149999999999999) |
-| R_USB_SENSE_H | (-12.805, 16.315) | (-4.5, 1.5) |
-| R_VM_H | (-15.974999999999998, 15.59) | (0.25, -1.25) |
+| J_PD | (-6.05, 15.149999999999999) | (0.30000000000000027, 15.149999999999999) |
+| J_DATA | (6.05, 15.149999999999999) | (0, -15.149999999999999) |
+| R_PD | (12.796602, 15.942003) | (12.8, 8.9) |
+| R_PG | (16.31, -14.54) | (16.3, -8.28) |
+| R_CC1 | (-16.03, -15.72) | (-6.4, -15.72) |
+| R_CC2 | (16.03, -10.72) | (6.8, -10.72) |
+| R_USB_SENSE_L | (-8.804901, -11.83999) | (-8.8, -16.3) |
+| R_VM_L | (-6.625, -16.315) | (-6.62, 5.5) |
+| C_VM_SENSE | (14.580023, -16.670001) | (14.58, 6.76) |
+| D_PD | (-14.829979, 0.410011) | (12.88, -8.58) |
+| D_DATA | (9.389986, -11.869979) | (-8.59, -11.87) |
+| C_VCP | (-7.559885, -8.199998) | (-7.56, -8.2) |
+| C_VREG | (-4.689977, -11.490001) | (-4.69, -11.49) |
+| C_BULK | (-12.05, -5.4) | (-13.84, -5.01) |
+| R_REF_L | (6.006602, -7.787997) | (4.62, -7.79) |
+| R_ENABLE | (-7.073398, -9.427997) | (-7.07, -6.96) |
+| R_SLEEP | (16.31, 14.13) | (6.04, 14.13) |
+| J_MOTOR | (-1.5499999999999996, -14.57) | (-7.2, 12.850000000000001) |
+| C_BUCK_OUT1 | (-13.355, 9.805005) | (-15.430000000000001, 7.85) |
+| C_BUCK_OUT2 | (-15.165000000000001, 7.745005) | (-7.54, 2.79) |
+| U_TEMP | (6.959985, -9.649923) | (4.51, -11.81) |
+| C_TEMP | (7.340115, -11.219998) | (7.34, -11.8) |
+| R_TEMP_SCL | (16.03, 16.44) | (9.17, 16.44) |
+| D_PWR | (-9.341006, -14.216572) | (-13.32, 0.8700000000000001) |
+| D_STATUS | (-16.320002, 12.301996) | (7.800000000000001, 12.3) |
+| R_STATUS_G | (0.48, 16.03) | (0.48, 9.17) |
+| Q_BUZZER | (15.629997, -8.46999) | (8.55, -8.45) |
+| D_BUZZER | (11.437407, -7.820002000000001) | (11.82, 5.77) |
+| R_BUZZER_GATE | (16.03, -11.93) | (6.98, -12.88) |
+| R_BUZZER_PD | (11.755645, -10.219998) | (9.1, -10.71) |
+| C_BUZZER | (6.6, -12.5) | (5.64, -1.44) |
+| TP_DIO | (10.5, -15.5) | (10.5, -16.69) |
 
 | Coupled core | Signal / reference layer | Length difference mm | Exact grounded reference coverage outside actual USB via antipads |
 |---|---|---|---|
-| connector_to_ESD | bottom / inner2 | 0.141 | 100.000%, 100.000% |
-| ESD_to_MCU | bottom / inner2 | 0.220 | 100.000%, 100.000% |
+| connector_to_ESD | bottom / inner2 | 0.023 | 100.000%, 100.000% |
+| ESD_to_MCU | bottom / inner2 | 0.000 | 100.000%, 100.000% |
 
 Core width/gap are 0.25/0.16 mm; local terminal fanouts are 0.16 mm. Every projected centerline is intersected geometrically with adjacent grounded copper. This is layout evidence; fabricator stackup/controlled impedance, USB signal integrity, EMC and hardware operation are unverified.
 
@@ -36,7 +62,7 @@ Display offsets are canonical strings and optional null IDs are omitted. Board-l
 
 The default `artifacts/nema14-gerbers.zip` now applies qualified source-derived BOM/CPL, top-only paste, 100 µm stencil apertures, four 60% exposed-pad windows and readable silkscreen with mask/drill/edge guards. Bare test pads, mounting holes and the three bottom DNP encoder components are excluded from assembly purchasing and paste. Copper, masks, outline and drill bytes remain identical to the upstream native exporter. `artifacts/engineering-fixes/upstream-native-gerbers.zip` is retained for diagnosis; the default archive and the separate order-review CAM both pass their independent audits.
 
-The actual drill/outline files verify the specified 35 mm square and (±13, ±13) Ø3.2 mm mounting holes. Source, placement and Gerber copper agree. Current counts: 512 trace records, 229 vias, 20 grounded regions; 50 physical net groups connected. Native DRC: zero errors/warnings. Placement orientation advice remains visible and is accepted only when every full flagged-component diagnostic is a recognized passive-orientation suggestion and placement DRC is clean.
+The actual drill/outline files verify the specified 35 mm square and (±13, ±13) Ø3.2 mm mounting holes. Source, placement and Gerber copper agree. Current counts: 427 trace records, 253 vias, 35 grounded regions; 50 physical net groups connected. Native DRC: zero errors/warnings. Placement orientation advice remains visible and is accepted only when every full flagged-component diagnostic is a recognized passive-orientation suggestion and placement DRC is clean.
 
 | Required check | Result | Evidence |
 |---|---|---|

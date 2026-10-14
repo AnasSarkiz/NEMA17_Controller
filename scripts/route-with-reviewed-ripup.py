@@ -11,6 +11,7 @@ from shapely.ops import unary_union
 import verify_supplier_connectivity as g
 
 j=g.j;ROOT=g.ROOT;STEP=.025;LOW=-17.5;N=1401
+construction_margin=float(next((q.split('=',1)[1] for q in sys.argv if q.startswith('--grid-margin-mm=')),.02));assert .003<=construction_margin<=.02
 layers=['top','bottom'] if next(e for e in j if e['type']=='pcb_board')['num_layers']==2 else ['top','inner1','inner2','bottom']
 nets={e['subcircuit_connectivity_map_key']:e for e in j if e['type']=='source_net'}
 traces={e['subcircuit_connectivity_map_key']:e['source_trace_id'] for e in j if e['type']=='source_trace'}
@@ -34,7 +35,7 @@ def blocked(net,via=False):
     soft_images=[Image.new('L',(N,N)) for _ in layers];soft_ds=[ImageDraw.Draw(im) for im in soft_images]
     draw_layers=['top','inner1','inner2','bottom'] if via and next(e for e in j if e['type']=='pcb_board')['num_layers']==4 else layers
     images=[Image.new('L',(N,N)) for _ in draw_layers];ds=[ImageDraw.Draw(im) for im in images]
-    margin=max(.15+current_via_diameter/2+.02,.20+current_via_hole/2+.02) if via else .15+current_width/2+.02
+    margin=max(.15+current_via_diameter/2+construction_margin,.20+current_via_hole/2+construction_margin) if via else .15+current_width/2+construction_margin
     def add(ls,geom,extra=0,soft=False):
         p=geom.buffer(margin+extra,quad_segs=16)
         pieces=list(p.geoms) if hasattr(p,'geoms') else [p]

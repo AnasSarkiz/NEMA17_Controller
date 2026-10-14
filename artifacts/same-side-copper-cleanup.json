@@ -1238,5 +1238,189 @@
   {
     "unanchored_copper_removed": "same_side_repair_0_BUZZER_PWM_0_via_45",
     "net": "BUZZER_PWM"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_PD_VBUS_1_via_23",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_PD_VBUS_1_via_47",
+    "net": "PD_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_PD_VDD_0_via_158",
+    "net": "PD_VDD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_PD_VDD_0_via_275",
+    "net": "PD_VDD"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_31_PD_CC2_1_via_5",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_PD_CC2_0_via_15",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_PD_CC2_0_via_49",
+    "net": "PD_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_5_DATA_CC2_0_via_45",
+    "net": "DATA_CC2"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STEP_0_via_33",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STEP_0_via_36",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STEP_0_via_47",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STEP_0_via_235",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STEP_0_via_258",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_STEP_0_via_262",
+    "net": "STEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_3_SLEEP_0_via_11",
+    "net": "SLEEP"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_8_DCK_0_via_57",
+    "net": "DCK"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_8_DCK_0_via_77",
+    "net": "DCK"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_8_DCK_0_via_89",
+    "net": "DCK"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_VM_SENSE_0_rerouted_via_29",
+    "net": "VM_SENSE"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_TEMP_SDA_0_via_23",
+    "net": "TEMP_SDA"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_1_TEMP_SDA_0_via_106",
+    "net": "TEMP_SDA"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_TEMP_SCL_2_rerouted_via_42",
+    "net": "TEMP_SCL"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_4_TEMP_SCL_2_rerouted_via_76",
+    "net": "TEMP_SCL"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_BUZZER_PWM_0_via_26",
+    "net": "BUZZER_PWM"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_BUZZER_PWM_0_via_45",
+    "net": "BUZZER_PWM"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_2_BUZZER_PWM_0_via_15",
+    "net": "BUZZER_PWM"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_25",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_46",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_69",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_104",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_235",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_265",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_268",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_0_LED_R_0_via_286",
+    "net": "LED_R"
+  },
+  {
+    "unanchored_copper_removed": "reviewed_local_U_ESD_VBUS_via",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_57",
+    "net": "ENABLE_N"
+  },
+  {
+    "unanchored_copper_removed": "inner1_local_escape_ENABLE_N_0_via",
+    "net": "ENABLE_N"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_14_VM_SENSE_0_via_50",
+    "net": "VM_SENSE"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_3_SENSE2_0_via_90",
+    "net": "SENSE2"
+  },
+  {
+    "unanchored_copper_removed": "inner1_local_escape_A_PLUS_0_via",
+    "net": "A_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "inner1_local_escape_A_MINUS_1_via",
+    "net": "A_MINUS"
+  },
+  {
+    "unanchored_copper_removed": "reviewed_local_U_DRV_OUT2A_via",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "inner1_local_escape_B_PLUS_2_via",
+    "net": "B_PLUS"
+  },
+  {
+    "unanchored_copper_removed": "freerouted_via_25",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_21_DATA_VBUS_2_via_2",
+    "net": "DATA_VBUS"
+  },
+  {
+    "unanchored_copper_removed": "same_side_repair_21_DATA_VBUS_2_via_16",
+    "net": "DATA_VBUS"
   }
 ]

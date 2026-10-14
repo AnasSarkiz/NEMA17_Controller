@@ -1,7 +1,7 @@
 {
-  "board_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
-  "default_export_sha256": "7587a50fc4b228883e49ced1f27f09edebfd2793500edf89b418d699a70fc228",
-  "upstream_native_export_sha256": "33ea8332d6f072fef8034452326f39616302506624defdfa78c2e72d55b88dce",
+  "board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
+  "default_export_sha256": "4938553292f2b70d68978b493c093432bd954451203ac4e495a7a55a6f68a5c7",
+  "upstream_native_export_sha256": "106439759221d684eb422d6dc03be19a9f65394c6f31603ff6e5bd1d1e37db92",
   "qualified_paste_silkscreen_BOM_CPL_applied": true,
   "native_copper_mask_outline_drill_bytes_preserved": true,
   "supplier_approval": false

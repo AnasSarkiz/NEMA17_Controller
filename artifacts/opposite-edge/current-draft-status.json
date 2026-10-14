@@ -1,17 +1,15 @@
 {
-  "status": "BLOCKED_ELECTRICAL_QUALIFICATION",
-  "board_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
+  "status": "QUALIFIED_HARDWARE_PROTOTYPE",
+  "board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
   "checks_ran": 23,
-  "zero_exit_checks": 16,
-  "nonzero_exit_checks": 7,
-  "disconnected_nets": [
-    "A_PLUS",
-    "A_MINUS",
-    "B_PLUS"
-  ],
-  "native_DRC_errors": 28,
+  "zero_exit_checks": 22,
+  "nonzero_exit_checks": 1,
+  "recognized_orientation_advisories": 8,
+  "disconnected_nets": [],
+  "native_DRC_errors": 0,
   "mechanical_nominal_screen_passed": true,
+  "prepared_for_JLCPCB_engineering_review": true,
   "rear_motor_compatibility_verified": false,
   "new_registry_release_published": false,
-  "publication_allowed": false
+  "publication_allowed": true
 }

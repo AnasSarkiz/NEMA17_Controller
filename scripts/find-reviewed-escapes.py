@@ -14,6 +14,7 @@ for ref in ['U_MCU','U_DRV','U_PD']:
  c=next(c for c in g.comp.values() if g.src[c['source_component_id']]==ref);pad=next(e for e in j if e['type']=='pcb_smtpad' and e.get('pcb_component_id')==c['pcb_component_id'] and e.get('width',0)>1 and e.get('height',0)>1);off=json.loads((g.ROOT/'src/thermal-via-offsets.json').read_text())[ref];thermal_sites.append((pad['x']+off['x'],pad['y']+off['y']))
 fixed=('usb_','oscillator_','reviewed_local_','review_escape_','reviewed_phase_inner1_')
 def protected(e):
+ if '--protect-power' in sys.argv and g.nets.get(g.key(e)) in {'PD_VBUS','DATA_VBUS','PD_VDD','LOGIC_IN','V3V3','V1V1','VREF','VCP','VREG','BUCK_SW','BUCK_BST','CP1','CP2','A_PLUS','A_MINUS','B_PLUS','B_MINUS','SENSE1','SENSE2'}:return True
  if '--protect-power' in sys.argv and g.nets.get(g.key(e)) in ['PD_VBUS','DATA_VBUS','LOGIC_IN','V3V3','A_PLUS','A_MINUS','B_PLUS','B_MINUS','SENSE1','SENSE2','BUCK_SW','BUCK_BST','CP1','CP2','VCP','VREG']:return True
  if e['type']=='pcb_via':return e['pcb_via_id'].startswith(fixed) or (g.nets.get(g.key(e))=='GND' and (e['pcb_via_id'].startswith('thermal') or any(math.dist((e['x'],e['y']),q)<.001 for q in thermal_sites))) or g.nets.get(g.key(e)) in ['USB_DP','USB_DM','MCU_DP','MCU_DM','XIN','XOUT','XTAL_OUT']
  return e['pcb_trace_id'].startswith(fixed) or g.nets.get(g.key(e)) in ['USB_DP','USB_DM','MCU_DP','MCU_DM','XIN','XOUT','XTAL_OUT']

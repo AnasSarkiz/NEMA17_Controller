@@ -1,44 +1,7 @@
 {
   "checkedNets": 50,
-  "disconnectedNets": [
-    {
-      "net": "A_PLUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net29",
-      "islands": [
-        [
-          "U_DRV.OUT1A"
-        ],
-        [
-          "J_MOTOR.A_PLUS"
-        ]
-      ]
-    },
-    {
-      "net": "A_MINUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net30",
-      "islands": [
-        [
-          "U_DRV.OUT1B"
-        ],
-        [
-          "J_MOTOR.A_MINUS"
-        ]
-      ]
-    },
-    {
-      "net": "B_PLUS",
-      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net31",
-      "islands": [
-        [
-          "U_DRV.OUT2A"
-        ],
-        [
-          "J_MOTOR.B_PLUS"
-        ]
-      ]
-    }
-  ],
+  "disconnectedNets": [],
   "allCopperLayersChecked": true,
   "nativePolygonAndSlotGeometry": true,
-  "sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59"
+  "sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64"
 }

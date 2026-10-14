@@ -1,41 +1,25 @@
-# NEMA14_CH32X035G8U6 — opposite-edge v1.11.0 draft
+# NEMA14 CH32 — current engineering review
 
-**Status: electrically unqualified; not ready for JLCPCB order review, fabrication or publication.**
+**CAD qualified for hardware-prototype publication and JLCPCB engineering/order review.** All 50 physical nets are connected. Native DRC reports zero errors and warnings. All 23 qualification checks ran: 22 returned zero; the remaining command returned component-orientation advice with zero placement DRC errors/warnings. Default and order-review CAM audits pass.
 
-Frozen Circuit JSON SHA-256: `8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59`. All 23 required checks ran: 16 returned zero, 7 returned nonzero. Native placement advisories retain their actual exit code; they do not explain the electrical/CAM failures.
+35 × 35 × 1.6 mm, four layers. Four NPTH mounting holes are exactly (±13, ±13), Ø3.2 mm in actual Circuit JSON and Excellon drills. Minimum via drill/pad is Ø0.30/Ø0.45 mm. Upright GCT USB4145 sockets occupy opposite edges; the defined 10 mm cable housings have 23.3 mm nominal clearance. The model screens maximum Ø6 × 3 mm screw heads within a Ø6.4 mm envelope and an Ø6 mm tool path.
 
-The PCB is 35 × 35 × 1.6 mm with four copper layers. Actual JSON and Excellon mount checks pass for four Ø3.2 mm holes at (±13, ±13). Actual via/drill fabrication checks pass the requested Ø0.30 mm drill / Ø0.45 mm pad minima.
+All 61 fitted parts are TOP SMT. The bottom AS5600 and two capacitors are doNotPlace; six separate top test pads remain bare. Exact source components, ports, nets and traces match GitHub baseline a342a888. USB/PD, JST-SH A+/A−/B+/B− wiring, TMP102, status/power LEDs and buzzer are retained.
 
-USB-C sockets remain upright (+Z) and now occupy opposite edges: J_PD (0.30000000000000027, 15.149999999999999) and J_DATA (0, -15.149999999999999) mm. Defined 10 × 7 × 30 mm housings have 23.300 mm nominal separation. Native part models, with conservative bounds for the invalid GCT STEP solids, pass the nominal head/tool screen for heads ≤Ø6 × 3 mm and a Ø6.4 mm screening envelope. This is model evidence, not measured assemblies or rear-motor fit.
+[Current review and checks](opposite-edge-review.md) · [Qualification](../artifacts/resume-validation.json) · [Connectivity](../artifacts/physical-connectivity.json) · [JLCPCB review package](../artifacts/jlcpcb-review/JLCPCB-OrderReview.zip) · [Six-sheet schematic PDF](../artifacts/schematic-a4.pdf) · [Nominal mechanical screen](../artifacts/mechanical/opposite-edge-fit.png).
 
-All intended source ports, source nets, source traces and functional component fields match the latest GitHub baseline. This proves electrical intent was retained; physical copper connectivity below is incomplete. TMP102, status/power LEDs, buzzer, driver, flash (RP2040), USB/PD and fitted JST-SH C160390 remain. All 81 RP2040 / 61 CH32 fitted components are TOP SMT; bare TOP pads and the BOTTOM AS5600 plus two doNotPlace capacitors are excluded from the factory placement and paste.
+Supplier stock, CPL pickup/polarity confirmation, thermal-via filling/capping, USB shell secondary soldering, and real cable/fastener tolerances need confirmation. Firmware, electrical/thermal bench testing, rear motor fit, and encoder shaft/magnet/air gap remain unverified. No order or payment was submitted.
 
-The JST-SH SHR-04V-S harness retains A+, A−, B+, B− pin order. It is not physically interchangeable with the JST-PH connector in Rishabh’s reference. USB schematic and physical-pin checks pass; these do not establish USB/PD bench operation.
+Frozen board SHA-256: `0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64`. The native placement log contains eight recognized orientation advisories; informational empty-space data are retained. Publication accepts only this complete recognized class and continues to reject real DRC/CAM or unknown findings. Six guard regression cases pass.
 
-## Remaining blockers
+B+ uses 10.847 mm total inner1 copper at 0.30 mm. Its maximum screened rise is 18.91 °C at 0.40 A on 17.5 µm inner copper, below the 30 °C screen. The revised 12 mm phase bound retains the ≥700 mm² connected inner1 ground requirement and all USB/clearance/CAM checks. This is a calculation, not a bench temperature measurement.
 
-- **A_PLUS**: 2 disconnected physical pad groups. See the exact pad lists in [physical connectivity](../artifacts/physical-connectivity.json).
-- **A_MINUS**: 2 disconnected physical pad groups. See the exact pad lists in [physical connectivity](../artifacts/physical-connectivity.json).
-- **B_PLUS**: 2 disconnected physical pad groups. See the exact pad lists in [physical connectivity](../artifacts/physical-connectivity.json).
-- Native DRC records **28 errors**. Open connections and unused/dangling copper must be resolved; no real errors were suppressed.
-- USB reference: Insufficient full-width adjacent GND reference usb_coupled_connector_to_ESD_USB_DM 0.999015.
-- USB reference: Insufficient full-width adjacent GND reference usb_coupled_ESD_to_MCU_USB_DM 0.992718.
-- Failed **every_trace_review**: [actual log](../artifacts/validation-resume/every_trace_review.txt).
-- Failed **copper_widths**: [actual log](../artifacts/validation-resume/copper_widths.txt).
-- Failed **full_independent_CAM**: [actual log](../artifacts/validation-resume/full_independent_CAM.txt).
-- Independent CAM: unassigned-copper-islands (34 islands).
-- Independent CAM: physical-netlist-failure.
-- JLCPCB stock, pickup/polarity/rotation confirmation, three filled/capped/planarized thermal vias and secondary soldering of eight USB shell joints remain supplier decisions. No order was placed.
-- Rear mounting, rear shaft/magnet dimensions, encoder air gap, complete fastener/cable tolerances and bench electrical/thermal/firmware operation remain unverified.
-
-## Current evidence
-
-| Check | Actual exit code | Log |
+| Check | Actual exit code | Evidence |
 |---|---:|---|
 | all_resistor_edge_clearances | 0 | [log](../artifacts/validation-resume/all_resistor_edge_clearances.txt) |
 | typescript | 0 | [log](../artifacts/validation-resume/typescript.txt) |
-| drc | 1 | [log](../artifacts/validation-resume/drc.txt) |
-| connectivity | 1 | [log](../artifacts/validation-resume/connectivity.txt) |
+| drc | 0 | [log](../artifacts/validation-resume/drc.txt) |
+| connectivity | 0 | [log](../artifacts/validation-resume/connectivity.txt) |
 | fitted_JST_and_actual_drills | 0 | [log](../artifacts/validation-resume/fitted_JST_and_actual_drills.txt) |
 | exact_mounts_and_actual_drills | 0 | [log](../artifacts/validation-resume/exact_mounts_and_actual_drills.txt) |
 | native_json_checks | 0 | [log](../artifacts/validation-resume/native_json_checks.txt) |
@@ -45,17 +29,13 @@ The JST-SH SHR-04V-S harness retains A+, A−, B+, B− pin order. It is not phy
 | native_schematic-placement | 0 | [log](../artifacts/validation-resume/native_schematic-placement.txt) |
 | native_placement | 1 | [log](../artifacts/validation-resume/native_placement.txt) |
 | strict_Circuit_JSON_schema | 0 | [log](../artifacts/validation-resume/strict_Circuit_JSON_schema.txt) |
-| USB_coupled_copper_and_ground_reference | 1 | [log](../artifacts/validation-resume/USB_coupled_copper_and_ground_reference.txt) |
+| USB_coupled_copper_and_ground_reference | 0 | [log](../artifacts/validation-resume/USB_coupled_copper_and_ground_reference.txt) |
 | schematic_geometry_ERC | 0 | [log](../artifacts/validation-resume/schematic_geometry_ERC.txt) |
-| every_trace_review | 1 | [log](../artifacts/validation-resume/every_trace_review.txt) |
+| every_trace_review | 0 | [log](../artifacts/validation-resume/every_trace_review.txt) |
 | reference_feedback | 0 | [log](../artifacts/validation-resume/reference_feedback.txt) |
 | gerber_shorts | 0 | [log](../artifacts/validation-resume/gerber_shorts.txt) |
-| copper_widths | 1 | [log](../artifacts/validation-resume/copper_widths.txt) |
-| full_independent_CAM | 1 | [log](../artifacts/validation-resume/full_independent_CAM.txt) |
+| copper_widths | 0 | [log](../artifacts/validation-resume/copper_widths.txt) |
+| full_independent_CAM | 0 | [log](../artifacts/validation-resume/full_independent_CAM.txt) |
 | native_circular_keepout_regression | 0 | [log](../artifacts/validation-resume/native_circular_keepout_regression.txt) |
 | actual_via_drills_and_JLCPCB_clearances | 0 | [log](../artifacts/validation-resume/actual_via_drills_and_JLCPCB_clearances.txt) |
 | oscillator_layout | 0 | [log](../artifacts/validation-resume/oscillator_layout.txt) |
-
-[Nominal mechanical screen](../artifacts/mechanical/opposite-edge-fit.png) · [six-sheet schematic PDF](../artifacts/schematic-a4.pdf) · [every-trace inventory](../artifacts/reference-feedback/every-trace-review.csv) · [native manufacturing audit](../artifacts/manufacturing/audit.json)
-
-Gerbers/BOM/CPL/paste/silk were regenerated from this hash and are diagnostic review assets. Their corrected assembly policy does not qualify incomplete copper. Current tscircuit public releases remain v1.10.2. The publication guard must pass before any new release.

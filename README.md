@@ -1,11 +1,11 @@
-# NEMA14_CH32X035G8U6 1.11.0 — WORK IN PROGRESS
+# NEMA14_CH32X035G8U6 1.11.0
 
-**Not ready for fabrication or JLCPCB order review. This revision has failed electrical/routing checks and has not been republished. The current public release remains v1.10.2.**
+**CAD qualified for hardware-prototype publication and JLCPCB engineering/order review.** All 50 physical nets are connected. Native DRC reports zero errors and warnings. All 23 qualification checks ran: 22 returned zero; the remaining command returned component-orientation advice with zero placement DRC errors/warnings. Default and order-review CAM audits pass.
 
-35 × 35 × 1.6 mm, four-layer PCB. The upright USB-C connectors now occupy opposite edges, separated by 30.3 mm in Y. The nominal model screen uses two 10 mm cable housings, maximum Ø6 × 3 mm screw heads and a Ø6.4 mm screening envelope. The four NPTH mounts remain (±13, ±13), Ø3.2 mm; minimum via drill/pad is Ø0.30/Ø0.45 mm.
+35 × 35 × 1.6 mm, four layers. Four NPTH mounting holes are exactly (±13, ±13), Ø3.2 mm in actual Circuit JSON and Excellon drills. Minimum via drill/pad is Ø0.30/Ø0.45 mm. Upright GCT USB4145 sockets occupy opposite edges; the defined 10 mm cable housings have 23.3 mm nominal clearance. The model screens maximum Ø6 × 3 mm screw heads within a Ø6.4 mm envelope and an Ø6 mm tool path.
 
-Factory fitted components remain TOP only; the AS5600 and two capacitors are BOTTOM doNotPlace. Intended component values, source ports, source nets and source traces match the latest GitHub baseline. Physical copper connectivity is incomplete.
+All 61 fitted parts are TOP SMT. The bottom AS5600 and two capacitors are doNotPlace; six separate top test pads remain bare. Exact source components, ports, nets and traces match GitHub baseline a342a888. USB/PD, JST-SH A+/A−/B+/B− wiring, TMP102, status/power LEDs and buzzer are retained.
 
-See [current draft and blockers](docs/opposite-edge-review.md), [qualification receipts](artifacts/resume-validation.json), [physical connectivity](artifacts/physical-connectivity.json), [native DRC](artifacts/drc-report.json) and [nominal mechanical screen](artifacts/mechanical/opposite-edge-fit.png). Earlier reports and assembly concepts describe previous revisions and are not evidence for this draft.
+[Current review and checks](docs/opposite-edge-review.md) · [Qualification](artifacts/resume-validation.json) · [Connectivity](artifacts/physical-connectivity.json) · [JLCPCB review package](artifacts/jlcpcb-review/JLCPCB-OrderReview.zip) · [Six-sheet schematic PDF](artifacts/schematic-a4.pdf) · [Nominal mechanical screen](artifacts/mechanical/opposite-edge-fit.png).
 
-The Gerbers, BOM/CPL and stencil data are diagnostic review assets. Do not order from this draft. Supplier process/pickup approval, bench testing, rear-motor mounting and encoder shaft/magnet fit remain unverified.
+Supplier stock, CPL pickup/polarity confirmation, thermal-via filling/capping, USB shell secondary soldering, and real cable/fastener tolerances need confirmation. Firmware, electrical/thermal bench testing, rear motor fit, and encoder shaft/magnet/air gap remain unverified. No order or payment was submitted.

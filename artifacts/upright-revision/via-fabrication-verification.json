@@ -1,26 +1,26 @@
 {
   "passed": true,
-  "board_sha256": "8a2522a9feb5440f003af73734c87f3c0b27506f1052c12bc4991b42aad42f59",
-  "actual_plated_drill_file_sha256": "d6d50af1fe70873cdad9036fd006a5d3802f9df0707688142bfea99b3b228eb6",
+  "board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
+  "actual_plated_drill_file_sha256": "41fbe232ca3d1146dd9728986735d75e6860590da7e869896a257642f187118f",
   "capability_source": "https://jlcpcb.com/capabilities/pcb-capabilities",
   "via_rule": "Diameter difference >=0.10 mm; 0.15 mm preferred. This revision requires >=0.30 mm drill and >=0.45 mm pad.",
   "nominal_dimensions_not_fabricated_measurements": true,
-  "source_vias": 279,
-  "actual_drill_matches": 279,
+  "source_vias": 253,
+  "actual_drill_matches": 253,
   "minimum_actual_declared_drill_mm": 0.3,
   "minimum_declared_pad_mm": 0.45,
   "minimum_nominal_ring_mm": 0.07500000000000001,
   "minimum_foreign_drill_to_copper_mm": 0.22961940777125447,
   "minimum_plated_drill_pair_edge_gap_mm": 0.20250092689870366,
   "drill_parser_stats": {
-    "objects": 287,
+    "objects": 261,
     "G85_joined": 8,
     "parser_notices": [
       "<unknown>:14 \"G90\": G90 header statement found after end of header"
     ],
     "tools_mm": {
       "0.599999": 8,
-      "0.3": 279
+      "0.3": 253
     }
   },
   "via_coordinates": [
@@ -81,20 +81,6 @@
       "nominal_annular_ring_mm": 0.1
     },
     {
-      "via": "freerouted_via_25",
-      "Circuit_JSON_xy_mm": [
-        -6.4604,
-        -11.4113
-      ],
-      "actual_Excellon_xy_mm": [
-        -6.460399999999999,
-        -11.411300000000004
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
       "via": "freerouted_via_38",
       "Circuit_JSON_xy_mm": [
         -10.83,
@@ -145,20 +131,6 @@
       "actual_Excellon_xy_mm": [
         10.520500000000014,
         2.740100000000002
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
-      "via": "freerouted_via_57",
-      "Circuit_JSON_xy_mm": [
-        -5.7675,
-        -4.4971
-      ],
-      "actual_Excellon_xy_mm": [
-        -5.7675,
-        -4.497099999999998
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.5,
@@ -546,11 +518,11 @@
       "via": "usb_escape_U_MCU_DIO_via",
       "Circuit_JSON_xy_mm": [
         3.75,
-        5.5
+        5.425
       ],
       "actual_Excellon_xy_mm": [
         3.7499999999999982,
-        5.499999999999999
+        5.424999999999997
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -593,20 +565,6 @@
       "actual_Excellon_xy_mm": [
         4.425000000000001,
         12.675
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_31_PD_CC2_1_via_5",
-      "Circuit_JSON_xy_mm": [
-        -3.4749999999999996,
-        5.400000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        -3.4749999999999983,
-        5.400000000000001
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -681,20 +639,6 @@
       "drill_mm": 0.3,
       "pad_mm": 0.45,
       "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_3_SENSE2_0_via_90",
-      "Circuit_JSON_xy_mm": [
-        -3.7749999999999986,
-        -12.7
-      ],
-      "actual_Excellon_xy_mm": [
-        -3.7750000000000004,
-        -12.699999999999998
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
     },
     {
       "via": "same_side_repair_3_SENSE2_0_via_147",
@@ -943,20 +887,6 @@
       "actual_Excellon_xy_mm": [
         5.849999999999998,
         3.924999999999998
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_14_VM_SENSE_0_via_50",
-      "Circuit_JSON_xy_mm": [
-        -3.0749999999999993,
-        -0.07499999999999929
-      ],
-      "actual_Excellon_xy_mm": [
-        -3.075000000000002,
-        -0.07500000000000008
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -1733,34 +1663,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_21_DATA_VBUS_2_via_2",
-      "Circuit_JSON_xy_mm": [
-        -6.549999999999999,
-        8.400000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        -6.550000000000003,
-        8.4
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_21_DATA_VBUS_2_via_16",
-      "Circuit_JSON_xy_mm": [
-        -11.35,
-        2.375
-      ],
-      "actual_Excellon_xy_mm": [
-        -11.35000000000001,
-        2.3750000000000027
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "reviewed_local_U_PD_CC1_via",
       "Circuit_JSON_xy_mm": [
         -2.5999999999999996,
@@ -1901,20 +1803,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_0_PD_VDD_0_via_158",
-      "Circuit_JSON_xy_mm": [
-        10.075000000000003,
-        15.075000000000003
-      ],
-      "actual_Excellon_xy_mm": [
-        10.074999999999985,
-        15.074999999999985
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "same_side_repair_0_PD_VDD_0_via_183",
       "Circuit_JSON_xy_mm": [
         2.5,
@@ -1923,20 +1811,6 @@
       "actual_Excellon_xy_mm": [
         2.4999999999999987,
         14.324999999999989
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_PD_VDD_0_via_275",
-      "Circuit_JSON_xy_mm": [
-        -10.524999999999999,
-        7.075000000000003
-      ],
-      "actual_Excellon_xy_mm": [
-        -10.524999999999999,
-        7.0749999999999975
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -1985,34 +1859,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_0_PD_CC2_0_via_15",
-      "Circuit_JSON_xy_mm": [
-        -1.3999999999999986,
-        7.300000000000001
-      ],
-      "actual_Excellon_xy_mm": [
-        -1.3999999999999988,
-        7.299999999999997
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_PD_CC2_0_via_49",
-      "Circuit_JSON_xy_mm": [
-        -5.924999999999999,
-        -0.5
-      ],
-      "actual_Excellon_xy_mm": [
-        -5.924999999999998,
-        -0.5
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "same_side_repair_0_PD_CC2_0_via_61",
       "Circuit_JSON_xy_mm": [
         -5.125,
@@ -2021,34 +1867,6 @@
       "actual_Excellon_xy_mm": [
         -5.125000000000002,
         -4.324999999999998
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "inner1_local_escape_ENABLE_N_0_via",
-      "Circuit_JSON_xy_mm": [
-        -5.567,
-        -6.097
-      ],
-      "actual_Excellon_xy_mm": [
-        -5.5669999999999975,
-        -6.097000000000001
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_VM_SENSE_0_rerouted_via_29",
-      "Circuit_JSON_xy_mm": [
-        15.375,
-        5.900000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        15.375000000000002,
-        5.899999999999995
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -2091,20 +1909,6 @@
       "actual_Excellon_xy_mm": [
         -0.4500999999999998,
         15.149999999999986
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "usb_cc_escape_J_PD_CC2_via",
-      "Circuit_JSON_xy_mm": [
-        1.050062,
-        15.149999999999999
-      ],
-      "actual_Excellon_xy_mm": [
-        1.0501,
-        15.149999999999999
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -2183,12 +1987,12 @@
     {
       "via": "usb_power_escape_J_DATA_east_via",
       "Circuit_JSON_xy_mm": [
-        2,
-        -15.099999999999998
+        1.575,
+        -16.049999999999997
       ],
       "actual_Excellon_xy_mm": [
-        1.9999999999999996,
-        -15.09999999999999
+        1.5749999999999986,
+        -16.050000000000004
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.5,
@@ -2349,48 +2153,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_8_DCK_0_via_57",
-      "Circuit_JSON_xy_mm": [
-        6.25,
-        -0.07499999999999929
-      ],
-      "actual_Excellon_xy_mm": [
-        6.249999999999999,
-        -0.07499999999999996
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_8_DCK_0_via_77",
-      "Circuit_JSON_xy_mm": [
-        9.325000000000003,
-        -2.3999999999999986
-      ],
-      "actual_Excellon_xy_mm": [
-        9.325000000000008,
-        -2.400000000000001
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_8_DCK_0_via_89",
-      "Circuit_JSON_xy_mm": [
-        8.700000000000003,
-        -8.15
-      ],
-      "actual_Excellon_xy_mm": [
-        8.69999999999999,
-        -8.149999999999997
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "same_side_repair_14_SLEEP_1_via_233",
       "Circuit_JSON_xy_mm": [
         11.175,
@@ -2427,20 +2189,6 @@
       "actual_Excellon_xy_mm": [
         10.72499999999999,
         4.049999999999999
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "reviewed_local_U_ESD_VBUS_via",
-      "Circuit_JSON_xy_mm": [
-        10.400000000000002,
-        9.025000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        10.399999999999993,
-        9.024999999999995
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -2559,34 +2307,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_1_PD_VBUS_1_via_23",
-      "Circuit_JSON_xy_mm": [
-        8.775000000000002,
-        12.475000000000001
-      ],
-      "actual_Excellon_xy_mm": [
-        8.774999999999984,
-        12.474999999999987
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
-      "via": "same_side_repair_1_PD_VBUS_1_via_47",
-      "Circuit_JSON_xy_mm": [
-        7.325000000000003,
-        14.375
-      ],
-      "actual_Excellon_xy_mm": [
-        7.324999999999998,
-        14.374999999999996
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
       "via": "same_side_repair_0_LOGIC_IN_0_via_2",
       "Circuit_JSON_xy_mm": [
         10.8,
@@ -2685,34 +2405,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_1_TEMP_SDA_0_via_23",
-      "Circuit_JSON_xy_mm": [
-        2.875,
-        -10.475
-      ],
-      "actual_Excellon_xy_mm": [
-        2.8749999999999973,
-        -10.474999999999989
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_1_TEMP_SDA_0_via_106",
-      "Circuit_JSON_xy_mm": [
-        -0.9499999999999993,
-        5.350000000000001
-      ],
-      "actual_Excellon_xy_mm": [
-        -0.95,
-        5.350000000000003
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "same_side_repair_3_TEMP_SCL_1_via_14",
       "Circuit_JSON_xy_mm": [
         7.725000000000001,
@@ -2749,90 +2441,6 @@
       "actual_Excellon_xy_mm": [
         9.399999999999991,
         12.74999999999999
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_4_TEMP_SCL_2_rerouted_via_42",
-      "Circuit_JSON_xy_mm": [
-        9.3,
-        10.525000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        9.299999999999986,
-        10.524999999999999
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_4_TEMP_SCL_2_rerouted_via_76",
-      "Circuit_JSON_xy_mm": [
-        6.575000000000003,
-        8.575000000000003
-      ],
-      "actual_Excellon_xy_mm": [
-        6.5750000000000055,
-        8.574999999999994
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_5_DATA_CC2_0_via_45",
-      "Circuit_JSON_xy_mm": [
-        8.400000000000002,
-        -11.399999999999999
-      ],
-      "actual_Excellon_xy_mm": [
-        8.399999999999999,
-        -11.400000000000006
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_BUZZER_PWM_0_via_26",
-      "Circuit_JSON_xy_mm": [
-        2.325000000000003,
-        -12.8
-      ],
-      "actual_Excellon_xy_mm": [
-        2.3249999999999997,
-        -12.79999999999999
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_BUZZER_PWM_0_via_45",
-      "Circuit_JSON_xy_mm": [
-        5.175000000000001,
-        -16.075
-      ],
-      "actual_Excellon_xy_mm": [
-        5.175000000000002,
-        -16.07499999999999
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_3_SLEEP_0_via_11",
-      "Circuit_JSON_xy_mm": [
-        1.8250000000000028,
-        -12.225
-      ],
-      "actual_Excellon_xy_mm": [
-        1.8250000000000006,
-        -12.225
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -2951,48 +2559,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_0_USB_DM_0_via_2",
-      "Circuit_JSON_xy_mm": [
-        14.025000000000002,
-        0.3249999999999993
-      ],
-      "actual_Excellon_xy_mm": [
-        14.025000000000013,
-        0.3250000000000001
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_USB_DM_0_via_5",
-      "Circuit_JSON_xy_mm": [
-        15.175000000000004,
-        0.27500000000000213
-      ],
-      "actual_Excellon_xy_mm": [
-        15.175000000000017,
-        0.2750000000000002
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_USB_DM_0_via_31",
-      "Circuit_JSON_xy_mm": [
-        15.300000000000004,
-        8.3
-      ],
-      "actual_Excellon_xy_mm": [
-        15.299999999999995,
-        8.299999999999995
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "same_side_repair_1_TEMP_SCL_0_via_5",
       "Circuit_JSON_xy_mm": [
         9.325000000000003,
@@ -3029,20 +2595,6 @@
       "actual_Excellon_xy_mm": [
         5.724999999999999,
         -0.6000000000000002
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_2_BUZZER_PWM_0_via_15",
-      "Circuit_JSON_xy_mm": [
-        8.975000000000001,
-        -3.674999999999999
-      ],
-      "actual_Excellon_xy_mm": [
-        8.975000000000007,
-        -3.675
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -3259,90 +2811,6 @@
       "nominal_annular_ring_mm": 0.07500000000000001
     },
     {
-      "via": "same_side_repair_0_STEP_0_via_33",
-      "Circuit_JSON_xy_mm": [
-        1.9000000000000021,
-        9.700000000000003
-      ],
-      "actual_Excellon_xy_mm": [
-        1.8999999999999981,
-        9.699999999999998
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_STEP_0_via_36",
-      "Circuit_JSON_xy_mm": [
-        2.9750000000000014,
-        10.75
-      ],
-      "actual_Excellon_xy_mm": [
-        2.975000000000001,
-        10.74999999999999
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_STEP_0_via_47",
-      "Circuit_JSON_xy_mm": [
-        5.050000000000001,
-        12.775000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        5.050000000000004,
-        12.775000000000011
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_STEP_0_via_235",
-      "Circuit_JSON_xy_mm": [
-        16.025,
-        9.650000000000002
-      ],
-      "actual_Excellon_xy_mm": [
-        16.025,
-        9.650000000000004
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_STEP_0_via_258",
-      "Circuit_JSON_xy_mm": [
-        13.875,
-        1.6500000000000021
-      ],
-      "actual_Excellon_xy_mm": [
-        13.875000000000009,
-        1.6500000000000012
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_STEP_0_via_262",
-      "Circuit_JSON_xy_mm": [
-        11.275000000000002,
-        -0.1999999999999993
-      ],
-      "actual_Excellon_xy_mm": [
-        11.275000000000007,
-        -0.20000000000000023
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
       "via": "same_side_repair_0_DATA_PRESENT_0_via_40",
       "Circuit_JSON_xy_mm": [
         -7.699999999999999,
@@ -3351,118 +2819,6 @@
       "actual_Excellon_xy_mm": [
         -7.700000000000004,
         -10.850000000000014
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_25",
-      "Circuit_JSON_xy_mm": [
-        2.650000000000002,
-        -4.424999999999999
-      ],
-      "actual_Excellon_xy_mm": [
-        2.649999999999999,
-        -4.425
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_46",
-      "Circuit_JSON_xy_mm": [
-        11.275000000000002,
-        -0.875
-      ],
-      "actual_Excellon_xy_mm": [
-        11.274999999999988,
-        -0.8750000000000001
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_69",
-      "Circuit_JSON_xy_mm": [
-        14.025000000000002,
-        2.6750000000000007
-      ],
-      "actual_Excellon_xy_mm": [
-        14.02500000000001,
-        2.6750000000000016
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_104",
-      "Circuit_JSON_xy_mm": [
-        16.375,
-        6.800000000000001
-      ],
-      "actual_Excellon_xy_mm": [
-        16.374999999999993,
-        6.799999999999995
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_235",
-      "Circuit_JSON_xy_mm": [
-        6.825000000000003,
-        15.5
-      ],
-      "actual_Excellon_xy_mm": [
-        6.825000000000005,
-        15.500000000000002
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_265",
-      "Circuit_JSON_xy_mm": [
-        2.8000000000000007,
-        12.700000000000003
-      ],
-      "actual_Excellon_xy_mm": [
-        2.799999999999995,
-        12.699999999999985
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_268",
-      "Circuit_JSON_xy_mm": [
-        3.075000000000003,
-        11.375
-      ],
-      "actual_Excellon_xy_mm": [
-        3.0749999999999975,
-        11.375000000000002
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.45,
-      "nominal_annular_ring_mm": 0.07500000000000001
-    },
-    {
-      "via": "same_side_repair_0_LED_R_0_via_286",
-      "Circuit_JSON_xy_mm": [
-        3.075000000000003,
-        8.55
-      ],
-      "actual_Excellon_xy_mm": [
-        3.0749999999999975,
-        8.55
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,
@@ -3777,20 +3133,6 @@
       "nominal_annular_ring_mm": 0.1
     },
     {
-      "via": "reviewed_local_U_DRV_OUT2A_via",
-      "Circuit_JSON_xy_mm": [
-        -0.2963,
-        -4.6176
-      ],
-      "actual_Excellon_xy_mm": [
-        -0.2962999999999996,
-        -4.617599999999997
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
       "via": "reviewed_local_J_MOTOR_A_PLUS_via",
       "Circuit_JSON_xy_mm": [
         -7.325,
@@ -3861,48 +3203,6 @@
       "nominal_annular_ring_mm": 0.1
     },
     {
-      "via": "inner1_local_escape_A_PLUS_0_via",
-      "Circuit_JSON_xy_mm": [
-        -8.025,
-        11.35
-      ],
-      "actual_Excellon_xy_mm": [
-        -8.025,
-        11.349999999999993
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
-      "via": "inner1_local_escape_A_MINUS_1_via",
-      "Circuit_JSON_xy_mm": [
-        -8.625,
-        12.85
-      ],
-      "actual_Excellon_xy_mm": [
-        -8.624999999999988,
-        12.85
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
-      "via": "inner1_local_escape_B_PLUS_2_via",
-      "Circuit_JSON_xy_mm": [
-        -8.325,
-        13.95
-      ],
-      "actual_Excellon_xy_mm": [
-        -8.324999999999994,
-        13.949999999999982
-      ],
-      "drill_mm": 0.3,
-      "pad_mm": 0.5,
-      "nominal_annular_ring_mm": 0.1
-    },
-    {
       "via": "same_side_repair_0_PD_VDD_0_rerouted_via_210",
       "Circuit_JSON_xy_mm": [
         -8.2,
@@ -3925,6 +3225,342 @@
       "actual_Excellon_xy_mm": [
         -8.800000000000004,
         1.8999999999999997
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_A_PLUS_0_via_11",
+      "Circuit_JSON_xy_mm": [
+        -3.1499999999999986,
+        -0.125
+      ],
+      "actual_Excellon_xy_mm": [
+        -3.149999999999999,
+        -0.125
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_A_PLUS_0_via_34",
+      "Circuit_JSON_xy_mm": [
+        -5.75,
+        -4.125
+      ],
+      "actual_Excellon_xy_mm": [
+        -5.750000000000001,
+        -4.1250000000000036
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_A_PLUS_0_via_90",
+      "Circuit_JSON_xy_mm": [
+        -10.575,
+        7.125
+      ],
+      "actual_Excellon_xy_mm": [
+        -10.575,
+        7.124999999999998
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "inner1_local_escape_A_MINUS_0_via",
+      "Circuit_JSON_xy_mm": [
+        2.825,
+        -10.55
+      ],
+      "actual_Excellon_xy_mm": [
+        2.8249999999999975,
+        -10.54999999999999
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_A_MINUS_0_via_4",
+      "Circuit_JSON_xy_mm": [
+        -1.1499999999999986,
+        -12.1
+      ],
+      "actual_Excellon_xy_mm": [
+        -1.1499999999999995,
+        -12.099999999999994
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_A_MINUS_0_via_18",
+      "Circuit_JSON_xy_mm": [
+        -6.199999999999999,
+        -12.075
+      ],
+      "actual_Excellon_xy_mm": [
+        -6.200000000000004,
+        -12.074999999999994
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_B_PLUS_0_via_5",
+      "Circuit_JSON_xy_mm": [
+        -0.3000000000000007,
+        -4.699999999999999
+      ],
+      "actual_Excellon_xy_mm": [
+        -0.3000000000000001,
+        -4.699999999999996
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_B_PLUS_0_via_39",
+      "Circuit_JSON_xy_mm": [
+        8.950000000000003,
+        -2.375
+      ],
+      "actual_Excellon_xy_mm": [
+        8.949999999999998,
+        -2.3750000000000027
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_B_PLUS_0_via_64",
+      "Circuit_JSON_xy_mm": [
+        11.8,
+        -0.5249999999999986
+      ],
+      "actual_Excellon_xy_mm": [
+        11.800000000000008,
+        -0.5249999999999999
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_B_PLUS_0_via_66",
+      "Circuit_JSON_xy_mm": [
+        14.0,
+        1.6750000000000007
+      ],
+      "actual_Excellon_xy_mm": [
+        14.000000000000002,
+        1.6750000000000014
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_B_PLUS_0_via_87",
+      "Circuit_JSON_xy_mm": [
+        16.1,
+        9.850000000000001
+      ],
+      "actual_Excellon_xy_mm": [
+        16.099999999999987,
+        9.850000000000003
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "same_side_repair_0_B_PLUS_0_via_319",
+      "Circuit_JSON_xy_mm": [
+        -4.75,
+        12.900000000000002
+      ],
+      "actual_Excellon_xy_mm": [
+        -4.749999999999997,
+        12.899999999999993
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.5,
+      "nominal_annular_ring_mm": 0.1
+    },
+    {
+      "via": "feedback_ground_stitch_0_next",
+      "Circuit_JSON_xy_mm": [
+        -2.776426,
+        -11.137799
+      ],
+      "actual_Excellon_xy_mm": [
+        -2.776399999999998,
+        -11.137800000000007
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DATA_VBUS_0_rerouted_rerouted_via_2",
+      "Circuit_JSON_xy_mm": [
+        -4.924999999999999,
+        4.100000000000001
+      ],
+      "actual_Excellon_xy_mm": [
+        -4.924999999999999,
+        4.099999999999997
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_47",
+      "Circuit_JSON_xy_mm": [
+        6.975000000000001,
+        9.650000000000002
+      ],
+      "actual_Excellon_xy_mm": [
+        6.974999999999997,
+        9.650000000000004
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_89",
+      "Circuit_JSON_xy_mm": [
+        -2.7749999999999986,
+        10.0
+      ],
+      "actual_Excellon_xy_mm": [
+        -2.775,
+        9.999999999999993
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_92",
+      "Circuit_JSON_xy_mm": [
+        -4.875,
+        9.925
+      ],
+      "actual_Excellon_xy_mm": [
+        -4.8750000000000036,
+        9.925000000000004
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_95",
+      "Circuit_JSON_xy_mm": [
+        -7.074999999999999,
+        10.05
+      ],
+      "actual_Excellon_xy_mm": [
+        -7.074999999999997,
+        10.05000000000001
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_97",
+      "Circuit_JSON_xy_mm": [
+        -8.1,
+        11.075000000000003
+      ],
+      "actual_Excellon_xy_mm": [
+        -8.099999999999998,
+        11.075
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_115",
+      "Circuit_JSON_xy_mm": [
+        -13.35,
+        5.125
+      ],
+      "actual_Excellon_xy_mm": [
+        -13.350000000000007,
+        5.125
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_153",
+      "Circuit_JSON_xy_mm": [
+        -4.824999999999999,
+        -12.85
+      ],
+      "actual_Excellon_xy_mm": [
+        -4.825,
+        -12.85000000000001
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_DCK_0_via_172",
+      "Circuit_JSON_xy_mm": [
+        -3.1999999999999993,
+        -15.55
+      ],
+      "actual_Excellon_xy_mm": [
+        -3.1999999999999975,
+        -15.549999999999995
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_V3V3_0_rerouted_rerouted_via_2",
+      "Circuit_JSON_xy_mm": [
+        9.325000000000003,
+        -3.8249999999999993
+      ],
+      "actual_Excellon_xy_mm": [
+        9.325000000000005,
+        -3.8250000000000055
+      ],
+      "drill_mm": 0.3,
+      "pad_mm": 0.45,
+      "nominal_annular_ring_mm": 0.07500000000000001
+    },
+    {
+      "via": "same_side_repair_0_V3V3_0_rerouted_rerouted_via_12",
+      "Circuit_JSON_xy_mm": [
+        6.650000000000002,
+        -14.175
+      ],
+      "actual_Excellon_xy_mm": [
+        6.650000000000003,
+        -14.175000000000002
       ],
       "drill_mm": 0.3,
       "pad_mm": 0.45,

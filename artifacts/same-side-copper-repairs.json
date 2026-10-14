@@ -16737,5 +16737,272 @@
     "expanded": 1033970,
     "trace_id": "same_side_repair_0_PD_VDD_0_rerouted",
     "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "A_PLUS",
+    "start_port": "pcb_port_137",
+    "start_mm": [
+      0.3500000000000014,
+      -4.449999999999999
+    ],
+    "end_mm": [
+      -7.325,
+      11.35
+    ],
+    "vias_mm": [
+      [
+        -3.1499999999999986,
+        -0.125
+      ],
+      [
+        -5.75,
+        -4.125
+      ],
+      [
+        -10.575,
+        7.125
+      ]
+    ],
+    "expanded": 239044,
+    "trace_id": "same_side_repair_0_A_PLUS_0",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "A_MINUS",
+    "start_port": "pcb_port_134",
+    "start_mm": [
+      2.825,
+      -10.55
+    ],
+    "end_mm": [
+      -7.325,
+      12.35
+    ],
+    "vias_mm": [
+      [
+        -1.1499999999999986,
+        -12.1
+      ],
+      [
+        -6.199999999999999,
+        -12.075
+      ]
+    ],
+    "expanded": 648121,
+    "trace_id": "same_side_repair_0_A_MINUS_0",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "B_PLUS",
+    "start_port": "pcb_port_139",
+    "start_mm": [
+      -0.47500000000000003,
+      -5.075
+    ],
+    "end_mm": [
+      -5.125,
+      13.075000000000001
+    ],
+    "vias_mm": [
+      [
+        -0.3000000000000007,
+        -4.699999999999999
+      ],
+      [
+        8.950000000000003,
+        -2.375
+      ],
+      [
+        11.8,
+        -0.5249999999999986
+      ],
+      [
+        14.0,
+        1.6750000000000007
+      ],
+      [
+        16.1,
+        9.850000000000001
+      ],
+      [
+        -4.75,
+        12.900000000000002
+      ]
+    ],
+    "expanded": 799156,
+    "trace_id": "same_side_repair_0_B_PLUS_0",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "LOGIC_IN",
+    "start_port": "pcb_port_110",
+    "start_mm": [
+      8.825000000000003,
+      -8.75
+    ],
+    "end_mm": [
+      -6.5,
+      -10.149999999999999
+    ],
+    "vias_mm": [],
+    "expanded": 199530,
+    "trace_id": "same_side_repair_0_LOGIC_IN_0_rerouted",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "PD_GOOD",
+    "start_port": "pcb_port_56",
+    "start_mm": [
+      2.1750000000000007,
+      -16.25
+    ],
+    "end_mm": [
+      -5.699999999999999,
+      -8.5
+    ],
+    "vias_mm": [],
+    "expanded": 62811,
+    "trace_id": "same_side_repair_0_PD_GOOD_0_rerouted_rerouted",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "DATA_VBUS",
+    "start_port": "pcb_port_94",
+    "start_mm": [
+      -4.925000000000001,
+      1.9000000000000001
+    ],
+    "end_mm": [
+      -4.952027027027025,
+      8.375
+    ],
+    "vias_mm": [
+      [
+        -4.924999999999999,
+        4.100000000000001
+      ]
+    ],
+    "expanded": 45670,
+    "trace_id": "same_side_repair_0_DATA_VBUS_0_rerouted_rerouted",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "DATA_VBUS",
+    "start_port": "pcb_port_22",
+    "start_mm": [
+      -2.1999999999999993,
+      -14.05
+    ],
+    "end_mm": [
+      -7.57300931174089,
+      -10.299198380566802
+    ],
+    "vias_mm": [],
+    "expanded": 41814,
+    "trace_id": "same_side_repair_1_DATA_VBUS_1_rerouted",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "USB_DM",
+    "start_port": "pcb_port_82",
+    "start_mm": [
+      9.94996,
+      8.149096
+    ],
+    "end_mm": [
+      9.205,
+      5.05
+    ],
+    "vias_mm": [
+      [
+        15.300000000000004,
+        8.3
+      ],
+      [
+        15.175000000000004,
+        0.27500000000000213
+      ],
+      [
+        14.025000000000002,
+        0.9250000000000007
+      ]
+    ],
+    "expanded": 227950,
+    "trace_id": "same_side_repair_0_USB_DM_0",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "DCK",
+    "start_port": "pcb_port_80",
+    "start_mm": [
+      4.950000000000003,
+      4.950000000000003
+    ],
+    "end_mm": [
+      7.700000000000003,
+      -14.725
+    ],
+    "vias_mm": [
+      [
+        6.975000000000001,
+        9.650000000000002
+      ],
+      [
+        -2.7749999999999986,
+        10.0
+      ],
+      [
+        -4.875,
+        9.925
+      ],
+      [
+        -7.074999999999999,
+        10.05
+      ],
+      [
+        -8.1,
+        11.075000000000003
+      ],
+      [
+        -13.35,
+        5.125
+      ],
+      [
+        -4.824999999999999,
+        -12.85
+      ],
+      [
+        -3.1999999999999993,
+        -15.55
+      ]
+    ],
+    "expanded": 2048222,
+    "trace_id": "same_side_repair_0_DCK_0",
+    "removed_foreign_trace_ids": []
+  },
+  {
+    "net": "V3V3",
+    "start_port": "pcb_port_55",
+    "start_mm": [
+      10.0,
+      -3.8249999999999993
+    ],
+    "end_mm": [
+      6.400000000000002,
+      -14.225
+    ],
+    "vias_mm": [
+      [
+        9.325000000000003,
+        -3.8249999999999993
+      ],
+      [
+        6.650000000000002,
+        -14.175
+      ]
+    ],
+    "expanded": 408338,
+    "trace_id": "same_side_repair_0_V3V3_0_rerouted_rerouted",
+    "removed_foreign_trace_ids": []
   }
 ]

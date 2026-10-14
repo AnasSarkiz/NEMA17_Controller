@@ -1,0 +1,16 @@
+[
+  {
+    "trace": "same_side_repair_48_DATA_VBUS_6_layer_section_1",
+    "action": "removed_for_rerouting",
+    "conflicting_foreign_copper": [
+      "same_side_repair_6_DATA_CC1_0_layer_section_2"
+    ]
+  },
+  {
+    "trace": "same_side_repair_21_DATA_VBUS_2_layer_section_1",
+    "action": "removed_for_rerouting",
+    "conflicting_foreign_copper": [
+      "same_side_repair_1_TEMP_SDA_1_via_162"
+    ]
+  }
+]

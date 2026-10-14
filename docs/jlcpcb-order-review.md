@@ -1,5 +1,3 @@
-> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
-
 # NEMA14_CH32X035G8U6: JLCPCB engineering review
 
 This handoff is prepared for order review. It is not JLCPCB approval or a production release. No order or payment has been submitted.
@@ -28,4 +26,4 @@ Supplier review still must confirm exact stock and quote, pickup orientation, vi
 
 Every native and order-source record passes its installed Circuit JSON schema. Display offsets are canonical strings, optional null IDs are omitted, and the buzzer uses a generic pinout record with its real MPN and pin identities retained. See `native-json-compatibility.json`. The actual coupled USB copper and adjacent grounded references are checked separately; fabricator stackup/impedance and bench USB operation remain unverified.
 
-Board source SHA-256: `3fd91cbdd43a40d07dbd60709c69a4a5b9ff544db04724e9039fab96c6a78ece`. Corrected CAM audit: PASS, zero findings. Electrical source, placement, native footprints/courtyards, copper, masks, drills and outline are preserved.
+Board source SHA-256: `0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64`. Corrected CAM audit: PASS, zero findings. Electrical source, placement, native footprints/courtyards, copper, masks, drills and outline are preserved.

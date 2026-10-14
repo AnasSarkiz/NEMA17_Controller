@@ -388,5 +388,20 @@
       "same_side_repair_6_PD_CC1_0"
     ],
     "live_pad_connectivity_unchanged": true
+  },
+  {
+    "removed_trace_ids": [
+      "same_side_repair_20_DATA_VBUS_1",
+      "same_side_repair_21_DATA_VBUS_2_layer_section_2"
+    ],
+    "retained_live_traces": [
+      "review_baseline_review_baseline_freerouted_trace_40_run_0_run_0",
+      "review_baseline_review_baseline_freerouted_trace_43_run_0_run_0",
+      "review_baseline_review_baseline_same_side_repair_11_V3V3_2_rerouted_run_0_run_0",
+      "reviewed_local_U_MCU_PB6",
+      "same_side_repair_0_DATA_VBUS_0_rerouted",
+      "same_side_repair_5_DATA_VBUS_0"
+    ],
+    "live_pad_connectivity_unchanged": true
   }
 ]

@@ -11,7 +11,8 @@ python3 - "$project_root" "$package_stage" <<'PYSTAGE'
 import hashlib,json,pathlib,re,shutil,subprocess,sys
 root,stage=map(pathlib.Path,sys.argv[1:])
 revision=subprocess.check_output(['git','-C',str(root),'rev-parse','HEAD'],text=True).strip()
-for d in ['src','docs','scripts','references']:shutil.copytree(root/d,stage/d,ignore=shutil.ignore_patterns('__pycache__','*.pyc','*.pdf'))
+for d in ['src','docs','scripts','references','tests']:
+ if (root/d).is_dir():shutil.copytree(root/d,stage/d,ignore=shutil.ignore_patterns('__pycache__','*.pyc','*.pdf'))
 for f in ['index.circuit.tsx','assembly-preview.circuit.tsx','README.md','package.json','package-lock.json','tsconfig.json','tscircuit.config.json']:shutil.copy2(root/f,stage/f)
 for f in (root/'imports/supplier').rglob('*.tsx'):
  target=stage/f.relative_to(root);target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(f,target)
@@ -41,7 +42,7 @@ for name in ['usb-verification.json','schema-verification.json','export-policy.j
  source=root/'artifacts/engineering-fixes'/name
  if source.exists():shutil.copy2(source,engineering/name)
 shutil.copytree(root/'artifacts/jlcpcb-review',stage/'artifacts/jlcpcb-review',ignore=shutil.ignore_patterns('cam','order-source.circuit.json'))
-shutil.copytree(root/'artifacts/opposite-edge',stage/'artifacts/opposite-edge',ignore=shutil.ignore_patterns('baseline*','*.txt'))
+shutil.copytree(root/'artifacts/opposite-edge',stage/'artifacts/opposite-edge',ignore=shutil.ignore_patterns('baseline*','*.txt','*.npy','mcu-routing-window.png','rejected-phase-*.json'))
 shutil.copytree(root/'artifacts/edge-resistors',stage/'artifacts/edge-resistors')
 shutil.copytree(root/'artifacts/schematic-redesign',stage/'artifacts/schematic-redesign',ignore=shutil.ignore_patterns('baseline*.json'))
 shutil.copytree(root/'artifacts/validation-resume',stage/'artifacts/validation-resume')
