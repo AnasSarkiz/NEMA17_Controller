@@ -12,20 +12,20 @@
   "every_trace_inventory_verified": true,
   "hardware_operation_verified": false,
   "passed": true,
-  "verified_at_utc": "2026-10-14T23:29:58.481830+00:00",
+  "verified_at_utc": "2026-10-15T00:46:01.693998+00:00",
   "public_package": "AnasSarkiz/NEMA14_CH32X035G8U6",
-  "version": "1.11.2",
-  "package_release_id": "6ec63093-0f87-47f7-acc2-35835d09ecce",
+  "version": "1.12.0",
+  "package_release_id": "d2289b5f-055b-4f8e-8006-3f73509e1e4c",
   "package_is_private": false,
   "ready_to_build": true,
   "public_page": "https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6",
   "page_http_status": 200,
-  "github_revision": "14f39543d57c6af1f158146d4898bcdf79173081",
-  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/14f39543d57c6af1f158146d4898bcdf79173081",
-  "public_file_count": 373,
+  "github_revision": "9bcde14e6865e6719d26c354127052890d848067",
+  "github_commit_url": "https://github.com/AnasSarkiz/NEMA17_Controller/commit/9bcde14e6865e6719d26c354127052890d848067",
+  "public_file_count": 386,
   "review_board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
-  "public_index_sha256": "1a7de1535d105ab65d7fdec284f82619354140f92542aa1b2a949c778c3198be",
-  "public_dist_sha256": "dff6951325a7fa0a2605913da989e822e39b4300d48c9b9a8f30c848a223999d",
+  "public_index_sha256": "91f2d285ad79b93d8c4d6a9dc2ddb92ade4b06c1737b69b99e54d52ad58e9727",
+  "public_dist_sha256": "91b8dd042fb1ae87eca7cda70f196c313ecb351a7132989ca80f31f639837c05",
   "geometry_and_functional_records_unchanged": true,
   "cad_urls_pinned_to_revision": true,
   "mount_coordinates_mm": [
@@ -233,7 +233,7 @@
     },
     {
       "path": "docs/top-assembly.md",
-      "sha256": "d4472c3215aa022946648c3c19249e876cc07d2a4d1954bd1e37067875fad022"
+      "sha256": "e70d7df51f6bca431be07a013e0c3dfd7ef8c581aa4d47ec0fb6ebfaadb24ef2"
     },
     {
       "path": "artifacts/top-assembly/functional-preservation.json",
@@ -245,43 +245,43 @@
     },
     {
       "path": "artifacts/top-assembly/assembly-preview.circuit.json",
-      "sha256": "8aea7044872d8a59c244ec7bbdc71ff0881435452bb531a1edd670eae3a44da5"
+      "sha256": "eab857b6177f6d39b54ccd23664ff2d199af2942a5211dc19029c06a014ea1f9"
     },
     {
       "path": "assembly-preview.circuit.tsx",
-      "sha256": "5eb79f21c55fe77c5e431e2b748ed4b0f6c9405834ab2a9959d4c76a4ec59aac"
+      "sha256": "f12ffb4d7cb6612da832d44581bf80b605300bb3cd1ab8209ba96f3c9676aa83"
     }
   ],
   "public_github_checks": [
     {
       "path": "artifacts/board.circuit.json",
       "sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/14f39543d57c6af1f158146d4898bcdf79173081/artifacts/board.circuit.json"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9bcde14e6865e6719d26c354127052890d848067/artifacts/board.circuit.json"
     },
     {
       "path": "index.circuit.json",
       "sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/14f39543d57c6af1f158146d4898bcdf79173081/index.circuit.json"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9bcde14e6865e6719d26c354127052890d848067/index.circuit.json"
     },
     {
       "path": "artifacts/nema14-gerbers.zip",
       "sha256": "4938553292f2b70d68978b493c093432bd954451203ac4e495a7a55a6f68a5c7",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/14f39543d57c6af1f158146d4898bcdf79173081/artifacts/nema14-gerbers.zip"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9bcde14e6865e6719d26c354127052890d848067/artifacts/nema14-gerbers.zip"
     },
     {
       "path": "imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step",
       "sha256": "37a757d880a4d9fd7245a628c6d26d1d405e234fb7ea8a957dfd7486c6544327",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/14f39543d57c6af1f158146d4898bcdf79173081/imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9bcde14e6865e6719d26c354127052890d848067/imports/supplier/USB4145_03_0070_C/USB4145_03_0070_C.step"
     },
     {
       "path": "imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.step",
       "sha256": "964a6ef3cf073fa6bd9a72a93f3994d14fdd4580a82e79db9f75d96016a47941",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/14f39543d57c6af1f158146d4898bcdf79173081/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.step"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9bcde14e6865e6719d26c354127052890d848067/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.step"
     },
     {
       "path": "imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.obj",
       "sha256": "82e116e1a05f42b854ef6ec9bb73f3204d230dc6102f8188bd1e84352918de8a",
-      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/14f39543d57c6af1f158146d4898bcdf79173081/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.obj"
+      "url": "https://raw.githubusercontent.com/AnasSarkiz/NEMA17_Controller/9bcde14e6865e6719d26c354127052890d848067/imports/supplier/BM04B_SRSS_TB_LF__SN_/BM04B_SRSS_TB_LF__SN_.obj"
     }
   ],
   "full_manufacturing_audit_passed": true,

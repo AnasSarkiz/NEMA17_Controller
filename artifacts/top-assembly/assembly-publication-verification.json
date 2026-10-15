@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-10-15T00:46:16.877511+00:00",
+  "package": "AnasSarkiz/NEMA14_CH32X035G8U6",
+  "version": "1.12.0",
+  "actual_public_preview_component": "assembly.circuit.json",
+  "public_preview_matches_native_assembly": true,
+  "reviewed_board_records_preserved": true,
+  "review_board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
+  "public_mechanical_parts": 9,
+  "public_cables": 1,
+  "motor_rear_attachment_verified": false,
+  "physical_assembly_tested": false
+}
