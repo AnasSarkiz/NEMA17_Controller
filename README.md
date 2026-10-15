@@ -1,3 +1,7 @@
+## Motor and hardware assembly preview
+
+The default 3D preview now includes the complete routed PCB, motor dimensional concept, four screws, 6 mm spacers and JST-SH cable. [Assembly details and limits](docs/top-assembly.md). [Full assembly](artifacts/top-assembly/assembly-complete.png) · [Top view](artifacts/top-assembly/assembly-top.png) · [3D GLB](artifacts/top-assembly/assembled.glb). Rear motor retention, rear shaft and magnet geometry remain unverified; the view is not rear-motor compatibility evidence. Qualified fabrication JSON and Gerbers are unchanged.
+
 # NEMA14_CH32X035G8U6 1.11.0
 
 **CAD qualified for hardware-prototype publication and JLCPCB engineering/order review.** All 50 physical nets are connected. Native DRC reports zero errors and warnings. All 23 qualification checks ran: 22 returned zero; the remaining command returned component-orientation advice with zero placement DRC errors/warnings. Default and order-review CAM audits pass.
