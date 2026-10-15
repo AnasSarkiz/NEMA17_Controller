@@ -1,0 +1,39 @@
+[
+  {
+    "via": "usb_power_escape_J_DATA_east_via",
+    "from_mm": [
+      2,
+      -15.099999999999998
+    ],
+    "to_mm": [
+      1.575,
+      -16.049999999999997
+    ],
+    "moved_trace_ids": [
+      "usb_power_escape_J_DATA_VBUS2",
+      "usb_power_escape_J_DATA_VBUS4"
+    ],
+    "removed_foreign_trace_ids": [
+      "same_side_repair_0_LOGIC_IN_0_layer_section_2",
+      "same_side_repair_1_PD_GOOD_1_layer_section_2"
+    ],
+    "shifted_net_pad_partitions_preserved": true
+  },
+  {
+    "via": "usb_escape_U_MCU_DIO_via",
+    "from_mm": [
+      3.75,
+      5.45
+    ],
+    "to_mm": [
+      3.75,
+      5.425
+    ],
+    "moved_trace_ids": [
+      "usb_escape_U_MCU_DIO",
+      "same_side_repair_0_DIO_0_layer_section_0"
+    ],
+    "removed_foreign_trace_ids": [],
+    "shifted_net_pad_partitions_preserved": true
+  }
+]

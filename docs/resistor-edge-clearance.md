@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # CH32X035 resistor edge clearance — v1.7.0
 
 Every resistor is reviewed on all four board edges, including top and bottom assembly sides. The nominal pad-to-profile target is **at least 0.75 mm**. A 1 mm placement attempt was assessed; the delivered layout uses the 0.75 mm target within the fixed 35 × 35 mm outline, fixed connectors, native courtyards and screw envelopes.
@@ -6,9 +8,9 @@ Every resistor is reviewed on all four board edges, including top and bottom ass
 
 The [independent clearance receipt](../artifacts/edge-resistors/clearance-verification.json) matches every resistor pad to its actual regenerated Gerber flash and measures all four edges. The [CSV](../artifacts/edge-resistors/clearance-verification.csv) lists every resistor; the [placement plan](../artifacts/edge-resistors/placement-plan.json) and [translation/rip-up receipt](../artifacts/edge-resistors/translation-and-ripup.json) record construction. The editable `src/supplier-placement.json` contains the final locations and rotations. Freshly compiled native footprints were compared with the translated geometry and canonicalized only for sub-micrometre floating-point differences.
 
-Native DRC, independent physical connectivity, every-trace/net review, copper width/current screening, actual Gerber copper/drill analysis and STEP mechanical screening qualify the final board revision. The [full qualification receipt](../artifacts/resume-validation.json) retains actual exit codes. The five-sheet schematic and electrical source remain unchanged.
+Native DRC, independent physical connectivity, every-trace/net review, copper width/current screening, actual Gerber copper/drill analysis and STEP mechanical screening qualify the final board revision. The [full qualification receipt](../artifacts/resume-validation.json) retains actual exit codes. The six functional schematic sheets and existing electrical interfaces are preserved, with the authorized upright USB-C replacement and optional bottom DNP encoder addition.
 
-The 12 mm USB plug envelopes and M3 DIN 920 maximum Ø4 mm head requirement remain in force. Mechanical screening is nominal CAD evidence. Manufacturing assembly BOM/CPL, paste/stencil and silkscreen findings, firmware/bench tests and rear motor fit remain unqualified; this is a prototype publication.
+The approved 10 mm USB plug housings and M3 DIN 920 maximum Ø4 mm head requirement remain in force. Mechanical screening is nominal CAD evidence. The default export applies the reviewed BOM/CPL, paste/stencil and silkscreen policies. Read the current hash-bound manufacturing audit for its result. Supplier approval, firmware/bench tests and rear motor fit remain pending.
 
 | Resistor | Previous centre (mm) | New centre (mm) | Rotation | New nominal minimum pad-to-edge (mm) |
 |---|---|---|---|---|

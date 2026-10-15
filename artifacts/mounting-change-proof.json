@@ -1,6 +1,6 @@
 {
   "baseline_github_commit": "4c52e213a64453989395b31f8e8441130466fdcd",
-  "board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
   "board_dimensions_mm": [
     35,
     35
@@ -108,9 +108,9 @@
   "native_DRC_warnings": 0,
   "physical_nets_checked": 50,
   "final_counts": {
-    "pcb_trace": 415,
-    "pcb_via": 192,
-    "pcb_copper_pour": 30
+    "pcb_trace": 451,
+    "pcb_via": 193,
+    "pcb_copper_pour": 23
   },
   "placement_and_affected_copper_changed": true,
   "construction_receipts_are_history": "Routing/pruning/repair receipts include trial and subsequently replaced copper; this proof and current board JSON describe the final geometry.",
@@ -208,12 +208,12 @@
     ],
     "individual_STEP_metal_terminal_centers_verified": false,
     "vertical_access_envelope_bbox_mm": [
-      -4.850000100000001,
-      -16.762503,
-      5.0600000000000005,
-      1.7500001000000012,
-      -12.552502999999998,
-      25.060000000000002
+      -0.3500023999999996,
+      -14.0200011,
+      0.7999999999999999,
+      0.24999640000000045,
+      -12.469991499999999,
+      0.9
     ],
     "vertical_access_intersections": [],
     "tail_projection_below_PCB_mm": 0,

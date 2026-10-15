@@ -1,0 +1,24 @@
+{
+  "source_component": {
+    "count": 70,
+    "identical_to_latest_GitHub_baseline": true
+  },
+  "source_port": {
+    "count": 263,
+    "identical_to_latest_GitHub_baseline": true
+  },
+  "source_net": {
+    "count": 50,
+    "identical_to_latest_GitHub_baseline": true
+  },
+  "source_trace": {
+    "count": 233,
+    "identical_to_latest_GitHub_baseline": true
+  },
+  "component_functional_fields_unchanged": true,
+  "oscillator_copper_geometry_unchanged": true,
+  "oscillator_records": 0,
+  "baseline_commit": "a342a888b82d46c8a56bb510bb04c3a29b179543",
+  "board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
+  "physical_operation_verified": false
+}

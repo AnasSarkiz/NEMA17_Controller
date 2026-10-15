@@ -1,0 +1,533 @@
+[
+  {
+    "removed": [
+      {
+        "trace": "review_baseline_review_baseline_feedback_fanout_pcb_port_114_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 1.2532900815030827,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_feedback_fanout_pcb_port_120_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.7897087107244037,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_129_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.7516999999999996,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_171_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.7507999999999999,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_128_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.5716999999999999,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_126_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.42255516574897123,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_162_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.14749999999999908,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_17_V3V3_4_layer_section_1_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.06780291360583442,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_18_V3V3_5_run_1_run_0",
+        "net": "V3V3",
+        "length_mm": 0.035355339059327875,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_271_run_0_run_0",
+        "net": "LOGIC_IN",
+        "length_mm": 0.9308000000000003,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_270_run_0_run_0",
+        "net": "LOGIC_IN",
+        "length_mm": 0.11189999999999989,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_269_run_0_run_0",
+        "net": "LOGIC_IN",
+        "length_mm": 0.0015000000000000568,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_26_DATA_VBUS_4_layer_section_1",
+        "net": "DATA_VBUS",
+        "length_mm": 2.024264068711925,
+        "inner1_mm": 2.024264068711925
+      },
+      {
+        "trace": "same_side_repair_1_DATA_VBUS_1_layer_section_0",
+        "net": "DATA_VBUS",
+        "length_mm": 1.0235281374238583,
+        "inner1_mm": 1.0235281374238583
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_2_DATA_VBUS_2_run_0_run_0",
+        "net": "DATA_VBUS",
+        "length_mm": 3.0933537461453917,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_9_DATA_VBUS_0_run_0_run_2",
+        "net": "DATA_VBUS",
+        "length_mm": 0.4191186485237412,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_1_DATA_VBUS_1_layer_section_1",
+        "net": "DATA_VBUS",
+        "length_mm": 0.08535533905932607,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_111_run_0_run_0",
+        "net": "PD_VDD",
+        "length_mm": 0.4909000000000008,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_114_run_0_run_0",
+        "net": "PD_VDD",
+        "length_mm": 0.4909000000000008,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_29_PD_CC1_1_layer_section_0",
+        "net": "PD_CC1",
+        "length_mm": 3.759493141924172,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_11_run_0_run_0",
+        "net": "PD_CC2",
+        "length_mm": 6.609768065134383,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_14_PD_CC2_0_run_0_run_0",
+        "net": "PD_CC2",
+        "length_mm": 4.735940550199092,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_32_PD_CC2_2_layer_section_2",
+        "net": "PD_CC2",
+        "length_mm": 3.784493141924171,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_32_PD_CC2_2_layer_section_1",
+        "net": "PD_CC2",
+        "length_mm": 3.0988329701443518,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_14_PD_CC2_0_layer_section_1",
+        "net": "PD_CC2",
+        "length_mm": 0.15606601717798435,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_32_PD_CC2_2_layer_section_6",
+        "net": "PD_CC2",
+        "length_mm": 0.125,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_same_side_repair_2_DATA_CC1_0_layer_section_1_run_0",
+        "net": "DATA_CC1",
+        "length_mm": 0.06035533905932734,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_1_DATA_CC2_0_layer_section_0",
+        "net": "DATA_CC2",
+        "length_mm": 2.974139077205696,
+        "inner1_mm": 2.974139077205696
+      },
+      {
+        "trace": "same_side_repair_33_DATA_CC2_0_layer_section_1",
+        "net": "DATA_CC2",
+        "length_mm": 0.03641005412688488,
+        "inner1_mm": 0.03641005412688488
+      },
+      {
+        "trace": "same_side_repair_2_DATA_CC2_0_layer_section_0",
+        "net": "DATA_CC2",
+        "length_mm": 2.054594154601839,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_1_DATA_CC2_0_layer_section_1",
+        "net": "DATA_CC2",
+        "length_mm": 0.02499999999999858,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_feedback_fanout_pcb_port_124_run_0_run_0",
+        "net": "DIR",
+        "length_mm": 0.7401792517181223,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_176_run_0_run_0",
+        "net": "DIR",
+        "length_mm": 0.6816999999999998,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_15_ENABLE_N_0",
+        "net": "ENABLE_N",
+        "length_mm": 4.699164177403184,
+        "inner1_mm": 4.699164177403184
+      },
+      {
+        "trace": "inner1_local_escape_ENABLE_N_0",
+        "net": "ENABLE_N",
+        "length_mm": 1.612414419434409,
+        "inner1_mm": 1.612414419434409
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_222_run_0_run_0",
+        "net": "SLEEP",
+        "length_mm": 3.4691008441616535,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_317_run_0_run_0",
+        "net": "BOOT_PAD",
+        "length_mm": 0.5017000000000005,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_314_run_0_run_0",
+        "net": "BOOT_PAD",
+        "length_mm": 0.24907463914933364,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "inner1_local_escape_DATA_PRESENT_0",
+        "net": "DATA_PRESENT",
+        "length_mm": 1.0999000045458678,
+        "inner1_mm": 1.0999000045458678
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_3_DATA_PRESENT_2_layer_section_1_run_0_run_0",
+        "net": "DATA_PRESENT",
+        "length_mm": 10.881892542522467,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_same_side_repair_14_DATA_PRESENT_0_layer_section_1_run_0",
+        "net": "DATA_PRESENT",
+        "length_mm": 4.5984018715767725,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_feedback_fanout_pcb_port_56_run_0_run_0",
+        "net": "DATA_PRESENT",
+        "length_mm": 0.667183641010479,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_186_run_0_run_0",
+        "net": "DATA_PRESENT",
+        "length_mm": 0.30674292167872486,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_feedback_fanout_pcb_port_128_run_0_run_0",
+        "net": "SENSE1",
+        "length_mm": 0.9001068386855663,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_288_run_0_run_0",
+        "net": "B_PLUS",
+        "length_mm": 0.25827913395840063,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_0_TEMP_SDA_0_layer_section_1",
+        "net": "TEMP_SDA",
+        "length_mm": 0.0307234779731293,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_0_TEMP_SCL_0_rerouted_layer_section_1",
+        "net": "TEMP_SCL",
+        "length_mm": 0.22677669529663652,
+        "inner1_mm": 0.22677669529663652
+      },
+      {
+        "trace": "same_side_repair_0_TEMP_SCL_0_rerouted_layer_section_0",
+        "net": "TEMP_SCL",
+        "length_mm": 0.2267766952966376,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_same_side_repair_6_LED_R_2_layer_section_0_run_0",
+        "net": "LED_R",
+        "length_mm": 0.537132034355964,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_same_side_repair_5_LED_R_1_run_1",
+        "net": "LED_R",
+        "length_mm": 0.22071067811865433,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_3_LED_R_1_layer_section_1",
+        "net": "LED_R",
+        "length_mm": 0.18106601717798396,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_2_LED_R_0_rerouted_layer_section_0",
+        "net": "LED_R",
+        "length_mm": 0.11035533905932746,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_335_run_0_run_0",
+        "net": "STATUS_R_K",
+        "length_mm": 0.547699999999999,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_336_run_0_run_0",
+        "net": "STATUS_R_K",
+        "length_mm": 0.5017,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_40_STATUS_R_K_0_layer_section_1",
+        "net": "STATUS_R_K",
+        "length_mm": 0.1442695046100219,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_10_STATUS_B_K_0_layer_section_1_run_0_run_0",
+        "net": "STATUS_B_K",
+        "length_mm": 7.308452377915608,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_42_STATUS_B_K_0",
+        "net": "STATUS_B_K",
+        "length_mm": 3.298832970144349,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_escape_Q_STATUS_B_pin3_run_0",
+        "net": "STATUS_B_C",
+        "length_mm": 0.5999980000008336,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_259_run_0_run_0",
+        "net": "BUCK_SW",
+        "length_mm": 1.2008,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_255_run_0_run_0",
+        "net": "BUCK_SW",
+        "length_mm": 0.32124166645409324,
+        "inner1_mm": 0
+      }
+    ],
+    "open_nets_left_untouched": [
+      "PD_VBUS",
+      "B_MINUS"
+    ],
+    "actual_pad_partitions_preserved": true,
+    "board_sha256": "6e07f92dbc90d861b0aaadab73a8826040aa165b1788f5ba90629805589f4aef"
+  },
+  {
+    "removed": [
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_29_run_0_run_0",
+        "net": "PD_VBUS",
+        "length_mm": 0.6660273513688637,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_41_run_0_run_0",
+        "net": "PD_VBUS",
+        "length_mm": 0.25710402563942863,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_21_run_0_run_0",
+        "net": "PD_VBUS",
+        "length_mm": 0.06749949493661174,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_35_run_0_run_0",
+        "net": "PD_VBUS",
+        "length_mm": 0.00140000000000029,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_18_V3V3_5_layer_section_0",
+        "net": "V3V3",
+        "length_mm": 5.004467888754756,
+        "inner1_mm": 5.004467888754756
+      },
+      {
+        "trace": "review_baseline_review_baseline_same_side_repair_17_V3V3_4_layer_section_0_run_0_run_0",
+        "net": "V3V3",
+        "length_mm": 0.7333676157887828,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_16_V3V3_3_layer_section_0",
+        "net": "V3V3",
+        "length_mm": 0.22791067634940376,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_18_V3V3_5_layer_section_1",
+        "net": "V3V3",
+        "length_mm": 0.13535533905932626,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_2_V3V3_2_layer_section_0",
+        "net": "V3V3",
+        "length_mm": 0.09301162633521352,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_5_DATA_VBUS_0_rerouted_layer_section_1",
+        "net": "DATA_VBUS",
+        "length_mm": 3.5321067811865468,
+        "inner1_mm": 3.5321067811865468
+      },
+      {
+        "trace": "same_side_repair_5_DATA_VBUS_0_rerouted_layer_section_0",
+        "net": "DATA_VBUS",
+        "length_mm": 0.20173003241102117,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_44_DATA_VBUS_2_layer_section_0",
+        "net": "DATA_VBUS",
+        "length_mm": 0.108404023828784,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_21_DATA_VBUS_2_layer_section_0",
+        "net": "DATA_VBUS",
+        "length_mm": 0.03535533905932662,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_51_PD_CC1_0_layer_section_3",
+        "net": "PD_CC1",
+        "length_mm": 0.18106601717797938,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_6_DATA_CC1_0_layer_section_0",
+        "net": "DATA_CC1",
+        "length_mm": 0.8474873734152892,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_7_STEP_0_layer_section_0",
+        "net": "STEP",
+        "length_mm": 4.895153313703994,
+        "inner1_mm": 4.895153313703994
+      },
+      {
+        "trace": "same_side_repair_7_ENABLE_N_0",
+        "net": "ENABLE_N",
+        "length_mm": 8.810601594546734,
+        "inner1_mm": 8.810601594546734
+      },
+      {
+        "trace": "review_baseline_review_baseline_freerouted_trace_216_run_0_run_0",
+        "net": "ENABLE_N",
+        "length_mm": 2.3232,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_11_VM_SENSE_2_layer_section_2",
+        "net": "VM_SENSE",
+        "length_mm": 9.243376618407357,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "review_baseline_review_baseline_feedback_fanout_pcb_port_152_run_0_run_0",
+        "net": "VREF",
+        "length_mm": 0.6600824442181447,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_3_SENSE2_0_layer_section_0",
+        "net": "SENSE2",
+        "length_mm": 21.38050034532416,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "inner1_local_escape_TEMP_SDA_0",
+        "net": "TEMP_SDA",
+        "length_mm": 0.6996000285877636,
+        "inner1_mm": 0
+      },
+      {
+        "trace": "same_side_repair_0_TEMP_SCL_0_layer_section_3",
+        "net": "TEMP_SCL",
+        "length_mm": 6.628518360533484,
+        "inner1_mm": 6.628518360533484
+      },
+      {
+        "trace": "same_side_repair_2_TEMP_SCL_0_rerouted",
+        "net": "TEMP_SCL",
+        "length_mm": 2.312436867076458,
+        "inner1_mm": 2.312436867076458
+      },
+      {
+        "trace": "review_baseline_same_side_repair_6_LED_R_2_layer_section_1_run_0",
+        "net": "LED_R",
+        "length_mm": 1.5192388155425127,
+        "inner1_mm": 0
+      }
+    ],
+    "open_nets_left_untouched": [
+      "A_PLUS",
+      "A_MINUS",
+      "B_PLUS"
+    ],
+    "actual_pad_partitions_preserved": true,
+    "board_sha256": "1f817e81df4ca62e6058d929e0e00b3ee59634b3b3cc86ed608f226795908d44"
+  }
+]

@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # Procurement and ratings
 
 [The supplier BOM](../artifacts/bom.csv) and [import report](../artifacts/jlcpcb-import-report.json) identify every fitted part. All supplier land patterns and OBJ/STEP assets are included under `imports/supplier/`. Do not substitute parts without reviewing pinout, ratings and land pattern.

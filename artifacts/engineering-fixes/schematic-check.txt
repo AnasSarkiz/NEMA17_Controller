@@ -1,0 +1,29 @@
+{
+  "board_sha256": "a12353835b105cf36234fc53d0b7f8b7688888f15003a87d042620b0379687fc",
+  "passed": true,
+  "sheet_count": 5,
+  "sheet_names": [
+    "01 Power & USB-PD",
+    "02 Programming & USB",
+    "03 Controller & clocks",
+    "04 Stepper motor driver",
+    "05 Temperature & feedback"
+  ],
+  "component_count": 67,
+  "physical_pin_count": 243,
+  "drawn_electrical_pin_count": 241,
+  "NC_mechanical_hold_down_pads_omitted": 2,
+  "connected_net_count": 50,
+  "explicit_NC_pin_count": 26,
+  "named_net_label_count": 120,
+  "orthogonal_wire_segments": 390,
+  "marked_different_net_crossings": 16,
+  "checked_same_net_branch_intersections": 26,
+  "electrical_source_and_PCB_CAD_preserved": false,
+  "electrical_source_preserved": false,
+  "qualified_schematic_preserved": false,
+  "PCB_relocation_authorized": true,
+  "top_assembly_redesign_authorized": true,
+  "actual_Gerber_ZIP_preserved": false,
+  "errors": []
+}

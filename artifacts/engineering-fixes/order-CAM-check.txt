@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "issues": [],
+  "connectivity": {
+    "named_nets_checked": 50,
+    "actual_copper_islands": 640,
+    "unassigned_islands": 28
+  },
+  "report": "/workspace/nema14-ch32-board/artifacts/jlcpcb-review/cam/audit.json"
+}

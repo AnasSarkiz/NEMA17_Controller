@@ -1,7 +1,17 @@
-# NEMA14 CH32X035 motor controller
+## Motor and hardware assembly preview
 
-35 × 35 mm, four-layer, 15 V USB-PD stepper-controller prototype. Fitted parts populate the top face; LEDs, TMP102 and buzzer remain present. USB-C mouths share the +Y edge. Use two 10 mm cable housings at 12.4 mm pitch and M3 DIN 920 heads ≤Ø4 mm. Mount holes are exactly (±13, ±13), Ø3.2 mm.
+The default 3D preview now includes the complete routed PCB, motor dimensional concept, four screws, 6 mm spacers and JST-SH cable. [Assembly details and limits](docs/top-assembly.md). [Full assembly](artifacts/top-assembly/assembly-complete.png) · [Top view](artifacts/top-assembly/assembly-top.png) · [3D GLB](artifacts/top-assembly/assembled.glb). Rear motor retention, rear shaft and magnet geometry remain unverified; the view is not rear-motor compatibility evidence. Qualified fabrication JSON and Gerbers are unchanged.
 
-The regenerated [JLCPCB order-review package](artifacts/jlcpcb-review/JLCPCB-OrderReview.zip) passes the independent CAM audit. It includes a top-side SMT JST-SH, native supplier BOM/CPL, stencil and assembly maps, plus the eight USB shell joints requiring secondary soldering. Supplier approval of pickup orientation, availability, stencil and thermal-via processing remains required.
+# NEMA14_CH32X035G8U6 1.11.0
 
-See [assembly and harness constraints](docs/top-assembly.md), [functional five-sheet schematic](artifacts/schematic-a4.pdf), [order-review receipt](artifacts/jlcpcb-review/order-review-verification.json) and [current validation](artifacts/resume-validation.json). `assembly-preview.circuit.tsx` is a separate unrouted visual concept. Rear-motor attachment, firmware and bench behavior are unverified.
+**CAD qualified for hardware-prototype publication and JLCPCB engineering/order review.** All 50 physical nets are connected. Native DRC reports zero errors and warnings. All 23 qualification checks ran: 22 returned zero; the remaining command returned component-orientation advice with zero placement DRC errors/warnings. Default and order-review CAM audits pass.
+
+35 × 35 × 1.6 mm, four layers. Four NPTH mounting holes are exactly (±13, ±13), Ø3.2 mm in actual Circuit JSON and Excellon drills. Minimum via drill/pad is Ø0.30/Ø0.45 mm. Upright GCT USB4145 sockets occupy opposite edges; the defined 10 mm cable housings have 23.3 mm nominal clearance. The model screens maximum Ø6 × 3 mm screw heads within a Ø6.4 mm envelope and an Ø6 mm tool path.
+
+All 61 fitted parts are TOP SMT. The bottom AS5600 and two capacitors are doNotPlace; six separate top test pads remain bare. Exact source components, ports, nets and traces match GitHub baseline a342a888. USB/PD, JST-SH A+/A−/B+/B− wiring, TMP102, status/power LEDs and buzzer are retained.
+
+[Current review and checks](docs/opposite-edge-review.md) · [Qualification](artifacts/resume-validation.json) · [Connectivity](artifacts/physical-connectivity.json) · [JLCPCB review package](artifacts/jlcpcb-review/JLCPCB-OrderReview.zip) · [Six-sheet schematic PDF](artifacts/schematic-a4.pdf) · [Nominal mechanical screen](artifacts/mechanical/opposite-edge-fit.png).
+
+Supplier stock, CPL pickup/polarity confirmation, thermal-via filling/capping, USB shell secondary soldering, and real cable/fastener tolerances need confirmation. Firmware, electrical/thermal bench testing, rear motor fit, and encoder shaft/magnet/air gap remain unverified. No order or payment was submitted.
+
+Version 1.11.2 corrects generated order instructions, preview captions and the assembly concept for the opposite-edge upright USB-C arrangement. CPL guidance now uses the native land-pattern datum and requires supplier pickup confirmation. The qualified copper, footprints, drill files and frozen board hash are unchanged.

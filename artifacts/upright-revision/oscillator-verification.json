@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
+  "external_crystal_present": false,
+  "routes": [],
+  "errors": [],
+  "startup_drive_level_load_and_frequency_bench_verified": false,
+  "qualification_scope": "Geometry, connectivity, no signal vias and short ground returns; oscillator electrical operation needs bench validation."
+}

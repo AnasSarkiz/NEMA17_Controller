@@ -1,0 +1,28 @@
+{
+  "reason": "Move ESD protection into the data-port-to-MCU route; vacate only colliding small feedback/CC components into the freed native courtyard areas.",
+  "USB_sockets_moved": false,
+  "before": {
+    "U_ESD": {
+      "pcbX": -8.804901,
+      "pcbY": -11.83999,
+      "pcbRotation": 270
+    },
+    "R_STATUS_B": {
+      "pcbX": 6.5,
+      "pcbY": 7.0,
+      "pcbRotation": 90
+    }
+  },
+  "after": {
+    "U_ESD": {
+      "pcbX": 5.5,
+      "pcbY": 7,
+      "pcbRotation": 0
+    },
+    "R_STATUS_B": {
+      "pcbX": -8.804901,
+      "pcbY": -11.83999,
+      "pcbRotation": 90
+    }
+  }
+}

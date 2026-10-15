@@ -1,0 +1,14 @@
+{
+  "traceCount": 513,
+  "currentLimitAmps": 0.350765306122449,
+  "currentLimitEngineeringBudgetAmps": 0.3968801324163417,
+  "currentLimitBudgetIsNotQualified": true,
+  "motorAdcAt35VWorstVolts": 3.240146654445463,
+  "errors": 1,
+  "warnings": 0
+}
+pcb_trace_error: Trace [.U_MCU > .STEP to net.STEP] has dangling endpoint at (9.08, 0.28)
+{"removed_trace_ids": ["same_side_repair_9_STEP_0"], "retained_live_traces": [], "live_pad_connectivity_unchanged": true}
+[]
+[{"unanchored_copper_removed": "same_side_repair_27_STEP_0_via_17", "net": "STEP"}]
+Filled 20 ground regions

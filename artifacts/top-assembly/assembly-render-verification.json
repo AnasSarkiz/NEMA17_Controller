@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "browser_render": "Chromium WebGL via native circuit-json-to-gltf; complete and TOP views inspected",
+  "native_export_log_errors": false,
+  "files": {
+    "assembly.circuit.json": "cfac9d7e1b4282825bfb4e8a0ed792ea44f5e139a4b517c096569b766c2dd4c9",
+    "artifacts/top-assembly/assembled.glb": "7edec12bc3e753bad9f3a340b7ba48a4f58714f5822a71e8dbec3a0010e46927",
+    "artifacts/top-assembly/assembly-complete.png": "37ebb9f8ebea5e1c42b53bd228eb7fc18e6f97c4b354a6364fa2ebaa8bf46745",
+    "artifacts/top-assembly/assembly-top.png": "051519155029c28c5766443e0031ffaab9b23e2cacc906f5b31198c75ed65820"
+  },
+  "motor_rear_attachment_verified": false
+}

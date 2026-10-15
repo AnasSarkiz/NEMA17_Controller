@@ -1,0 +1,29 @@
+[
+  {
+    "ref": "U_MCU",
+    "role": "DIR",
+    "points": [],
+    "site": [
+      0.5,
+      1.4
+    ]
+  },
+  {
+    "ref": "U_MCU",
+    "role": "STEP",
+    "points": [],
+    "site": [
+      0.5,
+      2.4
+    ]
+  },
+  {
+    "ref": "TP_DIO",
+    "role": "pin1",
+    "points": [],
+    "site": [
+      10.2,
+      -15.9
+    ]
+  }
+]

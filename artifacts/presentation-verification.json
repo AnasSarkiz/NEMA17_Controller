@@ -2,8 +2,8 @@
   "savedPcbGeometryUnchanged": true,
   "addedBootComponents": [],
   "sourcePinsAndNetsUnchanged": true,
-  "pcbGeometrySha256": "b904c4bb76024e7fa9333a4e2f525a4de681a7e5755168c8a93dd3b615e638ff",
-  "boardSha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
+  "pcbGeometrySha256": "f6795c873732280a00aac43f2970f1f94df37e9a615a013e9b8d2c25487e0034",
+  "boardSha256": "c5046ec984199eab7a30cd5f223921d0ce1f37036d8723c115b16bef77e2c990",
   "nativeA4Sheets": [
     {
       "type": "schematic_sheet",
@@ -67,6 +67,20 @@
       "name": "05 Temperature & feedback",
       "display_name": "Temperature & feedback",
       "sheet_index": 5,
+      "sheet_size": "a4",
+      "sheet_width": 297,
+      "sheet_height": 210,
+      "center": {
+        "x": 16,
+        "y": 11
+      }
+    },
+    {
+      "type": "schematic_sheet",
+      "schematic_sheet_id": "schematic_sheet_5",
+      "name": "06 Optional encoder (DNP)",
+      "display_name": "Optional encoder (DNP)",
+      "sheet_index": 6,
       "sheet_size": "a4",
       "sheet_width": 297,
       "sheet_height": 210,

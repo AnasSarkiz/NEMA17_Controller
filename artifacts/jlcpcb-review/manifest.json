@@ -1,21 +1,21 @@
 {
-  "native_board_sha256": "40389d9f3408d1c45e2cc4df3ec2509d871b31fcafaca8fdcb180177ef97fdc5",
-  "native_export_sha256": "ff07bc5385a29a4ba87c968c853e5a043f95f7a8c7f8236408a9a73b3a9d6f9e",
-  "order_source_sha256": "56893b1a651d4052cee44678175609f2322ebe03d9ac96edf0fd005eee4d1dc6",
-  "review_cam_sha256": "6a907f237cc65a4377e7d7e0ebe678bd1feff57a6fab48083101d9fa6c17e19b",
-  "fabrication_zip_sha256": "cd947ea75a0cf51e48c725731ed9cc4565a16b91a542d245f5e267589e69c11b",
-  "source_github_revision": "e234acd30714a6a5d1c15baa10cf2bc6d1ef4b0c",
+  "native_board_sha256": "0d772c1f839f50f30caa512a0dcc58f8ecfa88e35c2e9b44c2422365bc0a8e64",
+  "native_export_sha256": "4938553292f2b70d68978b493c093432bd954451203ac4e495a7a55a6f68a5c7",
+  "order_source_sha256": "91093c29c57c6bc89372215e67c44ac336f02760e6cb2c4ff1d932485ec6a95c",
+  "review_cam_sha256": "3563aa77c30afc924a9d1b1c594289c31b4117e86f478462f13175063b04b0d8",
+  "fabrication_zip_sha256": "215e0ef9e179efa63efa00671b4c7061cb83b0c7092655701622d8ddb965f66b",
+  "source_github_revision": "e5d1c79498d8d6fefdfa355c2675123c460644ae",
   "electrical_source_and_all_nonpaste_records_unchanged": true,
   "copied_unchanged_copper_mask_drill_outline": {
-    "F_Cu.gbr": "98dd3cdf6840516d93853fd99886c2fffbe7e3b807aa42189b7777c26b3eb96e",
-    "F_Mask.gbr": "74b26771a5037a52cb849e0638c267d8fba3d4bd0945db1d879e138c9519a407",
-    "B_Cu.gbr": "0ba5aaf4299442a2a4d54a02500f235862fd4968ebffbe23deefe0d3d26f3866",
-    "B_Mask.gbr": "1d174574cafe41930ed26b8e82d878fd22861341be914f6e81d73cef90c4387a",
-    "Edge_Cuts.gbr": "41af1feb6e78963f5c9bc42ba6cf5fe271628802bebf86e2a67cfd9a443bc8b3",
-    "In1_Cu.gbr": "5be85a41b3e989eafa57e527600d28f1e09c2705496f3ee1de0cd1d88b25aa5a",
-    "In2_Cu.gbr": "2169d6d5e5216ed1db251aadd1a3e954487633af4dbd031ff2c47eb29567bcee",
-    "drill-L1-L4.drl": "3f9a8bb552892e57a9055aedac5f989bd313afde814cb004e2e3829f2f5eda5b",
-    "drill_npth.drl": "b2b235f6c15a68a3c2352a8faed6bc60557ebe9c8a1b2f0c7c689a9c9ce666b2"
+    "B_Cu.gbr": "11ce39d6492bd73de55e1cd8925492daff9e5c4f0f90c83dcd65b2a34e4bdf21",
+    "B_Mask.gbr": "f49167e898ed60a88a3aec7f50af74cd8df3c6a2ad719d60a9946c87f411891d",
+    "Edge_Cuts.gbr": "5a01b6a0398cba5adb2e957474149308b9c8a365e2de32831835cb3e22b63813",
+    "F_Cu.gbr": "981461350c05fab1ced25991cf74d3431cbddf9c3f18f86e8d558a30f690b36b",
+    "F_Mask.gbr": "8a763b244e2fe985b9cb28d9b33447c279e305dbe8bed167599ced74310d30c9",
+    "In1_Cu.gbr": "abd1b302ea9493a3e9573ea48d40b3839a1de3f74dab5dd58e943c064fb83b43",
+    "In2_Cu.gbr": "2e8522f6fd17e80b500eef8dbcc84a9d6592394d52a01e7b9e63d0cb9a2d28fb",
+    "drill-L1-L4.drl": "41fbe232ca3d1146dd9728986735d75e6860590da7e869896a257642f187118f",
+    "drill_npth.drl": "1ced8080b345aa385b4d77bc3483fc3d276ad3dd46f192c784eabd7c0d362bd6"
   },
   "fitted_components": 61,
   "SMT_components": 61,
@@ -29,51 +29,16 @@
     "TP_DIO",
     "TP_GND"
   ],
+  "excluded_DNP_references": [
+    "C_ENCODER",
+    "C_ENCODER_BULK",
+    "U_ENCODER"
+  ],
   "paste_changes": [
     {
       "reference": "U_PD",
-      "pad": "pcb_smtpad_34",
-      "policy": "four windows; 60% exposed-pad area"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_41",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
       "pad": "pcb_smtpad_42",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_43",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_44",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_45",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_46",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_47",
-      "policy": "0.95 linear pad scale"
-    },
-    {
-      "reference": "U_MCU",
-      "pad": "pcb_smtpad_48",
-      "policy": "0.95 linear pad scale"
+      "policy": "four windows; 60% exposed-pad area"
     },
     {
       "reference": "U_MCU",
@@ -178,52 +143,94 @@
     {
       "reference": "U_MCU",
       "pad": "pcb_smtpad_69",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_70",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_71",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_72",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_73",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_74",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_75",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_76",
+      "policy": "0.95 linear pad scale"
+    },
+    {
+      "reference": "U_MCU",
+      "pad": "pcb_smtpad_77",
       "policy": "four windows; 60% exposed-pad area"
     },
     {
       "reference": "U_DRV",
-      "pad": "pcb_smtpad_98",
+      "pad": "pcb_smtpad_106",
       "policy": "four windows; 60% exposed-pad area"
     },
     {
       "reference": "U_TEMP",
-      "pad": "pcb_smtpad_179",
+      "pad": "pcb_smtpad_187",
       "policy": "0.75 linear pad scale"
     },
     {
       "reference": "U_TEMP",
-      "pad": "pcb_smtpad_180",
+      "pad": "pcb_smtpad_188",
       "policy": "0.75 linear pad scale"
     },
     {
       "reference": "U_TEMP",
-      "pad": "pcb_smtpad_181",
+      "pad": "pcb_smtpad_189",
       "policy": "0.75 linear pad scale"
     },
     {
       "reference": "U_TEMP",
-      "pad": "pcb_smtpad_182",
+      "pad": "pcb_smtpad_190",
       "policy": "0.75 linear pad scale"
     },
     {
       "reference": "U_TEMP",
-      "pad": "pcb_smtpad_183",
+      "pad": "pcb_smtpad_191",
       "policy": "0.75 linear pad scale"
     },
     {
       "reference": "U_TEMP",
-      "pad": "pcb_smtpad_184",
+      "pad": "pcb_smtpad_192",
       "policy": "0.75 linear pad scale"
     }
   ],
   "silkscreen_changes": [
     {
       "layer": "top",
-      "original_area_mm2": 98.76221902140199,
-      "new_area_mm2": 100.0415767540245,
+      "original_area_mm2": 95.6071975660295,
+      "new_area_mm2": 95.60720930820291,
       "reference_captions_placed": 8,
       "captions_omitted_for_clearance": [
+        "J_DATA",
         "J_MOTOR",
+        "J_PD",
         "U_BUCK",
         "U_DRV",
         "U_ESD",
@@ -233,7 +240,6 @@
         "C_BUCK_IN",
         "C_BUCK_OUT1",
         "C_BUCK_OUT2",
-        "C_BULK",
         "C_BUZZER",
         "C_CP",
         "C_DRV_LOGIC",
@@ -242,6 +248,7 @@
         "C_PD",
         "C_REF",
         "C_TEMP",
+        "C_VCP",
         "C_VM",
         "C_VM_SENSE",
         "C_VREG",
@@ -257,9 +264,10 @@
         "Q_STATUS_R",
         "R_BUZZER_GATE",
         "R_BUZZER_PD",
+        "R_CC1",
         "R_CC2",
         "R_ENABLE",
-        "R_PD",
+        "R_PG",
         "R_PWR_LED",
         "R_REF_H",
         "R_REF_L",
@@ -280,17 +288,52 @@
         "TP_BOOT",
         "TP_BOOT_USB_DP",
         "TP_DCK",
-        "TP_DIO",
         "TP_GND"
+      ],
+      "knockout_role_markings": [
+        {
+          "caption": "PWR",
+          "centre_mm": [
+            1.2,
+            12.4
+          ],
+          "font_height_mm": 0.8,
+          "negative_stroke_mm": 0.15,
+          "rectangle_bounds_mm": [
+            0.011689639999999724,
+            11.715824000000001,
+            2.1996426787834125,
+            12.908097406891757
+          ]
+        },
+        {
+          "caption": "DATA",
+          "centre_mm": [
+            -6.3,
+            -14.2
+          ],
+          "font_height_mm": 0.8,
+          "negative_stroke_mm": 0.15,
+          "rectangle_bounds_mm": [
+            -7.811481960120082,
+            -14.884175999999998,
+            -4.971556603131565,
+            -13.6917968
+          ]
+        }
       ],
       "policy": "current component outlines and intact reference captions; board inset 0.101 mm, mask guard 0.151 mm, drill guard 0.101 mm; full references in assembly files"
     },
     {
       "layer": "bottom",
-      "original_area_mm2": 0.0,
-      "new_area_mm2": 0.0,
-      "reference_captions_placed": 0,
-      "captions_omitted_for_clearance": [],
+      "original_area_mm2": 7.014240234313995,
+      "new_area_mm2": 7.0142382611841905,
+      "reference_captions_placed": 1,
+      "captions_omitted_for_clearance": [
+        "U_ENCODER",
+        "C_ENCODER_BULK"
+      ],
+      "knockout_role_markings": [],
       "policy": "current component outlines and intact reference captions; board inset 0.101 mm, mask guard 0.151 mm, drill guard 0.101 mm; full references in assembly files"
     }
   ],

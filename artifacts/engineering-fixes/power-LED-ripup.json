@@ -1,0 +1,21 @@
+{
+  "net": "PWR_LED_A",
+  "removed": [
+    "freerouted_via_90",
+    "same_side_repair_20_PWR_LED_A_0_via_64",
+    "same_side_repair_20_PWR_LED_A_0_via_111",
+    "same_side_repair_0_PWR_LED_A_0_via_5",
+    "same_side_repair_3_PWR_LED_A_0_via_7",
+    "review_baseline_freerouted_trace_319_run_0",
+    "review_baseline_freerouted_trace_320_run_0",
+    "review_baseline_same_side_repair_20_PWR_LED_A_0_layer_section_0_run_0",
+    "review_baseline_same_side_repair_20_PWR_LED_A_0_layer_section_1_run_0",
+    "review_baseline_same_side_repair_20_PWR_LED_A_0_layer_section_1_run_1",
+    "review_baseline_same_side_repair_20_PWR_LED_A_0_layer_section_2_run_0",
+    "review_baseline_same_side_repair_0_PWR_LED_A_0_layer_section_0_next_run_0",
+    "review_baseline_same_side_repair_0_PWR_LED_A_0_run_0",
+    "review_baseline_same_side_repair_0_PWR_LED_A_0_run_1",
+    "same_side_repair_0_PWR_LED_A_0"
+  ],
+  "reroute_required": true
+}

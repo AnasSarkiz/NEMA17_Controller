@@ -1,0 +1,228 @@
+{
+  "checkedNets": 50,
+  "disconnectedNets": [
+    {
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+      "islands": [
+        [
+          "J_PD.EH1"
+        ],
+        [
+          "J_PD.EH2"
+        ],
+        [
+          "J_PD.EH3"
+        ],
+        [
+          "J_PD.EH4"
+        ],
+        [
+          "J_PD.GND1"
+        ],
+        [
+          "J_PD.GND2"
+        ],
+        [
+          "J_DATA.EH1"
+        ],
+        [
+          "J_DATA.EH2"
+        ],
+        [
+          "J_DATA.EH3"
+        ],
+        [
+          "J_DATA.EH4"
+        ],
+        [
+          "J_DATA.GND1"
+        ],
+        [
+          "J_DATA.GND2"
+        ],
+        [
+          "U_PD.CFG1"
+        ],
+        [
+          "U_DRV.EP",
+          "U_PD.GND"
+        ],
+        [
+          "C_PD.pin2"
+        ],
+        [
+          "U_MCU.GND"
+        ],
+        [
+          "C_MCU.pin2"
+        ],
+        [
+          "C_LOGIC.pin2"
+        ],
+        [
+          "R_CC1.pin2"
+        ],
+        [
+          "R_CC2.pin2"
+        ],
+        [
+          "R_USB_SENSE_L.pin2"
+        ],
+        [
+          "R_VM_L.pin2"
+        ],
+        [
+          "C_VM_SENSE.pin2"
+        ],
+        [
+          "U_BUCK.GND"
+        ],
+        [
+          "U_DRV.GND18"
+        ],
+        [
+          "U_DRV.ROSC"
+        ],
+        [
+          "U_DRV.GND"
+        ],
+        [
+          "C_VREG.pin2"
+        ],
+        [
+          "C_DRV_LOGIC.pin2"
+        ],
+        [
+          "C_VM.pin2"
+        ],
+        [
+          "C_BULK.pin2"
+        ],
+        [
+          "R_SA.pin2"
+        ],
+        [
+          "R_SB.pin2"
+        ],
+        [
+          "R_REF_L.pin2"
+        ],
+        [
+          "C_REF.pin2"
+        ],
+        [
+          "R_SLEEP.pin2"
+        ],
+        [
+          "U_ESD.GND"
+        ],
+        [
+          "D_TVS.pin1"
+        ],
+        [
+          "C_BUCK_IN.pin2"
+        ],
+        [
+          "C_BUCK_OUT1.pin2"
+        ],
+        [
+          "C_BUCK_OUT2.pin2"
+        ],
+        [
+          "U_TEMP.GND"
+        ],
+        [
+          "U_TEMP.ADD0"
+        ],
+        [
+          "C_TEMP.pin2"
+        ],
+        [
+          "D_PWR.cathode"
+        ],
+        [
+          "Q_STATUS_R.pin1"
+        ],
+        [
+          "Q_STATUS_G.pin1"
+        ],
+        [
+          "Q_STATUS_B.pin1"
+        ],
+        [
+          "Q_BUZZER.pin2"
+        ],
+        [
+          "R_BUZZER_PD.pin2"
+        ],
+        [
+          "C_BUZZER.pin2"
+        ],
+        [
+          "TP_GND.pin1"
+        ]
+      ]
+    },
+    {
+      "net": "DATA_VBUS",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
+      "islands": [
+        [
+          "D_DATA.anode",
+          "D_STATUS._POS",
+          "J_DATA.VBUS1",
+          "J_DATA.VBUS2",
+          "R_USB_SENSE_H.pin1"
+        ],
+        [
+          "U_ESD.VBUS"
+        ]
+      ]
+    },
+    {
+      "net": "DATA_CC2",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6",
+      "islands": [
+        [
+          "J_DATA.CC2"
+        ],
+        [
+          "R_CC2.pin1"
+        ]
+      ]
+    },
+    {
+      "net": "USB_DM",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8",
+      "islands": [
+        [
+          "J_DATA.DM2"
+        ],
+        [
+          "J_DATA.DM1"
+        ],
+        [
+          "U_ESD.DM1",
+          "U_ESD.DM2",
+          "U_MCU.USB_DM"
+        ]
+      ]
+    },
+    {
+      "net": "STATUS_B_K",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net44",
+      "islands": [
+        [
+          "D_STATUS.B_NEG"
+        ],
+        [
+          "R_STATUS_B.pin1"
+        ]
+      ]
+    }
+  ],
+  "allCopperLayersChecked": true,
+  "nativePolygonAndSlotGeometry": true,
+  "sha256": "60672039fd70db5972ee1f175ae593ea1c345434c72225ce07edfcd0803b83f7"
+}

@@ -1,3 +1,5 @@
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
+
 # USB programming
 
 1. Disconnect both USB-C cables so the MCU is fully unpowered.

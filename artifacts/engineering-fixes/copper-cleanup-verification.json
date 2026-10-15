@@ -1,0 +1,18 @@
+{
+  "native_DRC_zero_errors": true,
+  "iterations": [
+    {
+      "iteration": 0,
+      "exit_code": 1,
+      "errors": 1,
+      "log": "artifacts/engineering-fixes/copper-DRC-pass-0.txt"
+    },
+    {
+      "iteration": 1,
+      "exit_code": 0,
+      "errors": 0,
+      "log": "artifacts/engineering-fixes/copper-DRC-pass-1.txt"
+    }
+  ],
+  "board_sha256": "7de30c49a65d518284ae71f97607882502359705cedec7203d94c8ac1ad132eb"
+}

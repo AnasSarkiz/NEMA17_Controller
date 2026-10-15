@@ -1,0 +1,85 @@
+{
+  "checkedNets": 50,
+  "disconnectedNets": [
+    {
+      "net": "GND",
+      "key": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+      "islands": [
+        [
+          "C_BUCK_IN.pin2",
+          "C_BUCK_OUT1.pin2",
+          "C_BUCK_OUT2.pin2",
+          "C_BULK.pin2",
+          "C_BUZZER.pin2",
+          "C_LOGIC.pin2",
+          "C_MCU.pin2",
+          "C_PD.pin2",
+          "C_TEMP.pin2",
+          "C_VM_SENSE.pin2",
+          "D_PWR.cathode",
+          "J_DATA.EH1",
+          "J_DATA.EH2",
+          "J_DATA.EH3",
+          "J_DATA.EH4",
+          "J_DATA.GND1",
+          "J_DATA.GND2",
+          "J_PD.EH1",
+          "J_PD.EH2",
+          "J_PD.EH3",
+          "J_PD.EH4",
+          "J_PD.GND1",
+          "J_PD.GND2",
+          "Q_BUZZER.pin2",
+          "Q_STATUS_B.pin1",
+          "Q_STATUS_R.pin1",
+          "R_BUZZER_PD.pin2",
+          "R_CC1.pin2",
+          "R_CC2.pin2",
+          "R_SA.pin2",
+          "R_USB_SENSE_L.pin2",
+          "R_VM_L.pin2",
+          "TP_GND.pin1",
+          "U_DRV.EP",
+          "U_DRV.GND",
+          "U_DRV.GND18",
+          "U_DRV.ROSC",
+          "U_ESD.GND",
+          "U_MCU.GND",
+          "U_PD.GND"
+        ],
+        [
+          "C_VM.pin2",
+          "R_SB.pin2",
+          "U_PD.CFG1"
+        ],
+        [
+          "U_BUCK.GND"
+        ],
+        [
+          "C_VREG.pin2"
+        ],
+        [
+          "C_DRV_LOGIC.pin2",
+          "C_REF.pin2",
+          "R_REF_L.pin2",
+          "U_TEMP.ADD0"
+        ],
+        [
+          "R_SLEEP.pin2"
+        ],
+        [
+          "D_TVS.pin1"
+        ],
+        [
+          "U_TEMP.GND"
+        ],
+        [
+          "Q_STATUS_G.pin1"
+        ]
+      ]
+    }
+  ],
+  "allCopperLayersChecked": true,
+  "nativePolygonAndSlotGeometry": true,
+  "sha256": "8d7a9d9eca49368073c50bc007907276a32eec0b409657491bd8dc768f89e89a"
+}

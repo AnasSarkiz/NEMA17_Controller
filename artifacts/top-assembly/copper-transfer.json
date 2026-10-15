@@ -1,16 +1,25 @@
 {
   "baseline_sha256": "0d6bb9068420a252c1bdadd10bf04adc065387ea5682b4affff6f25cddec5ac0",
-  "changed_physical_terminals": [],
+  "changed_physical_terminals": [
+    [
+      "R_USB_SENSE_H",
+      "pin1"
+    ],
+    [
+      "R_USB_SENSE_H",
+      "pin2"
+    ]
+  ],
   "old_net_to_new_net": {
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net0",
+    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net2": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net2",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net3",
-    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net1",
+    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
+    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net5",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net8",
-    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net7",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net6",
-    "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net4",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net9": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net9",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net10",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net11",
@@ -53,7 +62,9 @@
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net48": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net48",
     "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net49": "unnamedsubcircuitsubcircuit_source_group_0_connectivity_net49"
   },
-  "unaffected_copper_records_retained": 610,
-  "affected_copper_records_removed": [],
+  "unaffected_copper_records_retained": 752,
+  "affected_copper_records_removed": [
+    "same_side_repair_21_V3V3_5_via_16"
+  ],
   "requires_routing_and_independent_checks": true
 }

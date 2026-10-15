@@ -1,14 +1,13 @@
-# Publishing
+## Current v1.12.0 assembly preview
 
-Requested name: `NEMA14_CH32X035G8U6` (case retained).
+The default public preview is `assembly.circuit.json`; fabrication remains `index.circuit.json`. `scripts/publish-tscircuit.sh --bounded-upload` stages and builds both saved JSON files, pins supplier CAD URLs to the pushed source revision, compacts the staged standalone assembly JSON and verifies parsed-record preservation. Upload batches are bounded by both encoded bytes and 24 files. After upload, `verify-publication.py` checks fabrication and evidence, while `verify-assembly-publication.py` separately checks the actual public default preview. No rerouting occurs during publication. See [the current verification receipt](publication-verification.md) and [assembly limits](top-assembly.md). GLB and interactive local-viewer files are stored in Git; the registry preview renders the native assembly JSON.
 
-Public registry project: https://tscircuit.com/AnasSarkiz/NEMA14_CH32X035G8U6 . Publish updates with `npm run publish:tscircuit`; CLI login uses `XDG_CONFIG_HOME=/workspace/.config tsci login`. The configuration includes checked copper in `artifacts/board.circuit.json`. The source-rendered registry preview may autoroute differently; use the saved artifact and Gerbers to review manufactured copper.
+> Historical baseline document: this predates the opposite-edge v1.11.0 draft. See [current draft and blockers](opposite-edge-review.md) for current evidence.
 
-GitHub: https://github.com/AnasSarkiz/NEMA17_Controller . Renaming to `AnasSarkiz/NEMA14_CH32X035G8U6` remains blocked: GitHub returned HTTP 403, "Resource not accessible by integration", although account access reports administrator permission. The integration credential needs repository Administration write permission, or the owner can rename in repository Settings. After renaming:
+# Publishing the validated prototype
 
-```sh
-git remote set-url origin https://github.com/AnasSarkiz/NEMA14_CH32X035G8U6.git
-git push origin HEAD:main
-```
+`npm run publish:tscircuit` gates the frozen saved board, default manufacturing archive and JLCPCB review package before publication. The package includes the saved Circuit JSON and matching native CLI build; publishing preserves routing and changes only supplier CAD URLs to the validated GitHub commit.
 
-The registry upload is independent; automatic GitHub linking was rejected because the repository is not accessible to the tscircuit GitHub app installation. Both projects are public. Publication does not imply firmware completion, tested electrical behavior, rear mounting compatibility, or manufacturing approval.
+The default Gerber archive applies the reviewed assembly, stencil and silkscreen policies. Upstream CLI output remains a diagnostic file. See [engineering fixes](engineering-fixes.md) and the hash-bound validation receipts for current results.
+
+Supplier placement/process approval, verified stackup, firmware/bench qualification and rear motor mounting evidence remain pending. A prototype publication does not approve a manufacturing order.

@@ -1,0 +1,1 @@
+CAD and both CAM packages pass the recorded prototype checks. Use JLCPCB-OrderReview.zip for supplier engineering review. Supplier assembly/process approval, stock, pickup orientation and hardware bring-up remain pending. No order was placed; rear compatibility is unverified.

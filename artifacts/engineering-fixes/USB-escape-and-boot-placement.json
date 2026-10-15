@@ -1,0 +1,47 @@
+{
+  "before": {
+    "R_USB_SENSE_L": {
+      "pcbX": 2.106602,
+      "pcbY": 6.512003,
+      "pcbRotation": 0
+    },
+    "R_STATUS_B": {
+      "pcbX": -8.804901,
+      "pcbY": -11.83999,
+      "pcbRotation": 90
+    },
+    "TP_BOOT_USB_DP": {
+      "pcbX": 16.1,
+      "pcbY": 10.2,
+      "pcbRotation": 0
+    },
+    "TP_BOOT": {
+      "pcbX": 16.1,
+      "pcbY": 12.0,
+      "pcbRotation": 0
+    }
+  },
+  "after": {
+    "R_USB_SENSE_L": {
+      "pcbX": -8.804901,
+      "pcbY": -11.83999,
+      "pcbRotation": 0
+    },
+    "R_STATUS_B": {
+      "pcbX": 2.85,
+      "pcbY": 6.3,
+      "pcbRotation": 90
+    },
+    "TP_BOOT_USB_DP": {
+      "pcbX": 1.5,
+      "pcbY": 5.5,
+      "pcbRotation": 0
+    },
+    "TP_BOOT": {
+      "pcbX": 0,
+      "pcbY": 5.5,
+      "pcbRotation": 0
+    }
+  },
+  "reason": "Shorten the USB-connected boot-pad stub and keep adjacent bare boot pads probeable; retain all supplier courtyards and top population."
+}
